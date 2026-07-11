@@ -1,0 +1,341 @@
+use std::collections::HashSet;
+
+use crate::model::{
+    AdministrativeUnit, LocationAccuracy, Place, PlaceName, Polity, ProjectData, SourceLink,
+    YearRange,
+};
+
+pub fn validate(data: &ProjectData) -> Vec<String> {
+    let mut errors = Vec::new();
+
+    if data.schema_version != 1 {
+        errors.push(format!(
+            "schemaVersion must be 1, found {}",
+            data.schema_version
+        ));
+    }
+
+    let source_ids = collect_unique_ids(
+        data.sources.iter().map(|item| item.id.as_str()),
+        "source",
+        &mut errors,
+    );
+    let polity_ids = collect_unique_ids(
+        data.polities.iter().map(|item| item.id.as_str()),
+        "polity",
+        &mut errors,
+    );
+    let unit_ids = collect_unique_ids(
+        data.administrative_units
+            .iter()
+            .map(|item| item.id.as_str()),
+        "administrative unit",
+        &mut errors,
+    );
+    let place_ids = collect_unique_ids(
+        data.places.iter().map(|item| item.id.as_str()),
+        "place",
+        &mut errors,
+    );
+    collect_unique_ids(
+        data.place_names.iter().map(|item| item.id.as_str()),
+        "place name",
+        &mut errors,
+    );
+
+    for source in &data.sources {
+        validate_id(&source.id, "source", &mut errors);
+        require_text(&source.title, &source.id, "title", &mut errors);
+        require_text(&source.license, &source.id, "license", &mut errors);
+        require_text(&source.citation, &source.id, "citation", &mut errors);
+        if let Some(date) = &source.accessed_on {
+            validate_date(date, &source.id, "accessedOn", &mut errors);
+        }
+    }
+
+    for polity in &data.polities {
+        validate_polity(polity, &source_ids, &mut errors);
+    }
+
+    for unit in &data.administrative_units {
+        validate_unit(
+            unit,
+            &source_ids,
+            &polity_ids,
+            &unit_ids,
+            &place_ids,
+            &mut errors,
+        );
+    }
+
+    for place in &data.places {
+        validate_place(place, &source_ids, &mut errors);
+    }
+
+    for place_name in &data.place_names {
+        validate_place_name(place_name, &source_ids, &place_ids, &mut errors);
+    }
+
+    errors
+}
+
+fn validate_polity(polity: &Polity, source_ids: &HashSet<&str>, errors: &mut Vec<String>) {
+    validate_id(&polity.id, "polity", errors);
+    require_text(&polity.name, &polity.id, "name", errors);
+    validate_year_range(&polity.validity, &polity.id, errors);
+    validate_source_links(&polity.sources, &polity.id, source_ids, errors);
+    validate_audit(
+        &polity.audit.reviewed_on,
+        &polity.audit.revision_note,
+        &polity.id,
+        errors,
+    );
+}
+
+fn validate_unit(
+    unit: &AdministrativeUnit,
+    source_ids: &HashSet<&str>,
+    polity_ids: &HashSet<&str>,
+    unit_ids: &HashSet<&str>,
+    place_ids: &HashSet<&str>,
+    errors: &mut Vec<String>,
+) {
+    validate_id(&unit.id, "administrative unit", errors);
+    require_text(&unit.name, &unit.id, "name", errors);
+    validate_year_range(&unit.validity, &unit.id, errors);
+    validate_source_links(&unit.sources, &unit.id, source_ids, errors);
+    validate_audit(
+        &unit.audit.reviewed_on,
+        &unit.audit.revision_note,
+        &unit.id,
+        errors,
+    );
+
+    if !polity_ids.contains(unit.polity_id.as_str()) {
+        errors.push(format!(
+            "{} references missing polity {}",
+            unit.id, unit.polity_id
+        ));
+    }
+    if let Some(parent_id) = &unit.parent_id {
+        if parent_id == &unit.id {
+            errors.push(format!("{} cannot be its own parent", unit.id));
+        } else if !unit_ids.contains(parent_id.as_str()) {
+            errors.push(format!(
+                "{} references missing parent {}",
+                unit.id, parent_id
+            ));
+        }
+    }
+    if let Some(place_id) = &unit.seat_place_id
+        && !place_ids.contains(place_id.as_str())
+    {
+        errors.push(format!(
+            "{} references missing seat place {}",
+            unit.id, place_id
+        ));
+    }
+}
+
+fn validate_place(place: &Place, source_ids: &HashSet<&str>, errors: &mut Vec<String>) {
+    validate_id(&place.id, "place", errors);
+    validate_source_links(&place.sources, &place.id, source_ids, errors);
+    validate_audit(
+        &place.audit.reviewed_on,
+        &place.audit.revision_note,
+        &place.id,
+        errors,
+    );
+
+    match (place.longitude, place.latitude) {
+        (Some(longitude), Some(latitude)) => {
+            if !(-180.0..=180.0).contains(&longitude) {
+                errors.push(format!("{} longitude is outside [-180, 180]", place.id));
+            }
+            if !(-90.0..=90.0).contains(&latitude) {
+                errors.push(format!("{} latitude is outside [-90, 90]", place.id));
+            }
+            if place.location_accuracy == LocationAccuracy::Unknown {
+                errors.push(format!(
+                    "{} has coordinates but locationAccuracy is unknown",
+                    place.id
+                ));
+            }
+        }
+        (None, None) => {
+            if place.location_accuracy != LocationAccuracy::Unknown {
+                errors.push(format!(
+                    "{} has no coordinates and must use unknown locationAccuracy",
+                    place.id
+                ));
+            }
+        }
+        _ => errors.push(format!(
+            "{} must provide both longitude and latitude or neither",
+            place.id
+        )),
+    }
+}
+
+fn validate_place_name(
+    place_name: &PlaceName,
+    source_ids: &HashSet<&str>,
+    place_ids: &HashSet<&str>,
+    errors: &mut Vec<String>,
+) {
+    validate_id(&place_name.id, "place name", errors);
+    require_text(&place_name.name, &place_name.id, "name", errors);
+    validate_year_range(&place_name.validity, &place_name.id, errors);
+    validate_source_links(&place_name.sources, &place_name.id, source_ids, errors);
+    validate_audit(
+        &place_name.audit.reviewed_on,
+        &place_name.audit.revision_note,
+        &place_name.id,
+        errors,
+    );
+
+    if !place_ids.contains(place_name.place_id.as_str()) {
+        errors.push(format!(
+            "{} references missing place {}",
+            place_name.id, place_name.place_id
+        ));
+    }
+}
+
+fn collect_unique_ids<'a>(
+    ids: impl Iterator<Item = &'a str>,
+    entity: &str,
+    errors: &mut Vec<String>,
+) -> HashSet<&'a str> {
+    let mut unique = HashSet::new();
+    for id in ids {
+        if !unique.insert(id) {
+            errors.push(format!("duplicate {entity} id: {id}"));
+        }
+    }
+    unique
+}
+
+fn validate_id(id: &str, entity: &str, errors: &mut Vec<String>) {
+    let valid = id.len() >= 3
+        && id.len() <= 80
+        && id.chars().enumerate().all(|(index, character)| {
+            character.is_ascii_lowercase()
+                || character.is_ascii_digit() && index > 0
+                || character == '-' && index > 0 && index + 1 < id.len()
+        })
+        && !id.contains("--");
+
+    if !valid {
+        errors.push(format!("invalid {entity} id: {id}"));
+    }
+}
+
+fn validate_year_range(range: &YearRange, id: &str, errors: &mut Vec<String>) {
+    if let (Some(from), Some(to)) = (range.from, range.to)
+        && from > to
+    {
+        errors.push(format!("{id} has validity.from after validity.to"));
+    }
+}
+
+fn validate_source_links(
+    links: &[SourceLink],
+    owner_id: &str,
+    source_ids: &HashSet<&str>,
+    errors: &mut Vec<String>,
+) {
+    if links.is_empty() {
+        errors.push(format!("{owner_id} must cite at least one source"));
+    }
+    for link in links {
+        if !source_ids.contains(link.source_id.as_str()) {
+            errors.push(format!(
+                "{owner_id} references missing source {}",
+                link.source_id
+            ));
+        }
+    }
+}
+
+fn validate_audit(date: &str, note: &str, id: &str, errors: &mut Vec<String>) {
+    validate_date(date, id, "reviewedOn", errors);
+    require_text(note, id, "revisionNote", errors);
+}
+
+fn validate_date(date: &str, id: &str, field: &str, errors: &mut Vec<String>) {
+    let bytes = date.as_bytes();
+    let valid = bytes.len() == 10
+        && bytes[4] == b'-'
+        && bytes[7] == b'-'
+        && bytes
+            .iter()
+            .enumerate()
+            .all(|(index, byte)| index == 4 || index == 7 || byte.is_ascii_digit());
+    if !valid {
+        errors.push(format!("{id} has invalid {field}; expected YYYY-MM-DD"));
+    }
+}
+
+fn require_text(value: &str, id: &str, field: &str, errors: &mut Vec<String>) {
+    if value.trim().is_empty() {
+        errors.push(format!("{id} has empty {field}"));
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::validate;
+    use crate::model::ProjectData;
+
+    #[test]
+    fn accepts_an_empty_project_scaffold() {
+        let data: ProjectData = serde_json::from_str(
+            r#"{
+                "schemaVersion": 1,
+                "sources": [],
+                "polities": [],
+                "administrativeUnits": [],
+                "places": [],
+                "placeNames": []
+            }"#,
+        )
+        .expect("fixture must deserialize");
+
+        assert!(validate(&data).is_empty());
+    }
+
+    #[test]
+    fn reports_missing_references_and_invalid_coordinates() {
+        let data: ProjectData = serde_json::from_str(
+            r#"{
+                "schemaVersion": 1,
+                "sources": [],
+                "polities": [],
+                "administrativeUnits": [],
+                "places": [{
+                    "id": "sample-place",
+                    "longitude": 181,
+                    "latitude": 30,
+                    "locationAccuracy": "exact",
+                    "confidence": "low",
+                    "sources": [{
+                        "sourceId": "missing-source",
+                        "claim": "location",
+                        "confidence": "low"
+                    }],
+                    "audit": {
+                        "reviewedOn": "2026-07-11",
+                        "revisionNote": "Test fixture"
+                    }
+                }],
+                "placeNames": []
+            }"#,
+        )
+        .expect("fixture must deserialize");
+
+        let errors = validate(&data);
+        assert!(errors.iter().any(|error| error.contains("missing source")));
+        assert!(errors.iter().any(|error| error.contains("longitude")));
+    }
+}

@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/project-data.schema.json",
+  "title": "Historical map project data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "sources",
+    "polities",
+    "administrativeUnits",
+    "places",
+    "placeNames"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "polities": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/polity" }
+    },
+    "administrativeUnits": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/administrativeUnit" }
+    },
+    "places": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/place" }
+    },
+    "placeNames": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/placeName" }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 80
+    },
+    "yearRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to", "precision"],
+      "properties": {
+        "from": { "type": ["integer", "null"] },
+        "to": { "type": ["integer", "null"] },
+        "precision": {
+          "enum": ["exact", "circa", "range", "unknown"]
+        }
+      }
+    },
+    "sourceLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "claim", "confidence"],
+      "properties": {
+        "sourceId": { "$ref": "#/$defs/id" },
+        "claim": {
+          "enum": ["existence", "name", "time", "location", "parent", "boundary"]
+        },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "note": { "type": "string", "maxLength": 500 }
+      }
+    },
+    "confidence": {
+      "enum": ["high", "medium", "low"]
+    },
+    "audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reviewedOn", "revisionNote"],
+      "properties": {
+        "reviewedOn": {
+          "type": "string",
+          "format": "date"
+        },
+        "revisionNote": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "kind", "license", "redistribution", "citation"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1 },
+        "creator": { "type": "string" },
+        "edition": { "type": "string" },
+        "locator": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "accessedOn": { "type": "string", "format": "date" },
+        "kind": {
+          "enum": ["primary", "scholarly", "gazetteer", "dataset", "reference"]
+        },
+        "license": { "type": "string", "minLength": 1 },
+        "redistribution": {
+          "enum": ["allowed", "restricted", "unknown"]
+        },
+        "citation": { "type": "string", "minLength": 1 }
+      }
+    },
+    "polity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "validity", "confidence", "sources", "audit"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "validity": { "$ref": "#/$defs/yearRange" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceLink" }
+        },
+        "audit": { "$ref": "#/$defs/audit" }
+      }
+    },
+    "administrativeUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "name", "level", "polityId", "validity", "confidence", "sources", "audit"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "level": {
+          "enum": ["capital-region", "province", "prefecture", "department", "county", "military"]
+        },
+        "polityId": { "$ref": "#/$defs/id" },
+        "parentId": { "$ref": "#/$defs/id" },
+        "seatPlaceId": { "$ref": "#/$defs/id" },
+        "validity": { "$ref": "#/$defs/yearRange" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceLink" }
+        },
+        "audit": { "$ref": "#/$defs/audit" }
+      }
+    },
+    "place": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "locationAccuracy", "confidence", "sources", "audit"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+        "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+        "locationAccuracy": {
+          "enum": ["exact", "approximate", "area_only", "disputed", "unknown"]
+        },
+        "locationMethod": { "type": "string", "maxLength": 500 },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceLink" }
+        },
+        "audit": { "$ref": "#/$defs/audit" }
+      }
+    },
+    "placeName": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "placeId", "name", "validity", "confidence", "sources", "audit"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "placeId": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "script": { "enum": ["hans", "hant", "historical"] },
+        "validity": { "$ref": "#/$defs/yearRange" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceLink" }
+        },
+        "audit": { "$ref": "#/$defs/audit" }
+      }
+    }
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "$schema": "./schema/project-data.schema.json",
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "ming-shi-geography-one",
+      "title": "明史·志第十六·地理一",
+      "creator": "张廷玉等",
+      "locator": "卷四十·志第十六",
+      "url": "https://m.gushiwen.cn/guwen/bookv_a1dd979012bc.aspx",
+      "accessedOn": "2026-07-11",
+      "kind": "primary",
+      "license": "Public-domain historical text; website rights not asserted for redistribution",
+      "redistribution": "unknown",
+      "citation": "《明史》卷四十，志第十六，地理一。"
+    },
+    {
+      "id": "atlas-ming-empire-loc",
+      "title": "大明舆地图",
+      "creator": "佚名",
+      "edition": "嘉靖年间写本",
+      "locator": "Library of Congress, G2305 .D3 1559",
+      "url": "https://www.loc.gov/item/2002626776/",
+      "accessedOn": "2026-07-11",
+      "kind": "primary",
+      "license": "Library of Congress Geography and Map Division: free to use and reuse unless otherwise stated",
+      "redistribution": "allowed",
+      "citation": "Da Ming yu di tu. [Between 1547 and 1559]. Library of Congress Geography and Map Division."
+    },
+    {
+      "id": "huang-ming-zhi-fang-loc",
+      "title": "皇明职方地图",
+      "creator": "陈祖绶",
+      "edition": "1636年本",
+      "locator": "Library of Congress",
+      "url": "https://www.loc.gov/item/2021668270/",
+      "accessedOn": "2026-07-11",
+      "kind": "primary",
+      "license": "Library of Congress digital collection; verify item rights before redistributing scans",
+      "redistribution": "unknown",
+      "citation": "Chen, Zushou. Huang Ming zhi fang di tu. 1636. Library of Congress."
+    },
+    {
+      "id": "chgis-temporal-gazetteer",
+      "title": "China Historical GIS Temporal Gazetteer",
+      "creator": "Harvard University and Fudan University",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/indexAPI.html",
+      "accessedOn": "2026-07-11",
+      "kind": "dataset",
+      "license": "CC BY-NC 4.0",
+      "redistribution": "restricted",
+      "citation": "China Historical GIS Temporal Gazetteer, Harvard University and Fudan University."
+    }
+  ],
+  "polities": [
+    {
+      "id": "ming",
+      "name": "大明",
+      "validity": {
+        "from": 1368,
+        "to": 1644,
+        "precision": "exact"
+      },
+      "confidence": "high",
+      "sources": [
+        {
+          "sourceId": "ming-shi-geography-one",
+          "claim": "existence",
+          "confidence": "high"
+        }
+      ],
+      "audit": {
+        "reviewedOn": "2026-07-11",
+        "revisionNote": "Initial polity record for the 1600 time slice"
+      }
+    }
+  ],
+  "administrativeUnits": [
+    {
+      "id": "jingshi",
+      "name": "京师",
+      "level": "capital-region",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "nanjing",
+      "name": "南京",
+      "level": "capital-region",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "shandong",
+      "name": "山东",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "shanxi",
+      "name": "山西",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "henan",
+      "name": "河南",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "shaanxi",
+      "name": "陕西",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "sichuan",
+      "name": "四川",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "huguang",
+      "name": "湖广",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "zhejiang",
+      "name": "浙江",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "jiangxi",
+      "name": "江西",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "fujian",
+      "name": "福建",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "guangdong",
+      "name": "广东",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "guangxi",
+      "name": "广西",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "yunnan",
+      "name": "云南",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "guizhou",
+      "name": "贵州",
+      "level": "province",
+      "polityId": "ming",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+      "confidence": "high",
+      "sources": [
+        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" },
+        { "sourceId": "huang-ming-zhi-fang-loc", "claim": "existence", "confidence": "medium" }
+      ],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
+    },
+    {
+      "id": "yingtian-prefecture", "name": "应天府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "nanjing-city",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "fengyang-prefecture", "name": "凤阳府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "fengyang-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "huaian-prefecture", "name": "淮安府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "shanyang-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "yangzhou-prefecture", "name": "扬州府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "jiangdu-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "suzhou-prefecture", "name": "苏州府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "suzhou-city",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "songjiang-prefecture", "name": "松江府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "huating-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "changzhou-prefecture", "name": "常州府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "wujin-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "zhenjiang-prefecture", "name": "镇江府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "dantu-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "luzhou-prefecture", "name": "庐州府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "hefei-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "anqing-prefecture", "name": "安庆府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "huaining-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "taiping-prefecture", "name": "太平府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "dangtu-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "chizhou-prefecture", "name": "池州府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "guichi-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "ningguo-prefecture", "name": "宁国府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "xuancheng-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "huizhou-prefecture", "name": "徽州府", "level": "prefecture", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "she-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Nanjing-administered prefecture in the 1600 time slice" }
+    },
+    {
+      "id": "xuzhou-direct-department", "name": "徐州", "level": "department", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "xuzhou-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Directly administered department in the 1600 time slice" }
+    },
+    {
+      "id": "chuzhou-direct-department", "name": "滁州", "level": "department", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "chuzhou-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Directly administered department in the 1600 time slice" }
+    },
+    {
+      "id": "hezhou-direct-department", "name": "和州", "level": "department", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "hezhou-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Directly administered department in the 1600 time slice" }
+    },
+    {
+      "id": "guangde-direct-department", "name": "广德州", "level": "department", "polityId": "ming", "parentId": "nanjing", "seatPlaceId": "guangde-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high",
+      "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }],
+      "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Directly administered department in the 1600 time slice" }
+    }
+  ],
+  "places": [
+    { "id": "nanjing-city", "longitude": 118.76899, "latitude": 32.05256, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_30033; historical city-level location", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_30033, valid 1441-1644" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point; exact administrative seat site remains unresolved" } },
+    { "id": "fengyang-seat", "longitude": 117.53774, "latitude": 32.86535, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_43399; Fengyang county and prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_43399, valid 1374-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point; exact historical compound location remains unresolved" } },
+    { "id": "shanyang-seat", "longitude": 119.14111, "latitude": 33.50279, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_42766; disambiguated from the Shaanxi homonym", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_42766, valid 1276-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added the CHGIS point matching the Huaian seat; exact historical city center remains unresolved" } },
+    { "id": "jiangdu-seat", "longitude": 119.43719, "latitude": 32.39127, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_42684; Jiangdu county and Yangzhou prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_42684, valid 1361-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point; temporal parent labels were not imported" } },
+    { "id": "suzhou-city", "longitude": 120.61862, "latitude": 31.31271, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_32432; Suzhou prefectural city", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_32432, valid 1367-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point for the co-located prefectural and county seats" } },
+    { "id": "huating-seat", "longitude": 121.22764, "latitude": 31.00948, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_40495; disambiguated from Huating in Gansu", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_40495, valid 1278-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added the CHGIS point matching the Songjiang prefectural seat" } },
+    { "id": "wujin-seat", "longitude": 119.95230, "latitude": 31.78278, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_40459; Wujin county and Changzhou prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_40459, valid 1362-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point" } },
+    { "id": "dantu-seat", "longitude": 119.44429, "latitude": 32.20649, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_40570; Dantu county and Zhenjiang prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_40570, valid 620-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point; temporal parent label was not imported" } },
+    { "id": "hefei-seat", "longitude": 117.27646, "latitude": 31.86446, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_43060; Hefei county and Luzhou prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_43060, valid 583-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point; temporal parent label was not imported" } },
+    { "id": "huaining-seat", "longitude": 117.03468, "latitude": 30.51229, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_43004; Huaining county and Anqing prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_43004, valid 1260-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point" } },
+    { "id": "dangtu-seat", "longitude": 118.48344, "latitude": 31.55569, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_41364; Dangtu county and Taiping prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_41364, valid 614-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point; temporal parent label was not imported" } },
+    { "id": "guichi-seat", "longitude": 117.48183, "latitude": 30.65466, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_41344; Guichi county and Chizhou prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_41344, valid 926-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point; temporal parent label was not imported" } },
+    { "id": "xuancheng-seat", "longitude": 118.74250, "latitude": 30.94694, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_41303; Xuancheng county and Ningguo prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_41303, valid 607-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point; temporal parent label was not imported" } },
+    { "id": "she-seat", "longitude": 118.43394, "latitude": 29.86577, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_41320; She county and Huizhou prefectural seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_41320, valid 591-1911" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added an approximate CHGIS point; temporal parent label was not imported" } },
+    { "id": "xuzhou-seat", "longitude": 117.18768, "latitude": 34.26963, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_33321; Xuzhou state seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Point record hvd_33321, valid 1381-1732; polygon result excluded" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added the non-zero CHGIS seat point; temporal parent label was not imported" } },
+    { "id": "chuzhou-seat", "longitude": 118.30416, "latitude": 32.31699, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_33532; Chuzhou state seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Point record hvd_33532, valid 1389-1911; polygon result excluded" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added the non-zero CHGIS seat point; temporal parent label was not imported" } },
+    { "id": "hezhou-seat", "longitude": 118.36112, "latitude": 31.71422, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_33512; Hezhou state seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Point record hvd_33512, valid 1367-1911; polygon result excluded" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added the non-zero CHGIS seat point; temporal parent label was not imported" } },
+    { "id": "guangde-seat", "longitude": 119.42019, "latitude": 30.89469, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer point hvd_32464; Guangde directly administered state seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Point record hvd_32464, valid 1371-1911; polygon result excluded" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Added the non-zero CHGIS seat point" } }
+  ],
+  "placeNames": [
+    { "id": "name-nanjing-city", "placeId": "nanjing-city", "name": "南京城", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-fengyang-seat", "placeId": "fengyang-seat", "name": "凤阳", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-shanyang-seat", "placeId": "shanyang-seat", "name": "山阳", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-jiangdu-seat", "placeId": "jiangdu-seat", "name": "江都", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-suzhou-city", "placeId": "suzhou-city", "name": "苏州城", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Shared prefectural and county-seat label" } },
+    { "id": "name-huating-seat", "placeId": "huating-seat", "name": "华亭", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-wujin-seat", "placeId": "wujin-seat", "name": "武进", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-dantu-seat", "placeId": "dantu-seat", "name": "丹徒", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-hefei-seat", "placeId": "hefei-seat", "name": "合肥", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-huaining-seat", "placeId": "huaining-seat", "name": "怀宁", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-dangtu-seat", "placeId": "dangtu-seat", "name": "当涂", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-guichi-seat", "placeId": "guichi-seat", "name": "贵池", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-xuancheng-seat", "placeId": "xuancheng-seat", "name": "宣城", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-she-seat", "placeId": "she-seat", "name": "歙县", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
+    { "id": "name-xuzhou-seat", "placeId": "xuzhou-seat", "name": "徐州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Incorporated state seat label" } },
+    { "id": "name-chuzhou-seat", "placeId": "chuzhou-seat", "name": "滁州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Incorporated state seat label" } },
+    { "id": "name-hezhou-seat", "placeId": "hezhou-seat", "name": "和州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Incorporated state seat label" } },
+    { "id": "name-guangde-seat", "placeId": "guangde-seat", "name": "广德州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "Incorporated state seat label" } }
+  ]
+}

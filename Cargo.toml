@@ -1,0 +1,4 @@
+[workspace]
+members = ["tools/data-validator"]
+resolver = "3"
+
