@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = Path(__file__).with_name("terrain.config.json")
-BUCKET = "https://copernicus-dem-30m.s3.amazonaws.com"
+BUCKET = "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/15s/15s_surface_elev_gtif"
 USER_AGENT = "maps-terrain-builder/0.1 (+https://github.com/cytia/maps)"
 
 
@@ -16,22 +16,22 @@ def coordinate_token(value: int, positive: str, negative: str, width: int) -> st
     return f"{hemisphere}{abs(value):0{width}d}_00"
 
 
-def tile_name(latitude: int, longitude: int) -> str:
-    lat = coordinate_token(latitude, "N", "S", 2)
-    lon = coordinate_token(longitude, "E", "W", 3)
-    return f"Copernicus_DSM_COG_10_{lat}_{lon}_DEM"
+def tile_name(north: int, west: int) -> str:
+    lat = coordinate_token(north, "N", "S", 2).replace("_00", "")
+    lon = coordinate_token(west, "E", "W", 3).replace("_00", "")
+    return f"ETOPO_2022_v1_15s_{lat}{lon}_surface"
 
 
 def source_tiles(bounds: list[float]) -> list[dict[str, str]]:
     west, south, east, north = bounds
     tiles = []
-    for latitude in range(math.floor(south), math.ceil(north)):
-        for longitude in range(math.floor(west), math.ceil(east)):
-            name = tile_name(latitude, longitude)
+    for tile_south in range(math.floor(south / 15) * 15, math.ceil(north / 15) * 15, 15):
+        for tile_west in range(math.floor(west / 15) * 15, math.ceil(east / 15) * 15, 15):
+            name = tile_name(tile_south + 15, tile_west)
             tiles.append(
                 {
                     "name": name,
-                    "url": f"{BUCKET}/{name}/{name}.tif",
+                    "url": f"{BUCKET}/{name}.tif",
                 }
             )
     return tiles
@@ -52,12 +52,12 @@ def download(url: str, target: Path) -> dict[str, object]:
 
 
 def main() -> None:
+    config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     parser = argparse.ArgumentParser(description="Download Copernicus DEM tiles")
-    parser.add_argument("profile", choices=["western-china-sample", "china"])
+    parser.add_argument("profile", choices=config["profiles"])
     parser.add_argument("--manifest-only", action="store_true")
     args = parser.parse_args()
 
-    config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     profile = config["profiles"][args.profile]
     workspace = ROOT / ".terrain-work" / args.profile
     source_directory = workspace / "source"

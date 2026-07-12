@@ -11,6 +11,7 @@ from pmtiles.reader import Reader
 from rasterio.io import MemoryFile
 
 ROOT = Path(__file__).resolve().parents[2]
+CONFIG_PATH = Path(__file__).with_name("terrain.config.json")
 
 
 def file_reader(path: Path):
@@ -32,13 +33,17 @@ def sha256(path: Path) -> str:
 
 
 def verify(profile: str, archive: Path) -> Path:
+    config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    west, south, east, north = config["profiles"][profile]["bounds"]
+    center_longitude = (west + east) / 2
+    center_latitude = (south + north) / 2
     source, reader = file_reader(archive)
     try:
         header = reader.header()
         metadata = reader.metadata()
-        center = mercantile.tile(100.5, 30.5, header["max_zoom"])
+        center = mercantile.tile(center_longitude, center_latitude, header["max_zoom"])
         tile_data = reader.get(center.z, center.x, center.y)
-        overview = mercantile.tile(100.5, 30.5, header["min_zoom"])
+        overview = mercantile.tile(center_longitude, center_latitude, header["min_zoom"])
         overview_data = reader.get(overview.z, overview.x, overview.y)
     finally:
         source.close()
@@ -47,19 +52,27 @@ def verify(profile: str, archive: Path) -> Path:
         raise RuntimeError("Expected PMTiles version 3")
     if header["addressed_tiles_count"] <= 0:
         raise RuntimeError("Archive contains no addressed tiles")
-    if header["min_zoom"] != 3 or header["max_zoom"] != 9:
+    profile_config = config["profiles"][profile]
+    if (
+        header["min_zoom"] != profile_config["minZoom"]
+        or header["max_zoom"] != profile_config["maxZoom"]
+    ):
         raise RuntimeError("Archive zoom range does not match the terrain profile")
-    if "Copernicus WorldDEM-30" not in metadata.get("attribution", ""):
-        raise RuntimeError("Archive attribution is missing the Copernicus notice")
+    if "ETOPO 2022" not in (metadata.get("attribution") or ""):
+        raise RuntimeError("Archive attribution is missing the ETOPO citation")
 
     if tile_data is None:
         raise RuntimeError("Archive is missing the sample center tile")
     if overview_data is None:
         raise RuntimeError("Archive is missing the sample overview tile")
     with MemoryFile(tile_data) as memory_file, memory_file.open() as tile:
-        if tile.count != 4 or tile.colorinterp[3] != rasterio.enums.ColorInterp.alpha:
-            raise RuntimeError("Terrain tiles must contain an alpha channel")
+        if tile.count not in (3, 4):
+            raise RuntimeError("Terrain center tiles must be RGB or RGBA")
+        if tile.count == 4 and tile.colorinterp[3] != rasterio.enums.ColorInterp.alpha:
+            raise RuntimeError("The fourth terrain band must be alpha")
     with MemoryFile(overview_data) as memory_file, memory_file.open() as tile:
+        if tile.count != 4 or tile.colorinterp[3] != rasterio.enums.ColorInterp.alpha:
+            raise RuntimeError("Terrain overview tiles must contain an alpha channel")
         alpha = tile.read(4)
         if alpha.min() != 0 or alpha.max() != 255:
             raise RuntimeError("Overview tile must contain transparent and opaque pixels")

@@ -51,6 +51,19 @@ test("loads the map and toggles seat rendering", async ({ page, isMobile }) => {
   expect(errors).toEqual([]);
 });
 
+test("loads the local terrain archive with attribution", async ({ page, isMobile }) => {
+  test.skip(isMobile, "Terrain archive loading is covered once on desktop");
+  await page.goto("/");
+  await expectMapReady(page);
+  await page.getByRole("checkbox", { name: "山川地貌" }).check();
+  await expect(page.getByText(/ETOPO 2022/)).toBeAttached();
+  const archiveResponse = await page.request.get("/terrain/china-terrain.pmtiles", {
+    headers: { Range: "bytes=0-126" },
+  });
+  expect(archiveResponse.status()).toBe(206);
+  expect((await archiveResponse.body()).byteLength).toBe(127);
+});
+
 test("keeps seat rendering after the natural style changes", async ({ page, isMobile }) => {
   test.skip(isMobile, "Desktop interaction is covered separately from mobile layout");
   await page.goto("/");

@@ -1,27 +1,47 @@
 {
   "source": {
-    "id": "copernicus-dem-glo-30-2021",
+    "id": "noaa-etopo-2022-15s",
     "crs": "EPSG:4326",
-    "resolutionMeters": 30
+    "resolutionMeters": 450
   },
   "profiles": {
     "western-china-sample": {
       "bounds": [100, 30, 101, 31],
       "minZoom": 3,
-      "maxZoom": 9,
+      "maxZoom": 8,
       "output": "public/terrain/western-china-terrain.pmtiles"
+    },
+    "north-china-plain-sample": {
+      "bounds": [115, 36, 116, 37],
+      "minZoom": 3,
+      "maxZoom": 8,
+      "output": "public/terrain/north-china-plain-terrain.pmtiles"
+    },
+    "tarim-desert-sample": {
+      "bounds": [82, 39, 83, 40],
+      "minZoom": 3,
+      "maxZoom": 8,
+      "output": "public/terrain/tarim-desert-terrain.pmtiles"
+    },
+    "southeast-coast-sample": {
+      "bounds": [118, 24, 119, 25],
+      "minZoom": 3,
+      "maxZoom": 8,
+      "output": "public/terrain/southeast-coast-terrain.pmtiles"
     },
     "china": {
       "bounds": [70, 15, 140, 55],
       "minZoom": 3,
-      "maxZoom": 9,
+      "maxZoom": 8,
       "output": "public/terrain/china-terrain.pmtiles"
     }
   },
   "hillshade": {
     "azimuths": [225, 270, 315, 360],
     "altitude": 35,
-    "verticalExaggeration": 1
+    "verticalExaggeration": 1,
+    "outputResolutionMeters": 480,
+    "edgeFadeDegrees": 2
   },
   "colors": {
     "paper": "#e8e1d3",

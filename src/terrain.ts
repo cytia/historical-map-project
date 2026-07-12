@@ -2,7 +2,7 @@ import maplibregl, { type RasterLayerSpecification, type StyleSpecification } fr
 import { Protocol } from "pmtiles";
 
 const attribution =
-  "Produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.";
+  "NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74.";
 
 let protocolRegistered = false;
 
