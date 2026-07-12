@@ -2,12 +2,14 @@ import { create } from "zustand";
 
 interface AppState {
   selectedUnitId: string | null;
+  activeRegionId: string | null;
   searchQuery: string;
   sidebarOpen: boolean;
   detailsOpen: boolean;
   seatsVisible: boolean;
   modernReferenceVisible: boolean;
   selectUnit: (id: string | null) => void;
+  setActiveRegion: (id: string | null) => void;
   setSearchQuery: (query: string) => void;
   setSidebarOpen: (open: boolean) => void;
   setDetailsOpen: (open: boolean) => void;
@@ -17,6 +19,7 @@ interface AppState {
 
 export const useAppStore = create<AppState>((set) => ({
   selectedUnitId: null,
+  activeRegionId: null,
   searchQuery: "",
   sidebarOpen: false,
   detailsOpen: false,
@@ -24,6 +27,7 @@ export const useAppStore = create<AppState>((set) => ({
   modernReferenceVisible: false,
   selectUnit: (selectedUnitId) =>
     set({ selectedUnitId, detailsOpen: selectedUnitId !== null }),
+  setActiveRegion: (activeRegionId) => set({ activeRegionId, selectedUnitId: null, detailsOpen: false }),
   setSearchQuery: (searchQuery) => set({ searchQuery }),
   setSidebarOpen: (sidebarOpen) => set({ sidebarOpen }),
   setDetailsOpen: (detailsOpen) => set({ detailsOpen }),

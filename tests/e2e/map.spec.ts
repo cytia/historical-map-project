@@ -51,6 +51,21 @@ test("loads the map and toggles seat rendering", async ({ page, isMobile }) => {
   expect(errors).toEqual([]);
 });
 
+test("focuses a data-driven administrative region", async ({ page, isMobile }) => {
+  test.skip(isMobile, "Region focus is covered once on desktop");
+  await page.goto("/");
+  await expectMapReady(page);
+
+  await page.getByRole("combobox", { name: "行政区域" }).selectOption("jingshi");
+  await expect(page.getByRole("heading", { name: "京师" })).toBeVisible();
+  await expect(page.getByText("8 府 · 2 直隶州 · 10 治所")).toBeVisible();
+
+  await page.getByRole("textbox", { name: "搜索历史地名" }).fill("顺天府");
+  await page.getByRole("button", { name: /顺天府/ }).click();
+  await expect(page.getByRole("heading", { name: "顺天府" })).toBeVisible();
+  await expect(page.locator("dd").filter({ hasText: /^京师$/ })).toBeVisible();
+});
+
 test("loads the local terrain archive with attribution", async ({ page, isMobile }) => {
   test.skip(isMobile, "Terrain archive loading is covered once on desktop");
   await page.goto("/");

@@ -1,5 +1,5 @@
 import { lazy, Suspense, useMemo } from "react";
-import { getSources, seats } from "./data";
+import { getRegionSummary, getSources, regions, seats } from "./data";
 import { useAppStore } from "./store";
 
 const MapView = lazy(() =>
@@ -13,12 +13,14 @@ const levelLabel = {
 
 export default function App() {
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
+  const activeRegionId = useAppStore((state) => state.activeRegionId);
   const searchQuery = useAppStore((state) => state.searchQuery);
   const sidebarOpen = useAppStore((state) => state.sidebarOpen);
   const detailsOpen = useAppStore((state) => state.detailsOpen);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
   const selectUnit = useAppStore((state) => state.selectUnit);
+  const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const setSearchQuery = useAppStore((state) => state.setSearchQuery);
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
   const setDetailsOpen = useAppStore((state) => state.setDetailsOpen);
@@ -26,6 +28,8 @@ export default function App() {
   const setModernReferenceVisible = useAppStore((state) => state.setModernReferenceVisible);
 
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
+  const activeRegion = regions.find((region) => region.id === activeRegionId);
+  const summary = getRegionSummary(activeRegionId);
   const results = useMemo(() => {
     const query = searchQuery.trim();
     if (!query) return [];
@@ -63,6 +67,7 @@ export default function App() {
                 <button
                   key={record.unit.id}
                   onClick={() => {
+                    setActiveRegion(record.region.id);
                     selectUnit(record.unit.id);
                     setSearchQuery("");
                   }}
@@ -86,8 +91,16 @@ export default function App() {
         <div className="year-display"><strong>1600</strong><span>公元</span></div>
         <div className="rule" />
         <p className="eyebrow">行政范围</p>
-        <h2>南京直隶</h2>
-        <p className="muted">14 府 · 4 直隶州 · 18 治所</p>
+        <select
+          aria-label="行政区域"
+          value={activeRegionId ?? ""}
+          onChange={(event) => setActiveRegion(event.target.value || null)}
+        >
+          <option value="">全部已录入区域</option>
+          {regions.map((region) => <option key={region.id} value={region.id}>{region.name}</option>)}
+        </select>
+        <h2>{activeRegion?.name ?? "全部已录入区域"}</h2>
+        <p className="muted">{summary.prefectures} 府 · {summary.departments} 直隶州 · {summary.seats} 治所</p>
         <div className="notice">
           <span>边界资料整理中</span>
           <p>当前仅展示已校勘治所点，不以插值范围代替历史行政边界。</p>
@@ -123,7 +136,7 @@ export default function App() {
           <h2>{selected.unit.name}</h2>
           <p className="seat-line">治所 · {selected.name}</p>
           <dl className="facts">
-            <div><dt>所属</dt><dd>南京直隶</dd></div>
+            <div><dt>所属</dt><dd>{selected.region.name}</dd></div>
             <div><dt>时间</dt><dd>公元 1600 年</dd></div>
             <div><dt>定位</dt><dd><span className="confidence-dot" />约略位置</dd></div>
             <div><dt>坐标</dt><dd>{selected.place.longitude?.toFixed(5)}, {selected.place.latitude?.toFixed(5)}</dd></div>

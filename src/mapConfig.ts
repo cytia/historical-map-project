@@ -1,4 +1,4 @@
-import type { Map, StyleSpecification } from "maplibre-gl";
+import type { ExpressionSpecification, Map, StyleSpecification } from "maplibre-gl";
 import { seats } from "./data";
 import { defaultTheme } from "./theme";
 
@@ -116,6 +116,7 @@ const seatGeoJson: GeoJSON.FeatureCollection<GeoJSON.Point> = {
       name: unit.name,
       seatName: name,
       level: unit.level,
+      regionId: unit.parentId,
     },
   })),
 };
@@ -123,6 +124,7 @@ const seatGeoJson: GeoJSON.FeatureCollection<GeoJSON.Point> = {
 export function addSeatLayers(
   map: Map,
   selectedUnitId: string | null,
+  activeRegionId: string | null,
   visible: boolean,
 ) {
   map.addSource("seats", { type: "geojson", data: seatGeoJson });
@@ -149,6 +151,7 @@ export function addSeatLayers(
         4,
       ],
       "circle-color": mapColors.seat,
+      "circle-opacity": regionOpacity(activeRegionId, 1, 0.28),
       "circle-stroke-width": 2,
       "circle-stroke-color": mapColors.seatRing,
     },
@@ -168,12 +171,33 @@ export function addSeatLayers(
     },
     paint: {
       "text-color": mapColors.seatLabel,
+      "text-opacity": regionOpacity(activeRegionId, 1, 0.2),
       "text-halo-color": mapColors.land,
       "text-halo-width": 1.5,
     },
   });
 
+  setSeatFocus(map, selectedUnitId, activeRegionId);
   setSeatLayerVisibility(map, visible);
+}
+
+function regionOpacity(
+  activeRegionId: string | null,
+  active: number,
+  inactive: number,
+): number | ExpressionSpecification {
+  if (!activeRegionId) return active;
+  return ["case", ["==", ["get", "regionId"], activeRegionId], active, inactive];
+}
+
+export function setSeatFocus(map: Map, selectedUnitId: string | null, activeRegionId: string | null) {
+  if (!map.getLayer("seat-points")) return;
+  map.setPaintProperty("seat-points", "circle-radius", [
+    "case", ["==", ["get", "id"], selectedUnitId ?? ""], 7, 4,
+  ]);
+  map.setPaintProperty("seat-points", "circle-opacity", regionOpacity(activeRegionId, 1, 0.28));
+  map.setPaintProperty("seat-labels", "text-opacity", regionOpacity(activeRegionId, 1, 0.2));
+  map.setPaintProperty("seat-halo", "circle-opacity", regionOpacity(activeRegionId, 1, 0.2));
 }
 
 export function setSeatLayerVisibility(map: Map, visible: boolean) {

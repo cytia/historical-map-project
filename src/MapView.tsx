@@ -8,6 +8,7 @@ import {
   modernReferenceStyleUrl,
   paperStyle,
   setSeatLayerVisibility,
+  setSeatFocus,
 } from "./mapConfig";
 import { useAppStore } from "./store";
 import { addTerrainStyle, ensureTerrainProtocol } from "./terrain";
@@ -17,6 +18,7 @@ export function MapView() {
   const mapRef = useRef<maplibregl.Map | null>(null);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
+  const activeRegionId = useAppStore((state) => state.activeRegionId);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
 
@@ -45,7 +47,7 @@ export function MapView() {
 
     map.on("style.load", () => {
       const state = useAppStore.getState();
-      addSeatLayers(map, state.selectedUnitId, state.seatsVisible);
+      addSeatLayers(map, state.selectedUnitId, state.activeRegionId, state.seatsVisible);
     });
 
     const handleClick = (event: MapMouseEvent) => {
@@ -72,12 +74,7 @@ export function MapView() {
     const map = mapRef.current;
     if (!map?.isStyleLoaded() || !map.getLayer("seat-points")) return;
 
-    map.setPaintProperty("seat-points", "circle-radius", [
-      "case",
-      ["==", ["get", "id"], selectedUnitId ?? ""],
-      7,
-      4,
-    ]);
+    setSeatFocus(map, selectedUnitId, activeRegionId);
 
     const selected = seats.find((record) => record.unit.id === selectedUnitId);
     if (selected) {
@@ -87,7 +84,7 @@ export function MapView() {
         duration: 650,
       });
     }
-  }, [selectedUnitId]);
+  }, [selectedUnitId, activeRegionId]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -127,5 +124,5 @@ export function MapView() {
     return () => controller.abort();
   }, [modernReferenceVisible]);
 
-  return <div className="map" ref={containerRef} aria-label="公元1600年南京直隶治所地图" />;
+  return <div className="map" ref={containerRef} aria-label="公元1600年已录入府州治所地图" />;
 }

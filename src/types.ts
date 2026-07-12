@@ -53,5 +53,5 @@ export interface SeatRecord {
   unit: AdministrativeUnit;
   place: Place;
   name: string;
+  region: AdministrativeUnit;
 }
-

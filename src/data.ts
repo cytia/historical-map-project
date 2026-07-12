@@ -1,26 +1,13 @@
 import projectData from "../data/project.json";
 import type { ProjectData, SeatRecord } from "./types";
+import { buildAdministrativeData, summarizeRegion } from "./administrativeData";
 
 export const data = projectData as ProjectData;
 
-export const nanjingUnit = data.administrativeUnits.find(
-  (unit) => unit.id === "nanjing",
-);
-
-export const seats: SeatRecord[] = data.administrativeUnits
-  .filter((unit) => unit.parentId === "nanjing" && unit.seatPlaceId)
-  .flatMap((unit) => {
-    const place = data.places.find((candidate) => candidate.id === unit.seatPlaceId);
-    const placeName = data.placeNames.find(
-      (candidate) => candidate.placeId === unit.seatPlaceId,
-    );
-
-    if (!place || !placeName || place.longitude === undefined || place.latitude === undefined) {
-      return [];
-    }
-
-    return [{ unit, place, name: placeName.name }];
-  });
+const administrativeData = buildAdministrativeData(data);
+export const regions = administrativeData.regionsWithSeats;
+export const seats: SeatRecord[] = administrativeData.seats;
+export const getRegionSummary = (regionId: string | null) => summarizeRegion(seats, regionId);
 
 export function getSources(record: SeatRecord): ProjectData["sources"] {
   const ids = new Set([
@@ -29,4 +16,3 @@ export function getSources(record: SeatRecord): ProjectData["sources"] {
   ]);
   return data.sources.filter((source) => ids.has(source.id));
 }
-
