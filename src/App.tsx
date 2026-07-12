@@ -1,7 +1,10 @@
-import { useMemo } from "react";
+import { lazy, Suspense, useMemo } from "react";
 import { getSources, seats } from "./data";
-import { MapView } from "./MapView";
 import { useAppStore } from "./store";
+
+const MapView = lazy(() =>
+  import("./MapView").then((module) => ({ default: module.MapView })),
+);
 
 const levelLabel = {
   prefecture: "府",
@@ -13,10 +16,14 @@ export default function App() {
   const searchQuery = useAppStore((state) => state.searchQuery);
   const sidebarOpen = useAppStore((state) => state.sidebarOpen);
   const detailsOpen = useAppStore((state) => state.detailsOpen);
+  const seatsVisible = useAppStore((state) => state.seatsVisible);
+  const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const setSearchQuery = useAppStore((state) => state.setSearchQuery);
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
   const setDetailsOpen = useAppStore((state) => state.setDetailsOpen);
+  const setSeatsVisible = useAppStore((state) => state.setSeatsVisible);
+  const setModernReferenceVisible = useAppStore((state) => state.setModernReferenceVisible);
 
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
   const results = useMemo(() => {
@@ -29,7 +36,9 @@ export default function App() {
 
   return (
     <main className="app-shell">
-      <MapView />
+      <Suspense fallback={<div className="map map-loading" role="status">舆图载入中…</div>}>
+        <MapView />
+      </Suspense>
 
       <header className="topbar">
         <div className="brand">
@@ -85,9 +94,26 @@ export default function App() {
         </div>
         <div className="rule" />
         <p className="eyebrow">图层</p>
-        <label className="layer-toggle"><input type="checkbox" defaultChecked /><span>府州治所</span><i /></label>
+        <label className="layer-toggle">
+          <input
+            type="checkbox"
+            checked={seatsVisible}
+            onChange={(event) => setSeatsVisible(event.target.checked)}
+          />
+          <span>府州治所</span><i />
+        </label>
         <label className="layer-toggle is-disabled"><input type="checkbox" disabled /><span>行政边界</span><i /></label>
-        <label className="layer-toggle is-disabled"><input type="checkbox" disabled /><span>地形与河流</span><i /></label>
+        <label className="layer-toggle">
+          <input
+            type="checkbox"
+            checked={modernReferenceVisible}
+            onChange={(event) => setModernReferenceVisible(event.target.checked)}
+          />
+          <span>山川地貌</span><i />
+        </label>
+        {modernReferenceVisible && (
+          <p className="layer-note">现代自然地理参考，不代表公元 1600 年河道与地貌状态。</p>
+        )}
       </aside>
 
       {selected && (
@@ -129,4 +155,3 @@ export default function App() {
     </main>
   );
 }
-

@@ -5,10 +5,14 @@ interface AppState {
   searchQuery: string;
   sidebarOpen: boolean;
   detailsOpen: boolean;
+  seatsVisible: boolean;
+  modernReferenceVisible: boolean;
   selectUnit: (id: string | null) => void;
   setSearchQuery: (query: string) => void;
   setSidebarOpen: (open: boolean) => void;
   setDetailsOpen: (open: boolean) => void;
+  setSeatsVisible: (visible: boolean) => void;
+  setModernReferenceVisible: (visible: boolean) => void;
 }
 
 export const useAppStore = create<AppState>((set) => ({
@@ -16,10 +20,14 @@ export const useAppStore = create<AppState>((set) => ({
   searchQuery: "",
   sidebarOpen: false,
   detailsOpen: false,
+  seatsVisible: true,
+  modernReferenceVisible: false,
   selectUnit: (selectedUnitId) =>
     set({ selectedUnitId, detailsOpen: selectedUnitId !== null }),
   setSearchQuery: (searchQuery) => set({ searchQuery }),
   setSidebarOpen: (sidebarOpen) => set({ sidebarOpen }),
   setDetailsOpen: (detailsOpen) => set({ detailsOpen }),
+  setSeatsVisible: (seatsVisible) => set({ seatsVisible }),
+  setModernReferenceVisible: (modernReferenceVisible) =>
+    set({ modernReferenceVisible }),
 }));
-

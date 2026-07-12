@@ -25,6 +25,10 @@
 
 详细要求见 [历史数据规范](docs/historical-data.md)。工程约定见 [工程规范](docs/engineering.md)。当前计划见 [路线图](docs/roadmap.md)。
 
+## 现代地理参考层
+
+可选的现代山川地貌参考使用 OpenFreeMap Positron 矢量底图。地图数据来自 OpenStreetMap，样式与瓦片服务由 OpenFreeMap / OpenMapTiles 提供；项目在浏览器中隐藏道路、建筑、现代地名、兴趣点和行政边界，仅保留水系、水体、地表覆盖与山峰等自然要素。启用参考层时按服务要求在地图内显示署名。该图层仅用于现代定位，不作为公元 1600 年河道、地貌或行政边界的历史依据。
+
 ## 许可规划
 
 - 程序代码：拟采用 MIT License。
