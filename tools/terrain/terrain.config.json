@@ -1,0 +1,33 @@
+{
+  "source": {
+    "id": "copernicus-dem-glo-30-2021",
+    "crs": "EPSG:4326",
+    "resolutionMeters": 30
+  },
+  "profiles": {
+    "western-china-sample": {
+      "bounds": [100, 30, 101, 31],
+      "minZoom": 3,
+      "maxZoom": 9,
+      "output": "public/terrain/western-china-terrain.pmtiles"
+    },
+    "china": {
+      "bounds": [70, 15, 140, 55],
+      "minZoom": 3,
+      "maxZoom": 9,
+      "output": "public/terrain/china-terrain.pmtiles"
+    }
+  },
+  "hillshade": {
+    "azimuths": [225, 270, 315, 360],
+    "altitude": 35,
+    "verticalExaggeration": 1
+  },
+  "colors": {
+    "paper": "#e8e1d3",
+    "lowland": "#cdd0bc",
+    "vegetation": "#b8bea9",
+    "relief": "#756b5b",
+    "snow": "#f6f1e7"
+  }
+}

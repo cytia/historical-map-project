@@ -2,10 +2,16 @@
 /tools/target/
 /node_modules/
 /dist/
+/playwright-report/
+/test-results/
+/public/terrain/
+/.terrain-work/
+/.terrain-venv/
 .env
 .env.*
 !.env.example
 *.log
 .DS_Store
 Thumbs.db
-
+__pycache__/
+*.pyc

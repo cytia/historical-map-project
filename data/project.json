@@ -50,6 +50,18 @@
       "license": "CC BY-NC 4.0",
       "redistribution": "restricted",
       "citation": "China Historical GIS Temporal Gazetteer, Harvard University and Fudan University."
+    },
+    {
+      "id": "copernicus-dem-glo-30-2021",
+      "title": "Copernicus DEM GLO-30 Public",
+      "creator": "European Union and European Space Agency",
+      "edition": "2021 release, 30 metre Digital Surface Model",
+      "url": "https://registry.opendata.aws/copernicus-dem/",
+      "accessedOn": "2026-07-12",
+      "kind": "dataset",
+      "license": "Copernicus DEM GLO-30 free licence; public communication and adapted products require the prescribed Copernicus, DLR, Airbus, European Union and ESA source notice",
+      "redistribution": "allowed",
+      "citation": "Produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved. DOI: 10.5270/ESA-c5d3d65."
     }
   ],
   "polities": [

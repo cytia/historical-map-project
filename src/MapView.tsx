@@ -10,6 +10,7 @@ import {
   setSeatLayerVisibility,
 } from "./mapConfig";
 import { useAppStore } from "./store";
+import { addTerrainStyle, ensureTerrainProtocol } from "./terrain";
 
 export function MapView() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -21,6 +22,7 @@ export function MapView() {
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
+    ensureTerrainProtocol();
 
     const map = new maplibregl.Map({
       container: containerRef.current,
@@ -107,7 +109,14 @@ export function MapView() {
         if (!response.ok) throw new Error(`Style request failed: ${response.status}`);
         return response.json() as Promise<StyleSpecification>;
       })
-      .then((style) => map.setStyle(createNaturalReferenceStyle(style)))
+      .then((style) =>
+        map.setStyle(
+          addTerrainStyle(
+            createNaturalReferenceStyle(style),
+            import.meta.env.VITE_TERRAIN_URL,
+          ),
+        ),
+      )
       .catch(() => {
         if (controller.signal.aborted) return;
         console.warn("Modern reference map failed to load; using the paper map.");
