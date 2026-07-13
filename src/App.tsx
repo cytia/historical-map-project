@@ -31,6 +31,7 @@ export default function App() {
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
   const displayedRegionId = hoveredRegionId ?? activeRegionId;
   const activeRegion = regions.find((region) => region.id === displayedRegionId);
+  const activeRegionSubtitle = activeRegion?.formalName?.replace(activeRegion.name, "");
   const summary = getRegionSummary(displayedRegionId);
   const results = useMemo(() => {
     const query = searchQuery.trim();
@@ -98,7 +99,10 @@ export default function App() {
         <div className="year-display"><strong>1600</strong><span>公元</span></div>
         <div className="rule" />
         <p className="eyebrow">行政范围</p>
-        <h2 className="region-title">{activeRegion?.formalName ?? activeRegion?.name ?? "两京十三布政使司"}</h2>
+        <div className="region-heading">
+          <h2 className="region-title">{activeRegion?.name ?? "两京十三司"}</h2>
+          {activeRegionSubtitle && <p className="region-formal-name">{activeRegionSubtitle}</p>}
+        </div>
         <p className="muted">{summary.prefectures} 府 · {summary.departments} 直隶州 · {summary.seats} 治所</p>
         <div className="notice">
           <span>边界资料整理中</span>
@@ -135,7 +139,15 @@ export default function App() {
           <h2>{selected.unit.name}</h2>
           <p className="seat-line">治所 · {selected.name}</p>
           <dl className="facts">
-            <div><dt>所属</dt><dd>{selected.region.formalName ?? selected.region.name}</dd></div>
+            <div>
+              <dt>所属</dt>
+              <dd className="region-reference">
+                <span>{selected.region.name}</span>
+                {selected.region.formalName && (
+                  <small>{selected.region.formalName.replace(selected.region.name, "")}</small>
+                )}
+              </dd>
+            </div>
             <div><dt>时间</dt><dd>公元 1600 年</dd></div>
             <div><dt>定位</dt><dd><span className="confidence-dot" />约略位置</dd></div>
             <div><dt>坐标</dt><dd>{selected.place.longitude?.toFixed(5)}, {selected.place.latitude?.toFixed(5)}</dd></div>
