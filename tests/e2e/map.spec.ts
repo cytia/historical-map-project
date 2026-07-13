@@ -56,12 +56,12 @@ test("shows the selected seat's administrative region", async ({ page, isMobile 
   await page.goto("/");
   await expectMapReady(page);
 
-  await page.getByRole("textbox", { name: "搜索历史地名" }).fill("太原府");
-  await page.getByRole("button", { name: /太原府/ }).click();
-  await expect(page.getByRole("heading", { name: "山西" })).toBeVisible();
-  await expect(page.getByText("5 府 · 2 直隶州 · 7 治所")).toBeVisible();
-  await expect(page.getByRole("heading", { name: "太原府" })).toBeVisible();
-  await expect(page.locator("dd").filter({ hasText: /^山西$/ })).toBeVisible();
+  await page.getByRole("textbox", { name: "搜索历史地名" }).fill("成都府");
+  await page.getByRole("button", { name: /成都府/ }).click();
+  await expect(page.getByRole("heading", { name: "四川" })).toBeVisible();
+  await expect(page.getByText("12 府 · 6 直隶州 · 18 治所")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "成都府" })).toBeVisible();
+  await expect(page.locator("dd").filter({ hasText: /^四川$/ })).toBeVisible();
 });
 
 test("loads the local terrain archive with attribution", async ({ page, isMobile }) => {
