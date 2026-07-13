@@ -1,22 +1,22 @@
 import { useEffect, useRef } from "react";
-import maplibregl, { type MapMouseEvent, type StyleSpecification } from "maplibre-gl";
+import maplibregl, {
+  type MapLayerMouseEvent,
+  type MapMouseEvent,
+  type StyleSpecification,
+} from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { seats } from "./data";
-import {
-  addSeatLayers,
-  createNaturalReferenceStyle,
-  modernReferenceStyleUrl,
-  paperStyle,
-  setSeatLayerVisibility,
-  setSeatFocus,
-} from "./mapConfig";
+import { createNaturalReferenceStyle, modernReferenceStyleUrl, paperStyle } from "./mapConfig";
+import { addSeatLayers, setSeatLayerVisibility, setSeatFocus } from "./seatLayers";
 import { useAppStore } from "./store";
 import { addTerrainStyle, ensureTerrainProtocol } from "./terrain";
 
 export function MapView() {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
+  const hoveredRegionRef = useRef<string | null>(null);
   const selectUnit = useAppStore((state) => state.selectUnit);
+  const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
@@ -53,14 +53,33 @@ export function MapView() {
     const handleClick = (event: MapMouseEvent) => {
       const feature = map.queryRenderedFeatures(event.point, { layers: ["seat-points"] })[0];
       const id = feature?.properties?.id;
-      if (typeof id === "string") selectUnit(id);
+      const regionId = feature?.properties?.regionId;
+      if (typeof id === "string" && typeof regionId === "string") {
+        setActiveRegion(regionId);
+        selectUnit(id);
+        return;
+      }
+      setActiveRegion(null);
     };
-    map.on("click", "seat-points", handleClick);
+    const handleHover = (event: MapLayerMouseEvent) => {
+      const feature = event.features?.[0];
+      const regionId = feature?.properties?.regionId;
+      hoveredRegionRef.current = typeof regionId === "string" ? regionId : null;
+      const state = useAppStore.getState();
+      const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.unit.parentId;
+      setSeatFocus(map, state.selectedUnitId, selectedRegion ?? hoveredRegionRef.current ?? state.activeRegionId);
+    };
+    map.on("click", handleClick);
+    map.on("mousemove", "seat-points", handleHover);
     map.on("mouseenter", "seat-points", () => {
       map.getCanvas().style.cursor = "pointer";
     });
     map.on("mouseleave", "seat-points", () => {
       map.getCanvas().style.cursor = "";
+      hoveredRegionRef.current = null;
+      const state = useAppStore.getState();
+      const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.unit.parentId;
+      setSeatFocus(map, state.selectedUnitId, selectedRegion ?? state.activeRegionId);
     });
 
     mapRef.current = map;
@@ -68,13 +87,14 @@ export function MapView() {
       map.remove();
       mapRef.current = null;
     };
-  }, [selectUnit]);
+  }, [selectUnit, setActiveRegion]);
 
   useEffect(() => {
     const map = mapRef.current;
     if (!map?.isStyleLoaded() || !map.getLayer("seat-points")) return;
 
-    setSeatFocus(map, selectedUnitId, activeRegionId);
+    const selectedRegion = seats.find(({ unit }) => unit.id === selectedUnitId)?.unit.parentId;
+    setSeatFocus(map, selectedUnitId, selectedRegion ?? hoveredRegionRef.current ?? activeRegionId);
 
     const selected = seats.find((record) => record.unit.id === selectedUnitId);
     if (selected) {

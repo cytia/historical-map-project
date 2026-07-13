@@ -15,6 +15,30 @@
       "citation": "《明史》卷四十，志第十六，地理一。"
     },
     {
+      "id": "ming-shi-geography-two",
+      "title": "明史·志第十七·地理二",
+      "creator": "张廷玉等",
+      "locator": "卷四十一·志第十七",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷41",
+      "accessedOn": "2026-07-13",
+      "kind": "primary",
+      "license": "Public-domain historical text; Wikisource transcription available under CC BY-SA 4.0",
+      "redistribution": "allowed",
+      "citation": "《明史》卷四十一，志第十七，地理二。"
+    },
+    {
+      "id": "ming-shi-geography-three",
+      "title": "明史·志第十八·地理三",
+      "creator": "张廷玉等",
+      "locator": "卷四十二·志第十八",
+      "url": "https://zh.wikisource.org/zh-hans/明史/卷42",
+      "accessedOn": "2026-07-13",
+      "kind": "primary",
+      "license": "Public-domain historical text; Wikisource transcription available under CC BY-SA 4.0",
+      "redistribution": "allowed",
+      "citation": "《明史》卷四十二，志第十八，地理三。"
+    },
+    {
       "id": "atlas-ming-empire-loc",
       "title": "大明舆地图",
       "creator": "佚名",
@@ -122,7 +146,7 @@
       "validity": { "from": 1600, "to": 1600, "precision": "exact" },
       "confidence": "high",
       "sources": [
-        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
         { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
       ],
       "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
@@ -135,7 +159,7 @@
       "validity": { "from": 1600, "to": 1600, "precision": "exact" },
       "confidence": "high",
       "sources": [
-        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
         { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
       ],
       "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
@@ -148,7 +172,7 @@
       "validity": { "from": 1600, "to": 1600, "precision": "exact" },
       "confidence": "high",
       "sources": [
-        { "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" },
+        { "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" },
         { "sourceId": "atlas-ming-empire-loc", "claim": "existence", "confidence": "medium" }
       ],
       "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 time-slice membership; full lifespan pending" }
@@ -431,6 +455,94 @@
     {
       "id": "baoan-direct-department", "name": "保安州", "level": "department", "polityId": "ming", "parentId": "jingshi", "seatPlaceId": "baoan-seat",
       "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-one", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "Directly administered department in the 1600 time slice" }
+    },
+    {
+      "id": "jinan-prefecture", "name": "济南府", "level": "prefecture", "polityId": "ming", "parentId": "shandong", "seatPlaceId": "licheng-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shandong-administered prefecture and Licheng seat in the 1600 time slice" }
+    },
+    {
+      "id": "yanzhou-prefecture", "name": "兖州府", "level": "prefecture", "polityId": "ming", "parentId": "shandong", "seatPlaceId": "ziyang-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shandong-administered prefecture and Ziyang seat in the 1600 time slice" }
+    },
+    {
+      "id": "dongchang-prefecture", "name": "东昌府", "level": "prefecture", "polityId": "ming", "parentId": "shandong", "seatPlaceId": "liaocheng-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shandong-administered prefecture and Liaocheng seat in the 1600 time slice" }
+    },
+    {
+      "id": "qingzhou-prefecture", "name": "青州府", "level": "prefecture", "polityId": "ming", "parentId": "shandong", "seatPlaceId": "yidu-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shandong-administered prefecture and Yidu seat in the 1600 time slice" }
+    },
+    {
+      "id": "laizhou-prefecture", "name": "莱州府", "level": "prefecture", "polityId": "ming", "parentId": "shandong", "seatPlaceId": "ye-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shandong-administered prefecture and Ye seat in the 1600 time slice" }
+    },
+    {
+      "id": "dengzhou-prefecture", "name": "登州府", "level": "prefecture", "polityId": "ming", "parentId": "shandong", "seatPlaceId": "penglai-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shandong-administered prefecture and Penglai seat in the 1600 time slice" }
+    },
+    {
+      "id": "kaifeng-prefecture", "name": "开封府", "level": "prefecture", "polityId": "ming", "parentId": "henan", "seatPlaceId": "xiangfu-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Henan-administered prefecture and Xiangfu seat in the 1600 time slice" }
+    },
+    {
+      "id": "henan-prefecture", "name": "河南府", "level": "prefecture", "polityId": "ming", "parentId": "henan", "seatPlaceId": "luoyang-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Henan-administered prefecture and Luoyang seat in the 1600 time slice" }
+    },
+    {
+      "id": "guide-prefecture", "name": "归德府", "level": "prefecture", "polityId": "ming", "parentId": "henan", "seatPlaceId": "shangqiu-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Uses the post-1545 prefectural status for the 1600 time slice" }
+    },
+    {
+      "id": "runing-prefecture", "name": "汝宁府", "level": "prefecture", "polityId": "ming", "parentId": "henan", "seatPlaceId": "ruyang-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Henan-administered prefecture and Ruyang seat in the 1600 time slice" }
+    },
+    {
+      "id": "nanyang-prefecture", "name": "南阳府", "level": "prefecture", "polityId": "ming", "parentId": "henan", "seatPlaceId": "nanyang-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Henan-administered prefecture and Nanyang seat in the 1600 time slice" }
+    },
+    {
+      "id": "huaiqing-prefecture", "name": "怀庆府", "level": "prefecture", "polityId": "ming", "parentId": "henan", "seatPlaceId": "henei-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Henan-administered prefecture and Henei seat in the 1600 time slice" }
+    },
+    {
+      "id": "weihui-prefecture", "name": "卫辉府", "level": "prefecture", "polityId": "ming", "parentId": "henan", "seatPlaceId": "ji-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Henan-administered prefecture and Ji seat in the 1600 time slice" }
+    },
+    {
+      "id": "zhangde-prefecture", "name": "彰德府", "level": "prefecture", "polityId": "ming", "parentId": "henan", "seatPlaceId": "anyang-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Henan-administered prefecture and Anyang seat in the 1600 time slice" }
+    },
+    {
+      "id": "ruzhou-direct-department", "name": "汝州", "level": "department", "polityId": "ming", "parentId": "henan", "seatPlaceId": "ruzhou-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Directly administered department since 1476 in the 1600 time slice" }
+    },
+    {
+      "id": "taiyuan-prefecture", "name": "太原府", "level": "prefecture", "polityId": "ming", "parentId": "shanxi", "seatPlaceId": "yangqu-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shanxi-administered prefecture and Yangqu seat in the 1600 time slice" }
+    },
+    {
+      "id": "pingyang-prefecture", "name": "平阳府", "level": "prefecture", "polityId": "ming", "parentId": "shanxi", "seatPlaceId": "linfen-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shanxi-administered prefecture and Linfen seat in the 1600 time slice" }
+    },
+    {
+      "id": "fenzhou-prefecture", "name": "汾州府", "level": "prefecture", "polityId": "ming", "parentId": "shanxi", "seatPlaceId": "fenyang-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Uses the post-1595 prefectural status and Fenyang seat for the 1600 time slice" }
+    },
+    {
+      "id": "luan-prefecture", "name": "潞安府", "level": "prefecture", "polityId": "ming", "parentId": "shanxi", "seatPlaceId": "changzhi-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shanxi-administered prefecture and Changzhi seat in the 1600 time slice" }
+    },
+    {
+      "id": "datong-prefecture", "name": "大同府", "level": "prefecture", "polityId": "ming", "parentId": "shanxi", "seatPlaceId": "datong-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Shanxi-administered prefecture and Datong seat in the 1600 time slice" }
+    },
+    {
+      "id": "zezhou-direct-department", "name": "泽州", "level": "department", "polityId": "ming", "parentId": "shanxi", "seatPlaceId": "zezhou-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Directly administered department in 1600; former Jincheng county was merged into the state seat" }
+    },
+    {
+      "id": "liaozhou-direct-department", "name": "辽州", "level": "department", "polityId": "ming", "parentId": "shanxi", "seatPlaceId": "liaozhou-seat",
+      "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Directly administered department in 1600; former Liaoshan county was merged into the state seat" }
     }
   ],
   "places": [
@@ -461,7 +573,29 @@
     { "id": "daming-seat", "longitude": 115.14768, "latitude": 36.30807, "locationAccuracy": "approximate", "locationMethod": "Approximate Ming Daming old-city area northeast of the modern county center", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "Historical old-city area; requires a second-source coordinate review" } },
     { "id": "lulong-seat", "longitude": 118.89193, "latitude": 39.89174, "locationAccuracy": "approximate", "locationMethod": "Approximate historical Lulong city location", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "City-level location; exact prefectural compound unresolved" } },
     { "id": "yanqing-seat", "longitude": 115.97494, "latitude": 40.45656, "locationAccuracy": "approximate", "locationMethod": "Approximate historical Yanqing state-seat location", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "City-level location; exact state office unresolved" } },
-    { "id": "baoan-seat", "longitude": 115.21916, "latitude": 40.37873, "locationAccuracy": "approximate", "locationMethod": "Approximate historical Baoan state-seat location near present Zhuolu", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "Area-level historical seat location requiring second-source review" } }
+    { "id": "baoan-seat", "longitude": 115.21916, "latitude": 40.37873, "locationAccuracy": "approximate", "locationMethod": "Approximate historical Baoan state-seat location near present Zhuolu", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "Area-level historical seat location requiring second-source review" } },
+    { "id": "licheng-seat", "longitude": 117.00149, "latitude": 36.65013, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86003; Jinan Prefecture at its Licheng seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_86003, valid 1367-1911, parent Shandong Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Licheng seat; exact yamen location remains unresolved" } },
+    { "id": "ziyang-seat", "longitude": 116.82370, "latitude": 35.55670, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86005; Yanzhou Prefecture at its Ziyang seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_86005, valid 1385-1911, parent Shandong Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Selected the CHGIS prefecture record rather than the conflicting aggregated state result" } },
+    { "id": "liaocheng-seat", "longitude": 115.98869, "latitude": 36.44774, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86002; Dongchang Prefecture at its Liaocheng seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_86002, valid 1368-1911, parent Shandong Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Liaocheng seat" } },
+    { "id": "yidu-seat", "longitude": 118.47827, "latitude": 36.68792, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86007; Qingzhou Prefecture at its Yidu seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_86007, valid 1367-1911, parent Shandong Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Yidu seat" } },
+    { "id": "ye-seat", "longitude": 119.93800, "latitude": 37.17543, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86008; Laizhou Prefecture at its Ye seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_86008, valid 1376-1911, parent Shandong Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Ye seat" } },
+    { "id": "penglai-seat", "longitude": 120.74050, "latitude": 37.80452, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86009; Dengzhou Prefecture at its Penglai seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_86009, valid 1376-1911, parent Shandong Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Penglai seat" } },
+    { "id": "xiangfu-seat", "longitude": 114.34333, "latitude": 34.78548, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_84008; Kaifeng Prefecture at its Xiangfu seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_84008, valid 1368-1911, parent Henan Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Xiangfu seat" } },
+    { "id": "luoyang-seat", "longitude": 112.43513, "latitude": 34.67159, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_84004; Henan Prefecture at its Luoyang seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_84004, valid 1368-1911, parent Henan Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Luoyang seat" } },
+    { "id": "shangqiu-seat", "longitude": 115.60745, "latitude": 34.38505, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_84009; Guide Prefecture at its Shangqiu seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_84009, valid 1545-1911; CHGIS uses a cross-period Henan Sheng parent label" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Ming parentage follows Ming Shi rather than the cross-period CHGIS parent label" } },
+    { "id": "ruyang-seat", "longitude": 114.34600, "latitude": 33.00754, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_84007; Runing Prefecture at its Ruyang seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_84007, valid 1279-1911, parent Henan Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Ruyang seat" } },
+    { "id": "nanyang-seat", "longitude": 112.53547, "latitude": 33.00168, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_84005; Nanyang Prefecture at its Nanyang seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_84005, valid 1279-1911, parent Henan Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Nanyang seat" } },
+    { "id": "henei-seat", "longitude": 112.93699, "latitude": 35.08930, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_84002; Huaiqing Prefecture at its Henei seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_84002, valid 1368-1911, parent Henan Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Henei seat" } },
+    { "id": "ji-seat", "longitude": 114.07027, "latitude": 35.41039, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_84003; Weihui Prefecture at its Ji seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_84003, valid 1368-1911, parent Henan Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Ji seat" } },
+    { "id": "anyang-seat", "longitude": 114.34550, "latitude": 36.09834, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_84001; Zhangde Prefecture at its Anyang seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_84001, valid 1368-1911, parent Henan Buzhengshisi" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Anyang seat" } },
+    { "id": "ruzhou-seat", "longitude": 112.83702, "latitude": 34.16176, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer directly administered state point hvd_84013; Ruzhou state seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_84013, valid 1476-1911; CHGIS classifies it as a directly administered state" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Direct administration follows Ming Shi; CHGIS uses a cross-period Henan Sheng parent label" } },
+    { "id": "yangqu-seat", "longitude": 112.56483, "latitude": 37.87375, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_94021; Taiyuan Prefecture at its Yangqu seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Point record hvd_94021, valid 1368-1911; zero-coordinate polygon result excluded" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the non-zero CHGIS prefectural point matching the Yangqu seat" } },
+    { "id": "linfen-seat", "longitude": 111.51543, "latitude": 36.07804, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_94049; Pingyang Prefecture at its Linfen seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_94049, valid 1595-1611" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Linfen seat for 1600" } },
+    { "id": "fenyang-seat", "longitude": 111.77903, "latitude": 37.26340, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_94027; Fenzhou Prefecture at its Fenyang seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Point record hvd_94027, valid 1595-1911; zero-coordinate polygon result excluded" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Uses the prefectural point created for the 1595 elevation of Fenzhou" } },
+    { "id": "changzhi-seat", "longitude": 113.10349, "latitude": 36.18354, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_94066; Luan Prefecture at its Changzhi seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_94066, valid 1529-1911" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS prefectural point matching the Changzhi seat" } },
+    { "id": "datong-seat", "longitude": 113.29639, "latitude": 40.09284, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_115139; Datong Prefecture seat", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_115139, valid 936-1911; CHGIS parent label is absent" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Ming parentage follows Ming Shi because the CHGIS point omits its parent" } },
+    { "id": "zezhou-seat", "longitude": 112.83916, "latitude": 35.50432, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer state point hvd_94063; Zezhou seat after Jincheng county was merged", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_94063, valid 1368-1727; CHGIS retains a Zhongshusheng parent label" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Direct administration in 1600 follows Ming Shi rather than the stale CHGIS parent label" } },
+    { "id": "liaozhou-seat", "longitude": 113.36811, "latitude": 37.07428, "locationAccuracy": "approximate", "locationMethod": "CHGIS Temporal Gazetteer state point hvd_94031; Liaozhou seat after Liaoshan county was merged", "confidence": "medium", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }, { "sourceId": "chgis-temporal-gazetteer", "claim": "location", "confidence": "medium", "note": "Record hvd_94031, valid 1369-1911" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Added the CHGIS state point matching the Liaozhou seat" } }
   ],
   "placeNames": [
     { "id": "name-nanjing-city", "placeId": "nanjing-city", "name": "南京城", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-11", "revisionNote": "1600 seat label" } },
@@ -491,6 +625,28 @@
     { "id": "name-daming-seat", "placeId": "daming-seat", "name": "大名", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "1600 seat label" } },
     { "id": "name-lulong-seat", "placeId": "lulong-seat", "name": "卢龙", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "1600 seat label" } },
     { "id": "name-yanqing-seat", "placeId": "yanqing-seat", "name": "延庆州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "Post-1567 seat label" } },
-    { "id": "name-baoan-seat", "placeId": "baoan-seat", "name": "保安州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "1600 seat label" } }
+    { "id": "name-baoan-seat", "placeId": "baoan-seat", "name": "保安州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-one", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-12", "revisionNote": "1600 seat label" } },
+    { "id": "name-licheng-seat", "placeId": "licheng-seat", "name": "历城", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-ziyang-seat", "placeId": "ziyang-seat", "name": "滋阳", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Uses the post-1471 Ziyang name for the 1600 time slice" } },
+    { "id": "name-liaocheng-seat", "placeId": "liaocheng-seat", "name": "聊城", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-yidu-seat", "placeId": "yidu-seat", "name": "益都", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-ye-seat", "placeId": "ye-seat", "name": "掖县", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-penglai-seat", "placeId": "penglai-seat", "name": "蓬莱", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-xiangfu-seat", "placeId": "xiangfu-seat", "name": "祥符", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-luoyang-seat", "placeId": "luoyang-seat", "name": "洛阳", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-shangqiu-seat", "placeId": "shangqiu-seat", "name": "商丘", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Uses the post-1545 Shangqiu name for the 1600 time slice" } },
+    { "id": "name-ruyang-seat", "placeId": "ruyang-seat", "name": "汝阳", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-nanyang-seat", "placeId": "nanyang-seat", "name": "南阳", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-henei-seat", "placeId": "henei-seat", "name": "河内", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-ji-seat", "placeId": "ji-seat", "name": "汲县", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-anyang-seat", "placeId": "anyang-seat", "name": "安阳", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-ruzhou-seat", "placeId": "ruzhou-seat", "name": "汝州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-three", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Directly administered state seat label for 1600" } },
+    { "id": "name-yangqu-seat", "placeId": "yangqu-seat", "name": "阳曲", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-linfen-seat", "placeId": "linfen-seat", "name": "临汾", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-fenyang-seat", "placeId": "fenyang-seat", "name": "汾阳", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Uses the post-1595 Fenyang name for the 1600 time slice" } },
+    { "id": "name-changzhi-seat", "placeId": "changzhi-seat", "name": "长治", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-datong-seat", "placeId": "datong-seat", "name": "大同", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "1600 seat label" } },
+    { "id": "name-zezhou-seat", "placeId": "zezhou-seat", "name": "泽州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Directly administered state seat label for 1600" } },
+    { "id": "name-liaozhou-seat", "placeId": "liaozhou-seat", "name": "辽州", "script": "historical", "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-13", "revisionNote": "Directly administered state seat label for 1600" } }
   ]
 }

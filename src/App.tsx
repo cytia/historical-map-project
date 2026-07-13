@@ -48,7 +48,7 @@ export default function App() {
         <div className="brand">
           <span className="seal" aria-hidden="true">明</span>
           <div>
-            <h1>大明舆图</h1>
+            <h1>明代历史地图</h1>
             <p>公元 1600 年 · 万历二十八年前后</p>
           </div>
         </div>
@@ -91,15 +91,7 @@ export default function App() {
         <div className="year-display"><strong>1600</strong><span>公元</span></div>
         <div className="rule" />
         <p className="eyebrow">行政范围</p>
-        <select
-          aria-label="行政区域"
-          value={activeRegionId ?? ""}
-          onChange={(event) => setActiveRegion(event.target.value || null)}
-        >
-          <option value="">全部已录入区域</option>
-          {regions.map((region) => <option key={region.id} value={region.id}>{region.name}</option>)}
-        </select>
-        <h2>{activeRegion?.name ?? "全部已录入区域"}</h2>
+        <h2 className="region-title">{activeRegion?.name ?? "两京十三布政使司"}</h2>
         <p className="muted">{summary.prefectures} 府 · {summary.departments} 直隶州 · {summary.seats} 治所</p>
         <div className="notice">
           <span>边界资料整理中</span>
