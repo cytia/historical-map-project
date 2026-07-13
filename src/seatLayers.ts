@@ -1,5 +1,5 @@
 import type { ExpressionSpecification, Map } from "maplibre-gl";
-import { seats } from "./data";
+import { topLevelSeats } from "./data";
 import { defaultTheme } from "./theme";
 
 const mapColors = defaultTheme.map;
@@ -8,7 +8,7 @@ export const seatLayerIds = ["seat-halo", "seat-points", "seat-labels"] as const
 
 const seatGeoJson: GeoJSON.FeatureCollection<GeoJSON.Point> = {
   type: "FeatureCollection",
-  features: seats.map(({ unit, place, name }) => ({
+  features: topLevelSeats.map(({ unit, place, name, region }) => ({
     type: "Feature",
     geometry: {
       type: "Point",
@@ -19,7 +19,7 @@ const seatGeoJson: GeoJSON.FeatureCollection<GeoJSON.Point> = {
       name: unit.name,
       seatName: name,
       level: unit.level,
-      regionId: unit.parentId,
+      regionId: region.id,
     },
   })),
 };

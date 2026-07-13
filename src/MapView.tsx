@@ -5,8 +5,10 @@ import maplibregl, {
   type StyleSpecification,
 } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { seats } from "./data";
+import { getTopLevelUnitId, seats } from "./data";
+import { addCountyLayers, setCountyVisibility } from "./countyLayers";
 import { createNaturalReferenceStyle, modernReferenceStyleUrl, paperStyle } from "./mapConfig";
+import { updateMapSelection } from "./mapSelection";
 import {
   addRelationLayers,
   setRelationSelection,
@@ -24,15 +26,16 @@ import { addTerrainStyle, ensureTerrainProtocol } from "./terrain";
 import { defaultTheme } from "./theme";
 
 const mapTokens = defaultTheme.map;
-
 export function MapView() {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const hoveredRegionRef = useRef<string | null>(null);
   const selectUnit = useAppStore((state) => state.selectUnit);
+  const selectCounty = useAppStore((state) => state.selectCounty);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const setHoveredRegion = useAppStore((state) => state.setHoveredRegion);
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
+  const selectedCountyId = useAppStore((state) => state.selectedCountyId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
@@ -63,7 +66,8 @@ export function MapView() {
     map.on("style.load", () => {
       const state = useAppStore.getState();
       addRelationLayers(map, state.selectedUnitId, state.seatsVisible);
-      addSeatLayers(map, state.selectedUnitId, state.activeRegionId, state.seatsVisible);
+      addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId, state.seatsVisible);
+      addCountyLayers(map, state.selectedUnitId, state.selectedCountyId, state.seatsVisible);
       setRelationSelection(map, state.selectedUnitId);
     });
 
@@ -71,13 +75,20 @@ export function MapView() {
       let feature: ReturnType<typeof map.queryRenderedFeatures>[number] | undefined;
       if (map.getLayer("seat-points")) {
         try {
-          feature = map.queryRenderedFeatures(event.point, { layers: ["seat-points"] })[0];
+          const layers = map.getLayer("county-points") ? ["county-points", "seat-points"] : ["seat-points"];
+          feature = map.queryRenderedFeatures(event.point, { layers })[0];
         } catch {
           // Style replacement can remove the layer between the existence check and the query.
         }
       }
       const id = feature?.properties?.id;
       const regionId = feature?.properties?.regionId;
+      const parentId = feature?.properties?.parentId;
+      if (feature?.properties?.kind === "county" && typeof id === "string" &&
+        typeof parentId === "string" && typeof regionId === "string") {
+        selectCounty(id, parentId, regionId);
+        return;
+      }
       if (typeof id === "string" && typeof regionId === "string") {
         setActiveRegion(regionId);
         selectUnit(id);
@@ -94,14 +105,20 @@ export function MapView() {
         setHoveredRegion(hoveredRegionId);
       }
       const state = useAppStore.getState();
-      const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.unit.parentId;
+      const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.region.id;
       setSeatFocusTransition(map, mapTokens.seatFocusFadeInDurationMs);
-      setSeatFocus(map, state.selectedUnitId, selectedRegion ?? hoveredRegionRef.current ?? state.activeRegionId);
+      setSeatFocus(map, getTopLevelUnitId(state.selectedUnitId), selectedRegion ?? hoveredRegionRef.current ?? state.activeRegionId);
     };
     map.on("click", handleClick);
     map.on("mousemove", "seat-points", handleHover);
     map.on("mouseenter", "seat-points", () => {
       map.getCanvas().style.cursor = "pointer";
+    });
+    map.on("mouseenter", "county-points", () => {
+      map.getCanvas().style.cursor = "pointer";
+    });
+    map.on("mouseleave", "county-points", () => {
+      map.getCanvas().style.cursor = "";
     });
     map.on("mouseleave", "seat-points", () => {
       map.getCanvas().style.cursor = "";
@@ -110,9 +127,9 @@ export function MapView() {
         setHoveredRegion(null);
       }
       const state = useAppStore.getState();
-      const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.unit.parentId;
+      const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.region.id;
       setSeatFocusTransition(map, mapTokens.seatFocusFadeOutDurationMs);
-      setSeatFocus(map, state.selectedUnitId, selectedRegion ?? state.activeRegionId);
+      setSeatFocus(map, getTopLevelUnitId(state.selectedUnitId), selectedRegion ?? state.activeRegionId);
     });
 
     mapRef.current = map;
@@ -121,31 +138,26 @@ export function MapView() {
       map.remove();
       mapRef.current = null;
     };
-  }, [selectUnit, setActiveRegion, setHoveredRegion]);
+  }, [selectCounty, selectUnit, setActiveRegion, setHoveredRegion]);
 
   useEffect(() => {
     const map = mapRef.current;
     if (!map?.isStyleLoaded() || !map.getLayer("seat-points")) return;
 
-    const selectedRegion = seats.find(({ unit }) => unit.id === selectedUnitId)?.unit.parentId;
-    setSeatFocus(map, selectedUnitId, selectedRegion ?? hoveredRegionRef.current ?? activeRegionId);
-    setRelationSelection(map, selectedUnitId);
-
-    const selected = seats.find((record) => record.unit.id === selectedUnitId);
-    if (selected) {
-      map.easeTo({
-        center: [selected.place.longitude as number, selected.place.latitude as number],
-        zoom: Math.max(map.getZoom(), 6.2),
-        duration: 650,
-      });
-    }
-  }, [selectedUnitId, activeRegionId]);
+    const selectedRegion = seats.find(({ unit }) => unit.id === selectedUnitId)?.region.id;
+    updateMapSelection(map, {
+      selectedUnitId,
+      selectedCountyId,
+      focusRegionId: selectedRegion ?? hoveredRegionRef.current ?? activeRegionId,
+    });
+  }, [selectedUnitId, selectedCountyId, activeRegionId]);
 
   useEffect(() => {
     const map = mapRef.current;
     if (map?.isStyleLoaded()) {
       setSeatLayerVisibility(map, seatsVisible);
       setRelationVisibility(map, seatsVisible);
+      setCountyVisibility(map, seatsVisible);
     }
   }, [seatsVisible]);
 
@@ -184,6 +196,5 @@ export function MapView() {
 
     return () => controller.abort();
   }, [modernReferenceVisible]);
-
-  return <div className="map" ref={containerRef} aria-label="公元1600年已录入府州治所地图" />;
+  return <div className="map" ref={containerRef} aria-label="公元1600年已录入行政治所地图" />;
 }

@@ -12,10 +12,64 @@ pub struct ProjectData {
     pub schema: Option<String>,
     pub schema_version: u32,
     pub sources: Vec<Source>,
+    pub statistics: Vec<Statistic>,
     pub polities: Vec<Polity>,
     pub administrative_units: Vec<AdministrativeUnit>,
     pub places: Vec<Place>,
     pub place_names: Vec<PlaceName>,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase", deny_unknown_fields)]
+pub struct Statistic {
+    pub id: String,
+    pub administrative_unit_id: String,
+    pub category: StatisticCategory,
+    pub metric: StatisticMetric,
+    pub value: f64,
+    pub unit: StatisticUnit,
+    pub original_text: Option<String>,
+    pub recorded_year: Option<i32>,
+    pub value_type: StatisticValueType,
+    pub method: Option<String>,
+    pub confidence: Confidence,
+    pub sources: Vec<SourceLink>,
+    pub audit: Audit,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum StatisticCategory {
+    Population,
+    Tax,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum StatisticMetric {
+    Households,
+    RegisteredPopulation,
+    RegisteredLand,
+    SummerTax,
+    AutumnGrain,
+    Silver,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum StatisticUnit {
+    Households,
+    People,
+    Qing,
+    Shi,
+    Liang,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "lowercase")]
+pub enum StatisticValueType {
+    Recorded,
+    Estimated,
 }
 
 #[derive(Debug, Deserialize)]

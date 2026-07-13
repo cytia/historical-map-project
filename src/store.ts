@@ -2,6 +2,7 @@ import { create } from "zustand";
 
 interface AppState {
   selectedUnitId: string | null;
+  selectedCountyId: string | null;
   activeRegionId: string | null;
   hoveredRegionId: string | null;
   searchQuery: string;
@@ -10,6 +11,7 @@ interface AppState {
   seatsVisible: boolean;
   modernReferenceVisible: boolean;
   selectUnit: (id: string | null) => void;
+  selectCounty: (countyId: string, parentId: string, regionId: string) => void;
   setActiveRegion: (id: string | null) => void;
   setHoveredRegion: (id: string | null) => void;
   setSearchQuery: (query: string) => void;
@@ -21,6 +23,7 @@ interface AppState {
 
 export const useAppStore = create<AppState>((set) => ({
   selectedUnitId: null,
+  selectedCountyId: null,
   activeRegionId: null,
   hoveredRegionId: null,
   searchQuery: "",
@@ -29,8 +32,15 @@ export const useAppStore = create<AppState>((set) => ({
   seatsVisible: true,
   modernReferenceVisible: false,
   selectUnit: (selectedUnitId) =>
-    set({ selectedUnitId, detailsOpen: selectedUnitId !== null }),
-  setActiveRegion: (activeRegionId) => set({ activeRegionId, selectedUnitId: null, detailsOpen: false }),
+    set({ selectedUnitId, selectedCountyId: null, detailsOpen: selectedUnitId !== null }),
+  selectCounty: (selectedCountyId, selectedUnitId, activeRegionId) =>
+    set({ selectedCountyId, selectedUnitId, activeRegionId, detailsOpen: true }),
+  setActiveRegion: (activeRegionId) => set({
+    activeRegionId,
+    selectedUnitId: null,
+    selectedCountyId: null,
+    detailsOpen: false,
+  }),
   setHoveredRegion: (hoveredRegionId) => set({ hoveredRegionId }),
   setSearchQuery: (searchQuery) => set({ searchQuery }),
   setSidebarOpen: (sidebarOpen) => set({ sidebarOpen }),

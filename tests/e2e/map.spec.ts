@@ -64,6 +64,66 @@ test("shows the selected seat's administrative region", async ({ page, isMobile 
   await expect(page.locator("dd").filter({ hasText: /^四川$/ })).toBeVisible();
 });
 
+test("finds a county and expands its prefecture", async ({ page, isMobile }) => {
+  test.skip(isMobile, "County search and focus are covered once on desktop");
+  await page.goto("/");
+  const canvas = await expectMapReady(page);
+  const collapsed = await canvas.screenshot();
+
+  await page.getByRole("textbox", { name: "搜索历史地名" }).fill("句容县");
+  await page.getByRole("button", { name: /句容县/ }).click();
+
+  await expect(page.getByRole("heading", { name: "句容县" })).toBeVisible();
+  await expect(page.getByText("应天府 · 南京", { exact: true })).toBeVisible();
+  await expect(page.getByText("暂无可靠县级记录").first()).toBeVisible();
+  await expect.poll(async () => (await canvas.screenshot()).equals(collapsed)).toBe(false);
+});
+
+test("shows Yingtian statistics and opens a county from its jurisdiction", async ({ page, isMobile }) => {
+  test.skip(isMobile, "Administrative detail navigation is covered once on desktop");
+  await page.goto("/");
+  await expectMapReady(page);
+
+  await page.getByRole("textbox", { name: "搜索历史地名" }).fill("应天府");
+  await page.getByRole("button", { name: /应天府/ }).click();
+  await expect(page.getByText("143,597 户")).toBeVisible();
+  await expect(page.getByText("口数 790,513 口")).toBeVisible();
+  await expect(page.getByText("明神宗万历六年（公元 1578 年）登记")).toBeVisible();
+  await expect(page.getByText("小麦 11,654 石余")).toBeVisible();
+  await expect(page.getByText("8 县")).toBeVisible();
+
+  await page.getByRole("button", { name: "上元县" }).click();
+  await expect(page.getByRole("heading", { name: "上元县" })).toBeVisible();
+  await expect(page.getByText("下辖单位")).toHaveCount(0);
+  await expect(page.getByText("同级单位")).toBeVisible();
+
+  await page.getByRole("button", { name: "江宁县" }).click();
+  await expect(page.getByRole("heading", { name: "江宁县" })).toBeVisible();
+
+  await page.getByRole("button", { name: "返回应天府" }).click();
+  await expect(page.getByRole("heading", { name: "应天府" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "上元县" })).toBeVisible();
+});
+
+test("preserves the prefecture-state-county hierarchy", async ({ page, isMobile }) => {
+  test.skip(isMobile, "Nested administrative navigation is covered once on desktop");
+  await page.goto("/");
+  await expectMapReady(page);
+
+  await page.getByRole("textbox", { name: "搜索历史地名" }).fill("苏州府");
+  await page.getByRole("button", { name: /苏州府/ }).click();
+  await expect(page.getByRole("button", { name: "太仓州" })).toBeVisible();
+
+  await page.getByRole("button", { name: "太仓州" }).click();
+  await expect(page.getByRole("heading", { name: "太仓州" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "崇明县" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "返回苏州府" })).toBeVisible();
+
+  await page.getByRole("button", { name: "崇明县" }).click();
+  await expect(page.getByText("太仓州 · 南京", { exact: true })).toBeVisible();
+  await expect(page.getByRole("button", { name: "返回太仓州" })).toBeVisible();
+});
+
 test("loads the local terrain archive with attribution", async ({ page, isMobile }) => {
   test.skip(isMobile, "Terrain archive loading is covered once on desktop");
   await page.goto("/");

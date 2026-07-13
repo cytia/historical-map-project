@@ -32,6 +32,11 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
         "administrative unit",
         &mut errors,
     );
+    collect_unique_ids(
+        data.statistics.iter().map(|item| item.id.as_str()),
+        "statistic",
+        &mut errors,
+    );
     let place_ids = collect_unique_ids(
         data.places.iter().map(|item| item.id.as_str()),
         "place",
@@ -64,6 +69,29 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
             &polity_ids,
             &unit_ids,
             &place_ids,
+            &mut errors,
+        );
+    }
+
+    for statistic in &data.statistics {
+        validate_id(&statistic.id, "statistic", &mut errors);
+        if !unit_ids.contains(statistic.administrative_unit_id.as_str()) {
+            errors.push(format!(
+                "{} references missing administrative unit {}",
+                statistic.id, statistic.administrative_unit_id
+            ));
+        }
+        if !statistic.value.is_finite() || statistic.value < 0.0 {
+            errors.push(format!(
+                "{} has an invalid non-negative value",
+                statistic.id
+            ));
+        }
+        validate_source_links(&statistic.sources, &statistic.id, &source_ids, &mut errors);
+        validate_audit(
+            &statistic.audit.reviewed_on,
+            &statistic.audit.revision_note,
+            &statistic.id,
             &mut errors,
         );
     }
@@ -294,6 +322,7 @@ mod tests {
             r#"{
                 "schemaVersion": 1,
                 "sources": [],
+                "statistics": [],
                 "polities": [],
                 "administrativeUnits": [],
                 "places": [],
@@ -311,6 +340,7 @@ mod tests {
             r#"{
                 "schemaVersion": 1,
                 "sources": [],
+                "statistics": [],
                 "polities": [],
                 "administrativeUnits": [],
                 "places": [{

@@ -98,7 +98,13 @@ button { color: inherit; }
   backdrop-filter: blur(18px);
 }
 .left-panel { left: 18px; }
-.detail-panel { right: 18px; width: 318px; }
+.detail-panel {
+  right: 18px;
+  width: 318px;
+  padding-block: 24px;
+  overflow-y: hidden;
+}
+.detail-panel:has(.research-details[open]) { overflow-y: auto; }
 .panel-close { display: none; position: absolute; top: 10px; right: 12px; border: 0; background: none; font-size: 24px; cursor: pointer; }
 .eyebrow { margin: 0 0 9px; color: var(--color-accent); font-size: 10px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; }
 .left-panel h2, .detail-panel h2 { font-size: 26px; }
@@ -138,6 +144,48 @@ button { color: inherit; }
 .layer-toggle.is-disabled i { background: var(--color-disabled-mark); }
 .layer-note { margin: 10px 0 0; color: var(--color-text-muted); font-size: 10px; line-height: 1.55; }
 
+.administrative-path { margin: 5px 0 0; color: var(--color-text-muted); font-size: 11px; }
+.return-prefecture {
+  display: inline-flex;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color-accent);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.return-prefecture:hover { color: var(--color-text); }
+.detail-panel .seat-line { margin: 12px 0 0; }
+.evidence-section { margin-top: 21px; padding: 0 0 18px; border-bottom: 1px solid var(--color-border); }
+.evidence-section .eyebrow { margin-bottom: 10px; }
+.evidence-section sup { margin-left: 3px; color: var(--color-accent); cursor: help; font: 700 9px Inter, sans-serif; }
+.population-primary { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+.population-primary strong { font: 400 25px/1.1 "Noto Serif SC", SimSun, serif; font-variant-numeric: tabular-nums; }
+.population-primary span { color: var(--color-text-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.record-date { margin: 9px 0 3px; color: var(--color-text); font-size: 10px; }
+.population-evidence small, .metric-empty { display: block; color: var(--color-text-muted); font-size: 9px; line-height: 1.55; }
+.tax-evidence .section-heading span { font-family: "Noto Serif SC", SimSun, serif; }
+.tax-ledger { margin: 0; }
+.tax-ledger div { display: grid; grid-template-columns: 46px 1fr; gap: 12px; padding: 7px 0; border-top: 1px solid var(--color-separator); }
+.tax-ledger dt { color: var(--color-accent); font-size: 10px; font-weight: 600; }
+.tax-ledger dd { margin: 0; font: 400 12px/1.6 "Noto Serif SC", SimSun, serif; font-variant-numeric: tabular-nums; }
+.section-heading { display: flex; align-items: center; justify-content: space-between; }
+.section-heading span { color: var(--color-text-muted); font-size: 10px; }
+.jurisdiction { margin-top: 18px; }
+.county-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.county-list button { padding: 5px 9px; border: 1px solid var(--color-border); background: transparent; color: var(--color-text); cursor: pointer; font-size: 10px; }
+.county-list button:hover, .county-list button.is-current { border-color: var(--color-accent); background: var(--color-accent-soft); color: var(--color-accent); }
+.location-summary { margin-top: 18px; padding-top: 15px; border-top: 1px solid var(--color-border); }
+.location-summary strong { font: 500 13px "Noto Serif SC", SimSun, serif; }
+.research-details > p { margin: 0 0 14px; color: var(--color-text-muted); font-size: 10px; line-height: 1.65; }
+.original-amounts { margin: 16px 0; padding: 12px 0; border-top: 1px solid var(--color-separator); }
+.original-amounts p:not(.eyebrow) { margin: 5px 0; color: var(--color-text-muted); font: 400 10px/1.55 "Noto Serif SC", SimSun, serif; }
+
 .facts { margin: 26px 0; }
 .facts div { display: grid; grid-template-columns: 64px 1fr; padding: 10px 0; border-bottom: 1px solid var(--color-separator); font-size: 12px; }
 .facts dt { color: var(--color-text-muted); }
@@ -153,8 +201,8 @@ button { color: inherit; }
 .confidence-dot { display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; background: var(--color-confidence); }
 .method-note { padding: 14px 0; }
 .method-note > p:last-child { margin: 0; color: var(--color-text-muted); font-family: ui-monospace, monospace; font-size: 10px; line-height: 1.55; }
-details { margin-top: 18px; border-top: 1px solid var(--color-border); }
-summary { padding: 16px 0; cursor: pointer; font-size: 12px; font-weight: 700; }
+details { margin-top: 14px; border-top: 1px solid var(--color-border); }
+summary { padding: 13px 0; cursor: pointer; font-size: 12px; font-weight: 700; }
 .source { padding: 12px 0; border-top: 1px solid var(--color-separator); }
 .source h3 { margin: 0 0 5px; font: 600 13px "Noto Serif SC", SimSun, serif; }
 .source p, .source small { margin: 0; color: var(--color-text-muted); font-size: 10px; line-height: 1.5; }
@@ -196,7 +244,7 @@ summary { padding: 16px 0; cursor: pointer; font-size: 12px; font-weight: 700; }
   .search-wrap { position: absolute; top: 72px; left: 0; right: 0; }
   .search-wrap input { background: var(--color-panel-mobile); backdrop-filter: blur(18px); }
   .mobile-control { display: block; padding: 8px 10px; border: 1px solid var(--color-border); background: transparent; font-size: 11px; }
-  .left-panel, .detail-panel { position: fixed; top: auto; left: 10px; right: 10px; bottom: 10px; width: auto; max-height: 68vh; padding: 24px; transform: translateY(calc(100% + 20px)); transition: transform 220ms ease; }
+  .left-panel, .detail-panel { position: fixed; top: auto; left: 10px; right: 10px; bottom: 10px; width: auto; max-height: 68vh; padding: 24px; overflow-y: auto; transform: translateY(calc(100% + 20px)); transition: transform 220ms ease; }
   .left-panel.is-open, .detail-panel.is-open { transform: translateY(0); }
   .panel-close { display: block; }
   .timeline { bottom: 10px; width: calc(100% - 20px); min-width: 0; }

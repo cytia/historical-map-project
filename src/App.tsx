@@ -1,34 +1,31 @@
 import { lazy, Suspense, useMemo } from "react";
-import { getRegionSummary, getSources, regions, seats } from "./data";
+import { AdministrativeDetailPanel } from "./AdministrativeDetailPanel";
+import { counties, getRegionSummary, regions, seats } from "./data";
 import { useAppStore } from "./store";
 
 const MapView = lazy(() =>
   import("./MapView").then((module) => ({ default: module.MapView })),
 );
 
-const levelLabel = {
-  prefecture: "府",
-  department: "直隶州",
-};
-
 export default function App() {
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
+  const selectedCountyId = useAppStore((state) => state.selectedCountyId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const hoveredRegionId = useAppStore((state) => state.hoveredRegionId);
   const searchQuery = useAppStore((state) => state.searchQuery);
   const sidebarOpen = useAppStore((state) => state.sidebarOpen);
-  const detailsOpen = useAppStore((state) => state.detailsOpen);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
   const selectUnit = useAppStore((state) => state.selectUnit);
+  const selectCounty = useAppStore((state) => state.selectCounty);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const setSearchQuery = useAppStore((state) => state.setSearchQuery);
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
-  const setDetailsOpen = useAppStore((state) => state.setDetailsOpen);
   const setSeatsVisible = useAppStore((state) => state.setSeatsVisible);
   const setModernReferenceVisible = useAppStore((state) => state.setModernReferenceVisible);
 
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
+  const selectedCounty = counties.find((record) => record.unit.id === selectedCountyId);
   const displayedRegionId = hoveredRegionId ?? activeRegionId;
   const activeRegion = regions.find((region) => region.id === displayedRegionId);
   const activeRegionSubtitle = activeRegion?.formalName?.replace(activeRegion.name, "");
@@ -36,14 +33,17 @@ export default function App() {
   const results = useMemo(() => {
     const query = searchQuery.trim();
     if (!query) return [];
-    return seats
-      .filter(({ unit, name, region }) =>
+    const seatResults = seats.filter(({ unit, name, region }) =>
         unit.name.includes(query) ||
         name.includes(query) ||
         region.name.includes(query) ||
         region.formalName?.includes(query),
-      )
-      .slice(0, 6);
+      ).map((record) => ({ kind: "seat" as const, record }));
+    const countyResults = counties.filter(({ unit, name, parent, region }) =>
+      unit.name.includes(query) || name.includes(query) ||
+      parent.name.includes(query) || region.name.includes(query),
+    ).map((record) => ({ kind: "county" as const, record }));
+    return [...seatResults, ...countyResults].slice(0, 6);
   }, [searchQuery]);
 
   return (
@@ -67,21 +67,25 @@ export default function App() {
             id="place-search"
             value={searchQuery}
             onChange={(event) => setSearchQuery(event.target.value)}
-            placeholder="搜索府、州或治所"
+            placeholder="搜索府、州、县或治所"
           />
           {results.length > 0 && (
             <div className="search-results">
-              {results.map((record) => (
+              {results.map(({ kind, record }) => (
                 <button
                   key={record.unit.id}
                   onClick={() => {
-                    setActiveRegion(record.region.id);
-                    selectUnit(record.unit.id);
+                    if (kind === "county") {
+                      selectCounty(record.unit.id, record.parent.id, record.region.id);
+                    } else {
+                      setActiveRegion(record.region.id);
+                      selectUnit(record.unit.id);
+                    }
                     setSearchQuery("");
                   }}
                 >
                   <span>{record.unit.name}</span>
-                  <small>{record.name}</small>
+                  <small>{kind === "county" ? `${record.parent.name} · ${record.name}` : record.name}</small>
                 </button>
               ))}
             </div>
@@ -132,42 +136,7 @@ export default function App() {
         )}
       </aside>
 
-      {selected && (
-        <aside className={`detail-panel ${detailsOpen ? "is-open" : ""}`}>
-          <button className="panel-close" onClick={() => setDetailsOpen(false)} aria-label="关闭地点详情">×</button>
-          <p className="eyebrow">{levelLabel[selected.unit.level as keyof typeof levelLabel]}</p>
-          <h2>{selected.unit.name}</h2>
-          <p className="seat-line">治所 · {selected.name}</p>
-          <dl className="facts">
-            <div>
-              <dt>所属</dt>
-              <dd className="region-reference">
-                <span>{selected.region.name}</span>
-                {selected.region.formalName && (
-                  <small>{selected.region.formalName.replace(selected.region.name, "")}</small>
-                )}
-              </dd>
-            </div>
-            <div><dt>时间</dt><dd>公元 1600 年</dd></div>
-            <div><dt>定位</dt><dd><span className="confidence-dot" />约略位置</dd></div>
-            <div><dt>坐标</dt><dd>{selected.place.longitude?.toFixed(5)}, {selected.place.latitude?.toFixed(5)}</dd></div>
-          </dl>
-          <div className="method-note">
-            <p className="eyebrow">定位说明</p>
-            <p>{selected.place.locationMethod}</p>
-          </div>
-          <details>
-            <summary>资料来源与许可</summary>
-            {getSources(selected).map((source) => (
-              <article className="source" key={source.id}>
-                <h3>{source.title}</h3>
-                <p>{source.citation}</p>
-                <small>{source.license}</small>
-              </article>
-            ))}
-          </details>
-        </aside>
-      )}
+      <AdministrativeDetailPanel seat={selected} county={selectedCounty} />
 
       <footer className="timeline">
         <span>1368</span>

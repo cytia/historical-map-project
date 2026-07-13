@@ -1,5 +1,5 @@
 import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
-import { seats } from "./data";
+import { getTopLevelUnitId, seats, topLevelSeats } from "./data";
 import { defaultTheme } from "./theme";
 
 const tokens = defaultTheme.map;
@@ -15,7 +15,7 @@ export function stopRelationAnimation(map: Map) {
   animationFrames.delete(map);
 }
 
-function curvedCoordinates(from: [number, number], to: [number, number]) {
+export function curvedCoordinates(from: [number, number], to: [number, number]) {
   const dx = to[0] - from[0];
   const dy = to[1] - from[1];
   const bend = Math.min(Math.hypot(dx, dy) * 0.08, 0.42);
@@ -36,14 +36,15 @@ function curvedCoordinates(from: [number, number], to: [number, number]) {
 }
 
 function relationData(selectedUnitId: string | null): GeoJSON.FeatureCollection<GeoJSON.LineString> {
-  const selected = seats.find(({ unit }) => unit.id === selectedUnitId);
+  const topLevelUnitId = getTopLevelUnitId(selectedUnitId);
+  const selected = seats.find(({ unit }) => unit.id === topLevelUnitId);
   const capital = seats.find(({ place }) => place.id === selected?.region.seatPlaceId);
   if (!selected || !capital) return { type: "FeatureCollection", features: [] };
   const capitalPoint: [number, number] = [capital.place.longitude!, capital.place.latitude!];
 
   return {
     type: "FeatureCollection",
-    features: seats
+    features: topLevelSeats
       .filter(({ region, place }) => region.id === selected.region.id && place.id !== capital.place.id)
       .map(({ unit, place }) => ({
         type: "Feature",
@@ -51,13 +52,13 @@ function relationData(selectedUnitId: string | null): GeoJSON.FeatureCollection<
           type: "LineString",
           coordinates: curvedCoordinates([place.longitude!, place.latitude!], capitalPoint),
         },
-        properties: { id: unit.id, selected: unit.id === selectedUnitId },
+        properties: { id: unit.id, selected: unit.id === topLevelUnitId },
       })),
   };
 }
 
 function capitalData(selectedUnitId: string | null): GeoJSON.FeatureCollection<GeoJSON.Point> {
-  const selected = seats.find(({ unit }) => unit.id === selectedUnitId);
+  const selected = seats.find(({ unit }) => unit.id === getTopLevelUnitId(selectedUnitId));
   const capital = seats.find(({ place }) => place.id === selected?.region.seatPlaceId);
   if (!selected || !capital) return { type: "FeatureCollection", features: [] };
   return { type: "FeatureCollection", features: [{ type: "Feature", properties: {}, geometry: {
@@ -126,7 +127,7 @@ export function addRelationLayers(map: Map, selectedUnitId: string | null, visib
 }
 
 export function setRelationSelection(map: Map, selectedUnitId: string | null) {
-  const selected = seats.find(({ unit }) => unit.id === selectedUnitId);
+  const selected = seats.find(({ unit }) => unit.id === getTopLevelUnitId(selectedUnitId));
   const source = map.getSource(sourceId) as GeoJSONSource | undefined;
   const flowSource = map.getSource(flowSourceId) as GeoJSONSource | undefined;
   const capitalSource = map.getSource(capitalSourceId) as GeoJSONSource | undefined;

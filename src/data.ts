@@ -1,15 +1,37 @@
 import projectData from "../data/project.json";
-import type { ProjectData, SeatRecord } from "./types";
-import { buildAdministrativeData, summarizeRegion } from "./administrativeData";
+import type { CountyRecord, ProjectData, SeatRecord } from "./types";
+import { buildAdministrativeData, findTopLevelUnitId, summarizeRegion } from "./administrativeData";
 
 export const data = projectData as ProjectData;
 
 const administrativeData = buildAdministrativeData(data);
 export const regions = administrativeData.regionsWithSeats;
 export const seats: SeatRecord[] = administrativeData.seats;
+export const counties: CountyRecord[] = administrativeData.counties;
+export const topLevelSeats = seats.filter(({ unit, region }) => unit.parentId === region.id);
+export const getTopLevelUnitId = (unitId: string | null) =>
+  findTopLevelUnitId(administrativeData.unitsById, unitId);
+export const isDescendantOf = (unitId: string, ancestorId: string) => {
+  let current = administrativeData.unitsById.get(unitId);
+  while (current?.parentId) {
+    if (current.parentId === ancestorId) return true;
+    current = administrativeData.unitsById.get(current.parentId);
+  }
+  return false;
+};
+export const getStatistics = (unitId: string) =>
+  data.statistics.filter((record) => record.administrativeUnitId === unitId);
 export const getRegionSummary = (regionId: string | null) => summarizeRegion(seats, regionId);
 
 export function getSources(record: SeatRecord): ProjectData["sources"] {
+  const ids = new Set([
+    ...record.unit.sources.map((source) => source.sourceId),
+    ...record.place.sources.map((source) => source.sourceId),
+  ]);
+  return data.sources.filter((source) => ids.has(source.id));
+}
+
+export function getCountySources(record: CountyRecord): ProjectData["sources"] {
   const ids = new Set([
     ...record.unit.sources.map((source) => source.sourceId),
     ...record.place.sources.map((source) => source.sourceId),
