@@ -129,6 +129,17 @@ export function setCountySelection(map: Map, parentId: string | null, selectedCo
     ["==", ["get", "kind"], "department"], tokens.seat, tokens.county]);
 }
 
+export function clearCountySelection(map: Map) {
+  const countySource = map.getSource(sourceId) as GeoJSONSource | undefined;
+  const relationSource = map.getSource(relationSourceId) as GeoJSONSource | undefined;
+  const previousTimer = clearTimers.get(map);
+  if (previousTimer !== undefined) window.clearTimeout(previousTimer);
+  clearTimers.delete(map);
+  setOpacity(map, 0);
+  countySource?.setData(expandedData(null));
+  relationSource?.setData(relationData(null));
+}
+
 export function setCountyVisibility(map: Map, visible: boolean) {
   layerIds.forEach((id) => {
     if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", visible ? "visible" : "none");

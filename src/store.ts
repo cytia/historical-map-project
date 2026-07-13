@@ -12,6 +12,7 @@ interface AppState {
   modernReferenceVisible: boolean;
   selectUnit: (id: string | null) => void;
   selectCounty: (countyId: string, parentId: string, regionId: string) => void;
+  resetSelection: () => void;
   setActiveRegion: (id: string | null) => void;
   setHoveredRegion: (id: string | null) => void;
   setSearchQuery: (query: string) => void;
@@ -35,6 +36,13 @@ export const useAppStore = create<AppState>((set) => ({
     set({ selectedUnitId, selectedCountyId: null, detailsOpen: selectedUnitId !== null }),
   selectCounty: (selectedCountyId, selectedUnitId, activeRegionId) =>
     set({ selectedCountyId, selectedUnitId, activeRegionId, detailsOpen: true }),
+  resetSelection: () => set({
+    selectedUnitId: null,
+    selectedCountyId: null,
+    activeRegionId: null,
+    hoveredRegionId: null,
+    detailsOpen: false,
+  }),
   setActiveRegion: (activeRegionId) => set({
     activeRegionId,
     selectedUnitId: null,

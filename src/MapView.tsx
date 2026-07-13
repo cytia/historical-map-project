@@ -1,14 +1,17 @@
 import { useEffect, useRef } from "react";
 import maplibregl, {
   type MapLayerMouseEvent,
-  type MapMouseEvent,
   type StyleSpecification,
 } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { getTopLevelUnitId, seats } from "./data";
 import { addCountyLayers } from "./countyLayers";
 import { createNaturalReferenceStyle, modernReferenceStyleUrl, paperStyle } from "./mapConfig";
-import { updateMapSelection } from "./mapSelection";
+import {
+  createSelectionPointerController,
+  selectionClickTolerance,
+} from "./mapSelectionInteraction";
+import { clearMapSelection, updateMapSelection } from "./mapSelection";
 import {
   addRelationLayers,
   setRelationSelection,
@@ -31,6 +34,7 @@ export function MapView() {
   const hoveredRegionRef = useRef<string | null>(null);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const selectCounty = useAppStore((state) => state.selectCounty);
+  const resetSelection = useAppStore((state) => state.resetSelection);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const setHoveredRegion = useAppStore((state) => state.setHoveredRegion);
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
@@ -49,7 +53,7 @@ export function MapView() {
       zoom: 5.1,
       minZoom: 4,
       maxZoom: 10,
-      clickTolerance: 8,
+      clickTolerance: selectionClickTolerance,
       attributionControl: false,
       style: paperStyle,
     });
@@ -71,31 +75,21 @@ export function MapView() {
       setRelationSelection(map, state.selectedUnitId);
     });
 
-    const handleClick = (event: MapMouseEvent) => {
-      let feature: ReturnType<typeof map.queryRenderedFeatures>[number] | undefined;
-      if (map.getLayer("seat-points")) {
-        try {
-          const layers = map.getLayer("county-points") ? ["county-points", "seat-points"] : ["seat-points"];
-          feature = map.queryRenderedFeatures(event.point, { layers })[0];
-        } catch {
-          // Style replacement can remove the layer between the existence check and the query.
+    const stopSelectionPointerController = createSelectionPointerController(
+      map, () => {
+        hoveredRegionRef.current = null;
+        clearMapSelection(map);
+        resetSelection();
+      },
+      (target) => {
+        if (target.kind === "county") {
+          selectCounty(target.id, target.parentId, target.regionId);
+        } else {
+          setActiveRegion(target.regionId);
+          selectUnit(target.id);
         }
-      }
-      const id = feature?.properties?.id;
-      const regionId = feature?.properties?.regionId;
-      const parentId = feature?.properties?.parentId;
-      if (feature?.properties?.kind === "county" && typeof id === "string" &&
-        typeof parentId === "string" && typeof regionId === "string") {
-        selectCounty(id, parentId, regionId);
-        return;
-      }
-      if (typeof id === "string" && typeof regionId === "string") {
-        setActiveRegion(regionId);
-        selectUnit(id);
-        return;
-      }
-      setActiveRegion(null);
-    };
+      },
+    );
     const handleHover = (event: MapLayerMouseEvent) => {
       const feature = event.features?.[0];
       const regionId = feature?.properties?.regionId;
@@ -109,7 +103,6 @@ export function MapView() {
       setSeatFocusTransition(map, mapTokens.seatFocusFadeInDurationMs);
       setSeatFocus(map, getTopLevelUnitId(state.selectedUnitId), selectedRegion ?? hoveredRegionRef.current ?? state.activeRegionId);
     };
-    map.on("click", handleClick);
     map.on("mousemove", "seat-points", handleHover);
     map.on("mouseenter", "seat-points", () => {
       map.getCanvas().style.cursor = "pointer";
@@ -134,11 +127,12 @@ export function MapView() {
 
     mapRef.current = map;
     return () => {
+      stopSelectionPointerController();
       stopRelationAnimation(map);
       map.remove();
       mapRef.current = null;
     };
-  }, [selectCounty, selectUnit, setActiveRegion, setHoveredRegion]);
+  }, [resetSelection, selectCounty, selectUnit, setActiveRegion, setHoveredRegion]);
 
   useEffect(() => {
     const map = mapRef.current;

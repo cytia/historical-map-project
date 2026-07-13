@@ -114,6 +114,14 @@ test("clears selection after slight pointer movement on empty map", async ({ pag
   await page.mouse.move(652, 300);
   await page.mouse.up();
   await expect(page.getByRole("heading", { name: "句容县" })).toBeVisible();
+
+  const detailBounds = await page.locator(".detail-panel").boundingBox();
+  expect(detailBounds).not.toBeNull();
+  await page.mouse.move(detailBounds!.x - 3, detailBounds!.y + 100);
+  await page.mouse.down();
+  await page.mouse.move(detailBounds!.x + 2, detailBounds!.y + 100);
+  await page.mouse.up();
+  await expect(page.getByRole("heading", { name: "句容县" })).toHaveCount(0);
 });
 
 test("shows Yingtian statistics and opens a county from its jurisdiction", async ({ page, isMobile }) => {

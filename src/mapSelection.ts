@@ -1,5 +1,5 @@
 import type { Map } from "maplibre-gl";
-import { setCountySelection } from "./countyLayers";
+import { clearCountySelection, setCountySelection } from "./countyLayers";
 import { counties, seats } from "./data";
 import { getTopLevelUnitId } from "./data";
 import { setRelationSelection } from "./relationLayers";
@@ -24,4 +24,11 @@ export function updateMapSelection(map: Map, options: {
     zoom: Math.max(map.getZoom(), 6.2),
     duration: 650,
   });
+}
+
+export function clearMapSelection(map: Map) {
+  map.stop();
+  setSeatFocus(map, null, null);
+  setRelationSelection(map, null);
+  clearCountySelection(map);
 }
