@@ -97,7 +97,7 @@ button { color: inherit; }
   background: var(--color-panel);
   backdrop-filter: blur(18px);
 }
-.left-panel { left: 18px; }
+.left-panel { left: 18px; width: 288px; }
 .detail-panel {
   right: 18px;
   width: 318px;
@@ -143,6 +143,45 @@ button { color: inherit; }
 .layer-toggle.is-disabled { color: var(--color-disabled-text); }
 .layer-toggle.is-disabled i { background: var(--color-disabled-mark); }
 .layer-note { margin: 10px 0 0; color: var(--color-text-muted); font-size: 10px; line-height: 1.55; }
+.layer-panel {
+  position: absolute;
+  z-index: 3;
+  left: 18px;
+  bottom: 18px;
+  width: 288px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0 16px;
+  border: 1px solid var(--color-border);
+  background: var(--color-panel);
+  backdrop-filter: blur(18px);
+}
+.layer-panel .eyebrow { flex: 0 0 auto; margin: 0; }
+.layer-panel .layer-toggle { flex: 0 0 auto; gap: 6px; padding: 0; border: 0; white-space: nowrap; }
+.layer-panel .layer-toggle i { display: none; }
+
+.scope-section { margin-top: 20px; padding-top: 17px; border-top: 1px solid var(--color-border); }
+.scope-section .eyebrow { margin-bottom: 8px; }
+.scope-primary { display: block; font: 400 24px/1.15 "Noto Serif SC", SimSun, serif; font-variant-numeric: tabular-nums; }
+.scope-secondary { margin: 7px 0 4px; color: var(--color-text-muted); font-size: 11px; }
+.scope-section small { color: var(--color-text-muted); font-size: 9px; }
+.scope-tax { margin: 0; }
+.scope-tax div { display: grid; grid-template-columns: 42px 1fr; gap: 10px; padding: 6px 0; border-top: 1px solid var(--color-separator); }
+.scope-tax dt { color: var(--color-accent); font-size: 10px; font-weight: 600; }
+.scope-tax dd { margin: 0; font: 400 11px/1.5 "Noto Serif SC", SimSun, serif; }
+.scope-unit-list { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+.scope-unit-list button { padding: 5px 7px; border: 1px solid var(--color-border); background: transparent; cursor: pointer; font-size: 9px; }
+.scope-unit-list button:hover { border-color: var(--color-accent); color: var(--color-accent); background: var(--color-accent-soft); }
+.scope-peer-regions > summary { padding: 0; list-style: none; }
+.scope-peer-regions > summary::-webkit-details-marker { display: none; }
+.scope-peer-regions .eyebrow { margin: 0; }
+.scope-peer-count::after { content: "⌄"; display: inline-block; margin-left: 7px; color: var(--color-accent); font-size: 13px; transition: transform 160ms ease; }
+.scope-peer-regions[open] .scope-peer-count::after { transform: rotate(180deg); }
+.scope-details p { margin: 0 0 8px; color: var(--color-text-muted); font-size: 9px; line-height: 1.6; }
+.scope-details small { color: var(--color-text-muted); font-size: 9px; }
 
 .administrative-path { margin: 5px 0 0; color: var(--color-text-muted); font-size: 11px; }
 .return-prefecture {
@@ -248,6 +287,8 @@ summary { padding: 13px 0; cursor: pointer; font-size: 12px; font-weight: 700; }
   .left-panel.is-open, .detail-panel.is-open { transform: translateY(0); }
   .panel-close { display: block; }
   .timeline { bottom: 10px; width: calc(100% - 20px); min-width: 0; }
+  .layer-panel { top: 144px; bottom: auto; left: 10px; width: calc(100% - 20px); height: 48px; justify-content: space-between; gap: 8px; padding: 0 12px; }
+  .layer-panel .layer-toggle { font-size: 10px; }
   .map-note { display: none; }
   .maplibregl-ctrl-bottom-right { bottom: 66px; }
 }

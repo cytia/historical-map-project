@@ -1,6 +1,8 @@
 import { lazy, Suspense, useMemo } from "react";
 import { AdministrativeDetailPanel } from "./AdministrativeDetailPanel";
-import { counties, getRegionSummary, regions, seats } from "./data";
+import { counties, regions, seats } from "./data";
+import { LayerPanel } from "./LayerPanel";
+import { ScopePanel } from "./ScopePanel";
 import { useAppStore } from "./store";
 
 const MapView = lazy(() =>
@@ -13,23 +15,17 @@ export default function App() {
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const hoveredRegionId = useAppStore((state) => state.hoveredRegionId);
   const searchQuery = useAppStore((state) => state.searchQuery);
-  const sidebarOpen = useAppStore((state) => state.sidebarOpen);
-  const seatsVisible = useAppStore((state) => state.seatsVisible);
-  const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const selectCounty = useAppStore((state) => state.selectCounty);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const setSearchQuery = useAppStore((state) => state.setSearchQuery);
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
-  const setSeatsVisible = useAppStore((state) => state.setSeatsVisible);
-  const setModernReferenceVisible = useAppStore((state) => state.setModernReferenceVisible);
 
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
   const selectedCounty = counties.find((record) => record.unit.id === selectedCountyId);
-  const displayedRegionId = hoveredRegionId ?? activeRegionId;
-  const activeRegion = regions.find((region) => region.id === displayedRegionId);
-  const activeRegionSubtitle = activeRegion?.formalName?.replace(activeRegion.name, "");
-  const summary = getRegionSummary(displayedRegionId);
+  const panelRegion = regions.find(
+    (region) => region.id === (hoveredRegionId ?? activeRegionId),
+  );
   const results = useMemo(() => {
     const query = searchQuery.trim();
     if (!query) return [];
@@ -93,48 +89,12 @@ export default function App() {
         </div>
 
         <button className="mobile-control" onClick={() => setSidebarOpen(true)}>
-          图层与时期
+          全国与省级资料
         </button>
       </header>
 
-      <aside className={`left-panel ${sidebarOpen ? "is-open" : ""}`}>
-        <button className="panel-close" onClick={() => setSidebarOpen(false)} aria-label="关闭控制面板">×</button>
-        <p className="eyebrow">当前时间切片</p>
-        <div className="year-display"><strong>1600</strong><span>公元</span></div>
-        <div className="rule" />
-        <p className="eyebrow">行政范围</p>
-        <div className="region-heading">
-          <h2 className="region-title">{activeRegion?.name ?? "两京十三司"}</h2>
-          {activeRegionSubtitle && <p className="region-formal-name">{activeRegionSubtitle}</p>}
-        </div>
-        <p className="muted">{summary.prefectures} 府 · {summary.departments} 直隶州 · {summary.seats} 治所</p>
-        <div className="notice">
-          <span>边界资料整理中</span>
-          <p>当前仅展示已校勘治所点，不以插值范围代替历史行政边界。</p>
-        </div>
-        <div className="rule" />
-        <p className="eyebrow">图层</p>
-        <label className="layer-toggle">
-          <input
-            type="checkbox"
-            checked={seatsVisible}
-            onChange={(event) => setSeatsVisible(event.target.checked)}
-          />
-          <span>府州治所</span><i />
-        </label>
-        <label className="layer-toggle is-disabled"><input type="checkbox" disabled /><span>行政边界</span><i /></label>
-        <label className="layer-toggle">
-          <input
-            type="checkbox"
-            checked={modernReferenceVisible}
-            onChange={(event) => setModernReferenceVisible(event.target.checked)}
-          />
-          <span>山川地貌</span><i />
-        </label>
-        {modernReferenceVisible && (
-          <p className="layer-note">现代自然地理参考，不代表公元 1600 年河道与地貌状态。</p>
-        )}
-      </aside>
+      <ScopePanel region={panelRegion} />
+      <LayerPanel />
 
       <AdministrativeDetailPanel seat={selected} county={selectedCounty} />
 

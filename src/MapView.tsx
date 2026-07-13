@@ -6,13 +6,12 @@ import maplibregl, {
 } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { getTopLevelUnitId, seats } from "./data";
-import { addCountyLayers, setCountyVisibility } from "./countyLayers";
+import { addCountyLayers } from "./countyLayers";
 import { createNaturalReferenceStyle, modernReferenceStyleUrl, paperStyle } from "./mapConfig";
 import { updateMapSelection } from "./mapSelection";
 import {
   addRelationLayers,
   setRelationSelection,
-  setRelationVisibility,
   stopRelationAnimation,
 } from "./relationLayers";
 import {
@@ -50,6 +49,7 @@ export function MapView() {
       zoom: 5.1,
       minZoom: 4,
       maxZoom: 10,
+      clickTolerance: 8,
       attributionControl: false,
       style: paperStyle,
     });
@@ -65,9 +65,9 @@ export function MapView() {
 
     map.on("style.load", () => {
       const state = useAppStore.getState();
-      addRelationLayers(map, state.selectedUnitId, state.seatsVisible);
+      addRelationLayers(map, state.selectedUnitId, true);
       addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId, state.seatsVisible);
-      addCountyLayers(map, state.selectedUnitId, state.selectedCountyId, state.seatsVisible);
+      addCountyLayers(map, state.selectedUnitId, state.selectedCountyId, true);
       setRelationSelection(map, state.selectedUnitId);
     });
 
@@ -156,8 +156,6 @@ export function MapView() {
     const map = mapRef.current;
     if (map?.isStyleLoaded()) {
       setSeatLayerVisibility(map, seatsVisible);
-      setRelationVisibility(map, seatsVisible);
-      setCountyVisibility(map, seatsVisible);
     }
   }, [seatsVisible]);
 

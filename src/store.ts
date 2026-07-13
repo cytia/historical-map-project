@@ -30,7 +30,7 @@ export const useAppStore = create<AppState>((set) => ({
   sidebarOpen: false,
   detailsOpen: false,
   seatsVisible: true,
-  modernReferenceVisible: false,
+  modernReferenceVisible: true,
   selectUnit: (selectedUnitId) =>
     set({ selectedUnitId, selectedCountyId: null, detailsOpen: selectedUnitId !== null }),
   selectCounty: (selectedCountyId, selectedUnitId, activeRegionId) =>
