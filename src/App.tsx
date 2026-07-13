@@ -14,6 +14,7 @@ const levelLabel = {
 export default function App() {
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
+  const hoveredRegionId = useAppStore((state) => state.hoveredRegionId);
   const searchQuery = useAppStore((state) => state.searchQuery);
   const sidebarOpen = useAppStore((state) => state.sidebarOpen);
   const detailsOpen = useAppStore((state) => state.detailsOpen);
@@ -28,13 +29,19 @@ export default function App() {
   const setModernReferenceVisible = useAppStore((state) => state.setModernReferenceVisible);
 
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
-  const activeRegion = regions.find((region) => region.id === activeRegionId);
-  const summary = getRegionSummary(activeRegionId);
+  const displayedRegionId = hoveredRegionId ?? activeRegionId;
+  const activeRegion = regions.find((region) => region.id === displayedRegionId);
+  const summary = getRegionSummary(displayedRegionId);
   const results = useMemo(() => {
     const query = searchQuery.trim();
     if (!query) return [];
     return seats
-      .filter(({ unit, name }) => unit.name.includes(query) || name.includes(query))
+      .filter(({ unit, name, region }) =>
+        unit.name.includes(query) ||
+        name.includes(query) ||
+        region.name.includes(query) ||
+        region.formalName?.includes(query),
+      )
       .slice(0, 6);
   }, [searchQuery]);
 
@@ -91,7 +98,7 @@ export default function App() {
         <div className="year-display"><strong>1600</strong><span>公元</span></div>
         <div className="rule" />
         <p className="eyebrow">行政范围</p>
-        <h2 className="region-title">{activeRegion?.name ?? "两京十三布政使司"}</h2>
+        <h2 className="region-title">{activeRegion?.formalName ?? activeRegion?.name ?? "两京十三布政使司"}</h2>
         <p className="muted">{summary.prefectures} 府 · {summary.departments} 直隶州 · {summary.seats} 治所</p>
         <div className="notice">
           <span>边界资料整理中</span>
@@ -128,7 +135,7 @@ export default function App() {
           <h2>{selected.unit.name}</h2>
           <p className="seat-line">治所 · {selected.name}</p>
           <dl className="facts">
-            <div><dt>所属</dt><dd>{selected.region.name}</dd></div>
+            <div><dt>所属</dt><dd>{selected.region.formalName ?? selected.region.name}</dd></div>
             <div><dt>时间</dt><dd>公元 1600 年</dd></div>
             <div><dt>定位</dt><dd><span className="confidence-dot" />约略位置</dd></div>
             <div><dt>坐标</dt><dd>{selected.place.longitude?.toFixed(5)}, {selected.place.latitude?.toFixed(5)}</dd></div>

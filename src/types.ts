@@ -19,6 +19,7 @@ export interface Source {
 export interface AdministrativeUnit {
   id: string;
   name: string;
+  formalName?: string;
   level: "capital-region" | "province" | "prefecture" | "department";
   parentId?: string;
   seatPlaceId?: string;

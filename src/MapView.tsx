@@ -7,9 +7,23 @@ import maplibregl, {
 import "maplibre-gl/dist/maplibre-gl.css";
 import { seats } from "./data";
 import { createNaturalReferenceStyle, modernReferenceStyleUrl, paperStyle } from "./mapConfig";
-import { addSeatLayers, setSeatLayerVisibility, setSeatFocus } from "./seatLayers";
+import {
+  addRelationLayers,
+  setRelationSelection,
+  setRelationVisibility,
+  stopRelationAnimation,
+} from "./relationLayers";
+import {
+  addSeatLayers,
+  setSeatFocus,
+  setSeatFocusTransition,
+  setSeatLayerVisibility,
+} from "./seatLayers";
 import { useAppStore } from "./store";
 import { addTerrainStyle, ensureTerrainProtocol } from "./terrain";
+import { defaultTheme } from "./theme";
+
+const mapTokens = defaultTheme.map;
 
 export function MapView() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -17,6 +31,7 @@ export function MapView() {
   const hoveredRegionRef = useRef<string | null>(null);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
+  const setHoveredRegion = useAppStore((state) => state.setHoveredRegion);
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
@@ -47,11 +62,20 @@ export function MapView() {
 
     map.on("style.load", () => {
       const state = useAppStore.getState();
+      addRelationLayers(map, state.selectedUnitId, state.seatsVisible);
       addSeatLayers(map, state.selectedUnitId, state.activeRegionId, state.seatsVisible);
+      setRelationSelection(map, state.selectedUnitId);
     });
 
     const handleClick = (event: MapMouseEvent) => {
-      const feature = map.queryRenderedFeatures(event.point, { layers: ["seat-points"] })[0];
+      let feature: ReturnType<typeof map.queryRenderedFeatures>[number] | undefined;
+      if (map.getLayer("seat-points")) {
+        try {
+          feature = map.queryRenderedFeatures(event.point, { layers: ["seat-points"] })[0];
+        } catch {
+          // Style replacement can remove the layer between the existence check and the query.
+        }
+      }
       const id = feature?.properties?.id;
       const regionId = feature?.properties?.regionId;
       if (typeof id === "string" && typeof regionId === "string") {
@@ -64,9 +88,14 @@ export function MapView() {
     const handleHover = (event: MapLayerMouseEvent) => {
       const feature = event.features?.[0];
       const regionId = feature?.properties?.regionId;
-      hoveredRegionRef.current = typeof regionId === "string" ? regionId : null;
+      const hoveredRegionId = typeof regionId === "string" ? regionId : null;
+      if (hoveredRegionRef.current !== hoveredRegionId) {
+        hoveredRegionRef.current = hoveredRegionId;
+        setHoveredRegion(hoveredRegionId);
+      }
       const state = useAppStore.getState();
       const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.unit.parentId;
+      setSeatFocusTransition(map, mapTokens.seatFocusFadeInDurationMs);
       setSeatFocus(map, state.selectedUnitId, selectedRegion ?? hoveredRegionRef.current ?? state.activeRegionId);
     };
     map.on("click", handleClick);
@@ -76,18 +105,23 @@ export function MapView() {
     });
     map.on("mouseleave", "seat-points", () => {
       map.getCanvas().style.cursor = "";
-      hoveredRegionRef.current = null;
+      if (hoveredRegionRef.current !== null) {
+        hoveredRegionRef.current = null;
+        setHoveredRegion(null);
+      }
       const state = useAppStore.getState();
       const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.unit.parentId;
+      setSeatFocusTransition(map, mapTokens.seatFocusFadeOutDurationMs);
       setSeatFocus(map, state.selectedUnitId, selectedRegion ?? state.activeRegionId);
     });
 
     mapRef.current = map;
     return () => {
+      stopRelationAnimation(map);
       map.remove();
       mapRef.current = null;
     };
-  }, [selectUnit, setActiveRegion]);
+  }, [selectUnit, setActiveRegion, setHoveredRegion]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -95,6 +129,7 @@ export function MapView() {
 
     const selectedRegion = seats.find(({ unit }) => unit.id === selectedUnitId)?.unit.parentId;
     setSeatFocus(map, selectedUnitId, selectedRegion ?? hoveredRegionRef.current ?? activeRegionId);
+    setRelationSelection(map, selectedUnitId);
 
     const selected = seats.find((record) => record.unit.id === selectedUnitId);
     if (selected) {
@@ -108,7 +143,10 @@ export function MapView() {
 
   useEffect(() => {
     const map = mapRef.current;
-    if (map?.isStyleLoaded()) setSeatLayerVisibility(map, seatsVisible);
+    if (map?.isStyleLoaded()) {
+      setSeatLayerVisibility(map, seatsVisible);
+      setRelationVisibility(map, seatsVisible);
+    }
   }, [seatsVisible]);
 
   useEffect(() => {
@@ -117,6 +155,7 @@ export function MapView() {
     const controller = new AbortController();
 
     if (!modernReferenceVisible) {
+      stopRelationAnimation(map);
       map.setStyle(paperStyle);
       return () => controller.abort();
     }
@@ -126,18 +165,20 @@ export function MapView() {
         if (!response.ok) throw new Error(`Style request failed: ${response.status}`);
         return response.json() as Promise<StyleSpecification>;
       })
-      .then((style) =>
+      .then((style) => {
+        stopRelationAnimation(map);
         map.setStyle(
           addTerrainStyle(
             createNaturalReferenceStyle(style),
             import.meta.env.VITE_TERRAIN_URL,
           ),
-        ),
-      )
+        );
+      })
       .catch(() => {
         if (controller.signal.aborted) return;
         console.warn("Modern reference map failed to load; using the paper map.");
         useAppStore.getState().setModernReferenceVisible(false);
+        stopRelationAnimation(map);
         map.setStyle(paperStyle);
       });
 

@@ -57,6 +57,7 @@ pub enum Redistribution {
 pub struct Polity {
     pub id: String,
     pub name: String,
+    pub formal_name: Option<String>,
     pub validity: YearRange,
     pub confidence: Confidence,
     pub sources: Vec<SourceLink>,
@@ -68,6 +69,7 @@ pub struct Polity {
 pub struct AdministrativeUnit {
     pub id: String,
     pub name: String,
+    pub formal_name: Option<String>,
     pub level: AdministrativeLevel,
     pub polity_id: String,
     pub parent_id: Option<String>,
