@@ -152,23 +152,6 @@ export function setCountySelection(map: Map, selection: CountyLayerSelection) {
     ["==", ["get", "kind"], "department"], tokens.seat, tokens.county]);
 }
 
-export function clearCountySelection(map: Map) {
-  const countySource = map.getSource(sourceId) as GeoJSONSource | undefined;
-  const relationSource = map.getSource(relationSourceId) as GeoJSONSource | undefined;
-  const previousTimer = clearTimers.get(map);
-  if (previousTimer !== undefined) window.clearTimeout(previousTimer);
-  clearTimers.delete(map);
-  setOpacity(map, false);
-  const emptySelection: CountyLayerSelection = {
-    selectedUnitId: null,
-    selectedCountyId: null,
-    regionId: null,
-    scope: "prefecture",
-  };
-  countySource?.setData(expandedData(emptySelection));
-  relationSource?.setData(relationData(emptySelection));
-}
-
 export function setCountyVisibility(map: Map, visible: boolean) {
   layerIds.forEach((id) => {
     if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", visible ? "visible" : "none");

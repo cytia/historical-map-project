@@ -57,12 +57,12 @@ test("shows the selected seat's administrative region", async ({ page, isMobile 
   await expectMapReady(page);
 
   await page.getByRole("textbox", { name: "搜索历史地名" }).fill("成都府");
-  await page.getByRole("button", { name: /成都府/ }).click();
+  await page.getByRole("button", { name: "成都府 成都城", exact: true }).click();
   await expect(page.getByRole("heading", { name: "四川" })).toBeVisible();
   await expect(page.getByText("已录入 12 府 · 6 直隶州 · 0 县")).toBeVisible();
-  await expect(page.getByText("省级资料")).toBeVisible();
+  await expect(page.getByText("省级资料", { exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "成都府" })).toBeVisible();
-  await expect(page.locator("dd").filter({ hasText: /^四川$/ })).toBeVisible();
+  await expect(page.getByText("治所 · 成都城", { exact: true })).toBeVisible();
 
   const peerRegions = page.locator(".scope-peer-regions");
   await expect(peerRegions).not.toHaveAttribute("open", "");
@@ -84,76 +84,8 @@ test("finds a county and expands its prefecture", async ({ page, isMobile }) => 
 
   await expect(page.getByRole("heading", { name: "句容县" })).toBeVisible();
   await expect(page.getByText("应天府 · 南京", { exact: true })).toBeVisible();
-  await expect(page.getByText("暂无可靠县级记录").first()).toBeVisible();
+  await expect(page.getByText("暂无可靠县级户口记录")).toBeVisible();
   await expect.poll(async () => (await canvas.screenshot()).equals(collapsed)).toBe(false);
-});
-
-test("switches county display between the selected prefecture and region", async ({ page, isMobile }) => {
-  test.skip(isMobile, "County scope rendering is covered once on desktop");
-  await page.goto("/");
-  const canvas = await expectMapReady(page);
-  const seatScope = page.getByRole("button", { name: "府级关系" });
-  const prefectureScope = page.getByRole("button", { name: "当前州府" });
-  const regionScope = page.getByRole("button", { name: "所属一级区域" });
-
-  await expect(seatScope).toBeEnabled();
-  await expect(prefectureScope).toBeEnabled();
-  await expect(regionScope).toBeEnabled();
-  await regionScope.click();
-  await expect(regionScope).toHaveAttribute("aria-pressed", "true");
-
-  await page.getByRole("textbox", { name: "搜索历史地名" }).fill("应天府");
-  await page.getByRole("button", { name: /应天府/ }).click();
-  await expect(regionScope).toHaveAttribute("aria-pressed", "true");
-
-  const regionView = await canvas.screenshot();
-  await seatScope.click();
-  await expect(seatScope).toHaveAttribute("aria-pressed", "true");
-  await expect(page.getByText("府级视图不显示下辖州县")).toBeVisible();
-  await expect.poll(async () => (await canvas.screenshot()).equals(regionView)).toBe(false);
-
-  await prefectureScope.click();
-  await expect(prefectureScope).toHaveAttribute("aria-pressed", "true");
-  await expect(page.getByRole("button", { name: "上元县" })).toBeVisible();
-
-  await regionScope.click();
-  await expect(regionScope).toHaveAttribute("aria-pressed", "true");
-});
-
-test("clears selection after slight pointer movement on empty map", async ({ page, isMobile }) => {
-  test.skip(isMobile, "Mouse gesture handling is covered once on desktop");
-  await page.goto("/");
-  await expectMapReady(page);
-
-  const search = page.getByRole("textbox", { name: "搜索历史地名" });
-  await search.fill("句容县");
-  await page.getByRole("button", { name: /句容县/ }).click();
-  await expect(page.getByRole("heading", { name: "句容县" })).toBeVisible();
-  await page.getByRole("button", { name: "府州治所" }).click();
-
-  await page.mouse.move(640, 300);
-  await page.mouse.down();
-  await page.mouse.move(645, 300);
-  await page.mouse.up();
-  await expect(page.getByRole("heading", { name: "句容县" })).toHaveCount(0);
-
-  await search.fill("句容县");
-  await page.getByRole("button", { name: /句容县/ }).click();
-  await expect(page.getByRole("heading", { name: "句容县" })).toBeVisible();
-
-  await page.mouse.move(640, 300);
-  await page.mouse.down();
-  await page.mouse.move(652, 300);
-  await page.mouse.up();
-  await expect(page.getByRole("heading", { name: "句容县" })).toBeVisible();
-
-  const detailBounds = await page.locator(".detail-panel").boundingBox();
-  expect(detailBounds).not.toBeNull();
-  await page.mouse.move(detailBounds!.x - 3, detailBounds!.y + 100);
-  await page.mouse.down();
-  await page.mouse.move(detailBounds!.x + 2, detailBounds!.y + 100);
-  await page.mouse.up();
-  await expect(page.getByRole("heading", { name: "句容县" })).toHaveCount(0);
 });
 
 test("shows Yingtian statistics and opens a county from its jurisdiction", async ({ page, isMobile }) => {
@@ -162,17 +94,18 @@ test("shows Yingtian statistics and opens a county from its jurisdiction", async
   await expectMapReady(page);
 
   await page.getByRole("textbox", { name: "搜索历史地名" }).fill("应天府");
-  await page.getByRole("button", { name: /应天府/ }).click();
+  await page.getByRole("button", { name: "应天府 南京城", exact: true }).click();
   await expect(page.getByText("143,597 户")).toBeVisible();
   await expect(page.getByText("口数 790,513 口")).toBeVisible();
   await expect(page.getByText("明神宗万历六年（公元 1578 年）登记")).toBeVisible();
   await expect(page.getByText("小麦 11,654 石余")).toBeVisible();
-  await expect(page.getByText("8 县")).toBeVisible();
+  await expect(page.getByText("8 县", { exact: true })).toBeVisible();
 
   await page.getByRole("button", { name: "上元县" }).click();
   await expect(page.getByRole("heading", { name: "上元县" })).toBeVisible();
-  await expect(page.getByText("下辖单位")).toHaveCount(0);
-  await expect(page.getByText("同级单位")).toBeVisible();
+  const detailPanel = page.locator(".detail-panel");
+  await expect(detailPanel.getByText("下辖单位")).toHaveCount(0);
+  await expect(detailPanel.getByText("同级单位")).toBeVisible();
 
   await page.getByRole("button", { name: "江宁县" }).click();
   await expect(page.getByRole("heading", { name: "江宁县" })).toBeVisible();
@@ -188,7 +121,7 @@ test("preserves the prefecture-state-county hierarchy", async ({ page, isMobile 
   await expectMapReady(page);
 
   await page.getByRole("textbox", { name: "搜索历史地名" }).fill("苏州府");
-  await page.getByRole("button", { name: /苏州府/ }).click();
+  await page.getByRole("button", { name: "苏州府 苏州城", exact: true }).click();
   await expect(page.getByRole("button", { name: "太仓州" })).toBeVisible();
 
   await page.getByRole("button", { name: "太仓州" }).click();

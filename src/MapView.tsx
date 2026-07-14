@@ -4,6 +4,7 @@ import maplibregl, {
   type StyleSpecification,
 } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+import { AdministrativeTargetChooser } from "./AdministrativeTargetChooser";
 import { getTopLevelUnitId, seats } from "./data";
 import { addCountyLayers } from "./countyLayers";
 import { createNaturalReferenceStyle, modernReferenceStyleUrl, paperStyle } from "./mapConfig";
@@ -11,7 +12,6 @@ import {
   createSelectionPointerController,
   selectionClickTolerance,
 } from "./mapSelectionInteraction";
-import { clearMapSelection, updateMapSelection } from "./mapSelection";
 import {
   addRelationLayers,
   setRelationSelection,
@@ -20,10 +20,11 @@ import {
 import {
   addSeatLayers,
   setSeatFocus,
-  setSeatLayerVisibility,
 } from "./seatLayers";
 import { useAppStore } from "./store";
 import { addTerrainStyle, ensureTerrainProtocol } from "./terrain";
+import { useAdministrativeTargetChoice } from "./useAdministrativeTargetChoice";
+import { useMapSelectionSync } from "./useMapSelectionSync";
 
 export function MapView() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -40,6 +41,10 @@ export function MapView() {
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
   const administrativeDisplayScope = useAppStore((state) => state.administrativeDisplayScope);
+  const { targetChoice, closeTargetChoice, chooseTargets, applyAdministrativeTarget } =
+    useAdministrativeTargetChoice({ selectCounty, selectUnit, setActiveRegion });
+  useMapSelectionSync({ mapRef, hoveredRegionRef, selectedUnitId, selectedCountyId,
+    activeRegionId, administrativeDisplayScope, seatsVisible });
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -82,18 +87,13 @@ export function MapView() {
 
     const stopSelectionPointerController = createSelectionPointerController(
       map, () => {
+        closeTargetChoice();
         hoveredRegionRef.current = null;
-        clearMapSelection(map);
+        map.stop();
         resetSelection();
       },
-      (target) => {
-        if (target.kind === "county") {
-          selectCounty(target.id, target.parentId, target.regionId);
-        } else {
-          setActiveRegion(target.regionId);
-          selectUnit(target.id);
-        }
-      },
+      applyAdministrativeTarget,
+      chooseTargets,
     );
     const handleHover = (event: MapLayerMouseEvent) => {
       const feature = event.features?.[0];
@@ -135,28 +135,11 @@ export function MapView() {
       map.remove();
       mapRef.current = null;
     };
-  }, [resetSelection, selectCounty, selectUnit, setActiveRegion, setHoveredRegion]);
+  }, [applyAdministrativeTarget, chooseTargets, closeTargetChoice,
+    resetSelection, setHoveredRegion]);
 
-  useEffect(() => {
-    const map = mapRef.current;
-    if (!map?.isStyleLoaded() || !map.getLayer("seat-points")) return;
-
-    const selectedRegion = seats.find(({ unit }) => unit.id === selectedUnitId)?.region.id;
-    updateMapSelection(map, {
-      selectedUnitId,
-      selectedCountyId,
-      focusRegionId: selectedRegion ?? hoveredRegionRef.current ?? activeRegionId,
-      countyRegionId: selectedRegion ?? activeRegionId,
-      administrativeDisplayScope,
-    });
-  }, [selectedUnitId, selectedCountyId, activeRegionId, administrativeDisplayScope]);
-
-  useEffect(() => {
-    const map = mapRef.current;
-    if (map?.isStyleLoaded()) {
-      setSeatLayerVisibility(map, seatsVisible);
-    }
-  }, [seatsVisible]);
+  useEffect(closeTargetChoice, [administrativeDisplayScope, selectedCountyId,
+    selectedUnitId, closeTargetChoice]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -193,5 +176,13 @@ export function MapView() {
 
     return () => controller.abort();
   }, [modernReferenceVisible]);
-  return <div className="map" ref={containerRef} aria-label="公元1600年已录入行政治所地图" />;
+  return <>
+    <div className="map" ref={containerRef} aria-label="公元1600年已录入行政治所地图" />
+    {targetChoice && <AdministrativeTargetChooser
+      anchor={targetChoice.anchor}
+      targets={targetChoice.targets}
+      onClose={closeTargetChoice}
+      onSelect={applyAdministrativeTarget}
+    />}
+  </>;
 }
