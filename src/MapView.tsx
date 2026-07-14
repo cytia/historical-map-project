@@ -20,14 +20,11 @@ import {
 import {
   addSeatLayers,
   setSeatFocus,
-  setSeatFocusTransition,
   setSeatLayerVisibility,
 } from "./seatLayers";
 import { useAppStore } from "./store";
 import { addTerrainStyle, ensureTerrainProtocol } from "./terrain";
-import { defaultTheme } from "./theme";
 
-const mapTokens = defaultTheme.map;
 export function MapView() {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -108,7 +105,6 @@ export function MapView() {
       }
       const state = useAppStore.getState();
       const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.region.id;
-      setSeatFocusTransition(map, mapTokens.seatFocusFadeInDurationMs);
       setSeatFocus(map, getTopLevelUnitId(state.selectedUnitId), selectedRegion ?? hoveredRegionRef.current ?? state.activeRegionId);
     };
     map.on("mousemove", "seat-points", handleHover);
@@ -129,7 +125,6 @@ export function MapView() {
       }
       const state = useAppStore.getState();
       const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.region.id;
-      setSeatFocusTransition(map, mapTokens.seatFocusFadeOutDurationMs);
       setSeatFocus(map, getTopLevelUnitId(state.selectedUnitId), selectedRegion ?? state.activeRegionId);
     });
 
