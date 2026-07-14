@@ -42,6 +42,7 @@ export function MapView() {
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
+  const countyDisplayScope = useAppStore((state) => state.countyDisplayScope);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -69,9 +70,16 @@ export function MapView() {
 
     map.on("style.load", () => {
       const state = useAppStore.getState();
+      const selectedRegionId = seats.find(({ unit }) =>
+        unit.id === state.selectedUnitId)?.region.id ?? state.activeRegionId;
       addRelationLayers(map, state.selectedUnitId, true);
       addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId, state.seatsVisible);
-      addCountyLayers(map, state.selectedUnitId, state.selectedCountyId, true);
+      addCountyLayers(map, {
+        selectedUnitId: state.selectedUnitId,
+        selectedCountyId: state.selectedCountyId,
+        regionId: selectedRegionId,
+        scope: state.countyDisplayScope,
+      }, true);
       setRelationSelection(map, state.selectedUnitId);
     });
 
@@ -143,8 +151,10 @@ export function MapView() {
       selectedUnitId,
       selectedCountyId,
       focusRegionId: selectedRegion ?? hoveredRegionRef.current ?? activeRegionId,
+      countyRegionId: selectedRegion ?? activeRegionId,
+      countyDisplayScope,
     });
-  }, [selectedUnitId, selectedCountyId, activeRegionId]);
+  }, [selectedUnitId, selectedCountyId, activeRegionId, countyDisplayScope]);
 
   useEffect(() => {
     const map = mapRef.current;

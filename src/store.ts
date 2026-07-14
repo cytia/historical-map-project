@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import type { CountyDisplayScope } from "./types";
 
 interface AppState {
   selectedUnitId: string | null;
@@ -10,6 +11,7 @@ interface AppState {
   detailsOpen: boolean;
   seatsVisible: boolean;
   modernReferenceVisible: boolean;
+  countyDisplayScope: CountyDisplayScope;
   selectUnit: (id: string | null) => void;
   selectCounty: (countyId: string, parentId: string, regionId: string) => void;
   resetSelection: () => void;
@@ -20,6 +22,7 @@ interface AppState {
   setDetailsOpen: (open: boolean) => void;
   setSeatsVisible: (visible: boolean) => void;
   setModernReferenceVisible: (visible: boolean) => void;
+  setCountyDisplayScope: (scope: CountyDisplayScope) => void;
 }
 
 export const useAppStore = create<AppState>((set) => ({
@@ -32,6 +35,7 @@ export const useAppStore = create<AppState>((set) => ({
   detailsOpen: false,
   seatsVisible: true,
   modernReferenceVisible: true,
+  countyDisplayScope: "prefecture",
   selectUnit: (selectedUnitId) =>
     set({ selectedUnitId, selectedCountyId: null, detailsOpen: selectedUnitId !== null }),
   selectCounty: (selectedCountyId, selectedUnitId, activeRegionId) =>
@@ -56,4 +60,5 @@ export const useAppStore = create<AppState>((set) => ({
   setSeatsVisible: (seatsVisible) => set({ seatsVisible }),
   setModernReferenceVisible: (modernReferenceVisible) =>
     set({ modernReferenceVisible }),
+  setCountyDisplayScope: (countyDisplayScope) => set({ countyDisplayScope }),
 }));
