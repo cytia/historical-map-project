@@ -1,6 +1,6 @@
 import { lazy, Suspense, useMemo } from "react";
 import { AdministrativeDetailPanel } from "./AdministrativeDetailPanel";
-import { CountyScopeToolbar } from "./CountyScopeToolbar";
+import { AdministrativeScopeToolbar } from "./AdministrativeScopeToolbar";
 import { counties, regions, seats } from "./data";
 import { LayerBar } from "./LayerBar";
 import { ScopePanel } from "./ScopePanel";
@@ -97,7 +97,7 @@ export default function App() {
       </header>
 
       <ScopePanel region={panelRegion} />
-      <CountyScopeToolbar />
+      <AdministrativeScopeToolbar />
 
       <AdministrativeDetailPanel seat={selected} county={selectedCounty} />
 

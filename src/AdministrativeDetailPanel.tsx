@@ -85,13 +85,19 @@ function TaxMetric({ unitId }: { unitId: string }) {
   );
 }
 
-function Jurisdiction({ seat }: { seat: SeatRecord }) {
+function Jurisdiction({ seat, disabled }: { seat: SeatRecord; disabled: boolean }) {
   const selectCounty = useAppStore((state) => state.selectCounty);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const childCounties = counties.filter(({ parent }) => parent.id === seat.unit.id);
   const childStates = seats.filter(({ unit }) => unit.parentId === seat.unit.id);
   const countLabel = [childStates.length && `${childStates.length} 州`, childCounties.length && `${childCounties.length} 县`]
     .filter(Boolean).join(" · ");
+  if (disabled) return (
+    <section className="jurisdiction is-disabled">
+      <div className="section-heading"><p className="eyebrow">下辖单位</p><span>府级模式</span></div>
+      <p className="metric-empty">府级视图不显示下辖州县</p>
+    </section>
+  );
   return (
     <section className="jurisdiction">
       <div className="section-heading"><p className="eyebrow">下辖单位</p><span>{countLabel}</span></div>
@@ -133,6 +139,7 @@ export function AdministrativeDetailPanel({ seat, county }: {
   const detailsOpen = useAppStore((state) => state.detailsOpen);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const setDetailsOpen = useAppStore((state) => state.setDetailsOpen);
+  const administrativeDisplayScope = useAppStore((state) => state.administrativeDisplayScope);
   const record = county ?? seat;
   if (!record) return null;
   const sources = county ? getCountySources(county) : getSources(seat!);
@@ -156,7 +163,8 @@ export function AdministrativeDetailPanel({ seat, county }: {
 
       <PopulationMetric unitId={record.unit.id} />
       <TaxMetric unitId={record.unit.id} />
-      {county ? <PeerCounties county={county} /> : <Jurisdiction seat={seat!} />}
+      {county ? <PeerCounties county={county} /> :
+        <Jurisdiction seat={seat!} disabled={administrativeDisplayScope === "seat"} />}
 
       <section className="location-summary">
         <p className="eyebrow">治所定位</p>

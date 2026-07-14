@@ -39,7 +39,7 @@ export function MapView() {
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
-  const countyDisplayScope = useAppStore((state) => state.countyDisplayScope);
+  const administrativeDisplayScope = useAppStore((state) => state.administrativeDisplayScope);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -75,7 +75,7 @@ export function MapView() {
         selectedUnitId: state.selectedUnitId,
         selectedCountyId: state.selectedCountyId,
         regionId: selectedRegionId,
-        scope: state.countyDisplayScope,
+        scope: state.administrativeDisplayScope,
       }, true);
       setRelationSelection(map, state.selectedUnitId);
     });
@@ -147,9 +147,9 @@ export function MapView() {
       selectedCountyId,
       focusRegionId: selectedRegion ?? hoveredRegionRef.current ?? activeRegionId,
       countyRegionId: selectedRegion ?? activeRegionId,
-      countyDisplayScope,
+      administrativeDisplayScope,
     });
-  }, [selectedUnitId, selectedCountyId, activeRegionId, countyDisplayScope]);
+  }, [selectedUnitId, selectedCountyId, activeRegionId, administrativeDisplayScope]);
 
   useEffect(() => {
     const map = mapRef.current;

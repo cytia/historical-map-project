@@ -92,9 +92,11 @@ test("switches county display between the selected prefecture and region", async
   test.skip(isMobile, "County scope rendering is covered once on desktop");
   await page.goto("/");
   const canvas = await expectMapReady(page);
+  const seatScope = page.getByRole("button", { name: "府级关系" });
   const prefectureScope = page.getByRole("button", { name: "当前州府" });
   const regionScope = page.getByRole("button", { name: "所属一级区域" });
 
+  await expect(seatScope).toBeEnabled();
   await expect(prefectureScope).toBeEnabled();
   await expect(regionScope).toBeEnabled();
   await regionScope.click();
@@ -105,9 +107,14 @@ test("switches county display between the selected prefecture and region", async
   await expect(regionScope).toHaveAttribute("aria-pressed", "true");
 
   const regionView = await canvas.screenshot();
+  await seatScope.click();
+  await expect(seatScope).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByText("府级视图不显示下辖州县")).toBeVisible();
+  await expect.poll(async () => (await canvas.screenshot()).equals(regionView)).toBe(false);
+
   await prefectureScope.click();
   await expect(prefectureScope).toHaveAttribute("aria-pressed", "true");
-  await expect.poll(async () => (await canvas.screenshot()).equals(regionView)).toBe(false);
+  await expect(page.getByRole("button", { name: "上元县" })).toBeVisible();
 
   await regionScope.click();
   await expect(regionScope).toHaveAttribute("aria-pressed", "true");
@@ -238,6 +245,7 @@ test("opens map controls on a mobile viewport", async ({ page, isMobile }) => {
   await page.getByRole("button", { name: "全国与省级资料" }).click();
   await expect(page.getByText("全国总览")).toBeVisible();
   await expect(page.getByRole("button", { name: "府州治所" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "府级关系" })).toBeEnabled();
   await expect(page.getByRole("button", { name: "当前州府" })).toBeEnabled();
   expect(errors).toEqual([]);
 });

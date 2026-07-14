@@ -4,17 +4,17 @@ import { counties, seats } from "./data";
 import { getTopLevelUnitId } from "./data";
 import { setRelationSelection } from "./relationLayers";
 import { setSeatFocus } from "./seatLayers";
-import type { CountyDisplayScope } from "./types";
+import type { AdministrativeDisplayScope } from "./types";
 
 export function updateMapSelection(map: Map, options: {
   selectedUnitId: string | null;
   selectedCountyId: string | null;
   focusRegionId: string | null;
   countyRegionId: string | null;
-  countyDisplayScope: CountyDisplayScope;
+  administrativeDisplayScope: AdministrativeDisplayScope;
 }) {
   const { selectedUnitId, selectedCountyId, focusRegionId,
-    countyRegionId, countyDisplayScope } = options;
+    countyRegionId, administrativeDisplayScope } = options;
   const topLevelUnitId = getTopLevelUnitId(selectedUnitId);
   setSeatFocus(map, topLevelUnitId, focusRegionId);
   setRelationSelection(map, topLevelUnitId);
@@ -22,7 +22,7 @@ export function updateMapSelection(map: Map, options: {
     selectedUnitId,
     selectedCountyId,
     regionId: countyRegionId,
-    scope: countyDisplayScope,
+    scope: administrativeDisplayScope,
   });
 
   const selected = counties.find(({ unit }) => unit.id === selectedCountyId) ??

@@ -1,5 +1,5 @@
 export type Confidence = "high" | "medium" | "low";
-export type CountyDisplayScope = "prefecture" | "region";
+export type AdministrativeDisplayScope = "seat" | "prefecture" | "region";
 
 export interface SourceLink {
   sourceId: string;

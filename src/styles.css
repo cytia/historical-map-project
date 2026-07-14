@@ -182,7 +182,7 @@ button { color: inherit; }
 }
 .layer-button:active:not(:disabled) { transform: translateY(1px); }
 .layer-button:disabled { color: var(--color-disabled-text); cursor: not-allowed; }
-.county-scope-toolbar {
+.administrative-scope-toolbar {
   position: absolute;
   z-index: 3;
   left: 18px;
@@ -197,20 +197,21 @@ button { color: inherit; }
   background: var(--color-panel);
   backdrop-filter: blur(18px);
 }
-.county-scope-toolbar > span {
+.administrative-scope-toolbar > span {
   color: var(--color-text-muted);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.1em;
   white-space: nowrap;
 }
-.county-scope-options {
+.administrative-scope-options {
   height: 40px;
   display: flex;
   margin-left: auto;
 }
 
 .scope-section { margin-top: 20px; padding-top: 17px; border-top: 1px solid var(--color-border); }
+.jurisdiction.is-disabled { opacity: 0.62; }
 .scope-section .eyebrow { margin-bottom: 8px; }
 .scope-primary { display: block; font: 400 24px/1.15 "Noto Serif SC", SimSun, serif; font-variant-numeric: tabular-nums; }
 .scope-secondary { margin: 7px 0 4px; color: var(--color-text-muted); font-size: 11px; }
@@ -353,7 +354,7 @@ summary { padding: 13px 0; cursor: pointer; font-size: 12px; font-weight: 700; }
   }
   .layer-bar-label { padding-left: 0; border-left: 0; }
   .layer-button { height: 48px; }
-  .county-scope-toolbar {
+  .administrative-scope-toolbar {
     top: 180px;
     right: 10px;
     bottom: auto;

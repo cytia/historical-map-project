@@ -2,7 +2,7 @@ import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
 import { counties, getTopLevelUnitId, isDescendantOf, seats } from "./data";
 import { curvedCoordinates } from "./relationLayers";
 import { defaultTheme } from "./theme";
-import type { CountyDisplayScope } from "./types";
+import type { AdministrativeDisplayScope } from "./types";
 
 const tokens = defaultTheme.map;
 const sourceId = "counties";
@@ -14,7 +14,7 @@ export interface CountyLayerSelection {
   selectedUnitId: string | null;
   selectedCountyId: string | null;
   regionId: string | null;
-  scope: CountyDisplayScope;
+  scope: AdministrativeDisplayScope;
 }
 
 function fadeDuration() {
@@ -27,7 +27,7 @@ function selectedTopLevelId(selection: CountyLayerSelection) {
 
 function displayRootId(selection: CountyLayerSelection) {
   const topLevelId = selectedTopLevelId(selection);
-  if (!topLevelId) return null;
+  if (!topLevelId || selection.scope === "seat") return null;
   return selection.scope === "region" ? selection.regionId ?? topLevelId : topLevelId;
 }
 
