@@ -67,10 +67,3 @@ export function summarizeRegion(seats: SeatRecord[], regionId: string | null) {
     seats: records.length,
   };
 }
-
-export function regionForUnit(
-  seats: SeatRecord[],
-  unitId: string,
-): AdministrativeUnit | undefined {
-  return seats.find((record) => record.unit.id === unitId)?.region;
-}

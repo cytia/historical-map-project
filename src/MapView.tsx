@@ -5,7 +5,7 @@ import maplibregl, {
 } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { AdministrativeTargetChooser } from "./AdministrativeTargetChooser";
-import { getTopLevelUnitId, seats } from "./data";
+import { getTopLevelUnitId, getUnitRegionId } from "./data";
 import { addCountyLayers } from "./countyLayers";
 import { createNaturalReferenceStyle, modernReferenceStyleUrl, paperStyle } from "./mapConfig";
 import {
@@ -72,8 +72,7 @@ export function MapView() {
 
     map.on("style.load", () => {
       const state = useAppStore.getState();
-      const selectedRegionId = seats.find(({ unit }) =>
-        unit.id === state.selectedUnitId)?.region.id ?? state.activeRegionId;
+      const selectedRegionId = getUnitRegionId(state.selectedUnitId) ?? state.activeRegionId;
       addRelationLayers(map, state.selectedUnitId, true);
       addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId, state.seatsVisible);
       addCountyLayers(map, {
@@ -104,8 +103,8 @@ export function MapView() {
         setHoveredRegion(hoveredRegionId);
       }
       const state = useAppStore.getState();
-      const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.region.id;
-      setSeatFocus(map, getTopLevelUnitId(state.selectedUnitId), selectedRegion ?? hoveredRegionRef.current ?? state.activeRegionId);
+      const selectedRegionId = getUnitRegionId(state.selectedUnitId);
+      setSeatFocus(map, getTopLevelUnitId(state.selectedUnitId), selectedRegionId ?? hoveredRegionRef.current ?? state.activeRegionId);
     };
     map.on("mousemove", "seat-points", handleHover);
     map.on("mouseenter", "seat-points", () => {
@@ -124,8 +123,8 @@ export function MapView() {
         setHoveredRegion(null);
       }
       const state = useAppStore.getState();
-      const selectedRegion = seats.find(({ unit }) => unit.id === state.selectedUnitId)?.region.id;
-      setSeatFocus(map, getTopLevelUnitId(state.selectedUnitId), selectedRegion ?? state.activeRegionId);
+      const selectedRegionId = getUnitRegionId(state.selectedUnitId);
+      setSeatFocus(map, getTopLevelUnitId(state.selectedUnitId), selectedRegionId ?? state.activeRegionId);
     });
 
     mapRef.current = map;

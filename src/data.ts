@@ -11,6 +11,8 @@ export const counties: CountyRecord[] = administrativeData.counties;
 export const topLevelSeats = seats.filter(({ unit, region }) => unit.parentId === region.id);
 export const getTopLevelUnitId = (unitId: string | null) =>
   findTopLevelUnitId(administrativeData.unitsById, unitId);
+export const getUnitRegionId = (unitId: string | null) =>
+  seats.find(({ unit }) => unit.id === unitId)?.region.id ?? null;
 export const isDescendantOf = (unitId: string, ancestorId: string) => {
   let current = administrativeData.unitsById.get(unitId);
   while (current?.parentId) {
@@ -23,15 +25,7 @@ export const getStatistics = (unitId: string) =>
   data.statistics.filter((record) => record.administrativeUnitId === unitId);
 export const getRegionSummary = (regionId: string | null) => summarizeRegion(seats, regionId);
 
-export function getSources(record: SeatRecord): ProjectData["sources"] {
-  const ids = new Set([
-    ...record.unit.sources.map((source) => source.sourceId),
-    ...record.place.sources.map((source) => source.sourceId),
-  ]);
-  return data.sources.filter((source) => ids.has(source.id));
-}
-
-export function getCountySources(record: CountyRecord): ProjectData["sources"] {
+export function getSources(record: SeatRecord | CountyRecord): ProjectData["sources"] {
   const ids = new Set([
     ...record.unit.sources.map((source) => source.sourceId),
     ...record.place.sources.map((source) => source.sourceId),

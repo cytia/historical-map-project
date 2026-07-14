@@ -1,12 +1,13 @@
 import { useEffect, type RefObject } from "react";
 import type { Map } from "maplibre-gl";
-import { seats } from "./data";
+import { getUnitRegionId } from "./data";
 import {
   focusMapSelection,
   updateMapCountySelection,
   updateMapHierarchySelection,
 } from "./mapSelection";
-import { setSeatLayerVisibility } from "./seatLayers";
+import { setLayerVisibility } from "./mapLayerVisibility";
+import { seatLayerIds } from "./seatLayers";
 import type { AdministrativeDisplayScope } from "./types";
 
 interface MapSelectionSyncOptions {
@@ -22,28 +23,27 @@ interface MapSelectionSyncOptions {
 export function useMapSelectionSync(options: MapSelectionSyncOptions) {
   const { mapRef, hoveredRegionRef, selectedUnitId, selectedCountyId,
     activeRegionId, administrativeDisplayScope, seatsVisible } = options;
+  const selectedRegionId = getUnitRegionId(selectedUnitId);
 
   useEffect(() => {
     const map = mapRef.current;
     if (!map?.getLayer("seat-points")) return;
-    const selectedRegion = seats.find(({ unit }) => unit.id === selectedUnitId)?.region.id;
     updateMapHierarchySelection(map, {
       selectedUnitId,
-      focusRegionId: selectedRegion ?? hoveredRegionRef.current ?? activeRegionId,
+      focusRegionId: selectedRegionId ?? hoveredRegionRef.current ?? activeRegionId,
     });
-  }, [mapRef, hoveredRegionRef, selectedUnitId, activeRegionId]);
+  }, [mapRef, hoveredRegionRef, selectedUnitId, selectedRegionId, activeRegionId]);
 
   useEffect(() => {
     const map = mapRef.current;
     if (!map?.getLayer("county-points")) return;
-    const selectedRegion = seats.find(({ unit }) => unit.id === selectedUnitId)?.region.id;
     updateMapCountySelection(map, {
       selectedUnitId,
       selectedCountyId,
-      countyRegionId: selectedRegion ?? activeRegionId,
+      countyRegionId: selectedRegionId ?? activeRegionId,
       administrativeDisplayScope,
     });
-  }, [mapRef, selectedUnitId, selectedCountyId, activeRegionId,
+  }, [mapRef, selectedUnitId, selectedCountyId, selectedRegionId, activeRegionId,
     administrativeDisplayScope]);
 
   useEffect(() => {
@@ -53,6 +53,6 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
 
   useEffect(() => {
     const map = mapRef.current;
-    if (map) setSeatLayerVisibility(map, seatsVisible);
+    if (map) setLayerVisibility(map, seatLayerIds, seatsVisible);
   }, [mapRef, seatsVisible]);
 }

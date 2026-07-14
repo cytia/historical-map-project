@@ -1,5 +1,6 @@
 import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
 import { counties, getTopLevelUnitId, isDescendantOf, seats } from "./data";
+import { setLayerVisibility } from "./mapLayerVisibility";
 import { curvedCoordinates } from "./relationLayers";
 import { defaultTheme } from "./theme";
 import type { AdministrativeDisplayScope } from "./types";
@@ -40,13 +41,13 @@ function setOpacity(map: Map, visible: boolean) {
   if (map.getLayer(layerIds[2])) map.setPaintProperty(layerIds[2], "text-opacity", textOpacity);
 }
 
-function expandedData(selection: CountyLayerSelection) {
+function layerData(selection: CountyLayerSelection) {
   const rootId = displayRootId(selection);
   const childStates = rootId ? seats.filter(({ unit }) =>
     unit.id !== getTopLevelUnitId(unit.id) && isDescendantOf(unit.id, rootId)) : [];
   const childCounties = rootId ? counties.filter(({ unit }) =>
     isDescendantOf(unit.id, rootId)) : [];
-  return {
+  const points = {
     type: "FeatureCollection" as const,
     features: [
       ...childStates.map(({ unit, place, region }) => ({
@@ -63,16 +64,8 @@ function expandedData(selection: CountyLayerSelection) {
       })),
     ],
   };
-}
-
-function relationData(selection: CountyLayerSelection) {
-  const rootId = displayRootId(selection);
-  if (!rootId) return { type: "FeatureCollection" as const, features: [] };
-  const childStates = seats.filter(({ unit }) =>
-    unit.id !== getTopLevelUnitId(unit.id) && isDescendantOf(unit.id, rootId));
-  const childCounties = counties.filter(({ unit }) => isDescendantOf(unit.id, rootId));
   const records = [...childStates, ...childCounties];
-  return {
+  const relations = {
     type: "FeatureCollection" as const,
     features: records.flatMap(({ unit, place }) => {
       const parent = seats.find(({ unit: parentUnit }) => parentUnit.id === unit.parentId);
@@ -90,6 +83,7 @@ function relationData(selection: CountyLayerSelection) {
       }];
     }),
   };
+  return { points, relations };
 }
 
 function radius(selectedUnitId: string | null, selectedCountyId: string | null): ExpressionSpecification {
@@ -106,8 +100,9 @@ export function addCountyLayers(
   visible: boolean,
 ) {
   const duration = fadeDuration();
-  map.addSource(sourceId, { type: "geojson", data: expandedData(selection) });
-  map.addSource(relationSourceId, { type: "geojson", data: relationData(selection) });
+  const data = layerData(selection);
+  map.addSource(sourceId, { type: "geojson", data: data.points });
+  map.addSource(relationSourceId, { type: "geojson", data: data.relations });
   map.addLayer({ id: layerIds[0], type: "line", source: relationSourceId,
     paint: { "line-color": tokens.relationLine, "line-width": tokens.relationLineWidth,
       "line-opacity": selection.selectedUnitId ? 0.78 : 0, "line-opacity-transition": { duration } } });
@@ -123,7 +118,7 @@ export function addCountyLayers(
     paint: { "text-color": tokens.countyLabel, "text-halo-color": tokens.land,
       "text-halo-width": 1.2, "text-opacity": selection.selectedUnitId ? 1 : 0,
       "text-opacity-transition": { duration } } });
-  setCountyVisibility(map, visible);
+  setLayerVisibility(map, layerIds, visible);
 }
 
 export function setCountySelection(map: Map, selection: CountyLayerSelection) {
@@ -132,28 +127,25 @@ export function setCountySelection(map: Map, selection: CountyLayerSelection) {
   if (!countySource || !relationSource) return;
   const previousTimer = clearTimers.get(map);
   if (previousTimer !== undefined) window.clearTimeout(previousTimer);
+  const updateData = () => {
+    const data = layerData(selection);
+    countySource.setData(data.points);
+    relationSource.setData(data.relations);
+  };
   setOpacity(map, false);
   if (!selection.selectedUnitId) {
     const timer = window.setTimeout(() => {
-      countySource.setData(expandedData(selection));
-      relationSource.setData(relationData(selection));
+      updateData();
       clearTimers.delete(map);
     }, fadeDuration());
     clearTimers.set(map, timer);
     return;
   }
-  countySource.setData(expandedData(selection));
-  relationSource.setData(relationData(selection));
+  updateData();
   requestAnimationFrame(() => setOpacity(map, true));
   if (!map.getLayer(layerIds[1])) return;
   map.setPaintProperty(layerIds[1], "circle-radius", radius(selection.selectedUnitId, selection.selectedCountyId));
   map.setPaintProperty(layerIds[1], "circle-color", ["case",
     ["==", ["get", "id"], selection.selectedCountyId ?? selection.selectedUnitId ?? ""], tokens.countySelected,
     ["==", ["get", "kind"], "department"], tokens.seat, tokens.county]);
-}
-
-export function setCountyVisibility(map: Map, visible: boolean) {
-  layerIds.forEach((id) => {
-    if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", visible ? "visible" : "none");
-  });
 }

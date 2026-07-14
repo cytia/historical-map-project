@@ -1,4 +1,4 @@
-import { counties, data, getCountySources, getSources, getStatistics, seats } from "./data";
+import { counties, data, getSources, getStatistics, seats } from "./data";
 import { useAppStore } from "./store";
 import type { CountyRecord, SeatRecord, StatisticRecord } from "./types";
 
@@ -142,7 +142,7 @@ export function AdministrativeDetailPanel({ seat, county }: {
   const administrativeDisplayScope = useAppStore((state) => state.administrativeDisplayScope);
   const record = county ?? seat;
   if (!record) return null;
-  const sources = county ? getCountySources(county) : getSources(seat!);
+  const sources = getSources(record);
   const taxRecords = getStatistics(record.unit.id).filter(({ category }) => category === "tax");
   const parentSeat = seat && seat.unit.parentId !== seat.region.id
     ? seats.find(({ unit }) => unit.id === seat.unit.parentId)
