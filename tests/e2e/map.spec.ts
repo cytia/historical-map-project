@@ -96,13 +96,17 @@ test("shows the Nanjing capital-region aggregation and missing-item notes", asyn
   await page.getByRole("textbox", { name: "搜索历史地名" }).fill("应天府");
   await page.getByRole("button", { name: "应天府 南京城", exact: true }).click();
   await expect(page.getByText("直隶区资料", { exact: true })).toBeVisible();
-  await expect(page.getByText("总录入 14 府，4 直隶州")).toBeVisible();
+  await expect(page.getByText("总录入 14 府，17 州")).toBeVisible();
   await expect(page.getByText("2,069,067 户")).toBeVisible();
   await expect(page.getByText("口数 10,501,651 口")).toBeVisible();
   await expect(page.getByText("本色小麦 942,302 石余")).toBeVisible();
   await expect(page.getByText("本色米 4,999,950 石余")).toBeVisible();
-  await expect(page.getByText("暂无完整总额", { exact: true })).toBeVisible();
-  await expect(page.getByText("田产完整总额尚缺。", { exact: false })).toBeVisible();
+  const populationMarker = page.locator(".scope-primary sup");
+  await populationMarker.hover();
+  await expect(page.getByRole("tooltip")).toContainText("按14府、4直隶州登记值汇总");
+  const taxMarker = page.getByText("赋税原额", { exact: true }).locator("sup");
+  await taxMarker.hover();
+  await expect(page.getByRole("tooltip")).toContainText("折色银等其他税目未纳入");
 });
 
 test("shows Yingtian statistics and opens a county from its jurisdiction", async ({ page, isMobile }) => {

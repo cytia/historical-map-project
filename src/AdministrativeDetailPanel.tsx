@@ -3,6 +3,7 @@ import { useAppStore } from "./store";
 import { populationRegistrationNote } from "./statisticsNotes";
 import { TaxMetricLabel, type TaxMetric } from "./taxGlossary";
 import { Tooltip } from "./Tooltip";
+import { Scrollbar } from "./Scrollbar";
 import type { CountyRecord, SeatRecord, StatisticRecord } from "./types";
 
 function levelLabel(seat: SeatRecord) {
@@ -180,43 +181,45 @@ export function AdministrativeDetailPanel({ seat, county }: {
   return (
     <aside className={`detail-panel ${detailsOpen ? "is-open" : ""}`}>
       <button className="panel-close" onClick={() => setDetailsOpen(false)} aria-label="关闭地点详情">×</button>
-      <p className="eyebrow">{county ? "县" : levelLabel(seat!)}</p>
-      <h2>{record.unit.name}</h2>
-      <p className="seat-line">治所 · {record.name}</p>
-      {county && <p className="administrative-path">{county.parent.name} · {county.region.name}</p>}
-      {county && <button className="return-prefecture" onClick={() => selectUnit(county.parent.id)}>
-        <span aria-hidden="true">←</span> 返回{county.parent.name}
-      </button>}
-      {parentSeat && <button className="return-prefecture" onClick={() => selectUnit(parentSeat.unit.id)}>
-        <span aria-hidden="true">←</span> 返回{parentSeat.unit.name}
-      </button>}
+      <Scrollbar>
+        <p className="eyebrow">{county ? "县" : levelLabel(seat!)}</p>
+        <h2>{record.unit.name}</h2>
+        <p className="seat-line">治所 · {record.name}</p>
+        {county && <p className="administrative-path">{county.parent.name} · {county.region.name}</p>}
+        {county && <button className="return-prefecture" onClick={() => selectUnit(county.parent.id)}>
+          <span aria-hidden="true">←</span> 返回{county.parent.name}
+        </button>}
+        {parentSeat && <button className="return-prefecture" onClick={() => selectUnit(parentSeat.unit.id)}>
+          <span aria-hidden="true">←</span> 返回{parentSeat.unit.name}
+        </button>}
 
-      <PopulationMetric unitId={record.unit.id} />
-      <TaxMetric unitId={record.unit.id} />
-      {county ? <PeerCounties county={county} /> :
-        <Jurisdiction seat={seat!} disabled={administrativeDisplayScope === "seat"} />}
+        <PopulationMetric unitId={record.unit.id} />
+        <TaxMetric unitId={record.unit.id} />
+        {county ? <PeerCounties county={county} /> :
+          <Jurisdiction seat={seat!} disabled={administrativeDisplayScope === "seat"} />}
 
-      <section className="location-summary">
-        <p className="eyebrow">治所定位</p>
-        <strong>{accuracyLabel[record.place.locationAccuracy]} · {confidenceLabel[record.place.confidence]}</strong>
-      </section>
+        <section className="location-summary">
+          <p className="eyebrow">治所定位</p>
+          <strong>{accuracyLabel[record.place.locationAccuracy]} · {confidenceLabel[record.place.confidence]}</strong>
+        </section>
 
-      <details className="research-details">
-        <summary>详细资料</summary>
-        <p>{county ? `行政链：明 → ${county.region.name} → ${county.parent.name} → ${county.unit.name}` :
-          `${seat!.unit.name}治下已录入 ${seats.filter(({ unit }) => unit.parentId === seat!.unit.id).length} 州、${counties.filter(({ parent }) => parent.id === seat!.unit.id).length} 县。`}</p>
-        <dl className="facts">
-          <div><dt>坐标</dt><dd>{record.place.longitude?.toFixed(5)}, {record.place.latitude?.toFixed(5)}</dd></div>
-          <div><dt>定位方法</dt><dd>{record.place.locationMethod}</dd></div>
-        </dl>
-        {taxRecords.length > 0 && <div className="original-amounts">
-          <p className="eyebrow">赋税原额全文</p>
-          {taxRecords.map((tax) => <p key={tax.id}>{tax.originalText}</p>)}
-        </div>}
-        {sources.map((source) => <article className="source" key={source.id}>
-          <h3>{source.title}</h3><p>{source.citation}</p><small>{source.license}</small>
-        </article>)}
-      </details>
+        <details className="research-details">
+          <summary>详细资料</summary>
+          <p>{county ? `行政链：明 → ${county.region.name} → ${county.parent.name} → ${county.unit.name}` :
+            `${seat!.unit.name}治下已录入 ${seats.filter(({ unit }) => unit.parentId === seat!.unit.id).length} 州、${counties.filter(({ parent }) => parent.id === seat!.unit.id).length} 县。`}</p>
+          <dl className="facts">
+            <div><dt>坐标</dt><dd>{record.place.longitude?.toFixed(5)}, {record.place.latitude?.toFixed(5)}</dd></div>
+            <div><dt>定位方法</dt><dd>{record.place.locationMethod}</dd></div>
+          </dl>
+          {taxRecords.length > 0 && <div className="original-amounts">
+            <p className="eyebrow">赋税原额全文</p>
+            {taxRecords.map((tax) => <p key={tax.id}>{tax.originalText}</p>)}
+          </div>}
+          {sources.map((source) => <article className="source" key={source.id}>
+            <h3>{source.title}</h3><p>{source.citation}</p><small>{source.license}</small>
+          </article>)}
+        </details>
+      </Scrollbar>
     </aside>
   );
 }
