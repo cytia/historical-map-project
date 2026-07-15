@@ -59,7 +59,7 @@ test("shows the selected seat's administrative region", async ({ page, isMobile 
   await page.getByRole("textbox", { name: "搜索历史地名" }).fill("成都府");
   await page.getByRole("button", { name: "成都府 成都城", exact: true }).click();
   await expect(page.getByRole("heading", { name: "四川" })).toBeVisible();
-  await expect(page.getByText("已录入 12 府 · 6 直隶州 · 0 县")).toBeVisible();
+  await expect(page.getByText("已录入 12 府 · 6 直隶州 · 107 县")).toBeVisible();
   await expect(page.getByText("省级资料", { exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "成都府" })).toBeVisible();
   await expect(page.getByText("治所 · 成都城", { exact: true })).toBeVisible();
