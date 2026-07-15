@@ -88,6 +88,23 @@ test("finds a county and expands its prefecture", async ({ page, isMobile }) => 
   await expect.poll(async () => (await canvas.screenshot()).equals(collapsed)).toBe(false);
 });
 
+test("shows the Nanjing capital-region aggregation and missing-item notes", async ({ page, isMobile }) => {
+  test.skip(isMobile, "Regional statistics are covered once on desktop");
+  await page.goto("/");
+  await expectMapReady(page);
+
+  await page.getByRole("textbox", { name: "搜索历史地名" }).fill("应天府");
+  await page.getByRole("button", { name: "应天府 南京城", exact: true }).click();
+  await expect(page.getByText("直隶区资料", { exact: true })).toBeVisible();
+  await expect(page.getByText("总录入 14 府，4 直隶州")).toBeVisible();
+  await expect(page.getByText("2,069,067 户")).toBeVisible();
+  await expect(page.getByText("口数 10,501,651 口")).toBeVisible();
+  await expect(page.getByText("本色小麦 942,302 石余")).toBeVisible();
+  await expect(page.getByText("本色米 4,999,950 石余")).toBeVisible();
+  await expect(page.getByText("暂无完整总额", { exact: true })).toBeVisible();
+  await expect(page.getByText("田产完整总额尚缺。", { exact: false })).toBeVisible();
+});
+
 test("shows Yingtian statistics and opens a county from its jurisdiction", async ({ page, isMobile }) => {
   test.skip(isMobile, "Administrative detail navigation is covered once on desktop");
   await page.goto("/");
@@ -98,9 +115,25 @@ test("shows Yingtian statistics and opens a county from its jurisdiction", async
   await expect(page.getByText("143,597 户")).toBeVisible();
   await expect(page.getByText("口数 790,513 口")).toBeVisible();
   await expect(page.getByText("明神宗万历六年（公元 1578 年）登记")).toBeVisible();
-  await expect(page.getByText("小麦 11,654 石余")).toBeVisible();
-  await expect(page.getByText("8 县", { exact: true })).toBeVisible();
-
+  const populationMarker = page.locator(".population-primary strong sup");
+  await expect(populationMarker).not.toHaveAttribute("title");
+  await populationMarker.hover();
+  await expect(page.getByRole("tooltip")).toContainText(
+    "本项目不另行统计军户、匠户、灶户等特殊户籍",
+  );
+  const taxMarker = page.locator(".tax-evidence .eyebrow sup");
+  await expect(taxMarker).not.toHaveAttribute("title");
+  await taxMarker.focus();
+  await expect(page.getByRole("tooltip").filter({ hasText: "《大明会典》万历六年实征" }))
+    .toBeVisible();
+  await expect(page.getByText("本色小麦 11,654 石余")).toBeVisible();
+  await expect(page.getByText("本色米 215,159 石余")).toBeVisible();
+  await expect(page.locator(".tax-evidence").getByText("折色银", { exact: true })).toBeVisible();
+  await expect(page.locator(".tax-evidence").getByText("暂无可靠记录", { exact: true })).toBeVisible();
+  const taxFootnotes = page.locator(".tax-ledger .tax-footnote");
+  await expect(taxFootnotes).toHaveCount(4);
+  await taxFootnotes.nth(0).hover();
+  await expect(page.getByRole("tooltip").filter({ hasText: "未分列官田、民田" })).toBeVisible();
   await page.getByRole("button", { name: "上元县" }).click();
   await expect(page.getByRole("heading", { name: "上元县" })).toBeVisible();
   const detailPanel = page.locator(".detail-panel");

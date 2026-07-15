@@ -182,6 +182,44 @@ button { color: inherit; }
 }
 .layer-button:active:not(:disabled) { transform: translateY(1px); }
 .layer-button:disabled { color: var(--color-disabled-text); cursor: not-allowed; }
+.tooltip-trigger { display: contents; }
+.tooltip-trigger > :focus-visible { outline: 1px solid var(--color-accent-focus); outline-offset: 3px; }
+.app-tooltip {
+  position: fixed;
+  z-index: 20;
+  max-width: min(320px, calc(100vw - 24px));
+  padding: 9px 11px;
+  border: 1px solid var(--color-border);
+  background: var(--color-panel-solid);
+  color: var(--color-text);
+  box-shadow: 0 8px 24px rgb(48 38 27 / 14%);
+  font-size: 11px;
+  line-height: 1.55;
+  pointer-events: none;
+  white-space: pre-line;
+  animation: tooltip-in 120ms ease-out both;
+}
+.app-tooltip::after {
+  content: "";
+  position: absolute;
+  left: var(--tooltip-arrow-left);
+  top: -5px;
+  width: 8px;
+  height: 8px;
+  transform: translateX(-50%) rotate(225deg);
+  border-right: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-panel-solid);
+}
+.app-tooltip[data-placement="top"]::after {
+  top: auto;
+  bottom: -5px;
+  transform: translateX(-50%) rotate(45deg);
+}
+@keyframes tooltip-in {
+  from { opacity: 0; transform: translateY(-2px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 .administrative-scope-toolbar {
   position: absolute;
   z-index: 3;
@@ -296,7 +334,10 @@ button { color: inherit; }
 .detail-panel .seat-line { margin: 12px 0 0; }
 .evidence-section { margin-top: 21px; padding: 0 0 18px; border-bottom: 1px solid var(--color-border); }
 .evidence-section .eyebrow { margin-bottom: 10px; }
-.evidence-section sup { margin-left: 3px; color: var(--color-accent); cursor: help; font: 700 9px Inter, sans-serif; }
+.evidence-section sup:not(.tax-footnote) { margin-left: 3px; color: var(--color-accent); cursor: help; font: 700 9px Inter, sans-serif; }
+.tax-label { display: inline-flex; align-items: baseline; gap: 3px; }
+.tax-footnote { color: var(--color-accent); cursor: help; font: 700 9px Inter, sans-serif; }
+.tax-footnote:focus-visible { outline: 1px solid var(--color-accent-focus); outline-offset: 2px; }
 .population-primary { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
 .population-primary strong { font: 400 25px/1.1 "Noto Serif SC", SimSun, serif; font-variant-numeric: tabular-nums; }
 .population-primary span { color: var(--color-text-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
