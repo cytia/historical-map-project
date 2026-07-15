@@ -60,10 +60,9 @@ export function findTopLevelUnitId(
 
 export function summarizeRegion(seats: SeatRecord[], regionId: string | null) {
   const regional = regionId ? seats.filter((record) => record.region.id === regionId) : seats;
-  const records = regional.filter(({ unit, region }) => unit.parentId === region.id);
   return {
-    prefectures: records.filter((record) => record.unit.level === "prefecture").length,
-    departments: records.filter((record) => record.unit.level === "department").length,
-    seats: records.length,
+    prefectures: regional.filter((record) => record.unit.level === "prefecture").length,
+    departments: regional.filter((record) => record.unit.level === "department").length,
+    seats: regional.length,
   };
 }

@@ -59,7 +59,7 @@ export function ScopePanel({ region }: { region?: AdministrativeUnit }) {
       <h2 className="region-title">{region?.name ?? "两京十三省"}</h2>
       {formalName && <p className="region-formal-name">{formalName}</p>}
     </div>
-    <p className="muted">已录入 {summary.prefectures} 府 · {summary.departments} 直隶州 · {countyCount} 县</p>
+    <p className="muted">总录入 {summary.prefectures} 府，{summary.departments} 州，{countyCount} 县</p>
 
     <PopulationSummary records={records} />
     <TaxSummary records={records} />
