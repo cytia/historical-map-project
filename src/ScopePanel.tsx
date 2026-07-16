@@ -4,11 +4,11 @@ import { populationRegistrationNote } from "./statisticsNotes";
 import { TaxMetricLabel, type TaxMetric } from "./taxGlossary";
 import { Tooltip } from "./Tooltip";
 import { Scrollbar } from "./Scrollbar";
-import type { AdministrativeUnit, StatisticRecord } from "./types";
+import type { AdministrativeUnit, StatisticFields } from "./types";
 
-const isDerivedRegionRecord = (record: StatisticRecord) => record.valueType === "estimated";
+const isDerivedRegionRecord = (record: StatisticFields) => record.valueType === "estimated";
 
-function PopulationSummary({ records }: { records: StatisticRecord[] }) {
+function PopulationSummary({ records }: { records: StatisticFields[] }) {
   const households = records.find(({ metric }) => metric === "households");
   const population = records.find(({ metric }) => metric === "registered-population");
   const populationNote = households
@@ -25,12 +25,12 @@ function PopulationSummary({ records }: { records: StatisticRecord[] }) {
   </section>;
 }
 
-function TaxSummary({ records, regionId }: { records: StatisticRecord[]; regionId?: string }) {
+function TaxSummary({ records, regionId }: { records: StatisticFields[]; regionId?: string }) {
   const taxMetrics: TaxMetric[] = ["registered-land", "summer-tax", "autumn-grain"];
   const taxes = records.filter(({ metric }) => taxMetrics.includes(metric as TaxMetric));
   const silver = records.find(({ metric }) => metric === "silver");
   const taxByMetric = new Map(taxes.map((record) => [record.metric, record]));
-  const formatTaxValue = (record: StatisticRecord) => {
+  const formatTaxValue = (record: StatisticFields) => {
     const prefix = record.metric === "summer-tax" ? "本色小麦 " : record.metric === "autumn-grain" ? "本色米 " : "";
     const unit = record.unit === "qing" ? "顷" : record.unit === "liang" ? "两" : "石余";
     return `${prefix}${Math.floor(record.value).toLocaleString("zh-CN")} ${unit}`;
@@ -43,8 +43,13 @@ function TaxSummary({ records, regionId }: { records: StatisticRecord[]; regionI
     </Tooltip>}</p>
     {taxes.length ? <dl className="scope-tax">{taxMetrics.map((metric) => {
       const record = taxByMetric.get(metric);
+      const guizhouLandNote = metric === "registered-land" && regionId === "guizhou" && !record
+        ? "贵州田产原文：《大明会典》：“贵州布政司田土自来原无丈量顷亩，每岁该纳粮差，俱于土官名下总行认纳，如洪武年间例。”因此不录入可换算的顷亩总额。"
+        : undefined;
       return <div key={metric}><dt><TaxMetricLabel metric={metric} /></dt>
-        <dd>{record ? formatTaxValue(record) : "暂无完整总额"}</dd></div>;
+        <dd>{record ? formatTaxValue(record) : guizhouLandNote ? <Tooltip content={guizhouLandNote}>
+          <span tabIndex={0}>暂无完整总额<sup className="tax-footnote">⑤</sup></span>
+        </Tooltip> : "暂无完整总额"}</dd></div>;
     })}
       <div><dt><TaxMetricLabel metric="silver" /></dt>
         <dd>{silver ? formatTaxValue(silver) : "暂无可靠记录"}</dd></div>
@@ -66,7 +71,7 @@ export function ScopePanel({ region }: { region?: AdministrativeUnit }) {
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const selectUnit = useAppStore((state) => state.selectUnit);
-  const records = region ? getStatistics(region.id) : [];
+  const records = region ? getStatistics(region.id) : data.scopeStatistics;
   const summary = getRegionSummary(region?.id ?? null);
   const childSeats = region ? topLevelSeats.filter(({ region: parent }) => parent.id === region.id) : [];
   const countyCount = region

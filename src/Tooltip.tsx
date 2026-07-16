@@ -106,7 +106,11 @@ export function Tooltip({ content, children }: TooltipProps) {
 
   const show = () => setOpen(true);
   const hideUnlessFocused = () => {
-    if (!triggerRef.current?.contains(document.activeElement)) setOpen(false);
+    const activeElement = document.activeElement;
+    const hasKeyboardFocus = activeElement instanceof HTMLElement &&
+      triggerRef.current?.contains(activeElement) &&
+      activeElement.matches(":focus-visible");
+    if (!hasKeyboardFocus) setOpen(false);
   };
   const handlePointerEnter = (event: PointerEvent<HTMLSpanElement>) => {
     if (event.pointerType !== "touch") show();
