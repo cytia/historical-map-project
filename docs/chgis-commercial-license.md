@@ -2,7 +2,7 @@
 
 本文件记录 China Historical GIS（CHGIS）Temporal Gazetteer 商业授权的官方联系渠道、申请内容和未取得授权时的处置方案。它用于项目决策和沟通留档，不构成法律意见。
 
-信息核对日期：2026-07-15。
+信息核对日期：2026-07-16。
 
 ## 官方联系渠道
 
@@ -55,8 +55,9 @@ CHGIS 是哈佛大学与复旦大学合作项目。公开站点未提供商业�
 - 当前覆盖两京十三布政使司及府、州、县治所；
 - 行政名录和隶属关系主要依据《明史·地理志》等史料校勘；
 - CHGIS 主要用于历史治所定位、有效时间筛选和同名消歧；
-- 项目当前收录 1500 多个历史地点，其中 581 条定位记录明确采用 CHGIS Temporal Gazetteer 点位，约占全部点位的三分之一；
-- 数据中约 859 处 CHGIS 来源引用包含同一地点的多项主张或重复引用，不代表 859 个独立 CHGIS 点位；
+- 项目当前收录 1,641 个历史地点；云贵 14 点、福建 47 点和江西 64 点替换后，仍有 1,022 个地点记录明确采用 CHGIS Temporal Gazetteer 点位，约占全部地点的 62.3%（替换前基线为 1,147 个、69.9%）；
+- 当前未替换记录涉及 1,012 个唯一 CHGIS 记录编号和 1,000 组唯一坐标；替换前基线为 1,139 个编号和 1,125 组坐标。附郭、共治或项目实体拆分会造成编号或坐标复用，三种数量不能互换；
+- 详细使用范围见 [CHGIS 点位使用清单与独立替换方案](chgis-point-inventory.md)；
 - 当前不申请 CHGIS V6 多边形的商业使用权；
 - 项目不会把 CHGIS 数据标为原创；
 - 项目愿意持续署名、链接来源并反馈校勘发现；
@@ -77,7 +78,7 @@ CHGIS 是哈佛大学与复旦大学合作项目。公开站点未提供商业�
 >
 > 项目第一版以公元 1600 年前后的晚明为基准，目前已经整理两京十三布政使司及其府、州、县行政体系，并逐步补充治所、历史统计、来源和可信度信息。行政建制和隶属关系主要依据《明史·地理志》等史料校勘，许多历史治所坐标使用 CHGIS Temporal Gazetteer 点记录进行定位和同名消歧。
 >
-> 项目当前收录 1500 多个历史地点，其中 581 条定位记录明确采用 CHGIS Temporal Gazetteer 点位，约占全部点位的三分之一；其余地点使用其他来源或项目独立登记。此次申请可以限定在这 581 条记录及后续经双方确认的具体清单内，我也可以提供对应的 CHGIS 记录编号和用途清单供审核。
+> 项目当前收录 1,641 个历史地点，其中 1,022 个地点记录仍明确采用 CHGIS Temporal Gazetteer 点位，约占全部地点的 62.3%。云贵 14 点、福建 47 点和江西 64 点已改用独立现代代理；当前未替换记录涉及 1,012 个唯一 CHGIS 记录编号和 1,000 组唯一坐标。此次申请可以限定在这 1,022 个地点记录及后续经双方确认的具体清单内，我也可以提供对应的 CHGIS 记录编号和用途清单供审核。
 >
 > 我目前是独立开发者和自由职业者，没有机构团队或稳定的项目经费。虽然开发过程中会使用自动化及 AI 工具辅助资料整理、数据校验和软件开发，但历史来源核查、同名消歧、迁治判断和最终审核仍需要大量人工工作。对于个人而言，这是一项需要长期持续投入的工程。
 >
@@ -132,7 +133,7 @@ CHGIS 是哈佛大学与复旦大学合作项目。公开站点未提供商业�
 >
 > The administrative roster and parent relationships are primarily verified against historical sources such as the geographical treatises of the History of Ming. CHGIS Temporal Gazetteer point records are used for many administrative-seat locations, temporal filtering, and disambiguation of places with identical names.
 >
-> The project currently contains more than 1,500 historical places. Of these, 581 location records explicitly use CHGIS Temporal Gazetteer points, representing approximately one third of the total; the remaining places use other sources or independently registered locations. The requested license can be limited to these 581 records and any later records specifically agreed by both parties. I can provide a detailed inventory of the corresponding CHGIS identifiers and uses for review.
+> The project currently contains 1,641 historical places. Of these, 1,022 place records still explicitly use CHGIS Temporal Gazetteer points, representing approximately 62.3% of the total. Fourteen Yunnan and Guizhou points, forty-seven Fujian county seats, and sixty-four Jiangxi points have been replaced with independently sourced modern proxies; the remaining records involve 1,012 unique CHGIS record identifiers and 1,000 unique coordinate pairs. The requested license can be limited to these 1,022 place records and any later records specifically agreed by both parties. I can provide a detailed inventory of the corresponding CHGIS identifiers and uses for review.
 >
 > I am currently working as an independent developer and freelancer without an institutional team or stable project funding. Automation and AI-assisted tools help with document organization, data validation, and software development, but source verification, historical disambiguation, relocation analysis, and final review still require substantial human work.
 >
