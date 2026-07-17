@@ -1,0 +1,3846 @@
+[
+  {
+    "id": "nanjing",
+    "name": "南京",
+    "level": "capital-region",
+    "polityId": "ming",
+    "seatPlaceId": "nanjing-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "atlas-ming-empire-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 time-slice membership; capital seat references the Yingtian prefectural seat"
+    }
+  },
+  {
+    "id": "yingtian-prefecture",
+    "name": "应天府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "nanjing-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "fengyang-prefecture",
+    "name": "凤阳府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "fengyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "huaian-prefecture",
+    "name": "淮安府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "shanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "yangzhou-prefecture",
+    "name": "扬州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "jiangdu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "suzhou-prefecture",
+    "name": "苏州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "suzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "songjiang-prefecture",
+    "name": "松江府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "huating-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "changzhou-prefecture",
+    "name": "常州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "wujin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenjiang-prefecture",
+    "name": "镇江府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "dantu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "luzhou-prefecture",
+    "name": "庐州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "hefei-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "anqing-prefecture",
+    "name": "安庆府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "huaining-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "taiping-prefecture",
+    "name": "太平府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "dangtu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "chizhou-prefecture",
+    "name": "池州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "guichi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "ningguo-prefecture",
+    "name": "宁国府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "xuancheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "huizhou-prefecture",
+    "name": "徽州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "she-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Nanjing-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "xuzhou-direct-department",
+    "name": "徐州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "xuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Directly administered department in the 1600 time slice"
+    }
+  },
+  {
+    "id": "chuzhou-direct-department",
+    "name": "滁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "chuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Directly administered department in the 1600 time slice"
+    }
+  },
+  {
+    "id": "hezhou-direct-department",
+    "name": "和州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "hezhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Directly administered department in the 1600 time slice"
+    }
+  },
+  {
+    "id": "guangde-direct-department",
+    "name": "广德州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanjing",
+    "seatPlaceId": "guangde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Directly administered department in the 1600 time slice"
+    }
+  },
+  {
+    "id": "shangyuan-county",
+    "name": "上元县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingtian-prefecture",
+    "seatPlaceId": "shangyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Yingtian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiangning-county",
+    "name": "江宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingtian-prefecture",
+    "seatPlaceId": "jiangning-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Yingtian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jurong-county",
+    "name": "句容县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingtian-prefecture",
+    "seatPlaceId": "jurong-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Yingtian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "liyang-county",
+    "name": "溧阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingtian-prefecture",
+    "seatPlaceId": "liyang-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Yingtian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lishui-county",
+    "name": "溧水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingtian-prefecture",
+    "seatPlaceId": "lishui-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Yingtian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "gaochun-county",
+    "name": "高淳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingtian-prefecture",
+    "seatPlaceId": "gaochun-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Yingtian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiangpu-county",
+    "name": "江浦县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingtian-prefecture",
+    "seatPlaceId": "jiangpu-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Yingtian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "liuhe-county",
+    "name": "六合县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingtian-prefecture",
+    "seatPlaceId": "liuhe-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Yingtian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wu-county",
+    "name": "吴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suzhou-prefecture",
+    "seatPlaceId": "wu-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "changzhou-county",
+    "name": "长洲县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suzhou-prefecture",
+    "seatPlaceId": "changzhou-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wujiang-county",
+    "name": "吴江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suzhou-prefecture",
+    "seatPlaceId": "wujiang-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "kunshan-county",
+    "name": "昆山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suzhou-prefecture",
+    "seatPlaceId": "kunshan-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "changshu-county",
+    "name": "常熟县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suzhou-prefecture",
+    "seatPlaceId": "changshu-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiading-county",
+    "name": "嘉定县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suzhou-prefecture",
+    "seatPlaceId": "jiading-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "taicang-department",
+    "name": "太仓州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "suzhou-prefecture",
+    "seatPlaceId": "taicang-department-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chongming-county",
+    "name": "崇明县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taicang-department",
+    "seatPlaceId": "chongming-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huating-county",
+    "name": "华亭县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "songjiang-prefecture",
+    "seatPlaceId": "huating-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanghai-county",
+    "name": "上海县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "songjiang-prefecture",
+    "seatPlaceId": "shanghai-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qingpu-county",
+    "name": "青浦县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "songjiang-prefecture",
+    "seatPlaceId": "qingpu-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wujin-county",
+    "name": "武进县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "changzhou-prefecture",
+    "seatPlaceId": "wujin-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuxi-county",
+    "name": "无锡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "changzhou-prefecture",
+    "seatPlaceId": "wuxi-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yixing-county",
+    "name": "宜兴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "changzhou-prefecture",
+    "seatPlaceId": "yixing-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiangyin-county",
+    "name": "江阴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "changzhou-prefecture",
+    "seatPlaceId": "jiangyin-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jingjiang-county",
+    "name": "靖江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "changzhou-prefecture",
+    "seatPlaceId": "jingjiang-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dantu-county",
+    "name": "丹徒县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhenjiang-prefecture",
+    "seatPlaceId": "dantu-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "danyang-county",
+    "name": "丹阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhenjiang-prefecture",
+    "seatPlaceId": "danyang-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jintan-county",
+    "name": "金坛县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhenjiang-prefecture",
+    "seatPlaceId": "jintan-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Nanjing eastern prefecture roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shou-department",
+    "name": "寿州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "shou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "sizhou-department",
+    "name": "泗州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "sizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "suzhou-fengyang-department",
+    "name": "宿州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "suzhou-fengyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yingzhou-department",
+    "name": "颍州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "yingzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "bozhou-department",
+    "name": "亳州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "bozhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "haizhou-department",
+    "name": "海州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "huaian-prefecture",
+    "seatPlaceId": "haizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "pizhou-department",
+    "name": "邳州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "huaian-prefecture",
+    "seatPlaceId": "pizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "gaoyou-department",
+    "name": "高邮州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "yangzhou-prefecture",
+    "seatPlaceId": "gaoyou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "taizhou-yangzhou-department",
+    "name": "泰州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "yangzhou-prefecture",
+    "seatPlaceId": "taizhou-yangzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongzhou-yangzhou-department",
+    "name": "通州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "yangzhou-prefecture",
+    "seatPlaceId": "tongzhou-yangzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuwei-department",
+    "name": "无为州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "luzhou-prefecture",
+    "seatPlaceId": "wuwei-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "luan-department",
+    "name": "六安州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "luzhou-prefecture",
+    "seatPlaceId": "luan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fengyang-county",
+    "name": "凤阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "fengyang-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "linhuai-county",
+    "name": "临淮县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "linhuai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huaiyuan-county",
+    "name": "怀远县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "huaiyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dingyuan-county",
+    "name": "定远县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "dingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuhe-county",
+    "name": "五河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "wuhe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "hong-county",
+    "name": "虹县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengyang-prefecture",
+    "seatPlaceId": "hong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huoqiu-county",
+    "name": "霍丘县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shou-department",
+    "seatPlaceId": "huoqiu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "mengcheng-county",
+    "name": "蒙城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shou-department",
+    "seatPlaceId": "mengcheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xuyi-county",
+    "name": "盱眙县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "sizhou-department",
+    "seatPlaceId": "xuyi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tianchang-county",
+    "name": "天长县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "sizhou-department",
+    "seatPlaceId": "tianchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lingbi-county",
+    "name": "灵璧县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suzhou-fengyang-department",
+    "seatPlaceId": "lingbi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yingshang-county",
+    "name": "颍上县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingzhou-department",
+    "seatPlaceId": "yingshang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "taihe-yingzhou-county",
+    "name": "太和县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yingzhou-department",
+    "seatPlaceId": "taihe-yingzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanyang-county",
+    "name": "山阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaian-prefecture",
+    "seatPlaceId": "shanyang-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qinghe-huaian-county",
+    "name": "清河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaian-prefecture",
+    "seatPlaceId": "qinghe-huaian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yancheng-county",
+    "name": "盐城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaian-prefecture",
+    "seatPlaceId": "yancheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "andong-county",
+    "name": "安东县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaian-prefecture",
+    "seatPlaceId": "andong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "taoyuan-huaian-county",
+    "name": "桃源县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaian-prefecture",
+    "seatPlaceId": "taoyuan-huaian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shuyang-county",
+    "name": "沭阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaian-prefecture",
+    "seatPlaceId": "shuyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ganyu-county",
+    "name": "赣榆县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "haizhou-department",
+    "seatPlaceId": "ganyu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "suqian-county",
+    "name": "宿迁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pizhou-department",
+    "seatPlaceId": "suqian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "suining-county",
+    "name": "睢宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pizhou-department",
+    "seatPlaceId": "suining-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiangdu-county",
+    "name": "江都县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yangzhou-prefecture",
+    "seatPlaceId": "jiangdu-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yizhen-county",
+    "name": "仪真县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yangzhou-prefecture",
+    "seatPlaceId": "yizhen-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "taixing-county",
+    "name": "泰兴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yangzhou-prefecture",
+    "seatPlaceId": "taixing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baoying-county",
+    "name": "宝应县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gaoyou-department",
+    "seatPlaceId": "baoying-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xinghua-county",
+    "name": "兴化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gaoyou-department",
+    "seatPlaceId": "xinghua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "rugao-county",
+    "name": "如皋县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taizhou-yangzhou-department",
+    "seatPlaceId": "rugao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "haimen-county",
+    "name": "海门县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-yangzhou-department",
+    "seatPlaceId": "haimen-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "hefei-county",
+    "name": "合肥县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "luzhou-prefecture",
+    "seatPlaceId": "hefei-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shucheng-county",
+    "name": "舒城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "luzhou-prefecture",
+    "seatPlaceId": "shucheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lujiang-county",
+    "name": "庐江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "luzhou-prefecture",
+    "seatPlaceId": "lujiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chao-county",
+    "name": "巢县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wuwei-department",
+    "seatPlaceId": "chao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yingshan-county",
+    "name": "英山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "luan-department",
+    "seatPlaceId": "yingshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huoshan-county",
+    "name": "霍山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "luan-department",
+    "seatPlaceId": "huoshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huaining-county",
+    "name": "怀宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "anqing-prefecture",
+    "seatPlaceId": "huaining-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongcheng-county",
+    "name": "桐城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "anqing-prefecture",
+    "seatPlaceId": "tongcheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qianshan-county",
+    "name": "潜山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "anqing-prefecture",
+    "seatPlaceId": "qianshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "taihu-county",
+    "name": "太湖县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "anqing-prefecture",
+    "seatPlaceId": "taihu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "susong-county",
+    "name": "宿松县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "anqing-prefecture",
+    "seatPlaceId": "susong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wangjiang-county",
+    "name": "望江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "anqing-prefecture",
+    "seatPlaceId": "wangjiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dangtu-county",
+    "name": "当涂县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taiping-prefecture",
+    "seatPlaceId": "dangtu-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuhu-county",
+    "name": "芜湖县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taiping-prefecture",
+    "seatPlaceId": "wuhu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fanchang-county",
+    "name": "繁昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taiping-prefecture",
+    "seatPlaceId": "fanchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "guichi-county",
+    "name": "贵池县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chizhou-prefecture",
+    "seatPlaceId": "guichi-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qingyang-county",
+    "name": "青阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chizhou-prefecture",
+    "seatPlaceId": "qingyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongling-county",
+    "name": "铜陵县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chizhou-prefecture",
+    "seatPlaceId": "tongling-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shidai-county",
+    "name": "石埭县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chizhou-prefecture",
+    "seatPlaceId": "shidai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiande-chizhou-county",
+    "name": "建德县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chizhou-prefecture",
+    "seatPlaceId": "jiande-chizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dongliu-county",
+    "name": "东流县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chizhou-prefecture",
+    "seatPlaceId": "dongliu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xuancheng-county",
+    "name": "宣城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningguo-prefecture",
+    "seatPlaceId": "xuancheng-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "nanling-county",
+    "name": "南陵县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningguo-prefecture",
+    "seatPlaceId": "nanling-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jing-county",
+    "name": "泾县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningguo-prefecture",
+    "seatPlaceId": "jing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jingde-county",
+    "name": "旌德县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningguo-prefecture",
+    "seatPlaceId": "jingde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "taiping-ningguo-county",
+    "name": "太平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningguo-prefecture",
+    "seatPlaceId": "taiping-ningguo-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ningguo-county",
+    "name": "宁国县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningguo-prefecture",
+    "seatPlaceId": "ningguo-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "she-county",
+    "name": "歙县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huizhou-prefecture",
+    "seatPlaceId": "she-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xiuning-county",
+    "name": "休宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huizhou-prefecture",
+    "seatPlaceId": "xiuning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuyuan-county",
+    "name": "婺源县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huizhou-prefecture",
+    "seatPlaceId": "wuyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qimen-county",
+    "name": "祁门县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huizhou-prefecture",
+    "seatPlaceId": "qimen-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yi-county",
+    "name": "黟县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huizhou-prefecture",
+    "seatPlaceId": "yi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jixi-county",
+    "name": "绩溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huizhou-prefecture",
+    "seatPlaceId": "jixi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xiao-county",
+    "name": "萧县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xuzhou-direct-department",
+    "seatPlaceId": "xiao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dangshan-county",
+    "name": "砀山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xuzhou-direct-department",
+    "seatPlaceId": "dangshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "feng-county",
+    "name": "丰县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xuzhou-direct-department",
+    "seatPlaceId": "feng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "pei-county",
+    "name": "沛县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xuzhou-direct-department",
+    "seatPlaceId": "pei-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "quanjiao-county",
+    "name": "全椒县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-direct-department",
+    "seatPlaceId": "quanjiao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "laian-county",
+    "name": "来安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-direct-department",
+    "seatPlaceId": "laian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "hanshan-county",
+    "name": "含山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hezhou-direct-department",
+    "seatPlaceId": "hanshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jianping-county",
+    "name": "建平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangde-direct-department",
+    "seatPlaceId": "jianping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Complete Nanjing administrative roster for the 1600 time slice"
+    }
+  }
+]

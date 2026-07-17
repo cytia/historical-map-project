@@ -1,0 +1,365 @@
+{
+  "$schema": "./schema/data-manifest.schema.json",
+  "schemaVersion": 1,
+  "projectSchema": "./schema/project-data.schema.json",
+  "output": "project.json",
+  "fragments": [
+    {
+      "collection": "sources",
+      "path": "catalog/sources.json"
+    },
+    {
+      "collection": "polities",
+      "path": "catalog/polities.json"
+    },
+    {
+      "collection": "scopeStatistics",
+      "path": "statistics/scope.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "fujian",
+      "path": "units/administrative/fujian.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "guangdong",
+      "path": "units/administrative/guangdong.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "guangxi",
+      "path": "units/administrative/guangxi.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "guizhou",
+      "path": "units/administrative/guizhou.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "henan",
+      "path": "units/administrative/henan.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "huguang",
+      "path": "units/administrative/huguang.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "jiangxi",
+      "path": "units/administrative/jiangxi.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "jingshi",
+      "path": "units/administrative/jingshi.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "nanjing",
+      "path": "units/administrative/nanjing.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "shaanxi",
+      "path": "units/administrative/shaanxi.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "shandong",
+      "path": "units/administrative/shandong.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "shanxi",
+      "path": "units/administrative/shanxi.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "sichuan",
+      "path": "units/administrative/sichuan.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "yunnan",
+      "path": "units/administrative/yunnan.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "administrative",
+      "region": "zhejiang",
+      "path": "units/administrative/zhejiang.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "military",
+      "region": "guizhou",
+      "path": "units/military/guizhou.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "special-governance",
+      "region": "guangxi",
+      "path": "units/special-governance/guangxi.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "special-governance",
+      "region": "guizhou",
+      "path": "units/special-governance/guizhou.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "special-governance",
+      "region": "sichuan",
+      "path": "units/special-governance/sichuan.json"
+    },
+    {
+      "collection": "administrativeUnits",
+      "domain": "special-governance",
+      "region": "yunnan",
+      "path": "units/special-governance/yunnan.json"
+    },
+    {
+      "collection": "places",
+      "region": "fujian",
+      "path": "places/fujian.json"
+    },
+    {
+      "collection": "places",
+      "region": "guangdong",
+      "path": "places/guangdong.json"
+    },
+    {
+      "collection": "places",
+      "region": "guangxi",
+      "path": "places/guangxi.json"
+    },
+    {
+      "collection": "places",
+      "region": "guizhou",
+      "path": "places/guizhou.json"
+    },
+    {
+      "collection": "places",
+      "region": "henan",
+      "path": "places/henan.json"
+    },
+    {
+      "collection": "places",
+      "region": "huguang",
+      "path": "places/huguang.json"
+    },
+    {
+      "collection": "places",
+      "region": "jiangxi",
+      "path": "places/jiangxi.json"
+    },
+    {
+      "collection": "places",
+      "region": "jingshi",
+      "path": "places/jingshi.json"
+    },
+    {
+      "collection": "places",
+      "region": "nanjing",
+      "path": "places/nanjing.json"
+    },
+    {
+      "collection": "places",
+      "region": "shaanxi",
+      "path": "places/shaanxi.json"
+    },
+    {
+      "collection": "places",
+      "region": "shandong",
+      "path": "places/shandong.json"
+    },
+    {
+      "collection": "places",
+      "region": "shanxi",
+      "path": "places/shanxi.json"
+    },
+    {
+      "collection": "places",
+      "region": "sichuan",
+      "path": "places/sichuan.json"
+    },
+    {
+      "collection": "places",
+      "region": "yunnan",
+      "path": "places/yunnan.json"
+    },
+    {
+      "collection": "places",
+      "region": "zhejiang",
+      "path": "places/zhejiang.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "fujian",
+      "path": "place-names/fujian.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "guangdong",
+      "path": "place-names/guangdong.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "guangxi",
+      "path": "place-names/guangxi.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "guizhou",
+      "path": "place-names/guizhou.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "henan",
+      "path": "place-names/henan.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "huguang",
+      "path": "place-names/huguang.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "jiangxi",
+      "path": "place-names/jiangxi.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "jingshi",
+      "path": "place-names/jingshi.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "nanjing",
+      "path": "place-names/nanjing.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "shaanxi",
+      "path": "place-names/shaanxi.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "shandong",
+      "path": "place-names/shandong.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "shanxi",
+      "path": "place-names/shanxi.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "sichuan",
+      "path": "place-names/sichuan.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "yunnan",
+      "path": "place-names/yunnan.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "zhejiang",
+      "path": "place-names/zhejiang.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "fujian",
+      "path": "statistics/fujian.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "guangdong",
+      "path": "statistics/guangdong.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "guangxi",
+      "path": "statistics/guangxi.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "guizhou",
+      "path": "statistics/guizhou.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "henan",
+      "path": "statistics/henan.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "huguang",
+      "path": "statistics/huguang.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "jiangxi",
+      "path": "statistics/jiangxi.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "jingshi",
+      "path": "statistics/jingshi.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "nanjing",
+      "path": "statistics/nanjing.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "shaanxi",
+      "path": "statistics/shaanxi.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "shandong",
+      "path": "statistics/shandong.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "shanxi",
+      "path": "statistics/shanxi.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "sichuan",
+      "path": "statistics/sichuan.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "yunnan",
+      "path": "statistics/yunnan.json"
+    },
+    {
+      "collection": "statistics",
+      "region": "zhejiang",
+      "path": "statistics/zhejiang.json"
+    }
+  ]
+}

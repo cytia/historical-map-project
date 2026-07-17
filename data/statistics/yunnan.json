@@ -1,0 +1,122 @@
+[
+  {
+    "id": "yunnan-households-1578",
+    "administrativeUnitId": "yunnan",
+    "category": "population",
+    "metric": "households",
+    "value": 135560,
+    "unit": "households",
+    "originalText": "云南布政司人户一十三万五千五百六十户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年云南布政司人户总数；保留省级登记口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year provincial household roster; no interpolation to 1600 and no prefectural allocation."
+    }
+  },
+  {
+    "id": "yunnan-population-1578",
+    "administrativeUnitId": "yunnan",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 1476692,
+    "unit": "people",
+    "originalText": "云南布政司人口一百四十七万六千六百九十二口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年云南布政司登记人口总数；不当作完整实际人口估计。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "yunnan-land-1578",
+    "administrativeUnitId": "yunnan",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 17993.588,
+    "unit": "qing",
+    "originalText": "云南布政司田土共一万七千九百九十三顷五十八亩八分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年云南布政司实在田土总额；按顷、亩、分换算为顷，未作现代面积转换。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year land register; normalized 1顷=100亩 and 1亩=10分."
+    }
+  },
+  {
+    "id": "yunnan-summer-tax-1578",
+    "administrativeUnitId": "yunnan",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 35567.2615,
+    "unit": "shi",
+    "originalText": "云南布政司夏税麦三万五千五百六十七石二斗六升一合五勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年云南布政司夏税麦主项；原文未另列可并入本指标的其他夏税粮项目。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual summer-tax 麦; normalized 1石=10斗=100升=1000合=10000勺."
+    }
+  },
+  {
+    "id": "yunnan-autumn-grain-1578",
+    "administrativeUnitId": "yunnan",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 107123.0371,
+    "unit": "shi",
+    "originalText": "云南布政司秋粮米一十万七千一百二十三石三升七合一勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年云南布政司秋粮本色米主项；在线 OCR 将‘一十万’首字误识为‘旦’，按数位结构校读，未另列可并入本指标的其他秋粮米项目。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded from the Wanli sixth-year provincial tax register; normalized 1石=10斗=100升=1000合=10000勺 and retained the OCR correction from 旦十万 to 一十万."
+    }
+  }
+]

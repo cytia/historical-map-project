@@ -1,0 +1,3817 @@
+[
+  {
+    "id": "shaanxi",
+    "name": "陕西",
+    "formalName": "陕西等处承宣布政使司",
+    "level": "province",
+    "polityId": "ming",
+    "seatPlaceId": "xian-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "atlas-ming-empire-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 time-slice membership; provincial seat references the Xi'an prefectural seat"
+    }
+  },
+  {
+    "id": "xian-prefecture",
+    "name": "西安府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "xian-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses a shared prefectural-city seat because Changan and Xianning governed the west and east sides"
+    }
+  },
+  {
+    "id": "fengxiang-prefecture",
+    "name": "凤翔府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "fengxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shaanxi-administered prefecture and Fengxiang seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "hanzhong-prefecture",
+    "name": "汉中府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "nanzheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shaanxi-administered prefecture and Nanzheng seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "yanan-prefecture",
+    "name": "延安府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "fushi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shaanxi-administered prefecture and Fushi seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "qingyang-prefecture",
+    "name": "庆阳府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "qingyang-anhua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shaanxi-administered prefecture and Anhua seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "pingliang-prefecture",
+    "name": "平凉府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "pingliang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shaanxi-administered prefecture and Pingliang seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "gongchang-prefecture",
+    "name": "巩昌府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "longxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shaanxi-administered prefecture and Longxi seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "lintao-prefecture",
+    "name": "临洮府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "didao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shaanxi-administered prefecture and Didao seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "lingzhou-direct-department",
+    "name": "灵州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "lingzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered department restored in 1500 and present in the 1600 time slice"
+    }
+  },
+  {
+    "id": "xingan-direct-department",
+    "name": "兴安州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "shaanxi",
+    "seatPlaceId": "xingan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the post-1583 name and post-1595 direct administration for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huazhou-xian-department",
+    "name": "华州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "huazhou-xian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "shangzhou-xian-department",
+    "name": "商州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "shangzhou-xian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongzhou-xian-department",
+    "name": "同州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "tongzhou-xian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "yaozhou-xian-department",
+    "name": "耀州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "yaozhou-xian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "qianzhou-xian-department",
+    "name": "乾州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "qianzhou-xian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "binzhou-xian-department",
+    "name": "邠州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "binzhou-xian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "longzhou-fengxiang-department",
+    "name": "陇州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "fengxiang-prefecture",
+    "seatPlaceId": "longzhou-fengxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "ningqiang-hanzhong-department",
+    "name": "宁羌州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "hanzhong-prefecture",
+    "seatPlaceId": "ningqiang-hanzhong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "fuzhou-yanan-department",
+    "name": "鄜州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "fuzhou-yanan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "suide-yanan-department",
+    "name": "绥德州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "suide-yanan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiazou-yanan-department",
+    "name": "葭州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "jiazou-yanan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "ningzhou-qingyang-department",
+    "name": "宁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "qingyang-prefecture",
+    "seatPlaceId": "ningzhou-qingyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "jingzhou-pingliang-department",
+    "name": "泾州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "pingliang-prefecture",
+    "seatPlaceId": "jingzhou-pingliang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "jingning-pingliang-department",
+    "name": "静宁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "pingliang-prefecture",
+    "seatPlaceId": "jingning-pingliang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "guyuan-pingliang-department",
+    "name": "固原州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "pingliang-prefecture",
+    "seatPlaceId": "guyuan-pingliang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "qinzhou-gongchang-department",
+    "name": "秦州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "qinzhou-gongchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiezhou-gongchang-department",
+    "name": "阶州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "jiezhou-gongchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "huizhou-gongchang-department",
+    "name": "徽州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "huizhou-gongchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "lanzhou-lintao-department",
+    "name": "兰州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "lintao-prefecture",
+    "seatPlaceId": "lanzhou-lintao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi subordinate-state roster in the 1600 time slice"
+    }
+  },
+  {
+    "id": "hezhou-lintao-department",
+    "name": "河州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "lintao-prefecture",
+    "seatPlaceId": "hezhou-lintao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Special state-level governance relationship retained from Ming Shi; no ordinary county children are listed"
+    }
+  },
+  {
+    "id": "chang-an-county",
+    "name": "长安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "xian-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xianning-xian-county",
+    "name": "咸宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "xian-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xianyang-county",
+    "name": "咸阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "xianyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jingyang-county",
+    "name": "泾阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "jingyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xingping-county",
+    "name": "兴平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "xingping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lintong-county",
+    "name": "临潼县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "lintong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "weinan-county",
+    "name": "渭南县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "weinan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lantian-county",
+    "name": "蓝田县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "lantian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "hu-county",
+    "name": "鄠县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "hu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhouzhi-county",
+    "name": "盩厔县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "zhouzhi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "gaoling-county",
+    "name": "高陵县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "gaoling-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fuping-county",
+    "name": "富平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "fuping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "sanyuan-county",
+    "name": "三原县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "sanyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "liquan-county",
+    "name": "醴泉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xian-prefecture",
+    "seatPlaceId": "liquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huayin-county",
+    "name": "华阴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huazhou-xian-department",
+    "seatPlaceId": "huayin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "pucheng-county",
+    "name": "蒲城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huazhou-xian-department",
+    "seatPlaceId": "pucheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shangnan-county",
+    "name": "商南县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shangzhou-xian-department",
+    "seatPlaceId": "shangnan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "luonan-county",
+    "name": "洛南县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shangzhou-xian-department",
+    "seatPlaceId": "luonan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 uses 洛南; the Ming Shi records the later Tianqi change to 雒南"
+    }
+  },
+  {
+    "id": "shanyang-shangzhou-county",
+    "name": "山阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shangzhou-xian-department",
+    "seatPlaceId": "shanyang-shangzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenan-shangzhou-county",
+    "name": "镇安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shangzhou-xian-department",
+    "seatPlaceId": "zhenan-shangzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chaoyi-county",
+    "name": "朝邑县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-xian-department",
+    "seatPlaceId": "chaoyi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "heyang-county",
+    "name": "郃阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-xian-department",
+    "seatPlaceId": "heyang-tongzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Fixed a cross-region seat-place collision; uses the Shaanxi county-specific seat point"
+    }
+  },
+  {
+    "id": "hancheng-county",
+    "name": "韩城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-xian-department",
+    "seatPlaceId": "hancheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chengcheng-county",
+    "name": "澄城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-xian-department",
+    "seatPlaceId": "chengcheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baishui-tongzhou-county",
+    "name": "白水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-xian-department",
+    "seatPlaceId": "baishui-tongzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongguan-county",
+    "name": "同官县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yaozhou-xian-department",
+    "seatPlaceId": "tongguan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wugong-county",
+    "name": "武功县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qianzhou-xian-department",
+    "seatPlaceId": "wugong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yongshou-county",
+    "name": "永寿县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qianzhou-xian-department",
+    "seatPlaceId": "yongshou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chunhua-county",
+    "name": "淳化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "binzhou-xian-department",
+    "seatPlaceId": "chunhua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "sanshui-county",
+    "name": "三水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "binzhou-xian-department",
+    "seatPlaceId": "sanshui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "changwu-county",
+    "name": "长武县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "binzhou-xian-department",
+    "seatPlaceId": "changwu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fengxiang-county",
+    "name": "凤翔县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengxiang-prefecture",
+    "seatPlaceId": "fengxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qishan-county",
+    "name": "岐山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengxiang-prefecture",
+    "seatPlaceId": "qishan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baoji-county",
+    "name": "宝鸡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengxiang-prefecture",
+    "seatPlaceId": "baoji-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fufeng-county",
+    "name": "扶风县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengxiang-prefecture",
+    "seatPlaceId": "fufeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "mei-county",
+    "name": "郿县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengxiang-prefecture",
+    "seatPlaceId": "mei-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "linyou-county",
+    "name": "麟游县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengxiang-prefecture",
+    "seatPlaceId": "linyou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qianyang-county",
+    "name": "汧阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fengxiang-prefecture",
+    "seatPlaceId": "qianyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "nanzheng-county",
+    "name": "南郑县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hanzhong-prefecture",
+    "seatPlaceId": "nanzheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baocheng-county",
+    "name": "褒城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hanzhong-prefecture",
+    "seatPlaceId": "baocheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chenggu-county",
+    "name": "城固县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hanzhong-prefecture",
+    "seatPlaceId": "chenggu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yang-county",
+    "name": "洋县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hanzhong-prefecture",
+    "seatPlaceId": "yang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xixiang-county",
+    "name": "西乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hanzhong-prefecture",
+    "seatPlaceId": "xixiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "feng-hanzhong-county",
+    "name": "凤县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hanzhong-prefecture",
+    "seatPlaceId": "feng-hanzhong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "mian-county",
+    "name": "沔县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hanzhong-prefecture",
+    "seatPlaceId": "mian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lueyang-county",
+    "name": "略阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningqiang-hanzhong-department",
+    "seatPlaceId": "lueyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fushi-county",
+    "name": "肤施县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "fushi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ansai-county",
+    "name": "安塞县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "ansai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ganquan-county",
+    "name": "甘泉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "ganquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "anding-yanan-county",
+    "name": "安定县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "anding-yanan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baoan-county",
+    "name": "保安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "baoan-yanan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Fixed a cross-region seat-place collision; uses the Shaanxi county-specific seat point"
+    }
+  },
+  {
+    "id": "yichuan-county",
+    "name": "宜川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "yichuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yanchuan-county",
+    "name": "延川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "yanchuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yanchang-county",
+    "name": "延长县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "yanchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qingjian-county",
+    "name": "青涧县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanan-prefecture",
+    "seatPlaceId": "qingjian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "luochuan-county",
+    "name": "洛川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-yanan-department",
+    "seatPlaceId": "luochuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhongbu-county",
+    "name": "中部县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-yanan-department",
+    "seatPlaceId": "zhongbu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yijun-county",
+    "name": "宜君县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-yanan-department",
+    "seatPlaceId": "yijun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "mizhi-county",
+    "name": "米脂县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suide-yanan-department",
+    "seatPlaceId": "mizhi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wubu-county",
+    "name": "吴堡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiazou-yanan-department",
+    "seatPlaceId": "wubu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shenmu-county",
+    "name": "神木县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiazou-yanan-department",
+    "seatPlaceId": "shenmu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fugu-county",
+    "name": "府谷县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiazou-yanan-department",
+    "seatPlaceId": "fugu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "anhua-qingyang-county",
+    "name": "安化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qingyang-prefecture",
+    "seatPlaceId": "qingyang-anhua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "heshui-county",
+    "name": "合水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qingyang-prefecture",
+    "seatPlaceId": "heshui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huan-county",
+    "name": "环县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qingyang-prefecture",
+    "seatPlaceId": "huan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenning-county",
+    "name": "真宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qingyang-prefecture",
+    "seatPlaceId": "zhenning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "pingliang-county",
+    "name": "平凉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingliang-prefecture",
+    "seatPlaceId": "pingliang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chongxin-county",
+    "name": "崇信县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingliang-prefecture",
+    "seatPlaceId": "chongxin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huating-pingliang-county",
+    "name": "华亭县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingliang-prefecture",
+    "seatPlaceId": "huating-pingliang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenyuan-county",
+    "name": "镇原县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingliang-prefecture",
+    "seatPlaceId": "zhenyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "longde-county",
+    "name": "隆德县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingliang-prefecture",
+    "seatPlaceId": "longde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lingtai-county",
+    "name": "灵台县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jingzhou-pingliang-department",
+    "seatPlaceId": "lingtai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhuanglang-county",
+    "name": "庄浪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jingning-pingliang-department",
+    "seatPlaceId": "zhuanglang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "longxi-county",
+    "name": "陇西县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "longxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "anding-gongchang-county",
+    "name": "安定县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "anding-gongchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huining-county",
+    "name": "会宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "huining-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongwei-county",
+    "name": "通渭县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "tongwei-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "CHGIS returned the same coordinate as Huining for the 1600 query; retained a reversible modern-seat proxy"
+    }
+  },
+  {
+    "id": "zhang-county",
+    "name": "漳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "zhang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ningyuan-county",
+    "name": "宁远县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "ningyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fuqiang-county",
+    "name": "伏羌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "fuqiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xihe-county",
+    "name": "西和县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "xihe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "cheng-gongchang-county",
+    "name": "成县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "gongchang-prefecture",
+    "seatPlaceId": "cheng-gongchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qin-an-county",
+    "name": "秦安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qinzhou-gongchang-department",
+    "seatPlaceId": "qin-an-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qingshui-county",
+    "name": "清水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qinzhou-gongchang-department",
+    "seatPlaceId": "qingshui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "li-qinzhou-county",
+    "name": "礼县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qinzhou-gongchang-department",
+    "seatPlaceId": "li-qinzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wen-county",
+    "name": "文县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiezhou-gongchang-department",
+    "seatPlaceId": "wen-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "liangdang-county",
+    "name": "两当县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huizhou-gongchang-department",
+    "seatPlaceId": "liangdang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "didao-county",
+    "name": "狄道县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "lintao-prefecture",
+    "seatPlaceId": "didao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "weiyuan-county",
+    "name": "渭源县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "lintao-prefecture",
+    "seatPlaceId": "weiyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jin-county",
+    "name": "金县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "lanzhou-lintao-department",
+    "seatPlaceId": "jin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "pingli-county",
+    "name": "平利县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xingan-direct-department",
+    "seatPlaceId": "pingli-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shiquan-county",
+    "name": "石泉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xingan-direct-department",
+    "seatPlaceId": "shiquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xunyang-county",
+    "name": "洵阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xingan-direct-department",
+    "seatPlaceId": "xunyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "hanyin-county",
+    "name": "汉阴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xingan-direct-department",
+    "seatPlaceId": "hanyin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baihe-county",
+    "name": "白河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xingan-direct-department",
+    "seatPlaceId": "baihe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ziyang-xingan-county",
+    "name": "紫阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xingan-direct-department",
+    "seatPlaceId": "ziyang-xingan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shaanxi county roster for the 1600 time slice"
+    }
+  }
+]

@@ -8,7 +8,7 @@ import {
 } from "./mapSelection";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { seatLayerIds } from "./seatLayers";
-import type { AdministrativeDisplayScope } from "./types";
+import type { AdministrativeDisplayScope, MapDisplayMode } from "./types";
 
 interface MapSelectionSyncOptions {
   mapRef: RefObject<Map | null>;
@@ -17,12 +17,13 @@ interface MapSelectionSyncOptions {
   selectedCountyId: string | null;
   activeRegionId: string | null;
   administrativeDisplayScope: AdministrativeDisplayScope;
+  mapDisplayMode: MapDisplayMode;
   seatsVisible: boolean;
 }
 
 export function useMapSelectionSync(options: MapSelectionSyncOptions) {
   const { mapRef, hoveredRegionRef, selectedUnitId, selectedCountyId,
-    activeRegionId, administrativeDisplayScope, seatsVisible } = options;
+    activeRegionId, administrativeDisplayScope, mapDisplayMode, seatsVisible } = options;
   const selectedRegionId = getUnitRegionId(selectedUnitId);
 
   useEffect(() => {
@@ -31,8 +32,10 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
     updateMapHierarchySelection(map, {
       selectedUnitId,
       focusRegionId: selectedRegionId ?? hoveredRegionRef.current ?? activeRegionId,
+      displayMode: mapDisplayMode,
     });
-  }, [mapRef, hoveredRegionRef, selectedUnitId, selectedRegionId, activeRegionId]);
+  }, [mapRef, hoveredRegionRef, selectedUnitId, selectedRegionId, activeRegionId,
+    mapDisplayMode]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -42,9 +45,10 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
       selectedCountyId,
       countyRegionId: selectedRegionId ?? activeRegionId,
       administrativeDisplayScope,
+      displayMode: mapDisplayMode,
     });
   }, [mapRef, selectedUnitId, selectedCountyId, selectedRegionId, activeRegionId,
-    administrativeDisplayScope]);
+    administrativeDisplayScope, mapDisplayMode]);
 
   useEffect(() => {
     const map = mapRef.current;

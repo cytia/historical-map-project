@@ -1,7 +1,9 @@
 import type { ExpressionSpecification, Map } from "maplibre-gl";
-import { topLevelSeats } from "./data";
+import { administrativeAffiliationIds, topLevelSeats } from "./data";
+import { affiliationColorExpression } from "./mapDisplay";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { defaultTheme } from "./theme";
+import type { MapDisplayMode } from "./types";
 
 const mapColors = defaultTheme.map;
 
@@ -38,11 +40,16 @@ function pointRadius(selectedUnitId: string | null): ExpressionSpecification {
   return ["case", ["==", ["get", "id"], selectedUnitId ?? ""], 7, 4];
 }
 
+function pointColor(displayMode: MapDisplayMode) {
+  return affiliationColorExpression(displayMode, administrativeAffiliationIds);
+}
+
 export function addSeatLayers(
   map: Map,
   selectedUnitId: string | null,
   focusRegionId: string | null,
   visible: boolean,
+  displayMode: MapDisplayMode,
 ) {
   map.addSource("seats", { type: "geojson", data: seatGeoJson });
   map.addLayer({
@@ -63,7 +70,7 @@ export function addSeatLayers(
     source: "seats",
     paint: {
       "circle-radius": pointRadius(selectedUnitId),
-      "circle-color": mapColors.seat,
+      "circle-color": pointColor(displayMode),
       "circle-opacity": regionOpacity(focusRegionId, 1, 0.28),
       "circle-stroke-width": 2,
       "circle-stroke-color": mapColors.seatRing,
@@ -90,6 +97,11 @@ export function addSeatLayers(
     },
   });
   setLayerVisibility(map, seatLayerIds, visible);
+}
+
+export function setSeatDisplayMode(map: Map, displayMode: MapDisplayMode) {
+  if (!map.getLayer("seat-points")) return;
+  map.setPaintProperty("seat-points", "circle-color", pointColor(displayMode));
 }
 
 export function setSeatFocus(map: Map, selectedUnitId: string | null, focusRegionId: string | null) {

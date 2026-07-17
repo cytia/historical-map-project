@@ -1,0 +1,98 @@
+[
+  {
+    "id": "guizhou-households-1578",
+    "administrativeUnitId": "guizhou",
+    "category": "population",
+    "metric": "households",
+    "value": 43405,
+    "unit": "households",
+    "originalText": "贵州布政司人户四万三千四百五户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年贵州布政司人户总数；保留省级登记口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year provincial household roster; no interpolation to 1600 and no prefectural allocation."
+    }
+  },
+  {
+    "id": "guizhou-population-1578",
+    "administrativeUnitId": "guizhou",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 290972,
+    "unit": "people",
+    "originalText": "贵州布政司人口二十九万九百七十二口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年贵州布政司登记人口总数；不当作完整实际人口估计。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "guizhou-summer-tax-1578",
+    "administrativeUnitId": "guizhou",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 266.8216,
+    "unit": "shi",
+    "originalText": "贵州布政司夏税麦荍二百六十六石八斗二升一合六勺",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年贵州布政司夏税麦荍主项；‘麦荍’保留原始税目，不改写为小麦；在线 OCR 将末位‘勺’误识为‘洞’，按同页总数校读。蛮麻布另列，不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual summer-tax 麦荍; normalized 1石=10斗=100升=1000合=10000勺 and retained the OCR correction from 洞 to 勺."
+    }
+  },
+  {
+    "id": "guizhou-autumn-grain-1578",
+    "administrativeUnitId": "guizhou",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 50541.968,
+    "unit": "shi",
+    "originalText": "贵州布政司秋粮米五万五百四十一石九斗六升八合零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年贵州布政司秋粮本色米主项；原文未另列可并入本指标的其他秋粮米项目。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺."
+    }
+  }
+]

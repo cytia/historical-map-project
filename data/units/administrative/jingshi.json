@@ -1,0 +1,4326 @@
+[
+  {
+    "id": "jingshi",
+    "name": "京师",
+    "level": "capital-region",
+    "polityId": "ming",
+    "seatPlaceId": "daxing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "atlas-ming-empire-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 time-slice membership; capital seat references the Shuntian prefectural seat"
+    }
+  },
+  {
+    "id": "shuntian-prefecture",
+    "name": "顺天府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "daxing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Jingshi-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "baoding-prefecture",
+    "name": "保定府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Jingshi-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "hejian-prefecture",
+    "name": "河间府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "hejian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Jingshi-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhending-prefecture",
+    "name": "真定府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "zhending-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Uses the Ming-period name Zhending, not the later Zhengding"
+    }
+  },
+  {
+    "id": "shunde-prefecture",
+    "name": "顺德府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "xingtai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Jingshi-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "guangping-prefecture",
+    "name": "广平府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "yongnian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Jingshi-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "daming-prefecture",
+    "name": "大名府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "daming-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Jingshi-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "yongping-prefecture",
+    "name": "永平府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "lulong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Jingshi-administered prefecture in the 1600 time slice"
+    }
+  },
+  {
+    "id": "yanqing-direct-department",
+    "name": "延庆州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "yanqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Uses the post-1567 name Yanqing for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baoan-direct-department",
+    "name": "保安州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "jingshi",
+    "seatPlaceId": "baoan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Directly administered department in the 1600 time slice"
+    }
+  },
+  {
+    "id": "daxing-county",
+    "name": "大兴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "daxing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture roster; attached county remains distinct from the prefecture while sharing its city-level seat"
+    }
+  },
+  {
+    "id": "wanping-county",
+    "name": "宛平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "wanping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "liangxiang-county",
+    "name": "良乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "liangxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "guan-county",
+    "name": "固安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "guan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yongqing-county",
+    "name": "永清县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "yongqing-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dongan-shuntian-county",
+    "name": "东安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "dongan-shuntian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture county roster; ID distinguishes this county from southern homonyms"
+    }
+  },
+  {
+    "id": "xianghe-county",
+    "name": "香河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "xianghe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongzhou-shuntian-department",
+    "name": "通州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "tongzhou-shuntian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture subordinate state in the 1600 time slice"
+    }
+  },
+  {
+    "id": "sanhe-county",
+    "name": "三河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-shuntian-department",
+    "seatPlaceId": "sanhe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Tongzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuqing-county",
+    "name": "武清县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-shuntian-department",
+    "seatPlaceId": "wuqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Tongzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "kuo-county",
+    "name": "漷县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-shuntian-department",
+    "seatPlaceId": "kuo-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Tongzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baodi-county",
+    "name": "宝坻县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongzhou-shuntian-department",
+    "seatPlaceId": "baodi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Tongzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "bazhou-department",
+    "name": "霸州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "bazhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture subordinate state in the 1600 time slice"
+    }
+  },
+  {
+    "id": "wenan-county",
+    "name": "文安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "bazhou-department",
+    "seatPlaceId": "wenan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Bazhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dacheng-county",
+    "name": "大城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "bazhou-department",
+    "seatPlaceId": "dacheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Bazhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baoding-county",
+    "name": "保定县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "bazhou-department",
+    "seatPlaceId": "baoding-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Bazhou county roster; distinct from Baoding Prefecture"
+    }
+  },
+  {
+    "id": "zhuozhou-department",
+    "name": "涿州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "zhuozhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture subordinate state in the 1600 time slice"
+    }
+  },
+  {
+    "id": "fangshan-county",
+    "name": "房山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhuozhou-department",
+    "seatPlaceId": "fangshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhuozhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "changping-department",
+    "name": "昌平州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "changping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "State status follows the post-1513 arrangement in the 1600 time slice"
+    }
+  },
+  {
+    "id": "shunyi-county",
+    "name": "顺义县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "changping-department",
+    "seatPlaceId": "shunyi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Changpingzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huairou-county",
+    "name": "怀柔县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "changping-department",
+    "seatPlaceId": "huairou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Changpingzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "miyun-county",
+    "name": "密云县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "changping-department",
+    "seatPlaceId": "miyun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Changpingzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jizhou-department",
+    "name": "蓟州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "shuntian-prefecture",
+    "seatPlaceId": "jizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shuntian Prefecture subordinate state in the 1600 time slice"
+    }
+  },
+  {
+    "id": "yutian-county",
+    "name": "玉田县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jizhou-department",
+    "seatPlaceId": "yutian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jizhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fengrun-county",
+    "name": "丰润县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jizhou-department",
+    "seatPlaceId": "fengrun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jizhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zunhua-county",
+    "name": "遵化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jizhou-department",
+    "seatPlaceId": "zunhua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jizhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "pinggu-county",
+    "name": "平谷县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jizhou-department",
+    "seatPlaceId": "pinggu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jizhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qingyuan-county",
+    "name": "清苑县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Attached county remains distinct from Baoding Prefecture while sharing its seat"
+    }
+  },
+  {
+    "id": "mancheng-county",
+    "name": "满城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "mancheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ansu-county",
+    "name": "安肃县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "ansu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dingxing-county",
+    "name": "定兴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "dingxing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xincheng-baoding-county",
+    "name": "新城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "xincheng-baoding-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture county roster; ID distinguishes this county from homonyms"
+    }
+  },
+  {
+    "id": "xiong-county",
+    "name": "雄县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "xiong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "rongcheng-county",
+    "name": "容城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "rongcheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the post-1451 seat applicable to the 1600 time slice"
+    }
+  },
+  {
+    "id": "tang-baoding-county",
+    "name": "唐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "tang-baoding-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture county roster; ID distinguishes this county from the Nanyang homonym"
+    }
+  },
+  {
+    "id": "qingdu-county",
+    "name": "庆都县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "qingdu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the Ming-period Qingdu name for the 1600 time slice"
+    }
+  },
+  {
+    "id": "boye-county",
+    "name": "博野县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "boye-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "li-county",
+    "name": "蠡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "li-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wan-baoding-county",
+    "name": "完县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "wan-baoding-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qizhou-baoding-department",
+    "name": "祁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "qizhou-baoding-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture subordinate state; former Puyin county was merged into the state seat"
+    }
+  },
+  {
+    "id": "shenze-county",
+    "name": "深泽县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qizhou-baoding-department",
+    "seatPlaceId": "shenze-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Qizhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shulu-county",
+    "name": "束鹿县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qizhou-baoding-department",
+    "seatPlaceId": "shulu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the pre-1622 seat applicable to the 1600 time slice"
+    }
+  },
+  {
+    "id": "anzhou-baoding-department",
+    "name": "安州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "anzhou-baoding-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture subordinate state; former Gecheng county was merged into the state seat"
+    }
+  },
+  {
+    "id": "gaoyang-county",
+    "name": "高阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "anzhou-baoding-department",
+    "seatPlaceId": "gaoyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Anzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xinan-anzhou-county",
+    "name": "新安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "anzhou-baoding-department",
+    "seatPlaceId": "xinan-anzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Anzhou county roster; ID distinguishes this county from homonyms"
+    }
+  },
+  {
+    "id": "yizhou-baoding-department",
+    "name": "易州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "baoding-prefecture",
+    "seatPlaceId": "yizhou-baoding-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Baoding Prefecture subordinate state; former Yi county was merged into the state seat"
+    }
+  },
+  {
+    "id": "laishui-county",
+    "name": "涞水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yizhou-baoding-department",
+    "seatPlaceId": "laishui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Yizhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "hejian-county",
+    "name": "河间县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "hejian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Attached county remains distinct from Hejian Prefecture while sharing its seat"
+    }
+  },
+  {
+    "id": "xian-county",
+    "name": "献县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "xian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Hejian Prefecture county roster; former Le Shou county was merged into Xianzhou before its demotion"
+    }
+  },
+  {
+    "id": "fucheng-hejian-county",
+    "name": "阜城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "fucheng-hejian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Hejian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "suning-county",
+    "name": "肃宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "suning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Hejian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "renqiu-county",
+    "name": "任丘县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "renqiu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Hejian Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiaohe-county",
+    "name": "交河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "jiaohe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Restored county present in the 1600 time slice"
+    }
+  },
+  {
+    "id": "qing-hejian-county",
+    "name": "青县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "qing-hejian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the Ming-period Qing name after demotion from Qingzhou"
+    }
+  },
+  {
+    "id": "xingji-county",
+    "name": "兴济县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "xingji-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "County restored in 1380 and present in 1600"
+    }
+  },
+  {
+    "id": "jinghai-county",
+    "name": "静海县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "jinghai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the Ming-period Jinghai name"
+    }
+  },
+  {
+    "id": "ningjin-hejian-county",
+    "name": "宁津县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "ningjin-hejian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Civil county distinguished from the homonymous military office"
+    }
+  },
+  {
+    "id": "jingzhou-hejian-department",
+    "name": "景州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "jingzhou-hejian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Hejian subordinate state; former Tiao county was merged into the state seat"
+    }
+  },
+  {
+    "id": "wuqiao-county",
+    "name": "吴桥县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jingzhou-hejian-department",
+    "seatPlaceId": "wuqiao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jingzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dongguang-county",
+    "name": "东光县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jingzhou-hejian-department",
+    "seatPlaceId": "dongguang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jingzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "gucheng-hejian-county",
+    "name": "故城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jingzhou-hejian-department",
+    "seatPlaceId": "gucheng-hejian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jingzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "cangzhou-department",
+    "name": "沧州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "hejian-prefecture",
+    "seatPlaceId": "cangzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the post-1369 Changlu state seat; former Qingchi county was merged into the state"
+    }
+  },
+  {
+    "id": "nanpi-county",
+    "name": "南皮县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "cangzhou-department",
+    "seatPlaceId": "nanpi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Cangzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yanshan-hejian-county",
+    "name": "盐山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "cangzhou-department",
+    "seatPlaceId": "yanshan-hejian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Cangzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qingyun-county",
+    "name": "庆云县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "cangzhou-department",
+    "seatPlaceId": "qingyun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Cangzhou county created in 1373 and present in 1600"
+    }
+  },
+  {
+    "id": "xingtai-county",
+    "name": "邢台县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shunde-prefecture",
+    "seatPlaceId": "xingtai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Attached county remains distinct from Shunde Prefecture while sharing its seat"
+    }
+  },
+  {
+    "id": "shahe-shunde-county",
+    "name": "沙河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shunde-prefecture",
+    "seatPlaceId": "shahe-shunde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the restored old seat after the 1491-1505 relocation interval"
+    }
+  },
+  {
+    "id": "nanhe-county",
+    "name": "南和县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shunde-prefecture",
+    "seatPlaceId": "nanhe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shunde Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ren-shunde-county",
+    "name": "任县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shunde-prefecture",
+    "seatPlaceId": "ren-shunde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shunde Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "neiqiu-county",
+    "name": "内丘县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shunde-prefecture",
+    "seatPlaceId": "neiqiu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shunde Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tangshan-shunde-county",
+    "name": "唐山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shunde-prefecture",
+    "seatPlaceId": "tangshan-shunde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Ming Tangshan county distinguished from the modern coastal city"
+    }
+  },
+  {
+    "id": "pingxiang-county",
+    "name": "平乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shunde-prefecture",
+    "seatPlaceId": "pingxiang-shunde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Shunde Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "julu-county",
+    "name": "钜鹿县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shunde-prefecture",
+    "seatPlaceId": "julu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Preserves the Ming History form while matching the CHGIS variant 巨鹿"
+    }
+  },
+  {
+    "id": "guangzong-county",
+    "name": "广宗县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shunde-prefecture",
+    "seatPlaceId": "guangzong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "County restored in 1380 and present in 1600"
+    }
+  },
+  {
+    "id": "yongnian-county",
+    "name": "永年县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangping-prefecture",
+    "seatPlaceId": "yongnian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Attached county remains distinct from Guangping Prefecture while sharing its seat"
+    }
+  },
+  {
+    "id": "quzhou-guangping-county",
+    "name": "曲周县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangping-prefecture",
+    "seatPlaceId": "quzhou-guangping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Guangping Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "feixiang-county",
+    "name": "肥乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangping-prefecture",
+    "seatPlaceId": "feixiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Guangping Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jize-county",
+    "name": "鸡泽县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangping-prefecture",
+    "seatPlaceId": "jize-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Guangping Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "guangping-county",
+    "name": "广平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangping-prefecture",
+    "seatPlaceId": "guangping-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "County distinguished from the homonymous prefecture"
+    }
+  },
+  {
+    "id": "chengan-county",
+    "name": "成安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangping-prefecture",
+    "seatPlaceId": "chengan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "County restored in 1371 and present in 1600"
+    }
+  },
+  {
+    "id": "wei-guangping-county",
+    "name": "威县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangping-prefecture",
+    "seatPlaceId": "wei-guangping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Former Weizhou demoted to a county in 1369"
+    }
+  },
+  {
+    "id": "handan-county",
+    "name": "邯郸县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangping-prefecture",
+    "seatPlaceId": "handan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Guangping Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qinghe-guangping-county",
+    "name": "清河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangping-prefecture",
+    "seatPlaceId": "qinghe-guangping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected over the Huai'an homonym and placed under Guangping Prefecture"
+    }
+  },
+  {
+    "id": "zhending-county",
+    "name": "真定县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "zhending-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Attached county remains distinct from Zhending Prefecture while sharing its seat"
+    }
+  },
+  {
+    "id": "jingxing-county",
+    "name": "井陉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "jingxing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhending Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huolu-county",
+    "name": "获鹿县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "huolu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhending Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yuanshi-county",
+    "name": "元氏县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "yuanshi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhending Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lingshou-county",
+    "name": "灵寿县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "lingshou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhending Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "gaocheng-county",
+    "name": "藁城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "gaocheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhending Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "luancheng-county",
+    "name": "栾城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "luancheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the Hongwu-period relocated seat applicable to 1600"
+    }
+  },
+  {
+    "id": "wuji-county",
+    "name": "无极县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "wuji-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "County restored in 1371 and present in 1600"
+    }
+  },
+  {
+    "id": "pingshan-county",
+    "name": "平山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "pingshan-zhending-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhending Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fuping-zhending-county",
+    "name": "阜平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "fuping-zhending-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhending Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xingtang-county",
+    "name": "行唐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "xingtang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Directly under Zhending Prefecture since 1448"
+    }
+  },
+  {
+    "id": "dingzhou-zhending-department",
+    "name": "定州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "dingzhou-zhending-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Former Anxi county was merged into the state seat"
+    }
+  },
+  {
+    "id": "xinle-county",
+    "name": "新乐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "dingzhou-zhending-department",
+    "seatPlaceId": "xinle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Dingzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "quyang-county",
+    "name": "曲阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "dingzhou-zhending-department",
+    "seatPlaceId": "quyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Dingzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jizhou-zhending-department",
+    "name": "冀州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "jizhou-zhending-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Former Xindu county was merged into the state seat"
+    }
+  },
+  {
+    "id": "nangong-county",
+    "name": "南宫县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jizhou-zhending-department",
+    "seatPlaceId": "nangong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the post-1480 relocated seat applicable to 1600"
+    }
+  },
+  {
+    "id": "xinhe-zhending-county",
+    "name": "新河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jizhou-zhending-department",
+    "seatPlaceId": "xinhe-zhending-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jizhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zaoqiang-county",
+    "name": "枣强县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jizhou-zhending-department",
+    "seatPlaceId": "zaoqiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jizhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuyi-county",
+    "name": "武邑县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jizhou-zhending-department",
+    "seatPlaceId": "wuyi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jizhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jinzhou-zhending-department",
+    "name": "晋州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "jinzhou-zhending-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Former Gucheng county was merged into the state seat"
+    }
+  },
+  {
+    "id": "anping-county",
+    "name": "安平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinzhou-zhending-department",
+    "seatPlaceId": "anping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jinzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "raoyang-county",
+    "name": "饶阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinzhou-zhending-department",
+    "seatPlaceId": "raoyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jinzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuqiang-county",
+    "name": "武强县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinzhou-zhending-department",
+    "seatPlaceId": "wuqiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Jinzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhaozhou-department",
+    "name": "赵州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "zhaozhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Former Pingji county was merged into the state seat"
+    }
+  },
+  {
+    "id": "baixiang-county",
+    "name": "柏乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhaozhou-department",
+    "seatPlaceId": "baixiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhaozhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "longping-county",
+    "name": "隆平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhaozhou-department",
+    "seatPlaceId": "longping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "County restored in 1380 and present in 1600"
+    }
+  },
+  {
+    "id": "gaoyi-county",
+    "name": "高邑县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhaozhou-department",
+    "seatPlaceId": "gaoyi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhaozhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lincheng-county",
+    "name": "临城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhaozhou-department",
+    "seatPlaceId": "lincheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhaozhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zanhuang-county",
+    "name": "赞皇县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhaozhou-department",
+    "seatPlaceId": "zanhuang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhaozhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ningjin-zhending-county",
+    "name": "宁晋县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhaozhou-department",
+    "seatPlaceId": "ningjin-zhending-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Zhaozhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shenzhou-department",
+    "name": "深州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "zhending-prefecture",
+    "seatPlaceId": "shenzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the post-1412 Wujiazhuang state seat"
+    }
+  },
+  {
+    "id": "hengshui-county",
+    "name": "衡水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shenzhou-department",
+    "seatPlaceId": "hengshui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the post-1414 relocated seat applicable to 1600"
+    }
+  },
+  {
+    "id": "yuancheng-county",
+    "name": "元城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "daming-prefecture",
+    "seatPlaceId": "daming-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Attached county shares the relocated Daming prefectural seat applicable to 1600"
+    }
+  },
+  {
+    "id": "daming-county",
+    "name": "大名县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "daming-prefecture",
+    "seatPlaceId": "daming-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the post-1411 county seat distinct from the prefectural seat"
+    }
+  },
+  {
+    "id": "wei-daming-county",
+    "name": "魏县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "daming-prefecture",
+    "seatPlaceId": "wei-daming-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the post-1370 relocated seat"
+    }
+  },
+  {
+    "id": "nanle-county",
+    "name": "南乐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "daming-prefecture",
+    "seatPlaceId": "nanle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Daming Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qingfeng-county",
+    "name": "清丰县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "daming-prefecture",
+    "seatPlaceId": "qingfeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Daming Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "neihuang-county",
+    "name": "内黄县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "daming-prefecture",
+    "seatPlaceId": "neihuang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Daming Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jun-county",
+    "name": "浚县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "daming-prefecture",
+    "seatPlaceId": "jun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the post-1550 hilltop seat applicable to 1600"
+    }
+  },
+  {
+    "id": "hua-daming-county",
+    "name": "滑县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "daming-prefecture",
+    "seatPlaceId": "hua-daming-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Former Huazhou demoted to a county before 1600"
+    }
+  },
+  {
+    "id": "kaizhou-department",
+    "name": "开州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "daming-prefecture",
+    "seatPlaceId": "kaizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Former Puyang county was merged into the state seat"
+    }
+  },
+  {
+    "id": "changyuan-county",
+    "name": "长垣县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaizhou-department",
+    "seatPlaceId": "changyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the Gupucheng relocation applicable to 1600"
+    }
+  },
+  {
+    "id": "dongming-county",
+    "name": "东明县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaizhou-department",
+    "seatPlaceId": "dongming-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the post-1490 restored and relocated seat"
+    }
+  },
+  {
+    "id": "lulong-county",
+    "name": "卢龙县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yongping-prefecture",
+    "seatPlaceId": "lulong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Attached county remains distinct from Yongping Prefecture while sharing its seat"
+    }
+  },
+  {
+    "id": "qianan-county",
+    "name": "迁安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yongping-prefecture",
+    "seatPlaceId": "qianan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Yongping Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "funing-county",
+    "name": "抚宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yongping-prefecture",
+    "seatPlaceId": "funing-yongping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Uses the Hongwu-period relocated seat applicable to 1600; the seat ID is scoped to Yongping to distinguish it from Funing State in Fujian"
+    }
+  },
+  {
+    "id": "changli-county",
+    "name": "昌黎县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yongping-prefecture",
+    "seatPlaceId": "changli-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Yongping Prefecture county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "luanzhou-department",
+    "name": "滦州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "yongping-prefecture",
+    "seatPlaceId": "luanzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Former Yifeng county was merged into the state seat"
+    }
+  },
+  {
+    "id": "leting-county",
+    "name": "乐亭县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "luanzhou-department",
+    "seatPlaceId": "leting-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Luanzhou county roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yongning-yanqing-county",
+    "name": "永宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanqing-direct-department",
+    "seatPlaceId": "yongning-yanqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Civil county established inside Yongning Wei and present in the 1600 time slice"
+    }
+  }
+]

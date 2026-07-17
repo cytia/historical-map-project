@@ -1,0 +1,122 @@
+[
+  {
+    "id": "shandong-households-1578",
+    "administrativeUnitId": "shandong",
+    "category": "population",
+    "metric": "households",
+    "value": 1372206,
+    "unit": "households",
+    "originalText": "人户、一百三十七万二千二百六户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年山东布政司人户总数；本记录保留布政司省级口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year household roster; no interpolation to 1600 and no prefectural allocation."
+    }
+  },
+  {
+    "id": "shandong-population-1578",
+    "administrativeUnitId": "shandong",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 5664099,
+    "unit": "people",
+    "originalText": "人口、五百六十六万四千九十九口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年山东布政司人口总数；本记录保留布政司省级口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "shandong-land-1578",
+    "administrativeUnitId": "shandong",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 617498.99682,
+    "unit": "qing",
+    "originalText": "山东布政司田土共六十一万七千四百九十八顷九十九亩六分八厘二毫",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年山东布政司实在田土总额；按顷、亩、分、厘、毫换算为顷，未作现代面积转换。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year land register; normalized 1顷=100亩, 1亩=10分, 1分=10厘, 1厘=10毫."
+    }
+  },
+  {
+    "id": "shandong-summer-tax-1578",
+    "administrativeUnitId": "shandong",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 855172.1478,
+    "unit": "shi",
+    "originalText": "山东布政司夏税小麦八十五万五千一百七十二石一斗四升七合八勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年山东布政司夏税本色小麦总额；牛租米、丝绢等其他项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year tax register; normalized 1石=10斗=100升=1000合=10000勺."
+    }
+  },
+  {
+    "id": "shandong-autumn-grain-1578",
+    "administrativeUnitId": "shandong",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 1995764.9166,
+    "unit": "shi",
+    "originalText": "山东布政司秋粮米一百九十九万五千七百六十四石九斗一升六合六勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年山东布政司秋粮本色米；不同 OCR 本出现“未/上百”等异字，按数位和同页结构校读为“一百九十九万”。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded from the Wanli sixth-year tax register; OCR variants in the ten-thousands phrase are retained in the note, and the normalized value uses 一百九十九万."
+    }
+  }
+]

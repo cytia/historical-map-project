@@ -1,0 +1,3293 @@
+[
+  {
+    "id": "daxing-seat",
+    "longitude": 116.39139,
+    "latitude": 39.90619,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Approximate Ming Beijing city location; exact prefectural compound unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "Approximate city-level seat for Shuntian Prefecture"
+    }
+  },
+  {
+    "id": "qingyuan-seat",
+    "longitude": 115.49309,
+    "latitude": 38.85707,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Approximate historical Baoding walled-city location",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "City-level location; exact prefectural compound unresolved"
+    }
+  },
+  {
+    "id": "hejian-seat",
+    "longitude": 116.08553,
+    "latitude": 38.4357,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefecture point hvd_87998",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87998, valid 1377 ~ 1724, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Replaced the city proxy with a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zhending-seat",
+    "longitude": 114.56364,
+    "latitude": 38.14011,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefecture point hvd_88396",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88396, valid 1369 ~ 1722, covers the 1600 time slice and preserves the Ming-period Zhending name"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Replaced the walled-city proxy with a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xingtai-seat",
+    "longitude": 114.49426,
+    "latitude": 37.06636,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44893",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44893, valid 1120 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Replaced the city proxy with a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yongnian-seat",
+    "longitude": 114.72307,
+    "latitude": 36.70103,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44826",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44826, valid 601 ~ 1911, identifies the Guangfu old-city seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Replaced the old-city proxy with a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "daming-seat",
+    "longitude": 115.14652,
+    "latitude": 36.27553,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefecture point hvd_87779",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87779, valid 1402 ~ 1724, covers the 1600 time slice after the 1398 flood relocation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Replaced the old-city proxy with a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "lulong-seat",
+    "longitude": 118.86195,
+    "latitude": 39.87732,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88307",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88307, valid 0 ~ 1911, covers the 1600 time slice under Yongping Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Replaced the city proxy with a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yanqing-seat",
+    "longitude": 115.97494,
+    "latitude": 40.45656,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Approximate historical Yanqing state-seat location",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-12",
+      "revisionNote": "City-level location; exact state office unresolved"
+    }
+  },
+  {
+    "id": "baoan-seat",
+    "longitude": 115.21474,
+    "latitude": 40.37656,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88275",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88275, valid 0 ~ 1692, covers the 1600 time slice and the post-1451 Leijiazhan seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Replaced the area proxy with a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wanping-seat",
+    "longitude": 116.39139,
+    "latitude": 39.90619,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Ming Beijing city proxy; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible city-level proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "liangxiang-seat",
+    "longitude": 116.14257,
+    "latitude": 39.73533,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-town proxy guided by the Ming History entry; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "guan-seat",
+    "longitude": 116.30117,
+    "latitude": 39.43563,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88207",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88207, valid 1369 ~ 1911, covers the 1600 time slice after homonym and parent filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yongqing-county-seat",
+    "longitude": 116.49061,
+    "latitude": 39.32571,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88208",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88208, valid 0 ~ 1911, covers the 1600 time slice after homonym and location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "dongan-shuntian-seat",
+    "longitude": 116.71631,
+    "latitude": 39.44894,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88211",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88211, valid 1370 ~ 1911, selected over southern homonyms"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point after homonym filtering"
+    }
+  },
+  {
+    "id": "xianghe-seat",
+    "longitude": 116.99597,
+    "latitude": 39.76523,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88199",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88199, valid 1380 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "tongzhou-shuntian-seat",
+    "longitude": 116.65643,
+    "latitude": 39.90995,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "sanhe-seat",
+    "longitude": 117.07612,
+    "latitude": 39.98279,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88195",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88195, valid 0 ~ 1911, covers the 1600 time slice under Tongzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wuqing-seat",
+    "longitude": 116.94582,
+    "latitude": 39.51027,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88196",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88196, valid 0 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "kuo-seat",
+    "longitude": 116.78442,
+    "latitude": 39.78267,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Hexian historical-town proxy guided by the Ming History entry; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "baodi-seat",
+    "longitude": 117.30242,
+    "latitude": 39.72589,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88197",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88197, valid 0 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "bazhou-seat",
+    "longitude": 116.39525,
+    "latitude": 39.10154,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88200",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88200, valid 0 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wenan-seat",
+    "longitude": 116.46456,
+    "latitude": 38.86481,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88202",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88202, valid 0 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "dacheng-seat",
+    "longitude": 116.62189,
+    "latitude": 38.69587,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88203",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88203, valid 0 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "baoding-county-seat",
+    "longitude": 116.36626,
+    "latitude": 39.00622,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88205",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88205, valid 1380 ~ 1911, selected over the homonymous prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point after feature-type filtering"
+    }
+  },
+  {
+    "id": "zhuozhou-seat",
+    "longitude": 115.96815,
+    "latitude": 39.48722,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88193",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88193, valid 1263 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "fangshan-seat",
+    "longitude": 115.98961,
+    "latitude": 39.70439,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "changping-seat",
+    "longitude": 116.23128,
+    "latitude": 40.22077,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "shunyi-seat",
+    "longitude": 116.65456,
+    "latitude": 40.13035,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "huairou-seat",
+    "longitude": 116.63168,
+    "latitude": 40.31601,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "miyun-seat",
+    "longitude": 116.84335,
+    "latitude": 40.37625,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "jizhou-seat",
+    "longitude": 117.40182,
+    "latitude": 40.04387,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88212",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88212, valid 0 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yutian-seat",
+    "longitude": 117.75478,
+    "latitude": 39.88367,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88317",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88317, valid 0 ~ 1911, covers the 1600 time slice under Jizhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "fengrun-seat",
+    "longitude": 118.1349,
+    "latitude": 39.8276,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88318",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88318, valid 0 ~ 1911, covers the 1600 time slice under Jizhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zunhua-seat",
+    "longitude": 117.95798,
+    "latitude": 40.18445,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88314",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88314, valid 0 ~ 1675, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "pinggu-seat",
+    "longitude": 117.12141,
+    "latitude": 40.14062,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no valid CHGIS point was returned",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  },
+  {
+    "id": "mancheng-seat",
+    "longitude": 115.31562,
+    "latitude": 38.94772,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44747",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44747, valid 1380 ~ 1911, covers the 1600 time slice under Baoding Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "ansu-seat",
+    "longitude": 115.65739,
+    "latitude": 39.01944,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44750",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44750, valid 1369 ~ 1911, covers the 1600 time slice under Baoding Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "dingxing-seat",
+    "longitude": 115.77419,
+    "latitude": 39.26959,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_87673",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87673, valid 1166 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xincheng-baoding-seat",
+    "longitude": 115.98756,
+    "latitude": 39.24595,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44755",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44755, valid 1235 ~ 1911, selected over southern homonyms"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point after homonym filtering"
+    }
+  },
+  {
+    "id": "xiong-seat",
+    "longitude": 116.0927,
+    "latitude": 38.97588,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44775",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44775, valid 1374 ~ 1911, covers the 1600 time slice under Baoding Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "rongcheng-seat",
+    "longitude": 115.86572,
+    "latitude": 39.05165,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44795",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44795, valid 1380 ~ 1911, covers the 1600 time slice and the post-1451 seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "tang-baoding-seat",
+    "longitude": 114.96915,
+    "latitude": 38.74149,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44762",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44762, valid 1130 ~ 1911, selected over the Nanyang homonym"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point after homonym filtering"
+    }
+  },
+  {
+    "id": "qingdu-seat",
+    "longitude": 115.13342,
+    "latitude": 38.70527,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44765",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44765, valid 1129 ~ 1746, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "boye-seat",
+    "longitude": 115.45908,
+    "latitude": 38.45757,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44753",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44753, valid 1294 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "li-seat",
+    "longitude": 115.5747,
+    "latitude": 38.49006,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44774",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44774, valid 1374 ~ 1911, covers the 1600 time slice under Baoding Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wan-baoding-seat",
+    "longitude": 115.12358,
+    "latitude": 38.83323,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44773",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44773, valid 1369 ~ 1911, covers the 1600 time slice under Baoding Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qizhou-baoding-seat",
+    "longitude": 115.31509,
+    "latitude": 38.41234,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_87725",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87725, valid 1220 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "shenze-seat",
+    "longitude": 115.19209,
+    "latitude": 38.1849,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44825",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44825, valid 1266 ~ 1911, covers the 1600 time slice under Qizhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "shulu-seat",
+    "longitude": 115.38535,
+    "latitude": 38.00688,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_87732",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87732, valid 756 ~ 1621, identifies the pre-1622 seat applicable to 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected the contemporaneous pre-relocation CHGIS point"
+    }
+  },
+  {
+    "id": "anzhou-baoding-seat",
+    "longitude": 115.81755,
+    "latitude": 38.87537,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_87745",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87745, valid 1380 ~ 1911, covers the 1600 time slice under Baoding Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "gaoyang-seat",
+    "longitude": 115.7742,
+    "latitude": 38.68891,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44789",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44789, valid 1380 ~ 1911, covers the 1600 time slice under Anzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xinan-anzhou-seat",
+    "longitude": 115.92821,
+    "latitude": 38.92518,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44786",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44786, valid 1380 ~ 1831, selected over southern homonyms and covers 1600 under Anzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point after homonym filtering"
+    }
+  },
+  {
+    "id": "yizhou-baoding-seat",
+    "longitude": 115.49348,
+    "latitude": 39.34904,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88287",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88287, valid 1241 ~ 1733, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "laishui-seat",
+    "longitude": 115.7078,
+    "latitude": 39.39174,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44943",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44943, valid 990 ~ 1911, covers the 1600 time slice under Yizhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xian-seat",
+    "longitude": 116.1149,
+    "latitude": 38.1907,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44861",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44861, valid 1375 ~ 1911, covers the 1600 time slice under Hejian Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "fucheng-hejian-seat",
+    "longitude": 116.14471,
+    "latitude": 37.86818,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44865",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44865, valid 1068 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "suning-seat",
+    "longitude": 115.83181,
+    "latitude": 38.43177,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44866",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44866, valid 1268 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "renqiu-seat",
+    "longitude": 116.09048,
+    "latitude": 38.70767,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44868",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44868, valid 1266 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jiaohe-seat",
+    "longitude": 116.28512,
+    "latitude": 38.01704,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44874",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44874, valid 1380 ~ 1911, covers the 1600 time slice under Hejian Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qing-hejian-seat",
+    "longitude": 116.82543,
+    "latitude": 38.58072,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44918",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44918, valid 1375 ~ 1911, covers the 1600 time slice under Hejian Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xingji-seat",
+    "longitude": 116.89375,
+    "latitude": 38.47126,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44920",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44920, valid 1380 ~ 1658, covers the 1600 time slice under Hejian Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jinghai-seat",
+    "longitude": 116.91908,
+    "latitude": 38.93436,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44923",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44923, valid 1368 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "ningjin-hejian-seat",
+    "longitude": 116.7928,
+    "latitude": 37.64986,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88036",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88036, valid 0 ~ 1911, selected over the homonymous military office"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jingzhou-hejian-seat",
+    "longitude": 116.2581,
+    "latitude": 37.68801,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88043",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88043, valid 1265 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wuqiao-seat",
+    "longitude": 116.50374,
+    "latitude": 37.60676,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88049",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88049, valid 0 ~ 1911, covers the 1600 time slice under Jingzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "dongguang-seat",
+    "longitude": 116.53282,
+    "latitude": 37.88456,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44878",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44878, valid 1380 ~ 1911, covers the 1600 time slice under Jingzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "gucheng-hejian-seat",
+    "longitude": 116.12414,
+    "latitude": 37.38079,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44876",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44876, valid 1220 ~ 1911, covers the 1600 time slice under Jingzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "cangzhou-seat",
+    "longitude": 116.86197,
+    "latitude": 38.309,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88239",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88239, valid 1369 ~ 1911, identifies the post-1369 Changlu seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "nanpi-seat",
+    "longitude": 116.69678,
+    "latitude": 38.03757,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88244",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88244, valid 0 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yanshan-hejian-seat",
+    "longitude": 117.22554,
+    "latitude": 38.05533,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44930",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44930, valid 1369 ~ 1911, covers the 1600 time slice under Cangzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qingyun-seat",
+    "longitude": 117.40133,
+    "latitude": 37.85164,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44934",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44934, valid 1373 ~ 1911, covers the 1600 time slice under Cangzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "shahe-shunde-seat",
+    "longitude": 114.49962,
+    "latitude": 36.93683,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44898",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44898, valid 1505 ~ 1911, identifies the restored old seat applicable to 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "nanhe-seat",
+    "longitude": 114.68731,
+    "latitude": 36.99957,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44899",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44899, valid 1275 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "ren-shunde-seat",
+    "longitude": 114.68074,
+    "latitude": 37.12608,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44913",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44913, valid 1275 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "neiqiu-seat",
+    "longitude": 114.51186,
+    "latitude": 37.295,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88173",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88173, valid 0 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "tangshan-shunde-seat",
+    "longitude": 114.69869,
+    "latitude": 37.33981,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44909",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44909, valid 1275 ~ 1911, identifies the inland Ming county rather than modern Tangshan"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "pingxiang-shunde-seat",
+    "longitude": 114.91842,
+    "latitude": 36.98014,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44901",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44901, valid 1086 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point; scoped ID avoids collision with Pingxiang native state"
+    }
+  },
+  {
+    "id": "julu-seat",
+    "longitude": 115.02284,
+    "latitude": 37.21234,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44906",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44906, valid 684 ~ 1911, matched through the CHGIS variant 巨鹿"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "guangzong-seat",
+    "longitude": 115.14606,
+    "latitude": 37.0681,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44904",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44904, valid 1380 ~ 1911, covers the 1600 time slice under Shunde Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "quzhou-guangping-seat",
+    "longitude": 114.94965,
+    "latitude": 36.7793,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44835",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44835, valid 1089 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "feixiang-seat",
+    "longitude": 114.8031,
+    "latitude": 36.55203,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44836",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44836, valid 590 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jize-seat",
+    "longitude": 114.8745,
+    "latitude": 36.92403,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44842",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44842, valid 1275 ~ 1911, covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "guangping-county-seat",
+    "longitude": 114.93684,
+    "latitude": 36.48052,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_87922",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87922, valid 1167 ~ 1911, distinguishes the county from Guangping Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "chengan-seat",
+    "longitude": 114.69406,
+    "latitude": 36.44135,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44844",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44844, valid 1371 ~ 1911, covers the 1600 time slice under Guangping Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wei-guangping-seat",
+    "longitude": 115.25926,
+    "latitude": 36.97418,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44853",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44853, valid 1369 ~ 1911, covers the 1600 time slice under Guangping Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "handan-seat",
+    "longitude": 114.47204,
+    "latitude": 36.59348,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44847",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44847, valid 907 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qinghe-guangping-seat",
+    "longitude": 115.62411,
+    "latitude": 37.07303,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44850",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44850, valid 994 ~ 1911, selected over the Huai'an homonym"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jingxing-seat",
+    "longitude": 114.01778,
+    "latitude": 38.00616,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44975",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44975, valid 1252 ~ 1911, selected as the Tianchang old-city seat over the modern county-center duplicate"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "huolu-seat",
+    "longitude": 114.30772,
+    "latitude": 38.08311,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44972",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44972, valid 1235 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yuanshi-seat",
+    "longitude": 114.50881,
+    "latitude": 37.75003,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44989",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44989, valid 586 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "lingshou-seat",
+    "longitude": 114.36588,
+    "latitude": 38.30547,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44986",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44986, valid 1087 ~ 1911, covers the 1600 time slice under Zhending Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "gaocheng-seat",
+    "longitude": 114.83418,
+    "latitude": 38.03671,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_45007",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45007, valid 1235 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "luancheng-seat",
+    "longitude": 114.65269,
+    "latitude": 37.88578,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44981",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44981, valid 1377 ~ 1911, identifies the Hongwu-period relocated seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wuji-seat",
+    "longitude": 114.96936,
+    "latitude": 38.17673,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_45002",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45002, valid 1371 ~ 1911, covers the 1600 time slice after restoration"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "pingshan-zhending-seat",
+    "longitude": 114.19392,
+    "latitude": 38.2524,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44988",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44988, valid 756 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point; scoped ID avoids collision with Sichuan Pingshan"
+    }
+  },
+  {
+    "id": "fuping-zhending-seat",
+    "longitude": 114.18756,
+    "latitude": 38.85305,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44977",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44977, valid 1193 ~ 1656, covers the 1600 time slice under Zhending Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xingtang-seat",
+    "longitude": 114.54361,
+    "latitude": 38.43607,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44985",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44985, valid 705 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "dingzhou-zhending-seat",
+    "longitude": 114.97504,
+    "latitude": 38.52006,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_87865",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87865, valid 1369 ~ 1722, covers the 1600 time slice under Zhending Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xinle-seat",
+    "longitude": 114.78761,
+    "latitude": 38.39504,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_45008",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45008, valid 596 ~ 1911, covers the 1600 time slice under Dingzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "quyang-seat",
+    "longitude": 114.6902,
+    "latitude": 38.62145,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44822",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44822, valid 1239 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jizhou-zhending-seat",
+    "longitude": 115.56381,
+    "latitude": 37.56598,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88072",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88072, valid 1238 ~ 1723, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "nangong-seat",
+    "longitude": 115.38007,
+    "latitude": 37.35915,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44880",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44880, valid 1480 ~ 1911, identifies the post-1480 relocated seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xinhe-zhending-seat",
+    "longitude": 115.24651,
+    "latitude": 37.52959,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44883",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44883, valid 1290 ~ 1911, covers the 1600 time slice under Jizhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zaoqiang-seat",
+    "longitude": 115.71808,
+    "latitude": 37.50264,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88089",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88089, valid 1126 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wuyi-seat",
+    "longitude": 115.89066,
+    "latitude": 37.80599,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44885",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44885, valid 1077 ~ 1911, covers the 1600 time slice under Jizhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jinzhou-zhending-seat",
+    "longitude": 115.03542,
+    "latitude": 38.03249,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88403",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88403, valid 1261 ~ 1723, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "anping-seat",
+    "longitude": 115.51057,
+    "latitude": 38.23053,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44891",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44891, valid 1235 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "raoyang-seat",
+    "longitude": 115.73602,
+    "latitude": 38.24599,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44890",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44890, valid 554 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wuqiang-seat",
+    "longitude": 115.85923,
+    "latitude": 37.99443,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44888",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44888, valid 1234 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zhaozhou-seat",
+    "longitude": 114.77218,
+    "latitude": 37.75293,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88336",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88336, valid 1220 ~ 1723, selected over the Yunnan homonym"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "baixiang-seat",
+    "longitude": 114.68058,
+    "latitude": 37.49469,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44951",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44951, valid 1086 ~ 1911, covers the 1600 time slice under Zhaozhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "longping-seat",
+    "longitude": 114.76604,
+    "latitude": 37.35228,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44959",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44959, valid 1380 ~ 1911, covers the 1600 time slice after restoration"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "gaoyi-seat",
+    "longitude": 114.61153,
+    "latitude": 37.60476,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88352",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88352, valid 25 ~ 1911, covers the 1600 time slice under Zhaozhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "lincheng-seat",
+    "longitude": 114.50006,
+    "latitude": 37.43983,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44961",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44961, valid 742 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zanhuang-seat",
+    "longitude": 114.37698,
+    "latitude": 37.66265,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44993",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44993, valid 1270 ~ 1911, covers the 1600 time slice under Zhaozhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "ningjin-zhending-seat",
+    "longitude": 114.9154,
+    "latitude": 37.62109,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44963",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44963, valid 741 ~ 1911, covers the 1600 time slice under Zhaozhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "shenzhou-seat",
+    "longitude": 115.54887,
+    "latitude": 38.01173,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88111",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88111, valid 1412 ~ 1723, identifies the post-1412 Wujiazhuang seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "hengshui-seat",
+    "longitude": 115.70573,
+    "latitude": 37.72616,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44886",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44886, valid 1414 ~ 1911, identifies the post-1414 relocated seat under Shenzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "daming-county-seat",
+    "longitude": 115.13826,
+    "latitude": 36.24564,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_45009",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45009, valid 1411 ~ 1757, identifies the county seat distinct from the prefectural seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wei-daming-seat",
+    "longitude": 114.92826,
+    "latitude": 36.35758,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44796",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44796, valid 1370 ~ 1757, identifies the relocated Wei county seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "nanle-seat",
+    "longitude": 115.19762,
+    "latitude": 36.07747,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_87808",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87808, valid 915 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qingfeng-seat",
+    "longitude": 115.11004,
+    "latitude": 35.90877,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44811",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44811, valid 1044 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "neihuang-seat",
+    "longitude": 114.89738,
+    "latitude": 35.9539,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_82246",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_82246, valid 1189 ~ 1911, covers the 1600 time slice under Daming Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jun-seat",
+    "longitude": 114.54432,
+    "latitude": 35.66838,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_82319",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_82319, valid 1369 ~ 1911, identifies the post-1550 hilltop seat applicable to 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "hua-daming-seat",
+    "longitude": 114.54346,
+    "latitude": 35.56445,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_82322",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_82322, valid 1374 ~ 1911, covers the 1600 time slice under Daming Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "kaizhou-seat",
+    "longitude": 115.01371,
+    "latitude": 35.70515,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_87833",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87833, valid 1114 ~ 1911, covers the 1600 time slice after location filtering"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "changyuan-seat",
+    "longitude": 114.68272,
+    "latitude": 35.19836,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_87821",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_87821, valid 1368 ~ 1911, selected over the Kaifeng-administered homonym and identifies the Gupucheng seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "dongming-seat",
+    "longitude": 115.08884,
+    "latitude": 35.29849,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_44815",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44815, valid 1490 ~ 1911, identifies the post-1490 restored seat under Kaizhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qianan-seat",
+    "longitude": 118.71632,
+    "latitude": 39.99972,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88308",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88308, valid 0 ~ 1911, covers the 1600 time slice under Yongping Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "funing-yongping-seat",
+    "longitude": 119.23016,
+    "latitude": 39.88467,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88309",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88309, valid 0 ~ 1911, identifies the Hongwu-period relocated seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point; the ID distinguishes this seat from Funing State in Fujian"
+    }
+  },
+  {
+    "id": "changli-seat",
+    "longitude": 119.16641,
+    "latitude": 39.70697,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88310",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88310, valid 0 ~ 1911, covers the 1600 time slice under Yongping Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "luanzhou-seat",
+    "longitude": 118.75231,
+    "latitude": 39.73965,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_88312",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88312, valid 0 ~ 1911, covers the 1600 time slice under Yongping Prefecture"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "leting-seat",
+    "longitude": 118.91828,
+    "latitude": 39.42488,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_88311",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88311, valid 0 ~ 1911, covers the 1600 time slice under Luanzhou"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yongning-yanqing-seat",
+    "longitude": 116.16079,
+    "latitude": 40.52644,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yongning old-town proxy guided by the Ming History entry; CHGIS returned only unrelated homonyms",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Retained a reversible proxy pending a second historical-location source"
+    }
+  }
+]

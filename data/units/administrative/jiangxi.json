@@ -1,0 +1,2767 @@
+[
+  {
+    "id": "jiangxi",
+    "name": "江西",
+    "formalName": "江西等处承宣布政使司",
+    "level": "province",
+    "polityId": "ming",
+    "seatPlaceId": "nanchang-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "atlas-ming-empire-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 time-slice membership; provincial seat references the Nanchang prefectural seat"
+    }
+  },
+  {
+    "id": "nanchang-prefecture",
+    "name": "南昌府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "nanchang-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shared Nanchang and Xinjian prefectural city represented without assigning a sole attached county"
+    }
+  },
+  {
+    "id": "raozhou-prefecture",
+    "name": "饶州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "poyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "guangxin-prefecture",
+    "name": "广信府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "shangrao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "nankang-prefecture",
+    "name": "南康府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "xingzi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiujiang-prefecture",
+    "name": "九江府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "dehua-jiangxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Seat ID includes the region to distinguish historical homonyms"
+    }
+  },
+  {
+    "id": "jian-prefecture",
+    "name": "吉安府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "luling-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "linjiang-prefecture",
+    "name": "临江府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "qingjiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fuzhou-jiangxi-prefecture",
+    "name": "抚州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "linchuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "ID includes the region to distinguish historical homonyms"
+    }
+  },
+  {
+    "id": "jianchang-prefecture",
+    "name": "建昌府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "nancheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yuanzhou-prefecture",
+    "name": "袁州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "yichun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ganzhou-prefecture",
+    "name": "赣州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "gan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "nanan-prefecture",
+    "name": "南安府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "dayu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ruizhou-prefecture",
+    "name": "瑞州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "jiangxi",
+    "seatPlaceId": "gaoan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiangxi prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiangxi-ningzhou-department",
+    "name": "宁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanchang-prefecture",
+    "seatPlaceId": "jiangxi-ningzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi subordinate-state roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-nanchang-county",
+    "name": "南昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanchang-prefecture",
+    "seatPlaceId": "nanchang-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xinjian-county",
+    "name": "新建县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanchang-prefecture",
+    "seatPlaceId": "nanchang-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-fengcheng-county",
+    "name": "丰城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanchang-prefecture",
+    "seatPlaceId": "jiangxi-fengcheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-jinxian-county",
+    "name": "进贤县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanchang-prefecture",
+    "seatPlaceId": "jiangxi-jinxian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-fengxin-county",
+    "name": "奉新县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanchang-prefecture",
+    "seatPlaceId": "jiangxi-fengxin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-jingan-county",
+    "name": "靖安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanchang-prefecture",
+    "seatPlaceId": "jiangxi-jingan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-wuning-county",
+    "name": "武宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanchang-prefecture",
+    "seatPlaceId": "jiangxi-wuning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-gaoan-county",
+    "name": "高安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ruizhou-prefecture",
+    "seatPlaceId": "gaoan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-shanggao-county",
+    "name": "上高县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ruizhou-prefecture",
+    "seatPlaceId": "jiangxi-shanggao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xinchang-county",
+    "name": "新昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ruizhou-prefecture",
+    "seatPlaceId": "jiangxi-xinchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-dehua-county",
+    "name": "德化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiujiang-prefecture",
+    "seatPlaceId": "dehua-jiangxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-dean-county",
+    "name": "德安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiujiang-prefecture",
+    "seatPlaceId": "jiangxi-dean-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-ruichang-county",
+    "name": "瑞昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiujiang-prefecture",
+    "seatPlaceId": "jiangxi-ruichang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-hukou-county",
+    "name": "湖口县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiujiang-prefecture",
+    "seatPlaceId": "jiangxi-hukou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-pengze-county",
+    "name": "彭泽县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiujiang-prefecture",
+    "seatPlaceId": "jiangxi-pengze-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xingzi-county",
+    "name": "星子县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nankang-prefecture",
+    "seatPlaceId": "xingzi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-duchang-county",
+    "name": "都昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nankang-prefecture",
+    "seatPlaceId": "jiangxi-duchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-jianchang-nankang-county",
+    "name": "建昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nankang-prefecture",
+    "seatPlaceId": "jiangxi-jianchang-nankang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-anyi-county",
+    "name": "安义县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nankang-prefecture",
+    "seatPlaceId": "jiangxi-anyi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-poyang-county",
+    "name": "鄱阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "raozhou-prefecture",
+    "seatPlaceId": "poyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-yugan-county",
+    "name": "余干县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "raozhou-prefecture",
+    "seatPlaceId": "jiangxi-yugan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-leping-county",
+    "name": "乐平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "raozhou-prefecture",
+    "seatPlaceId": "jiangxi-leping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-fuliang-county",
+    "name": "浮梁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "raozhou-prefecture",
+    "seatPlaceId": "jiangxi-fuliang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-dexing-county",
+    "name": "德兴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "raozhou-prefecture",
+    "seatPlaceId": "jiangxi-dexing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-anren-county",
+    "name": "安仁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "raozhou-prefecture",
+    "seatPlaceId": "jiangxi-anren-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-wannian-county",
+    "name": "万年县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "raozhou-prefecture",
+    "seatPlaceId": "jiangxi-wannian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-shangrao-county",
+    "name": "上饶县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangxin-prefecture",
+    "seatPlaceId": "shangrao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-yushan-county",
+    "name": "玉山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangxin-prefecture",
+    "seatPlaceId": "jiangxi-yushan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-yiyang-county",
+    "name": "弋阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangxin-prefecture",
+    "seatPlaceId": "jiangxi-yiyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-guixi-county",
+    "name": "贵溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangxin-prefecture",
+    "seatPlaceId": "jiangxi-guixi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-qianshan-county",
+    "name": "铅山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangxin-prefecture",
+    "seatPlaceId": "jiangxi-qianshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-yongfeng-county",
+    "name": "永丰县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangxin-prefecture",
+    "seatPlaceId": "jiangxi-yongfeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xingan-county",
+    "name": "兴安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangxin-prefecture",
+    "seatPlaceId": "jiangxi-xingan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-nancheng-county",
+    "name": "南城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianchang-prefecture",
+    "seatPlaceId": "nancheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-nanfeng-county",
+    "name": "南丰县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianchang-prefecture",
+    "seatPlaceId": "jiangxi-nanfeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xincheng-jianchang-county",
+    "name": "新城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianchang-prefecture",
+    "seatPlaceId": "jiangxi-xincheng-jianchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-guangchang-county",
+    "name": "广昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianchang-prefecture",
+    "seatPlaceId": "jiangxi-guangchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-luxi-county",
+    "name": "泸溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianchang-prefecture",
+    "seatPlaceId": "jiangxi-luxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-linchuan-county",
+    "name": "临川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-jiangxi-prefecture",
+    "seatPlaceId": "linchuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-chongren-county",
+    "name": "崇仁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-jiangxi-prefecture",
+    "seatPlaceId": "jiangxi-chongren-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-jinxi-county",
+    "name": "金溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-jiangxi-prefecture",
+    "seatPlaceId": "jiangxi-jinxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-yihuang-county",
+    "name": "宜黄县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-jiangxi-prefecture",
+    "seatPlaceId": "jiangxi-yihuang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-lean-county",
+    "name": "乐安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-jiangxi-prefecture",
+    "seatPlaceId": "jiangxi-lean-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-dongxiang-county",
+    "name": "东乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-jiangxi-prefecture",
+    "seatPlaceId": "jiangxi-dongxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-luling-county",
+    "name": "庐陵县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jian-prefecture",
+    "seatPlaceId": "luling-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-taihe-county",
+    "name": "泰和县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jian-prefecture",
+    "seatPlaceId": "jiangxi-taihe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-jishui-county",
+    "name": "吉水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jian-prefecture",
+    "seatPlaceId": "jiangxi-jishui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-jian-yongfeng-county",
+    "name": "永丰县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jian-prefecture",
+    "seatPlaceId": "jiangxi-jian-yongfeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-anfu-county",
+    "name": "安福县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jian-prefecture",
+    "seatPlaceId": "jiangxi-anfu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-longquan-jian-county",
+    "name": "龙泉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jian-prefecture",
+    "seatPlaceId": "jiangxi-longquan-jian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-wanan-county",
+    "name": "万安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jian-prefecture",
+    "seatPlaceId": "jiangxi-wanan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-yongxin-county",
+    "name": "永新县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jian-prefecture",
+    "seatPlaceId": "jiangxi-yongxin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-yongning-jian-county",
+    "name": "永宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jian-prefecture",
+    "seatPlaceId": "jiangxi-yongning-jian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-qingjiang-county",
+    "name": "清江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "linjiang-prefecture",
+    "seatPlaceId": "qingjiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xingan-linjiang-county",
+    "name": "新淦县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "linjiang-prefecture",
+    "seatPlaceId": "jiangxi-xingan-linjiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xinyu-county",
+    "name": "新喻县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "linjiang-prefecture",
+    "seatPlaceId": "jiangxi-xinyu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xiajiang-county",
+    "name": "峡江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "linjiang-prefecture",
+    "seatPlaceId": "jiangxi-xiajiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-yichun-county",
+    "name": "宜春县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yuanzhou-prefecture",
+    "seatPlaceId": "yichun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-fenyi-county",
+    "name": "分宜县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yuanzhou-prefecture",
+    "seatPlaceId": "jiangxi-fenyi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-pingxiang-county",
+    "name": "萍乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yuanzhou-prefecture",
+    "seatPlaceId": "jiangxi-pingxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-wanzai-county",
+    "name": "万载县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yuanzhou-prefecture",
+    "seatPlaceId": "jiangxi-wanzai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-gan-county",
+    "name": "赣县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "gan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-yudu-county",
+    "name": "雩都县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-yudu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xinfeng-ganzhou-county",
+    "name": "信丰县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-xinfeng-ganzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-xingguo-county",
+    "name": "兴国县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-xingguo-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-huichang-county",
+    "name": "会昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-huichang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-anyuan-county",
+    "name": "安远县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-anyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-ningdu-county",
+    "name": "宁都县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-ningdu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-ruijin-county",
+    "name": "瑞金县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-ruijin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-longnan-county",
+    "name": "龙南县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-longnan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-shicheng-county",
+    "name": "石城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-shicheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-dingnan-county",
+    "name": "定南县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-dingnan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-changning-ganzhou-county",
+    "name": "长宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ganzhou-prefecture",
+    "seatPlaceId": "jiangxi-changning-ganzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-dayu-county",
+    "name": "大庾县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanan-prefecture",
+    "seatPlaceId": "dayu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-nankang-county-county",
+    "name": "南康县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanan-prefecture",
+    "seatPlaceId": "jiangxi-nankang-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-shangyou-county",
+    "name": "上犹县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanan-prefecture",
+    "seatPlaceId": "jiangxi-shangyou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  },
+  {
+    "id": "jiangxi-chongyi-county",
+    "name": "崇义县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanan-prefecture",
+    "seatPlaceId": "jiangxi-chongyi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi county roster and parentage"
+    }
+  }
+]

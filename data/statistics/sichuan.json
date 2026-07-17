@@ -1,0 +1,122 @@
+[
+  {
+    "id": "sichuan-households-1578",
+    "administrativeUnitId": "sichuan",
+    "category": "population",
+    "metric": "households",
+    "value": 262694,
+    "unit": "households",
+    "originalText": "四川布政司人户二十六万二千六百九十四户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年四川布政司人户总数；保留省级登记口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year provincial household roster; no interpolation to 1600 and no prefectural allocation."
+    }
+  },
+  {
+    "id": "sichuan-population-1578",
+    "administrativeUnitId": "sichuan",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 3102073,
+    "unit": "people",
+    "originalText": "四川布政司人口三百一十万二千七十三口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年四川布政司登记人口总数；不当作完整实际人口估计。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "sichuan-land-1578",
+    "administrativeUnitId": "sichuan",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 134827.6723,
+    "unit": "qing",
+    "originalText": "四川布政司田土共一十三万四千八百二十七顷六十七亩二分三厘零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年四川布政司实在田土总额；按顷、亩、分、厘换算为顷，未作现代面积转换。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year land register; normalized 1顷=100亩, 1亩=10分, and 1分=10厘."
+    }
+  },
+  {
+    "id": "sichuan-summer-tax-1578",
+    "administrativeUnitId": "sichuan",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 309892.1642,
+    "unit": "shi",
+    "originalText": "四川布政司夏税米三十万九千八百九十二石一斗六升四合二勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年四川布政司夏税本色米主项；四川原文为米，其他税目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual summer-tax 本色米; normalized 1石=10斗=100升=1000合=10000勺."
+    }
+  },
+  {
+    "id": "sichuan-autumn-grain-1578",
+    "administrativeUnitId": "sichuan",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 718652.9688,
+    "unit": "shi",
+    "originalText": "四川布政司秋粮米七十一万八千六百五十二石九斗六升八合八勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年四川布政司秋粮本色米主项；地亩绵花绒等项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺."
+    }
+  }
+]

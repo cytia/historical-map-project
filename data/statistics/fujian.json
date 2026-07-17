@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fujian-households-1578",
+    "administrativeUnitId": "fujian",
+    "category": "population",
+    "metric": "households",
+    "value": 515307,
+    "unit": "households",
+    "originalText": "福建布政司人户五十一万五千三百七户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年福建布政司人户总数；保留省级登记口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year provincial household roster; no interpolation to 1600 and no prefectural allocation."
+    }
+  },
+  {
+    "id": "fujian-population-1578",
+    "administrativeUnitId": "fujian",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 1738793,
+    "unit": "people",
+    "originalText": "福建布政司人口一百七十三万八千七百九十三口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年福建布政司登记人口总数；不当作完整实际人口估计。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "fujian-land-1578",
+    "administrativeUnitId": "fujian",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 134225.0067,
+    "unit": "qing",
+    "originalText": "福建布政司田土共一十三万四千二百二十五顷六分七厘零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年福建布政司实在田土总额；按顷、亩、分、厘换算为顷，原文末段未列整亩，按六分七厘换算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year land register; normalized 1顷=100亩, 1亩=10分, 1分=10厘."
+    }
+  },
+  {
+    "id": "fujian-summer-tax-1578",
+    "administrativeUnitId": "fujian",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 706.9474,
+    "unit": "shi",
+    "originalText": "福建布政司夏税麦七百六石九斗四升七合四勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年福建布政司夏税本色麦主项；丝绵折绢、农桑丝折绢、钞等另列项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual summer-tax 本色麦; normalized 1石=10斗=100升=1000合=10000勺 and kept separate from non-grain tax items."
+    }
+  },
+  {
+    "id": "fujian-autumn-grain-1578",
+    "administrativeUnitId": "fujian",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 850447.7745,
+    "unit": "shi",
+    "originalText": "福建布政司秋粮米八十五万四百四十七石七斗七升四合五勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年福建布政司秋粮本色米主项；鱼课米、租钞等另列项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺 and kept separate from separately listed items."
+    }
+  }
+]

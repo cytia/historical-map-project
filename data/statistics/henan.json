@@ -1,0 +1,134 @@
+[
+  {
+    "id": "henan-households-1578",
+    "administrativeUnitId": "henan",
+    "category": "population",
+    "metric": "households",
+    "value": 633067,
+    "unit": "households",
+    "originalText": "河南布政司人户六十三万三千六十七户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年河南布政司人户总数；保留省级登记口径，不拆分为府州。"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《明史》河南条同载万历六年户数，用作交叉校验。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year provincial household roster and cross-checked against the Henan entry in Ming Shi; no prefectural allocation."
+    }
+  },
+  {
+    "id": "henan-population-1578",
+    "administrativeUnitId": "henan",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 5193602,
+    "unit": "people",
+    "originalText": "河南布政司人口五百一十九万三千六百二口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年河南布政司登记人口总数；不当作完整实际人口估计。"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《明史》河南条同载万历六年人口数，用作交叉校验。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; cross-checked against Ming Shi and not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "henan-land-1578",
+    "administrativeUnitId": "henan",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 741579.5199,
+    "unit": "qing",
+    "originalText": "河南布政司田土共七十四万一千五百七十九顷五十一亩九分九厘零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年河南布政司实在田土总额；按顷、亩、分、厘换算为顷，未作现代面积转换。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded from the Wanli sixth-year land register; normalized 1顷=100亩, 1亩=10分, and 1分=10厘."
+    }
+  },
+  {
+    "id": "henan-summer-tax-1578",
+    "administrativeUnitId": "henan",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 617322.8433,
+    "unit": "shi",
+    "originalText": "河南布政司夏税小麦六十一万七千三百二十二石八斗四升三合三勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年河南布政司夏税本色小麦主项；税丝、农桑丝折绢等其他项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded from the Wanli sixth-year provincial tax register; normalized 1石=10斗=100升=1000合=10000勺 and kept separate from non-grain tax items."
+    }
+  },
+  {
+    "id": "henan-autumn-grain-1578",
+    "administrativeUnitId": "henan",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 1763437.1152,
+    "unit": "shi",
+    "originalText": "河南布政司秋粮米一百七十六万三千四百三十七石一斗一升五合二勺",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年河南布政司秋粮本色米主项；枣子易米等另列项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded from the Wanli sixth-year provincial tax register; normalized 1石=10斗=100升=1000合=10000勺 and kept separate from separately listed grain items."
+    }
+  }
+]

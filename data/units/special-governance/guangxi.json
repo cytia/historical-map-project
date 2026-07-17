@@ -1,0 +1,992 @@
+[
+  {
+    "id": "yongshun-qingyuan-military",
+    "name": "永顺长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "yongshun-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "yongding-qingyuan-military",
+    "name": "永定长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "yongding-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "yongan-qingyuan-military",
+    "name": "永安长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "yongan-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "anlong-guangxi-military",
+    "name": "安隆长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "anlong-guangxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "qianlong-shangsi-military",
+    "name": "迁隆峒土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "shangsi-nanning-department",
+    "seatPlaceId": "qianlong-shangsi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "chuangjia-tianzhou-military",
+    "name": "床甲土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "chuangjia-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "gongjia-tianzhou-military",
+    "name": "拱甲土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "gongjia-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "lanfeng-tianzhou-military",
+    "name": "婪凤土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "lanfeng-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "wulong-tianzhou-military",
+    "name": "武隆土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "wulong-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "leicai-tianzhou-military",
+    "name": "累彩土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "leicai-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "bama-tianzhou-military",
+    "name": "岜马甲土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "bama-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "zhuanjia-tianzhou-military",
+    "name": "篆甲土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "zhuanjia-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "xialong-tianzhou-military",
+    "name": "下隆土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "xialong-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "zhaisang-tianzhou-military",
+    "name": "砦桑土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "zhaisang-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "lingshi-tianzhou-military",
+    "name": "凌时土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "lingshi-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "wangang-yangyuan-tianzhou-military",
+    "name": "万冈阳院土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "wangang-yangyuan-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "dajia-tianzhou-military",
+    "name": "大甲土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "dajia-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "zijia-tianzhou-military",
+    "name": "子甲土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "zijia-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "xianjia-tianzhou-military",
+    "name": "县甲土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "xianjia-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "pahe-tianzhou-military",
+    "name": "怕河土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "pahe-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "paya-tianzhou-military",
+    "name": "怕牙土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "paya-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "silang-tianzhou-military",
+    "name": "思郎土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "silang-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "siyou-tianzhou-military",
+    "name": "思幼土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "siyou-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "houzhou-tianzhou-military",
+    "name": "候周土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tianzhou-direct-department",
+    "seatPlaceId": "houzhou-tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "guling-sien-military",
+    "name": "古零土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "guling-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "dingluo-sien-military",
+    "name": "定罗土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "dingluo-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "nama-sien-military",
+    "name": "那马土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "nama-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "xiawang-sien-military",
+    "name": "下旺土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "xiawang-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "xinglong-sien-military",
+    "name": "兴隆土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "xinglong-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "baishan-sien-military",
+    "name": "白山土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "baishan-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "anding-sien-military",
+    "name": "安定土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "anding-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "jiucheng-sien-military",
+    "name": "旧城土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "jiucheng-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  },
+  {
+    "id": "duyang-sien-military",
+    "name": "都阳土巡检司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "duyang-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Guangxi native special unit in the 1600 time slice; preserved as a separate node rather than flattened into a county"
+    }
+  }
+]

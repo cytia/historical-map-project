@@ -1,0 +1,1867 @@
+[
+  {
+    "id": "nanchang-city",
+    "longitude": 115.89,
+    "latitude": 28.68,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Represents the shared Nanchang and Xinjian prefectural city; exact compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "poyang-seat",
+    "longitude": 116.67,
+    "latitude": 28.99,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 鄱阳旧城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "shangrao-seat",
+    "longitude": 117.97,
+    "latitude": 28.45,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 上饶"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "xingzi-seat",
+    "longitude": 116.04,
+    "latitude": 29.45,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xingzi historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 星子, now within Lushan City"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "dehua-jiangxi-seat",
+    "longitude": 115.99,
+    "latitude": 29.73,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 德化县 and the Jiujiang prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point; ID distinguishes historical homonyms"
+    }
+  },
+  {
+    "id": "luling-seat",
+    "longitude": 114.99,
+    "latitude": 27.11,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 庐陵 and the Jian prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "qingjiang-seat",
+    "longitude": 115.5375,
+    "latitude": 28.066666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q197394, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q197394 P625; modern Zhangshu City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "linchuan-seat",
+    "longitude": 116.36,
+    "latitude": 27.98,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 临川 and the Fuzhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "nancheng-seat",
+    "longitude": 116.64,
+    "latitude": 27.55,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 南城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "yichun-seat",
+    "longitude": 114.39,
+    "latitude": 27.8,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 宜春"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "gan-seat",
+    "longitude": 114.94,
+    "latitude": 25.85,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 赣县 and the Ganzhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "dayu-seat",
+    "longitude": 114.36,
+    "latitude": 25.4,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 大庾"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "gaoan-seat",
+    "longitude": 115.38,
+    "latitude": 28.42,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 高安"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "jiangxi-ningzhou-seat",
+    "longitude": 114.394722222,
+    "latitude": 29.001944444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335431, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1335431 P625; modern Xiushui County (successor to historical Ningzhou) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-fengcheng-seat",
+    "longitude": 115.783333333,
+    "latitude": 28.195833333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1375351, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1375351 P625; modern Fengcheng City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-jinxian-seat",
+    "longitude": 116.349,
+    "latitude": 28.437,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q8477986, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q8477986 P625; modern Jinxian County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-fengxin-seat",
+    "longitude": 115.166666666,
+    "latitude": 28.733333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1336081, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1336081 P625; modern Fengxin County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-jingan-seat",
+    "longitude": 115.233333333,
+    "latitude": 28.95,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356674, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356674 P625; modern Jing'an County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-wuning-seat",
+    "longitude": 115.0475,
+    "latitude": 29.2775,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1297573, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1297573 P625; modern Wuning County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-shanggao-seat",
+    "longitude": 114.883333333,
+    "latitude": 28.183333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356399, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356399 P625; modern Shanggao County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-xinchang-seat",
+    "longitude": 114.783333333,
+    "latitude": 28.466666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356277, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1356277 P625; modern Yifeng County (successor to historical Xinchang County) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-dean-seat",
+    "longitude": 115.628055555,
+    "latitude": 29.4125,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1179402, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1179402 P625; modern De'an County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-ruichang-seat",
+    "longitude": 115.661111111,
+    "latitude": 29.679166666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1207850, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1207850 P625; modern Ruichang City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-hukou-seat",
+    "longitude": 116.281388888,
+    "latitude": 29.653888888,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335905, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335905 P625; modern Hukou County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-pengze-seat",
+    "longitude": 116.55,
+    "latitude": 29.883333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335508, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335508 P625; modern Pengze County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-duchang-seat",
+    "longitude": 116.303611111,
+    "latitude": 29.350277777,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1263422, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1263422 P625; modern Duchang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-jianchang-nankang-seat",
+    "longitude": 115.816666666,
+    "latitude": 29.016666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q940355, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q940355 P625; modern Yongxiu County (successor to historical Jianchang County) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-anyi-seat",
+    "longitude": 115.599,
+    "latitude": 28.8389,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q613917, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q613917 P625; modern Anyi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-yugan-seat",
+    "longitude": 116.683333333,
+    "latitude": 28.65,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1360214, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1360214 P625; modern Yugan County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-leping-seat",
+    "longitude": 117.1203,
+    "latitude": 28.963188888,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335313, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335313 P625; modern Leping City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-fuliang-seat",
+    "longitude": 117.373,
+    "latitude": 29.5348,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335394, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335394 P625; modern Fuliang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-dexing-seat",
+    "longitude": 117.578611111,
+    "latitude": 28.946388888,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1207214, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1207214 P625; modern Dexing City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-anren-seat",
+    "longitude": 116.901388888,
+    "latitude": 28.275833333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335353, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1335353 P625; modern Yujiang District (successor to historical Anren County) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-wannian-seat",
+    "longitude": 117.069444444,
+    "latitude": 28.691666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356540, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356540 P625; modern Wannian County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-yushan-seat",
+    "longitude": 118.24162,
+    "latitude": 28.67677,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1336063, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1336063 P625; modern Yushan County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-yiyang-seat",
+    "longitude": 117.431,
+    "latitude": 28.4028,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q611478, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q611478 P625; modern Yiyang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-guixi-seat",
+    "longitude": 117.208333333,
+    "latitude": 28.286111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335331, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335331 P625; modern Guixi City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-qianshan-seat",
+    "longitude": 117.704,
+    "latitude": 28.3181,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356446, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356446 P625; modern Qianshan County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-yongfeng-seat",
+    "longitude": 115.5,
+    "latitude": 27.316666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356822, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356822 P625; modern Yongfeng County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-xingan-seat",
+    "longitude": 117.603,
+    "latitude": 28.4156,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356651, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1356651 P625; modern Hengfeng County (successor to historical Xing'an County) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-nanfeng-seat",
+    "longitude": 116.531,
+    "latitude": 27.2086,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356725, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356725 P625; modern Nanfeng County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-xincheng-jianchang-seat",
+    "longitude": 116.958055555,
+    "latitude": 27.26,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335976, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1335976 P625; modern Lichuan County (successor to historical Xincheng County) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-guangchang-seat",
+    "longitude": 116.351388888,
+    "latitude": 26.766111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356872, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356872 P625; modern Guangchang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-luxi-seat",
+    "longitude": 117,
+    "latitude": 27.75,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q206992, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q206992 P625; modern Zixi County (successor to historical Luxi County) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-chongren-seat",
+    "longitude": 116.05,
+    "latitude": 27.7,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1076162, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1076162 P625; modern Chongren County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-jinxi-seat",
+    "longitude": 116.75,
+    "latitude": 27.9,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1362463, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1362463 P625; modern Jinxi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-yihuang-seat",
+    "longitude": 116.216666666,
+    "latitude": 27.4,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356255, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356255 P625; modern Yihuang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-lean-seat",
+    "longitude": 115.833333333,
+    "latitude": 27.383333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356365, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356365 P625; modern Le'an County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-dongxiang-seat",
+    "longitude": 116.6,
+    "latitude": 28.233333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q976821, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q976821 P625; modern Dongxiang District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-taihe-seat",
+    "longitude": 114.916666666,
+    "latitude": 26.783333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1375378, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1375378 P625; modern Taihe County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-jishui-seat",
+    "longitude": 115.13019,
+    "latitude": 27.21688,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356384, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356384 P625; modern Jishui County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-jian-yongfeng-seat",
+    "longitude": 115.41762,
+    "latitude": 27.31886,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern continuous-position proxy for the Ji'an Yongfeng county seat",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "low",
+        "note": "No CHGIS 1600 point returned; retained a current county-seat proxy pending second-source verification; retained coordinate 115.41762, 27.31886"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Retained a reversible low-confidence proxy after no CHGIS 1600 hit"
+    }
+  },
+  {
+    "id": "jiangxi-anfu-seat",
+    "longitude": 114.616666666,
+    "latitude": 27.383333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q530091, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q530091 P625; modern Anfu County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-longquan-jian-seat",
+    "longitude": 114.4,
+    "latitude": 26.35,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1336169, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1336169 P625; modern Suichuan County (successor to historical Longquan County) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-wanan-seat",
+    "longitude": 114.75631,
+    "latitude": 26.46158,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356641, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356641 P625; modern Wan'an County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-yongxin-seat",
+    "longitude": 114.233333333,
+    "latitude": 26.95,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q257817, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q257817 P625; modern Yongxin County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-yongning-jian-seat",
+    "longitude": 113.96667,
+    "latitude": 26.75,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q6822077, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q6822077 P625; modern Ninggang County (successor to historical Yongning County) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-xingan-linjiang-seat",
+    "longitude": 115.383333333,
+    "latitude": 27.766666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1273596, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1273596 P625; modern Xin'gan County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-xinyu-seat",
+    "longitude": 114.924167,
+    "latitude": 27.795,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q362959, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q362959 P625; modern Xinyu City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-xiajiang-seat",
+    "longitude": 115.3132,
+    "latitude": 27.5846,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1336134, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1336134 P625; modern Xiajiang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-fenyi-seat",
+    "longitude": 114.660833333,
+    "latitude": 27.863611111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1254437, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1254437 P625; modern Fenyi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-pingxiang-seat",
+    "longitude": 113.85,
+    "latitude": 27.633333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q362865, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q362865 P625; modern Pingxiang City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-wanzai-seat",
+    "longitude": 114.342777777,
+    "latitude": 28.235,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1375405, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1375405 P625; modern Wanzai County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-yudu-seat",
+    "longitude": 115.486944444,
+    "latitude": 25.9575,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1816748, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1816748 P625; modern Yudu County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-xinfeng-ganzhou-seat",
+    "longitude": 114.901666666,
+    "latitude": 25.288055555,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356667, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356667 P625; modern Xinfeng County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-xingguo-seat",
+    "longitude": 115.346388888,
+    "latitude": 26.333333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356759, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356759 P625; modern Xingguo County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-huichang-seat",
+    "longitude": 115.743055555,
+    "latitude": 25.462777777,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1375234, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1375234 P625; modern Huichang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-anyuan-seat",
+    "longitude": 115.3711,
+    "latitude": 25.2458,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q614060, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q614060 P625; modern Anyuan County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-ningdu-seat",
+    "longitude": 115.816666666,
+    "latitude": 26.383333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356516, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356516 P625; modern Ningdu County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-ruijin-seat",
+    "longitude": 116.033333333,
+    "latitude": 25.883333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1025459, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1025459 P625; modern Ruijin City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-longnan-seat",
+    "longitude": 114.786111111,
+    "latitude": 25.905,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1336164, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1336164 P625; modern Longnan City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-shicheng-seat",
+    "longitude": 116.335,
+    "latitude": 26.3292,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335761, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335761 P625; modern Shicheng County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-dingnan-seat",
+    "longitude": 115.028,
+    "latitude": 24.7844,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1226461, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1226461 P625; modern Dingnan County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-changning-ganzhou-seat",
+    "longitude": 115.662,
+    "latitude": 24.9542,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356469, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1356469 P625; modern Xunwu County (successor to historical Changning County) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-nankang-county-seat",
+    "longitude": 114.75855,
+    "latitude": 25.66754,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335716, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335716 P625; modern Nankang District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-shangyou-seat",
+    "longitude": 114.353611111,
+    "latitude": 25.961666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1282613, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1282613 P625; modern Shangyou County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "jiangxi-chongyi-seat",
+    "longitude": 114.088,
+    "latitude": 25.6842,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1076185, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1076185 P625; modern Chongyi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Jiangxi pressure-test pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  }
+]

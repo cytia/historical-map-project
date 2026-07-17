@@ -1,0 +1,1862 @@
+[
+  {
+    "id": "guizhou-xuanwei-military",
+    "name": "贵州宣慰使司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "guizhou-xuanwei-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "shuidong-guizhou-military",
+    "name": "水东长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guizhou-xuanwei-military",
+    "seatPlaceId": "shuidong-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "zhongcao-guizhou-military",
+    "name": "中曹蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guizhou-xuanwei-military",
+    "seatPlaceId": "zhongcao-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "longli-guizhou-military",
+    "name": "龙里长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guizhou-xuanwei-military",
+    "seatPlaceId": "longli-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "baina-guizhou-military",
+    "name": "白纳长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guizhou-xuanwei-military",
+    "seatPlaceId": "baina-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "dizhai-guizhou-military",
+    "name": "底寨长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guizhou-xuanwei-military",
+    "seatPlaceId": "dizhai-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "guaixi-guizhou-military",
+    "name": "乖西蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guizhou-xuanwei-military",
+    "seatPlaceId": "guaixi-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "yanglongkeng-guizhou-military",
+    "name": "养龙坑长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guizhou-xuanwei-military",
+    "seatPlaceId": "yanglongkeng-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "jinzhu-guizhou-military",
+    "name": "金筑安抚司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "jinzhu-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "ningguzhai-anshun-military",
+    "name": "宁谷寨长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "anshun-direct-department",
+    "seatPlaceId": "ningguzhai-anshun-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "xibao-anshun-military",
+    "name": "西堡长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "anshun-direct-department",
+    "seatPlaceId": "xibao-anshun-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "shiying-zhenning-military",
+    "name": "十二营长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenning-guizhou-department",
+    "seatPlaceId": "shiying-zhenning-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "kangzuo-zhenning-military",
+    "name": "康佐长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenning-guizhou-department",
+    "seatPlaceId": "kangzuo-zhenning-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "muyi-yongning-guizhou-military",
+    "name": "慕役长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "yongning-guizhou-department",
+    "seatPlaceId": "muyi-yongning-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "dingying-yongning-guizhou-military",
+    "name": "顶营长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "yongning-guizhou-department",
+    "seatPlaceId": "dingying-yongning-guizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "duyun-duyun-military",
+    "name": "都匀长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "duyun-prefecture",
+    "seatPlaceId": "duyun-duyun-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "bangshui-duyun-military",
+    "name": "邦水长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "duyun-prefecture",
+    "seatPlaceId": "bangshui-duyun-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "pinglang-duyun-military",
+    "name": "平浪长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "duyun-prefecture",
+    "seatPlaceId": "pinglang-duyun-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "pingzhou-duyun-military",
+    "name": "平洲六洞长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "duyun-prefecture",
+    "seatPlaceId": "pingzhou-duyun-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "leping-maha-military",
+    "name": "乐平长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "maha-duyun-department",
+    "seatPlaceId": "leping-maha-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "pingding-maha-military",
+    "name": "平定长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "maha-duyun-department",
+    "seatPlaceId": "pingding-maha-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "hejiuzhou-dushan-military",
+    "name": "合江洲陈蒙烂土长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "dushan-duyun-department",
+    "seatPlaceId": "hejiuzhou-dushan-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "fengning-dushan-military",
+    "name": "丰宁长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "dushan-duyun-department",
+    "seatPlaceId": "fengning-dushan-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "tanxi-liping-military",
+    "name": "潭溪蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "tanxi-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "bazhou-liping-military",
+    "name": "八舟蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "bazhou-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "hongzhou-liping-military",
+    "name": "洪舟泊里蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "hongzhou-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "caodidong-liping-military",
+    "name": "曹滴洞蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "caodidong-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "guzhou-liping-military",
+    "name": "古州蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "guzhou-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "xishanyang-liping-military",
+    "name": "西山阳洞蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "xishanyang-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "xinhua-liping-military",
+    "name": "新化蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "xinhua-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "huer-liping-military",
+    "name": "湖耳蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "huer-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "liangzhai-liping-military",
+    "name": "亮寨蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "liangzhai-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "ouyang-liping-military",
+    "name": "欧阳蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "ouyang-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "zhonglin-liping-military",
+    "name": "中林验洞蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "zhonglin-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "chixi-liping-military",
+    "name": "赤溪湳洞长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "chixi-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "longli-liping-military",
+    "name": "龙里蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "longli-liping-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "shuidejiang-sinan-military",
+    "name": "水德江长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sinan-prefecture",
+    "seatPlaceId": "shuidejiang-sinan-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "manyi-sinan-military",
+    "name": "蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sinan-prefecture",
+    "seatPlaceId": "manyi-sinan-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "yanhe-sinan-military",
+    "name": "沿河祐溪长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sinan-prefecture",
+    "seatPlaceId": "yanhe-sinan-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "langxi-sinan-military",
+    "name": "朗溪蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sinan-prefecture",
+    "seatPlaceId": "langxi-sinan-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "duping-sizhou-military",
+    "name": "都坪峨异溪蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sizhou-prefecture",
+    "seatPlaceId": "duping-sizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "dusu-sizhou-military",
+    "name": "都素蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sizhou-prefecture",
+    "seatPlaceId": "dusu-sizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "shixi-sizhou-military",
+    "name": "施溪长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sizhou-prefecture",
+    "seatPlaceId": "shixi-sizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "huangdaoxi-sizhou-military",
+    "name": "黄道溪长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sizhou-prefecture",
+    "seatPlaceId": "huangdaoxi-sizhou-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "pianqiao-zhenyuan-military",
+    "name": "偏桥长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenyuan-guizhou-prefecture",
+    "seatPlaceId": "pianqiao-zhenyuan-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "qiongshui-zhenyuan-military",
+    "name": "邛水十五洞蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenyuan-guizhou-prefecture",
+    "seatPlaceId": "qiongshui-zhenyuan-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "zhenpou-zhenyuan-military",
+    "name": "臻剖六洞横坡等处长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenyuan-guizhou-prefecture",
+    "seatPlaceId": "zhenpou-zhenyuan-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "shengxi-tongren-military",
+    "name": "省溪长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tongren-prefecture",
+    "seatPlaceId": "shengxi-tongren-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "tixi-tongren-military",
+    "name": "提溪长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tongren-prefecture",
+    "seatPlaceId": "tixi-tongren-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "dawanshan-tongren-military",
+    "name": "大万山长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tongren-prefecture",
+    "seatPlaceId": "dawanshan-tongren-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "wuluo-tongren-military",
+    "name": "乌罗长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tongren-prefecture",
+    "seatPlaceId": "wuluo-tongren-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "pingtouzhuoke-tongren-military",
+    "name": "平头著可长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "tongren-prefecture",
+    "seatPlaceId": "pingtouzhuoke-tongren-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "shiqian-shiqian-military",
+    "name": "石阡长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "shiqian-prefecture",
+    "seatPlaceId": "shiqian-shiqian-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "longquanping-shiqian-military",
+    "name": "龙泉坪长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "shiqian-prefecture",
+    "seatPlaceId": "longquanping-shiqian-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "miaomin-shiqian-military",
+    "name": "苗民长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "shiqian-prefecture",
+    "seatPlaceId": "miaomin-shiqian-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "gezhanggeshang-shiqian-military",
+    "name": "葛彰葛商长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "shiqian-prefecture",
+    "seatPlaceId": "gezhanggeshang-shiqian-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "dapingfa-longliwei-military",
+    "name": "大平伐长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "longliwei-guizhou-military",
+    "seatPlaceId": "dapingfa-longliwei-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "xintian-xintianwei-military",
+    "name": "新添长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "xintianwei-guizhou-military",
+    "seatPlaceId": "xintian-xintianwei-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "xiaopingfa-xintianwei-military",
+    "name": "小平伐长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "xintianwei-guizhou-military",
+    "seatPlaceId": "xiaopingfa-xintianwei-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "bapingzhai-xintianwei-military",
+    "name": "把平寨长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "xintianwei-guizhou-military",
+    "seatPlaceId": "bapingzhai-xintianwei-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "danping-xintianwei-military",
+    "name": "丹平长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "xintianwei-guizhou-military",
+    "seatPlaceId": "danping-xintianwei-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "danxing-xintianwei-military",
+    "name": "丹行长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "xintianwei-guizhou-military",
+    "seatPlaceId": "danxing-xintianwei-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  }
+]

@@ -29,6 +29,21 @@ test("loads the map and toggles seat rendering", async ({ page, isMobile }) => {
   expect(errors).toEqual([]);
 });
 
+test("keeps affiliation modes separate from base layer toggles", async ({ page }) => {
+  await page.goto("/");
+
+  const administrativeMode = page.getByRole("button", { name: "行政着色视图" });
+  const jurisdictionMode = page.getByRole("button", { name: "管辖着色视图" });
+  const controlMode = page.getByRole("button", { name: "势力着色视图" });
+
+  await expect(administrativeMode).toBeEnabled();
+  await expect(administrativeMode).toHaveAttribute("aria-pressed", "true");
+  await expect(jurisdictionMode).toBeDisabled();
+  await expect(controlMode).toBeDisabled();
+  await expect(page.getByRole("button", { name: "府州治所" })).toBeEnabled();
+  await expect(page.getByRole("button", { name: "山川地貌" })).toBeEnabled();
+});
+
 test("shows the selected seat's administrative region", async ({ page, isMobile }) => {
   test.skip(isMobile, "Region focus is covered once on desktop");
   await page.goto("/");

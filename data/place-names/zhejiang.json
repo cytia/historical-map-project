@@ -1,0 +1,1911 @@
+[
+  {
+    "id": "name-hangzhou-city",
+    "placeId": "hangzhou-city",
+    "name": "杭州城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shared Qiantang and Renhe prefectural city label"
+    }
+  },
+  {
+    "id": "name-jiaxing-seat",
+    "placeId": "jiaxing-seat",
+    "name": "嘉兴",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-wucheng-seat",
+    "placeId": "wucheng-seat",
+    "name": "乌程",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-yin-seat",
+    "placeId": "yin-seat",
+    "name": "鄞县",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-shaoxing-city",
+    "placeId": "shaoxing-city",
+    "name": "绍兴城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shared Shanyin and Kuaiji prefectural city label"
+    }
+  },
+  {
+    "id": "name-linhai-seat",
+    "placeId": "linhai-seat",
+    "name": "临海",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-jinhua-seat",
+    "placeId": "jinhua-seat",
+    "name": "金华",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-xian-zhejiang-seat",
+    "placeId": "xian-zhejiang-seat",
+    "name": "西安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Quzhou seat label; distinct from the Shaanxi capital"
+    }
+  },
+  {
+    "id": "name-jiande-seat",
+    "placeId": "jiande-seat",
+    "name": "建德",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-yongjia-seat",
+    "placeId": "yongjia-seat",
+    "name": "永嘉",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-lishui-seat",
+    "placeId": "lishui-seat",
+    "name": "丽水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-anjizhou-seat",
+    "placeId": "zhejiang-anjizhou-seat",
+    "name": "安吉州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-haining-seat",
+    "placeId": "zhejiang-haining-seat",
+    "name": "海宁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-fuyang-seat",
+    "placeId": "zhejiang-fuyang-seat",
+    "name": "富阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-yuhang-seat",
+    "placeId": "zhejiang-yuhang-seat",
+    "name": "余杭",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-linan-seat",
+    "placeId": "zhejiang-linan-seat",
+    "name": "临安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-yuqian-seat",
+    "placeId": "zhejiang-yuqian-seat",
+    "name": "于潜",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-xincheng-seat",
+    "placeId": "zhejiang-xincheng-seat",
+    "name": "新城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-changhua-seat",
+    "placeId": "zhejiang-changhua-seat",
+    "name": "昌化",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-jiande-seat",
+    "placeId": "zhejiang-jiande-seat",
+    "name": "建德",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-tonglu-seat",
+    "placeId": "zhejiang-tonglu-seat",
+    "name": "桐庐",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-chunan-seat",
+    "placeId": "zhejiang-chunan-seat",
+    "name": "淳安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-suian-seat",
+    "placeId": "zhejiang-suian-seat",
+    "name": "遂安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-shouchang-seat",
+    "placeId": "zhejiang-shouchang-seat",
+    "name": "寿昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-fenshui-seat",
+    "placeId": "zhejiang-fenshui-seat",
+    "name": "分水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-jiaxing-seat",
+    "placeId": "zhejiang-jiaxing-seat",
+    "name": "嘉兴",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-xiushui-seat",
+    "placeId": "zhejiang-xiushui-seat",
+    "name": "秀水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-jiashan-seat",
+    "placeId": "zhejiang-jiashan-seat",
+    "name": "嘉善",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-haiyan-seat",
+    "placeId": "zhejiang-haiyan-seat",
+    "name": "海盐",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-chongde-seat",
+    "placeId": "zhejiang-chongde-seat",
+    "name": "崇德",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-tongxiang-seat",
+    "placeId": "zhejiang-tongxiang-seat",
+    "name": "桐乡",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-pinghu-seat",
+    "placeId": "zhejiang-pinghu-seat",
+    "name": "平湖",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-wucheng-seat",
+    "placeId": "zhejiang-wucheng-seat",
+    "name": "乌程",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-guian-seat",
+    "placeId": "zhejiang-guian-seat",
+    "name": "归安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-changxing-seat",
+    "placeId": "zhejiang-changxing-seat",
+    "name": "长兴",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-deqing-seat",
+    "placeId": "zhejiang-deqing-seat",
+    "name": "德清",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-wukang-seat",
+    "placeId": "zhejiang-wukang-seat",
+    "name": "武康",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-xiaofeng-seat",
+    "placeId": "zhejiang-xiaofeng-seat",
+    "name": "孝丰",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-xiaoshan-seat",
+    "placeId": "zhejiang-xiaoshan-seat",
+    "name": "萧山",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-zhuji-seat",
+    "placeId": "zhejiang-zhuji-seat",
+    "name": "诸暨",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-yuyao-seat",
+    "placeId": "zhejiang-yuyao-seat",
+    "name": "余姚",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-shangyu-seat",
+    "placeId": "zhejiang-shangyu-seat",
+    "name": "上虞",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-sheng-seat",
+    "placeId": "zhejiang-sheng-seat",
+    "name": "嵊",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-xinchang-seat",
+    "placeId": "zhejiang-xinchang-seat",
+    "name": "新昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-yin-seat",
+    "placeId": "zhejiang-yin-seat",
+    "name": "鄞",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-cixi-seat",
+    "placeId": "zhejiang-cixi-seat",
+    "name": "慈溪",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-fenghua-seat",
+    "placeId": "zhejiang-fenghua-seat",
+    "name": "奉化",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-dinghai-seat",
+    "placeId": "zhejiang-dinghai-seat",
+    "name": "定海",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-xiangshan-seat",
+    "placeId": "zhejiang-xiangshan-seat",
+    "name": "象山",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-linhai-seat",
+    "placeId": "zhejiang-linhai-seat",
+    "name": "临海",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-huangyan-seat",
+    "placeId": "zhejiang-huangyan-seat",
+    "name": "黄岩",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-tiantai-seat",
+    "placeId": "zhejiang-tiantai-seat",
+    "name": "天台",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-xianju-seat",
+    "placeId": "zhejiang-xianju-seat",
+    "name": "仙居",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-ninghai-seat",
+    "placeId": "zhejiang-ninghai-seat",
+    "name": "宁海",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-taiping-zhejiang-seat",
+    "placeId": "zhejiang-taiping-zhejiang-seat",
+    "name": "太平",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-jinhua-seat",
+    "placeId": "zhejiang-jinhua-seat",
+    "name": "金华",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-lanxi-seat",
+    "placeId": "zhejiang-lanxi-seat",
+    "name": "兰溪",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-dongyang-seat",
+    "placeId": "zhejiang-dongyang-seat",
+    "name": "东阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-yiwu-seat",
+    "placeId": "zhejiang-yiwu-seat",
+    "name": "义乌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-yongkang-seat",
+    "placeId": "zhejiang-yongkang-seat",
+    "name": "永康",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-wuyi-seat",
+    "placeId": "zhejiang-wuyi-seat",
+    "name": "武义",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-pujiang-seat",
+    "placeId": "zhejiang-pujiang-seat",
+    "name": "浦江",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-tangxi-seat",
+    "placeId": "zhejiang-tangxi-seat",
+    "name": "汤溪",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-xian-zhejiang-seat",
+    "placeId": "zhejiang-xian-zhejiang-seat",
+    "name": "西安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-longyou-seat",
+    "placeId": "zhejiang-longyou-seat",
+    "name": "龙游",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-changshan-seat",
+    "placeId": "zhejiang-changshan-seat",
+    "name": "常山",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-jiangshan-seat",
+    "placeId": "zhejiang-jiangshan-seat",
+    "name": "江山",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-kaihua-seat",
+    "placeId": "zhejiang-kaihua-seat",
+    "name": "开化",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-lishui-seat",
+    "placeId": "zhejiang-lishui-seat",
+    "name": "丽水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-qingtian-seat",
+    "placeId": "zhejiang-qingtian-seat",
+    "name": "青田",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-jinyun-seat",
+    "placeId": "zhejiang-jinyun-seat",
+    "name": "缙云",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-songyang-seat",
+    "placeId": "zhejiang-songyang-seat",
+    "name": "松阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-suichang-seat",
+    "placeId": "zhejiang-suichang-seat",
+    "name": "遂昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-longquan-seat",
+    "placeId": "zhejiang-longquan-seat",
+    "name": "龙泉",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-qingyuan-seat",
+    "placeId": "zhejiang-qingyuan-seat",
+    "name": "庆元",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-yunhe-seat",
+    "placeId": "zhejiang-yunhe-seat",
+    "name": "云和",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-xuanping-seat",
+    "placeId": "zhejiang-xuanping-seat",
+    "name": "宣平",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-jingning-seat",
+    "placeId": "zhejiang-jingning-seat",
+    "name": "景宁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-yongjia-seat",
+    "placeId": "zhejiang-yongjia-seat",
+    "name": "永嘉",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-yueqing-seat",
+    "placeId": "zhejiang-yueqing-seat",
+    "name": "乐清",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-pingyang-seat",
+    "placeId": "zhejiang-pingyang-seat",
+    "name": "平阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-ruian-seat",
+    "placeId": "zhejiang-ruian-seat",
+    "name": "瑞安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  },
+  {
+    "id": "name-zhejiang-taishun-seat",
+    "placeId": "zhejiang-taishun-seat",
+    "name": "泰顺",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang administrative-seat label"
+    }
+  }
+]

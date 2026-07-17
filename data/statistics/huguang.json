@@ -1,0 +1,122 @@
+[
+  {
+    "id": "huguang-households-1578",
+    "administrativeUnitId": "huguang",
+    "category": "population",
+    "metric": "households",
+    "value": 541310,
+    "unit": "households",
+    "originalText": "湖广布政司人户五十四万一千三百一十户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年湖广布政司人户总数；保留省级登记口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year provincial household roster; no interpolation to 1600 and no prefectural allocation."
+    }
+  },
+  {
+    "id": "huguang-population-1578",
+    "administrativeUnitId": "huguang",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 4398785,
+    "unit": "people",
+    "originalText": "湖广布政司人口四百三十九万八千七百八十五口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年湖广布政司登记人口总数；不当作完整实际人口估计。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "huguang-land-1578",
+    "administrativeUnitId": "huguang",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 2216199.401,
+    "unit": "qing",
+    "originalText": "湖广布政司田土共二百二十一万六千一百九十九顷四十亩一分",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年湖广布政司实在田土总额；按顷、亩、分换算为顷，未作现代面积转换。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year land register; normalized 1顷=100亩, 1亩=10分."
+    }
+  },
+  {
+    "id": "huguang-summer-tax-1578",
+    "administrativeUnitId": "huguang",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 131976.2632,
+    "unit": "shi",
+    "originalText": "湖广布政司夏税米、麦一十三万一千九百七十六石二斗六升三合二勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年湖广布政司夏税本色米、麦主项；赁钞、丝绢等另列项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual summer-tax 本色米、麦; normalized 1石=10斗=100升=1000合=10000勺 and kept separate from non-grain tax items."
+    }
+  },
+  {
+    "id": "huguang-autumn-grain-1578",
+    "administrativeUnitId": "huguang",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 2030207.7076,
+    "unit": "shi",
+    "originalText": "湖广布政司秋粮米二百三万二百七石七斗七合六零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年湖广布政司秋粮本色米主项；在线 OCR 末位‘六零’疑为‘六勺零’，按同页容量单位格式校读为‘七合六勺零’，赁钞另列不并入。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded from the Wanli sixth-year provincial tax register; normalized 1石=10斗=100升=1000合=10000勺 and retained the OCR correction from 六零 to 六勺零."
+    }
+  }
+]

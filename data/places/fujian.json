@@ -1,0 +1,1357 @@
+[
+  {
+    "id": "fuzhou-city",
+    "longitude": 119.296,
+    "latitude": 26.075,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Represents the shared Min and Houguan prefectural city; exact compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "putian-seat",
+    "longitude": 119.01,
+    "latitude": 25.43,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 莆田 and the Xinghua prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "jinjiang-seat",
+    "longitude": 118.59,
+    "latitude": 24.91,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 晋江 and the Quanzhou prefectural city, not the modern Jinjiang urban center"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "longxi-fujian-seat",
+    "longitude": 117.65,
+    "latitude": 24.51,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 龙溪 and the Zhangzhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point; ID distinguishes the seat from Longxi in Shaanxi"
+    }
+  },
+  {
+    "id": "nanping-seat",
+    "longitude": 118.18,
+    "latitude": 26.64,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 南平 and the Yanping prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "jianning-city",
+    "longitude": 118.32,
+    "latitude": 27.04,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared Jianou historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Represents the shared Jianan and Ouning prefectural city; exact compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "shaowu-seat",
+    "longitude": 117.49,
+    "latitude": 27.34,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 邵武"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "changting-seat",
+    "longitude": 116.36,
+    "latitude": 25.83,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 长汀 and the Tingzhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "funing-seat",
+    "longitude": 120,
+    "latitude": 26.89,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xiapu historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with the Funing state seat in present-day Xiapu"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "fujian-changle-seat",
+    "longitude": 119.50611,
+    "latitude": 25.96253,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q766619, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q766619 P625; modern Changle District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-fuqing-seat",
+    "longitude": 119.37347,
+    "latitude": 25.72316,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q262208, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q262208 P625; modern Fuqing City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-lianjiang-seat",
+    "longitude": 119.53499,
+    "latitude": 26.20077,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q204827, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q204827 P625; modern Lianjiang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-luoyuan-seat",
+    "longitude": 119.55018,
+    "latitude": 26.48982,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1209373, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1209373 P625; modern Luoyuan County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-gutian-seat",
+    "longitude": 118.85,
+    "latitude": 26.616666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1168209, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1168209 P625; modern Gutian County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-minqing-seat",
+    "longitude": 118.86326,
+    "latitude": 26.22636,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374756, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374756 P625; modern Minqing County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-yongfu-seat",
+    "longitude": 118.93144,
+    "latitude": 25.86667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374876, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1374876 P625; modern Yongtai County (historical Yongfu) proxy; Historical Yongfu County was renamed Yongtai County; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; Historical Yongfu County was renamed Yongtai County; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-xianyou-seat",
+    "longitude": 118.69008,
+    "latitude": 25.35973,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1337926, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1337926 P625; modern Xianyou County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-jianyang-seat",
+    "longitude": 118.11622,
+    "latitude": 27.33488,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q639862, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q639862 P625; modern Jianyang District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-chongan-seat",
+    "longitude": 118.02671,
+    "latitude": 27.75617,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q94945, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q94945 P625; modern Wuyishan City (Chong'an area) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-pucheng-seat",
+    "longitude": 118.53086,
+    "latitude": 27.92213,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1338032, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338032 P625; modern Pucheng County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-songxi-seat",
+    "longitude": 118.77943,
+    "latitude": 27.52741,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1338228, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338228 P625; modern Songxi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-zhenghe-seat",
+    "longitude": 118.8524,
+    "latitude": 27.36778,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q197680, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q197680 P625; modern Zhenghe County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-shouning-seat",
+    "longitude": 119.50973,
+    "latitude": 27.4571,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1149660, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1149660 P625; modern Shouning County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-jianle-seat",
+    "longitude": 117.46948,
+    "latitude": 26.72901,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1301199, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1301199 P625; modern Jiangle County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-sha-seat",
+    "longitude": 117.78529,
+    "latitude": 26.40278,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198385, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1198385 P625; modern Shaxian District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-youxi-seat",
+    "longitude": 118.18485,
+    "latitude": 26.17254,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198112, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1198112 P625; modern Youxi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-shunchang-seat",
+    "longitude": 117.8042,
+    "latitude": 26.7968,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1209363, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1209363 P625; modern Shunchang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-yongan-seat",
+    "longitude": 117.35925,
+    "latitude": 25.97328,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1375570, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1375570 P625; modern Yong'an City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-datian-seat",
+    "longitude": 117.84509,
+    "latitude": 25.69342,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1172602, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1172602 P625; modern Datian County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-ninghua-seat",
+    "longitude": 116.65196,
+    "latitude": 26.26286,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198091, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1198091 P625; modern Ninghua County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-shanghang-seat",
+    "longitude": 116.41936,
+    "latitude": 25.05472,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1338218, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338218 P625; modern Shanghang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-wuping-seat",
+    "longitude": 116.0975,
+    "latitude": 25.09228,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1338275, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338275 P625; modern Wuping County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-qingliu-seat",
+    "longitude": 116.81228,
+    "latitude": 26.18033,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198324, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1198324 P625; modern Qingliu County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-liancheng-seat",
+    "longitude": 116.7499,
+    "latitude": 25.71264,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1209125, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1209125 P625; modern Liancheng County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-guihua-seat",
+    "longitude": 117.19801,
+    "latitude": 26.36063,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q648969, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q648969 P625; modern Mingxi County (historical Guihua) proxy; Historical Guihua County was renamed Mingxi County; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; Historical Guihua County was renamed Mingxi County; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-yongding-seat",
+    "longitude": 116.72438,
+    "latitude": 24.72294,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335184, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335184 P625; modern Yongding District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-guangze-seat",
+    "longitude": 117.33306,
+    "latitude": 27.54636,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1375394, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1375394 P625; modern Guangze County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-taining-seat",
+    "longitude": 117.1743,
+    "latitude": 26.90002,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1375194, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1375194 P625; modern Taining County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-shaowu-jianning-seat",
+    "longitude": 116.84028,
+    "latitude": 26.83418,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q781559, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q781559 P625; modern Jianning County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-nanan-seat",
+    "longitude": 118.53365,
+    "latitude": 24.95762,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q10876931, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10876931 P625; modern Fengzhou Town (historical Nan'an seat) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-tongan-seat",
+    "longitude": 118.14373,
+    "latitude": 24.7254,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1025342, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1025342 P625; modern Tong'an District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-huian-seat",
+    "longitude": 118.7968,
+    "latitude": 25.03423,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374978, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374978 P625; modern Hui'an County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-anxi-seat",
+    "longitude": 118.1814,
+    "latitude": 25.05879,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q613673, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q613673 P625; modern Anxi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-yongchun-seat",
+    "longitude": 118.28633,
+    "latitude": 25.32265,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1337868, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1337868 P625; modern Yongchun County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-dehua-seat",
+    "longitude": 118.2361,
+    "latitude": 25.49495,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1183080, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1183080 P625; modern Dehua County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-zhangpu-seat",
+    "longitude": 117.61401,
+    "latitude": 24.11836,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q7635279, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q7635279 P625; modern Sui'an Town (Zhangpu seat area) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-longyan-seat",
+    "longitude": 117.0324,
+    "latitude": 25.10109,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1337969, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1337969 P625; modern Xinluo District (historical Longyan area) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-changtai-seat",
+    "longitude": 117.75206,
+    "latitude": 24.62452,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1062148, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1062148 P625; modern Changtai District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-nanjing-seat",
+    "longitude": 117.35972,
+    "latitude": 24.51743,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1338324, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338324 P625; modern Nanjing County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-pinghe-seat",
+    "longitude": 117.30935,
+    "latitude": 24.36899,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1375022, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1375022 P625; modern Pinghe County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-zhangping-seat",
+    "longitude": 117.4148,
+    "latitude": 25.29376,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q197378, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q197378 P625; modern Zhangping City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-zhaoan-seat",
+    "longitude": 117.17541,
+    "latitude": 23.71049,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q197421, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q197421 P625; modern Zhao'an County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-haicheng-seat",
+    "longitude": 117.85087,
+    "latitude": 24.41509,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q11151098, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11151098 P625; modern Haicheng Town proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-ningyang-seat",
+    "longitude": 117.36256,
+    "latitude": 25.61167,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q10912256, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q10912256 P625; modern Shuangyang Town (historical Ningyang seat) proxy; Historical Ningyang County was abolished; Shuangyang Town is the modern seat-area proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; Historical Ningyang County was abolished; Shuangyang Town is the modern seat-area proxy."
+    }
+  },
+  {
+    "id": "fujian-ningde-seat",
+    "longitude": 119.5215,
+    "latitude": 26.66364,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1337912, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1337912 P625; modern Jiaocheng District (historical Ningde seat area) proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "fujian-fuan-seat",
+    "longitude": 119.633333333,
+    "latitude": 27.1,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374581, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374581 P625; modern Fu'an City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Fujian ordinary county pilot: replaced the restricted coordinate with an independent modern proxy; exact old administrative compound remains unresolved."
+    }
+  }
+]

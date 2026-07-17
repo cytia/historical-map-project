@@ -1,7 +1,8 @@
+mod manifest;
 mod model;
 mod validate;
 
-use std::{env, fs, path::PathBuf, process::ExitCode};
+use std::{env, path::PathBuf, process::ExitCode};
 
 use model::ProjectData;
 
@@ -16,11 +17,32 @@ fn main() -> ExitCode {
 }
 
 fn run() -> Result<(), String> {
-    let path = input_path()?;
-    let content = fs::read_to_string(&path)
-        .map_err(|error| format!("Could not read {}: {error}", path.display()))?;
-    let data: ProjectData = serde_json::from_str(&content)
-        .map_err(|error| format!("Invalid JSON in {}: {error}", path.display()))?;
+    let mut arguments = env::args_os().skip(1);
+    let first = arguments
+        .next()
+        .map(PathBuf::from)
+        .ok_or_else(|| usage().to_owned())?;
+
+    if first == PathBuf::from("assemble") {
+        let manifest_path = arguments
+            .next()
+            .map(PathBuf::from)
+            .ok_or_else(|| usage().to_owned())?;
+        let output_path = arguments.next().map(PathBuf::from);
+        if arguments.next().is_some() {
+            return Err(usage().to_owned());
+        }
+        let output = manifest::assemble_to_file(&manifest_path, output_path.as_deref())?;
+        println!("Assembled historical data: {}", output.display());
+        return Ok(());
+    }
+
+    if arguments.next().is_some() {
+        return Err(usage().to_owned());
+    }
+
+    let path = first;
+    let data: ProjectData = manifest::load_project(&path)?;
     let errors = validate::validate(&data);
 
     if errors.is_empty() {
@@ -39,16 +61,6 @@ fn run() -> Result<(), String> {
     ))
 }
 
-fn input_path() -> Result<PathBuf, String> {
-    let mut arguments = env::args_os().skip(1);
-    let path = arguments
-        .next()
-        .map(PathBuf::from)
-        .ok_or_else(|| "Usage: data-validator <project-data.json>".to_owned())?;
-
-    if arguments.next().is_some() {
-        return Err("Usage: data-validator <project-data.json>".to_owned());
-    }
-
-    Ok(path)
+fn usage() -> &'static str {
+    "Usage: data-validator <project-data.json|manifest.json> | data-validator assemble <manifest.json> [output.json]"
 }

@@ -38,10 +38,11 @@ export function MapView() {
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
   const administrativeDisplayScope = useAppStore((state) => state.administrativeDisplayScope);
+  const mapDisplayMode = useAppStore((state) => state.mapDisplayMode);
   const { targetChoice, closeTargetChoice, chooseTargets, applyAdministrativeTarget } =
     useAdministrativeTargetChoice({ selectCounty, selectUnit, setActiveRegion });
   useMapSelectionSync({ mapRef, hoveredRegionRef, selectedUnitId, selectedCountyId,
-    activeRegionId, administrativeDisplayScope, seatsVisible });
+    activeRegionId, administrativeDisplayScope, mapDisplayMode, seatsVisible });
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -71,12 +72,14 @@ export function MapView() {
       const state = useAppStore.getState();
       const selectedRegionId = getUnitRegionId(state.selectedUnitId) ?? state.activeRegionId;
       addRelationLayers(map, state.selectedUnitId, true);
-      addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId, state.seatsVisible);
+      addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId,
+        state.seatsVisible, state.mapDisplayMode);
       addCountyLayers(map, {
         selectedUnitId: state.selectedUnitId,
         selectedCountyId: state.selectedCountyId,
         regionId: selectedRegionId,
         scope: state.administrativeDisplayScope,
+        displayMode: state.mapDisplayMode,
       }, true);
       setRelationSelection(map, state.selectedUnitId);
     });

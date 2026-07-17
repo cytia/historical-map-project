@@ -1,0 +1,122 @@
+[
+  {
+    "id": "shanxi-households-1578",
+    "administrativeUnitId": "shanxi",
+    "category": "population",
+    "metric": "households",
+    "value": 596097,
+    "unit": "households",
+    "originalText": "山西布政司人户五十九万六千九十七户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年山西布政司人户总数；保留省级登记口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year provincial household roster; no interpolation to 1600 and no prefectural allocation."
+    }
+  },
+  {
+    "id": "shanxi-population-1578",
+    "administrativeUnitId": "shanxi",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 5319359,
+    "unit": "people",
+    "originalText": "山西布政司人口五百三十一万九千三百五十九口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年山西布政司登记人口总数；不当作完整实际人口估计。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "shanxi-land-1578",
+    "administrativeUnitId": "shanxi",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 368039.2721,
+    "unit": "qing",
+    "originalText": "山西布政司田土共三十六万八千三十九顷二十七亩二分一厘",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年山西布政司实在田土总额；按顷、亩、分、厘换算为顷，未作现代面积转换。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year land register; normalized 1顷=100亩, 1亩=10分, and 1分=10厘."
+    }
+  },
+  {
+    "id": "shanxi-summer-tax-1578",
+    "administrativeUnitId": "shanxi",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 591951.3171,
+    "unit": "shi",
+    "originalText": "山西布政司夏税小麦五十九万一千九百五十一石三斗一升七合一勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年山西布政司夏税本色小麦主项；在线 OCR 对分斗升位有差异，整数部分稳定，税丝、农桑丝等其他项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded from the Wanli sixth-year provincial tax register; normalized 1石=10斗=100升=1000合=10000勺, with fractional OCR variation retained in the confidence note."
+    }
+  },
+  {
+    "id": "shanxi-autumn-grain-1578",
+    "administrativeUnitId": "shanxi",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 1722851.3835,
+    "unit": "shi",
+    "originalText": "山西布政司秋粮米一百七十二万二千八百五十一石三斗八升三合五勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年山西布政司秋粮本色米主项；当前在线 OCR 将‘一百’误识为‘旦百’，按同页结构校读，其他粮项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded from the Wanli sixth-year provincial tax register; normalized 1石=10斗=100升=1000合=10000勺 and retained the OCR correction note for the leading numeral."
+    }
+  }
+]

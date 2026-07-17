@@ -1,0 +1,122 @@
+[
+  {
+    "id": "jiangxi-households-1578",
+    "administrativeUnitId": "jiangxi",
+    "category": "population",
+    "metric": "households",
+    "value": 1341005,
+    "unit": "households",
+    "originalText": "江西布政司人户一百三十四万一千五户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年江西布政司人户总数；保留省级登记口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year provincial household roster; no interpolation to 1600 and no prefectural allocation."
+    }
+  },
+  {
+    "id": "jiangxi-population-1578",
+    "administrativeUnitId": "jiangxi",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 5859026,
+    "unit": "people",
+    "originalText": "江西布政司人口五百八十五万九千二十六口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年江西布政司登记人口总数；不当作完整实际人口估计。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "jiangxi-land-1578",
+    "administrativeUnitId": "jiangxi",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 401151.2711,
+    "unit": "qing",
+    "originalText": "江西布政司田土共四十万一千一百五十一顷二十七亩一分一厘零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年江西布政司实在田土总额；按顷、亩、分、厘换算为顷，未作现代面积转换。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year land register; normalized 1顷=100亩, 1亩=10分, 1分=10厘."
+    }
+  },
+  {
+    "id": "jiangxi-summer-tax-1578",
+    "administrativeUnitId": "jiangxi",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 88072.419,
+    "unit": "shi",
+    "originalText": "江西布政司夏税麦米八万八千七十二石四斗一升九合零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年江西布政司夏税麦米主项；丝绵折绢、农桑丝折绢、本色丝等另列项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual summer-tax 麦米; normalized 1石=10斗=100升=1000合=10000勺 and kept separate from non-grain tax items."
+    }
+  },
+  {
+    "id": "jiangxi-autumn-grain-1578",
+    "administrativeUnitId": "jiangxi",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 2528269.9636,
+    "unit": "shi",
+    "originalText": "江西布政司秋粮米二百五十二万八千二百六十九石九斗六升三合六勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年江西布政司秋粮本色米主项；牛租榖、山租钞等另列项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺 and kept separate from non-grain tax items."
+    }
+  }
+]

@@ -1,0 +1,3127 @@
+[
+  {
+    "id": "guangxi",
+    "name": "广西",
+    "formalName": "广西等处承宣布政使司",
+    "level": "province",
+    "polityId": "ming",
+    "seatPlaceId": "lingui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "atlas-ming-empire-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 time-slice membership; provincial seat references the Guilin prefectural seat"
+    }
+  },
+  {
+    "id": "guilin-prefecture",
+    "name": "桂林府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "lingui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guangxi administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "pingle-prefecture",
+    "name": "平乐府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "pingle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guangxi administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuzhou-prefecture",
+    "name": "梧州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "cangwu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guangxi administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xunzhou-prefecture",
+    "name": "浔州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "guiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guangxi administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "liuzhou-prefecture",
+    "name": "柳州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "maping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guangxi administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qingyuan-prefecture",
+    "name": "庆远府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "yishan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guangxi administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "nanning-prefecture",
+    "name": "南宁府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "xuanhua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guangxi administrative roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "sien-military-prefecture",
+    "name": "思恩军民府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "sien-prefectural-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the military-civil designation and post-1528 Huangtian station seat for 1600"
+    }
+  },
+  {
+    "id": "taiping-guangxi-prefecture",
+    "name": "太平府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "chongshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "ID includes the region to distinguish historical homonyms"
+    }
+  },
+  {
+    "id": "siming-prefecture",
+    "name": "思明府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "siming-prefectural-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Native prefecture directly under Guangxi in the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenan-guangxi-prefecture",
+    "name": "镇安府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "zhenan-prefectural-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Native prefecture directly under Guangxi in the 1600 time slice"
+    }
+  },
+  {
+    "id": "tianzhou-direct-department",
+    "name": "田州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "tianzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered state after the 1529 abolition of Tianning Prefecture"
+    }
+  },
+  {
+    "id": "guishun-direct-department",
+    "name": "归顺州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "guishun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered native state in the 1600 time slice"
+    }
+  },
+  {
+    "id": "sicheng-direct-department",
+    "name": "泗城州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "sicheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered native state in the 1600 time slice"
+    }
+  },
+  {
+    "id": "xiangwu-direct-department",
+    "name": "向武州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "xiangwu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the pre-1617 seat for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dukang-direct-department",
+    "name": "都康州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "dukang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered native state in the 1600 time slice"
+    }
+  },
+  {
+    "id": "longzhou-guangxi-direct-department",
+    "name": "龙州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "longzhou-guangxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "ID includes the region to distinguish historical homonyms"
+    }
+  },
+  {
+    "id": "jiangzhou-guangxi-direct-department",
+    "name": "江州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "jiangzhou-guangxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "ID includes the region to distinguish historical homonyms"
+    }
+  },
+  {
+    "id": "siling-direct-department",
+    "name": "思陵州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "siling-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered native state in the 1600 time slice"
+    }
+  },
+  {
+    "id": "pingxiang-direct-department",
+    "name": "凭祥州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guangxi",
+    "seatPlaceId": "pingxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered native state in the 1600 time slice"
+    }
+  },
+  {
+    "id": "quanzhou-guilin-department",
+    "name": "全州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guilin-prefecture",
+    "seatPlaceId": "quanzhou-guilin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi subordinate-state roster for the 1600 time slice; preserves the Ming administrative parent chain"
+    }
+  },
+  {
+    "id": "yongning-guilin-department",
+    "name": "永宁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guilin-prefecture",
+    "seatPlaceId": "yongning-guilin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi subordinate-state roster for the 1600 time slice; preserves the Ming administrative parent chain"
+    }
+  },
+  {
+    "id": "yongan-pingle-department",
+    "name": "永安州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "pingle-prefecture",
+    "seatPlaceId": "yongan-pingle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi subordinate-state roster for the 1600 time slice; preserves the Ming administrative parent chain"
+    }
+  },
+  {
+    "id": "yulin-wuzhou-department",
+    "name": "郁林州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "wuzhou-prefecture",
+    "seatPlaceId": "yulin-wuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi subordinate-state roster for the 1600 time slice; preserves the Ming administrative parent chain"
+    }
+  },
+  {
+    "id": "xiangzhou-liuzhou-department",
+    "name": "象州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "liuzhou-prefecture",
+    "seatPlaceId": "xiangzhou-liuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi subordinate-state roster for the 1600 time slice; preserves the Ming administrative parent chain"
+    }
+  },
+  {
+    "id": "binzhou-liuzhou-department",
+    "name": "宾州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "liuzhou-prefecture",
+    "seatPlaceId": "binzhou-liuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi subordinate-state roster for the 1600 time slice; preserves the Ming administrative parent chain"
+    }
+  },
+  {
+    "id": "hechi-qingyuan-department",
+    "name": "河池州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "hechi-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi subordinate-state roster for the 1600 time slice; preserves the Ming administrative parent chain"
+    }
+  },
+  {
+    "id": "hengzhou-nanning-department",
+    "name": "横州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanning-prefecture",
+    "seatPlaceId": "hengzhou-nanning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi subordinate-state roster for the 1600 time slice; preserves the Ming administrative parent chain"
+    }
+  },
+  {
+    "id": "guilin-lingui-county",
+    "name": "临桂县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guilin-prefecture",
+    "seatPlaceId": "lingui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "xingan-guilin-county",
+    "name": "兴安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guilin-prefecture",
+    "seatPlaceId": "xingan-guilin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "lingchuan-guilin-county",
+    "name": "灵川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guilin-prefecture",
+    "seatPlaceId": "lingchuan-guilin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "yangshuo-guilin-county",
+    "name": "阳朔县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guilin-prefecture",
+    "seatPlaceId": "yangshuo-guilin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "guanyang-quanzhou-county",
+    "name": "灌阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quanzhou-guilin-department",
+    "seatPlaceId": "guanyang-quanzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "yongfu-yongning-county",
+    "name": "永福县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yongning-guilin-department",
+    "seatPlaceId": "yongfu-yongning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "yining-yongning-county",
+    "name": "义宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yongning-guilin-department",
+    "seatPlaceId": "yining-yongning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "pingle-pingle-county",
+    "name": "平乐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingle-prefecture",
+    "seatPlaceId": "pingle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "gongcheng-pingle-county",
+    "name": "恭城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingle-prefecture",
+    "seatPlaceId": "gongcheng-pingle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "fuchuan-pingle-county",
+    "name": "富川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingle-prefecture",
+    "seatPlaceId": "fuchuan-pingle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "he-pingle-county",
+    "name": "贺县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingle-prefecture",
+    "seatPlaceId": "he-pingle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "lipu-pingle-county",
+    "name": "荔浦县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingle-prefecture",
+    "seatPlaceId": "lipu-pingle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "xiuren-pingle-county",
+    "name": "修仁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingle-prefecture",
+    "seatPlaceId": "xiuren-pingle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "zhaoping-pingle-county",
+    "name": "昭平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "pingle-prefecture",
+    "seatPlaceId": "zhaoping-pingle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "wuzhou-cangwu-county",
+    "name": "苍梧县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wuzhou-prefecture",
+    "seatPlaceId": "cangwu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "teng-wuzhou-county",
+    "name": "藤县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wuzhou-prefecture",
+    "seatPlaceId": "teng-wuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "rong-wuzhou-county",
+    "name": "容县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wuzhou-prefecture",
+    "seatPlaceId": "rong-wuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "cenxi-wuzhou-county",
+    "name": "岑溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wuzhou-prefecture",
+    "seatPlaceId": "cenxi-wuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "huaiji-wuzhou-county",
+    "name": "怀集县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wuzhou-prefecture",
+    "seatPlaceId": "huaiji-wuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "bobai-yulin-county",
+    "name": "博白县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yulin-wuzhou-department",
+    "seatPlaceId": "bobai-yulin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "beiliu-yulin-county",
+    "name": "北流县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yulin-wuzhou-department",
+    "seatPlaceId": "beiliu-yulin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "luchuan-yulin-county",
+    "name": "陆川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yulin-wuzhou-department",
+    "seatPlaceId": "luchuan-yulin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "xingye-yulin-county",
+    "name": "兴业县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yulin-wuzhou-department",
+    "seatPlaceId": "xingye-yulin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "guiping-xunzhou-county",
+    "name": "桂平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xunzhou-prefecture",
+    "seatPlaceId": "guiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "pingnan-xunzhou-county",
+    "name": "平南县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xunzhou-prefecture",
+    "seatPlaceId": "pingnan-xunzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "gui-xunzhou-county",
+    "name": "贵县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xunzhou-prefecture",
+    "seatPlaceId": "gui-xunzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "maping-liuzhou-county",
+    "name": "马平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "liuzhou-prefecture",
+    "seatPlaceId": "maping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "luorong-liuzhou-county",
+    "name": "洛容县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "liuzhou-prefecture",
+    "seatPlaceId": "luorong-liuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "liucheng-liuzhou-county",
+    "name": "柳城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "liuzhou-prefecture",
+    "seatPlaceId": "liucheng-liuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "luocheng-liuzhou-county",
+    "name": "罗城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "liuzhou-prefecture",
+    "seatPlaceId": "luocheng-liuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "huaiyuan-liuzhou-county",
+    "name": "怀远县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "liuzhou-prefecture",
+    "seatPlaceId": "huaiyuan-liuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "rong-liuzhou-county",
+    "name": "融县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "liuzhou-prefecture",
+    "seatPlaceId": "rong-liuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "laibin-liuzhou-county",
+    "name": "来宾县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "liuzhou-prefecture",
+    "seatPlaceId": "laibin-liuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "wuxuan-xiangzhou-county",
+    "name": "武宣县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xiangzhou-liuzhou-department",
+    "seatPlaceId": "wuxuan-xiangzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "qianjiang-binzhou-county",
+    "name": "迁江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "binzhou-liuzhou-department",
+    "seatPlaceId": "qianjiang-binzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "shanglin-binzhou-county",
+    "name": "上林县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "binzhou-liuzhou-department",
+    "seatPlaceId": "shanglin-binzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "yishan-qingyuan-county",
+    "name": "宜山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "yishan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "tianhe-qingyuan-county",
+    "name": "天河县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "tianhe-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "xincheng-qingyuan-county",
+    "name": "忻城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "xincheng-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "sien-hechi-county",
+    "name": "思恩县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hechi-qingyuan-department",
+    "seatPlaceId": "sien-hechi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "libo-hechi-county",
+    "name": "荔波县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hechi-qingyuan-department",
+    "seatPlaceId": "libo-hechi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "xuanhua-nanning-county",
+    "name": "宣化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanning-prefecture",
+    "seatPlaceId": "xuanhua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "longan-nanning-county",
+    "name": "隆安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanning-prefecture",
+    "seatPlaceId": "longan-nanning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "yongchun-hengzhou-county",
+    "name": "永淳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hengzhou-nanning-department",
+    "seatPlaceId": "yongchun-hengzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "chongshan-taiping-county",
+    "name": "崇善县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "chongshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "tuoling-taiping-county",
+    "name": "陀陵县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "tuoling-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "luoyang-taiping-county",
+    "name": "罗阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "luoyang-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "luobai-jiangzhou-county",
+    "name": "罗白县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiangzhou-guangxi-direct-department",
+    "seatPlaceId": "luobai-jiangzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Guangxi county roster for the 1600 time slice; attached counties reuse the existing prefectural seat point"
+    }
+  },
+  {
+    "id": "nandan-qingyuan-department",
+    "name": "南丹州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "nandan-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 庆远府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "donglan-qingyuan-department",
+    "name": "东兰州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "donglan-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 庆远府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "nadi-qingyuan-department",
+    "name": "那地州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "qingyuan-prefecture",
+    "seatPlaceId": "nadi-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 庆远府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "xinning-nanning-department",
+    "name": "新宁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanning-prefecture",
+    "seatPlaceId": "xinning-nanning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 南宁府; established in Longqing 6 and active in 1600"
+    }
+  },
+  {
+    "id": "shangsi-nanning-department",
+    "name": "上思州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanning-prefecture",
+    "seatPlaceId": "shangsi-nanning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 南宁府 in the 1600 time slice; Ming parentage overrides the CHGIS Taiping parent label"
+    }
+  },
+  {
+    "id": "guide-nanning-department",
+    "name": "归德州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanning-prefecture",
+    "seatPlaceId": "guide-nanning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 南宁府 in the 1600 time slice; Ming parentage follows 明史"
+    }
+  },
+  {
+    "id": "guohua-nanning-department",
+    "name": "果化州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanning-prefecture",
+    "seatPlaceId": "guohua-nanning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 南宁府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhong-nanning-department",
+    "name": "忠州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanning-prefecture",
+    "seatPlaceId": "zhong-nanning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 南宁府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "xialei-nanning-department",
+    "name": "下雷州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanning-prefecture",
+    "seatPlaceId": "xialei-nanning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 南宁府 in the 1600 time slice; Ming parentage follows the post-嘉靖43 and Wanli18 transfer recorded in 明史"
+    }
+  },
+  {
+    "id": "fengyi-sien-department",
+    "name": "奉议州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "sien-military-prefecture",
+    "seatPlaceId": "fengyi-sien-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 思恩军民府 in the 1600 time slice; Ming parentage overrides the CHGIS 镇安 parent label"
+    }
+  },
+  {
+    "id": "zuo-taiping-department",
+    "name": "左州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "zuo-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "yangli-taiping-department",
+    "name": "养利州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "yangli-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "yongkang-taiping-department",
+    "name": "永康州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "yongkang-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "State raised from 永康县 in Wanli 28, sixth month; active in the 1600 time slice"
+    }
+  },
+  {
+    "id": "taiping-taiping-department",
+    "name": "太平州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "taiping-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "sicheng-taiping-department",
+    "name": "思城州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "sicheng-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "anping-taiping-department",
+    "name": "安平州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "anping-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "wancheng-taiping-department",
+    "name": "万承州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "wancheng-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "quanming-taiping-department",
+    "name": "全茗州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "quanming-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenyuan-taiping-department",
+    "name": "镇远州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "zhenyuan-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "mingying-taiping-department",
+    "name": "茗盈州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "mingying-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "longying-taiping-department",
+    "name": "龙英州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "longying-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiean-taiping-department",
+    "name": "结安州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "jiean-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "jielun-taiping-department",
+    "name": "结伦州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "jielun-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "dujie-taiping-department",
+    "name": "都结州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "dujie-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "shangxia-dong-taiping-department",
+    "name": "上下冻州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "shangxia-dong-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 太平府 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "siming-taiping-department",
+    "name": "思明州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "taiping-guangxi-prefecture",
+    "seatPlaceId": "siming-taiping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry transferred to 太平府 in Wanli 16 and active in the 1600 time slice"
+    }
+  },
+  {
+    "id": "xia-shixi-siming-department",
+    "name": "下石西州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "siming-prefecture",
+    "seatPlaceId": "xia-shixi-siming-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active native-state entry under 思明府 in the 1600 time slice; 西平州 and 禄州 are excluded because 明史 records their 1426 transfer to Annam"
+    }
+  }
+]

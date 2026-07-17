@@ -1,0 +1,122 @@
+[
+  {
+    "id": "zhejiang-households-1578",
+    "administrativeUnitId": "zhejiang",
+    "category": "population",
+    "metric": "households",
+    "value": 1542408,
+    "unit": "households",
+    "originalText": "浙江布政司人户一百五十四万二千四百八户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年浙江布政司人户总数；保留省级登记口径，不拆分为府州。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year provincial household roster; no interpolation to 1600 and no prefectural allocation."
+    }
+  },
+  {
+    "id": "zhejiang-population-1578",
+    "administrativeUnitId": "zhejiang",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 5153005,
+    "unit": "people",
+    "originalText": "浙江布政司人口五百一十五万三千五口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年浙江布政司登记人口总数；不当作完整实际人口估计。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "zhejiang-land-1578",
+    "administrativeUnitId": "zhejiang",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 466969.8248,
+    "unit": "qing",
+    "originalText": "浙江布政司田土共四十六万六千九百六十九顷八十二亩四分八厘零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年浙江布政司实在田土总额；按顷、亩、分、厘换算为顷，未作现代面积转换。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year land register; normalized 1顷=100亩, 1亩=10分, 1分=10厘."
+    }
+  },
+  {
+    "id": "zhejiang-summer-tax-1578",
+    "administrativeUnitId": "zhejiang",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 152863.7348,
+    "unit": "shi",
+    "originalText": "浙江布政司夏税小麦一十五万二千八百六十三石七斗三升四合八勺",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年浙江布政司夏税本色小麦主项；丝绵、折绢、租钞等另列项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺 and kept separate from non-grain tax items."
+    }
+  },
+  {
+    "id": "zhejiang-autumn-grain-1578",
+    "administrativeUnitId": "zhejiang",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 2369764.0404,
+    "unit": "shi",
+    "originalText": "浙江布政司秋粮米二百三十六万九千七百六十四石四升四合",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年浙江布政司秋粮本色米主项；租钞、租丝、租绢等另列项目不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺 and kept separate from non-grain tax items."
+    }
+  }
+]

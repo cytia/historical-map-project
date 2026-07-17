@@ -1,0 +1,3312 @@
+[
+  {
+    "id": "chengdu-city",
+    "longitude": 104.0665,
+    "latitude": 30.5728,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 成都城; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "langzhong-seat",
+    "longitude": 105.975,
+    "latitude": 31.58,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 阆中; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "nanchong-seat",
+    "longitude": 106.11,
+    "latitude": 30.84,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 南充; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "fengjie-seat",
+    "longitude": 109.46348,
+    "latitude": 31.0234,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1362044, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1362044 P625 coordinates for the modern Fengjie County proxy; modern county and prefectural-seat proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "ba-seat",
+    "longitude": 106.55,
+    "latitude": 29.56,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 巴县; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "yibin-seat",
+    "longitude": 104.62,
+    "latitude": 28.77,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 宜宾; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "pingwu-seat",
+    "longitude": 104.53,
+    "latitude": 32.41,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 平武; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "pingshan-seat",
+    "longitude": 104.16068,
+    "latitude": 28.64666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q117066, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q117066 P625 coordinates for the modern Pingshan County proxy; modern county proxy for the Mahu prefectural seat."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "zhenxiong-seat",
+    "longitude": 104.87,
+    "latitude": 27.44,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 镇雄; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "wumeng-seat",
+    "longitude": 103.72,
+    "latitude": 27.34,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 乌蒙; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "wusa-seat",
+    "longitude": 104.28,
+    "latitude": 26.86,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 乌撒; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "dongchuan-seat",
+    "longitude": 103.18086,
+    "latitude": 26.08433,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1241329, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1241329 P625 coordinates for the modern Dongchuan District proxy; the historical prefectural-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "tongchuan-seat",
+    "longitude": 105.09,
+    "latitude": 31.09,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 潼川州; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "meizhou-seat",
+    "longitude": 103.85,
+    "latitude": 30.08,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 眉州; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "qiongzhou-seat",
+    "longitude": 103.46,
+    "latitude": 30.41,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 邛州; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "jiading-seat",
+    "longitude": 103.76,
+    "latitude": 29.55,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 嘉定州; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "luzhou-seat",
+    "longitude": 105.44,
+    "latitude": 28.87,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 泸州; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "yazhou-seat",
+    "longitude": 103,
+    "latitude": 29.98,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 雅州; requires independent gazetteer or archaeological verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added a reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "jianzhou-seat",
+    "longitude": 104.5465,
+    "latitude": 30.39308,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q774508, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q774508 P625 coordinates for the modern Jianyang City proxy; modern Jianyang City proxy for historical Jianzhou."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "chongqingzhou-seat",
+    "longitude": 103.67,
+    "latitude": 30.63,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact seat location remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the 崇庆州 seat near modern Chongzhou; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "hanzhou-seat",
+    "longitude": 104.28,
+    "latitude": 30.98,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact seat location remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the 汉州 seat near modern Guanghan; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "mianzhou-seat",
+    "longitude": 104.73847,
+    "latitude": 31.46688,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state proxy independently located from Wikidata Q426130, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q426130 P625 coordinates for the modern Mianyang City proxy; Modern Mianyang City proxy for historical Mianzhou."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "maozhou-seat",
+    "longitude": 103.84912,
+    "latitude": 31.68213,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state proxy independently located from Wikidata Q612790, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q612790 P625 coordinates for the modern Mao County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "weizhou-seat",
+    "longitude": 103.59,
+    "latitude": 31.47,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History relocation note to the Baozigang thousand-household fort; exact seat compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the post-Xuande 威州 seat near modern Weizhou; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "shuangliu-seat",
+    "longitude": 103.91531,
+    "latitude": 30.57582,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1339981, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1339981 P625 coordinates for the modern Shuangliu District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "pi-seat",
+    "longitude": 103.89888888888889,
+    "latitude": 30.79861111111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1027358, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1027358 P625 coordinates for the modern Pidu District proxy; Raw Wikidata precision 0.0002777777777777778 degrees."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "wenjiang-seat",
+    "longitude": 103.83364,
+    "latitude": 30.69547,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1355972, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1355972 P625 coordinates for the modern Wenjiang District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "xinfan-seat",
+    "longitude": 104.01633,
+    "latitude": 30.87569,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11084124, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11084124 P625 coordinates for the modern Xinfan Subdistrict proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "xindu-seat",
+    "longitude": 104.16054,
+    "latitude": 30.82464,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1027369, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1027369 P625 coordinates for the modern Xindu District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "peng-seat",
+    "longitude": 103.9382,
+    "latitude": 30.98747,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1360118, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1360118 P625 coordinates for the modern Pengzhou City proxy; Modern Pengzhou City proxy for historical Peng County."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "chongning-seat",
+    "longitude": 103.814,
+    "latitude": 30.884,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description and the historical Tangchang-area correspondence",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the historical 崇宁县 seat near modern Tangchang; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "guan-chengdu-seat",
+    "longitude": 103.62,
+    "latitude": 30.99,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the historical 灌县 seat near modern Dujiangyan; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "jintang-seat",
+    "longitude": 104.43611111111,
+    "latitude": 30.856388888889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q49279679, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q49279679 P625 coordinates for the modern Zhaozhen proxy; Raw Wikidata precision 0.00027777777777778 degrees."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "renshou-seat",
+    "longitude": 104.142,
+    "latitude": 29.99789,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1339237, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1339237 P625 coordinates for the modern Renshou County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "jingyan-seat",
+    "longitude": 104.06475,
+    "latitude": 29.65093,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199523, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199523 P625 coordinates for the modern Jingyan County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "zi-seat",
+    "longitude": 104.84508,
+    "latitude": 29.77193,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q207069, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q207069 P625 coordinates for the modern Zizhong County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "neijiang-seat",
+    "longitude": 105.0635,
+    "latitude": 29.58716,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q426756, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q426756 P625 coordinates for the modern Neijiang City proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "an-chengdu-seat",
+    "longitude": 104.55666,
+    "latitude": 31.5413,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q482365, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q482365 P625 coordinates for the modern Anzhou District proxy; modern Anzhou District proxy for historical An County."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "ziyang-chengdu-seat",
+    "longitude": 104.63974,
+    "latitude": 30.12562,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q207030, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q207030 P625 coordinates for the modern Ziyang City proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "xinjin-chengdu-seat",
+    "longitude": 103.80968,
+    "latitude": 30.41665,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q549700, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q549700 P625 coordinates for the modern Xinjin District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "shifang-chengdu-seat",
+    "longitude": 104.16946,
+    "latitude": 31.12817,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1028157, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1028157 P625 coordinates for the modern Shifang City proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "mianzhu-chengdu-seat",
+    "longitude": 104.19941,
+    "latitude": 31.34463,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1209118, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1209118 P625 coordinates for the modern Mianzhu City proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "deyang-chengdu-seat",
+    "longitude": 104.39499,
+    "latitude": 31.12892,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q425996, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q425996 P625 coordinates for the modern Deyang City proxy; modern Deyang City proxy for historical Deyang County."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "luojiang-chengdu-seat",
+    "longitude": 104.50698,
+    "latitude": 31.30523,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1293709, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1293709 P625 coordinates for the modern Luojiang District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "zhangming-chengdu-seat",
+    "longitude": 104.72314,
+    "latitude": 31.71557,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11070095, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11070095 P625 coordinates for the modern Zhangming Town proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "wenchuan-chengdu-seat",
+    "longitude": 103.58333333333,
+    "latitude": 31.483333333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1015140, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1015140 P625 coordinates for the modern Wenchuan County proxy; Raw Wikidata precision 0.016666666666667 degrees."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "baoxian-chengdu-seat",
+    "longitude": 103.52,
+    "latitude": 31.67,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description and the historical 保县 correspondence near Xuecheng",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the historical 保县 seat northwest of 威州; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "jianzhou-baoning-seat",
+    "longitude": 105.46,
+    "latitude": 32.29,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Jianzhou seat location remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the 剑州 seat near modern Jiange; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "bazhou-baoning-seat",
+    "longitude": 106.77,
+    "latitude": 31.86,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Bazhou seat location remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the 巴州 seat near modern Bazhong; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "cangxi-baoning-seat",
+    "longitude": 105.93674,
+    "latitude": 31.73451,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1033226, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1033226 P625 coordinates for the modern Cangxi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "nanbu-baoning-seat",
+    "longitude": 106.05593,
+    "latitude": 31.35104,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199868, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199868 P625 coordinates for the modern Nanbu County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "guangyuan-baoning-seat",
+    "longitude": 105.83985,
+    "latitude": 32.43529,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q426237, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q426237 P625 coordinates for the modern Guangyuan City proxy; modern Guangyuan City proxy for historical Guangyuan County."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "zhaohua-baoning-seat",
+    "longitude": 105.71422,
+    "latitude": 32.33682,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11088916, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11088916 P625 coordinates for the modern Zhaohua Town proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "zitong-baoning-seat",
+    "longitude": 105.16133,
+    "latitude": 31.63735,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q206329, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q206329 P625 coordinates for the modern Zitong County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "tongjiang-baoning-seat",
+    "longitude": 107.2395,
+    "latitude": 31.91518,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q114367, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q114367 P625 coordinates for the modern Tongjiang County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "nanjiang-baoning-seat",
+    "longitude": 106.828,
+    "latitude": 32.353,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the 南江县 seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "pengzhou-shunqing-seat",
+    "longitude": 106.41,
+    "latitude": 31.05,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Pengzhou seat location remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the 蓬州 seat in the northern 顺庆 area; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "guangan-shunqing-seat",
+    "longitude": 106.6379,
+    "latitude": 30.47674,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q895927, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q895927 P625 coordinates for the modern Guang'an District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "xichong-shunqing-seat",
+    "longitude": 105.8897,
+    "latitude": 30.99347,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199888, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199888 P625 coordinates for the modern Xichong County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "yingshan-shunqing-seat",
+    "longitude": 106.5637,
+    "latitude": 31.07571,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1267430, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1267430 P625 coordinates for the modern Yingshan County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "yilong-shunqing-seat",
+    "longitude": 106.29656,
+    "latitude": 31.26821,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1152679, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1152679 P625 coordinates for the modern Yilong County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "yuechi-shunqing-seat",
+    "longitude": 106.44115,
+    "latitude": 30.53591,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1200100, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200100 P625 coordinates for the modern Yuechi County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "qu-shunqing-seat",
+    "longitude": 106.96533,
+    "latitude": 30.83706,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199861, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199861 P625 coordinates for the modern Qu County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "linshui-shunqing-seat",
+    "longitude": 106.93026,
+    "latitude": 30.33385,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199891, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199891 P625 coordinates for the modern Linshui County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "dazhu-shunqing-seat",
+    "longitude": 107.206,
+    "latitude": 30.7376,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1179298, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1179298 P625 coordinates for the modern Dazhu County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "jiangyou-longan-seat",
+    "longitude": 104.74063,
+    "latitude": 31.77613,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1359300, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1359300 P625 coordinates for the modern Jiangyou City proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "shiquan-longan-seat",
+    "longitude": 104.46036,
+    "latitude": 31.83492,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11090623, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q11090623 P625 coordinates for the modern Qushan Town in Beichuan County proxy; Modern Qushan Town in Beichuan County proxy for historical Shiquan County; present county-seat relocation leaves the exact Ming compound unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "shehong-tongchuan-seat",
+    "longitude": 105.37841,
+    "latitude": 30.87055,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q970433, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q970433 P625 coordinates for the modern Shehong City proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "zhongjiang-tongchuan-seat",
+    "longitude": 104.6761,
+    "latitude": 31.03549,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q197863, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q197863 P625 coordinates for the modern Zhongjiang County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "yanting-tongchuan-seat",
+    "longitude": 105.38693,
+    "latitude": 31.22606,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199702, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199702 P625 coordinates for the modern Yanting County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "suining-tongchuan-seat",
+    "longitude": 105.592,
+    "latitude": 30.532,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the 遂宁县 seat near modern Suining; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "pengxi-tongchuan-seat",
+    "longitude": 105.70341,
+    "latitude": 30.76951,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199707, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199707 P625 coordinates for the modern Pengxi County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "anyue-tongchuan-seat",
+    "longitude": 105.3334,
+    "latitude": 30.10119,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q431374, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q431374 P625 coordinates for the modern Anyue County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "lezhi-tongchuan-seat",
+    "longitude": 105.02733,
+    "latitude": 30.27837,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1200041, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200041 P625 coordinates for the modern Lezhi County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "wushan-kuizhou-seat",
+    "longitude": 109.87454,
+    "latitude": 31.07895,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1262713, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1262713 P625 coordinates for the modern Wushan County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "dachang-kuizhou-seat",
+    "longitude": 109.79331,
+    "latitude": 31.26587,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10935610, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10935610 P625 coordinates for the modern Dachang Town in Wushan County proxy; modern Dachang Town matches the historical Dachang County seat area."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "daning-kuizhou-seat",
+    "longitude": 109.61428,
+    "latitude": 31.39504,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10929693, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10929693 P625 coordinates for the modern Chengxiang Town in Wuxi County proxy; modern Chengxiang Town contains the Wuxi old town corresponding to historical Daning."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "yunyang-kuizhou-seat",
+    "longitude": 108.69789,
+    "latitude": 30.93304,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q14447, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q14447 P625 coordinates for the modern Yunyang County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "wan-kuizhou-seat",
+    "longitude": 108.467,
+    "latitude": 30.9,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q713825, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q713825 P625 coordinates for the modern Wanzhou District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "kai-kuizhou-seat",
+    "longitude": 108.40387,
+    "latitude": 31.17232,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1371311, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1371311 P625 coordinates for the modern Kaizhou District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "liangshan-kuizhou-seat",
+    "longitude": 107.78825,
+    "latitude": 30.67098,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1362558, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1362558 P625 coordinates for the modern Liangping District proxy; Modern Liangping District proxy for historical Liangshan County."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "xinning-kuizhou-seat",
+    "longitude": 107.86235,
+    "latitude": 31.08706,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199921, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199921 P625 coordinates for the modern Kaijiang County/Xinning area proxy; The official Kaijiang county history identifies the Ming Xinning county area with present Kaijiang; the modern county-seat area is represented approximately."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "jianshi-kuizhou-seat",
+    "longitude": 109.71832,
+    "latitude": 30.60273,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q959160, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q959160 P625 coordinates for the modern Jianshi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "dazhou-kuizhou-seat",
+    "longitude": 107.468,
+    "latitude": 31.209,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Da Zhou seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "dongxiang-kuizhou-seat",
+    "longitude": 107.71776,
+    "latitude": 31.35761,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1200071, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200071 P625 coordinates for the modern Xuanhan County proxy; modern Xuanhan County proxy for historical Dongxiang."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "taiping-kuizhou-seat",
+    "longitude": 107.64,
+    "latitude": 31.23,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Taiping county seat under Da Zhou; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "jiangjin-chongqing-seat",
+    "longitude": 106.25205,
+    "latitude": 29.28437,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q201723, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q201723 P625 coordinates for the modern Jiangjin District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "bishan-chongqing-seat",
+    "longitude": 106.226,
+    "latitude": 29.593,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Bishan county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "yongchuan-chongqing-seat",
+    "longitude": 105.9065,
+    "latitude": 29.35636,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q713989, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q713989 P625 coordinates for the modern Yongchuan District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "rongchang-chongqing-seat",
+    "longitude": 105.59317,
+    "latitude": 29.40704,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1331275, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1331275 P625 coordinates for the modern Rongchang District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "dazu-chongqing-seat",
+    "longitude": 105.71673,
+    "latitude": 29.70287,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q714314, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q714314 P625 coordinates for the modern Dazu District proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "anju-chongqing-seat",
+    "longitude": 106.02706,
+    "latitude": 29.99254,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10946631, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10946631 P625 coordinates for the modern Anju Town in Tongliang District proxy; modern Anju Town matches the historical Anju County seat area."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "qijiang-chongqing-seat",
+    "longitude": 106.651,
+    "latitude": 29.028,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Qijiang county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "nanchuan-chongqing-seat",
+    "longitude": 107.09413,
+    "latitude": 29.1582,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q714170, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q714170 P625 coordinates for the modern Nanchuan District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "changshou-chongqing-seat",
+    "longitude": 107.08,
+    "latitude": 29.83,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Changshou county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "qianjiang-chongqing-seat",
+    "longitude": 108.77,
+    "latitude": 29.53,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Qianjiang county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "hezhou-chongqing-seat",
+    "longitude": 106.26353,
+    "latitude": 29.99123,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q714045, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q714045 P625 coordinates for the modern Hechuan District proxy; modern Hechuan District proxy for historical Hezhou."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "tongliang-chongqing-seat",
+    "longitude": 106.05331,
+    "latitude": 29.84007,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1331358, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1331358 P625 coordinates for the modern Tongliang District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "dingyuan-chongqing-seat",
+    "longitude": 106.28786,
+    "latitude": 30.34451,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199947, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1199947 P625 coordinates for the modern Wusheng County area proxy; historical Dingyuan County is identified in the Wusheng area; the old seat south of the modern county center remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "zhongzhou-chongqing-seat",
+    "longitude": 108.03568,
+    "latitude": 30.29916,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q197804, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q197804 P625 coordinates for the modern Zhong County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "fengdu-chongqing-seat",
+    "longitude": 107.72867,
+    "latitude": 29.86719,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q737865, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q737865 P625 coordinates for the modern Fengdu County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "dianjiang-chongqing-seat",
+    "longitude": 107.34326,
+    "latitude": 30.33012,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1209039, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1209039 P625 coordinates for the modern Dianjiang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "fuzhou-chongqing-seat",
+    "longitude": 107.285,
+    "latitude": 29.6603,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q553934, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q553934 P625 coordinates for the modern Fuling District proxy; modern Fuling District proxy for historical Fuzhou."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "wulong-chongqing-seat",
+    "longitude": 107.75828,
+    "latitude": 29.32816,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1331251, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1331251 P625 coordinates for the modern Wulong District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "pengshui-chongqing-seat",
+    "longitude": 108.16,
+    "latitude": 29.29,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Pengshui county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "nanxi-xuzhou-seat",
+    "longitude": 104.98,
+    "latitude": 28.84,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Nanxi county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "qingfu-xuzhou-seat",
+    "longitude": 104.52,
+    "latitude": 28.58,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Qingfu county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "fushun-xuzhou-seat",
+    "longitude": 104.975,
+    "latitude": 29.18,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Fushun county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "changning-xuzhou-seat",
+    "longitude": 104.92,
+    "latitude": 28.58,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Xuzhou Changning county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "xingwen-xuzhou-seat",
+    "longitude": 105.24,
+    "latitude": 28.3,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Xingwen county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "longchang-xuzhou-seat",
+    "longitude": 105.29,
+    "latitude": 29.34,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Longchang county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "gaozhou-xuzhou-seat",
+    "longitude": 104.5,
+    "latitude": 28.44,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; no valid Sichuan CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Gao Zhou seat under Xuzhou; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "junlian-xuzhou-seat",
+    "longitude": 104.51,
+    "latitude": 28.16,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Junlian county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "gong-xuzhou-seat",
+    "longitude": 104.71,
+    "latitude": 28.44,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Gong county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "pengshan-meizhou-seat",
+    "longitude": 103.8707,
+    "latitude": 30.19575,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1200151, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200151 P625 coordinates for the modern Pengshan District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "danling-meizhou-seat",
+    "longitude": 103.51,
+    "latitude": 30.01,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Danling county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "qingshen-meizhou-seat",
+    "longitude": 103.8457,
+    "latitude": 29.83519,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1200051, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200051 P625 coordinates for the modern Qingshen County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "dayi-qiongzhou-seat",
+    "longitude": 103.523,
+    "latitude": 30.58798,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1179111, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1179111 P625 coordinates for the modern Dayi County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "pujiang-qiongzhou-seat",
+    "longitude": 103.5106,
+    "latitude": 30.19769,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1355890, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1355890 P625 coordinates for the modern Pujiang County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "emei-jiading-seat",
+    "longitude": 103.48769,
+    "latitude": 29.60141,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335318, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335318 P625 coordinates for the modern Emeishan City proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "jiajiang-jiading-seat",
+    "longitude": 103.57643,
+    "latitude": 29.74272,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q239497, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q239497 P625 coordinates for the modern Jiajiang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "hongya-jiading-seat",
+    "longitude": 103.37243,
+    "latitude": 29.90692,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1200093, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200093 P625 coordinates for the modern Hongya County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "jianwei-jiading-seat",
+    "longitude": 103.94325,
+    "latitude": 29.20895,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199630, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199630 P625 coordinates for the modern Qianwei County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "rong-jiading-seat",
+    "longitude": 104.41836,
+    "latitude": 29.45501,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1341912, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1341912 P625 coordinates for the modern Rong County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "weiyuan-jiading-seat",
+    "longitude": 104.66346,
+    "latitude": 29.5269,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199663, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199663 P625 coordinates for the modern Weiyuan County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "naxi-luzhou-seat",
+    "longitude": 105.37213,
+    "latitude": 28.77755,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1209106, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1209106 P625 coordinates for the modern Naxi District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "jiangan-luzhou-seat",
+    "longitude": 105.10611111111,
+    "latitude": 28.69,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199956, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199956 P625 coordinates for the modern Jiang'an County proxy; exact old administrative compound remains unresolved. Raw Wikidata precision 0.00027777777777778."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "hejiang-luzhou-seat",
+    "longitude": 105.8297,
+    "latitude": 28.81219,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1199413, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199413 P625 coordinates for the modern Hejiang County proxy; exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 1: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "mingshan-yazhou-seat",
+    "longitude": 103.11006,
+    "latitude": 30.08614,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1030615, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1030615 P625 coordinates for the modern Mingshan District proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "rongjing-yazhou-seat",
+    "longitude": 102.84,
+    "latitude": 29.79,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Rongjing county seat; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "lushan-yazhou-seat",
+    "longitude": 102.92371,
+    "latitude": 30.15398,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1345456, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1345456 P625 coordinates for the modern Lushan County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 2: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "pingyi-mahu-seat",
+    "longitude": 104.32,
+    "latitude": 28.62,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-longguan-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Pingyi longguan-si; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "manyi-mahu-seat",
+    "longitude": 104.48,
+    "latitude": 28.35,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-longguan-seat proxy guided by the Ming History geographic description; no valid parent-matching CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Manyi longguan-si under Mahu; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "muchuan-mahu-seat",
+    "longitude": 103.98,
+    "latitude": 28.96,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-longguan-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Muchuan longguan-si; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "baishuijiang-zhenxiong-seat",
+    "longitude": 104.94,
+    "latitude": 27.43,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-longguan-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Baishuijiang longguan-si; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "huaide-zhenxiong-seat",
+    "longitude": 105.2,
+    "latitude": 27.6,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-longguan-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Huaide longguan-si; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "weixin-zhenxiong-seat",
+    "longitude": 105.84,
+    "latitude": 27.85,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-longguan-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Weixin longguan-si; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "guihua-zhenxiong-seat",
+    "longitude": 105.08,
+    "latitude": 27.3,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-longguan-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Guihua longguan-si; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "anjing-zhenxiong-seat",
+    "longitude": 105,
+    "latitude": 27.2,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-longguan-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Anjing longguan-si; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "yongning-xuanfu-seat",
+    "longitude": 105.44413,
+    "latitude": 28.17072,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10912934, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10912934 P625 coordinates for the modern Xuyong Town proxy; Modern Xuyong Town proxy for the historical Yongning Xuanfu seat area; the exact old administrative compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "jiuxing-yongning-seat",
+    "longitude": 105.55,
+    "latitude": 28.23,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-longguan-seat proxy guided by the Ming History geographic description; no valid CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with the Jiuxing longguan-si; requires independent historical-location verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point pending independent historical-location review"
+    }
+  },
+  {
+    "id": "taiping-yongning-seat",
+    "longitude": 105.23326,
+    "latitude": 28.30576,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1339706, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1339706 P625 coordinates for the modern Xingwen County proxy; Historical Taiping Changguansi is described at Daba south of Xingwen; the modern Daba coordinate is not independently matched, so the Xingwen county proxy remains low confidence."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  },
+  {
+    "id": "tianquan-liufan-seat",
+    "longitude": 102.76408,
+    "latitude": 30.06129,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county proxy independently located from Wikidata Q1200078, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200078 P625 coordinates for the modern Tianquan County proxy; the historical county-seat area remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
+    }
+  }
+]

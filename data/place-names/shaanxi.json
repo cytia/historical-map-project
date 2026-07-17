@@ -1,0 +1,2693 @@
+[
+  {
+    "id": "name-xian-city",
+    "placeId": "xian-city",
+    "name": "西安城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shared prefectural-city label for the Changan and Xianning attached counties"
+    }
+  },
+  {
+    "id": "name-fengxiang-seat",
+    "placeId": "fengxiang-seat",
+    "name": "凤翔",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-nanzheng-seat",
+    "placeId": "nanzheng-seat",
+    "name": "南郑",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-fushi-seat",
+    "placeId": "fushi-seat",
+    "name": "肤施",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-qingyang-anhua-seat",
+    "placeId": "qingyang-anhua-seat",
+    "name": "安化",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label; distinct from the Huguang homonym"
+    }
+  },
+  {
+    "id": "name-pingliang-seat",
+    "placeId": "pingliang-seat",
+    "name": "平凉",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-longxi-seat",
+    "placeId": "longxi-seat",
+    "name": "陇西",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-didao-seat",
+    "placeId": "didao-seat",
+    "name": "狄道",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-lingzhou-seat",
+    "placeId": "lingzhou-seat",
+    "name": "灵州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered state seat label for 1600"
+    }
+  },
+  {
+    "id": "name-xingan-seat",
+    "placeId": "xingan-seat",
+    "name": "兴安州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the post-1583 name for the 1600 time slice"
+    }
+  },
+  {
+    "id": "name-huazhou-xian-seat",
+    "placeId": "huazhou-xian-seat",
+    "name": "华州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-shangzhou-xian-seat",
+    "placeId": "shangzhou-xian-seat",
+    "name": "商州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-tongzhou-xian-seat",
+    "placeId": "tongzhou-xian-seat",
+    "name": "同州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-yaozhou-xian-seat",
+    "placeId": "yaozhou-xian-seat",
+    "name": "耀州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-qianzhou-xian-seat",
+    "placeId": "qianzhou-xian-seat",
+    "name": "乾州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-binzhou-xian-seat",
+    "placeId": "binzhou-xian-seat",
+    "name": "邠州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-longzhou-fengxiang-seat",
+    "placeId": "longzhou-fengxiang-seat",
+    "name": "陇州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-ningqiang-hanzhong-seat",
+    "placeId": "ningqiang-hanzhong-seat",
+    "name": "宁羌州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-fuzhou-yanan-seat",
+    "placeId": "fuzhou-yanan-seat",
+    "name": "鄜州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-suide-yanan-seat",
+    "placeId": "suide-yanan-seat",
+    "name": "绥德州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-jiazou-yanan-seat",
+    "placeId": "jiazou-yanan-seat",
+    "name": "葭州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-ningzhou-qingyang-seat",
+    "placeId": "ningzhou-qingyang-seat",
+    "name": "宁州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-jingzhou-pingliang-seat",
+    "placeId": "jingzhou-pingliang-seat",
+    "name": "泾州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-jingning-pingliang-seat",
+    "placeId": "jingning-pingliang-seat",
+    "name": "静宁州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-guyuan-pingliang-seat",
+    "placeId": "guyuan-pingliang-seat",
+    "name": "固原州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-qinzhou-gongchang-seat",
+    "placeId": "qinzhou-gongchang-seat",
+    "name": "秦州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-jiezhou-gongchang-seat",
+    "placeId": "jiezhou-gongchang-seat",
+    "name": "阶州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-huizhou-gongchang-seat",
+    "placeId": "huizhou-gongchang-seat",
+    "name": "徽州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-lanzhou-lintao-seat",
+    "placeId": "lanzhou-lintao-seat",
+    "name": "兰州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-hezhou-lintao-seat",
+    "placeId": "hezhou-lintao-seat",
+    "name": "河州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 state-seat label"
+    }
+  },
+  {
+    "id": "name-xianyang-seat",
+    "placeId": "xianyang-seat",
+    "name": "咸阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-jingyang-seat",
+    "placeId": "jingyang-seat",
+    "name": "泾阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-xingping-seat",
+    "placeId": "xingping-seat",
+    "name": "兴平",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-lintong-seat",
+    "placeId": "lintong-seat",
+    "name": "临潼",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-weinan-seat",
+    "placeId": "weinan-seat",
+    "name": "渭南",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-lantian-seat",
+    "placeId": "lantian-seat",
+    "name": "蓝田",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-hu-seat",
+    "placeId": "hu-seat",
+    "name": "鄠",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-zhouzhi-seat",
+    "placeId": "zhouzhi-seat",
+    "name": "盩厔",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-gaoling-seat",
+    "placeId": "gaoling-seat",
+    "name": "高陵",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-fuping-seat",
+    "placeId": "fuping-seat",
+    "name": "富平",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-sanyuan-seat",
+    "placeId": "sanyuan-seat",
+    "name": "三原",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-liquan-seat",
+    "placeId": "liquan-seat",
+    "name": "醴泉",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-huayin-seat",
+    "placeId": "huayin-seat",
+    "name": "华阴",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-pucheng-seat",
+    "placeId": "pucheng-seat",
+    "name": "蒲城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-shangnan-seat",
+    "placeId": "shangnan-seat",
+    "name": "商南",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-luonan-seat",
+    "placeId": "luonan-seat",
+    "name": "洛南",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-shanyang-shangzhou-seat",
+    "placeId": "shanyang-shangzhou-seat",
+    "name": "山阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-zhenan-shangzhou-seat",
+    "placeId": "zhenan-shangzhou-seat",
+    "name": "镇安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-chaoyi-seat",
+    "placeId": "chaoyi-seat",
+    "name": "朝邑",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-heyang-tongzhou-seat",
+    "placeId": "heyang-tongzhou-seat",
+    "name": "郃阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-hancheng-seat",
+    "placeId": "hancheng-seat",
+    "name": "韩城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-chengcheng-seat",
+    "placeId": "chengcheng-seat",
+    "name": "澄城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-baishui-tongzhou-seat",
+    "placeId": "baishui-tongzhou-seat",
+    "name": "白水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-tongguan-seat",
+    "placeId": "tongguan-seat",
+    "name": "同官",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-wugong-seat",
+    "placeId": "wugong-seat",
+    "name": "武功",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-yongshou-seat",
+    "placeId": "yongshou-seat",
+    "name": "永寿",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-chunhua-seat",
+    "placeId": "chunhua-seat",
+    "name": "淳化",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-sanshui-seat",
+    "placeId": "sanshui-seat",
+    "name": "三水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-changwu-seat",
+    "placeId": "changwu-seat",
+    "name": "长武",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-qishan-seat",
+    "placeId": "qishan-seat",
+    "name": "岐山",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-baoji-seat",
+    "placeId": "baoji-seat",
+    "name": "宝鸡",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-fufeng-seat",
+    "placeId": "fufeng-seat",
+    "name": "扶风",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-mei-seat",
+    "placeId": "mei-seat",
+    "name": "郿",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-linyou-seat",
+    "placeId": "linyou-seat",
+    "name": "麟游",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-qianyang-seat",
+    "placeId": "qianyang-seat",
+    "name": "汧阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-baocheng-seat",
+    "placeId": "baocheng-seat",
+    "name": "褒城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-chenggu-seat",
+    "placeId": "chenggu-seat",
+    "name": "城固",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-yang-seat",
+    "placeId": "yang-seat",
+    "name": "洋",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-xixiang-seat",
+    "placeId": "xixiang-seat",
+    "name": "西乡",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-feng-hanzhong-seat",
+    "placeId": "feng-hanzhong-seat",
+    "name": "凤",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-mian-seat",
+    "placeId": "mian-seat",
+    "name": "沔",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-lueyang-seat",
+    "placeId": "lueyang-seat",
+    "name": "略阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-ansai-seat",
+    "placeId": "ansai-seat",
+    "name": "安塞",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-ganquan-seat",
+    "placeId": "ganquan-seat",
+    "name": "甘泉",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-anding-yanan-seat",
+    "placeId": "anding-yanan-seat",
+    "name": "安定",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-baoan-yanan-seat",
+    "placeId": "baoan-yanan-seat",
+    "name": "保安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-yichuan-seat",
+    "placeId": "yichuan-seat",
+    "name": "宜川",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-yanchuan-seat",
+    "placeId": "yanchuan-seat",
+    "name": "延川",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-yanchang-seat",
+    "placeId": "yanchang-seat",
+    "name": "延长",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-qingjian-seat",
+    "placeId": "qingjian-seat",
+    "name": "青涧",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-luochuan-seat",
+    "placeId": "luochuan-seat",
+    "name": "洛川",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-zhongbu-seat",
+    "placeId": "zhongbu-seat",
+    "name": "中部",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-yijun-seat",
+    "placeId": "yijun-seat",
+    "name": "宜君",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-mizhi-seat",
+    "placeId": "mizhi-seat",
+    "name": "米脂",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-wubu-seat",
+    "placeId": "wubu-seat",
+    "name": "吴堡",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-shenmu-seat",
+    "placeId": "shenmu-seat",
+    "name": "神木",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-fugu-seat",
+    "placeId": "fugu-seat",
+    "name": "府谷",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-heshui-seat",
+    "placeId": "heshui-seat",
+    "name": "合水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-huan-seat",
+    "placeId": "huan-seat",
+    "name": "环",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-zhenning-seat",
+    "placeId": "zhenning-seat",
+    "name": "真宁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-chongxin-seat",
+    "placeId": "chongxin-seat",
+    "name": "崇信",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-huating-pingliang-seat",
+    "placeId": "huating-pingliang-seat",
+    "name": "华亭",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-zhenyuan-seat",
+    "placeId": "zhenyuan-seat",
+    "name": "镇原",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-longde-seat",
+    "placeId": "longde-seat",
+    "name": "隆德",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-lingtai-seat",
+    "placeId": "lingtai-seat",
+    "name": "灵台",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-zhuanglang-seat",
+    "placeId": "zhuanglang-seat",
+    "name": "庄浪",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-anding-gongchang-seat",
+    "placeId": "anding-gongchang-seat",
+    "name": "安定",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-huining-seat",
+    "placeId": "huining-seat",
+    "name": "会宁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-tongwei-seat",
+    "placeId": "tongwei-seat",
+    "name": "通渭",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-zhang-seat",
+    "placeId": "zhang-seat",
+    "name": "漳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-ningyuan-seat",
+    "placeId": "ningyuan-seat",
+    "name": "宁远",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-fuqiang-seat",
+    "placeId": "fuqiang-seat",
+    "name": "伏羌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-xihe-seat",
+    "placeId": "xihe-seat",
+    "name": "西和",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-cheng-gongchang-seat",
+    "placeId": "cheng-gongchang-seat",
+    "name": "成",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-qin-an-seat",
+    "placeId": "qin-an-seat",
+    "name": "秦安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-qingshui-seat",
+    "placeId": "qingshui-seat",
+    "name": "清水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-li-qinzhou-seat",
+    "placeId": "li-qinzhou-seat",
+    "name": "礼",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-wen-seat",
+    "placeId": "wen-seat",
+    "name": "文",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-liangdang-seat",
+    "placeId": "liangdang-seat",
+    "name": "两当",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-weiyuan-seat",
+    "placeId": "weiyuan-seat",
+    "name": "渭源",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-jin-seat",
+    "placeId": "jin-seat",
+    "name": "金",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-pingli-seat",
+    "placeId": "pingli-seat",
+    "name": "平利",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-shiquan-seat",
+    "placeId": "shiquan-seat",
+    "name": "石泉",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-xunyang-seat",
+    "placeId": "xunyang-seat",
+    "name": "洵阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-hanyin-seat",
+    "placeId": "hanyin-seat",
+    "name": "汉阴",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-baihe-seat",
+    "placeId": "baihe-seat",
+    "name": "白河",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  },
+  {
+    "id": "name-ziyang-xingan-seat",
+    "placeId": "ziyang-xingan-seat",
+    "name": "紫阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 county-seat label"
+    }
+  }
+]

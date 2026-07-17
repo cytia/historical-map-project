@@ -1,0 +1,1773 @@
+[
+  {
+    "id": "name-nanchang-city",
+    "placeId": "nanchang-city",
+    "name": "南昌城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shared Nanchang and Xinjian prefectural city label"
+    }
+  },
+  {
+    "id": "name-poyang-seat",
+    "placeId": "poyang-seat",
+    "name": "鄱阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-shangrao-seat",
+    "placeId": "shangrao-seat",
+    "name": "上饶",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-xingzi-seat",
+    "placeId": "xingzi-seat",
+    "name": "星子",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-dehua-jiangxi-seat",
+    "placeId": "dehua-jiangxi-seat",
+    "name": "德化",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Jiujiang seat label; distinct from historical homonyms"
+    }
+  },
+  {
+    "id": "name-luling-seat",
+    "placeId": "luling-seat",
+    "name": "庐陵",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-qingjiang-seat",
+    "placeId": "qingjiang-seat",
+    "name": "清江",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-linchuan-seat",
+    "placeId": "linchuan-seat",
+    "name": "临川",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-nancheng-seat",
+    "placeId": "nancheng-seat",
+    "name": "南城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-yichun-seat",
+    "placeId": "yichun-seat",
+    "name": "宜春",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-gan-seat",
+    "placeId": "gan-seat",
+    "name": "赣县",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-dayu-seat",
+    "placeId": "dayu-seat",
+    "name": "大庾",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-gaoan-seat",
+    "placeId": "gaoan-seat",
+    "name": "高安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-ningzhou-seat",
+    "placeId": "jiangxi-ningzhou-seat",
+    "name": "宁州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-fengcheng-seat",
+    "placeId": "jiangxi-fengcheng-seat",
+    "name": "丰城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-jinxian-seat",
+    "placeId": "jiangxi-jinxian-seat",
+    "name": "进贤",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-fengxin-seat",
+    "placeId": "jiangxi-fengxin-seat",
+    "name": "奉新",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-jingan-seat",
+    "placeId": "jiangxi-jingan-seat",
+    "name": "靖安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-wuning-seat",
+    "placeId": "jiangxi-wuning-seat",
+    "name": "武宁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-shanggao-seat",
+    "placeId": "jiangxi-shanggao-seat",
+    "name": "上高",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-xinchang-seat",
+    "placeId": "jiangxi-xinchang-seat",
+    "name": "新昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-dean-seat",
+    "placeId": "jiangxi-dean-seat",
+    "name": "德安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-ruichang-seat",
+    "placeId": "jiangxi-ruichang-seat",
+    "name": "瑞昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-hukou-seat",
+    "placeId": "jiangxi-hukou-seat",
+    "name": "湖口",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-pengze-seat",
+    "placeId": "jiangxi-pengze-seat",
+    "name": "彭泽",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-duchang-seat",
+    "placeId": "jiangxi-duchang-seat",
+    "name": "都昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-jianchang-nankang-seat",
+    "placeId": "jiangxi-jianchang-nankang-seat",
+    "name": "建昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-anyi-seat",
+    "placeId": "jiangxi-anyi-seat",
+    "name": "安义",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-yugan-seat",
+    "placeId": "jiangxi-yugan-seat",
+    "name": "余干",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-leping-seat",
+    "placeId": "jiangxi-leping-seat",
+    "name": "乐平",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-fuliang-seat",
+    "placeId": "jiangxi-fuliang-seat",
+    "name": "浮梁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-dexing-seat",
+    "placeId": "jiangxi-dexing-seat",
+    "name": "德兴",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-anren-seat",
+    "placeId": "jiangxi-anren-seat",
+    "name": "安仁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-wannian-seat",
+    "placeId": "jiangxi-wannian-seat",
+    "name": "万年",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-yushan-seat",
+    "placeId": "jiangxi-yushan-seat",
+    "name": "玉山",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-yiyang-seat",
+    "placeId": "jiangxi-yiyang-seat",
+    "name": "弋阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-guixi-seat",
+    "placeId": "jiangxi-guixi-seat",
+    "name": "贵溪",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-qianshan-seat",
+    "placeId": "jiangxi-qianshan-seat",
+    "name": "铅山",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-yongfeng-seat",
+    "placeId": "jiangxi-yongfeng-seat",
+    "name": "永丰",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-xingan-seat",
+    "placeId": "jiangxi-xingan-seat",
+    "name": "兴安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-nanfeng-seat",
+    "placeId": "jiangxi-nanfeng-seat",
+    "name": "南丰",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-xincheng-jianchang-seat",
+    "placeId": "jiangxi-xincheng-jianchang-seat",
+    "name": "新城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-guangchang-seat",
+    "placeId": "jiangxi-guangchang-seat",
+    "name": "广昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-luxi-seat",
+    "placeId": "jiangxi-luxi-seat",
+    "name": "泸溪",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-chongren-seat",
+    "placeId": "jiangxi-chongren-seat",
+    "name": "崇仁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-jinxi-seat",
+    "placeId": "jiangxi-jinxi-seat",
+    "name": "金溪",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-yihuang-seat",
+    "placeId": "jiangxi-yihuang-seat",
+    "name": "宜黄",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-lean-seat",
+    "placeId": "jiangxi-lean-seat",
+    "name": "乐安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-dongxiang-seat",
+    "placeId": "jiangxi-dongxiang-seat",
+    "name": "东乡",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-taihe-seat",
+    "placeId": "jiangxi-taihe-seat",
+    "name": "泰和",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-jishui-seat",
+    "placeId": "jiangxi-jishui-seat",
+    "name": "吉水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-jian-yongfeng-seat",
+    "placeId": "jiangxi-jian-yongfeng-seat",
+    "name": "永丰",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-anfu-seat",
+    "placeId": "jiangxi-anfu-seat",
+    "name": "安福",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-longquan-jian-seat",
+    "placeId": "jiangxi-longquan-jian-seat",
+    "name": "龙泉",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-wanan-seat",
+    "placeId": "jiangxi-wanan-seat",
+    "name": "万安",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-yongxin-seat",
+    "placeId": "jiangxi-yongxin-seat",
+    "name": "永新",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-yongning-jian-seat",
+    "placeId": "jiangxi-yongning-jian-seat",
+    "name": "永宁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-xingan-linjiang-seat",
+    "placeId": "jiangxi-xingan-linjiang-seat",
+    "name": "新淦",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-xinyu-seat",
+    "placeId": "jiangxi-xinyu-seat",
+    "name": "新喻",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-xiajiang-seat",
+    "placeId": "jiangxi-xiajiang-seat",
+    "name": "峡江",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-fenyi-seat",
+    "placeId": "jiangxi-fenyi-seat",
+    "name": "分宜",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-pingxiang-seat",
+    "placeId": "jiangxi-pingxiang-seat",
+    "name": "萍乡",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-wanzai-seat",
+    "placeId": "jiangxi-wanzai-seat",
+    "name": "万载",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-yudu-seat",
+    "placeId": "jiangxi-yudu-seat",
+    "name": "雩都",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-xinfeng-ganzhou-seat",
+    "placeId": "jiangxi-xinfeng-ganzhou-seat",
+    "name": "信丰",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-xingguo-seat",
+    "placeId": "jiangxi-xingguo-seat",
+    "name": "兴国",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-huichang-seat",
+    "placeId": "jiangxi-huichang-seat",
+    "name": "会昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-anyuan-seat",
+    "placeId": "jiangxi-anyuan-seat",
+    "name": "安远",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-ningdu-seat",
+    "placeId": "jiangxi-ningdu-seat",
+    "name": "宁都",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-ruijin-seat",
+    "placeId": "jiangxi-ruijin-seat",
+    "name": "瑞金",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-longnan-seat",
+    "placeId": "jiangxi-longnan-seat",
+    "name": "龙南",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-shicheng-seat",
+    "placeId": "jiangxi-shicheng-seat",
+    "name": "石城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-dingnan-seat",
+    "placeId": "jiangxi-dingnan-seat",
+    "name": "定南",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-changning-ganzhou-seat",
+    "placeId": "jiangxi-changning-ganzhou-seat",
+    "name": "长宁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-nankang-county-seat",
+    "placeId": "jiangxi-nankang-county-seat",
+    "name": "南康",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-shangyou-seat",
+    "placeId": "jiangxi-shangyou-seat",
+    "name": "上犹",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-jiangxi-chongyi-seat",
+    "placeId": "jiangxi-chongyi-seat",
+    "name": "崇义",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Jiangxi administrative-seat label"
+    }
+  }
+]

@@ -1,0 +1,3517 @@
+[
+  {
+    "id": "henan",
+    "name": "河南",
+    "formalName": "河南等处承宣布政使司",
+    "level": "province",
+    "polityId": "ming",
+    "seatPlaceId": "xiangfu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "atlas-ming-empire-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 time-slice membership; provincial seat references the Kaifeng prefectural seat"
+    }
+  },
+  {
+    "id": "kaifeng-prefecture",
+    "name": "开封府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "henan",
+    "seatPlaceId": "xiangfu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Henan-administered prefecture and Xiangfu seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "henan-prefecture",
+    "name": "河南府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "henan",
+    "seatPlaceId": "luoyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Henan-administered prefecture and Luoyang seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "guide-prefecture",
+    "name": "归德府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "henan",
+    "seatPlaceId": "shangqiu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the post-1545 prefectural status for the 1600 time slice"
+    }
+  },
+  {
+    "id": "runing-prefecture",
+    "name": "汝宁府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "henan",
+    "seatPlaceId": "ruyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Henan-administered prefecture and Ruyang seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "nanyang-prefecture",
+    "name": "南阳府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "henan",
+    "seatPlaceId": "nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Henan-administered prefecture and Nanyang seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "huaiqing-prefecture",
+    "name": "怀庆府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "henan",
+    "seatPlaceId": "henei-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Henan-administered prefecture and Henei seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "weihui-prefecture",
+    "name": "卫辉府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "henan",
+    "seatPlaceId": "ji-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Henan-administered prefecture and Ji seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhangde-prefecture",
+    "name": "彰德府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "henan",
+    "seatPlaceId": "anyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Henan-administered prefecture and Anyang seat in the 1600 time slice"
+    }
+  },
+  {
+    "id": "ruzhou-direct-department",
+    "name": "汝州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "henan",
+    "seatPlaceId": "ruzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered department since 1476 in the 1600 time slice"
+    }
+  },
+  {
+    "id": "xiangfu-kaifeng-county",
+    "name": "祥符县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "xiangfu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chenliu-kaifeng-county",
+    "name": "陈留县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "chenliu-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qi-kaifeng-county",
+    "name": "杞县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "qi-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongxu-county",
+    "name": "通许县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "tongxu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "taikang-county",
+    "name": "太康县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "taikang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "weishi-county",
+    "name": "尉氏县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "weishi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "weichuan-county",
+    "name": "洧川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "weichuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yanling-kaifeng-county",
+    "name": "鄢陵县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "yanling-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fugou-county",
+    "name": "扶沟县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "fugou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhongmou-county",
+    "name": "中牟县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "zhongmou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yangwu-county",
+    "name": "阳武县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "yangwu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yuanwu-county",
+    "name": "原武县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "yuanwu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "fengqiu-county",
+    "name": "封丘县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "fengqiu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yanjin-county",
+    "name": "延津县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "yanjin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lanyang-county",
+    "name": "兰阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "lanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yifeng-county",
+    "name": "仪封县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "yifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xinzheng-county",
+    "name": "新郑县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "xinzheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chen-kaifeng-department",
+    "name": "陈州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "chen-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shangshui-county",
+    "name": "商水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chen-kaifeng-department",
+    "seatPlaceId": "shangshui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xihua-county",
+    "name": "西华县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chen-kaifeng-department",
+    "seatPlaceId": "xihua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xiangcheng-chen-county",
+    "name": "项城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chen-kaifeng-department",
+    "seatPlaceId": "xiangcheng-chen-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shenqiu-county",
+    "name": "沈丘县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chen-kaifeng-department",
+    "seatPlaceId": "shenqiu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xu-kaifeng-department",
+    "name": "许州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "xu-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "linying-county",
+    "name": "临颍县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xu-kaifeng-department",
+    "seatPlaceId": "linying-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xiangcheng-xu-county",
+    "name": "襄城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xu-kaifeng-department",
+    "seatPlaceId": "xiangcheng-xu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yancheng-kaifeng-county",
+    "name": "郾城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xu-kaifeng-department",
+    "seatPlaceId": "yancheng-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "changge-county",
+    "name": "长葛县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xu-kaifeng-department",
+    "seatPlaceId": "changge-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yu-kaifeng-department",
+    "name": "禹州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "yu-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "mi-yuzhou-county",
+    "name": "密县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yu-kaifeng-department",
+    "seatPlaceId": "mi-yuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zheng-kaifeng-department",
+    "name": "郑州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "kaifeng-prefecture",
+    "seatPlaceId": "zheng-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xingyang-county",
+    "name": "荥阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zheng-kaifeng-department",
+    "seatPlaceId": "xingyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xingze-county",
+    "name": "荥泽县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zheng-kaifeng-department",
+    "seatPlaceId": "xingze-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "heyin-county",
+    "name": "河阴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zheng-kaifeng-department",
+    "seatPlaceId": "heyin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "sishui-kaifeng-county",
+    "name": "汜水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zheng-kaifeng-department",
+    "seatPlaceId": "sishui-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Kaifeng Prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "luoyang-henan-county",
+    "name": "洛阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "luoyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yanshi-henan-county",
+    "name": "偃师县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "yanshi-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "gong-henan-county",
+    "name": "巩县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "gong-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "mengjin-henan-county",
+    "name": "孟津县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "mengjin-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yiyang-henan-county",
+    "name": "宜阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "yiyang-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yongning-henan-county",
+    "name": "永宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "yongning-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xinan-henan-county",
+    "name": "新安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "xinan-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "mianchi-henan-county",
+    "name": "渑池县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "mianchi-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dengfeng-henan-county",
+    "name": "登封县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "dengfeng-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "song-henan-county",
+    "name": "嵩县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "song-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lushi-henan-county",
+    "name": "卢氏县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "lushi-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanzhou-henan-department",
+    "name": "陕州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "henan-prefecture",
+    "seatPlaceId": "shanzhou-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lingbao-henan-county",
+    "name": "灵宝县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shanzhou-henan-department",
+    "seatPlaceId": "lingbao-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wenxiang-henan-county",
+    "name": "阌乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shanzhou-henan-department",
+    "seatPlaceId": "wenxiang-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shangqiu-guide-county",
+    "name": "商丘县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guide-prefecture",
+    "seatPlaceId": "shangqiu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ningling-guide-county",
+    "name": "宁陵县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guide-prefecture",
+    "seatPlaceId": "ningling-guide-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "luyi-guide-county",
+    "name": "鹿邑县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guide-prefecture",
+    "seatPlaceId": "luyi-guide-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xiayi-guide-county",
+    "name": "夏邑县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guide-prefecture",
+    "seatPlaceId": "xiayi-guide-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yongcheng-guide-county",
+    "name": "永城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guide-prefecture",
+    "seatPlaceId": "yongcheng-guide-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yucheng-guide-county",
+    "name": "虞城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guide-prefecture",
+    "seatPlaceId": "yucheng-guide-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "suizhou-guide-department",
+    "name": "睢州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guide-prefecture",
+    "seatPlaceId": "suizhou-guide-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "kaocheng-guide-county",
+    "name": "考城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suizhou-guide-department",
+    "seatPlaceId": "kaocheng-guide-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhecheng-guide-county",
+    "name": "柘城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "suizhou-guide-department",
+    "seatPlaceId": "zhecheng-guide-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Henan and Guide prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "henei-huaiqing-county",
+    "name": "河内县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaiqing-prefecture",
+    "seatPlaceId": "henei-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiyuan-huaiqing-county",
+    "name": "济源县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaiqing-prefecture",
+    "seatPlaceId": "jiyuan-huaiqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xiuwu-huaiqing-county",
+    "name": "修武县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaiqing-prefecture",
+    "seatPlaceId": "xiuwu-huaiqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuzhi-huaiqing-county",
+    "name": "武陟县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaiqing-prefecture",
+    "seatPlaceId": "wuzhi-huaiqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "meng-huaiqing-county",
+    "name": "孟县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaiqing-prefecture",
+    "seatPlaceId": "meng-huaiqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wen-huaiqing-county",
+    "name": "温县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huaiqing-prefecture",
+    "seatPlaceId": "wen-huaiqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ji-weihui-county",
+    "name": "汲县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "weihui-prefecture",
+    "seatPlaceId": "ji-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zuocheng-weihui-county",
+    "name": "胙城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "weihui-prefecture",
+    "seatPlaceId": "zuocheng-weihui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xinxiang-weihui-county",
+    "name": "新乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "weihui-prefecture",
+    "seatPlaceId": "xinxiang-weihui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huojia-weihui-county",
+    "name": "获嘉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "weihui-prefecture",
+    "seatPlaceId": "huojia-weihui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "qi-weihui-county",
+    "name": "淇县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "weihui-prefecture",
+    "seatPlaceId": "qi-weihui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "hui-weihui-county",
+    "name": "辉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "weihui-prefecture",
+    "seatPlaceId": "hui-weihui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "anyang-zhangde-county",
+    "name": "安阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangde-prefecture",
+    "seatPlaceId": "anyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "linzhang-zhangde-county",
+    "name": "临漳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangde-prefecture",
+    "seatPlaceId": "linzhang-zhangde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tangyin-zhangde-county",
+    "name": "汤阴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangde-prefecture",
+    "seatPlaceId": "tangyin-zhangde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lin-zhangde-county",
+    "name": "林县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangde-prefecture",
+    "seatPlaceId": "lin-zhangde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "cizhou-zhangde-department",
+    "name": "磁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "zhangde-prefecture",
+    "seatPlaceId": "cizhou-zhangde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuan-cizhou-county",
+    "name": "武安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "cizhou-zhangde-department",
+    "seatPlaceId": "wuan-cizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "she-cizhou-county",
+    "name": "涉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "cizhou-zhangde-department",
+    "seatPlaceId": "she-cizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "lushan-ruzhou-county",
+    "name": "鲁山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ruzhou-direct-department",
+    "seatPlaceId": "lushan-ruzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jia-ruzhou-county",
+    "name": "郏县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ruzhou-direct-department",
+    "seatPlaceId": "jia-ruzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "baofeng-ruzhou-county",
+    "name": "宝丰县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ruzhou-direct-department",
+    "seatPlaceId": "baofeng-ruzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yiyang-ruzhou-county",
+    "name": "伊阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ruzhou-direct-department",
+    "seatPlaceId": "yiyang-ruzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Huaiqing, Weihui, Zhangde and Ruzhou civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ruyang-runing-county",
+    "name": "汝阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "runing-prefecture",
+    "seatPlaceId": "ruyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenyang-runing-county",
+    "name": "真阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "runing-prefecture",
+    "seatPlaceId": "zhenyang-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shangcai-runing-county",
+    "name": "上蔡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "runing-prefecture",
+    "seatPlaceId": "shangcai-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xincai-runing-county",
+    "name": "新蔡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "runing-prefecture",
+    "seatPlaceId": "xincai-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xiping-runing-county",
+    "name": "西平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "runing-prefecture",
+    "seatPlaceId": "xiping-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "queshan-runing-county",
+    "name": "确山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "runing-prefecture",
+    "seatPlaceId": "queshan-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "suiping-runing-county",
+    "name": "遂平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "runing-prefecture",
+    "seatPlaceId": "suiping-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xinyang-runing-department",
+    "name": "信阳州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "runing-prefecture",
+    "seatPlaceId": "xinyang-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "luoshan-runing-county",
+    "name": "罗山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xinyang-runing-department",
+    "seatPlaceId": "luoshan-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "guangzhou-runing-department",
+    "name": "光州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "runing-prefecture",
+    "seatPlaceId": "guangzhou-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "guangshan-runing-county",
+    "name": "光山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangzhou-runing-department",
+    "seatPlaceId": "guangshan-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "gushi-runing-county",
+    "name": "固始县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangzhou-runing-department",
+    "seatPlaceId": "gushi-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xixian-runing-county",
+    "name": "息县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangzhou-runing-department",
+    "seatPlaceId": "xixian-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shangcheng-runing-county",
+    "name": "商城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guangzhou-runing-department",
+    "seatPlaceId": "shangcheng-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "nanyang-fu-county",
+    "name": "南阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanyang-prefecture",
+    "seatPlaceId": "nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenping-nanyang-county",
+    "name": "镇平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanyang-prefecture",
+    "seatPlaceId": "zhenping-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tang-nanyang-county",
+    "name": "唐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanyang-prefecture",
+    "seatPlaceId": "tang-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "biyang-nanyang-county",
+    "name": "泌阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanyang-prefecture",
+    "seatPlaceId": "biyang-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongbai-nanyang-county",
+    "name": "桐柏县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanyang-prefecture",
+    "seatPlaceId": "tongbai-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "nanzhao-nanyang-county",
+    "name": "南召县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "nanyang-prefecture",
+    "seatPlaceId": "nanzhao-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dengzhou-nanyang-department",
+    "name": "邓州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanyang-prefecture",
+    "seatPlaceId": "dengzhou-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "neixiang-nanyang-county",
+    "name": "内乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "dengzhou-nanyang-department",
+    "seatPlaceId": "neixiang-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xinye-nanyang-county",
+    "name": "新野县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "dengzhou-nanyang-department",
+    "seatPlaceId": "xinye-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "xichuan-nanyang-county",
+    "name": "淅川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "dengzhou-nanyang-department",
+    "seatPlaceId": "xichuan-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "yuzhou-nanyang-department",
+    "name": "裕州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "nanyang-prefecture",
+    "seatPlaceId": "yuzhou-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "wuyang-nanyang-county",
+    "name": "舞阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yuzhou-nanyang-department",
+    "seatPlaceId": "wuyang-nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ye-yuzhou-county",
+    "name": "叶县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yuzhou-nanyang-department",
+    "seatPlaceId": "ye-yuzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Runing and Nanyang prefecture civil roster and parentage for the 1600 time slice"
+    }
+  }
+]

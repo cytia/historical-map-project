@@ -1,0 +1,2017 @@
+[
+  {
+    "id": "fujian",
+    "name": "福建",
+    "formalName": "福建等处承宣布政使司",
+    "level": "province",
+    "polityId": "ming",
+    "seatPlaceId": "fuzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "atlas-ming-empire-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 time-slice membership; provincial seat references the Fuzhou prefectural seat"
+    }
+  },
+  {
+    "id": "fuzhou-fujian-prefecture",
+    "name": "福州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "fujian",
+    "seatPlaceId": "fuzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shared Min and Houguan prefectural city represented without assigning a sole attached county"
+    }
+  },
+  {
+    "id": "xinghua-prefecture",
+    "name": "兴化府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "fujian",
+    "seatPlaceId": "putian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Fujian prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "quanzhou-prefecture",
+    "name": "泉州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "fujian",
+    "seatPlaceId": "jinjiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Fujian prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhangzhou-prefecture",
+    "name": "漳州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "fujian",
+    "seatPlaceId": "longxi-fujian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Seat ID includes the region to distinguish historical homonyms"
+    }
+  },
+  {
+    "id": "yanping-prefecture",
+    "name": "延平府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "fujian",
+    "seatPlaceId": "nanping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Fujian prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "jianning-prefecture",
+    "name": "建宁府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "fujian",
+    "seatPlaceId": "jianning-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shared Jianan and Ouning prefectural city represented without assigning a sole attached county"
+    }
+  },
+  {
+    "id": "shaowu-prefecture",
+    "name": "邵武府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "fujian",
+    "seatPlaceId": "shaowu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Fujian prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "tingzhou-prefecture",
+    "name": "汀州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "fujian",
+    "seatPlaceId": "changting-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Fujian prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "funing-direct-department",
+    "name": "福宁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "fujian",
+    "seatPlaceId": "funing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered state elevated in 1473 and present in the 1600 time slice"
+    }
+  },
+  {
+    "id": "fujian-min-county",
+    "name": "闽县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-fujian-prefecture",
+    "seatPlaceId": "fuzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shared Min and Houguan prefectural city represented without assigning a sole attached county"
+    }
+  },
+  {
+    "id": "fujian-houguan-county",
+    "name": "侯官县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-fujian-prefecture",
+    "seatPlaceId": "fuzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shared Min and Houguan prefectural city represented without assigning a sole attached county"
+    }
+  },
+  {
+    "id": "fujian-changle-county",
+    "name": "长乐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-fujian-prefecture",
+    "seatPlaceId": "fujian-changle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-fuqing-county",
+    "name": "福清县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-fujian-prefecture",
+    "seatPlaceId": "fujian-fuqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-lianjiang-county",
+    "name": "连江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-fujian-prefecture",
+    "seatPlaceId": "fujian-lianjiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-luoyuan-county",
+    "name": "罗源县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-fujian-prefecture",
+    "seatPlaceId": "fujian-luoyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-gutian-county",
+    "name": "古田县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-fujian-prefecture",
+    "seatPlaceId": "fujian-gutian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-minqing-county",
+    "name": "闽清县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-fujian-prefecture",
+    "seatPlaceId": "fujian-minqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-yongfu-county",
+    "name": "永福县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "fuzhou-fujian-prefecture",
+    "seatPlaceId": "fujian-yongfu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-putian-county",
+    "name": "莆田县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xinghua-prefecture",
+    "seatPlaceId": "putian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-xianyou-county",
+    "name": "仙游县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "xinghua-prefecture",
+    "seatPlaceId": "fujian-xianyou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-jianan-county",
+    "name": "建安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianning-prefecture",
+    "seatPlaceId": "jianning-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shared Jianan and Ouning prefectural city represented without assigning a sole attached county"
+    }
+  },
+  {
+    "id": "fujian-ouning-county",
+    "name": "瓯宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianning-prefecture",
+    "seatPlaceId": "jianning-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Shared Jianan and Ouning prefectural city represented without assigning a sole attached county"
+    }
+  },
+  {
+    "id": "fujian-jianyang-county",
+    "name": "建阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianning-prefecture",
+    "seatPlaceId": "fujian-jianyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-chongan-county",
+    "name": "崇安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianning-prefecture",
+    "seatPlaceId": "fujian-chongan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-pucheng-county",
+    "name": "浦城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianning-prefecture",
+    "seatPlaceId": "fujian-pucheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-songxi-county",
+    "name": "松溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianning-prefecture",
+    "seatPlaceId": "fujian-songxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-zhenghe-county",
+    "name": "政和县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianning-prefecture",
+    "seatPlaceId": "fujian-zhenghe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-shouning-county",
+    "name": "寿宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jianning-prefecture",
+    "seatPlaceId": "fujian-shouning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-nanping-county",
+    "name": "南平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanping-prefecture",
+    "seatPlaceId": "nanping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-jianle-county",
+    "name": "将乐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanping-prefecture",
+    "seatPlaceId": "fujian-jianle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-sha-county",
+    "name": "沙县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanping-prefecture",
+    "seatPlaceId": "fujian-sha-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-youxi-county",
+    "name": "尤溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanping-prefecture",
+    "seatPlaceId": "fujian-youxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-shunchang-county",
+    "name": "顺昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanping-prefecture",
+    "seatPlaceId": "fujian-shunchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-yongan-county",
+    "name": "永安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanping-prefecture",
+    "seatPlaceId": "fujian-yongan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-datian-county",
+    "name": "大田县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanping-prefecture",
+    "seatPlaceId": "fujian-datian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-changting-county",
+    "name": "长汀县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tingzhou-prefecture",
+    "seatPlaceId": "changting-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage; uses the existing Tingzhou seat"
+    }
+  },
+  {
+    "id": "fujian-ninghua-county",
+    "name": "宁化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tingzhou-prefecture",
+    "seatPlaceId": "fujian-ninghua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-shanghang-county",
+    "name": "上杭县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tingzhou-prefecture",
+    "seatPlaceId": "fujian-shanghang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-wuping-county",
+    "name": "武平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tingzhou-prefecture",
+    "seatPlaceId": "fujian-wuping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-qingliu-county",
+    "name": "清流县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tingzhou-prefecture",
+    "seatPlaceId": "fujian-qingliu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-liancheng-county",
+    "name": "连城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tingzhou-prefecture",
+    "seatPlaceId": "fujian-liancheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-guihua-county",
+    "name": "归化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tingzhou-prefecture",
+    "seatPlaceId": "fujian-guihua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-yongding-county",
+    "name": "永定县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tingzhou-prefecture",
+    "seatPlaceId": "fujian-yongding-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-shaowu-county",
+    "name": "邵武县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaowu-prefecture",
+    "seatPlaceId": "shaowu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage; uses the existing Shaowu seat"
+    }
+  },
+  {
+    "id": "fujian-guangze-county",
+    "name": "光泽县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaowu-prefecture",
+    "seatPlaceId": "fujian-guangze-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-taining-county",
+    "name": "泰宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaowu-prefecture",
+    "seatPlaceId": "fujian-taining-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-shaowu-jianning-county",
+    "name": "建宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaowu-prefecture",
+    "seatPlaceId": "fujian-shaowu-jianning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage; seat ID distinguishes Shaowu's Jianning County from the Jianning prefectural city"
+    }
+  },
+  {
+    "id": "fujian-jinjiang-county",
+    "name": "晋江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quanzhou-prefecture",
+    "seatPlaceId": "jinjiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage; uses the existing Quanzhou seat"
+    }
+  },
+  {
+    "id": "fujian-nanan-county",
+    "name": "南安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quanzhou-prefecture",
+    "seatPlaceId": "fujian-nanan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-tongan-county",
+    "name": "同安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quanzhou-prefecture",
+    "seatPlaceId": "fujian-tongan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-huian-county",
+    "name": "惠安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quanzhou-prefecture",
+    "seatPlaceId": "fujian-huian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-anxi-county",
+    "name": "安溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quanzhou-prefecture",
+    "seatPlaceId": "fujian-anxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-yongchun-county",
+    "name": "永春县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quanzhou-prefecture",
+    "seatPlaceId": "fujian-yongchun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-dehua-county",
+    "name": "德化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quanzhou-prefecture",
+    "seatPlaceId": "fujian-dehua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-longxi-county",
+    "name": "龙溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "longxi-fujian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage; uses the existing Zhangzhou seat"
+    }
+  },
+  {
+    "id": "fujian-zhangpu-county",
+    "name": "漳浦县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "fujian-zhangpu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-longyan-county",
+    "name": "龙岩县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "fujian-longyan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-changtai-county",
+    "name": "长泰县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "fujian-changtai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-nanjing-county",
+    "name": "南靖县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "fujian-nanjing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-zhangping-county",
+    "name": "漳平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "fujian-zhangping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-pinghe-county",
+    "name": "平和县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "fujian-pinghe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-zhaoan-county",
+    "name": "诏安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "fujian-zhaoan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-haicheng-county",
+    "name": "海澄县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "fujian-haicheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage"
+    }
+  },
+  {
+    "id": "fujian-ningyang-county",
+    "name": "宁洋县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhangzhou-prefecture",
+    "seatPlaceId": "fujian-ningyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage; retained as Ningyang County from the Zhangzhou roster"
+    }
+  },
+  {
+    "id": "fujian-ningde-county",
+    "name": "宁德县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "funing-direct-department",
+    "seatPlaceId": "fujian-ningde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage under directly administered Funing State"
+    }
+  },
+  {
+    "id": "fujian-fuan-county",
+    "name": "福安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "funing-direct-department",
+    "seatPlaceId": "fujian-fuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Fujian county roster and parentage under directly administered Funing State"
+    }
+  }
+]

@@ -1,0 +1,2707 @@
+[
+  {
+    "id": "xian-city",
+    "longitude": 108.90697,
+    "latitude": 34.24642,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Changan county point hvd_70626; proxy for the west side of the shared Xian prefectural city",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70626, valid 703-1911; Xian Prefecture also shared the city with Xianning county"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the Changan point without treating either attached county as the sole prefectural seat"
+    }
+  },
+  {
+    "id": "fengxiang-seat",
+    "longitude": 107.38592,
+    "latitude": 34.52252,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Fengxiang county point hvd_70896; attached county and prefectural seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70896, valid 1179-1911"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS point matching the Fengxiang seat"
+    }
+  },
+  {
+    "id": "nanzheng-seat",
+    "longitude": 107.03519,
+    "latitude": 33.07649,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Nanzheng county point hvd_70987; attached county and Hanzhong prefectural seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70987, valid 1219-1911"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS point matching the Nanzheng seat"
+    }
+  },
+  {
+    "id": "fushi-seat",
+    "longitude": 109.46991,
+    "latitude": 36.59181,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Fushi county point hvd_70361; attached county and Yanan prefectural seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70361, valid 607-1911"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS point matching the Fushi seat"
+    }
+  },
+  {
+    "id": "qingyang-anhua-seat",
+    "longitude": 107.87602,
+    "latitude": 36.00517,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Anhua county point hvd_233 from 1820; later same-city proxy for the Ming Qingyang seat",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Record hvd_233 is dated 1820; used only as an explicit later-period proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "No 1600 CHGIS point was available; exact Ming city continuity requires a second-source review"
+    }
+  },
+  {
+    "id": "pingliang-seat",
+    "longitude": 106.68566,
+    "latitude": 35.53585,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Pingliang prefectural point hvd_115671",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_115671, valid 1186-1911"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS prefectural point matching the Pingliang seat"
+    }
+  },
+  {
+    "id": "longxi-seat",
+    "longitude": 104.6356,
+    "latitude": 35.00714,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Longxi county point hvd_70001; attached county and Gongchang prefectural seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70001, valid 1090-1911"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS point matching the Longxi seat"
+    }
+  },
+  {
+    "id": "didao-seat",
+    "longitude": 103.85794,
+    "latitude": 35.37915,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Didao county point hvd_70106; attached county and Lintao prefectural seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70106, valid 1079-1738"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS point matching the Didao seat"
+    }
+  },
+  {
+    "id": "lingzhou-seat",
+    "longitude": 106.32814,
+    "latitude": 38.08889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Lingzhou guard point hvd_70559; co-located military proxy for the civil state seat",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Record hvd_70559, valid 1506-1724, is a guard rather than the civil state record"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Civil state location requires second-source confirmation; military geometry was not imported"
+    }
+  },
+  {
+    "id": "xingan-seat",
+    "longitude": 109.02697,
+    "latitude": 32.69363,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer Ankang county point hvd_71242 from 1782; later proxy for the Ming Xingan new city",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Record hvd_71242 is dated 1782-1788 and notes the Ming Xingan new city; used as a later-period proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "The 1583 Ming new-city location requires direct second-source confirmation"
+    }
+  },
+  {
+    "id": "huazhou-xian-seat",
+    "longitude": 109.77,
+    "latitude": 34.52,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 华州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "shangzhou-xian-seat",
+    "longitude": 109.94,
+    "latitude": 33.87,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 商州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "tongzhou-xian-seat",
+    "longitude": 110.09,
+    "latitude": 34.8,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 同州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "yaozhou-xian-seat",
+    "longitude": 109.08,
+    "latitude": 35.07,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 耀州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "qianzhou-xian-seat",
+    "longitude": 108.24,
+    "latitude": 34.53,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 乾州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "binzhou-xian-seat",
+    "longitude": 108.08,
+    "latitude": 35.04,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 邠州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "longzhou-fengxiang-seat",
+    "longitude": 106.86,
+    "latitude": 34.89,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 陇州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "ningqiang-hanzhong-seat",
+    "longitude": 106.25,
+    "latitude": 32.83,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 宁羌州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "fuzhou-yanan-seat",
+    "longitude": 109.38,
+    "latitude": 35.98,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 鄜州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "suide-yanan-seat",
+    "longitude": 110.26,
+    "latitude": 37.5,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 绥德州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "jiazou-yanan-seat",
+    "longitude": 110.49,
+    "latitude": 38.02,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 葭州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "ningzhou-qingyang-seat",
+    "longitude": 107.93,
+    "latitude": 35.5,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 宁州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "jingzhou-pingliang-seat",
+    "longitude": 107.37,
+    "latitude": 35.33,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 泾州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "jingning-pingliang-seat",
+    "longitude": 105.73,
+    "latitude": 35.53,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 静宁州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "guyuan-pingliang-seat",
+    "longitude": 106.24,
+    "latitude": 36,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 固原州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "qinzhou-gongchang-seat",
+    "longitude": 105.72,
+    "latitude": 34.58,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 秦州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "jiezhou-gongchang-seat",
+    "longitude": 104.93,
+    "latitude": 33.39,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 阶州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "huizhou-gongchang-seat",
+    "longitude": 106.14,
+    "latitude": 33.77,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 徽州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "lanzhou-lintao-seat",
+    "longitude": 103.83,
+    "latitude": 36.06,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 兰州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "hezhou-lintao-seat",
+    "longitude": 103.21,
+    "latitude": 35.6,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-state-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 河州; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible state-seat proxy for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "xianyang-seat",
+    "longitude": 108.705,
+    "latitude": 34.333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 咸阳; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "jingyang-seat",
+    "longitude": 108.83756,
+    "latitude": 34.53334,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70700",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70700; valid 619 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "xingping-seat",
+    "longitude": 108.4826,
+    "latitude": 34.29872,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70722",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70722; valid 757 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "lintong-seat",
+    "longitude": 109.214,
+    "latitude": 34.367,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 临潼; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "weinan-seat",
+    "longitude": 109.50124,
+    "latitude": 34.503,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70794",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70794; valid 553 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "lantian-seat",
+    "longitude": 109.32156,
+    "latitude": 34.1537,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70756",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70756; valid 627 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "hu-seat",
+    "longitude": 108.6039,
+    "latitude": 34.11182,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70747",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70747; valid -201 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhouzhi-seat",
+    "longitude": 108.21199,
+    "latitude": 34.17114,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70789",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70789; valid 757 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "gaoling-seat",
+    "longitude": 109.08047,
+    "latitude": 34.53333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70745",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70745; valid 627 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "fuping-seat",
+    "longitude": 109.16157,
+    "latitude": 34.75443,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70809",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70809; valid 583 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "sanyuan-seat",
+    "longitude": 108.92629,
+    "latitude": 34.61975,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70781",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70781; valid 1287 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "liquan-seat",
+    "longitude": 108.41656,
+    "latitude": 34.48997,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70819",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70819; valid 636 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "huayin-seat",
+    "longitude": 110.08936,
+    "latitude": 34.56831,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70329",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70329; valid 762 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "pucheng-seat",
+    "longitude": 109.58512,
+    "latitude": 34.95594,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70337",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70337; valid 971 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shangnan-seat",
+    "longitude": 110.87067,
+    "latitude": 33.53094,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71279",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71279; valid 1477 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "luonan-seat",
+    "longitude": 110.13496,
+    "latitude": 34.09576,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71287",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71287; valid 657 ~ 1620; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanyang-shangzhou-seat",
+    "longitude": 109.87898,
+    "latitude": 33.53393,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71278",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71278; valid 1476 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenan-shangzhou-seat",
+    "longitude": 109.15329,
+    "latitude": 33.43184,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71277",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71277; valid 1463 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "chaoyi-seat",
+    "longitude": 110.12251,
+    "latitude": 34.78904,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70306",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70306; valid 770 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "heyang-tongzhou-seat",
+    "longitude": 110.15102,
+    "latitude": 35.24258,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70308",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70308; valid 596 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "hancheng-seat",
+    "longitude": 110.43764,
+    "latitude": 35.46594,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70319",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70319; valid 1269 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "chengcheng-seat",
+    "longitude": 109.93044,
+    "latitude": 35.19091,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70310",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70310; valid 446 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "baishui-tongzhou-seat",
+    "longitude": 109.58706,
+    "latitude": 35.18162,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70342",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70342; valid 636 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongguan-seat",
+    "longitude": 109.075,
+    "latitude": 35.073,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 同官; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "wugong-seat",
+    "longitude": 108.1051,
+    "latitude": 34.33205,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70252",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70252; valid 1234 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "yongshou-seat",
+    "longitude": 108.04397,
+    "latitude": 34.81275,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70259",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70259; valid 1278 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "chunhua-seat",
+    "longitude": 108.57009,
+    "latitude": 34.80872,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70214",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70214; valid 993 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "sanshui-seat",
+    "longitude": 108.33258,
+    "latitude": 35.1225,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70213",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70213; valid 1477 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "changwu-seat",
+    "longitude": 107.78932,
+    "latitude": 35.20544,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70215",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70215; valid 1583 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "qishan-seat",
+    "longitude": 107.62709,
+    "latitude": 34.43964,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70907",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70907; valid 654 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "baoji-seat",
+    "longitude": 107.14038,
+    "latitude": 34.38187,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70926",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70926; valid 757 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "fufeng-seat",
+    "longitude": 107.891,
+    "latitude": 34.376,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 扶风; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "mei-seat",
+    "longitude": 107.75479,
+    "latitude": 34.27356,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70940",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70940; valid 1264 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "linyou-seat",
+    "longitude": 107.793,
+    "latitude": 34.679,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 麟游; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "qianyang-seat",
+    "longitude": 107.13386,
+    "latitude": 34.64487,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71289",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71289; valid 1559 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "baocheng-seat",
+    "longitude": 106.93858,
+    "latitude": 33.18939,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70998",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70998; valid 1378 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "chenggu-seat",
+    "longitude": 107.333,
+    "latitude": 33.157,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 城固; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "yang-seat",
+    "longitude": 107.54173,
+    "latitude": 33.22109,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71021",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71021; valid 1378 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "xixiang-seat",
+    "longitude": 107.76037,
+    "latitude": 32.99027,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71035",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71035; valid 1378 ~ 1801; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "feng-hanzhong-seat",
+    "longitude": 106.62294,
+    "latitude": 33.94525,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71071",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71071; valid 1374 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "mian-seat",
+    "longitude": 106.62171,
+    "latitude": 33.151,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71109",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71109; valid 1378 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "lueyang-seat",
+    "longitude": 106.16131,
+    "latitude": 33.3324,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71139",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71139; valid 1378 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "ansai-seat",
+    "longitude": 109.31753,
+    "latitude": 36.9036,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70365",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70365; valid 1312 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "ganquan-seat",
+    "longitude": 109.34457,
+    "latitude": 36.27863,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70367",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70367; valid 742 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "anding-yanan-seat",
+    "longitude": 109.66875,
+    "latitude": 37.13766,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70368",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70368; valid 1312 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "baoan-yanan-seat",
+    "longitude": 109.51595,
+    "latitude": 37.17207,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70369",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70369; valid 1172 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "yichuan-seat",
+    "longitude": 110.16488,
+    "latitude": 36.04517,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70374",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70374; valid 976 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "yanchuan-seat",
+    "longitude": 110.19,
+    "latitude": 36.88,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 延川; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "yanchang-seat",
+    "longitude": 110.012,
+    "latitude": 36.58,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 延长; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "qingjian-seat",
+    "longitude": 110.12,
+    "latitude": 37.09,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 青涧; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "luochuan-seat",
+    "longitude": 109.55885,
+    "latitude": 35.86716,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70227",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70227; valid 583 ~ 1765; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhongbu-seat",
+    "longitude": 109.26382,
+    "latitude": 35.58947,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70225",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70225; valid 619 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "yijun-seat",
+    "longitude": 109.11311,
+    "latitude": 35.39728,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70232",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70232; valid 663 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "mizhi-seat",
+    "longitude": 110.18326,
+    "latitude": 37.76026,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70271",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70271; valid 1226 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "wubu-seat",
+    "longitude": 110.7319,
+    "latitude": 37.45689,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70274",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70274; valid 1380 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shenmu-seat",
+    "longitude": 110.50092,
+    "latitude": 38.82196,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70404",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70404; valid 1476 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "fugu-seat",
+    "longitude": 111.07457,
+    "latitude": 39.03214,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70406",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70406; valid 1380 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "heshui-seat",
+    "longitude": 108.019,
+    "latitude": 35.819,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 合水; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "huan-seat",
+    "longitude": 107.308,
+    "latitude": 36.57,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 环; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "zhenning-seat",
+    "longitude": 108.36,
+    "latitude": 35.49,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 真宁; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "chongxin-seat",
+    "longitude": 107.03,
+    "latitude": 35.305,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 崇信; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "huating-pingliang-seat",
+    "longitude": 106.65195,
+    "latitude": 35.21884,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70190",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70190; valid 959 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenyuan-seat",
+    "longitude": 107.2,
+    "latitude": 35.677,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 镇原; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "longde-seat",
+    "longitude": 106.124,
+    "latitude": 35.618,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 隆德; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "lingtai-seat",
+    "longitude": 107.62,
+    "latitude": 35.07,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 灵台; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "zhuanglang-seat",
+    "longitude": 106.04,
+    "latitude": 35.2,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 庄浪; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "anding-gongchang-seat",
+    "longitude": 104.62031,
+    "latitude": 35.57509,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70008",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70008; valid 1377 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "huining-seat",
+    "longitude": 105.05614,
+    "latitude": 35.6942,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70016",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70016; valid 1377 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "tongwei-seat",
+    "longitude": 105.24,
+    "latitude": 35.21,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "CHGIS returned the same coordinate as Huining for the 1600 query; retained a reversible modern-seat proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "zhang-seat",
+    "longitude": 104.47214,
+    "latitude": 34.85064,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70022",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70022; valid 1442 ~ 1829; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "ningyuan-seat",
+    "longitude": 104.88529,
+    "latitude": 34.72002,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70037",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70037; valid 1264 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "fuqiang-seat",
+    "longitude": 105.32908,
+    "latitude": 34.73944,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70050",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70050; valid 1276 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "xihe-seat",
+    "longitude": 105.29073,
+    "latitude": 34.01193,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70051",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70051; valid 1377 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "cheng-gongchang-seat",
+    "longitude": 105.72,
+    "latitude": 33.74,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 成; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "qin-an-seat",
+    "longitude": 105.67,
+    "latitude": 34.86,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 秦安; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "qingshui-seat",
+    "longitude": 106.137,
+    "latitude": 34.75,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 清水; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "li-qinzhou-seat",
+    "longitude": 105.18,
+    "latitude": 34.19,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 礼; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "wen-seat",
+    "longitude": 104.68,
+    "latitude": 32.94,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 文; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "liangdang-seat",
+    "longitude": 106.3,
+    "latitude": 33.91,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-county-seat proxy guided by the Ming History geographic description; exact Ming administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate correspondence with 两当; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible approximate point for the Shaanxi 1600 coverage batch"
+    }
+  },
+  {
+    "id": "weiyuan-seat",
+    "longitude": 104.21017,
+    "latitude": 35.13949,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70113",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70113; valid 1276 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "jin-seat",
+    "longitude": 104.10787,
+    "latitude": 35.84682,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70099",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_70099; valid 1369 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "pingli-seat",
+    "longitude": 109.19894,
+    "latitude": 32.57111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71162",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71162; valid 1378 ~ 1802; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shiquan-seat",
+    "longitude": 108.25346,
+    "latitude": 33.04337,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71221",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71221; valid 1370 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "xunyang-seat",
+    "longitude": 109.37236,
+    "latitude": 32.83109,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71179",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71179; valid 1476 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "hanyin-seat",
+    "longitude": 108.51544,
+    "latitude": 32.89523,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71241",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71241; valid 1378 ~ 1781; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "baihe-seat",
+    "longitude": 110.10673,
+    "latitude": 32.81462,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71208",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71208; valid 1476 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "ziyang-xingan-seat",
+    "longitude": 108.53822,
+    "latitude": 32.53733,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71210",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_71210; valid 1556 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  }
+]

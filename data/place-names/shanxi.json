@@ -1,0 +1,2348 @@
+[
+  {
+    "id": "name-yangqu-seat",
+    "placeId": "yangqu-seat",
+    "name": "阳曲",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-linfen-seat",
+    "placeId": "linfen-seat",
+    "name": "临汾",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-fenyang-seat",
+    "placeId": "fenyang-seat",
+    "name": "汾阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the post-1595 Fenyang name for the 1600 time slice"
+    }
+  },
+  {
+    "id": "name-changzhi-seat",
+    "placeId": "changzhi-seat",
+    "name": "长治",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-datong-seat",
+    "placeId": "datong-seat",
+    "name": "大同",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 seat label"
+    }
+  },
+  {
+    "id": "name-zezhou-seat",
+    "placeId": "zezhou-seat",
+    "name": "泽州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered state seat label for 1600"
+    }
+  },
+  {
+    "id": "name-liaozhou-seat",
+    "placeId": "liaozhou-seat",
+    "name": "辽州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Directly administered state seat label for 1600"
+    }
+  },
+  {
+    "id": "name-shanxi-pingding-seat",
+    "placeId": "shanxi-pingding-seat",
+    "name": "平定州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-xinzhou-seat",
+    "placeId": "shanxi-xinzhou-seat",
+    "name": "忻州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-daizhou-seat",
+    "placeId": "shanxi-daizhou-seat",
+    "name": "代州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-kelan-seat",
+    "placeId": "shanxi-kelan-seat",
+    "name": "岢岚州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-baode-seat",
+    "placeId": "shanxi-baode-seat",
+    "name": "保德州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-puzhou-seat",
+    "placeId": "shanxi-puzhou-seat",
+    "name": "蒲州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-jiezhou-seat",
+    "placeId": "shanxi-jiezhou-seat",
+    "name": "解州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-jiangzhou-seat",
+    "placeId": "shanxi-jiangzhou-seat",
+    "name": "绛州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-huozhou-seat",
+    "placeId": "shanxi-huozhou-seat",
+    "name": "霍州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-jizhou-pingyang-seat",
+    "placeId": "shanxi-jizhou-pingyang-seat",
+    "name": "吉州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-xizhou-seat",
+    "placeId": "shanxi-xizhou-seat",
+    "name": "隰州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yongning-seat",
+    "placeId": "shanxi-yongning-seat",
+    "name": "永宁州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-qinzhou-seat",
+    "placeId": "shanxi-qinzhou-seat",
+    "name": "沁州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-hunyuan-seat",
+    "placeId": "shanxi-hunyuan-seat",
+    "name": "浑源州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yingzhou-seat",
+    "placeId": "shanxi-yingzhou-seat",
+    "name": "应州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-shuozhou-seat",
+    "placeId": "shanxi-shuozhou-seat",
+    "name": "朔州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-weizhou-seat",
+    "placeId": "shanxi-weizhou-seat",
+    "name": "蔚州",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yangqu-seat",
+    "placeId": "shanxi-yangqu-seat",
+    "name": "阳曲",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-taiyuan-seat",
+    "placeId": "shanxi-taiyuan-seat",
+    "name": "太原",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yuci-seat",
+    "placeId": "shanxi-yuci-seat",
+    "name": "榆次",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-taigu-seat",
+    "placeId": "shanxi-taigu-seat",
+    "name": "太谷",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-qi-seat",
+    "placeId": "shanxi-qi-seat",
+    "name": "祁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-xugou-seat",
+    "placeId": "shanxi-xugou-seat",
+    "name": "徐沟",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-qingyuan-seat",
+    "placeId": "shanxi-qingyuan-seat",
+    "name": "清源",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-jiaocheng-seat",
+    "placeId": "shanxi-jiaocheng-seat",
+    "name": "交城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-wenshui-seat",
+    "placeId": "shanxi-wenshui-seat",
+    "name": "文水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-shouyang-seat",
+    "placeId": "shanxi-shouyang-seat",
+    "name": "寿阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yu-seat",
+    "placeId": "shanxi-yu-seat",
+    "name": "盂",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-jingle-seat",
+    "placeId": "shanxi-jingle-seat",
+    "name": "静乐",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-hequ-seat",
+    "placeId": "shanxi-hequ-seat",
+    "name": "河曲",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-leping-seat",
+    "placeId": "shanxi-leping-seat",
+    "name": "乐平",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-dingxiang-seat",
+    "placeId": "shanxi-dingxiang-seat",
+    "name": "定襄",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-wutai-seat",
+    "placeId": "shanxi-wutai-seat",
+    "name": "五台",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-fanzhi-seat",
+    "placeId": "shanxi-fanzhi-seat",
+    "name": "繁峙",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-guo-seat",
+    "placeId": "shanxi-guo-seat",
+    "name": "崞",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-lan-seat",
+    "placeId": "shanxi-lan-seat",
+    "name": "岚",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-xing-seat",
+    "placeId": "shanxi-xing-seat",
+    "name": "兴",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-linfen-county-seat",
+    "placeId": "shanxi-linfen-county-seat",
+    "name": "临汾",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-xiangling-seat",
+    "placeId": "shanxi-xiangling-seat",
+    "name": "襄陵",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-hongdong-seat",
+    "placeId": "shanxi-hongdong-seat",
+    "name": "洪洞",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-fushan-seat",
+    "placeId": "shanxi-fushan-seat",
+    "name": "浮山",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-zhaocheng-seat",
+    "placeId": "shanxi-zhaocheng-seat",
+    "name": "赵城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-taiping-seat",
+    "placeId": "shanxi-taiping-seat",
+    "name": "太平",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yueyang-seat",
+    "placeId": "shanxi-yueyang-seat",
+    "name": "岳阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-quwo-seat",
+    "placeId": "shanxi-quwo-seat",
+    "name": "曲沃",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yicheng-seat",
+    "placeId": "shanxi-yicheng-seat",
+    "name": "翼城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-fenxi-seat",
+    "placeId": "shanxi-fenxi-seat",
+    "name": "汾西",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-pu-seat",
+    "placeId": "shanxi-pu-seat",
+    "name": "蒲",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-shilou-seat",
+    "placeId": "shanxi-shilou-seat",
+    "name": "石楼",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-linjin-seat",
+    "placeId": "shanxi-linjin-seat",
+    "name": "临晋",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-ronghe-seat",
+    "placeId": "shanxi-ronghe-seat",
+    "name": "荥河",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yishi-seat",
+    "placeId": "shanxi-yishi-seat",
+    "name": "猗氏",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-wanquan-seat",
+    "placeId": "shanxi-wanquan-seat",
+    "name": "万泉",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-hejin-seat",
+    "placeId": "shanxi-hejin-seat",
+    "name": "河津",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-anyi-seat",
+    "placeId": "shanxi-anyi-seat",
+    "name": "安邑",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-xia-seat",
+    "placeId": "shanxi-xia-seat",
+    "name": "夏",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-wenxi-seat",
+    "placeId": "shanxi-wenxi-seat",
+    "name": "闻喜",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-pinglu-seat",
+    "placeId": "shanxi-pinglu-seat",
+    "name": "平陆",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-ruicheng-seat",
+    "placeId": "shanxi-ruicheng-seat",
+    "name": "芮城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-jishan-seat",
+    "placeId": "shanxi-jishan-seat",
+    "name": "稷山",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-jiang-seat",
+    "placeId": "shanxi-jiang-seat",
+    "name": "绛",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yuanqu-seat",
+    "placeId": "shanxi-yuanqu-seat",
+    "name": "垣曲",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-xiangning-seat",
+    "placeId": "shanxi-xiangning-seat",
+    "name": "乡宁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-daning-seat",
+    "placeId": "shanxi-daning-seat",
+    "name": "大宁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yonghe-seat",
+    "placeId": "shanxi-yonghe-seat",
+    "name": "永和",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-fenyang-seat",
+    "placeId": "shanxi-fenyang-seat",
+    "name": "汾阳",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-xiaoyi-seat",
+    "placeId": "shanxi-xiaoyi-seat",
+    "name": "孝义",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-pingyao-seat",
+    "placeId": "shanxi-pingyao-seat",
+    "name": "平遥",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-jiexiu-seat",
+    "placeId": "shanxi-jiexiu-seat",
+    "name": "介休",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-linxian-seat",
+    "placeId": "shanxi-linxian-seat",
+    "name": "临",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-lingshi-seat",
+    "placeId": "shanxi-lingshi-seat",
+    "name": "灵石",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-ningxiang-seat",
+    "placeId": "shanxi-ningxiang-seat",
+    "name": "宁乡",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-qinyuan-seat",
+    "placeId": "shanxi-qinyuan-seat",
+    "name": "沁源",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-wuxiang-seat",
+    "placeId": "shanxi-wuxiang-seat",
+    "name": "武乡",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-changzhi-seat",
+    "placeId": "shanxi-changzhi-seat",
+    "name": "长治",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-changzi-seat",
+    "placeId": "shanxi-changzi-seat",
+    "name": "长子",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-tunliu-seat",
+    "placeId": "shanxi-tunliu-seat",
+    "name": "屯留",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-xiangyuan-seat",
+    "placeId": "shanxi-xiangyuan-seat",
+    "name": "襄垣",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-lucheng-seat",
+    "placeId": "shanxi-lucheng-seat",
+    "name": "潞城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-huguan-seat",
+    "placeId": "shanxi-huguan-seat",
+    "name": "壶关",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-licheng-seat",
+    "placeId": "shanxi-licheng-seat",
+    "name": "黎城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-pingshun-seat",
+    "placeId": "shanxi-pingshun-seat",
+    "name": "平顺",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-datong-county-seat",
+    "placeId": "shanxi-datong-county-seat",
+    "name": "大同",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-huairen-seat",
+    "placeId": "shanxi-huairen-seat",
+    "name": "怀仁",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-shanyin-seat",
+    "placeId": "shanxi-shanyin-seat",
+    "name": "山阴",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-mayi-seat",
+    "placeId": "shanxi-mayi-seat",
+    "name": "马邑",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-guangling-seat",
+    "placeId": "shanxi-guangling-seat",
+    "name": "广灵",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-guangchang-seat",
+    "placeId": "shanxi-guangchang-seat",
+    "name": "广昌",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-lingqiu-seat",
+    "placeId": "shanxi-lingqiu-seat",
+    "name": "灵丘",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-gaoping-seat",
+    "placeId": "shanxi-gaoping-seat",
+    "name": "高平",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yangcheng-seat",
+    "placeId": "shanxi-yangcheng-seat",
+    "name": "阳城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-lingchuan-seat",
+    "placeId": "shanxi-lingchuan-seat",
+    "name": "陵川",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-qinshui-seat",
+    "placeId": "shanxi-qinshui-seat",
+    "name": "沁水",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-yushe-seat",
+    "placeId": "shanxi-yushe-seat",
+    "name": "榆社",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  },
+  {
+    "id": "name-shanxi-heshun-seat",
+    "placeId": "shanxi-heshun-seat",
+    "name": "和顺",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Shanxi administrative-seat label"
+    }
+  }
+]

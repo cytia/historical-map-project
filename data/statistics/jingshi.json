@@ -1,0 +1,1327 @@
+[
+  {
+    "id": "shuntian-prefecture-households-1578",
+    "administrativeUnitId": "shuntian-prefecture",
+    "category": "population",
+    "metric": "households",
+    "value": 101134,
+    "unit": "households",
+    "originalText": "萬曆六年，戶一十萬一千一百三十四，口七十萬六千八百六十一",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the shuntian entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "shuntian-prefecture-population-1578",
+    "administrativeUnitId": "shuntian-prefecture",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 706861,
+    "unit": "people",
+    "originalText": "萬曆六年，戶一十萬一千一百三十四，口七十萬六千八百六十一",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the shuntian entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "baoding-prefecture-households-1578",
+    "administrativeUnitId": "baoding-prefecture",
+    "category": "population",
+    "metric": "households",
+    "value": 45713,
+    "unit": "households",
+    "originalText": "戶四萬五千七百一十三，口五十二萬五千八十三",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the baoding entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "baoding-prefecture-population-1578",
+    "administrativeUnitId": "baoding-prefecture",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 525083,
+    "unit": "people",
+    "originalText": "戶四萬五千七百一十三，口五十二萬五千八十三",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the baoding entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "hejian-prefecture-households-1578",
+    "administrativeUnitId": "hejian-prefecture",
+    "category": "population",
+    "metric": "households",
+    "value": 45024,
+    "unit": "households",
+    "originalText": "戶四萬五千二十四，口四十一萬九千一百五十二",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the hejian entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "hejian-prefecture-population-1578",
+    "administrativeUnitId": "hejian-prefecture",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 419152,
+    "unit": "people",
+    "originalText": "戶四萬五千二十四，口四十一萬九千一百五十二",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the hejian entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "zhending-prefecture-households-1578",
+    "administrativeUnitId": "zhending-prefecture",
+    "category": "population",
+    "metric": "households",
+    "value": 74738,
+    "unit": "households",
+    "originalText": "戶七萬四千七百三十八，口一百九萬三千五百三十一",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the zhending entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "zhending-prefecture-population-1578",
+    "administrativeUnitId": "zhending-prefecture",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 1093531,
+    "unit": "people",
+    "originalText": "戶七萬四千七百三十八，口一百九萬三千五百三十一",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the zhending entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "shunde-prefecture-households-1578",
+    "administrativeUnitId": "shunde-prefecture",
+    "category": "population",
+    "metric": "households",
+    "value": 27633,
+    "unit": "households",
+    "originalText": "戶二萬七千六百三十三，口二十八萬一千九百五十七",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the shunde entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "shunde-prefecture-population-1578",
+    "administrativeUnitId": "shunde-prefecture",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 281957,
+    "unit": "people",
+    "originalText": "戶二萬七千六百三十三，口二十八萬一千九百五十七",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the shunde entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "guangping-prefecture-households-1578",
+    "administrativeUnitId": "guangping-prefecture",
+    "category": "population",
+    "metric": "households",
+    "value": 31420,
+    "unit": "households",
+    "originalText": "戶三萬一千四百二十，口二十六萬四千八百九十八",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the guangping entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "guangping-prefecture-population-1578",
+    "administrativeUnitId": "guangping-prefecture",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 264898,
+    "unit": "people",
+    "originalText": "戶三萬一千四百二十，口二十六萬四千八百九十八",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the guangping entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "daming-prefecture-households-1578",
+    "administrativeUnitId": "daming-prefecture",
+    "category": "population",
+    "metric": "households",
+    "value": 71180,
+    "unit": "households",
+    "originalText": "戶七萬一千一百八十，口六十九萬二千五十八",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the daming entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "daming-prefecture-population-1578",
+    "administrativeUnitId": "daming-prefecture",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 692058,
+    "unit": "people",
+    "originalText": "戶七萬一千一百八十，口六十九萬二千五十八",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the daming entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "yongping-prefecture-households-1578",
+    "administrativeUnitId": "yongping-prefecture",
+    "category": "population",
+    "metric": "households",
+    "value": 25094,
+    "unit": "households",
+    "originalText": "戶二萬五千九十四，口二十五萬五千六百四十六",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the yongping entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "yongping-prefecture-population-1578",
+    "administrativeUnitId": "yongping-prefecture",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 255646,
+    "unit": "people",
+    "originalText": "戶二萬五千九十四，口二十五萬五千六百四十六",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the yongping entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "yanqing-direct-department-households-1578",
+    "administrativeUnitId": "yanqing-direct-department",
+    "category": "population",
+    "metric": "households",
+    "value": 2755,
+    "unit": "households",
+    "originalText": "戶二千七百五十五，口一萬九千二百六十七",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the yanqing entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "yanqing-direct-department-population-1578",
+    "administrativeUnitId": "yanqing-direct-department",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 19267,
+    "unit": "people",
+    "originalText": "戶二千七百五十五，口一萬九千二百六十七",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the yanqing entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "baoan-direct-department-households-1578",
+    "administrativeUnitId": "baoan-direct-department",
+    "category": "population",
+    "metric": "households",
+    "value": 772,
+    "unit": "households",
+    "originalText": "戶七百七十二，口六千四百四十五",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year household total in the baoan entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded household total retained without interpolation to 1600; special household categories are not separately counted"
+    }
+  },
+  {
+    "id": "baoan-direct-department-population-1578",
+    "administrativeUnitId": "baoan-direct-department",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 6445,
+    "unit": "people",
+    "originalText": "戶七百七十二，口六千四百四十五",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Wanli sixth-year registered population total in the baoan entry; the source does not separately enumerate military, artisan, or salt households"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained without treating it as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "shuntian-prefecture-land-1578",
+    "administrativeUnitId": "shuntian-prefecture",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 99582.999,
+    "unit": "qing",
+    "originalText": "顺天府田土计九万九千五百八十二顷九十九亩九分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "baoding-prefecture-land-1578",
+    "administrativeUnitId": "baoding-prefecture",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 97095.508,
+    "unit": "qing",
+    "originalText": "保定府田土计九万七千九十五顷五十亩八分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "hejian-prefecture-land-1578",
+    "administrativeUnitId": "hejian-prefecture",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 82872.198,
+    "unit": "qing",
+    "originalText": "河间府田土计八万二千八百七十二顷一十九亩八分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "zhending-prefecture-land-1578",
+    "administrativeUnitId": "zhending-prefecture",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 102675.06,
+    "unit": "qing",
+    "originalText": "真定府田土计一十万二千六百七十五顷六亩零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "shunde-prefecture-land-1578",
+    "administrativeUnitId": "shunde-prefecture",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 14204.048,
+    "unit": "qing",
+    "originalText": "顺德府田土计一万四千二百四顷四亩八分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "guangping-prefecture-land-1578",
+    "administrativeUnitId": "guangping-prefecture",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 20238.385,
+    "unit": "qing",
+    "originalText": "广平府田土计二万二百三十八顷三十八亩五分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "daming-prefecture-land-1578",
+    "administrativeUnitId": "daming-prefecture",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 56196.608,
+    "unit": "qing",
+    "originalText": "大名府田土计五万六千一百九十六顷六十亩八分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "yongping-prefecture-land-1578",
+    "administrativeUnitId": "yongping-prefecture",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 18339.465,
+    "unit": "qing",
+    "originalText": "永平府田土计一万八千三百三十九顷四十六亩五分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "yanqing-direct-department-land-1578",
+    "administrativeUnitId": "yanqing-direct-department",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 1059.424,
+    "unit": "qing",
+    "originalText": "延庆州田土计一千五十九顷四十二亩四分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "baoan-direct-department-land-1578",
+    "administrativeUnitId": "baoan-direct-department",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 304.727,
+    "unit": "qing",
+    "originalText": "保安州田土计三百四顷七十二亩七分零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年实在官民田土总额；顷、亩、分按原单位记录并换算为顷，原史料未分列官田、民田，本项目不作拆分或估算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Adopted the Wanli sixth-year registered land amount as recorded; normalized 1顷=100亩 and 1亩=10分 without modern-area conversion"
+    }
+  },
+  {
+    "id": "shuntian-prefecture-summer-tax-1578",
+    "administrativeUnitId": "shuntian-prefecture",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 18803.3724,
+    "unit": "shi",
+    "originalText": "夏税小麦一万八千八百三石三斗七升二合四勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "baoding-prefecture-summer-tax-1578",
+    "administrativeUnitId": "baoding-prefecture",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 18793.8299,
+    "unit": "shi",
+    "originalText": "夏税小麦一万八千七百九十三石八斗二升九合九勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "hejian-prefecture-summer-tax-1578",
+    "administrativeUnitId": "hejian-prefecture",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 19718.2325,
+    "unit": "shi",
+    "originalText": "夏税小麦一万九千七百一十八石二斗三升二合五勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "zhending-prefecture-summer-tax-1578",
+    "administrativeUnitId": "zhending-prefecture",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 34733.4939,
+    "unit": "shi",
+    "originalText": "夏税小麦三万四千七百三十三石四斗九升三合九勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "shunde-prefecture-summer-tax-1578",
+    "administrativeUnitId": "shunde-prefecture",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 12537.8089,
+    "unit": "shi",
+    "originalText": "夏税小麦一万二千五百三十七石八斗八合九勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "guangping-prefecture-summer-tax-1578",
+    "administrativeUnitId": "guangping-prefecture",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 17842.4591,
+    "unit": "shi",
+    "originalText": "夏税小麦一万七千八百四十二石四斗五升九合一勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "daming-prefecture-summer-tax-1578",
+    "administrativeUnitId": "daming-prefecture",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 44096.3579,
+    "unit": "shi",
+    "originalText": "夏税小麦四万四千九十六石三斗五升七合九勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "yongping-prefecture-summer-tax-1578",
+    "administrativeUnitId": "yongping-prefecture",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 9996.1955,
+    "unit": "shi",
+    "originalText": "夏税大小麦九千九百九十六石一斗九升五合五勺",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "yanqing-direct-department-summer-tax-1578",
+    "administrativeUnitId": "yanqing-direct-department",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 1713.7534,
+    "unit": "shi",
+    "originalText": "夏税小麦一千七百一十三石七斗五升三合四勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "baoan-direct-department-summer-tax-1578",
+    "administrativeUnitId": "baoan-direct-department",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 408.2986,
+    "unit": "shi",
+    "originalText": "夏税小麦四百八石二斗九升八合六勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年夏税本色小麦；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual summer-tax 本色小麦; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "shuntian-prefecture-autumn-grain-1578",
+    "administrativeUnitId": "shuntian-prefecture",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 45204.805,
+    "unit": "shi",
+    "originalText": "秋粮米四万五千二百四石八斗五合零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年秋粮本色米；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "baoding-prefecture-autumn-grain-1578",
+    "administrativeUnitId": "baoding-prefecture",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 42980.3014,
+    "unit": "shi",
+    "originalText": "秋粮米四万二千九百八十石三斗一合四勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年秋粮本色米；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "hejian-prefecture-autumn-grain-1578",
+    "administrativeUnitId": "hejian-prefecture",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 46087.0786,
+    "unit": "shi",
+    "originalText": "秋粮米四万六千八十七石七升八合六勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年秋粮本色米；Primary OCR showed a malformed ten-thousands character; independent transcription supports 四万六千八十七."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺; Primary OCR showed a malformed ten-thousands character; independent transcription supports 四万六千八十七."
+    }
+  },
+  {
+    "id": "zhending-prefecture-autumn-grain-1578",
+    "administrativeUnitId": "zhending-prefecture",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 82349.2743,
+    "unit": "shi",
+    "originalText": "秋粮米八万二千三百四十九石二斗七升四合三勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年秋粮本色米；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "shunde-prefecture-autumn-grain-1578",
+    "administrativeUnitId": "shunde-prefecture",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 30461.0731,
+    "unit": "shi",
+    "originalText": "秋粮米三万四百六十一石七升三合一勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年秋粮本色米；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "guangping-prefecture-autumn-grain-1578",
+    "administrativeUnitId": "guangping-prefecture",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 41479.6556,
+    "unit": "shi",
+    "originalText": "秋粮米四万一千四百七十九石六斗五升五合六勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年秋粮本色米；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "daming-prefecture-autumn-grain-1578",
+    "administrativeUnitId": "daming-prefecture",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 103080.7289,
+    "unit": "shi",
+    "originalText": "秋粮米一十万三千八十石七斗二升八合九勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年秋粮本色米；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "yongping-prefecture-autumn-grain-1578",
+    "administrativeUnitId": "yongping-prefecture",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 23353.1188,
+    "unit": "shi",
+    "originalText": "秋粮米二万三千三百五十三石一斗一升八合八勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年秋粮本色米；原始容量单位换算为石，其他折色、附加税项不并入本指标。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺"
+    }
+  },
+  {
+    "id": "yanqing-direct-department-autumn-grain-1578",
+    "administrativeUnitId": "yanqing-direct-department",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 3937.0441,
+    "unit": "shi",
+    "originalText": "秋粮米三千九百三十七石四升四合一勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年秋粮本色米；Primary OCR showed 二千九百三十七; independent transcriptions support 三千九百三十七."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺; Primary OCR showed 二千九百三十七; independent transcriptions support 三千九百三十七."
+    }
+  },
+  {
+    "id": "baoan-direct-department-autumn-grain-1578",
+    "administrativeUnitId": "baoan-direct-department",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 1053.2613,
+    "unit": "shi",
+    "originalText": "秋粮米一千五十三石二斗六升一合三勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年秋粮本色米；Primary OCR was malformed; independent transcriptions support 一千五十三石二斗六升一合三勺."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as Wanli sixth-year actual autumn-grain 本色米; normalized 1石=10斗=100升=1000合=10000勺; Primary OCR was malformed; independent transcriptions support 一千五十三石二斗六升一合三勺."
+    }
+  },
+  {
+    "id": "jingshi-households-1578-derived",
+    "administrativeUnitId": "jingshi",
+    "category": "population",
+    "metric": "households",
+    "value": 425463,
+    "unit": "households",
+    "originalText": "8府、2直隶州户数分项合计",
+    "recordedYear": 1578,
+    "valueType": "estimated",
+    "confidence": "high",
+    "method": "Sum of the Wanli sixth-year household entries for eight prefectures and two directly governed states in the Jingshi/Beijing capital region",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "京师直隶区未见同口径直接总额，本记录按十项府州分项合计，不作为史料直接记载的区域总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Calculated regional sum; no direct Jingshi-region household total was located and special household categories are not separately enumerated"
+    }
+  },
+  {
+    "id": "jingshi-population-1578-derived",
+    "administrativeUnitId": "jingshi",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 4264898,
+    "unit": "people",
+    "originalText": "8府、2直隶州口数分项合计",
+    "recordedYear": 1578,
+    "valueType": "estimated",
+    "confidence": "high",
+    "method": "Sum of the Wanli sixth-year registered-population entries for eight prefectures and two directly governed states in the Jingshi/Beijing capital region",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "京师直隶区未见同口径直接总额，本记录按十项府州分项合计，不作为史料直接记载的区域总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Calculated regional sum; registered population is not treated as a complete actual-population estimate"
+    }
+  },
+  {
+    "id": "jingshi-land-1578-derived",
+    "administrativeUnitId": "jingshi",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 492568.422,
+    "unit": "qing",
+    "originalText": "8府、2直隶州万历六年实在田土分项合计",
+    "recordedYear": 1578,
+    "valueType": "estimated",
+    "confidence": "high",
+    "method": "Sum of the Wanli sixth-year registered-land entries for eight prefectures and two directly governed states in the Jingshi/Beijing capital region",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "京师直隶区未见同口径直接总额，本记录按十项府州分项合计，不作为史料直接记载的区域总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Calculated regional sum from the complete ten Wanli sixth-year land entries; no modern-area conversion"
+    }
+  },
+  {
+    "id": "jingshi-summer-tax-1578-derived",
+    "administrativeUnitId": "jingshi",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 178643.8021,
+    "unit": "shi",
+    "originalText": "8府、2直隶州夏税本色小麦分项合计",
+    "recordedYear": 1578,
+    "valueType": "estimated",
+    "confidence": "high",
+    "method": "Sum of the Wanli sixth-year summer-tax entries for eight prefectures and two directly governed states in the Jingshi/Beijing capital region",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "京师直隶区未见同口径直接总额，本记录按十项府州分项合计，不作为史料直接记载的区域总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Calculated regional sum from the complete ten Wanli sixth-year summer-tax entries; other tax items remain outside this metric"
+    }
+  },
+  {
+    "id": "jingshi-autumn-grain-1578-derived",
+    "administrativeUnitId": "jingshi",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 419986.3411,
+    "unit": "shi",
+    "originalText": "8府、2直隶州秋粮本色米分项合计",
+    "recordedYear": 1578,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "method": "Sum of the Wanli sixth-year autumn-grain entries for eight prefectures and two directly governed states in the Jingshi/Beijing capital region",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "京师直隶区未见同口径直接总额，本记录按十项府州分项合计，不作为史料直接记载的区域总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Calculated regional sum from the complete ten Wanli sixth-year autumn-grain entries; three component readings retain medium confidence because of OCR variants noted on the component records"
+    }
+  }
+]

@@ -1,0 +1,2647 @@
+[
+  {
+    "id": "zhejiang",
+    "name": "浙江",
+    "formalName": "浙江等处承宣布政使司",
+    "level": "province",
+    "polityId": "ming",
+    "seatPlaceId": "hangzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "atlas-ming-empire-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 time-slice membership; provincial seat references the Hangzhou prefectural seat"
+    }
+  },
+  {
+    "id": "hangzhou-prefecture",
+    "name": "杭州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "hangzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shared Qiantang and Renhe prefectural city represented without assigning a sole attached county"
+    }
+  },
+  {
+    "id": "jiaxing-prefecture",
+    "name": "嘉兴府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "jiaxing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Zhejiang prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "huzhou-prefecture",
+    "name": "湖州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "wucheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Zhejiang prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "ningbo-prefecture",
+    "name": "宁波府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "yin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Zhejiang prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shaoxing-prefecture",
+    "name": "绍兴府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "shaoxing-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Shared Shanyin and Kuaiji prefectural city represented without assigning a sole attached county"
+    }
+  },
+  {
+    "id": "taizhou-zhejiang-prefecture",
+    "name": "台州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "linhai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "ID includes the region to distinguish historical homonyms"
+    }
+  },
+  {
+    "id": "jinhua-prefecture",
+    "name": "金华府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "jinhua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Zhejiang prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "quzhou-prefecture",
+    "name": "衢州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "xian-zhejiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Seat ID distinguishes 西安县 from the Shaanxi capital city"
+    }
+  },
+  {
+    "id": "yanzhou-zhejiang-prefecture",
+    "name": "严州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "jiande-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "ID includes the region to distinguish historical homonyms"
+    }
+  },
+  {
+    "id": "wenzhou-prefecture",
+    "name": "温州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "yongjia-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Zhejiang prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "chuzhou-zhejiang-prefecture",
+    "name": "处州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "zhejiang",
+    "seatPlaceId": "lishui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "ID includes the region to distinguish historical homonyms"
+    }
+  },
+  {
+    "id": "zhejiang-anjizhou-department",
+    "name": "安吉州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "huzhou-prefecture",
+    "seatPlaceId": "zhejiang-anjizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang subordinate-state roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-qiantang-county",
+    "name": "钱塘县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hangzhou-prefecture",
+    "seatPlaceId": "hangzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-renhe-county",
+    "name": "仁和县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hangzhou-prefecture",
+    "seatPlaceId": "hangzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-haining-county",
+    "name": "海宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hangzhou-prefecture",
+    "seatPlaceId": "zhejiang-haining-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-fuyang-county",
+    "name": "富阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hangzhou-prefecture",
+    "seatPlaceId": "zhejiang-fuyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-yuhang-county",
+    "name": "余杭县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hangzhou-prefecture",
+    "seatPlaceId": "zhejiang-yuhang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-linan-county",
+    "name": "临安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hangzhou-prefecture",
+    "seatPlaceId": "zhejiang-linan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-yuqian-county",
+    "name": "于潜县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hangzhou-prefecture",
+    "seatPlaceId": "zhejiang-yuqian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-xincheng-county",
+    "name": "新城县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hangzhou-prefecture",
+    "seatPlaceId": "zhejiang-xincheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-changhua-county",
+    "name": "昌化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "hangzhou-prefecture",
+    "seatPlaceId": "zhejiang-changhua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-jiande-county",
+    "name": "建德县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-jiande-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-tonglu-county",
+    "name": "桐庐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-tonglu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-chunan-county",
+    "name": "淳安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-chunan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-suian-county",
+    "name": "遂安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-suian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-shouchang-county",
+    "name": "寿昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-shouchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-fenshui-county",
+    "name": "分水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "yanzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-fenshui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-jiaxing-county",
+    "name": "嘉兴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiaxing-prefecture",
+    "seatPlaceId": "zhejiang-jiaxing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-xiushui-county",
+    "name": "秀水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiaxing-prefecture",
+    "seatPlaceId": "zhejiang-xiushui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-jiashan-county",
+    "name": "嘉善县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiaxing-prefecture",
+    "seatPlaceId": "zhejiang-jiashan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-haiyan-county",
+    "name": "海盐县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiaxing-prefecture",
+    "seatPlaceId": "zhejiang-haiyan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-chongde-county",
+    "name": "崇德县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiaxing-prefecture",
+    "seatPlaceId": "zhejiang-chongde-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-tongxiang-county",
+    "name": "桐乡县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiaxing-prefecture",
+    "seatPlaceId": "zhejiang-tongxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-pinghu-county",
+    "name": "平湖县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jiaxing-prefecture",
+    "seatPlaceId": "zhejiang-pinghu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-wucheng-county",
+    "name": "乌程县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huzhou-prefecture",
+    "seatPlaceId": "zhejiang-wucheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-guian-county",
+    "name": "归安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huzhou-prefecture",
+    "seatPlaceId": "zhejiang-guian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-changxing-county",
+    "name": "长兴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huzhou-prefecture",
+    "seatPlaceId": "zhejiang-changxing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-deqing-county",
+    "name": "德清县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huzhou-prefecture",
+    "seatPlaceId": "zhejiang-deqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-wukang-county",
+    "name": "武康县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "huzhou-prefecture",
+    "seatPlaceId": "zhejiang-wukang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-xiaofeng-county",
+    "name": "孝丰县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhejiang-anjizhou-department",
+    "seatPlaceId": "zhejiang-xiaofeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-shanyin-county",
+    "name": "山阴县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaoxing-prefecture",
+    "seatPlaceId": "shaoxing-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-kuaiji-county",
+    "name": "会稽县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaoxing-prefecture",
+    "seatPlaceId": "shaoxing-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-xiaoshan-county",
+    "name": "萧山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaoxing-prefecture",
+    "seatPlaceId": "zhejiang-xiaoshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-zhuji-county",
+    "name": "诸暨县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaoxing-prefecture",
+    "seatPlaceId": "zhejiang-zhuji-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-yuyao-county",
+    "name": "余姚县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaoxing-prefecture",
+    "seatPlaceId": "zhejiang-yuyao-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-shangyu-county",
+    "name": "上虞县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaoxing-prefecture",
+    "seatPlaceId": "zhejiang-shangyu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-sheng-county",
+    "name": "嵊县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaoxing-prefecture",
+    "seatPlaceId": "zhejiang-sheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-xinchang-county",
+    "name": "新昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "shaoxing-prefecture",
+    "seatPlaceId": "zhejiang-xinchang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-yin-county",
+    "name": "鄞县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningbo-prefecture",
+    "seatPlaceId": "zhejiang-yin-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-cixi-county",
+    "name": "慈溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningbo-prefecture",
+    "seatPlaceId": "zhejiang-cixi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-fenghua-county",
+    "name": "奉化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningbo-prefecture",
+    "seatPlaceId": "zhejiang-fenghua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-dinghai-county",
+    "name": "定海县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningbo-prefecture",
+    "seatPlaceId": "zhejiang-dinghai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-xiangshan-county",
+    "name": "象山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "ningbo-prefecture",
+    "seatPlaceId": "zhejiang-xiangshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-linhai-county",
+    "name": "临海县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taizhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-linhai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-huangyan-county",
+    "name": "黄岩县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taizhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-huangyan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-tiantai-county",
+    "name": "天台县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taizhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-tiantai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-xianju-county",
+    "name": "仙居县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taizhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-xianju-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-ninghai-county",
+    "name": "宁海县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taizhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-ninghai-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-taiping-zhejiang-county",
+    "name": "太平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "taizhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-taiping-zhejiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-jinhua-county",
+    "name": "金华县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinhua-prefecture",
+    "seatPlaceId": "zhejiang-jinhua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-lanxi-county",
+    "name": "兰溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinhua-prefecture",
+    "seatPlaceId": "zhejiang-lanxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-dongyang-county",
+    "name": "东阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinhua-prefecture",
+    "seatPlaceId": "zhejiang-dongyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-yiwu-county",
+    "name": "义乌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinhua-prefecture",
+    "seatPlaceId": "zhejiang-yiwu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-yongkang-county",
+    "name": "永康县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinhua-prefecture",
+    "seatPlaceId": "zhejiang-yongkang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-wuyi-county",
+    "name": "武义县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinhua-prefecture",
+    "seatPlaceId": "zhejiang-wuyi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-pujiang-county",
+    "name": "浦江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinhua-prefecture",
+    "seatPlaceId": "zhejiang-pujiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-tangxi-county",
+    "name": "汤溪县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "jinhua-prefecture",
+    "seatPlaceId": "zhejiang-tangxi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-xian-zhejiang-county",
+    "name": "西安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quzhou-prefecture",
+    "seatPlaceId": "zhejiang-xian-zhejiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-longyou-county",
+    "name": "龙游县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quzhou-prefecture",
+    "seatPlaceId": "zhejiang-longyou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-changshan-county",
+    "name": "常山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quzhou-prefecture",
+    "seatPlaceId": "zhejiang-changshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-jiangshan-county",
+    "name": "江山县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quzhou-prefecture",
+    "seatPlaceId": "zhejiang-jiangshan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-kaihua-county",
+    "name": "开化县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "quzhou-prefecture",
+    "seatPlaceId": "zhejiang-kaihua-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-lishui-county",
+    "name": "丽水县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-lishui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-qingtian-county",
+    "name": "青田县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-qingtian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-jinyun-county",
+    "name": "缙云县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-jinyun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-songyang-county",
+    "name": "松阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-songyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-suichang-county",
+    "name": "遂昌县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-suichang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-longquan-county",
+    "name": "龙泉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-longquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-qingyuan-county",
+    "name": "庆元县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-qingyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-yunhe-county",
+    "name": "云和县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-yunhe-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-xuanping-county",
+    "name": "宣平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-xuanping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-jingning-county",
+    "name": "景宁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "chuzhou-zhejiang-prefecture",
+    "seatPlaceId": "zhejiang-jingning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-yongjia-county",
+    "name": "永嘉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wenzhou-prefecture",
+    "seatPlaceId": "zhejiang-yongjia-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-yueqing-county",
+    "name": "乐清县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wenzhou-prefecture",
+    "seatPlaceId": "zhejiang-yueqing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-pingyang-county",
+    "name": "平阳县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wenzhou-prefecture",
+    "seatPlaceId": "zhejiang-pingyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-ruian-county",
+    "name": "瑞安县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wenzhou-prefecture",
+    "seatPlaceId": "zhejiang-ruian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  },
+  {
+    "id": "zhejiang-taishun-county",
+    "name": "泰顺县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "wenzhou-prefecture",
+    "seatPlaceId": "zhejiang-taishun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Zhejiang county roster and parentage"
+    }
+  }
+]

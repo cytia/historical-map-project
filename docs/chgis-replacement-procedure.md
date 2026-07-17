@@ -27,7 +27,7 @@ Wikidata 网页检索端点、页面 HTML 和搜索结果页只适合人工浏�
 
 ### 4. 冻结候选表
 
-候选表至少包含：`placeId`、历史名称、现代代理、来源 ID、坐标、`locationAccuracy`、`confidence`、对应理由和待复核事项。候选表冻结后才写入 `data/project.json`；更换候选必须留下审计说明。
+候选表至少包含：`placeId`、历史名称、现代代理、来源 ID、坐标、`locationAccuracy`、`confidence`、对应理由和待复核事项。候选表冻结后才写入对应区域的 `data/places/<region>.json`；更换候选必须留下审计说明。`data/project.json` 由 `data/manifest.json` 自动汇总，不直接编辑。
 
 ### 5. 写入数据契约
 
@@ -46,7 +46,8 @@ Wikidata 网页检索端点、页面 HTML 和搜索结果页只适合人工浏�
 至少运行以下检查：
 
 ```text
-cargo run -p data-validator -- data/project.json
+cargo run -p data-validator -- assemble data/manifest.json
+cargo run -p data-validator -- data/manifest.json
 cargo test -p data-validator
 git diff --check
 ```

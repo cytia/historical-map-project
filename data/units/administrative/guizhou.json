@@ -1,0 +1,732 @@
+[
+  {
+    "id": "guizhou",
+    "name": "贵州",
+    "formalName": "贵州等处承宣布政使司",
+    "level": "province",
+    "polityId": "ming",
+    "seatPlaceId": "xingui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "atlas-ming-empire-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "huang-ming-zhi-fang-loc",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "1600 time-slice membership; provincial seat references the Guiyang prefectural seat"
+    }
+  },
+  {
+    "id": "guiyang-prefecture",
+    "name": "贵阳府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "xingui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the pre-1601 Guiyang Prefecture designation for the 1600 time slice"
+    }
+  },
+  {
+    "id": "duyun-prefecture",
+    "name": "都匀府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "duyun-prefectural-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guizhou prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "liping-prefecture",
+    "name": "黎平府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "liping-prefectural-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guizhou prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "sinan-prefecture",
+    "name": "思南府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "sinan-prefectural-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guizhou prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "sizhou-prefecture",
+    "name": "思州府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "sizhou-prefectural-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guizhou prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "zhenyuan-guizhou-prefecture",
+    "name": "镇远府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "zhenyuan-guizhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "IDs include the region to distinguish Yunnan homonyms"
+    }
+  },
+  {
+    "id": "tongren-prefecture",
+    "name": "铜仁府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "tongren-prefectural-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guizhou prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "shiqian-prefecture",
+    "name": "石阡府",
+    "level": "prefecture",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "shiqian-prefectural-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Guizhou prefectural roster for the 1600 time slice"
+    }
+  },
+  {
+    "id": "anshun-direct-department",
+    "name": "安顺州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "anshun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the pre-1602 directly administered state status for the 1600 time slice"
+    }
+  },
+  {
+    "id": "dingfan-guiyang-department",
+    "name": "定番州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guiyang-prefecture",
+    "seatPlaceId": "dingfan-guiyang-department-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "zhenning-guizhou-department",
+    "name": "镇宁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "zhenning-guizhou-department-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "yongning-guizhou-department",
+    "name": "永宁州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "yongning-guizhou-department-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "puan-guizhou-department",
+    "name": "普安州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "guizhou",
+    "seatPlaceId": "puan-guizhou-department-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "maha-duyun-department",
+    "name": "麻哈州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "duyun-prefecture",
+    "seatPlaceId": "maha-duyun-department-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "dushan-duyun-department",
+    "name": "独山州",
+    "level": "department",
+    "polityId": "ming",
+    "parentId": "duyun-prefecture",
+    "seatPlaceId": "dushan-duyun-department-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "xingui-guiyang-county",
+    "name": "新贵县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "guiyang-prefecture",
+    "seatPlaceId": "xingui-guiyang-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "qingping-maha-county",
+    "name": "清平县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "maha-duyun-department",
+    "seatPlaceId": "qingping-maha-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "yongcong-liping-county",
+    "name": "永从县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "liping-prefecture",
+    "seatPlaceId": "yongcong-liping-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "wuchuan-sinan-county",
+    "name": "婺川县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "sinan-prefecture",
+    "seatPlaceId": "wuchuan-sinan-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "yinjiang-sinan-county",
+    "name": "印江县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "sinan-prefecture",
+    "seatPlaceId": "yinjiang-sinan-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "zhenyuan-guizhou-county",
+    "name": "镇远县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhenyuan-guizhou-prefecture",
+    "seatPlaceId": "zhenyuan-guizhou-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "shibing-zhenyuan-county",
+    "name": "施秉县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "zhenyuan-guizhou-prefecture",
+    "seatPlaceId": "shibing-zhenyuan-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  },
+  {
+    "id": "tongren-guizhou-county",
+    "name": "铜仁县",
+    "level": "county",
+    "polityId": "ming",
+    "parentId": "tongren-prefecture",
+    "seatPlaceId": "tongren-guizhou-county-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+    }
+  }
+]

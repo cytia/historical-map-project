@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "licheng-seat",
+    "longitude": 117.00149,
+    "latitude": 36.65013,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86003; Jinan Prefecture at its Licheng seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86003, valid 1367-1911, parent Shandong Buzhengshisi"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS prefectural point matching the Licheng seat; exact yamen location remains unresolved"
+    }
+  },
+  {
+    "id": "ziyang-seat",
+    "longitude": 116.8237,
+    "latitude": 35.5567,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86005; Yanzhou Prefecture at its Ziyang seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86005, valid 1385-1911, parent Shandong Buzhengshisi"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Selected the CHGIS prefecture record rather than the conflicting aggregated state result"
+    }
+  },
+  {
+    "id": "liaocheng-seat",
+    "longitude": 115.98869,
+    "latitude": 36.44774,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86002; Dongchang Prefecture at its Liaocheng seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86002, valid 1368-1911, parent Shandong Buzhengshisi"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS prefectural point matching the Liaocheng seat"
+    }
+  },
+  {
+    "id": "yidu-seat",
+    "longitude": 118.47827,
+    "latitude": 36.68792,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86007; Qingzhou Prefecture at its Yidu seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86007, valid 1367-1911, parent Shandong Buzhengshisi"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS prefectural point matching the Yidu seat"
+    }
+  },
+  {
+    "id": "ye-seat",
+    "longitude": 119.938,
+    "latitude": 37.17543,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86008; Laizhou Prefecture at its Ye seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86008, valid 1376-1911, parent Shandong Buzhengshisi"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS prefectural point matching the Ye seat"
+    }
+  },
+  {
+    "id": "penglai-seat",
+    "longitude": 120.7405,
+    "latitude": 37.80452,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86009; Dengzhou Prefecture at its Penglai seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86009, valid 1376-1911, parent Shandong Buzhengshisi"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS prefectural point matching the Penglai seat"
+    }
+  },
+  {
+    "id": "zhangqiu-seat",
+    "longitude": 117.48428,
+    "latitude": 36.85273,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45091",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45091, 960 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zouping-seat",
+    "longitude": 117.72535,
+    "latitude": 36.8847,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45045",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45045, 1125 ~ 1911; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zichuan-seat",
+    "longitude": 117.96095,
+    "latitude": 36.63599,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45167",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45167, 598 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "changshan-jinan-seat",
+    "longitude": 117.86491,
+    "latitude": 36.88238,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45067",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45067, 598 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xincheng-jinan-seat",
+    "longitude": 117.94308,
+    "latitude": 36.9496,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45169",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45169, 1378 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qihe-seat",
+    "longitude": 116.77944,
+    "latitude": 36.70007,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45170",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45170, 1130 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qidong-seat",
+    "longitude": 117.62292,
+    "latitude": 36.99135,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45171",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45171, 1252 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jiyang-seat",
+    "longitude": 117.21024,
+    "latitude": 36.97194,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45174",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45174, 1213 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yucheng-seat",
+    "longitude": 116.65119,
+    "latitude": 36.94436,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45086",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45086, 759 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "linyi-jinan-seat",
+    "longitude": 116.85932,
+    "latitude": 37.19033,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45097",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45097, 962 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "changqing-seat",
+    "longitude": 116.72205,
+    "latitude": 36.55182,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45126",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45126, 996 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "feicheng-seat",
+    "longitude": 116.76697,
+    "latitude": 36.18966,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85703",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85703, 1275 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qingcheng-jinan-seat",
+    "longitude": 117.69149,
+    "latitude": 37.18784,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85562",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85562, 1380 ~ 1911; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "ling-jinan-seat",
+    "longitude": 116.5772,
+    "latitude": 37.33111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45175",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45175, 1380 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "taian-seat",
+    "longitude": 117.12652,
+    "latitude": 36.1821,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_115857",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_115857, 1169 ~ 1723; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "xintai-seat",
+    "longitude": 117.75588,
+    "latitude": 35.90966,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85675",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85675, 1294 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "laiwu-seat",
+    "longitude": 117.66057,
+    "latitude": 36.2041,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45056",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45056, 1138 ~ 1911; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "dezhou-seat",
+    "longitude": 116.2862,
+    "latitude": 37.45066,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45176",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45176, 1730 ~ 1912; later continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy pending a contemporaneous location source"
+    }
+  },
+  {
+    "id": "deping-seat",
+    "longitude": 116.95788,
+    "latitude": 37.46348,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45112",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45112, 1099 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "pingyuan-seat",
+    "longitude": 116.42786,
+    "latitude": 37.15674,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45101",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45101, 556 ~ 1912; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wuding-shandong-seat",
+    "longitude": 117.50389,
+    "latitude": 37.48272,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_86015",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86015, 1724 ~ 1733; later continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy pending a contemporaneous location source"
+    }
+  },
+  {
+    "id": "yangxin-seat",
+    "longitude": 117.57631,
+    "latitude": 37.64083,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85534",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85534, 1015 ~ 1911; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "haifeng-wuding-seat",
+    "longitude": 117.60121,
+    "latitude": 37.74062,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85565",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85565, 1373 ~ 1911; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "leling-seat",
+    "longitude": 117.21653,
+    "latitude": 37.73789,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85557",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85557, 1369 ~ 1911; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "shanghe-seat",
+    "longitude": 117.15755,
+    "latitude": 37.30868,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_1005",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_1005, 1820; later continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy pending a contemporaneous location source"
+    }
+  },
+  {
+    "id": "binzhou-seat",
+    "longitude": 118.02375,
+    "latitude": 37.36813,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85544",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85544, 746 ~ 1368; former Bohai seat proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy pending a contemporaneous location source"
+    }
+  },
+  {
+    "id": "lijin-seat",
+    "longitude": 118.25559,
+    "latitude": 37.49131,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85545",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85545, 1192 ~ 1911; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zhanhua-seat",
+    "longitude": 117.80176,
+    "latitude": 37.68322,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85569",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85569, 1195 ~ 1911; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "putai-seat",
+    "longitude": 118.03027,
+    "latitude": 37.34684,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85573",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85573, 1142 ~ 1911; covers 1600"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qufu-seat",
+    "longitude": 116.98606,
+    "latitude": 35.59755,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45185",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45185; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "ningyang-seat",
+    "longitude": 116.78884,
+    "latitude": 35.76335,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45282",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45282; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zou-seat",
+    "longitude": 116.96727,
+    "latitude": 35.40276,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45194",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45194; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "sishui-seat",
+    "longitude": 117.27016,
+    "latitude": 35.6597,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45308",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45308; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "teng-seat",
+    "longitude": 117.15701,
+    "latitude": 35.08502,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45206",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45206; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yi-yanzhou-seat",
+    "longitude": 117.58606,
+    "latitude": 34.77,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45230",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45230; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jinxiang-seat",
+    "longitude": 116.30453,
+    "latitude": 35.06816,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85159",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85159; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yutai-seat",
+    "longitude": 116.53735,
+    "latitude": 35.00492,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85151",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85151; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "shan-yanzhou-seat",
+    "longitude": 116.07925,
+    "latitude": 34.7979,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85028",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85028; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "chengwu-seat",
+    "longitude": 115.87518,
+    "latitude": 34.96223,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85120",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85120; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jining-seat",
+    "longitude": 116.57787,
+    "latitude": 35.41043,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85157",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85157; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "jiaxiang-seat",
+    "longitude": 116.34298,
+    "latitude": 35.40069,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85142",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85142; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "juye-seat",
+    "longitude": 116.08871,
+    "latitude": 35.39621,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85110",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85110; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yuncheng-seat",
+    "longitude": 115.93501,
+    "latitude": 35.60506,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85126",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85126; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "dongping-seat",
+    "longitude": 116.29917,
+    "latitude": 35.91034,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85704",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85704; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wenshang-seat",
+    "longitude": 116.48438,
+    "latitude": 35.72881,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45249",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45249; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "donge-seat",
+    "longitude": 116.25102,
+    "latitude": 36.21138,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45306",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45306; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "pingyin-seat",
+    "longitude": 116.44867,
+    "latitude": 36.28693,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85695",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85695; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yanggu-seat",
+    "longitude": 115.77429,
+    "latitude": 36.11476,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45254",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45254; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "shouzhang-seat",
+    "longitude": 115.84856,
+    "latitude": 36.01439,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45266",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45266; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "caozhou-seat",
+    "longitude": 115.44413,
+    "latitude": 35.25025,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_86014",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86014; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "cao-seat",
+    "longitude": 115.53945,
+    "latitude": 34.82759,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85127",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85127; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "dingtao-seat",
+    "longitude": 115.56662,
+    "latitude": 35.07399,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85062",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85062; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "yizhou-seat",
+    "longitude": 118.34095,
+    "latitude": 35.07156,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85591",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85591; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "tancheng-seat",
+    "longitude": 118.33446,
+    "latitude": 34.61813,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_1073",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_1073; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "fei-seat",
+    "longitude": 117.96462,
+    "latitude": 35.26521,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85606",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85606; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "tangyi-seat",
+    "longitude": 115.77485,
+    "latitude": 36.48784,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85206",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85206; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "boping-seat",
+    "longitude": 116.11023,
+    "latitude": 36.58689,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45329",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45329; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "chiping-seat",
+    "longitude": 116.24902,
+    "latitude": 36.5856,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45336",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45336; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "shen-seat",
+    "longitude": 115.66508,
+    "latitude": 36.23671,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45344",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45344; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qingping-seat",
+    "longitude": 116.07657,
+    "latitude": 36.75478,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85211",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85211; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "guan-dongchang-seat",
+    "longitude": 115.43501,
+    "latitude": 36.4721,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45349",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45349; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "linqing-seat",
+    "longitude": 115.70152,
+    "latitude": 36.84621,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85164",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85164; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "qiu-seat",
+    "longitude": 115.15681,
+    "latitude": 36.71392,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85188",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85188; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "guantao-seat",
+    "longitude": 115.40781,
+    "latitude": 36.65789,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85191",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85191; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "gaotang-seat",
+    "longitude": 116.231,
+    "latitude": 36.86162,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_86042",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86042; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "en-seat",
+    "longitude": 116.27579,
+    "latitude": 37.15112,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_1003",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_1003; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "xiajin-seat",
+    "longitude": 116.00168,
+    "latitude": 36.94928,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45156",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45156; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wucheng-dongchang-seat",
+    "longitude": 115.88631,
+    "latitude": 37.14809,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85173",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85173; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "puzhou-seat",
+    "longitude": 115.39219,
+    "latitude": 35.73618,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_86022",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_86022; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "fan-seat",
+    "longitude": 115.62972,
+    "latitude": 35.93529,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85107",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85107; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "guancheng-seat",
+    "longitude": 115.37628,
+    "latitude": 35.94408,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85089",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85089; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "chaocheng-seat",
+    "longitude": 115.5786,
+    "latitude": 36.05568,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85100",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85100; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "linzi-seat",
+    "longitude": 118.28753,
+    "latitude": 36.8096,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85236",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85236; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "boxing-seat",
+    "longitude": 118.1277,
+    "latitude": 37.1354,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85247",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85247; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "gaoyuan-seat",
+    "longitude": 117.9595,
+    "latitude": 37.09429,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85229",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85229; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "lean-qingzhou-seat",
+    "longitude": 118.40031,
+    "latitude": 37.0498,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85259",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85259; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "shouguang-seat",
+    "longitude": 118.73851,
+    "latitude": 36.8798,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85269",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85269; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "changle-seat",
+    "longitude": 118.83671,
+    "latitude": 36.70358,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85298",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85298; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "linqu-seat",
+    "longitude": 118.54163,
+    "latitude": 36.51025,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45061",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_45061; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "anqiu-seat",
+    "longitude": 119.19739,
+    "latitude": 36.42905,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85322",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85322; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zhucheng-seat",
+    "longitude": 119.40398,
+    "latitude": 35.99335,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85368",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85368; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "mengyin-seat",
+    "longitude": 117.92838,
+    "latitude": 35.71375,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85632",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85632; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "juzhou-seat",
+    "longitude": 118.83442,
+    "latitude": 35.58189,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85619",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85619; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "yishui-seat",
+    "longitude": 118.62395,
+    "latitude": 35.79103,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85636",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85636; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "rizhao-seat",
+    "longitude": 119.54641,
+    "latitude": 35.39318,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85651",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85651; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "pingdu-seat",
+    "longitude": 119.94828,
+    "latitude": 36.78823,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85392",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85392; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wei-laizhou-seat",
+    "longitude": 119.1065,
+    "latitude": 36.70271,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85471",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85471; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "changyi-laizhou-seat",
+    "longitude": 119.39998,
+    "latitude": 36.85567,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_1041",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_1041; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "jiaozhou-seat",
+    "longitude": 120.0073,
+    "latitude": 36.30003,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85479",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85479; documented continuity proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+    }
+  },
+  {
+    "id": "gaomi-seat",
+    "longitude": 119.75256,
+    "latitude": 36.38541,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85499",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85499; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "jimo-seat",
+    "longitude": 120.45041,
+    "latitude": 36.38211,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85461",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85461; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "huang-dengzhou-seat",
+    "longitude": 120.48267,
+    "latitude": 37.65942,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85374",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85374; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "fushan-seat",
+    "longitude": 121.26053,
+    "latitude": 37.49328,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85424",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85424; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "qixia-seat",
+    "longitude": 120.82707,
+    "latitude": 37.30238,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85426",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85426; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "zhaoyuan-seat",
+    "longitude": 120.38838,
+    "latitude": 37.35215,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85427",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85427; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "laiyang-seat",
+    "longitude": 120.70584,
+    "latitude": 36.97116,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85384",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85384; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "ninghai-dengzhou-seat",
+    "longitude": 121.58773,
+    "latitude": 37.37655,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85407",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85407; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  },
+  {
+    "id": "wendeng-seat",
+    "longitude": 122.05669,
+    "latitude": 37.19306,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85428",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_85428; covers the 1600 time slice"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-14",
+      "revisionNote": "Selected a contemporaneous CHGIS point"
+    }
+  }
+]

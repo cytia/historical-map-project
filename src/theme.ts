@@ -48,6 +48,12 @@ export const defaultTheme = {
     seatHaloStroke: "rgba(122, 48, 39, 0.18)",
     seatRing: "#f4eee2",
     seatLabel: palette.ink,
+    affiliationPalette: [
+      "#9a5a4e", "#b2794c", "#827b55", "#5f847f", "#5d7f8e",
+      "#6d6b91", "#94708c", "#a67c62", "#7c6d5a", "#8a7d63",
+      "#6b8792", "#8f705e", "#7f8b5a", "#8a6d77", "#75838a",
+    ],
+    affiliationNeutral: "#81796e",
     county: "rgba(122, 48, 39, 0.72)",
     countySelected: palette.cinnabar,
     countyLabel: palette.mutedInk,

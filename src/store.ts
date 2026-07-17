@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { AdministrativeDisplayScope } from "./types";
+import type { AdministrativeDisplayScope, MapDisplayMode } from "./types";
 
 interface AppState {
   selectedUnitId: string | null;
@@ -12,6 +12,7 @@ interface AppState {
   seatsVisible: boolean;
   modernReferenceVisible: boolean;
   administrativeDisplayScope: AdministrativeDisplayScope;
+  mapDisplayMode: MapDisplayMode;
   selectUnit: (id: string | null) => void;
   selectCounty: (countyId: string, parentId: string, regionId: string) => void;
   resetSelection: () => void;
@@ -23,6 +24,7 @@ interface AppState {
   setSeatsVisible: (visible: boolean) => void;
   setModernReferenceVisible: (visible: boolean) => void;
   setAdministrativeDisplayScope: (scope: AdministrativeDisplayScope) => void;
+  setMapDisplayMode: (mode: MapDisplayMode) => void;
 }
 
 export const useAppStore = create<AppState>((set) => ({
@@ -36,6 +38,7 @@ export const useAppStore = create<AppState>((set) => ({
   seatsVisible: true,
   modernReferenceVisible: true,
   administrativeDisplayScope: "prefecture",
+  mapDisplayMode: "administrative",
   selectUnit: (selectedUnitId) =>
     set({ selectedUnitId, selectedCountyId: null, detailsOpen: selectedUnitId !== null }),
   selectCounty: (selectedCountyId, selectedUnitId, activeRegionId) =>
@@ -64,4 +67,5 @@ export const useAppStore = create<AppState>((set) => ({
     administrativeDisplayScope,
     selectedCountyId: administrativeDisplayScope === "seat" ? null : state.selectedCountyId,
   })),
+  setMapDisplayMode: (mapDisplayMode) => set({ mapDisplayMode }),
 }));

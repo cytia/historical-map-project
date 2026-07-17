@@ -8,6 +8,7 @@ const administrativeData = buildAdministrativeData(data);
 export const regions = administrativeData.regionsWithSeats;
 export const seats: SeatRecord[] = administrativeData.seats;
 export const counties: CountyRecord[] = administrativeData.counties;
+export const administrativeAffiliationIds = regions.map(({ id }) => id);
 export const topLevelSeats = seats.filter(({ unit, region }) => unit.parentId === region.id);
 export const getTopLevelUnitId = (unitId: string | null) =>
   findTopLevelUnitId(administrativeData.unitsById, unitId);

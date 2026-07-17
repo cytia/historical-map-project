@@ -1,0 +1,117 @@
+[
+  {
+    "id": "national-households-1578",
+    "category": "population",
+    "metric": "households",
+    "value": 10621436,
+    "unit": "households",
+    "originalText": "人户、总计一千六十二万一千四百三十六户",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年十三布政司并南北直隶府州户口总数；保留全国登记口径。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year national household total; no interpolation to 1600."
+    }
+  },
+  {
+    "id": "national-population-1578",
+    "category": "population",
+    "metric": "registered-population",
+    "value": 60692856,
+    "unit": "people",
+    "originalText": "人口、总计六千六十九万二千八百五十六口",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-population",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年十三布政司并南北直隶府州人口总数；登记口数不等同于完整实际人口。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded registered population retained as the national source total; not treated as a complete actual-population estimate."
+    }
+  },
+  {
+    "id": "national-land-1578",
+    "category": "tax",
+    "metric": "registered-land",
+    "value": 7013976.28,
+    "unit": "qing",
+    "originalText": "十三布政司、并直隶府州、实在田土、总计七百一万三千九百七十六顷二十八亩零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-land",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年十三布政司并南北直隶府州实在田土总额；按顷、亩换算为顷，未作现代面积转换。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded directly from the Wanli sixth-year national land total; normalized 1顷=100亩."
+    }
+  },
+  {
+    "id": "national-summer-tax-1578",
+    "category": "tax",
+    "metric": "summer-tax",
+    "value": 4605242.8157,
+    "unit": "shi",
+    "originalText": "夏税大小麦米四百六十万五千二百四十二石八斗一升五合七勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "万历六年十三布政司并南北直隶府州夏税大小麦米主项；原 OCR ‘士升’按同页格式校读为‘一升’，麦荍及丝绢等另列项目不并入。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year national summer-tax 大小麦米 total; normalized 1石=10斗=100升=1000合=10000勺 and retained the OCR correction note."
+    }
+  },
+  {
+    "id": "national-autumn-grain-1578",
+    "category": "tax",
+    "metric": "autumn-grain",
+    "value": 22303170.6921,
+    "unit": "shi",
+    "originalText": "秋粮米二千二百三万三千一百七十石六斗九升二合一勺零",
+    "recordedYear": 1578,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-taxation-wanli-six",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "万历六年十三布政司并南北直隶府州秋粮本色米主项；鱼课米、枣子易米等另列项目不并入。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-16",
+      "revisionNote": "Recorded as the Wanli sixth-year national autumn-grain 本色米 total; normalized 1石=10斗=100升=1000合=10000勺."
+    }
+  }
+]

@@ -1,5 +1,6 @@
 export type Confidence = "high" | "medium" | "low";
 export type AdministrativeDisplayScope = "seat" | "prefecture" | "region";
+export type MapDisplayMode = "administrative" | "jurisdiction" | "control";
 
 export interface SourceLink {
   sourceId: string;
@@ -22,6 +23,7 @@ export interface AdministrativeUnit {
   name: string;
   formalName?: string;
   level: "capital-region" | "province" | "prefecture" | "department" | "county";
+  polityId: string;
   parentId?: string;
   seatPlaceId?: string;
   confidence: Confidence;

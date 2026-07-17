@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/data-manifest.schema.json",
+  "title": "Historical map data manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "projectSchema", "output", "fragments"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "projectSchema": { "type": "string", "minLength": 1 },
+    "output": { "type": "string", "minLength": 1 },
+    "fragments": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/fragment" }
+    }
+  },
+  "$defs": {
+    "fragment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["collection", "path"],
+      "properties": {
+        "collection": {
+          "enum": [
+            "sources",
+            "scopeStatistics",
+            "statistics",
+            "polities",
+            "administrativeUnits",
+            "places",
+            "placeNames"
+          ]
+        },
+        "domain": { "type": "string", "minLength": 1 },
+        "region": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

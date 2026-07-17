@@ -1,0 +1,2022 @@
+[
+  {
+    "id": "hangzhou-city",
+    "longitude": 120.155,
+    "latitude": 30.274,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Represents the shared Qiantang and Renhe prefectural city; exact compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "jiaxing-seat",
+    "longitude": 120.755,
+    "latitude": 30.746,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 嘉兴旧城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "wucheng-seat",
+    "longitude": 120.086,
+    "latitude": 30.894,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 乌程 and the Huzhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "yin-seat",
+    "longitude": 121.551,
+    "latitude": 29.874,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 鄞县 and the Ningbo prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "shaoxing-city",
+    "longitude": 120.582,
+    "latitude": 30.01,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Represents the shared Shanyin and Kuaiji prefectural city; exact compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "linhai-seat",
+    "longitude": 121.13,
+    "latitude": 28.848,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 临海旧城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "jinhua-seat",
+    "longitude": 119.65,
+    "latitude": 29.089,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 金华旧城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "xian-zhejiang-seat",
+    "longitude": 118.872,
+    "latitude": 28.97,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 西安县 and the Quzhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point; ID distinguishes the seat from Xian city in Shaanxi"
+    }
+  },
+  {
+    "id": "jiande-seat",
+    "longitude": 119.502,
+    "latitude": 29.542,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Meicheng historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with the historical Jiande seat at Meicheng, not the modern Jiande urban center"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "yongjia-seat",
+    "longitude": 120.655,
+    "latitude": 28.014,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 永嘉 and the Wenzhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "lishui-seat",
+    "longitude": 119.922,
+    "latitude": 28.467,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 丽水 and the Chuzhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "zhejiang-anjizhou-seat",
+    "longitude": 119.67741,
+    "latitude": 30.63419,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q551437, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q551437 P625; modern Anji County proxy for the historical Anji State seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-haining-seat",
+    "longitude": 120.54673,
+    "latitude": 30.45607,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q31854122, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q31854122 P625; Yangu Town modern settlement proxy for the historical Haining County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Yangu Town was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-fuyang-seat",
+    "longitude": 119.93697,
+    "latitude": 30.04998,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1011103, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1011103 P625; modern Fuyang District proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-yuhang-seat",
+    "longitude": 119.93608,
+    "latitude": 30.27201,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10886612, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10886612 P625; Yuhang Subdistrict modern settlement proxy for the historical Yuhang County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Yuhang Subdistrict was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-linan-seat",
+    "longitude": 119.71533,
+    "latitude": 30.23476,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1022464, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1022464 P625; modern Lin'an District proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-yuqian-seat",
+    "longitude": 119.39428,
+    "latitude": 30.18866,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11085085, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11085085 P625; Yuqian Town modern settlement proxy for the historical Yuqian County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Yuqian Town was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-xincheng-seat",
+    "longitude": 119.72967,
+    "latitude": 29.96994,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11083882, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11083882 P625; Xindeng Town modern settlement proxy for the historical Xincheng County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Xindeng Town was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-changhua-seat",
+    "longitude": 119.21287,
+    "latitude": 30.16535,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q11087555, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11087555 P625; Changhua Town modern settlement proxy for the historical Changhua County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-jiande-seat",
+    "longitude": 119.49907,
+    "latitude": 29.54289,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11114589, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11114589 P625; Meicheng Town modern settlement proxy for the historical Jiande County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Meicheng Town was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-tonglu-seat",
+    "longitude": 119.68732,
+    "latitude": 29.7954,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q261793, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q261793 P625; modern Tonglu County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-chunan-seat",
+    "longitude": 119.03839,
+    "latitude": 29.60505,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1089534, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1089534 P625; modern Chun'an County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-suian-seat",
+    "longitude": 119.03839,
+    "latitude": 29.60505,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1089534, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1089534 P625; modern Chun'an County proxy for the former Sui'an County area; the historical seat is submerged and exact correspondence remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; the former Sui'an seat is submerged and the exact modern correspondence remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-shouchang-seat",
+    "longitude": 119.21706,
+    "latitude": 29.36158,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q7502638, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q7502638 P625; Shouchang Town modern settlement proxy for the historical Shouchang County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Shouchang Town was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-fenshui-seat",
+    "longitude": 119.43121,
+    "latitude": 29.93163,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10896869, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10896869 P625; Fenshui Town modern settlement proxy for the historical Fenshui County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-jiaxing-seat",
+    "longitude": 120.75,
+    "latitude": 30.7522,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q58178, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q58178 P625; modern Jiaxing City proxy shared with the Xiushui county seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; the Jiaxing/Xiushui co-location was retained."
+    }
+  },
+  {
+    "id": "zhejiang-xiushui-seat",
+    "longitude": 120.75,
+    "latitude": 30.7522,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q58178, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q58178 P625; modern Jiaxing City proxy shared with the Jiaxing county seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; the Jiaxing/Xiushui co-location was retained."
+    }
+  },
+  {
+    "id": "zhejiang-jiashan-seat",
+    "longitude": 120.9164,
+    "latitude": 30.84525,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1361347, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1361347 P625; modern Jiashan County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-haiyan-seat",
+    "longitude": 120.94165,
+    "latitude": 30.52807,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1334198, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1334198 P625; modern Haiyan County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-chongde-seat",
+    "longitude": 120.43569,
+    "latitude": 30.5306,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11053146, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11053146 P625; Chongfu Town modern settlement proxy for the historical Chongde County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Chongfu Town was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-tongxiang-seat",
+    "longitude": 120.54744,
+    "latitude": 30.6326,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1204548, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1204548 P625; modern Tongxiang City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-pinghu-seat",
+    "longitude": 121.01037,
+    "latitude": 30.7005,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q706228, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q706228 P625; modern Pinghu City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-wucheng-seat",
+    "longitude": 120.0875,
+    "latitude": 30.8925,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q42664, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q42664 P625; modern Huzhou City proxy shared with the Guian county seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; the Guian/Wucheng co-location was retained."
+    }
+  },
+  {
+    "id": "zhejiang-guian-seat",
+    "longitude": 120.0875,
+    "latitude": 30.8925,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q42664, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q42664 P625; modern Huzhou City proxy shared with the Wucheng county seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; the Guian/Wucheng co-location was retained."
+    }
+  },
+  {
+    "id": "zhejiang-changxing-seat",
+    "longitude": 119.90329,
+    "latitude": 31.00845,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1062178, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1062178 P625; modern Changxing County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-deqing-seat",
+    "longitude": 119.96297,
+    "latitude": 30.53808,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1191987, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1191987 P625; modern Deqing County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-wukang-seat",
+    "longitude": 119.96914,
+    "latitude": 30.53692,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11124226, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11124226 P625; Wukang Subdistrict modern settlement proxy for the historical Wukang County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Wukang Subdistrict was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-xiaofeng-seat",
+    "longitude": 119.55971,
+    "latitude": 30.59111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10944973, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10944973 P625; Xiaofeng Town modern settlement proxy for the historical Xiaofeng County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Xiaofeng Town was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-xiaoshan-seat",
+    "longitude": 120.26015,
+    "latitude": 30.18753,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q592727, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q592727 P625; modern Xiaoshan District proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-zhuji-seat",
+    "longitude": 120.23144,
+    "latitude": 29.71687,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q198222, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q198222 P625; modern Zhuji City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-yuyao-seat",
+    "longitude": 121.15463,
+    "latitude": 30.037195,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1011201, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1011201 P625; modern Yuyao City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-shangyu-seat",
+    "longitude": 120.8725,
+    "latitude": 30.018888888889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023800, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023800 P625; modern Shangyu District proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-sheng-seat",
+    "longitude": 120.8176,
+    "latitude": 29.59082,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023802, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023802 P625; modern Shengzhou City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-xinchang-seat",
+    "longitude": 120.90444444444,
+    "latitude": 29.501666666667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1026471, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1026471 P625; modern Xinchang County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-yin-seat",
+    "longitude": 121.54916666667,
+    "latitude": 29.875,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q42780, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q42780 P625; modern Ningbo City proxy for the historical Yin County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Ningbo City was selected as the historical Yin County seat area."
+    }
+  },
+  {
+    "id": "zhejiang-cixi-seat",
+    "longitude": 121.44018,
+    "latitude": 29.98232,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q6798477, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q6798477 P625; Cicheng Town modern settlement proxy for the historical Cixi County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Cicheng Town was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-fenghua-seat",
+    "longitude": 121.40957,
+    "latitude": 29.66378,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q713372, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q713372 P625; modern Fenghua District proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-dinghai-seat",
+    "longitude": 122.10277777778,
+    "latitude": 30.019444444444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1226419, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1226419 P625; modern Dinghai District proxy for the historical Dinghai County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-xiangshan-seat",
+    "longitude": 121.87381,
+    "latitude": 29.47193,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1334124, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1334124 P625; modern Xiangshan County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-linhai-seat",
+    "longitude": 121.14087,
+    "latitude": 28.85229,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q713317, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q713317 P625; modern Linhai City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-huangyan-seat",
+    "longitude": 121.25867,
+    "latitude": 28.64815,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1027910, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1027910 P625; modern Huangyan District proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-tiantai-seat",
+    "longitude": 121.02856,
+    "latitude": 29.1422,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335021, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335021 P625; modern Tiantai County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-xianju-seat",
+    "longitude": 120.73032,
+    "latitude": 28.85534,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1370425, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1370425 P625; modern Xianju County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-ninghai-seat",
+    "longitude": 121.42662,
+    "latitude": 29.29942,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1334251, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1334251 P625; modern Ninghai County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-taiping-zhejiang-seat",
+    "longitude": 121.36639,
+    "latitude": 28.37451,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10941472, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10941472 P625; Taiping Subdistrict modern settlement proxy for the historical Taiping County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Taiping Subdistrict was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-jinhua-seat",
+    "longitude": 119.64937,
+    "latitude": 29.10462,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q58210, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q58210 P625; modern Jinhua City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-lanxi-seat",
+    "longitude": 119.472222,
+    "latitude": 29.216667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023793, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023793 P625; modern Lanxi City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-dongyang-seat",
+    "longitude": 120.22822,
+    "latitude": 29.27853,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023774, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023774 P625; modern Dongyang City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-yiwu-seat",
+    "longitude": 120.06977,
+    "latitude": 29.30812,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1011138, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1011138 P625; modern Yiwu City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-yongkang-seat",
+    "longitude": 120.02844,
+    "latitude": 28.90085,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1285102, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1285102 P625; modern Yongkang City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-wuyi-seat",
+    "longitude": 119.81183,
+    "latitude": 28.89641,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1361338, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1361338 P625; modern Wuyi County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-pujiang-seat",
+    "longitude": 119.88739,
+    "latitude": 29.45634,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335006, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335006 P625; modern Pujiang County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-tangxi-seat",
+    "longitude": 119.39473,
+    "latitude": 29.0556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11136244, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11136244 P625; Tangxi Town modern settlement proxy for the historical Tangxi County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Tangxi Town was selected as the historical seat area."
+    }
+  },
+  {
+    "id": "zhejiang-xian-zhejiang-seat",
+    "longitude": 118.86952,
+    "latitude": 28.97087,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1371443, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1371443 P625; modern Kecheng District proxy for the historical Xi'an County seat area; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Kecheng District was selected for the historical Xi'an County seat area."
+    }
+  },
+  {
+    "id": "zhejiang-longyou-seat",
+    "longitude": 119.16715,
+    "latitude": 29.03109,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q922280, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q922280 P625; modern Longyou County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-changshan-seat",
+    "longitude": 118.51404,
+    "latitude": 28.9037,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1062122, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1062122 P625; modern Changshan County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-jiangshan-seat",
+    "longitude": 118.62252,
+    "latitude": 28.74121,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023799, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023799 P625; modern Jiangshan City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-kaihua-seat",
+    "longitude": 118.41017,
+    "latitude": 29.13973,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1371362, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1371362 P625; modern Kaihua County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-lishui-seat",
+    "longitude": 119.91666666667,
+    "latitude": 28.45,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q58294, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q58294 P625; modern Lishui City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-qingtian-seat",
+    "longitude": 120.28674,
+    "latitude": 28.13902,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1361329, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1361329 P625; modern Qingtian County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-jinyun-seat",
+    "longitude": 120.07353,
+    "latitude": 28.65784,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335083, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335083 P625; modern Jinyun County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-songyang-seat",
+    "longitude": 119.48013,
+    "latitude": 28.45668,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1197840, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1197840 P625; modern Songyang County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-suichang-seat",
+    "longitude": 119.5,
+    "latitude": 28.5,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335029, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335029 P625; modern Suichang County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-longquan-seat",
+    "longitude": 119.12771,
+    "latitude": 28.07334,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1361355, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1361355 P625; modern Longquan City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-qingyuan-seat",
+    "longitude": 119.0625,
+    "latitude": 27.62098,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198090, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1198090 P625; modern Qingyuan County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-yunhe-seat",
+    "longitude": 119.56578,
+    "latitude": 28.1128,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1335038, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1335038 P625; modern Yunhe County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-xuanping-seat",
+    "longitude": 119.81183,
+    "latitude": 28.89641,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1361338, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1361338 P625; modern Wuyi County proxy for the former Xuanping County area; the historical seat correspondence remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; the former Xuanping County was merged and the exact modern seat correspondence remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-jingning-seat",
+    "longitude": 119.63103,
+    "latitude": 27.98006,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q971469, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q971469 P625; modern Jingning She Autonomous County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-yongjia-seat",
+    "longitude": 120.656075,
+    "latitude": 27.999128,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q42635, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q42635 P625; modern Wenzhou City proxy for the historical Yongjia County seat; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; Wenzhou City was selected as the historical Yongjia County seat area."
+    }
+  },
+  {
+    "id": "zhejiang-yueqing-seat",
+    "longitude": 120.96211,
+    "latitude": 28.11883,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q699777, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q699777 P625; modern Yueqing City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-pingyang-seat",
+    "longitude": 120.55964,
+    "latitude": 27.67024,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q702404, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q702404 P625; modern Pingyang County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "First Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-ruian-seat",
+    "longitude": 120.65263,
+    "latitude": 27.778,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q713357, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q713357 P625; modern Rui'an City proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  },
+  {
+    "id": "zhejiang-taishun-seat",
+    "longitude": 119.7126,
+    "latitude": 27.55953,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q701879, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q701879 P625; modern Taishun County proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Second Zhejiang batch: replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy; exact old administrative compound remains unresolved."
+    }
+  }
+]

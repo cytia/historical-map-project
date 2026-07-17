@@ -1,0 +1,3017 @@
+[
+  {
+    "id": "jiangxia-seat",
+    "longitude": 114.305,
+    "latitude": 30.545,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 江夏; exact Ming administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "hanyang-seat",
+    "longitude": 114.266,
+    "latitude": 30.549,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 汉阳"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "huanggang-seat",
+    "longitude": 114.879,
+    "latitude": 30.447,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 黄冈旧城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "zhongxiang-seat",
+    "longitude": 112.588,
+    "latitude": 31.169,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 钟祥"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "anlu-seat",
+    "longitude": 113.69,
+    "latitude": 31.256,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 安陆"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "baling-seat",
+    "longitude": 113.129,
+    "latitude": 29.357,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 巴陵"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "jiangling-seat",
+    "longitude": 112.191,
+    "latitude": 30.354,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 江陵旧城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "xiangyang-seat",
+    "longitude": 112.144,
+    "latitude": 32.021,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 襄阳城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "yun-seat",
+    "longitude": 110.813,
+    "latitude": 32.834,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 郧县旧城 area; exact pre-reservoir site requires verification"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "changsha-seat",
+    "longitude": 112.977,
+    "latitude": 28.197,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 长沙旧城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "wuling-seat",
+    "longitude": 111.699,
+    "latitude": 29.031,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 武陵"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "hengyang-seat",
+    "longitude": 112.619,
+    "latitude": 26.894,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 衡阳旧城"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "lingling-seat",
+    "longitude": 111.613,
+    "latitude": 26.221,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 零陵"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "shaoyang-seat",
+    "longitude": 111.468,
+    "latitude": 27.238,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 邵阳"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "yuanling-seat",
+    "longitude": 110.393,
+    "latitude": 28.455,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 沅陵"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "chenzhou-seat",
+    "longitude": 113.015,
+    "latitude": 25.77,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 郴州"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "jingzhou-seat",
+    "longitude": 109.696,
+    "latitude": 26.575,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 靖州; distinct from 江陵 seat of 荆州府"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "xingguo-huguang-seat",
+    "longitude": 115.20793,
+    "latitude": 29.83831,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1356685, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1356685 P625; modern Yangxin County proxy; historical Xingguo State to modern Yangxin proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; historical Xingguo State to modern Yangxin proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "wuchang-seat",
+    "longitude": 114.31428,
+    "latitude": 30.35507,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1337329, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1337329 P625; modern Jiangxia District proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "jiayu-seat",
+    "longitude": 113.92629,
+    "latitude": 29.97358,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1236870, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1236870 P625; modern Jiayu County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "puqi-seat",
+    "longitude": 113.633333333,
+    "latitude": 29.883333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q615021, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q615021 P625; modern Chibi City proxy; historical Puqi County to modern Chibi proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; historical Puqi County to modern Chibi proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xianning-seat",
+    "longitude": 114.32882,
+    "latitude": 29.83411,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q71373, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q71373 P625; modern Xianning City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "chongyang-seat",
+    "longitude": 114.04428,
+    "latitude": 29.54212,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1076179, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1076179 P625; modern Chongyang County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "tongcheng-wuchang-seat",
+    "longitude": 113.80692,
+    "latitude": 29.24911,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1356459, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356459 P625; modern Tongcheng County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "daye-seat",
+    "longitude": 114.96988,
+    "latitude": 30.10034,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1179105, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1179105 P625; modern Daye City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "tongshan-seat",
+    "longitude": 114.49158,
+    "latitude": 29.60558,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1356703, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356703 P625; modern Tongshan County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "hanchuan-seat",
+    "longitude": 113.82745,
+    "latitude": 30.65201,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1337056, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1337056 P625; modern Hanchuan City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "qizhou-huangzhou-seat",
+    "longitude": 115.33751,
+    "latitude": 30.07694,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q14135188, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q14135188 P625; modern Qizhou Town proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "macheng-seat",
+    "longitude": 115.01893,
+    "latitude": 31.18171,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1016939, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1016939 P625; modern Macheng City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "huangpi-seat",
+    "longitude": 114.36991,
+    "latitude": 30.87505,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q325432, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q325432 P625; modern Huangpi District proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "huangan-seat",
+    "longitude": 114.60829,
+    "latitude": 31.28478,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1336372, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1336372 P625; modern Hong'an County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "qishui-seat",
+    "longitude": 115.258056,
+    "latitude": 30.459167,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q44026, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q44026 P625; modern Xishui County proxy; historical Qishui County to modern Xishui proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; historical Qishui County to modern Xishui proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "luotian-seat",
+    "longitude": 115.3906,
+    "latitude": 30.78513,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199296, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199296 P625; modern Luotian County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "guangji-seat",
+    "longitude": 115.55391,
+    "latitude": 29.8518,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1367949, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1367949 P625; modern Wuxue City proxy; historical Guangji County to modern Wuxue proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; historical Guangji County to modern Wuxue proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "huangmei-seat",
+    "longitude": 115.946972222,
+    "latitude": 30.1095,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1337631, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1337631 P625; modern Huangmei County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "jingmen-chengtian-seat",
+    "longitude": 112.211388888,
+    "latitude": 31.038055555,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q71323, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q71323 P625; modern Jingmen City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "mianyang-chengtian-seat",
+    "longitude": 113.4,
+    "latitude": 30.383333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q71455, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q71455 P625; modern Xiantao City proxy; historical Mianyang State to modern Xiantao proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; historical Mianyang State to modern Xiantao proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "jingshan-seat",
+    "longitude": 113.10793,
+    "latitude": 31.02359,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199327, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199327 P625; modern Jingshan City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "qianjiang-seat",
+    "longitude": 112.85,
+    "latitude": 30.416666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q71489, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q71489 P625; modern Qianjiang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "dangyang-seat",
+    "longitude": 111.79098,
+    "latitude": 30.8258,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1159699, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1159699 P625; modern Dangyang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "jingling-seat",
+    "longitude": 113.166666666,
+    "latitude": 30.666666666,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q71468, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q71468 P625; modern Tianmen City proxy; historical Jingling County to modern Tianmen proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; historical Jingling County to modern Tianmen proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "suizhou-dean-seat",
+    "longitude": 113.3658,
+    "latitude": 31.71755,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q71401, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q71401 P625; modern Suizhou City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yunmeng-seat",
+    "longitude": 113.76545,
+    "latitude": 31.06251,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199166, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199166 P625; modern Yunmeng County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yingcheng-seat",
+    "longitude": 113.56772,
+    "latitude": 30.94259,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1344777, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1344777 P625; modern Yingcheng City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xiaogan-seat",
+    "longitude": 113.91096,
+    "latitude": 30.92731,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q71339, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q71339 P625; modern Xiaogan City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yingshan-dean-seat",
+    "longitude": 113.82294,
+    "latitude": 31.61887,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q930230, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q930230 P625; modern Guangshui City proxy; historical Yingshan County to modern Guangshui proxy; name change and exact old administrative compound remain unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; historical Yingshan County to modern Guangshui proxy; name change and exact old administrative compound remain unresolved"
+    }
+  },
+  {
+    "id": "lizhou-yuezhou-seat",
+    "longitude": 111.75487,
+    "latitude": 29.64353,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199604, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199604 P625; modern Li County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "linxiang-seat",
+    "longitude": 113.44801,
+    "latitude": 29.47605,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1025442, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1025442 P625; modern Linxiang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "huarong-seat",
+    "longitude": 112.55649,
+    "latitude": 29.52517,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1356581, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356581 P625; modern Huarong County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "pingjiang-seat",
+    "longitude": 113.58798,
+    "latitude": 28.703,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q687952, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q687952 P625; modern Pingjiang County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "anxiang-seat",
+    "longitude": 112.16582,
+    "latitude": 29.41461,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q613672, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q613672 P625; modern Anxiang County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "shimen-seat",
+    "longitude": 111.37163,
+    "latitude": 29.58686,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1338696, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338696 P625; modern Shimen County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "cili-seat",
+    "longitude": 111.12534,
+    "latitude": 29.42538,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1091936, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1091936 P625; modern Cili County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yiling-jingzhou-seat",
+    "longitude": 111.31955,
+    "latitude": 30.77596,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199218, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199218 P625; modern Yiling District proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "guizhou-jingzhou-seat",
+    "longitude": 110.68975,
+    "latitude": 30.99695,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q11069446, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11069446 P625; modern Guizhou Town proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "junzhou-xiangyang-seat",
+    "longitude": 111.50979,
+    "latitude": 32.54085,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1164197, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1164197 P625; modern Danjiangkou City proxy; modern Danjiangkou proxy for a historical seat affected by reservoir inundation; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern Danjiangkou proxy for a historical seat affected by reservoir inundation; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "chaling-changsha-seat",
+    "longitude": 113.53824,
+    "latitude": 26.78619,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1059745, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1059745 P625; modern Chaling County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "gongan-seat",
+    "longitude": 112.21917,
+    "latitude": 30.06319,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1198857, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1198857 P625; modern Gong'an County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "shishou-seat",
+    "longitude": 112.40368,
+    "latitude": 29.72109,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1359319, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1359319 P625; modern Shishou City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "jianli-seat",
+    "longitude": 112.90186,
+    "latitude": 29.82395,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1356616, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356616 P625; modern Jianli City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "songzi-seat",
+    "longitude": 111.77323,
+    "latitude": 30.17717,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1357999, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1357999 P625; modern Songzi City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "zhijiang-jingzhou-seat",
+    "longitude": 111.75059,
+    "latitude": 30.42711,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q197789, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q197789 P625; modern Zhijiang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "changyang-seat",
+    "longitude": 111.200417793,
+    "latitude": 30.480491228,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1062175, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1062175 P625; modern Changyang Tujia Autonomous County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yidu-jingzhou-seat",
+    "longitude": 111.45049,
+    "latitude": 30.38804,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q282948, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q282948 P625; modern Yidu City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yuanan-jingzhou-seat",
+    "longitude": 111.63786,
+    "latitude": 31.0617,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199114, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199114 P625; modern Yuan'an County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xingshan-seat",
+    "longitude": 110.75069,
+    "latitude": 31.34575,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q204696, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q204696 P625; modern Xingshan County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "badong-seat",
+    "longitude": 110.3372,
+    "latitude": 31.04529,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q799676, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q799676 P625; modern Badong County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yicheng-xiangyang-seat",
+    "longitude": 112.25514,
+    "latitude": 31.71173,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199240, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199240 P625; modern Yicheng City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "nanzhang-seat",
+    "longitude": 111.83867,
+    "latitude": 31.77849,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199229, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199229 P625; modern Nanzhang County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "zaoyang-seat",
+    "longitude": 112.7581,
+    "latitude": 32.12874,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q147171, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q147171 P625; modern Zaoyang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "gucheng-xiangyang-seat",
+    "longitude": 111.63413,
+    "latitude": 32.26591,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199165, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1199165 P625; modern Gucheng County proxy; modern county proxy retained at low confidence pending second-source confirmation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern county proxy retained at low confidence pending second-source confirmation"
+    }
+  },
+  {
+    "id": "guanghua-seat",
+    "longitude": 111.66953,
+    "latitude": 32.38494,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1359204, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1359204 P625; modern Laohekou City proxy; historical Guanghua County to modern Laohekou proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; historical Guanghua County to modern Laohekou proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yun-yunyang-seat",
+    "longitude": 110.80714,
+    "latitude": 32.83921,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199133, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1199133 P625; modern Yunyang District proxy; historical Yun County to modern Yunyang proxy; administrative change and exact old administrative compound remain unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; historical Yun County to modern Yunyang proxy; administrative change and exact old administrative compound remain unresolved"
+    }
+  },
+  {
+    "id": "fang-seat",
+    "longitude": 110.73587,
+    "latitude": 32.05472,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1198864, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1198864 P625; modern Fang County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "zhushan-seat",
+    "longitude": 110.22752,
+    "latitude": 32.22547,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q198253, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q198253 P625; modern Zhushan County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "zhuxi-seat",
+    "longitude": 109.7123,
+    "latitude": 32.31647,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q198256, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q198256 P625; modern Zhuxi County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "shangjin-seat",
+    "longitude": 110.03806,
+    "latitude": 33.14408,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q10867581, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q10867581 P625; modern Shangjin Town proxy; historical Shangjin County to modern Shangjin Town proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; historical Shangjin County to modern Shangjin Town proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yunxi-seat",
+    "longitude": 110.42153,
+    "latitude": 32.99392,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1154509, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1154509 P625; modern Yunxi County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "baokang-seat",
+    "longitude": 111.25529,
+    "latitude": 31.87738,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q807073, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q807073 P625; modern Baokang County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xiangyin-seat",
+    "longitude": 112.88219,
+    "latitude": 28.68245,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199408, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199408 P625; modern Xiangyin County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xiangtan-seat",
+    "longitude": 112.94551,
+    "latitude": 27.78256,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1375015, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1375015 P625; modern Xiangtan County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "liuyang-seat",
+    "longitude": 113.6375,
+    "latitude": 28.1675,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1025444, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1025444 P625; modern Liuyang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "liling-seat",
+    "longitude": 113.49459,
+    "latitude": 27.66093,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q604609, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q604609 P625; modern Liling City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "ningxiang-changsha-seat",
+    "longitude": 112.554,
+    "latitude": 28.3147,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1374884, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374884 P625; modern Ningxiang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yiyang-seat",
+    "longitude": 112.333333333,
+    "latitude": 28.583333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q416669, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q416669 P625; modern Yiyang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xiangxiang-seat",
+    "longitude": 112.52229,
+    "latitude": 27.73894,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1207051, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1207051 P625; modern Xiangxiang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "you-seat",
+    "longitude": 113.34097,
+    "latitude": 27.00775,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1356807, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356807 P625; modern You County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "anhua-seat",
+    "longitude": 111.21709,
+    "latitude": 28.38087,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q545479, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q545479 P625; modern Anhua County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "taoyuan-changde-seat",
+    "longitude": 111.47693,
+    "latitude": 28.90365,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1338527, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338527 P625; modern Taoyuan County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "longyang-seat",
+    "longitude": 111.96143,
+    "latitude": 28.90894,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1338649, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1338649 P625; modern Hanshou County proxy; historical Longyang County to modern Hanshou proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; historical Longyang County to modern Hanshou proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yuanjiang-changde-seat",
+    "longitude": 112.35954,
+    "latitude": 28.84174,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1374948, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374948 P625; modern Yuanjiang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "hengshan-hengzhou-seat",
+    "longitude": 112.86347,
+    "latitude": 27.2399,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1337942, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1337942 P625; modern Hengshan County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "leiyang-hengzhou-seat",
+    "longitude": 112.8457,
+    "latitude": 26.4179,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1025448, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1025448 P625; modern Leiyang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "changning-hengzhou-seat",
+    "longitude": 112.39134,
+    "latitude": 26.41028,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q574675, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q574675 P625; modern Changning City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "anren-hengzhou-seat",
+    "longitude": 113.26773,
+    "latitude": 26.71181,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q568639, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q568639 P625; modern Anren County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "ling-hengzhou-seat",
+    "longitude": 113.77017,
+    "latitude": 26.49204,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q194942, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q194942 P625; modern Yanling County proxy; historical Ling County to modern Yanling proxy; name change and exact old administrative compound remain unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; historical Ling County to modern Yanling proxy; name change and exact old administrative compound remain unresolved"
+    }
+  },
+  {
+    "id": "guiyang-hengzhou-seat",
+    "longitude": 112.72829,
+    "latitude": 25.74856,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1338770, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1338770 P625; modern Guiyang County proxy; shared modern Guiyang County proxy; the historical homonymous identity remains separate"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; shared modern Guiyang County proxy; the historical homonymous identity remains separate"
+    }
+  },
+  {
+    "id": "linwu-hengzhou-seat",
+    "longitude": 112.55608,
+    "latitude": 25.28167,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1338742, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338742 P625; modern Linwu County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "lanshan-hengzhou-seat",
+    "longitude": 112.19019,
+    "latitude": 25.37872,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199634, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199634 P625; modern Lanshan County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "qiyang-yongzhou-seat",
+    "longitude": 111.84812,
+    "latitude": 26.58949,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199641, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199641 P625; modern Qiyang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "dongan-yongzhou-seat",
+    "longitude": 111.29822,
+    "latitude": 26.40037,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199543, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199543 P625; modern Dong'an County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "daozhou-yongzhou-seat",
+    "longitude": 111.58605,
+    "latitude": 25.51769,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1165386, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1165386 P625; modern Daoxian County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "ningyuan-daozhou-seat",
+    "longitude": 111.93781,
+    "latitude": 25.58784,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q540493, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q540493 P625; modern Ningyuan County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "jianghua-daozhou-seat",
+    "longitude": 111.57246,
+    "latitude": 25.18369,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q212233, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q212233 P625; modern Jianghua Yao Autonomous County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yongming-daozhou-seat",
+    "longitude": 111.34757,
+    "latitude": 25.26693,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q940347, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q940347 P625; modern Jiangyong County proxy; historical Yongming County to modern Jiangyong proxy; name change and exact old administrative compound remain unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; historical Yongming County to modern Jiangyong proxy; name change and exact old administrative compound remain unresolved"
+    }
+  },
+  {
+    "id": "yongxing-chenzhou-seat",
+    "longitude": 113.11047,
+    "latitude": 26.12867,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1356285, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356285 P625; modern Yongxing County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yizhang-chenzhou-seat",
+    "longitude": 112.94605,
+    "latitude": 25.40235,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q188427, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q188427 P625; modern Yizhang County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xingning-chenzhou-seat",
+    "longitude": 113.23019,
+    "latitude": 25.97549,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q206996, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q206996 P625; modern Zixing City proxy; historical Xingning County to modern Zixing proxy; name change and exact old administrative compound remain unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; historical Xingning County to modern Zixing proxy; name change and exact old administrative compound remain unresolved"
+    }
+  },
+  {
+    "id": "guiyang-chenzhou-seat",
+    "longitude": 112.72829,
+    "latitude": 25.74856,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1338770, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1338770 P625; modern Guiyang County proxy; shared modern Guiyang County proxy; the historical homonymous identity remains separate"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; shared modern Guiyang County proxy; the historical homonymous identity remains separate"
+    }
+  },
+  {
+    "id": "guidong-chenzhou-seat",
+    "longitude": 113.94167,
+    "latitude": 26.07839,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199550, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199550 P625; modern Guidong County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xinhua-baoqing-seat",
+    "longitude": 111.33,
+    "latitude": 27.725,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199591, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199591 P625; modern Xinhua County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "chengbu-baoqing-seat",
+    "longitude": 110.30852,
+    "latitude": 26.36272,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1069937, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1069937 P625; modern Chengbu Miao Autonomous County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "wugang-baoqing-seat",
+    "longitude": 110.62928,
+    "latitude": 26.73455,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1344873, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1344873 P625; modern Wugang City proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xinning-wugang-seat",
+    "longitude": 110.85338,
+    "latitude": 26.44194,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199120, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199120 P625; modern Xinning County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "luxi-chenzhou-seat",
+    "longitude": 110.20992,
+    "latitude": 28.21883,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q596174, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q596174 P625; modern Luxi County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "chenxi-chenzhou-seat",
+    "longitude": 110.19174,
+    "latitude": 28.00835,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199540, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199540 P625; modern Chenxi County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "xupu-chenzhou-seat",
+    "longitude": 110.5893,
+    "latitude": 27.90669,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1338905, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338905 P625; modern Xupu County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "yuanzhou-chenzhou-seat",
+    "longitude": 109.59047,
+    "latitude": 27.35029,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q197787, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q197787 P625; modern Zhijiang Dong Autonomous County proxy; historical Yuanzhou to modern Zhijiang proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the third Huguang batch; historical Yuanzhou to modern Zhijiang proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "qianyang-yuanzhou-seat",
+    "longitude": 109.81413,
+    "latitude": 27.19395,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q11179847, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q11179847 P625; modern Qiancheng Town proxy; historical Qianyang County to modern Qiancheng proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; historical Qianyang County to modern Qiancheng proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "mayang-yuanzhou-seat",
+    "longitude": 109.79881,
+    "latitude": 27.86732,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q941743, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q941743 P625; modern Mayang Miao Autonomous County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "huitong-jingzhou-seat",
+    "longitude": 109.71625,
+    "latitude": 26.87539,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199517, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199517 P625; modern Huitong County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the first Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "tongdao-jingzhou-seat",
+    "longitude": 109.77826,
+    "latitude": 26.15754,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1199383, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199383 P625; modern Tongdao Dong Autonomous County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "suining-jingzhou-seat",
+    "longitude": 110.15131,
+    "latitude": 26.58449,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1374551, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374551 P625; modern Suining County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  },
+  {
+    "id": "tianzhu-jingzhou-seat",
+    "longitude": 109.20649,
+    "latitude": 26.91253,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-place proxy independently located from Wikidata Q1152639, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1152639 P625; modern Tianzhu County proxy; modern administrative proxy; exact old administrative compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
+    }
+  }
+]

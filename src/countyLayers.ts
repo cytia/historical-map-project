@@ -1,9 +1,16 @@
 import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
-import { counties, getTopLevelUnitId, isDescendantOf, seats } from "./data";
+import {
+  administrativeAffiliationIds,
+  counties,
+  getTopLevelUnitId,
+  isDescendantOf,
+  seats,
+} from "./data";
+import { affiliationColorExpression } from "./mapDisplay";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { curvedCoordinates } from "./relationLayers";
 import { defaultTheme } from "./theme";
-import type { AdministrativeDisplayScope } from "./types";
+import type { AdministrativeDisplayScope, MapDisplayMode } from "./types";
 
 const tokens = defaultTheme.map;
 const sourceId = "counties";
@@ -16,6 +23,7 @@ export interface CountyLayerSelection {
   selectedCountyId: string | null;
   regionId: string | null;
   scope: AdministrativeDisplayScope;
+  displayMode: MapDisplayMode;
 }
 
 function fadeDuration() {
@@ -94,6 +102,18 @@ function radius(selectedUnitId: string | null, selectedCountyId: string | null):
   ];
 }
 
+function pointColor(selection: CountyLayerSelection): ExpressionSpecification {
+  const affiliationColor = affiliationColorExpression(
+    selection.displayMode,
+    administrativeAffiliationIds,
+  );
+  return ["case",
+    ["==", ["get", "id"], selection.selectedCountyId ?? selection.selectedUnitId ?? ""],
+    tokens.countySelected,
+    affiliationColor,
+  ] as ExpressionSpecification;
+}
+
 export function addCountyLayers(
   map: Map,
   selection: CountyLayerSelection,
@@ -108,8 +128,7 @@ export function addCountyLayers(
       "line-opacity": selection.selectedUnitId ? 0.78 : 0, "line-opacity-transition": { duration } } });
   map.addLayer({ id: layerIds[1], type: "circle", source: sourceId,
     paint: { "circle-radius": radius(selection.selectedUnitId, selection.selectedCountyId),
-      "circle-color": ["case", ["==", ["get", "id"], selection.selectedCountyId ?? selection.selectedUnitId ?? ""],
-        tokens.countySelected, ["==", ["get", "kind"], "department"], tokens.seat, tokens.county],
+      "circle-color": pointColor(selection),
       "circle-stroke-width": 1.5, "circle-stroke-color": tokens.seatRing,
       "circle-opacity": selection.selectedUnitId ? 1 : 0, "circle-opacity-transition": { duration } } });
   map.addLayer({ id: layerIds[2], type: "symbol", source: sourceId,
@@ -145,7 +164,5 @@ export function setCountySelection(map: Map, selection: CountyLayerSelection) {
   requestAnimationFrame(() => setOpacity(map, true));
   if (!map.getLayer(layerIds[1])) return;
   map.setPaintProperty(layerIds[1], "circle-radius", radius(selection.selectedUnitId, selection.selectedCountyId));
-  map.setPaintProperty(layerIds[1], "circle-color", ["case",
-    ["==", ["get", "id"], selection.selectedCountyId ?? selection.selectedUnitId ?? ""], tokens.countySelected,
-    ["==", ["get", "kind"], "department"], tokens.seat, tokens.county]);
+  map.setPaintProperty(layerIds[1], "circle-color", pointColor(selection));
 }

@@ -180,6 +180,8 @@ button { color: inherit; }
   font-weight: 700;
   letter-spacing: 0.12em;
 }
+.layer-bar-label-secondary { margin-left: 2px; padding-left: 0; border-left: 0; }
+.layer-bar-divider { flex: 0 0 1px; height: 22px; margin: 0 4px; background: var(--color-border); }
 .layer-button {
   flex: 0 0 48px;
   height: 40px;

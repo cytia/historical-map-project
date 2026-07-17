@@ -1,0 +1,2011 @@
+[
+  {
+    "id": "guangzhou-city",
+    "longitude": 113.26,
+    "latitude": 23.13,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Represents the shared Panyu and Nanhai prefectural city; exact compound remains unresolved"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "qujiang-seat",
+    "longitude": 113.6,
+    "latitude": 24.81,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 曲江 and the Shaozhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "baochang-seat",
+    "longitude": 114.31,
+    "latitude": 25.12,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 保昌 and the Nanxiong prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "guishan-seat",
+    "longitude": 114.42,
+    "latitude": 23.11,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 归善 and the Huizhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "haiyang-guangdong-seat",
+    "longitude": 116.63,
+    "latitude": 23.67,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 海阳 and the Chaozhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point; ID distinguishes historical homonyms"
+    }
+  },
+  {
+    "id": "gaoyao-seat",
+    "longitude": 112.47,
+    "latitude": 23.05,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 高要 and the Zhaoqing prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "maoming-seat",
+    "longitude": 110.85,
+    "latitude": 21.92,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Gaozhou historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with the historical Maoming seat at Gaozhou, not modern central Maoming"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "haikang-seat",
+    "longitude": 110.1,
+    "latitude": 20.91,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Leizhou historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 海康 and the Leizhou prefectural city"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "hepu-seat",
+    "longitude": 109.2,
+    "latitude": 21.666666666667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1268277, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1268277 P625 coordinates for the modern Hepu County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Hepu County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "qiongshan-seat",
+    "longitude": 110.384255,
+    "latitude": 19.984255,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1022262, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1022262 P625 coordinates for the modern Qiongshan District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Qiongshan District proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "luoding-seat",
+    "longitude": 111.57,
+    "latitude": 22.77,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Approximate correspondence with 罗定州"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+    }
+  },
+  {
+    "id": "shunde-guangzhou-seat",
+    "longitude": 113.28492,
+    "latitude": 22.7957,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q945428, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q945428 P625 coordinates for the modern Shunde District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Shunde District proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "dongguan-guangzhou-seat",
+    "longitude": 113.74928,
+    "latitude": 23.04749,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q59218, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q59218 P625 coordinates for the modern Dongguan City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Dongguan City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "xinan-guangzhou-seat",
+    "longitude": 114.05444444444444,
+    "latitude": 22.546666666666667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q15174, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q15174 P625 coordinates for the modern Shenzhen City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Xin'an County is represented by a modern Shenzhen-area proxy."
+    }
+  },
+  {
+    "id": "sanshui-guangzhou-seat",
+    "longitude": 112.897778,
+    "latitude": 23.239444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q769621, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q769621 P625 coordinates for the modern Sanshui District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Sanshui District proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "zengcheng-guangzhou-seat",
+    "longitude": 113.8247,
+    "latitude": 23.293,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q189529, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q189529 P625 coordinates for the modern Zengcheng District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Zengcheng District proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "longmen-guangzhou-seat",
+    "longitude": 114.25269,
+    "latitude": 23.72977,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q924542, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q924542 P625 coordinates for the modern Longmen County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Longmen County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "xiangshan-guangzhou-seat",
+    "longitude": 113.35,
+    "latitude": 22.533333333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q59223, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q59223 P625 coordinates for the modern Zhongshan City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Xiangshan County is represented by the modern Zhongshan City proxy."
+    }
+  },
+  {
+    "id": "xinhui-guangzhou-seat",
+    "longitude": 113.03476,
+    "latitude": 22.51957,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023903, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023903 P625 coordinates for the modern Xinhui District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Xinhui District proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "xinning-guangzhou-seat",
+    "longitude": 112.785,
+    "latitude": 22.248611,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q164904, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q164904 P625 coordinates for the modern Taishan City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Xinning County is represented by the modern Taishan City proxy."
+    }
+  },
+  {
+    "id": "conghua-guangzhou-seat",
+    "longitude": 113.58285,
+    "latitude": 23.5484,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023907, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023907 P625 coordinates for the modern Conghua District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Conghua District proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "qingyuan-guangzhou-seat",
+    "longitude": 113.05075,
+    "latitude": 23.68425,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q59213, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q59213 P625 coordinates for the modern Qingyuan City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Qingyuan City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "yangshan-lianzhou-seat",
+    "longitude": 112.63215,
+    "latitude": 24.4755,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q286151, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q286151 P625 coordinates for the modern Yangshan County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Yangshan County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "lianshan-lianzhou-seat",
+    "longitude": 112.08204,
+    "latitude": 24.56939,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023908, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023908 P625 coordinates for the modern Lianshan Zhuang and Yao Autonomous County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Lianshan Zhuang and Yao Autonomous County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "lianzhou-guangzhou-seat",
+    "longitude": 112.37346,
+    "latitude": 24.78675,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023910, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023910 P625 coordinates for the modern Lianzhou City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Lianzhou City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "lechang-shaozhou-seat",
+    "longitude": 113.34724,
+    "latitude": 25.13067,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023909, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023909 P625 coordinates for the modern Lechang City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Lechang City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "yingde-shaozhou-seat",
+    "longitude": 113.40416666666667,
+    "latitude": 24.18777777777778,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1028091, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1028091 P625 coordinates for the modern Yingde City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Yingde City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "renhua-shaozhou-seat",
+    "longitude": 113.74476,
+    "latitude": 25.08951,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1111625, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1111625 P625 coordinates for the modern Renhua County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Renhua County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "ruyuan-shaozhou-seat",
+    "longitude": 113.27488,
+    "latitude": 24.77793,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q762968, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q762968 P625 coordinates for the modern Ruyuan Yao Autonomous County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Ruyuan Yao Autonomous County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "wengyuan-shaozhou-seat",
+    "longitude": 114.12824,
+    "latitude": 24.35744,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374780, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374780 P625 coordinates for the modern Wengyuan County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Wengyuan County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "shixing-nanxiong-seat",
+    "longitude": 114.06204,
+    "latitude": 24.95141,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1346567, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1346567 P625 coordinates for the modern Shixing County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Shixing County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "deqing-zhaoqing-seat",
+    "longitude": 111.78032,
+    "latitude": 23.14485,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1191993, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1191993 P625 coordinates for the modern Deqing County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Deqing County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "gaoming-zhaoqing-seat",
+    "longitude": 112.88499,
+    "latitude": 22.90435,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q603151, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q603151 P625 coordinates for the modern Gaoming District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Gaoming District proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "sihui-zhaoqing-seat",
+    "longitude": 112.69564,
+    "latitude": 23.34476,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1209153, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1209153 P625 coordinates for the modern Sihui City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Sihui City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "xinxing-zhaoqing-seat",
+    "longitude": 112.22515,
+    "latitude": 22.70027,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q287273, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q287273 P625 coordinates for the modern Xinxing County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Xinxing County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "yangchun-zhaoqing-seat",
+    "longitude": 111.78465,
+    "latitude": 22.17166,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023923, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023923 P625 coordinates for the modern Yangchun City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Yangchun City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "yangjiang-zhaoqing-seat",
+    "longitude": 111.96272,
+    "latitude": 21.85563,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q59209, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q59209 P625 coordinates for the modern Yangjiang City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Yangjiang City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "enping-zhaoqing-seat",
+    "longitude": 112.31307,
+    "latitude": 22.18793,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1343673, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1343673 P625 coordinates for the modern Enping City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Enping City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "guangning-zhaoqing-seat",
+    "longitude": 112.43352,
+    "latitude": 23.63322,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q991381, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q991381 P625 coordinates for the modern Guangning County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Guangning County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "fengchuan-deqing-seat",
+    "longitude": 111.49809,
+    "latitude": 23.43932,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q593266, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q593266 P625 coordinates for the modern Fengkai County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Fengchuan County is represented by the modern Fengkai County proxy."
+    }
+  },
+  {
+    "id": "kaijian-deqing-seat",
+    "longitude": 111.49809,
+    "latitude": 23.43932,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q593266, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q593266 P625 coordinates for the modern Fengkai County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Kaijian County is represented by the modern Fengkai County proxy."
+    }
+  },
+  {
+    "id": "boluo-huizhou-seat",
+    "longitude": 114.2801,
+    "latitude": 23.17067,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q728269, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q728269 P625 coordinates for the modern Boluo County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Boluo County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "changning-huizhou-seat",
+    "longitude": 114.20406,
+    "latitude": 24.06063,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1346606, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1346606 P625 coordinates for the modern Xinfeng County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Changning County is represented by the modern Xinfeng County proxy."
+    }
+  },
+  {
+    "id": "yongan-huizhou-seat",
+    "longitude": 115.17779,
+    "latitude": 23.63614,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q202844, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q202844 P625 coordinates for the modern Zijin County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Yong'an County is represented by the modern Zijin County proxy."
+    }
+  },
+  {
+    "id": "haifeng-huizhou-seat",
+    "longitude": 115.33201,
+    "latitude": 22.97284,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1355997, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1355997 P625 coordinates for the modern Haifeng County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Haifeng County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "longchuan-huizhou-seat",
+    "longitude": 115.25151,
+    "latitude": 24.10447,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356029, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1356029 P625 coordinates for the modern Longchuan County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Longchuan County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "changle-huizhou-seat",
+    "longitude": 115.76993,
+    "latitude": 23.93033,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374525, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1374525 P625 coordinates for the modern Wuhua County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Changle County is represented by the modern Wuhua County proxy."
+    }
+  },
+  {
+    "id": "xingning-huizhou-seat",
+    "longitude": 115.66694444444,
+    "latitude": 24.168055555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023920, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023920 P625 coordinates for the modern Xingning City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Xingning City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "heyuan-huizhou-seat",
+    "longitude": 114.69229,
+    "latitude": 23.75033,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q59205, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q59205 P625 coordinates for the modern Heyuan City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Heyuan City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "heping-huizhou-seat",
+    "longitude": 114.93552,
+    "latitude": 24.44613,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1346610, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1346610 P625 coordinates for the modern Heping County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Heping County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "chaoyang-chaozhou-seat",
+    "longitude": 116.59778,
+    "latitude": 23.26191,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1062618, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1062618 P625 coordinates for the modern Chaoyang District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Chaoyang District proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "jieyang-chaozhou-seat",
+    "longitude": 116.36495,
+    "latitude": 23.55334,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q26323, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q26323 P625 coordinates for the modern Jieyang City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Jieyang City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "chengxiang-chaozhou-seat",
+    "longitude": 116.11944444444,
+    "latitude": 24.321388888889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1209086, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1209086 P625 coordinates for the modern Meixian District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Chengxiang County is represented by the modern Meixian District proxy."
+    }
+  },
+  {
+    "id": "raoping-chaozhou-seat",
+    "longitude": 116.99926,
+    "latitude": 23.67278,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1209160, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1209160 P625 coordinates for the modern Raoping County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Raoping County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "huilai-chaozhou-seat",
+    "longitude": 116.29076,
+    "latitude": 23.03223,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1346650, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1346650 P625 coordinates for the modern Huilai County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Huilai County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "dabu-chaozhou-seat",
+    "longitude": 116.6912,
+    "latitude": 24.35549,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1156607, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1156607 P625 coordinates for the modern Dabu County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Dabu County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "pingyuan-chaozhou-seat",
+    "longitude": 115.88865,
+    "latitude": 24.57293,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1355986, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1355986 P625 coordinates for the modern Pingyuan County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Pingyuan County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "puning-chaozhou-seat",
+    "longitude": 116.15861,
+    "latitude": 23.29929,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1346536, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1346536 P625 coordinates for the modern Puning City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Puning City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "chenghai-chaozhou-seat",
+    "longitude": 116.75966,
+    "latitude": 23.46865,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1028088, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1028088 P625 coordinates for the modern Chenghai District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Chenghai District proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "huazhou-gaozhou-seat",
+    "longitude": 110.62936,
+    "latitude": 21.65401,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374792, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374792 P625 coordinates for the modern Huazhou City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Huazhou City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "dianbai-gaozhou-seat",
+    "longitude": 111.00315,
+    "latitude": 21.52515,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1208952, guided by the Ming History geographic description; display coordinate nudged inland by about 1.7 km because the source point falls in the project's natural-reference ocean polygon",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1208952 P625 coordinates for the modern Dianbai District proxy; project coordinate nudged inland for visual continuity because the source point falls in the project's natural-reference ocean polygon"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy, then nudged the Dianbai display coordinate inland by about 1.7 km for visual continuity with the natural reference layer."
+    }
+  },
+  {
+    "id": "xinyi-gaozhou-seat",
+    "longitude": 110.93692,
+    "latitude": 22.35586,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1023896, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1023896 P625 coordinates for the modern Xinyi City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Xinyi City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "wuchuan-huazhou-seat",
+    "longitude": 110.77485,
+    "latitude": 21.42832,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q690255, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q690255 P625 coordinates for the modern Wuchuan City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Wuchuan City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "shicheng-huazhou-seat",
+    "longitude": 110.27936,
+    "latitude": 21.61458,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374728, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1374728 P625 coordinates for the modern Lianjiang City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Shicheng County is represented by the modern Lianjiang City proxy."
+    }
+  },
+  {
+    "id": "suixi-leizhou-seat",
+    "longitude": 110.25225,
+    "latitude": 21.37781,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374540, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374540 P625 coordinates for the modern Suixi County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Suixi County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "xuwen-leizhou-seat",
+    "longitude": 110.17138,
+    "latitude": 20.32919,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1374567, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1374567 P625 coordinates for the modern Xuwen County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Xuwen County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "qinzhou-lianzhou-seat",
+    "longitude": 108.61666666667,
+    "latitude": 21.95,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q571766, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Qinzhou state is listed under Lianzhou in the Ming Shi; no valid 1600 CHGIS point was returned"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q571766 P625 coordinates for the modern Qinzhou City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Qinzhou is represented by a modern Qinzhou-area proxy while the 1600 seat correspondence remains unresolved."
+    }
+  },
+  {
+    "id": "lingshan-qinzhou-seat",
+    "longitude": 109.28333333333,
+    "latitude": 22.433333333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1355319, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1355319 P625 coordinates for the modern Lingshan County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Lingshan County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "dan-qiongzhou-seat",
+    "longitude": 109.58333333333,
+    "latitude": 19.5,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1015132, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1015132 P625 coordinates for the modern Danzhou City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Danzhou City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "wanzhou-qiongzhou-seat",
+    "longitude": 110.4,
+    "latitude": 18.8,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q997593, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q997593 P625 coordinates for the modern Wanning City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Wanzhou is represented by a modern Wanning-area proxy."
+    }
+  },
+  {
+    "id": "yazhou-qiongzhou-seat",
+    "longitude": 109.50361111111111,
+    "latitude": 18.253333333333334,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q319804, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Yazhou is listed under Qiongzhou in the Ming Shi; no valid 1600 CHGIS point was returned"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q319804 P625 coordinates for the modern Sanya City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Yazhou is represented by a modern Sanya-area proxy."
+    }
+  },
+  {
+    "id": "chengmai-qiongzhou-seat",
+    "longitude": 109.98611111111,
+    "latitude": 19.691111111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q511654, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q511654 P625 coordinates for the modern Chengmai County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Chengmai County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "lingao-qiongzhou-seat",
+    "longitude": 109.71277777778,
+    "latitude": 19.801666666667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1028107, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1028107 P625 coordinates for the modern Lingao County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Lingao County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "anding-qiongzhou-seat",
+    "longitude": 110.32945555556,
+    "latitude": 19.701847222222,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1022249, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Anding county is listed under Qiongzhou in the Ming Shi; no valid 1600 CHGIS point was returned"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1022249 P625 coordinates for the modern Ding'an County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Anding County is represented by the modern Ding'an County proxy."
+    }
+  },
+  {
+    "id": "wenchang-qiongzhou-seat",
+    "longitude": 110.75,
+    "latitude": 19.616666666667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q997767, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q997767 P625 coordinates for the modern Wenchang City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Wenchang City proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "huitong-qiongzhou-seat",
+    "longitude": 110.46416666667,
+    "latitude": 19.243055555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1005059, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1005059 P625 coordinates for the modern Qionghai City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Huitong County is represented by a modern Qionghai-area proxy."
+    }
+  },
+  {
+    "id": "lehui-qiongzhou-seat",
+    "longitude": 110.46416666667,
+    "latitude": 19.243055555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1005059, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1005059 P625 coordinates for the modern Qionghai City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Lehui County is represented by a modern Qionghai-area proxy."
+    }
+  },
+  {
+    "id": "changhua-danzhou-seat",
+    "longitude": 109.08333333333,
+    "latitude": 19.383333333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1027323, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q1027323 P625 coordinates for the modern Changjiang Li Autonomous County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Changhua County was replaced with a modern Changjiang-area proxy."
+    }
+  },
+  {
+    "id": "lingshui-wanzhou-seat",
+    "longitude": 110.038,
+    "latitude": 18.5053,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q944615, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q944615 P625 coordinates for the modern Lingshui Li Autonomous County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Modern Lingshui Li Autonomous County proxy selected for the Guangdong replacement batch."
+    }
+  },
+  {
+    "id": "ganen-yazhou-seat",
+    "longitude": 108.65,
+    "latitude": 19.1,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q174123, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Gan'en county is listed under Yazhou in the Ming Shi; no valid 1600 CHGIS point was returned"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q174123 P625 coordinates for the modern Dongfang City proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Gan'en County is represented by a modern Dongfang-area proxy."
+    }
+  },
+  {
+    "id": "dongan-luoding-seat",
+    "longitude": 112.00009,
+    "latitude": 23.07646,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q233441, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q233441 P625 coordinates for the modern Yun'an District proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Dong'an state and county correspondence remains approximate within the modern Yun'an area."
+    }
+  },
+  {
+    "id": "xining-luoding-seat",
+    "longitude": 111.53048,
+    "latitude": 23.24021,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q668241, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q668241 P625 coordinates for the modern Yunan County proxy; independently selected for the Guangdong replacement batch"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-17",
+      "revisionNote": "Replaced the CHGIS location claim with an independently sourced Wikidata proxy. Historical Xining state and county correspondence remains approximate within the modern Yunan area."
+    }
+  }
+]

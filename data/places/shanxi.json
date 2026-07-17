@@ -1,0 +1,2506 @@
+[
+  {
+    "id": "yangqu-seat",
+    "longitude": 112.56483,
+    "latitude": 37.87375,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_94021; Taiyuan Prefecture at its Yangqu seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Point record hvd_94021, valid 1368-1911; zero-coordinate polygon result excluded"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the non-zero CHGIS prefectural point matching the Yangqu seat"
+    }
+  },
+  {
+    "id": "linfen-seat",
+    "longitude": 111.51543,
+    "latitude": 36.07804,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_94049; Pingyang Prefecture at its Linfen seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_94049, valid 1595-1611"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS prefectural point matching the Linfen seat for 1600"
+    }
+  },
+  {
+    "id": "fenyang-seat",
+    "longitude": 111.77903,
+    "latitude": 37.2634,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_94027; Fenzhou Prefecture at its Fenyang seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Point record hvd_94027, valid 1595-1911; zero-coordinate polygon result excluded"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Uses the prefectural point created for the 1595 elevation of Fenzhou"
+    }
+  },
+  {
+    "id": "changzhi-seat",
+    "longitude": 113.10349,
+    "latitude": 36.18354,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_94066; Luan Prefecture at its Changzhi seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_94066, valid 1529-1911"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS prefectural point matching the Changzhi seat"
+    }
+  },
+  {
+    "id": "datong-seat",
+    "longitude": 113.29639,
+    "latitude": 40.09284,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_115139; Datong Prefecture seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_115139, valid 936-1911; CHGIS parent label is absent"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Ming parentage follows Ming Shi because the CHGIS point omits its parent"
+    }
+  },
+  {
+    "id": "zezhou-seat",
+    "longitude": 112.83916,
+    "latitude": 35.50432,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_94063; Zezhou seat after Jincheng county was merged",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_94063, valid 1368-1727; CHGIS retains a Zhongshusheng parent label"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Direct administration in 1600 follows Ming Shi rather than the stale CHGIS parent label"
+    }
+  },
+  {
+    "id": "liaozhou-seat",
+    "longitude": 113.36811,
+    "latitude": 37.07428,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer state point hvd_94031; Liaozhou seat after Liaoshan county was merged",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_94031, valid 1369-1911"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-13",
+      "revisionNote": "Added the CHGIS state point matching the Liaozhou seat"
+    }
+  },
+  {
+    "id": "shanxi-pingding-seat",
+    "longitude": 113.622,
+    "latitude": 37.789,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 平定州; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-xinzhou-seat",
+    "longitude": 112.734,
+    "latitude": 38.416,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 忻州; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-daizhou-seat",
+    "longitude": 112.94904,
+    "latitude": 39.06039,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95101",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95101; valid 1375 ~ 1723; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-kelan-seat",
+    "longitude": 111.56995,
+    "latitude": 38.70397,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95576",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95576; valid 1375 ~ 1911; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-baode-seat",
+    "longitude": 111.07948,
+    "latitude": 39.01241,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95001",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95001; valid 1376 ~ 1723; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-puzhou-seat",
+    "longitude": 110.7,
+    "latitude": 34.87,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 蒲州; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-jiezhou-seat",
+    "longitude": 110.98,
+    "latitude": 35.02,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 解州; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-jiangzhou-seat",
+    "longitude": 111.22,
+    "latitude": 35.62,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 绛州; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-huozhou-seat",
+    "longitude": 111.72808,
+    "latitude": 36.56382,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_94043",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_94043; valid 1370 ~ 1771; CHGIS parent label 山西省 (Shanxi Sheng); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-jizhou-pingyang-seat",
+    "longitude": 110.68,
+    "latitude": 36.1,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 吉州; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-xizhou-seat",
+    "longitude": 110.93065,
+    "latitude": 36.68763,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_94039",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_94039; valid 1369 ~ 1611; CHGIS parent label 山西省 (Shanxi Sheng); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-yongning-seat",
+    "longitude": 111.13518,
+    "latitude": 37.51011,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95202",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95202; valid 1567 ~ 1911; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-qinzhou-seat",
+    "longitude": 112.69,
+    "latitude": 36.76,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 沁州; no valid 1600 CHGIS point was returned"
+      },
+      {
+        "sourceId": "shanxi-tongzhi-geography",
+        "claim": "time",
+        "confidence": "high",
+        "note": "1600 administrative placement follows the Shanxi temporal roster and its 1595/1604 transition notes"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-hunyuan-seat",
+    "longitude": 113.6849,
+    "latitude": 39.69633,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95048",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95048; valid 1214 ~ 1911; CHGIS parent label 大同府 (Datongfu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-yingzhou-seat",
+    "longitude": 113.187,
+    "latitude": 39.56,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 应州; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-shuozhou-seat",
+    "longitude": 112.42152,
+    "latitude": 39.30807,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95529",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95529; valid 1369 ~ 1911; CHGIS parent label 大同府 (Datongfu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-weizhou-seat",
+    "longitude": 114.56905,
+    "latitude": 39.84054,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_88273",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_88273; valid 0 ~ 1911; CHGIS parent label 宣化府 (Xuanhua Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-yangqu-seat",
+    "longitude": 112.56483,
+    "latitude": 37.87375,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95638",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95638; valid 1126 ~ 1911; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-taiyuan-seat",
+    "longitude": 112.473,
+    "latitude": 37.699,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 太原; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-yuci-seat",
+    "longitude": 112.74468,
+    "latitude": 37.67847,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95649",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95649; valid 590 ~ 1911; CHGIS parent label 并州 (Bing Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-taigu-seat",
+    "longitude": 112.55276,
+    "latitude": 37.42551,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95594",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95594; valid 598 ~ 1911; CHGIS parent label 并州 (Bing Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-qi-seat",
+    "longitude": 112.3153,
+    "latitude": 37.35382,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95587",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95587; valid 590 ~ 1911; CHGIS parent label 并州 (Bing Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-xugou-seat",
+    "longitude": 112.509,
+    "latitude": 37.55718,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95625",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95625; valid 1189 ~ 1911; CHGIS parent label 太原郡 (Taiyuan Jun); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-qingyuan-seat",
+    "longitude": 112.509,
+    "latitude": 37.55718,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95624",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95624; valid 618 ~ 1762; CHGIS parent label 并州 (Bing Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-jiaocheng-seat",
+    "longitude": 112.15627,
+    "latitude": 37.54441,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95570",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95570; valid 691 ~ 1911; CHGIS parent label 太原府 (Taiyuanfu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-wenshui-seat",
+    "longitude": 112.02419,
+    "latitude": 37.43698,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95609",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95609; valid 1099 ~ 1911; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-shouyang-seat",
+    "longitude": 113.176,
+    "latitude": 37.895,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 寿阳; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-yu-seat",
+    "longitude": 113.412,
+    "latitude": 38.085,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 盂; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-jingle-seat",
+    "longitude": 111.94011,
+    "latitude": 38.35766,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95688",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95688; valid 1369 ~ 1911; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-hequ-seat",
+    "longitude": 111.21983,
+    "latitude": 39.16982,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95007",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95007; valid 1380 ~ 1764; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-leping-seat",
+    "longitude": 113.6968,
+    "latitude": 37.60836,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95380",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95380; valid 1270 ~ 1795; CHGIS parent label 平定州 (Pingding Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-dingxiang-seat",
+    "longitude": 112.94377,
+    "latitude": 38.49269,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95678",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95678; valid 1086 ~ 1911; CHGIS parent label 忻州 (Xin Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-wutai-seat",
+    "longitude": 113.25921,
+    "latitude": 38.71918,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95133",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95133; valid 1369 ~ 1911; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-fanzhi-seat",
+    "longitude": 113.27181,
+    "latitude": 39.19006,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95113",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95113; valid 1587 ~ 1911; CHGIS parent label 代州 (Dai Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-guo-seat",
+    "longitude": 112.75152,
+    "latitude": 38.88332,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95117",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95117; valid 1369 ~ 1911; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-lan-seat",
+    "longitude": 111.671,
+    "latitude": 38.279,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 岚; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-xing-seat",
+    "longitude": 111.12375,
+    "latitude": 38.47267,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95620",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95620; valid 1369 ~ 1911; CHGIS parent label 岢岚州 (Kelan Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-linfen-county-seat",
+    "longitude": 111.51543,
+    "latitude": 36.07804,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95421",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95421; valid 583 ~ 1911; CHGIS parent label 临汾郡 (Linfen Jun); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-xiangling-seat",
+    "longitude": 111.39649,
+    "latitude": 36.02399,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95446",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95446; valid 1023 ~ 1911; CHGIS parent label 平阳府 (Pingyang Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-hongdong-seat",
+    "longitude": 111.68291,
+    "latitude": 36.2594,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95393",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95393; valid 618 ~ 1911; CHGIS parent label 晋州 (Jin Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-fushan-seat",
+    "longitude": 111.84244,
+    "latitude": 35.96744,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95390",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95390; valid 1305 ~ 1911; CHGIS parent label 晋宁路 (Jinning Lu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-zhaocheng-seat",
+    "longitude": 111.67525,
+    "latitude": 36.39041,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95226",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95226; valid 1127 ~ 1911; CHGIS parent label 平阳府 (Pingyang Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-taiping-seat",
+    "longitude": 111.27406,
+    "latitude": 35.81331,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95733",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95733; valid 633 ~ 1911; CHGIS parent label 绛州 (Jiang Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-yueyang-seat",
+    "longitude": 111.91692,
+    "latitude": 36.2829,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95459",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95459; valid 632 ~ 1911; CHGIS parent label 平阳府 (Pingyang Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-quwo-seat",
+    "longitude": 111.47002,
+    "latitude": 35.64128,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95426",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95426; valid 590 ~ 1911; CHGIS parent label 绛郡 (Jiang Jun); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-yicheng-seat",
+    "longitude": 111.70844,
+    "latitude": 35.73876,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95447",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95447; valid 1271 ~ 1911; CHGIS parent label 平阳府 (Pingyang Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-fenxi-seat",
+    "longitude": 111.56273,
+    "latitude": 36.65054,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95384",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95384; valid 632 ~ 1911; CHGIS parent label 晋州 (Jin Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-pu-seat",
+    "longitude": 111.0968,
+    "latitude": 36.41576,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95658",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95658; valid 1294 ~ 1911; CHGIS parent label 隰州 (Xi Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-shilou-seat",
+    "longitude": 110.82667,
+    "latitude": 36.9957,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95181",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95181; valid 598 ~ 1911; CHGIS parent label 隰州 (Xi Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      },
+      {
+        "sourceId": "shanxi-tongzhi-geography",
+        "claim": "time",
+        "confidence": "high",
+        "note": "1600 administrative placement follows the Shanxi temporal roster and its 1595/1604 transition notes"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-linjin-seat",
+    "longitude": 110.55164,
+    "latitude": 35.09781,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95469",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95469; valid 754 ~ 1911; CHGIS parent label 河中郡 (Hezhong Jun); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-ronghe-seat",
+    "longitude": 110.69,
+    "latitude": 35.42,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 荥河; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-yishi-seat",
+    "longitude": 110.77404,
+    "latitude": 35.14795,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95481",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95481; valid 613 ~ 1911; CHGIS parent label 河东郡 (Hedong Jun); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-wanquan-seat",
+    "longitude": 110.80126,
+    "latitude": 35.36078,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95476",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95476; valid 1278 ~ 1911; CHGIS parent label 河中府 (Hezhongfu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-hejin-seat",
+    "longitude": 110.69781,
+    "latitude": 35.5874,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95233",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95233; valid 1312 ~ 1911; CHGIS parent label 河中府 (Hezhongfu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-anyi-seat",
+    "longitude": 111.04242,
+    "latitude": 35.062,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95272",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95272; valid 769 ~ 1911; CHGIS parent label 陕州 (Shan Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-xia-seat",
+    "longitude": 111.22005,
+    "latitude": 35.13745,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95294",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95294; valid 578 ~ 1911; CHGIS parent label 安邑郡 (Anyi Jun); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-wenxi-seat",
+    "longitude": 111.21721,
+    "latitude": 35.35772,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95254",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95254; valid 948 ~ 1911; CHGIS parent label 解州 (Jie Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-pinglu-seat",
+    "longitude": 111.11333,
+    "latitude": 34.8022,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95282",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95282; valid 742 ~ 1911; CHGIS parent label 陕州 (Shan Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-ruicheng-seat",
+    "longitude": 110.68829,
+    "latitude": 34.69731,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95284",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95284; valid 560 ~ 1911; CHGIS parent label 蒲州 (Pu Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-jishan-seat",
+    "longitude": 110.97883,
+    "latitude": 35.60216,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95237",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95237; valid 598 ~ 1911; CHGIS parent label 绛州 (Jiang Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-jiang-seat",
+    "longitude": 111.56133,
+    "latitude": 35.48924,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95240",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95240; valid 618 ~ 1911; CHGIS parent label 浍州 (Hui Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-yuanqu-seat",
+    "longitude": 111.87706,
+    "latitude": 35.09661,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95261",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95261; valid 1265 ~ 1911; CHGIS parent label 解州 (Jie Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-xiangning-seat",
+    "longitude": 110.83298,
+    "latitude": 35.97318,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95438",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95438; valid 1288 ~ 1911; CHGIS parent label 平阳府 (Pingyang Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-daning-seat",
+    "longitude": 110.75,
+    "latitude": 36.47,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History geographic description; no valid 1600 CHGIS point was returned",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern historical-city proxy for 大宁; no valid 1600 CHGIS point was returned"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Added a reversible low-confidence point for the 1600 Shanxi map skeleton"
+    }
+  },
+  {
+    "id": "shanxi-yonghe-seat",
+    "longitude": 110.63348,
+    "latitude": 36.76146,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95673",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95673; valid 619 ~ 1911; CHGIS parent label 隰州 (Xi Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-fenyang-seat",
+    "longitude": 111.77903,
+    "latitude": 37.2634,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95144",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95144; valid 1595 ~ 1911; CHGIS parent label 汾州府 (Fenzhou Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-xiaoyi-seat",
+    "longitude": 111.78277,
+    "latitude": 37.14323,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95190",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95190; valid 1086 ~ 1911; CHGIS parent label 汾州 (Fen Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-pingyao-seat",
+    "longitude": 112.1776,
+    "latitude": 37.20726,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95174",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95174; valid 448 ~ 1911; CHGIS parent label 太原郡 (Taiyuan Jun); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-jiexiu-seat",
+    "longitude": 111.91216,
+    "latitude": 37.02647,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95148",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95148; valid 598 ~ 1911; CHGIS parent label 介州 (Jie Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-linxian-seat",
+    "longitude": 110.98312,
+    "latitude": 37.9529,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95160",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95160; valid 1369 ~ 1911; CHGIS parent label 太原府 (Taiyuan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-lingshi-seat",
+    "longitude": 111.77621,
+    "latitude": 36.84215,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95223",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95223; valid 590 ~ 1911; CHGIS parent label 介州 (Jie Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      },
+      {
+        "sourceId": "shanxi-tongzhi-geography",
+        "claim": "time",
+        "confidence": "high",
+        "note": "1600 administrative placement follows the Shanxi temporal roster and its 1595/1604 transition notes"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-ningxiang-seat",
+    "longitude": 111.18813,
+    "latitude": 37.3396,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95165",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95165; valid 1195 ~ 1911; CHGIS parent label 石州 (Shi Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      },
+      {
+        "sourceId": "shanxi-tongzhi-geography",
+        "claim": "time",
+        "confidence": "high",
+        "note": "1600 administrative placement follows the Shanxi temporal roster and its 1595/1604 transition notes"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-qinyuan-seat",
+    "longitude": 112.32956,
+    "latitude": 36.49712,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95511",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95511; valid 1266 ~ 1911; CHGIS parent label 沁州 (Qin Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-wuxiang-seat",
+    "longitude": 112.91627,
+    "latitude": 36.82682,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95520",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95520; valid 1295 ~ 1911; CHGIS parent label 沁州 (Qin Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-changzhi-seat",
+    "longitude": 113.10349,
+    "latitude": 36.18354,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95319",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95319; valid 1529 ~ 1911; CHGIS parent label 潞安府 (Luan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-changzi-seat",
+    "longitude": 112.87379,
+    "latitude": 36.11993,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95322",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95322; valid 598 ~ 1911; CHGIS parent label 上党郡 (Shangdang Jun); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-tunliu-seat",
+    "longitude": 112.88245,
+    "latitude": 36.32195,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95345",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95345; valid 1278 ~ 1911; CHGIS parent label 潞州 (Lu Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-xiangyuan-seat",
+    "longitude": 113.04076,
+    "latitude": 36.53459,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95352",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95352; valid 618 ~ 1911; CHGIS parent label 韩州 (Han Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-lucheng-seat",
+    "longitude": 113.22115,
+    "latitude": 36.33509,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95338",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95338; valid 923 ~ 1911; CHGIS parent label 潞州 (Lu Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-huguan-seat",
+    "longitude": 113.19962,
+    "latitude": 36.1135,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95328",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95328; valid 643 ~ 1911; CHGIS parent label 潞州 (Lu Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-licheng-seat",
+    "longitude": 113.38003,
+    "latitude": 36.50434,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95334",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95334; valid 1086 ~ 1911; CHGIS parent label 隆德府 (Longde Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-pingshun-seat",
+    "longitude": 113.43078,
+    "latitude": 36.20093,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95339",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95339; valid 1529 ~ 1760; CHGIS parent label 潞安府 (Luan Fu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-datong-county-seat",
+    "longitude": 113.29639,
+    "latitude": 40.09284,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95011",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95011; valid 1045 ~ 1911; CHGIS parent label 大同府 (Datongfu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-huairen-seat",
+    "longitude": 113.10321,
+    "latitude": 39.82014,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95037",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95037; valid 1288 ~ 1911; CHGIS parent label 大同府 (Datongfu); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-shanyin-seat",
+    "longitude": 112.94273,
+    "latitude": 39.44044,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95059",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95059; valid 1266 ~ 1911; CHGIS parent label 应州 (Ying Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-mayi-seat",
+    "longitude": 112.60991,
+    "latitude": 39.35357,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95541",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95541; valid 1234 ~ 1795; CHGIS parent label 朔州 (Shuo Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-guangling-seat",
+    "longitude": 114.27605,
+    "latitude": 39.76355,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95027",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95027; valid 1125 ~ 1911; CHGIS parent label 蔚州 (Yu Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-guangchang-seat",
+    "longitude": 114.68877,
+    "latitude": 39.35402,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_44948",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_44948; valid 1368 ~ 1911; CHGIS parent label 蔚州 (Yu Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-lingqiu-seat",
+    "longitude": 114.22922,
+    "latitude": 39.43774,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95054",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95054; valid 1247 ~ 1911; CHGIS parent label 蔚州 (Yu Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-gaoping-seat",
+    "longitude": 112.91959,
+    "latitude": 35.79206,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95712",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95712; valid 569 ~ 1911; CHGIS parent label 高平郡 (Gaoping Jun); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-yangcheng-seat",
+    "longitude": 112.418,
+    "latitude": 35.49059,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95728",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95728; valid 1234 ~ 1911; CHGIS parent label 泽州 (Ze Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-lingchuan-seat",
+    "longitude": 113.27701,
+    "latitude": 35.77813,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95715",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95715; valid 1294 ~ 1911; CHGIS parent label 泽州 (Ze Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-qinshui-seat",
+    "longitude": 112.17013,
+    "latitude": 35.6904,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95721",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95721; valid 583 ~ 1911; CHGIS parent label 泽州 (Ze Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-yushe-seat",
+    "longitude": 112.96366,
+    "latitude": 37.07094,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95312",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95312; valid 1269 ~ 1911; CHGIS parent label 辽州 (Liao Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  },
+  {
+    "id": "shanxi-heshun-seat",
+    "longitude": 113.56688,
+    "latitude": 37.33142,
+    "locationAccuracy": "approximate",
+    "locationMethod": "CHGIS Temporal Gazetteer point hvd_95302",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "chgis-temporal-gazetteer",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Record hvd_95302; valid 1354 ~ 1911; CHGIS parent label 辽州 (Liao Zhou); Ming parentage follows Ming Shi for the 1600 roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+    }
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "pingyi-mahu-military",
+    "name": "平夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "mahu-prefecture",
+    "seatPlaceId": "pingyi-mahu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Mahu longguan-si in the 1600 time slice; 雷坡长官司 is excluded because Ming Shi records it was abolished in Hongwu 26"
+    }
+  },
+  {
+    "id": "manyi-mahu-military",
+    "name": "蛮夷长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "mahu-prefecture",
+    "seatPlaceId": "manyi-mahu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Mahu longguan-si in the 1600 time slice"
+    }
+  },
+  {
+    "id": "muchuan-mahu-military",
+    "name": "沐川长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "mahu-prefecture",
+    "seatPlaceId": "muchuan-mahu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Mahu longguan-si in the 1600 time slice"
+    }
+  },
+  {
+    "id": "baishuijiang-zhenxiong-military",
+    "name": "白水江肸酬长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenxiong-prefecture",
+    "seatPlaceId": "baishuijiang-zhenxiong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Ming Shi name retained verbatim; active Zhenxiong longguan-si in the 1600 time slice"
+    }
+  },
+  {
+    "id": "huaide-zhenxiong-military",
+    "name": "怀德长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenxiong-prefecture",
+    "seatPlaceId": "huaide-zhenxiong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Zhenxiong longguan-si in the 1600 time slice"
+    }
+  },
+  {
+    "id": "weixin-zhenxiong-military",
+    "name": "威信长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenxiong-prefecture",
+    "seatPlaceId": "weixin-zhenxiong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Zhenxiong longguan-si in the 1600 time slice"
+    }
+  },
+  {
+    "id": "guihua-zhenxiong-military",
+    "name": "归化长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenxiong-prefecture",
+    "seatPlaceId": "guihua-zhenxiong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Zhenxiong longguan-si in the 1600 time slice"
+    }
+  },
+  {
+    "id": "anjing-zhenxiong-military",
+    "name": "安静长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "zhenxiong-prefecture",
+    "seatPlaceId": "anjing-zhenxiong-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Active Zhenxiong longguan-si in the 1600 time slice"
+    }
+  },
+  {
+    "id": "yongning-xuanfu-military",
+    "name": "永宁宣抚司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sichuan",
+    "seatPlaceId": "yongning-xuanfu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Sichuan-direct Xuanfusi active in the 1600 time slice"
+    }
+  },
+  {
+    "id": "jiuxing-yongning-military",
+    "name": "九姓长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "yongning-xuanfu-military",
+    "seatPlaceId": "jiuxing-yongning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Yongning Xuanfusi subordinate longguan-si in the 1600 time slice"
+    }
+  },
+  {
+    "id": "taiping-yongning-military",
+    "name": "太平长官司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "yongning-xuanfu-military",
+    "seatPlaceId": "taiping-yongning-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Yongning Xuanfusi subordinate longguan-si; CHGIS record hvd_96353 covers 1468-1643"
+    }
+  },
+  {
+    "id": "tianquan-liufan-military",
+    "name": "天全六番招讨司",
+    "level": "military",
+    "polityId": "ming",
+    "parentId": "sichuan",
+    "seatPlaceId": "tianquan-liufan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Ming Shi records the unit under the Sichuan military-administrative system; CHGIS record hvd_96388 covers 1374-1729"
+    }
+  }
+]

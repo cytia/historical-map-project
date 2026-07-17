@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ming",
+    "name": "大明",
+    "validity": {
+      "from": 1368,
+      "to": 1644,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-11",
+      "revisionNote": "Initial polity record for the 1600 time slice"
+    }
+  }
+]
