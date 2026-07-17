@@ -10,11 +10,11 @@
 
 ## 统计口径
 
-项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）和湖广 107 点（三批）替换后，当前仍由 CHGIS `location` 主张承担坐标的地点为 **688 个，占全部地点 41.9%**。
+项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）、湖广 107 点（三批）和四川 90 点（三批）替换后，按本清单口径当前仍由 CHGIS `location` 主张承担坐标的地点为 **598 个，占全部地点 36.4%**。
 
-迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **676 个唯一编号**和 **668 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
+迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **586 个唯一编号**和 **578 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
 
-当前未迁移记录的定位精度为 `approximate` 688；可信度为 `medium` 685、`low` 3。
+当前未迁移记录的定位精度为 `approximate` 598；可信度为 `medium` 595、`low` 3。
 
 “地点记录数”“唯一 CHGIS 编号数”和“唯一坐标数”不可互换；附郭、共治或项目实体拆分会造成同一 CHGIS 编号或坐标关联多个地点。
 
@@ -23,10 +23,10 @@
 | 类别 | 点位数 | 建议用途 |
 |---|---:|---|
 | 一级行政区域治所 | 5 | 在所属区域批次中优先复核 |
-| 府与直隶州治所 | 55 | 在所属区域批次中优先复核 |
-| 府属州与县治 | 625 | 随所属区域一并替换 |
-| 特殊治理／军事节点 | 3 | 单独研究与复核 |
-| 合计 | 688 | |
+| 府与直隶州治所 | 52 | 在所属区域批次中优先复核 |
+| 府属州与县治 | 541 | 随所属区域一并替换 |
+| 特殊治理／军事节点 | 0 | 单独研究与复核 |
+| 合计 | 598 | |
 
 分类采用互斥判定顺序：一级行政区域 → 府与直隶州 → 特殊治理／军事 → 府属州与县。该顺序只用于避免重复统计，不代表实际替换批次；一个地点与多个行政实体共址时只计一次。
 
@@ -40,7 +40,7 @@
 | 河南 | 97 |
 | 山西 | 88 |
 | 陕西 | 73 |
-| 四川 | 90 |
+| 四川 | 0 |
 | 湖广 | 0 |
 | 浙江 | 0 |
 | 江西 | 0 |
@@ -49,7 +49,7 @@
 | 广西 | 0 |
 | 云南 | 0 |
 | 贵州 | 0 |
-| 合计 | 688 |
+| 合计 | 598 |
 
 ## 独立替换原则
 
@@ -90,7 +90,7 @@
 1. **云贵流程试验：14 点。** 云南 9 点、贵州 5 点，全部为 `approximate` 点；普通连续聚落为中可信，县域代理、迁治旧治和御夷府州代理为低可信。样本包含普通府治、军民府、御夷府州、旧治和铜仁府多 CHGIS 编号，可用于验证独立候选锁定、史料对应、审计保留和商业过滤的完整流程。
 2. **福建普通州县验证：47 点（已完成）。** 福建具有较完整的普通府州县结构，并包含同名消歧和 CHGIS 父标签与《明史》父链不一致的记录，用于补足云贵样本缺少普通县治、附郭共址和密集父链的局限。
 3. **江西压力测试：64 点（已完成）。** 覆盖清江府县共址、普通县治、改名县、撤并县和同名消歧；以独立 Wikidata 坐标替换并通过压力测试后，江西不再由 CHGIS 承担 `location` 主张。
-4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73 → 山西 88 → 四川 90 → 河南 97 → 山东 104 → 湖广 107（三批，已完成）→ 南京 115 → 京师 121；广西 82 点已完成。
+4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73 → 山西 88 → 四川 90（已完成）→ 河南 97 → 山东 104 → 湖广 107（三批，已完成）→ 南京 115 → 京师 121；广西 82 点已完成。
 5. 点位数量不是唯一依据；对外演示、爱发电说明或众筹宣传涉及的区域可以提前，但必须保持该区域完整验收，不能只替换截图范围内的少数点。
 6. 区域内先处理一级行政区域及府、直隶州治所，再处理府属州、县和特殊治理节点；特殊节点不能以普通现代城市代理掩盖制度和驻地不确定性。
 7. 商业构建必须拒绝目标发布区域中任何仍以 CHGIS 或其他非商业、授权不明来源承担定位主张的记录。
@@ -156,6 +156,15 @@
 - 所有候选均保留官方 Wikidata `P625` 原始数值，经度在前；Q ID、来源主张、精度、可信度和审计日期已写入 `data/project.json`。湖广批次唯一 Q ID 为 106 个，其中 1 个现代代理由两个历史点共享。
 - 三批的数据结构、来源引用、WGS 84 坐标范围、湖广目标无 CHGIS `location` 主张和旧编号审计保留检查均通过；`data-validator` 与单元测试通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
+### 四川替换验收
+
+- 90/90 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 87 点、`low` 3 点。
+- 按三批完成：第一批 30 点（清单 599–628），第二批 30 点（629–658），第三批 30 点（659–688）；四川 90 个目标点均不再由 CHGIS `location` 主张承担坐标。
+- 所有候选均保留官方 Wikidata `P625` 原始数值，经度在前；汶川的原始精度 `0.016666666666667` 度已写入来源备注。
+- 定远、石泉、太平长官司保留低可信说明：分别采用武胜县域、北川县曲山镇和兴文县域代理；太平长官司所指现代大坝镇坐标尚未独立匹配。
+- 新宁按现开江县／新宁区域代理，永宁宣抚司按叙永镇代理，均保留“现代代理”语义，不解释为明代行政复合体精确复原。
+- 三批数据结构、来源引用、WGS 84 坐标范围、四川目标无 CHGIS `location` 主张和旧编号审计保留检查均通过；`data-validator` 与单元测试通过。行政单位基线未被修改。
+
 首轮锁定的现代代理如下（坐标来自 Wikidata `P625`，均按 WGS 84 经度在前记录）：
 
 | `placeId` | 现代代理 | Wikidata | 经度 | 纬度 | 可信度 |
@@ -193,7 +202,7 @@
 
 ## 完整点位清单
 
-以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条、“已独立替换（广西两批）”的 82 条和“已独立替换（浙江两批）”的 72 条记录外，其余记录当前状态均为“待独立替换”。
+以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条、“已独立替换（广西两批）”的 82 条、“已独立替换（浙江两批）”的 72 条和“已独立替换（四川三批）”的 90 条记录外，其余记录当前状态均为“待独立替换”。
 
 | # | 一级区域 | 类别 | 行政单位 | 等级 | placeId | CHGIS 编号 | 精度／可信度 | 标记 |
 |---:|---|---|---|---|---|---|---|---|
@@ -795,96 +804,96 @@
 | 596 | 陕西 | 府属州与县治 | 中部县 | county | `zhongbu-seat` | `hvd_70225` | `approximate`／`medium` | 待独立替换 |
 | 597 | 陕西 | 府属州与县治 | 盩厔县 | county | `zhouzhi-seat` | `hvd_70789` | `approximate`／`medium` | 待独立替换 |
 | 598 | 陕西 | 府属州与县治 | 紫阳县 | county | `ziyang-xingan-seat` | `hvd_71210` | `approximate`／`medium` | 待独立替换 |
-| 599 | 四川 | 府与直隶州治所 | 东川军民府 | prefecture | `dongchuan-seat` | `hvd_80090` | `approximate`／`medium` | 待独立替换 |
-| 600 | 四川 | 府与直隶州治所 | 夔州府／奉节县 | prefecture／county | `fengjie-seat` | `hvd_44492` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 601 | 四川 | 府与直隶州治所 | 马湖府／屏山县 | prefecture／county | `pingshan-seat` | `hvd_96639` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 602 | 四川 | 府属州与县治 | 安居县 | county | `anju-chongqing-seat` | `hvd_44729` | `approximate`／`medium` | 待独立替换 |
-| 603 | 四川 | 府属州与县治 | 安县 | county | `an-chengdu-seat` | `hvd_96136` | `approximate`／`medium` | 待独立替换 |
-| 604 | 四川 | 府属州与县治 | 安岳县 | county | `anyue-tongchuan-seat` | `hvd_96334` | `approximate`／`medium` | 待独立替换 |
-| 605 | 四川 | 府属州与县治 | 苍溪县 | county | `cangxi-baoning-seat` | `hvd_44582` | `approximate`／`medium` | 待独立替换 |
-| 606 | 四川 | 府属州与县治 | 大昌县 | county | `dachang-kuizhou-seat` | `hvd_44501` | `approximate`／`medium` | 待独立替换 |
-| 607 | 四川 | 府属州与县治 | 大宁县 | county | `daning-kuizhou-seat` | `hvd_44504` | `approximate`／`medium` | 待独立替换 |
-| 608 | 四川 | 府属州与县治 | 大邑县 | county | `dayi-qiongzhou-seat` | `hvd_96154` | `approximate`／`medium` | 待独立替换 |
-| 609 | 四川 | 府属州与县治 | 大竹县 | county | `dazhu-shunqing-seat` | `hvd_96282` | `approximate`／`medium` | 待独立替换 |
-| 610 | 四川 | 府属州与县治 | 大足县 | county | `dazu-chongqing-seat` | `hvd_44718` | `approximate`／`medium` | 待独立替换 |
-| 611 | 四川 | 府属州与县治 | 德阳县 | county | `deyang-chengdu-seat` | `hvd_96149` | `approximate`／`medium` | 待独立替换 |
-| 612 | 四川 | 府属州与县治 | 垫江县 | county | `dianjiang-chongqing-seat` | `hvd_44546` | `approximate`／`medium` | 待独立替换 |
-| 613 | 四川 | 府属州与县治 | 定远县 | county | `dingyuan-chongqing-seat` | `hvd_44687` | `approximate`／`medium` | 待独立替换 |
-| 614 | 四川 | 府属州与县治 | 东乡县 | county | `dongxiang-kuizhou-seat` | `hvd_96267` | `approximate`／`medium` | 待独立替换 |
-| 615 | 四川 | 府属州与县治 | 峨眉县 | county | `emei-jiading-seat` | `hvd_96066` | `approximate`／`medium` | 待独立替换 |
-| 616 | 四川 | 府属州与县治 | 酆都县 | county | `fengdu-chongqing-seat` | `hvd_44542` | `approximate`／`medium` | 待独立替换 |
-| 617 | 四川 | 府属州与县治 | 涪州 | department | `fuzhou-chongqing-seat` | `hvd_115235` | `approximate`／`medium` | 待独立替换 |
-| 618 | 四川 | 府属州与县治 | 广安州 | department | `guangan-shunqing-seat` | `hvd_96241` | `approximate`／`medium` | 待独立替换 |
-| 619 | 四川 | 府属州与县治 | 广元县 | county | `guangyuan-baoning-seat` | `hvd_44592` | `approximate`／`medium` | 待独立替换 |
-| 620 | 四川 | 府属州与县治 | 合江县 | county | `hejiang-luzhou-seat` | `hvd_96037` | `approximate`／`medium` | 待独立替换 |
-| 621 | 四川 | 府属州与县治 | 合州 | department | `hezhou-chongqing-seat` | `hvd_115318` | `approximate`／`medium` | 待独立替换 |
-| 622 | 四川 | 府属州与县治 | 洪雅县 | county | `hongya-jiading-seat` | `hvd_96068` | `approximate`／`medium` | 待独立替换 |
-| 623 | 四川 | 府属州与县治 | 夹江县 | county | `jiajiang-jiading-seat` | `hvd_96070` | `approximate`／`medium` | 待独立替换 |
-| 624 | 四川 | 府属州与县治 | 犍为县 | county | `jianwei-jiading-seat` | `hvd_96082` | `approximate`／`medium` | 待独立替换 |
-| 625 | 四川 | 府属州与县治 | 简州 | department | `jianzhou-seat` | `hvd_44474` | `approximate`／`medium` | 待独立替换 |
-| 626 | 四川 | 府属州与县治 | 建始县 | county | `jianshi-kuizhou-seat` | `hvd_45915` | `approximate`／`medium` | 待独立替换 |
-| 627 | 四川 | 府属州与县治 | 江安县 | county | `jiangan-luzhou-seat` | `hvd_96048` | `approximate`／`medium` | 待独立替换 |
-| 628 | 四川 | 府属州与县治 | 江津县 | county | `jiangjin-chongqing-seat` | `hvd_44666` | `approximate`／`medium` | 待独立替换 |
-| 629 | 四川 | 府属州与县治 | 江油县 | county | `jiangyou-longan-seat` | `hvd_96004` | `approximate`／`medium` | 待独立替换 |
-| 630 | 四川 | 府属州与县治 | 金堂县 | county | `jintang-seat` | `hvd_44458` | `approximate`／`medium` | 待独立替换 |
-| 631 | 四川 | 府属州与县治 | 井研县 | county | `jingyan-seat` | `hvd_96421` | `approximate`／`medium` | 待独立替换 |
-| 632 | 四川 | 府属州与县治 | 开县 | county | `kai-kuizhou-seat` | `hvd_44511` | `approximate`／`medium` | 待独立替换 |
-| 633 | 四川 | 府属州与县治 | 乐至县 | county | `lezhi-tongchuan-seat` | `hvd_96340` | `approximate`／`medium` | 待独立替换 |
-| 634 | 四川 | 府属州与县治 | 梁山县 | county | `liangshan-kuizhou-seat` | `hvd_44534` | `approximate`／`medium` | 待独立替换 |
-| 635 | 四川 | 府属州与县治 | 邻水县 | county | `linshui-shunqing-seat` | `hvd_96203` | `approximate`／`medium` | 待独立替换 |
-| 636 | 四川 | 府属州与县治 | 芦山县 | county | `lushan-yazhou-seat` | `hvd_96363` | `approximate`／`medium` | 待独立替换 |
-| 637 | 四川 | 府属州与县治 | 罗江县 | county | `luojiang-chengdu-seat` | `hvd_96125` | `approximate`／`medium` | 待独立替换 |
-| 638 | 四川 | 府属州与县治 | 茂州 | department | `maozhou-seat` | `hvd_96054` | `approximate`／`medium` | 待独立替换 |
-| 639 | 四川 | 府属州与县治 | 绵州 | department | `mianzhou-seat` | `hvd_96120` | `approximate`／`medium` | 待独立替换 |
-| 640 | 四川 | 府属州与县治 | 绵竹县 | county | `mianzhu-chengdu-seat` | `hvd_96141` | `approximate`／`medium` | 待独立替换 |
-| 641 | 四川 | 府属州与县治 | 名山县 | county | `mingshan-yazhou-seat` | `hvd_96377` | `approximate`／`medium` | 待独立替换 |
-| 642 | 四川 | 府属州与县治 | 纳溪县 | county | `naxi-luzhou-seat` | `hvd_96044` | `approximate`／`medium` | 待独立替换 |
-| 643 | 四川 | 府属州与县治 | 南部县 | county | `nanbu-baoning-seat` | `hvd_44573` | `approximate`／`medium` | 待独立替换 |
-| 644 | 四川 | 府属州与县治 | 南川县 | county | `nanchuan-chongqing-seat` | `hvd_44702` | `approximate`／`medium` | 待独立替换 |
-| 645 | 四川 | 府属州与县治 | 内江县 | county | `neijiang-seat` | `hvd_96406` | `approximate`／`medium` | 待独立替换 |
-| 646 | 四川 | 府属州与县治 | 彭山县 | county | `pengshan-meizhou-seat` | `hvd_96186` | `approximate`／`medium` | 待独立替换 |
-| 647 | 四川 | 府属州与县治 | 彭县 | county | `peng-seat` | `hvd_44441` | `approximate`／`medium` | 待独立替换 |
-| 648 | 四川 | 府属州与县治 | 蓬溪县 | county | `pengxi-tongchuan-seat` | `hvd_96322` | `approximate`／`medium` | 待独立替换 |
-| 649 | 四川 | 府属州与县治 | 郫县 | county | `pi-seat` | `hvd_44398` | `approximate`／`medium` | 待独立替换 |
-| 650 | 四川 | 府属州与县治 | 蒲江县 | county | `pujiang-qiongzhou-seat` | `hvd_96163` | `approximate`／`medium` | 待独立替换 |
-| 651 | 四川 | 府属州与县治 | 青神县 | county | `qingshen-meizhou-seat` | `hvd_96191` | `approximate`／`medium` | 待独立替换 |
-| 652 | 四川 | 府属州与县治 | 渠县 | county | `qu-shunqing-seat` | `hvd_96278` | `approximate`／`medium` | 待独立替换 |
-| 653 | 四川 | 府属州与县治 | 仁寿县 | county | `renshou-seat` | `hvd_96413` | `approximate`／`medium` | 待独立替换 |
-| 654 | 四川 | 府属州与县治 | 荣昌县 | county | `rongchang-chongqing-seat` | `hvd_44714` | `approximate`／`medium` | 待独立替换 |
-| 655 | 四川 | 府属州与县治 | 荣县 | county | `rong-jiading-seat` | `hvd_96086` | `approximate`／`medium` | 待独立替换 |
-| 656 | 四川 | 府属州与县治 | 射洪县 | county | `shehong-tongchuan-seat` | `hvd_96296` | `approximate`／`medium` | 待独立替换 |
-| 657 | 四川 | 府属州与县治 | 什邡县 | county | `shifang-chengdu-seat` | `hvd_44425` | `approximate`／`medium` | 待独立替换 |
-| 658 | 四川 | 府属州与县治 | 石泉县 | county | `shiquan-longan-seat` | `hvd_96012` | `approximate`／`medium` | 待独立替换 |
-| 659 | 四川 | 府属州与县治 | 双流县 | county | `shuangliu-seat` | `hvd_44405` | `approximate`／`medium` | 待独立替换 |
-| 660 | 四川 | 府属州与县治 | 通江县 | county | `tongjiang-baoning-seat` | `hvd_44614` | `approximate`／`medium` | 待独立替换 |
-| 661 | 四川 | 府属州与县治 | 铜梁县 | county | `tongliang-chongqing-seat` | `hvd_44726` | `approximate`／`medium` | 待独立替换 |
-| 662 | 四川 | 府属州与县治 | 万县 | county | `wan-kuizhou-seat` | `hvd_44520` | `approximate`／`medium` | 待独立替换 |
-| 663 | 四川 | 府属州与县治 | 威远县 | county | `weiyuan-jiading-seat` | `hvd_96100` | `approximate`／`medium` | 待独立替换 |
-| 664 | 四川 | 府属州与县治 | 温江县 | county | `wenjiang-seat` | `hvd_44457` | `approximate`／`medium` | 待独立替换 |
-| 665 | 四川 | 府属州与县治 | 汶川县 | county | `wenchuan-chengdu-seat` | `hvd_96053` | `approximate`／`medium` | 待独立替换 |
-| 666 | 四川 | 府属州与县治 | 巫山县 | county | `wushan-kuizhou-seat` | `hvd_44495` | `approximate`／`medium` | 待独立替换 |
-| 667 | 四川 | 府属州与县治 | 武隆县 | county | `wulong-chongqing-seat` | `hvd_44694` | `approximate`／`medium` | 待独立替换 |
-| 668 | 四川 | 府属州与县治 | 西充县 | county | `xichong-shunqing-seat` | `hvd_96216` | `approximate`／`medium` | 待独立替换 |
-| 669 | 四川 | 府属州与县治 | 新都县 | county | `xindu-seat` | `hvd_44418` | `approximate`／`medium` | 待独立替换 |
-| 670 | 四川 | 府属州与县治 | 新繁县 | county | `xinfan-seat` | `hvd_44451` | `approximate`／`medium` | 待独立替换 |
-| 671 | 四川 | 府属州与县治 | 新津县 | county | `xinjin-chengdu-seat` | `hvd_44415` | `approximate`／`medium` | 待独立替换 |
-| 672 | 四川 | 府属州与县治 | 新宁县 | county | `xinning-kuizhou-seat` | `hvd_96257` | `approximate`／`medium` | 待独立替换 |
-| 673 | 四川 | 府属州与县治 | 盐亭县 | county | `yanting-tongchuan-seat` | `hvd_96285` | `approximate`／`medium` | 待独立替换 |
-| 674 | 四川 | 府属州与县治 | 仪陇县 | county | `yilong-shunqing-seat` | `hvd_96197` | `approximate`／`medium` | 待独立替换 |
-| 675 | 四川 | 府属州与县治 | 营山县 | county | `yingshan-shunqing-seat` | `hvd_96228` | `approximate`／`medium` | 待独立替换 |
-| 676 | 四川 | 府属州与县治 | 永川县 | county | `yongchuan-chongqing-seat` | `hvd_44709` | `approximate`／`medium` | 待独立替换 |
-| 677 | 四川 | 府属州与县治 | 岳池县 | county | `yuechi-shunqing-seat` | `hvd_96211` | `approximate`／`medium` | 待独立替换 |
-| 678 | 四川 | 府属州与县治 | 云阳县 | county | `yunyang-kuizhou-seat` | `hvd_44513` | `approximate`／`medium` | 待独立替换 |
-| 679 | 四川 | 府属州与县治 | 彰明县 | county | `zhangming-chengdu-seat` | `hvd_96017` | `approximate`／`medium` | 待独立替换 |
-| 680 | 四川 | 府属州与县治 | 昭化县 | county | `zhaohua-baoning-seat` | `hvd_44597` | `approximate`／`medium` | 待独立替换 |
-| 681 | 四川 | 府属州与县治 | 中江县 | county | `zhongjiang-tongchuan-seat` | `hvd_96293` | `approximate`／`medium` | 待独立替换 |
-| 682 | 四川 | 府属州与县治 | 忠州 | department | `zhongzhou-chongqing-seat` | `hvd_44538` | `approximate`／`medium` | 待独立替换 |
-| 683 | 四川 | 府属州与县治 | 资县 | county | `zi-seat` | `hvd_96391` | `approximate`／`medium` | 待独立替换 |
-| 684 | 四川 | 府属州与县治 | 资阳县 | county | `ziyang-chengdu-seat` | `hvd_96394` | `approximate`／`medium` | 待独立替换 |
-| 685 | 四川 | 府属州与县治 | 梓潼县 | county | `zitong-baoning-seat` | `hvd_96110` | `approximate`／`medium` | 待独立替换 |
-| 686 | 四川 | 特殊治理／军事节点 | 太平长官司 | military | `taiping-yongning-seat` | `hvd_96353` | `approximate`／`medium` | 待独立替换 |
-| 687 | 四川 | 特殊治理／军事节点 | 天全六番招讨司 | military | `tianquan-liufan-seat` | `hvd_96388` | `approximate`／`medium` | 待独立替换 |
-| 688 | 四川 | 特殊治理／军事节点 | 永宁宣抚司 | military | `yongning-xuanfu-seat` | `hvd_96348` | `approximate`／`medium` | 待独立替换 |
+| 599 | 四川 | 府与直隶州治所 | 东川军民府 | prefecture | `dongchuan-seat` | `hvd_80090` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 600 | 四川 | 府与直隶州治所 | 夔州府／奉节县 | prefecture／county | `fengjie-seat` | `hvd_44492` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（四川三批） |
+| 601 | 四川 | 府与直隶州治所 | 马湖府／屏山县 | prefecture／county | `pingshan-seat` | `hvd_96639` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（四川三批） |
+| 602 | 四川 | 府属州与县治 | 安居县 | county | `anju-chongqing-seat` | `hvd_44729` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 603 | 四川 | 府属州与县治 | 安县 | county | `an-chengdu-seat` | `hvd_96136` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 604 | 四川 | 府属州与县治 | 安岳县 | county | `anyue-tongchuan-seat` | `hvd_96334` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 605 | 四川 | 府属州与县治 | 苍溪县 | county | `cangxi-baoning-seat` | `hvd_44582` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 606 | 四川 | 府属州与县治 | 大昌县 | county | `dachang-kuizhou-seat` | `hvd_44501` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 607 | 四川 | 府属州与县治 | 大宁县 | county | `daning-kuizhou-seat` | `hvd_44504` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 608 | 四川 | 府属州与县治 | 大邑县 | county | `dayi-qiongzhou-seat` | `hvd_96154` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 609 | 四川 | 府属州与县治 | 大竹县 | county | `dazhu-shunqing-seat` | `hvd_96282` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 610 | 四川 | 府属州与县治 | 大足县 | county | `dazu-chongqing-seat` | `hvd_44718` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 611 | 四川 | 府属州与县治 | 德阳县 | county | `deyang-chengdu-seat` | `hvd_96149` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 612 | 四川 | 府属州与县治 | 垫江县 | county | `dianjiang-chongqing-seat` | `hvd_44546` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 613 | 四川 | 府属州与县治 | 定远县 | county | `dingyuan-chongqing-seat` | `hvd_44687` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 614 | 四川 | 府属州与县治 | 东乡县 | county | `dongxiang-kuizhou-seat` | `hvd_96267` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 615 | 四川 | 府属州与县治 | 峨眉县 | county | `emei-jiading-seat` | `hvd_96066` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 616 | 四川 | 府属州与县治 | 酆都县 | county | `fengdu-chongqing-seat` | `hvd_44542` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 617 | 四川 | 府属州与县治 | 涪州 | department | `fuzhou-chongqing-seat` | `hvd_115235` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 618 | 四川 | 府属州与县治 | 广安州 | department | `guangan-shunqing-seat` | `hvd_96241` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 619 | 四川 | 府属州与县治 | 广元县 | county | `guangyuan-baoning-seat` | `hvd_44592` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 620 | 四川 | 府属州与县治 | 合江县 | county | `hejiang-luzhou-seat` | `hvd_96037` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 621 | 四川 | 府属州与县治 | 合州 | department | `hezhou-chongqing-seat` | `hvd_115318` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 622 | 四川 | 府属州与县治 | 洪雅县 | county | `hongya-jiading-seat` | `hvd_96068` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 623 | 四川 | 府属州与县治 | 夹江县 | county | `jiajiang-jiading-seat` | `hvd_96070` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 624 | 四川 | 府属州与县治 | 犍为县 | county | `jianwei-jiading-seat` | `hvd_96082` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 625 | 四川 | 府属州与县治 | 简州 | department | `jianzhou-seat` | `hvd_44474` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 626 | 四川 | 府属州与县治 | 建始县 | county | `jianshi-kuizhou-seat` | `hvd_45915` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 627 | 四川 | 府属州与县治 | 江安县 | county | `jiangan-luzhou-seat` | `hvd_96048` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 628 | 四川 | 府属州与县治 | 江津县 | county | `jiangjin-chongqing-seat` | `hvd_44666` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 629 | 四川 | 府属州与县治 | 江油县 | county | `jiangyou-longan-seat` | `hvd_96004` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 630 | 四川 | 府属州与县治 | 金堂县 | county | `jintang-seat` | `hvd_44458` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 631 | 四川 | 府属州与县治 | 井研县 | county | `jingyan-seat` | `hvd_96421` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 632 | 四川 | 府属州与县治 | 开县 | county | `kai-kuizhou-seat` | `hvd_44511` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 633 | 四川 | 府属州与县治 | 乐至县 | county | `lezhi-tongchuan-seat` | `hvd_96340` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 634 | 四川 | 府属州与县治 | 梁山县 | county | `liangshan-kuizhou-seat` | `hvd_44534` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 635 | 四川 | 府属州与县治 | 邻水县 | county | `linshui-shunqing-seat` | `hvd_96203` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 636 | 四川 | 府属州与县治 | 芦山县 | county | `lushan-yazhou-seat` | `hvd_96363` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 637 | 四川 | 府属州与县治 | 罗江县 | county | `luojiang-chengdu-seat` | `hvd_96125` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 638 | 四川 | 府属州与县治 | 茂州 | department | `maozhou-seat` | `hvd_96054` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 639 | 四川 | 府属州与县治 | 绵州 | department | `mianzhou-seat` | `hvd_96120` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 640 | 四川 | 府属州与县治 | 绵竹县 | county | `mianzhu-chengdu-seat` | `hvd_96141` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 641 | 四川 | 府属州与县治 | 名山县 | county | `mingshan-yazhou-seat` | `hvd_96377` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 642 | 四川 | 府属州与县治 | 纳溪县 | county | `naxi-luzhou-seat` | `hvd_96044` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 643 | 四川 | 府属州与县治 | 南部县 | county | `nanbu-baoning-seat` | `hvd_44573` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 644 | 四川 | 府属州与县治 | 南川县 | county | `nanchuan-chongqing-seat` | `hvd_44702` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 645 | 四川 | 府属州与县治 | 内江县 | county | `neijiang-seat` | `hvd_96406` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 646 | 四川 | 府属州与县治 | 彭山县 | county | `pengshan-meizhou-seat` | `hvd_96186` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 647 | 四川 | 府属州与县治 | 彭县 | county | `peng-seat` | `hvd_44441` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 648 | 四川 | 府属州与县治 | 蓬溪县 | county | `pengxi-tongchuan-seat` | `hvd_96322` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 649 | 四川 | 府属州与县治 | 郫县 | county | `pi-seat` | `hvd_44398` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 650 | 四川 | 府属州与县治 | 蒲江县 | county | `pujiang-qiongzhou-seat` | `hvd_96163` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 651 | 四川 | 府属州与县治 | 青神县 | county | `qingshen-meizhou-seat` | `hvd_96191` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 652 | 四川 | 府属州与县治 | 渠县 | county | `qu-shunqing-seat` | `hvd_96278` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 653 | 四川 | 府属州与县治 | 仁寿县 | county | `renshou-seat` | `hvd_96413` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 654 | 四川 | 府属州与县治 | 荣昌县 | county | `rongchang-chongqing-seat` | `hvd_44714` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 655 | 四川 | 府属州与县治 | 荣县 | county | `rong-jiading-seat` | `hvd_96086` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 656 | 四川 | 府属州与县治 | 射洪县 | county | `shehong-tongchuan-seat` | `hvd_96296` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 657 | 四川 | 府属州与县治 | 什邡县 | county | `shifang-chengdu-seat` | `hvd_44425` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 658 | 四川 | 府属州与县治 | 石泉县 | county | `shiquan-longan-seat` | `hvd_96012` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 659 | 四川 | 府属州与县治 | 双流县 | county | `shuangliu-seat` | `hvd_44405` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 660 | 四川 | 府属州与县治 | 通江县 | county | `tongjiang-baoning-seat` | `hvd_44614` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 661 | 四川 | 府属州与县治 | 铜梁县 | county | `tongliang-chongqing-seat` | `hvd_44726` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 662 | 四川 | 府属州与县治 | 万县 | county | `wan-kuizhou-seat` | `hvd_44520` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 663 | 四川 | 府属州与县治 | 威远县 | county | `weiyuan-jiading-seat` | `hvd_96100` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 664 | 四川 | 府属州与县治 | 温江县 | county | `wenjiang-seat` | `hvd_44457` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 665 | 四川 | 府属州与县治 | 汶川县 | county | `wenchuan-chengdu-seat` | `hvd_96053` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 666 | 四川 | 府属州与县治 | 巫山县 | county | `wushan-kuizhou-seat` | `hvd_44495` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 667 | 四川 | 府属州与县治 | 武隆县 | county | `wulong-chongqing-seat` | `hvd_44694` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 668 | 四川 | 府属州与县治 | 西充县 | county | `xichong-shunqing-seat` | `hvd_96216` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 669 | 四川 | 府属州与县治 | 新都县 | county | `xindu-seat` | `hvd_44418` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 670 | 四川 | 府属州与县治 | 新繁县 | county | `xinfan-seat` | `hvd_44451` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 671 | 四川 | 府属州与县治 | 新津县 | county | `xinjin-chengdu-seat` | `hvd_44415` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 672 | 四川 | 府属州与县治 | 新宁县 | county | `xinning-kuizhou-seat` | `hvd_96257` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 673 | 四川 | 府属州与县治 | 盐亭县 | county | `yanting-tongchuan-seat` | `hvd_96285` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 674 | 四川 | 府属州与县治 | 仪陇县 | county | `yilong-shunqing-seat` | `hvd_96197` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 675 | 四川 | 府属州与县治 | 营山县 | county | `yingshan-shunqing-seat` | `hvd_96228` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 676 | 四川 | 府属州与县治 | 永川县 | county | `yongchuan-chongqing-seat` | `hvd_44709` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 677 | 四川 | 府属州与县治 | 岳池县 | county | `yuechi-shunqing-seat` | `hvd_96211` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 678 | 四川 | 府属州与县治 | 云阳县 | county | `yunyang-kuizhou-seat` | `hvd_44513` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 679 | 四川 | 府属州与县治 | 彰明县 | county | `zhangming-chengdu-seat` | `hvd_96017` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 680 | 四川 | 府属州与县治 | 昭化县 | county | `zhaohua-baoning-seat` | `hvd_44597` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 681 | 四川 | 府属州与县治 | 中江县 | county | `zhongjiang-tongchuan-seat` | `hvd_96293` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 682 | 四川 | 府属州与县治 | 忠州 | department | `zhongzhou-chongqing-seat` | `hvd_44538` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 683 | 四川 | 府属州与县治 | 资县 | county | `zi-seat` | `hvd_96391` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 684 | 四川 | 府属州与县治 | 资阳县 | county | `ziyang-chengdu-seat` | `hvd_96394` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 685 | 四川 | 府属州与县治 | 梓潼县 | county | `zitong-baoning-seat` | `hvd_96110` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 686 | 四川 | 特殊治理／军事节点 | 太平长官司 | military | `taiping-yongning-seat` | `hvd_96353` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 687 | 四川 | 特殊治理／军事节点 | 天全六番招讨司 | military | `tianquan-liufan-seat` | `hvd_96388` | `approximate`／`medium` | 已独立替换（四川三批） |
+| 688 | 四川 | 特殊治理／军事节点 | 永宁宣抚司 | military | `yongning-xuanfu-seat` | `hvd_96348` | `approximate`／`medium` | 已独立替换（四川三批） |
 | 689 | 湖广 | 府属州与县治 | 安化县 | county | `anhua-seat` | `hvd_41723` | `approximate`／`medium` | 已独立替换（湖广三批） |
 | 690 | 湖广 | 府属州与县治 | 安仁县 | county | `anren-hengzhou-seat` | `hvd_41875` | `approximate`／`medium` | 已独立替换（湖广三批） |
 | 691 | 湖广 | 府属州与县治 | 安乡县 | county | `anxiang-seat` | `hvd_41934` | `approximate`／`medium` | 已独立替换（湖广三批） |
