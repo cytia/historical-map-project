@@ -1,4 +1,5 @@
 export type Confidence = "high" | "medium" | "low";
+export type AdministrativeDisplayScope = "seat" | "prefecture" | "region";
 
 export interface SourceLink {
   sourceId: string;
@@ -45,15 +46,15 @@ export interface PlaceName {
 
 export interface ProjectData {
   sources: Source[];
+  scopeStatistics: ScopeStatisticRecord[];
   statistics: StatisticRecord[];
   administrativeUnits: AdministrativeUnit[];
   places: Place[];
   placeNames: PlaceName[];
 }
 
-export interface StatisticRecord {
+export interface StatisticFields {
   id: string;
-  administrativeUnitId: string;
   category: "population" | "tax";
   metric: "households" | "registered-population" | "registered-land" | "summer-tax" | "autumn-grain" | "silver";
   value: number;
@@ -64,6 +65,12 @@ export interface StatisticRecord {
   confidence: Confidence;
   sources: SourceLink[];
 }
+
+export interface StatisticRecord extends StatisticFields {
+  administrativeUnitId: string;
+}
+
+export type ScopeStatisticRecord = StatisticFields;
 
 export interface SeatRecord {
   unit: AdministrativeUnit;

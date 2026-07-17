@@ -3,19 +3,9 @@ import { defaultTheme } from "./theme";
 
 const mapColors = defaultTheme.map;
 
-export const modernReferenceStyleUrl =
-  "https://tiles.openfreemap.org/styles/positron";
+export const naturalReferenceGeoJsonUrl = "/reference/natural-reference.geojson";
 
-const naturalSourceLayers = new Set([
-  "landcover",
-  "mountain_peak",
-  "water",
-  "waterway",
-]);
-
-const naturalMinZoom: Record<string, number> = {
-  landcover: 3,
-  mountain_peak: 5,
+const naturalMinZoom = {
   water: 0,
   waterway: 4,
 };
@@ -23,79 +13,74 @@ const naturalMinZoom: Record<string, number> = {
 export const paperStyle: StyleSpecification = {
   version: 8,
   sources: {},
+  layers: [{
+    id: "paper",
+    type: "background",
+    paint: { "background-color": mapColors.land },
+  }],
+};
+
+export const naturalReferenceStyle: StyleSpecification = {
+  version: 8,
+  sources: {
+    "natural-reference": {
+      type: "geojson",
+      data: naturalReferenceGeoJsonUrl,
+    },
+  },
   layers: [
     {
-      id: "paper",
+      id: "natural-water-background",
       type: "background",
-      paint: { "background-color": mapColors.land },
+      paint: { "background-color": mapColors.water },
+    },
+    {
+      id: "natural-land",
+      type: "fill",
+      source: "natural-reference",
+      filter: ["==", ["get", "kind"], "land"],
+      paint: {
+        "fill-color": mapColors.land,
+        "fill-outline-color": mapColors.reliefHalo,
+      },
+    },
+    {
+      id: "natural-ocean",
+      type: "fill",
+      source: "natural-reference",
+      filter: ["==", ["get", "kind"], "ocean"],
+      paint: { "fill-color": mapColors.water },
+    },
+    {
+      id: "natural-lakes",
+      type: "fill",
+      source: "natural-reference",
+      minzoom: naturalMinZoom.water,
+      filter: ["==", ["get", "kind"], "lake"],
+      paint: { "fill-color": mapColors.water, "fill-opacity": 0.92 },
+    },
+    {
+      id: "natural-rivers",
+      type: "line",
+      source: "natural-reference",
+      minzoom: naturalMinZoom.waterway,
+      filter: ["==", ["get", "kind"], "river"],
+      paint: {
+        "line-color": mapColors.waterway,
+        "line-opacity": 0.86,
+        "line-width": ["interpolate", ["linear"], ["zoom"], 4, 0.65, 8, 1.5, 10, 2.4],
+      },
+    },
+    {
+      id: "natural-coastline",
+      type: "line",
+      source: "natural-reference",
+      filter: ["==", ["get", "kind"], "coastline"],
+      paint: {
+        "line-color": mapColors.waterway,
+        "line-opacity": 0.72,
+        "line-width": ["interpolate", ["linear"], ["zoom"], 4, 0.65, 8, 1.05, 10, 1.45],
+      },
     },
   ],
 };
-
-export function createNaturalReferenceStyle(style: StyleSpecification) {
-  return {
-    ...style,
-    layers: style.layers
-      .filter((layer) => {
-        if (layer.type === "background") return true;
-        const sourceLayer = "source-layer" in layer ? layer["source-layer"] : undefined;
-        return typeof sourceLayer === "string" && naturalSourceLayers.has(sourceLayer);
-      })
-      .map((layer) => {
-        const sourceLayer = "source-layer" in layer ? layer["source-layer"] : undefined;
-        if (layer.type === "background") {
-          return {
-            ...layer,
-            paint: { ...layer.paint, "background-color": mapColors.land },
-          };
-        }
-        if (sourceLayer === "water" && layer.type === "fill") {
-          return {
-            ...layer,
-            minzoom: naturalMinZoom.water,
-            paint: { ...layer.paint, "fill-color": mapColors.water, "fill-opacity": 0.76 },
-          };
-        }
-        if (sourceLayer === "waterway" && layer.type === "line") {
-          return {
-            ...layer,
-            minzoom: naturalMinZoom.waterway,
-            paint: { ...layer.paint, "line-color": mapColors.waterway, "line-opacity": 0.78 },
-          };
-        }
-        if (sourceLayer === "landcover" && layer.type === "fill") {
-          return {
-            ...layer,
-            minzoom: naturalMinZoom.landcover,
-            paint: {
-              ...layer.paint,
-              "fill-color": [
-                "match",
-                ["get", "class"],
-                "wood",
-                mapColors.vegetation,
-                "forest",
-                mapColors.vegetation,
-                "grass",
-                mapColors.lowland,
-                "farmland",
-                mapColors.lowland,
-                "meadow",
-                mapColors.lowland,
-                mapColors.land,
-              ],
-              "fill-opacity": 0.52,
-            },
-          };
-        }
-        if (sourceLayer === "mountain_peak" && layer.type === "symbol") {
-          return {
-            ...layer,
-            minzoom: naturalMinZoom.mountain_peak,
-            paint: { ...layer.paint, "text-color": mapColors.relief, "text-halo-color": mapColors.reliefHalo },
-          };
-        }
-        return layer;
-      }),
-  } satisfies StyleSpecification;
-}

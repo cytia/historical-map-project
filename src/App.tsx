@@ -1,7 +1,8 @@
 import { lazy, Suspense, useMemo } from "react";
 import { AdministrativeDetailPanel } from "./AdministrativeDetailPanel";
+import { AdministrativeScopeToolbar } from "./AdministrativeScopeToolbar";
 import { counties, regions, seats } from "./data";
-import { LayerPanel } from "./LayerPanel";
+import { LayerBar } from "./LayerBar";
 import { ScopePanel } from "./ScopePanel";
 import { useAppStore } from "./store";
 
@@ -88,13 +89,15 @@ export default function App() {
           )}
         </div>
 
+        <LayerBar />
+
         <button className="mobile-control" onClick={() => setSidebarOpen(true)}>
           全国与省级资料
         </button>
       </header>
 
       <ScopePanel region={panelRegion} />
-      <LayerPanel />
+      <AdministrativeScopeToolbar />
 
       <AdministrativeDetailPanel seat={selected} county={selectedCounty} />
 

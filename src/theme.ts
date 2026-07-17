@@ -48,8 +48,6 @@ export const defaultTheme = {
     seatHaloStroke: "rgba(122, 48, 39, 0.18)",
     seatRing: "#f4eee2",
     seatLabel: palette.ink,
-    seatFocusFadeInDurationMs: 180,
-    seatFocusFadeOutDurationMs: 240,
     county: "rgba(122, 48, 39, 0.72)",
     countySelected: palette.cinnabar,
     countyLabel: palette.mutedInk,

@@ -37,8 +37,10 @@ export function addTerrainStyle(
     const sourceLayer = "source-layer" in layer ? layer["source-layer"] : undefined;
     return sourceLayer !== "landcover";
   });
+  const landIndex = layers.findIndex((layer) => layer.id === "natural-land");
   const backgroundIndex = layers.findIndex((layer) => layer.type === "background");
-  layers.splice(backgroundIndex + 1, 0, terrainLayer);
+  const insertionIndex = landIndex >= 0 ? landIndex + 1 : backgroundIndex + 1;
+  layers.splice(insertionIndex, 0, terrainLayer);
 
   return {
     ...style,

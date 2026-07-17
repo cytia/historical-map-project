@@ -12,6 +12,8 @@ pub struct ProjectData {
     pub schema: Option<String>,
     pub schema_version: u32,
     pub sources: Vec<Source>,
+    #[serde(default)]
+    pub scope_statistics: Vec<ScopeStatistic>,
     pub statistics: Vec<Statistic>,
     pub polities: Vec<Polity>,
     pub administrative_units: Vec<AdministrativeUnit>,
@@ -24,6 +26,23 @@ pub struct ProjectData {
 pub struct Statistic {
     pub id: String,
     pub administrative_unit_id: String,
+    pub category: StatisticCategory,
+    pub metric: StatisticMetric,
+    pub value: f64,
+    pub unit: StatisticUnit,
+    pub original_text: Option<String>,
+    pub recorded_year: Option<i32>,
+    pub value_type: StatisticValueType,
+    pub method: Option<String>,
+    pub confidence: Confidence,
+    pub sources: Vec<SourceLink>,
+    pub audit: Audit,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase", deny_unknown_fields)]
+pub struct ScopeStatistic {
+    pub id: String,
     pub category: StatisticCategory,
     pub metric: StatisticMetric,
     pub value: f64,

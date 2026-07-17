@@ -7,6 +7,7 @@
   "required": [
     "schemaVersion",
     "sources",
+    "scopeStatistics",
     "statistics",
     "polities",
     "administrativeUnits",
@@ -19,6 +20,10 @@
     "sources": {
       "type": "array",
       "items": { "$ref": "#/$defs/source" }
+    },
+    "scopeStatistics": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/scopeStatistic" }
     },
     "statistics": {
       "type": "array",
@@ -121,6 +126,25 @@
       "properties": {
         "id": { "$ref": "#/$defs/id" },
         "administrativeUnitId": { "$ref": "#/$defs/id" },
+        "category": { "enum": ["population", "tax"] },
+        "metric": { "enum": ["households", "registered-population", "registered-land", "summer-tax", "autumn-grain", "silver"] },
+        "value": { "type": "number", "minimum": 0 },
+        "unit": { "enum": ["households", "people", "qing", "shi", "liang"] },
+        "originalText": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "recordedYear": { "type": ["integer", "null"] },
+        "valueType": { "enum": ["recorded", "estimated"] },
+        "method": { "type": "string", "maxLength": 500 },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sourceLink" } },
+        "audit": { "$ref": "#/$defs/audit" }
+      }
+    },
+    "scopeStatistic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "category", "metric", "value", "unit", "recordedYear", "valueType", "confidence", "sources", "audit"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
         "category": { "enum": ["population", "tax"] },
         "metric": { "enum": ["households", "registered-population", "registered-land", "summer-tax", "autumn-grain", "silver"] },
         "value": { "type": "number", "minimum": 0 },

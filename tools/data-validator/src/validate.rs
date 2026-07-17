@@ -33,7 +33,10 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
         &mut errors,
     );
     collect_unique_ids(
-        data.statistics.iter().map(|item| item.id.as_str()),
+        data.statistics
+            .iter()
+            .map(|item| item.id.as_str())
+            .chain(data.scope_statistics.iter().map(|item| item.id.as_str())),
         "statistic",
         &mut errors,
     );
@@ -81,6 +84,23 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
                 statistic.id, statistic.administrative_unit_id
             ));
         }
+        if !statistic.value.is_finite() || statistic.value < 0.0 {
+            errors.push(format!(
+                "{} has an invalid non-negative value",
+                statistic.id
+            ));
+        }
+        validate_source_links(&statistic.sources, &statistic.id, &source_ids, &mut errors);
+        validate_audit(
+            &statistic.audit.reviewed_on,
+            &statistic.audit.revision_note,
+            &statistic.id,
+            &mut errors,
+        );
+    }
+
+    for statistic in &data.scope_statistics {
+        validate_id(&statistic.id, "scope statistic", &mut errors);
         if !statistic.value.is_finite() || statistic.value < 0.0 {
             errors.push(format!(
                 "{} has an invalid non-negative value",

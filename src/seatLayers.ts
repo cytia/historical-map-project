@@ -1,5 +1,6 @@
 import type { ExpressionSpecification, Map } from "maplibre-gl";
 import { topLevelSeats } from "./data";
+import { setLayerVisibility } from "./mapLayerVisibility";
 import { defaultTheme } from "./theme";
 
 const mapColors = defaultTheme.map;
@@ -88,7 +89,7 @@ export function addSeatLayers(
       "text-halo-width": 1.5,
     },
   });
-  setSeatLayerVisibility(map, visible);
+  setLayerVisibility(map, seatLayerIds, visible);
 }
 
 export function setSeatFocus(map: Map, selectedUnitId: string | null, focusRegionId: string | null) {
@@ -97,24 +98,4 @@ export function setSeatFocus(map: Map, selectedUnitId: string | null, focusRegio
   map.setPaintProperty("seat-points", "circle-opacity", regionOpacity(focusRegionId, 1, 0.28));
   map.setPaintProperty("seat-labels", "text-opacity", regionOpacity(focusRegionId, 1, 0.2));
   map.setPaintProperty("seat-halo", "circle-opacity", regionOpacity(focusRegionId, 1, 0.2));
-}
-
-export function setSeatFocusTransition(map: Map, duration: number) {
-  const transition = { duration, delay: 0 };
-  if (map.getLayer("seat-points")) {
-    map.setPaintProperty("seat-points", "circle-opacity-transition", transition);
-  }
-  if (map.getLayer("seat-labels")) {
-    map.setPaintProperty("seat-labels", "text-opacity-transition", transition);
-  }
-  if (map.getLayer("seat-halo")) {
-    map.setPaintProperty("seat-halo", "circle-opacity-transition", transition);
-  }
-}
-
-export function setSeatLayerVisibility(map: Map, visible: boolean) {
-  const visibility = visible ? "visible" : "none";
-  seatLayerIds.forEach((layerId) => {
-    if (map.getLayer(layerId)) map.setLayoutProperty(layerId, "visibility", visibility);
-  });
 }

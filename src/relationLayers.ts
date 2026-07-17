@@ -1,5 +1,6 @@
 import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
 import { getTopLevelUnitId, seats, topLevelSeats } from "./data";
+import { setLayerVisibility } from "./mapLayerVisibility";
 import { defaultTheme } from "./theme";
 
 const tokens = defaultTheme.map;
@@ -35,10 +36,17 @@ export function curvedCoordinates(from: [number, number], to: [number, number]) 
   });
 }
 
-function relationData(selectedUnitId: string | null): GeoJSON.FeatureCollection<GeoJSON.LineString> {
+function relationContext(selectedUnitId: string | null) {
   const topLevelUnitId = getTopLevelUnitId(selectedUnitId);
   const selected = seats.find(({ unit }) => unit.id === topLevelUnitId);
   const capital = seats.find(({ place }) => place.id === selected?.region.seatPlaceId);
+  return { topLevelUnitId, selected, capital };
+}
+
+function relationData(
+  context: ReturnType<typeof relationContext>,
+): GeoJSON.FeatureCollection<GeoJSON.LineString> {
+  const { topLevelUnitId, selected, capital } = context;
   if (!selected || !capital) return { type: "FeatureCollection", features: [] };
   const capitalPoint: [number, number] = [capital.place.longitude!, capital.place.latitude!];
 
@@ -57,9 +65,10 @@ function relationData(selectedUnitId: string | null): GeoJSON.FeatureCollection<
   };
 }
 
-function capitalData(selectedUnitId: string | null): GeoJSON.FeatureCollection<GeoJSON.Point> {
-  const selected = seats.find(({ unit }) => unit.id === getTopLevelUnitId(selectedUnitId));
-  const capital = seats.find(({ place }) => place.id === selected?.region.seatPlaceId);
+function capitalData(
+  context: ReturnType<typeof relationContext>,
+): GeoJSON.FeatureCollection<GeoJSON.Point> {
+  const { selected, capital } = context;
   if (!selected || !capital) return { type: "FeatureCollection", features: [] };
   return { type: "FeatureCollection", features: [{ type: "Feature", properties: {}, geometry: {
     type: "Point", coordinates: [capital.place.longitude!, capital.place.latitude!],
@@ -85,8 +94,10 @@ function segmentCoordinates(coordinates: GeoJSON.Position[], end: number) {
   return segment;
 }
 
-function flowData(selectedUnitId: string | null, elapsed: number): GeoJSON.FeatureCollection<GeoJSON.LineString> {
-  const relations = relationData(selectedUnitId);
+function flowData(
+  relations: GeoJSON.FeatureCollection<GeoJSON.LineString>,
+  elapsed: number,
+): GeoJSON.FeatureCollection<GeoJSON.LineString> {
   const cycle = tokens.relationFlowDurationMs + tokens.relationFlowPauseMs;
   return {
     type: "FeatureCollection",
@@ -108,9 +119,11 @@ function zoomOpacity(): ExpressionSpecification {
 }
 
 export function addRelationLayers(map: Map, selectedUnitId: string | null, visible: boolean) {
-  map.addSource(sourceId, { type: "geojson", data: relationData(selectedUnitId) });
-  map.addSource(flowSourceId, { type: "geojson", data: flowData(selectedUnitId, 0) });
-  map.addSource(capitalSourceId, { type: "geojson", data: capitalData(selectedUnitId) });
+  const context = relationContext(selectedUnitId);
+  const relations = relationData(context);
+  map.addSource(sourceId, { type: "geojson", data: relations });
+  map.addSource(flowSourceId, { type: "geojson", data: flowData(relations, 0) });
+  map.addSource(capitalSourceId, { type: "geojson", data: capitalData(context) });
   map.addLayer({ id: layerIds[0], type: "line", source: sourceId,
     paint: { "line-color": ["case", ["get", "selected"], tokens.relationLineSelected, tokens.relationLine],
       "line-width": ["case", ["get", "selected"],
@@ -123,23 +136,24 @@ export function addRelationLayers(map: Map, selectedUnitId: string | null, visib
     paint: { "circle-radius": 0, "circle-color": "rgba(0,0,0,0)",
       "circle-stroke-color": tokens.relationCapitalPulse, "circle-stroke-width": tokens.relationCapitalPulseStrokeWidth,
       "circle-opacity": 0 } });
-  setRelationVisibility(map, visible);
+  setLayerVisibility(map, layerIds, visible);
 }
 
 export function setRelationSelection(map: Map, selectedUnitId: string | null) {
-  const selected = seats.find(({ unit }) => unit.id === getTopLevelUnitId(selectedUnitId));
+  const context = relationContext(selectedUnitId);
+  const relations = relationData(context);
   const source = map.getSource(sourceId) as GeoJSONSource | undefined;
   const flowSource = map.getSource(flowSourceId) as GeoJSONSource | undefined;
   const capitalSource = map.getSource(capitalSourceId) as GeoJSONSource | undefined;
   if (!source || !flowSource || !capitalSource) return;
-  source.setData(relationData(selectedUnitId));
-  flowSource.setData(flowData(selectedUnitId, 0));
-  capitalSource.setData(capitalData(selectedUnitId));
+  source.setData(relations);
+  flowSource.setData(flowData(relations, 0));
+  capitalSource.setData(capitalData(context));
   const previousFrame = animationFrames.get(map);
   if (previousFrame !== undefined) stopRelationAnimation(map);
   map.setPaintProperty(layerIds[2], "circle-radius", 0);
   map.setPaintProperty(layerIds[2], "circle-opacity", 0);
-  if (!selected?.region.seatPlaceId) return;
+  if (!context.selected?.region.seatPlaceId) return;
   if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
     flowSource.setData({ type: "FeatureCollection", features: [] });
     return;
@@ -152,7 +166,7 @@ export function setRelationSelection(map: Map, selectedUnitId: string | null) {
       return;
     }
     const elapsed = now - startedAt;
-    flowSource.setData(flowData(selectedUnitId, elapsed));
+    flowSource.setData(flowData(relations, elapsed));
     const cycle = tokens.relationFlowDurationMs + tokens.relationFlowPauseMs;
     const cycleElapsed = elapsed % cycle;
     const pulse = cycleElapsed < tokens.relationFlowDurationMs ? 0 :
@@ -162,10 +176,4 @@ export function setRelationSelection(map: Map, selectedUnitId: string | null) {
     animationFrames.set(map, requestAnimationFrame(animate));
   };
   animationFrames.set(map, requestAnimationFrame(animate));
-}
-
-export function setRelationVisibility(map: Map, visible: boolean) {
-  layerIds.forEach((id) => {
-    if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", visible ? "visible" : "none");
-  });
 }

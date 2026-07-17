@@ -7,6 +7,7 @@
 /public/terrain/
 /.terrain-work/
 /.terrain-venv/
+/.reference-work/
 .env
 .env.*
 !.env.example

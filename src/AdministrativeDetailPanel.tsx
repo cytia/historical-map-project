@@ -1,11 +1,16 @@
-import { counties, data, getCountySources, getSources, getStatistics, seats } from "./data";
+import { counties, data, getSources, getStatistics, seats } from "./data";
 import { useAppStore } from "./store";
+import { populationRegistrationNote } from "./statisticsNotes";
+import { TaxMetricLabel, type TaxMetric } from "./taxGlossary";
+import { Tooltip } from "./Tooltip";
+import { Scrollbar } from "./Scrollbar";
 import type { CountyRecord, SeatRecord, StatisticRecord } from "./types";
 
 function levelLabel(seat: SeatRecord) {
   if (seat.unit.level === "prefecture") return "府";
   return seat.unit.parentId === seat.region.id ? "直隶州" : "州";
 }
+
 const accuracyLabel = {
   exact: "可靠位置",
   approximate: "约略位置",
@@ -13,12 +18,27 @@ const accuracyLabel = {
   disputed: "存在争议",
   unknown: "尚不可定位",
 } as const;
+
 const confidenceLabel = { high: "高可信度", medium: "中等可信度", low: "低可信度" } as const;
 
-function sourceMarker(record: StatisticRecord, index = 1) {
+function sourceMarker(record: StatisticRecord, index = 1, note?: string) {
   const sourceId = record.sources[0]?.sourceId;
   const source = data.sources.find(({ id }) => id === sourceId);
-  return <sup title={`来源：${source?.title ?? sourceId}`}>{index}</sup>;
+  const sourceNote = `来源：${source?.title ?? sourceId}`;
+  return (
+    <Tooltip content={note ? `${note}\n${sourceNote}` : sourceNote}>
+      <sup tabIndex={0}>{index}</sup>
+    </Tooltip>
+  );
+}
+
+function taxSourceLabel(record: StatisticRecord) {
+  const sourceId = record.sources[0]?.sourceId;
+  const source = data.sources.find(({ id }) => id === sourceId);
+  const title = source?.title ?? "赋税来源";
+  const label = title.startsWith("大明会典") ? "《大明会典》" : title;
+  if (record.recordedYear !== 1578) return label;
+  return `${label}${record.metric === "registered-land" ? "万历六年实在田土" : "万历六年实征"}`;
 }
 
 function formatRecordedYear(year: number | null) {
@@ -33,8 +53,9 @@ function formatTaxValue(record: StatisticRecord) {
     const mu = Math.round((record.value - qing) * 100);
     return `${qing.toLocaleString("zh-CN")} 顷 ${mu} 亩`;
   }
-  const prefix = record.metric === "summer-tax" ? "小麦 " :
-    record.metric === "autumn-grain" ? "米 " : "";
+  if (record.unit === "liang") return `${record.value.toLocaleString("zh-CN")} 两`;
+  const prefix = record.metric === "summer-tax" ? "本色小麦 " :
+    record.metric === "autumn-grain" ? "本色米 " : "";
   if (prefix) return `${prefix}${Math.floor(record.value).toLocaleString("zh-CN")} 石余`;
   const scaled = Math.round(record.value * 1_000_000);
   const units = [["石", 1_000_000], ["斗", 100_000], ["升", 10_000],
@@ -57,11 +78,12 @@ function PopulationMetric({ unitId }: { unitId: string }) {
       <p className="eyebrow">户口登记</p>
       {population && households ? <>
         <div className="population-primary">
-          <strong>{households.value.toLocaleString("zh-CN")} 户{sourceMarker(households)}</strong>
+          <strong>{households.value.toLocaleString("zh-CN")} 户{sourceMarker(
+            households, 1, populationRegistrationNote(households.recordedYear),
+          )}</strong>
           <span>口数 {population.value.toLocaleString("zh-CN")} 口</span>
         </div>
         <p className="record-date">{formatRecordedYear(households.recordedYear)}登记</p>
-        <small>黄册体系下的史料登记值，不等同于完整实际人口。</small>
       </> : <span className="metric-empty">暂无可靠县级户口记录</span>}
     </section>
   );
@@ -69,29 +91,43 @@ function PopulationMetric({ unitId }: { unitId: string }) {
 
 function TaxMetric({ unitId }: { unitId: string }) {
   const taxes = getStatistics(unitId).filter(({ category }) => category === "tax");
+  const sourceRecord = taxes.find(({ recordedYear }) => recordedYear !== null) ?? taxes[0];
   const rows = [
-    ["田产", taxes.find(({ metric }) => metric === "registered-land")],
-    ["夏税", taxes.find(({ metric }) => metric === "summer-tax")],
-    ["秋粮", taxes.find(({ metric }) => metric === "autumn-grain")],
+    ["registered-land", taxes.find(({ metric }) => metric === "registered-land")],
+    ["summer-tax", taxes.find(({ metric }) => metric === "summer-tax")],
+    ["autumn-grain", taxes.find(({ metric }) => metric === "autumn-grain")],
   ] as const;
+  const silver = taxes.find(({ metric }) => metric === "silver");
   return (
     <section className="evidence-section tax-evidence">
-      <div className="section-heading"><p className="eyebrow">赋税原额</p>
-        {taxes[0] && <span>《大明会典》{sourceMarker(taxes[0], 2)}</span>}</div>
-      {taxes.length ? <dl className="tax-ledger">{rows.map(([label, tax]) => tax && (
-        <div key={tax.id}><dt>{label}</dt><dd>{formatTaxValue(tax)}</dd></div>
-      ))}</dl> : <span className="metric-empty">暂无已校勘县级原额</span>}
+      <div className="section-heading"><p className="eyebrow">赋税原额
+        {sourceRecord && sourceMarker(sourceRecord, 2, taxSourceLabel(sourceRecord))}
+      </p></div>
+      {taxes.length ? <dl className="tax-ledger">
+        {rows.map(([metric, tax]) => tax && (
+          <div key={tax.id}><dt><TaxMetricLabel metric={metric as TaxMetric} /></dt>
+            <dd>{formatTaxValue(tax)}</dd></div>
+        ))}
+        <div><dt><TaxMetricLabel metric="silver" /></dt>
+          <dd>{silver ? formatTaxValue(silver) : "暂无可靠记录"}</dd></div>
+      </dl> : <span className="metric-empty">暂无已校勘县级原额</span>}
     </section>
   );
 }
 
-function Jurisdiction({ seat }: { seat: SeatRecord }) {
+function Jurisdiction({ seat, disabled }: { seat: SeatRecord; disabled: boolean }) {
   const selectCounty = useAppStore((state) => state.selectCounty);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const childCounties = counties.filter(({ parent }) => parent.id === seat.unit.id);
   const childStates = seats.filter(({ unit }) => unit.parentId === seat.unit.id);
   const countLabel = [childStates.length && `${childStates.length} 州`, childCounties.length && `${childCounties.length} 县`]
     .filter(Boolean).join(" · ");
+  if (disabled) return (
+    <section className="jurisdiction is-disabled">
+      <div className="section-heading"><p className="eyebrow">下辖单位</p><span>府级模式</span></div>
+      <p className="metric-empty">府级视图不显示下辖州县</p>
+    </section>
+  );
   return (
     <section className="jurisdiction">
       <div className="section-heading"><p className="eyebrow">下辖单位</p><span>{countLabel}</span></div>
@@ -100,11 +136,12 @@ function Jurisdiction({ seat }: { seat: SeatRecord }) {
           <button key={child.unit.id} onClick={() => selectUnit(child.unit.id)}>{child.unit.name}</button>
         ))}
         {childCounties.map((county) => (
-        <button key={county.unit.id} onClick={() =>
-          selectCounty(county.unit.id, county.parent.id, county.region.id)}>
-          {county.unit.name}
-        </button>
-      ))}</div> : <p className="metric-empty">下辖数据尚未录入</p>}
+          <button key={county.unit.id} onClick={() =>
+            selectCounty(county.unit.id, county.parent.id, county.region.id)}>
+            {county.unit.name}
+          </button>
+        ))}
+      </div> : <p className="metric-empty">下辖数据尚未录入</p>}
     </section>
   );
 }
@@ -133,9 +170,10 @@ export function AdministrativeDetailPanel({ seat, county }: {
   const detailsOpen = useAppStore((state) => state.detailsOpen);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const setDetailsOpen = useAppStore((state) => state.setDetailsOpen);
+  const administrativeDisplayScope = useAppStore((state) => state.administrativeDisplayScope);
   const record = county ?? seat;
   if (!record) return null;
-  const sources = county ? getCountySources(county) : getSources(seat!);
+  const sources = getSources(record);
   const taxRecords = getStatistics(record.unit.id).filter(({ category }) => category === "tax");
   const parentSeat = seat && seat.unit.parentId !== seat.region.id
     ? seats.find(({ unit }) => unit.id === seat.unit.parentId)
@@ -143,42 +181,45 @@ export function AdministrativeDetailPanel({ seat, county }: {
   return (
     <aside className={`detail-panel ${detailsOpen ? "is-open" : ""}`}>
       <button className="panel-close" onClick={() => setDetailsOpen(false)} aria-label="关闭地点详情">×</button>
-      <p className="eyebrow">{county ? "县" : levelLabel(seat!)}</p>
-      <h2>{record.unit.name}</h2>
-      <p className="seat-line">治所 · {record.name}</p>
-      {county && <p className="administrative-path">{county.parent.name} · {county.region.name}</p>}
-      {county && <button className="return-prefecture" onClick={() => selectUnit(county.parent.id)}>
-        <span aria-hidden="true">←</span> 返回{county.parent.name}
-      </button>}
-      {parentSeat && <button className="return-prefecture" onClick={() => selectUnit(parentSeat.unit.id)}>
-        <span aria-hidden="true">←</span> 返回{parentSeat.unit.name}
-      </button>}
+      <Scrollbar>
+        <p className="eyebrow">{county ? "县" : levelLabel(seat!)}</p>
+        <h2>{record.unit.name}</h2>
+        <p className="seat-line">治所 · {record.name}</p>
+        {county && <p className="administrative-path">{county.parent.name} · {county.region.name}</p>}
+        {county && <button className="return-prefecture" onClick={() => selectUnit(county.parent.id)}>
+          <span aria-hidden="true">←</span> 返回{county.parent.name}
+        </button>}
+        {parentSeat && <button className="return-prefecture" onClick={() => selectUnit(parentSeat.unit.id)}>
+          <span aria-hidden="true">←</span> 返回{parentSeat.unit.name}
+        </button>}
 
-      <PopulationMetric unitId={record.unit.id} />
-      <TaxMetric unitId={record.unit.id} />
-      {county ? <PeerCounties county={county} /> : <Jurisdiction seat={seat!} />}
+        <PopulationMetric unitId={record.unit.id} />
+        <TaxMetric unitId={record.unit.id} />
+        {county ? <PeerCounties county={county} /> :
+          <Jurisdiction seat={seat!} disabled={administrativeDisplayScope === "seat"} />}
 
-      <section className="location-summary">
-        <p className="eyebrow">治所定位</p>
-        <strong>{accuracyLabel[record.place.locationAccuracy]} · {confidenceLabel[record.place.confidence]}</strong>
-      </section>
+        <section className="location-summary">
+          <p className="eyebrow">治所定位</p>
+          <strong>{accuracyLabel[record.place.locationAccuracy]} · {confidenceLabel[record.place.confidence]}</strong>
+        </section>
 
-      <details className="research-details">
-        <summary>详细资料</summary>
-        <p>{county ? `行政链：明 → ${county.region.name} → ${county.parent.name} → ${county.unit.name}` :
-          `${seat!.unit.name}治下已录入 ${seats.filter(({ unit }) => unit.parentId === seat!.unit.id).length} 州、${counties.filter(({ parent }) => parent.id === seat!.unit.id).length} 县。`}</p>
-        <dl className="facts">
-          <div><dt>坐标</dt><dd>{record.place.longitude?.toFixed(5)}, {record.place.latitude?.toFixed(5)}</dd></div>
-          <div><dt>定位方法</dt><dd>{record.place.locationMethod}</dd></div>
-        </dl>
-        {taxRecords.length > 0 && <div className="original-amounts">
-          <p className="eyebrow">赋税原额全文</p>
-          {taxRecords.map((tax) => <p key={tax.id}>{tax.originalText}</p>)}
-        </div>}
-        {sources.map((source) => <article className="source" key={source.id}>
-          <h3>{source.title}</h3><p>{source.citation}</p><small>{source.license}</small>
-        </article>)}
-      </details>
+        <details className="research-details">
+          <summary>详细资料</summary>
+          <p>{county ? `行政链：明 → ${county.region.name} → ${county.parent.name} → ${county.unit.name}` :
+            `${seat!.unit.name}治下已录入 ${seats.filter(({ unit }) => unit.parentId === seat!.unit.id).length} 州、${counties.filter(({ parent }) => parent.id === seat!.unit.id).length} 县。`}</p>
+          <dl className="facts">
+            <div><dt>坐标</dt><dd>{record.place.longitude?.toFixed(5)}, {record.place.latitude?.toFixed(5)}</dd></div>
+            <div><dt>定位方法</dt><dd>{record.place.locationMethod}</dd></div>
+          </dl>
+          {taxRecords.length > 0 && <div className="original-amounts">
+            <p className="eyebrow">赋税原额全文</p>
+            {taxRecords.map((tax) => <p key={tax.id}>{tax.originalText}</p>)}
+          </div>}
+          {sources.map((source) => <article className="source" key={source.id}>
+            <h3>{source.title}</h3><p>{source.citation}</p><small>{source.license}</small>
+          </article>)}
+        </details>
+      </Scrollbar>
     </aside>
   );
 }
