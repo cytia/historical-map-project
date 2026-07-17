@@ -10,11 +10,11 @@
 
 ## 统计口径
 
-项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）和广西 82 点（分两批）替换后，当前仍由 CHGIS `location` 主张承担坐标的地点为 **867 个，占全部地点 52.8%**。
+项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）和浙江 72 点（分两批）替换后，当前仍由 CHGIS `location` 主张承担坐标的地点为 **795 个，占全部地点 48.4%**。
 
-迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **855 个唯一编号**和 **845 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
+迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **783 个唯一编号**和 **775 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
 
-当前未迁移记录的定位精度为 `approximate` 867；可信度为 `medium` 863、`low` 4。
+当前未迁移记录的定位精度为 `approximate` 795；可信度为 `medium` 791、`low` 4。
 
 “地点记录数”“唯一 CHGIS 编号数”和“唯一坐标数”不可互换；附郭、共治或项目实体拆分会造成同一 CHGIS 编号或坐标关联多个地点。
 
@@ -24,9 +24,9 @@
 |---|---:|---|
 | 一级行政区域治所 | 5 | 在所属区域批次中优先复核 |
 | 府与直隶州治所 | 55 | 在所属区域批次中优先复核 |
-| 府属州与县治 | 804 | 随所属区域一并替换 |
+| 府属州与县治 | 732 | 随所属区域一并替换 |
 | 特殊治理／军事节点 | 3 | 单独研究与复核 |
-| 合计 | 867 | |
+| 合计 | 795 | |
 
 分类采用互斥判定顺序：一级行政区域 → 府与直隶州 → 特殊治理／军事 → 府属州与县。该顺序只用于避免重复统计，不代表实际替换批次；一个地点与多个行政实体共址时只计一次。
 
@@ -42,14 +42,14 @@
 | 陕西 | 73 |
 | 四川 | 90 |
 | 湖广 | 107 |
-| 浙江 | 72 |
+| 浙江 | 0 |
 | 江西 | 0 |
 | 福建 | 0 |
 | 广东 | 0 |
 | 广西 | 0 |
 | 云南 | 0 |
 | 贵州 | 0 |
-| 合计 | 867 |
+| 合计 | 795 |
 
 ## 独立替换原则
 
@@ -90,7 +90,7 @@
 1. **云贵流程试验：14 点。** 云南 9 点、贵州 5 点，全部为 `approximate` 点；普通连续聚落为中可信，县域代理、迁治旧治和御夷府州代理为低可信。样本包含普通府治、军民府、御夷府州、旧治和铜仁府多 CHGIS 编号，可用于验证独立候选锁定、史料对应、审计保留和商业过滤的完整流程。
 2. **福建普通州县验证：47 点（已完成）。** 福建具有较完整的普通府州县结构，并包含同名消歧和 CHGIS 父标签与《明史》父链不一致的记录，用于补足云贵样本缺少普通县治、附郭共址和密集父链的局限。
 3. **江西压力测试：64 点（已完成）。** 覆盖清江府县共址、普通县治、改名县、撤并县和同名消歧；以独立 Wikidata 坐标替换并通过压力测试后，江西不再由 CHGIS 承担 `location` 主张。
-4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72 → 陕西 73 → 山西 88 → 四川 90 → 河南 97 → 山东 104 → 湖广 107 → 南京 115 → 京师 121；广西 82 点已完成。
+4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73 → 山西 88 → 四川 90 → 河南 97 → 山东 104 → 湖广 107 → 南京 115 → 京师 121；广西 82 点已完成。
 5. 点位数量不是唯一依据；对外演示、爱发电说明或众筹宣传涉及的区域可以提前，但必须保持该区域完整验收，不能只替换截图范围内的少数点。
 6. 区域内先处理一级行政区域及府、直隶州治所，再处理府属州、县和特殊治理节点；特殊节点不能以普通现代城市代理掩盖制度和驻地不确定性。
 7. 商业构建必须拒绝目标发布区域中任何仍以 CHGIS 或其他非商业、授权不明来源承担定位主张的记录。
@@ -137,6 +137,15 @@
 - 大新、扶绥、宁明、天等、江州等现代区域被多个历史记录共享代理时，保留各自历史身份，不将共享现代代理解释为旧行政复合体的精确复原。
 - 两批数据结构、来源引用、WGS 84 坐标范围、广西目标无 CHGIS `location` 主张和旧编号审计保留检查均通过；旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
+### 浙江替换验收
+
+- 72/72 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 70 点、`low` 2 点。
+- 按两批完成：第一批 36 点（清单 796–831），第二批 36 点（清单 832–867）；浙江 72 个目标点均不再由 CHGIS `location` 主张承担坐标。
+- 崇德、分水、海宁、建德、慈溪、孝丰、新城、武康、汤溪、于潜等记录采用独立 Wikidata 现代聚落代理；归安／乌程共享湖州代理，嘉兴／秀水共享嘉兴代理。
+- 遂安使用淳安现代区域代理并标为低可信，因历史县城已淹没且现代对应未闭合；宣平使用武义现代区域代理并标为低可信，因历史县已撤并且确切治所仍待复核。
+- 所有候选均保留官方 Wikidata API 返回的原始 `P625` 数值，经度在前；Q ID、来源主张、精度、可信度和审计日期已写入 `data/project.json`。
+- 浙江批次的数据结构、来源引用、坐标范围、共享代理和目标区域无 CHGIS `location` 主张检查通过；`data-validator` 与单元测试通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
+
 首轮锁定的现代代理如下（坐标来自 Wikidata `P625`，均按 WGS 84 经度在前记录）：
 
 | `placeId` | 现代代理 | Wikidata | 经度 | 纬度 | 可信度 |
@@ -174,7 +183,7 @@
 
 ## 完整点位清单
 
-以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条和“已独立替换（广西两批）”的 82 条记录外，其余记录当前状态均为“待独立替换”。
+以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条、“已独立替换（广西两批）”的 82 条和“已独立替换（浙江两批）”的 72 条记录外，其余记录当前状态均为“待独立替换”。
 
 | # | 一级区域 | 类别 | 行政单位 | 等级 | placeId | CHGIS 编号 | 精度／可信度 | 标记 |
 |---:|---|---|---|---|---|---|---|---|
@@ -973,78 +982,78 @@
 | 793 | 湖广 | 府属州与县治 | 枝江县 | county | `zhijiang-jingzhou-seat` | `hvd_43726` | `approximate`／`medium` | 待独立替换 |
 | 794 | 湖广 | 府属州与县治 | 竹山县 | county | `zhushan-seat` | `hvd_45938` | `approximate`／`medium` | 待独立替换 |
 | 795 | 湖广 | 府属州与县治 | 竹溪县 | county | `zhuxi-seat` | `hvd_45951` | `approximate`／`medium` | 待独立替换 |
-| 796 | 浙江 | 府属州与县治 | 安吉州 | department | `zhejiang-anjizhou-seat` | `hvd_40153` | `approximate`／`medium` | 待独立替换 |
-| 797 | 浙江 | 府属州与县治 | 昌化县 | county | `zhejiang-changhua-seat` | `hvd_40110` | `approximate`／`medium` | 待独立替换 |
-| 798 | 浙江 | 府属州与县治 | 常山县 | county | `zhejiang-changshan-seat` | `hvd_40629` | `approximate`／`medium` | 待独立替换 |
-| 799 | 浙江 | 府属州与县治 | 崇德县 | county | `zhejiang-chongde-seat` | `hvd_40064` | `approximate`／`medium` | 待独立替换 |
-| 800 | 浙江 | 府属州与县治 | 淳安县 | county | `zhejiang-chunan-seat` | `hvd_40811` | `approximate`／`medium` | 待独立替换 |
-| 801 | 浙江 | 府属州与县治 | 慈溪县 | county | `zhejiang-cixi-seat` | `hvd_40732` | `approximate`／`medium` | 待独立替换 |
-| 802 | 浙江 | 府属州与县治 | 德清县 | county | `zhejiang-deqing-seat` | `hvd_40158` | `approximate`／`medium` | 待独立替换 |
-| 803 | 浙江 | 府属州与县治 | 定海县 | county | `zhejiang-dinghai-seat` | `hvd_40745` | `approximate`／`medium` | 待独立替换 |
-| 804 | 浙江 | 府属州与县治 | 东阳县 | county | `zhejiang-dongyang-seat` | `hvd_40725` | `approximate`／`medium` | 待独立替换 |
-| 805 | 浙江 | 府属州与县治 | 分水县 | county | `zhejiang-fenshui-seat` | `hvd_40799` | `approximate`／`medium` | 待独立替换 |
-| 806 | 浙江 | 府属州与县治 | 奉化县 | county | `zhejiang-fenghua-seat` | `hvd_40735` | `approximate`／`medium` | 待独立替换 |
-| 807 | 浙江 | 府属州与县治 | 富阳县 | county | `zhejiang-fuyang-seat` | `hvd_40092` | `approximate`／`medium` | 待独立替换 |
-| 808 | 浙江 | 府属州与县治 | 归安县 | county | `zhejiang-guian-seat` | `hvd_40128` | `approximate`／`medium` | 共址 2 个地点；待独立替换 |
-| 809 | 浙江 | 府属州与县治 | 海宁县 | county | `zhejiang-haining-seat` | `hvd_40117` | `approximate`／`medium` | 待独立替换 |
-| 810 | 浙江 | 府属州与县治 | 海盐县 | county | `zhejiang-haiyan-seat` | `hvd_40075` | `approximate`／`medium` | 待独立替换 |
-| 811 | 浙江 | 府属州与县治 | 黄岩县 | county | `zhejiang-huangyan-seat` | `hvd_40653` | `approximate`／`medium` | 待独立替换 |
-| 812 | 浙江 | 府属州与县治 | 嘉善县 | county | `zhejiang-jiashan-seat` | `hvd_40059` | `approximate`／`medium` | 待独立替换 |
-| 813 | 浙江 | 府属州与县治 | 嘉兴县 | county | `zhejiang-jiaxing-seat` | `hvd_40057` | `approximate`／`medium` | 共址 2 个地点；待独立替换 |
-| 814 | 浙江 | 府属州与县治 | 建德县 | county | `zhejiang-jiande-seat` | `hvd_40803` | `approximate`／`medium` | 待独立替换 |
-| 815 | 浙江 | 府属州与县治 | 江山县 | county | `zhejiang-jiangshan-seat` | `hvd_40634` | `approximate`／`medium` | 待独立替换 |
-| 816 | 浙江 | 府属州与县治 | 金华县 | county | `zhejiang-jinhua-seat` | `hvd_40708` | `approximate`／`medium` | 待独立替换 |
-| 817 | 浙江 | 府属州与县治 | 缙云县 | county | `zhejiang-jinyun-seat` | `hvd_40597` | `approximate`／`medium` | 待独立替换 |
-| 818 | 浙江 | 府属州与县治 | 景宁县 | county | `zhejiang-jingning-seat` | `hvd_40598` | `approximate`／`medium` | 待独立替换 |
-| 819 | 浙江 | 府属州与县治 | 开化县 | county | `zhejiang-kaihua-seat` | `hvd_40635` | `approximate`／`medium` | 待独立替换 |
-| 820 | 浙江 | 府属州与县治 | 兰溪县 | county | `zhejiang-lanxi-seat` | `hvd_40712` | `approximate`／`medium` | 待独立替换 |
-| 821 | 浙江 | 府属州与县治 | 乐清县 | county | `zhejiang-yueqing-seat` | `hvd_40680` | `approximate`／`medium` | 待独立替换 |
-| 822 | 浙江 | 府属州与县治 | 丽水县 | county | `zhejiang-lishui-seat` | `hvd_40602` | `approximate`／`medium` | 待独立替换 |
-| 823 | 浙江 | 府属州与县治 | 临安县 | county | `zhejiang-linan-seat` | `hvd_40098` | `approximate`／`medium` | 待独立替换 |
-| 824 | 浙江 | 府属州与县治 | 临海县 | county | `zhejiang-linhai-seat` | `hvd_40657` | `approximate`／`medium` | 待独立替换 |
-| 825 | 浙江 | 府属州与县治 | 龙泉县 | county | `zhejiang-longquan-seat` | `hvd_40606` | `approximate`／`medium` | 待独立替换 |
-| 826 | 浙江 | 府属州与县治 | 龙游县 | county | `zhejiang-longyou-seat` | `hvd_40643` | `approximate`／`medium` | 待独立替换 |
-| 827 | 浙江 | 府属州与县治 | 宁海县 | county | `zhejiang-ninghai-seat` | `hvd_40661` | `approximate`／`medium` | 待独立替换 |
-| 828 | 浙江 | 府属州与县治 | 平湖县 | county | `zhejiang-pinghu-seat` | `hvd_40061` | `approximate`／`medium` | 待独立替换 |
-| 829 | 浙江 | 府属州与县治 | 平阳县 | county | `zhejiang-pingyang-seat` | `hvd_40687` | `approximate`／`medium` | 待独立替换 |
-| 830 | 浙江 | 府属州与县治 | 浦江县 | county | `zhejiang-pujiang-seat` | `hvd_40715` | `approximate`／`medium` | 待独立替换 |
-| 831 | 浙江 | 府属州与县治 | 青田县 | county | `zhejiang-qingtian-seat` | `hvd_40607` | `approximate`／`medium` | 待独立替换 |
-| 832 | 浙江 | 府属州与县治 | 庆元县 | county | `zhejiang-qingyuan-seat` | `hvd_40609` | `approximate`／`medium` | 待独立替换 |
-| 833 | 浙江 | 府属州与县治 | 瑞安县 | county | `zhejiang-ruian-seat` | `hvd_40695` | `approximate`／`medium` | 待独立替换 |
-| 834 | 浙江 | 府属州与县治 | 上虞县 | county | `zhejiang-shangyu-seat` | `hvd_40774` | `approximate`／`medium` | 待独立替换 |
-| 835 | 浙江 | 府属州与县治 | 嵊县 | county | `zhejiang-sheng-seat` | `hvd_40768` | `approximate`／`medium` | 待独立替换 |
-| 836 | 浙江 | 府属州与县治 | 寿昌县 | county | `zhejiang-shouchang-seat` | `hvd_40819` | `approximate`／`medium` | 待独立替换 |
-| 837 | 浙江 | 府属州与县治 | 松阳县 | county | `zhejiang-songyang-seat` | `hvd_40615` | `approximate`／`medium` | 待独立替换 |
-| 838 | 浙江 | 府属州与县治 | 遂安县 | county | `zhejiang-suian-seat` | `hvd_40822` | `approximate`／`medium` | 待独立替换 |
-| 839 | 浙江 | 府属州与县治 | 遂昌县 | county | `zhejiang-suichang-seat` | `hvd_40620` | `approximate`／`medium` | 待独立替换 |
-| 840 | 浙江 | 府属州与县治 | 太平县 | county | `zhejiang-taiping-zhejiang-seat` | `hvd_40662` | `approximate`／`medium` | 待独立替换 |
-| 841 | 浙江 | 府属州与县治 | 泰顺县 | county | `zhejiang-taishun-seat` | `hvd_40696` | `approximate`／`medium` | 待独立替换 |
-| 842 | 浙江 | 府属州与县治 | 汤溪县 | county | `zhejiang-tangxi-seat` | `hvd_40713` | `approximate`／`medium` | 待独立替换 |
-| 843 | 浙江 | 府属州与县治 | 天台县 | county | `zhejiang-tiantai-seat` | `hvd_40671` | `approximate`／`medium` | 待独立替换 |
-| 844 | 浙江 | 府属州与县治 | 桐庐县 | county | `zhejiang-tonglu-seat` | `hvd_40815` | `approximate`／`medium` | 待独立替换 |
-| 845 | 浙江 | 府属州与县治 | 桐乡县 | county | `zhejiang-tongxiang-seat` | `hvd_40060` | `approximate`／`medium` | 待独立替换 |
-| 846 | 浙江 | 府属州与县治 | 乌程县 | county | `zhejiang-wucheng-seat` | `hvd_40127` | `approximate`／`medium` | 共址 2 个地点；待独立替换 |
-| 847 | 浙江 | 府属州与县治 | 武康县 | county | `zhejiang-wukang-seat` | `hvd_40135` | `approximate`／`medium` | 待独立替换 |
-| 848 | 浙江 | 府属州与县治 | 武义县 | county | `zhejiang-wuyi-seat` | `hvd_40730` | `approximate`／`medium` | 待独立替换 |
-| 849 | 浙江 | 府属州与县治 | 西安县 | county | `zhejiang-xian-zhejiang-seat` | `hvd_40648` | `approximate`／`medium` | 待独立替换 |
-| 850 | 浙江 | 府属州与县治 | 仙居县 | county | `zhejiang-xianju-seat` | `hvd_40676` | `approximate`／`medium` | 待独立替换 |
-| 851 | 浙江 | 府属州与县治 | 象山县 | county | `zhejiang-xiangshan-seat` | `hvd_40756` | `approximate`／`medium` | 待独立替换 |
-| 852 | 浙江 | 府属州与县治 | 萧山县 | county | `zhejiang-xiaoshan-seat` | `hvd_40784` | `approximate`／`medium` | 待独立替换 |
-| 853 | 浙江 | 府属州与县治 | 孝丰县 | county | `zhejiang-xiaofeng-seat` | `hvd_40155` | `approximate`／`medium` | 待独立替换 |
-| 854 | 浙江 | 府属州与县治 | 新昌县 | county | `zhejiang-xinchang-seat` | `hvd_40777` | `approximate`／`medium` | 待独立替换 |
-| 855 | 浙江 | 府属州与县治 | 新城县 | county | `zhejiang-xincheng-seat` | `hvd_40123` | `approximate`／`medium` | 待独立替换 |
-| 856 | 浙江 | 府属州与县治 | 秀水县 | county | `zhejiang-xiushui-seat` | `hvd_40058` | `approximate`／`medium` | 共址 2 个地点；待独立替换 |
-| 857 | 浙江 | 府属州与县治 | 宣平县 | county | `zhejiang-xuanping-seat` | `hvd_40621` | `approximate`／`medium` | 待独立替换 |
-| 858 | 浙江 | 府属州与县治 | 义乌县 | county | `zhejiang-yiwu-seat` | `hvd_40720` | `approximate`／`medium` | 待独立替换 |
-| 859 | 浙江 | 府属州与县治 | 鄞县 | county | `zhejiang-yin-seat` | `hvd_40743` | `approximate`／`medium` | 待独立替换 |
-| 860 | 浙江 | 府属州与县治 | 永嘉县 | county | `zhejiang-yongjia-seat` | `hvd_40701` | `approximate`／`medium` | 待独立替换 |
-| 861 | 浙江 | 府属州与县治 | 永康县 | county | `zhejiang-yongkang-seat` | `hvd_40727` | `approximate`／`medium` | 待独立替换 |
-| 862 | 浙江 | 府属州与县治 | 于潜县 | county | `zhejiang-yuqian-seat` | `hvd_40100` | `approximate`／`medium` | 待独立替换 |
-| 863 | 浙江 | 府属州与县治 | 余杭县 | county | `zhejiang-yuhang-seat` | `hvd_40085` | `approximate`／`medium` | 待独立替换 |
-| 864 | 浙江 | 府属州与县治 | 余姚县 | county | `zhejiang-yuyao-seat` | `hvd_40788` | `approximate`／`medium` | 待独立替换 |
-| 865 | 浙江 | 府属州与县治 | 云和县 | county | `zhejiang-yunhe-seat` | `hvd_40622` | `approximate`／`medium` | 待独立替换 |
-| 866 | 浙江 | 府属州与县治 | 长兴县 | county | `zhejiang-changxing-seat` | `hvd_40144` | `approximate`／`medium` | 待独立替换 |
-| 867 | 浙江 | 府属州与县治 | 诸暨县 | county | `zhejiang-zhuji-seat` | `hvd_40796` | `approximate`／`medium` | 待独立替换 |
+| 796 | 浙江 | 府属州与县治 | 安吉州 | department | `zhejiang-anjizhou-seat` | `hvd_40153` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 797 | 浙江 | 府属州与县治 | 昌化县 | county | `zhejiang-changhua-seat` | `hvd_40110` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 798 | 浙江 | 府属州与县治 | 常山县 | county | `zhejiang-changshan-seat` | `hvd_40629` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 799 | 浙江 | 府属州与县治 | 崇德县 | county | `zhejiang-chongde-seat` | `hvd_40064` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 800 | 浙江 | 府属州与县治 | 淳安县 | county | `zhejiang-chunan-seat` | `hvd_40811` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 801 | 浙江 | 府属州与县治 | 慈溪县 | county | `zhejiang-cixi-seat` | `hvd_40732` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 802 | 浙江 | 府属州与县治 | 德清县 | county | `zhejiang-deqing-seat` | `hvd_40158` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 803 | 浙江 | 府属州与县治 | 定海县 | county | `zhejiang-dinghai-seat` | `hvd_40745` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 804 | 浙江 | 府属州与县治 | 东阳县 | county | `zhejiang-dongyang-seat` | `hvd_40725` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 805 | 浙江 | 府属州与县治 | 分水县 | county | `zhejiang-fenshui-seat` | `hvd_40799` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 806 | 浙江 | 府属州与县治 | 奉化县 | county | `zhejiang-fenghua-seat` | `hvd_40735` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 807 | 浙江 | 府属州与县治 | 富阳县 | county | `zhejiang-fuyang-seat` | `hvd_40092` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 808 | 浙江 | 府属州与县治 | 归安县 | county | `zhejiang-guian-seat` | `hvd_40128` | `approximate`／`medium` | 共址 2 个地点；已独立替换（浙江两批） |
+| 809 | 浙江 | 府属州与县治 | 海宁县 | county | `zhejiang-haining-seat` | `hvd_40117` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 810 | 浙江 | 府属州与县治 | 海盐县 | county | `zhejiang-haiyan-seat` | `hvd_40075` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 811 | 浙江 | 府属州与县治 | 黄岩县 | county | `zhejiang-huangyan-seat` | `hvd_40653` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 812 | 浙江 | 府属州与县治 | 嘉善县 | county | `zhejiang-jiashan-seat` | `hvd_40059` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 813 | 浙江 | 府属州与县治 | 嘉兴县 | county | `zhejiang-jiaxing-seat` | `hvd_40057` | `approximate`／`medium` | 共址 2 个地点；已独立替换（浙江两批） |
+| 814 | 浙江 | 府属州与县治 | 建德县 | county | `zhejiang-jiande-seat` | `hvd_40803` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 815 | 浙江 | 府属州与县治 | 江山县 | county | `zhejiang-jiangshan-seat` | `hvd_40634` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 816 | 浙江 | 府属州与县治 | 金华县 | county | `zhejiang-jinhua-seat` | `hvd_40708` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 817 | 浙江 | 府属州与县治 | 缙云县 | county | `zhejiang-jinyun-seat` | `hvd_40597` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 818 | 浙江 | 府属州与县治 | 景宁县 | county | `zhejiang-jingning-seat` | `hvd_40598` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 819 | 浙江 | 府属州与县治 | 开化县 | county | `zhejiang-kaihua-seat` | `hvd_40635` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 820 | 浙江 | 府属州与县治 | 兰溪县 | county | `zhejiang-lanxi-seat` | `hvd_40712` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 821 | 浙江 | 府属州与县治 | 乐清县 | county | `zhejiang-yueqing-seat` | `hvd_40680` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 822 | 浙江 | 府属州与县治 | 丽水县 | county | `zhejiang-lishui-seat` | `hvd_40602` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 823 | 浙江 | 府属州与县治 | 临安县 | county | `zhejiang-linan-seat` | `hvd_40098` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 824 | 浙江 | 府属州与县治 | 临海县 | county | `zhejiang-linhai-seat` | `hvd_40657` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 825 | 浙江 | 府属州与县治 | 龙泉县 | county | `zhejiang-longquan-seat` | `hvd_40606` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 826 | 浙江 | 府属州与县治 | 龙游县 | county | `zhejiang-longyou-seat` | `hvd_40643` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 827 | 浙江 | 府属州与县治 | 宁海县 | county | `zhejiang-ninghai-seat` | `hvd_40661` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 828 | 浙江 | 府属州与县治 | 平湖县 | county | `zhejiang-pinghu-seat` | `hvd_40061` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 829 | 浙江 | 府属州与县治 | 平阳县 | county | `zhejiang-pingyang-seat` | `hvd_40687` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 830 | 浙江 | 府属州与县治 | 浦江县 | county | `zhejiang-pujiang-seat` | `hvd_40715` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 831 | 浙江 | 府属州与县治 | 青田县 | county | `zhejiang-qingtian-seat` | `hvd_40607` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 832 | 浙江 | 府属州与县治 | 庆元县 | county | `zhejiang-qingyuan-seat` | `hvd_40609` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 833 | 浙江 | 府属州与县治 | 瑞安县 | county | `zhejiang-ruian-seat` | `hvd_40695` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 834 | 浙江 | 府属州与县治 | 上虞县 | county | `zhejiang-shangyu-seat` | `hvd_40774` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 835 | 浙江 | 府属州与县治 | 嵊县 | county | `zhejiang-sheng-seat` | `hvd_40768` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 836 | 浙江 | 府属州与县治 | 寿昌县 | county | `zhejiang-shouchang-seat` | `hvd_40819` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 837 | 浙江 | 府属州与县治 | 松阳县 | county | `zhejiang-songyang-seat` | `hvd_40615` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 838 | 浙江 | 府属州与县治 | 遂安县 | county | `zhejiang-suian-seat` | `hvd_40822` | `approximate`／`low` | 低可信；已独立替换（浙江两批） |
+| 839 | 浙江 | 府属州与县治 | 遂昌县 | county | `zhejiang-suichang-seat` | `hvd_40620` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 840 | 浙江 | 府属州与县治 | 太平县 | county | `zhejiang-taiping-zhejiang-seat` | `hvd_40662` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 841 | 浙江 | 府属州与县治 | 泰顺县 | county | `zhejiang-taishun-seat` | `hvd_40696` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 842 | 浙江 | 府属州与县治 | 汤溪县 | county | `zhejiang-tangxi-seat` | `hvd_40713` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 843 | 浙江 | 府属州与县治 | 天台县 | county | `zhejiang-tiantai-seat` | `hvd_40671` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 844 | 浙江 | 府属州与县治 | 桐庐县 | county | `zhejiang-tonglu-seat` | `hvd_40815` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 845 | 浙江 | 府属州与县治 | 桐乡县 | county | `zhejiang-tongxiang-seat` | `hvd_40060` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 846 | 浙江 | 府属州与县治 | 乌程县 | county | `zhejiang-wucheng-seat` | `hvd_40127` | `approximate`／`medium` | 共址 2 个地点；已独立替换（浙江两批） |
+| 847 | 浙江 | 府属州与县治 | 武康县 | county | `zhejiang-wukang-seat` | `hvd_40135` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 848 | 浙江 | 府属州与县治 | 武义县 | county | `zhejiang-wuyi-seat` | `hvd_40730` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 849 | 浙江 | 府属州与县治 | 西安县 | county | `zhejiang-xian-zhejiang-seat` | `hvd_40648` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 850 | 浙江 | 府属州与县治 | 仙居县 | county | `zhejiang-xianju-seat` | `hvd_40676` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 851 | 浙江 | 府属州与县治 | 象山县 | county | `zhejiang-xiangshan-seat` | `hvd_40756` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 852 | 浙江 | 府属州与县治 | 萧山县 | county | `zhejiang-xiaoshan-seat` | `hvd_40784` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 853 | 浙江 | 府属州与县治 | 孝丰县 | county | `zhejiang-xiaofeng-seat` | `hvd_40155` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 854 | 浙江 | 府属州与县治 | 新昌县 | county | `zhejiang-xinchang-seat` | `hvd_40777` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 855 | 浙江 | 府属州与县治 | 新城县 | county | `zhejiang-xincheng-seat` | `hvd_40123` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 856 | 浙江 | 府属州与县治 | 秀水县 | county | `zhejiang-xiushui-seat` | `hvd_40058` | `approximate`／`medium` | 共址 2 个地点；已独立替换（浙江两批） |
+| 857 | 浙江 | 府属州与县治 | 宣平县 | county | `zhejiang-xuanping-seat` | `hvd_40621` | `approximate`／`low` | 低可信；已独立替换（浙江两批） |
+| 858 | 浙江 | 府属州与县治 | 义乌县 | county | `zhejiang-yiwu-seat` | `hvd_40720` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 859 | 浙江 | 府属州与县治 | 鄞县 | county | `zhejiang-yin-seat` | `hvd_40743` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 860 | 浙江 | 府属州与县治 | 永嘉县 | county | `zhejiang-yongjia-seat` | `hvd_40701` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 861 | 浙江 | 府属州与县治 | 永康县 | county | `zhejiang-yongkang-seat` | `hvd_40727` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 862 | 浙江 | 府属州与县治 | 于潜县 | county | `zhejiang-yuqian-seat` | `hvd_40100` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 863 | 浙江 | 府属州与县治 | 余杭县 | county | `zhejiang-yuhang-seat` | `hvd_40085` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 864 | 浙江 | 府属州与县治 | 余姚县 | county | `zhejiang-yuyao-seat` | `hvd_40788` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 865 | 浙江 | 府属州与县治 | 云和县 | county | `zhejiang-yunhe-seat` | `hvd_40622` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 866 | 浙江 | 府属州与县治 | 长兴县 | county | `zhejiang-changxing-seat` | `hvd_40144` | `approximate`／`medium` | 已独立替换（浙江两批） |
+| 867 | 浙江 | 府属州与县治 | 诸暨县 | county | `zhejiang-zhuji-seat` | `hvd_40796` | `approximate`／`medium` | 已独立替换（浙江两批） |
 | 868 | 江西 | 府与直隶州治所 | 临江府／清江县 | prefecture／county | `qingjiang-seat` | `hvd_40941`／`hvd_32539` | `approximate`／`medium` | 关联 2 个行政实体；多编号 2；已独立替换（江西压力测试） |
 | 869 | 江西 | 府属州与县治 | 安福县 | county | `jiangxi-anfu-seat` | `hvd_40913` | `approximate`／`medium` | 已独立替换（江西压力测试） |
 | 870 | 江西 | 府属州与县治 | 安仁县 | county | `jiangxi-anren-seat` | `hvd_41187` | `approximate`／`low` | 已独立替换（江西压力测试）；低可信；历史现代对应待二次复核 |
