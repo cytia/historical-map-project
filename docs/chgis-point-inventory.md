@@ -10,11 +10,11 @@
 
 ## 统计口径
 
-项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）和浙江 72 点（分两批）替换后，当前仍由 CHGIS `location` 主张承担坐标的地点为 **795 个，占全部地点 48.4%**。
+项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）和湖广 107 点（三批）替换后，当前仍由 CHGIS `location` 主张承担坐标的地点为 **688 个，占全部地点 41.9%**。
 
-迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **783 个唯一编号**和 **775 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
+迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **676 个唯一编号**和 **668 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
 
-当前未迁移记录的定位精度为 `approximate` 795；可信度为 `medium` 791、`low` 4。
+当前未迁移记录的定位精度为 `approximate` 688；可信度为 `medium` 685、`low` 3。
 
 “地点记录数”“唯一 CHGIS 编号数”和“唯一坐标数”不可互换；附郭、共治或项目实体拆分会造成同一 CHGIS 编号或坐标关联多个地点。
 
@@ -24,9 +24,9 @@
 |---|---:|---|
 | 一级行政区域治所 | 5 | 在所属区域批次中优先复核 |
 | 府与直隶州治所 | 55 | 在所属区域批次中优先复核 |
-| 府属州与县治 | 732 | 随所属区域一并替换 |
+| 府属州与县治 | 625 | 随所属区域一并替换 |
 | 特殊治理／军事节点 | 3 | 单独研究与复核 |
-| 合计 | 795 | |
+| 合计 | 688 | |
 
 分类采用互斥判定顺序：一级行政区域 → 府与直隶州 → 特殊治理／军事 → 府属州与县。该顺序只用于避免重复统计，不代表实际替换批次；一个地点与多个行政实体共址时只计一次。
 
@@ -41,7 +41,7 @@
 | 山西 | 88 |
 | 陕西 | 73 |
 | 四川 | 90 |
-| 湖广 | 107 |
+| 湖广 | 0 |
 | 浙江 | 0 |
 | 江西 | 0 |
 | 福建 | 0 |
@@ -49,7 +49,7 @@
 | 广西 | 0 |
 | 云南 | 0 |
 | 贵州 | 0 |
-| 合计 | 795 |
+| 合计 | 688 |
 
 ## 独立替换原则
 
@@ -90,7 +90,7 @@
 1. **云贵流程试验：14 点。** 云南 9 点、贵州 5 点，全部为 `approximate` 点；普通连续聚落为中可信，县域代理、迁治旧治和御夷府州代理为低可信。样本包含普通府治、军民府、御夷府州、旧治和铜仁府多 CHGIS 编号，可用于验证独立候选锁定、史料对应、审计保留和商业过滤的完整流程。
 2. **福建普通州县验证：47 点（已完成）。** 福建具有较完整的普通府州县结构，并包含同名消歧和 CHGIS 父标签与《明史》父链不一致的记录，用于补足云贵样本缺少普通县治、附郭共址和密集父链的局限。
 3. **江西压力测试：64 点（已完成）。** 覆盖清江府县共址、普通县治、改名县、撤并县和同名消歧；以独立 Wikidata 坐标替换并通过压力测试后，江西不再由 CHGIS 承担 `location` 主张。
-4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73 → 山西 88 → 四川 90 → 河南 97 → 山东 104 → 湖广 107 → 南京 115 → 京师 121；广西 82 点已完成。
+4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73 → 山西 88 → 四川 90 → 河南 97 → 山东 104 → 湖广 107（三批，已完成）→ 南京 115 → 京师 121；广西 82 点已完成。
 5. 点位数量不是唯一依据；对外演示、爱发电说明或众筹宣传涉及的区域可以提前，但必须保持该区域完整验收，不能只替换截图范围内的少数点。
 6. 区域内先处理一级行政区域及府、直隶州治所，再处理府属州、县和特殊治理节点；特殊节点不能以普通现代城市代理掩盖制度和驻地不确定性。
 7. 商业构建必须拒绝目标发布区域中任何仍以 CHGIS 或其他非商业、授权不明来源承担定位主张的记录。
@@ -145,6 +145,16 @@
 - 遂安使用淳安现代区域代理并标为低可信，因历史县城已淹没且现代对应未闭合；宣平使用武义现代区域代理并标为低可信，因历史县已撤并且确切治所仍待复核。
 - 所有候选均保留官方 Wikidata API 返回的原始 `P625` 数值，经度在前；Q ID、来源主张、精度、可信度和审计日期已写入 `data/project.json`。
 - 浙江批次的数据结构、来源引用、坐标范围、共享代理和目标区域无 CHGIS `location` 主张检查通过；`data-validator` 与单元测试通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
+
+### 湖广替换验收
+
+- 107/107 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 87 点、`low` 20 点。
+- 按三批完成：第一批 36 点（清单 689–724），第二批 36 点（清单 725–760），第三批 35 点（清单 761–795）；湖广 107 个目标点均不再由 CHGIS `location` 主张承担坐标。
+- 普通县治优先采用当前县、市或自治县代理；光化→老河口、广济→武穴、景陵→天门、龙阳→汉寿、蒲圻→赤壁、蕲水→浠水、应山→广水、永明→江永等改名或行政沿革项保留低可信说明。
+- 桂阳州与桂阳县共享现代桂阳县代理但保持两个历史 `placeId`；均标为低可信，避免将同名历史实体合并。
+- 均州使用丹江口市区域代理并标为低可信；归州、沅州、黔阳、上津等旧治或州县对应保留未解析说明。
+- 所有候选均保留官方 Wikidata `P625` 原始数值，经度在前；Q ID、来源主张、精度、可信度和审计日期已写入 `data/project.json`。湖广批次唯一 Q ID 为 106 个，其中 1 个现代代理由两个历史点共享。
+- 三批的数据结构、来源引用、WGS 84 坐标范围、湖广目标无 CHGIS `location` 主张和旧编号审计保留检查均通过；`data-validator` 与单元测试通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
 首轮锁定的现代代理如下（坐标来自 Wikidata `P625`，均按 WGS 84 经度在前记录）：
 
@@ -875,113 +885,113 @@
 | 686 | 四川 | 特殊治理／军事节点 | 太平长官司 | military | `taiping-yongning-seat` | `hvd_96353` | `approximate`／`medium` | 待独立替换 |
 | 687 | 四川 | 特殊治理／军事节点 | 天全六番招讨司 | military | `tianquan-liufan-seat` | `hvd_96388` | `approximate`／`medium` | 待独立替换 |
 | 688 | 四川 | 特殊治理／军事节点 | 永宁宣抚司 | military | `yongning-xuanfu-seat` | `hvd_96348` | `approximate`／`medium` | 待独立替换 |
-| 689 | 湖广 | 府属州与县治 | 安化县 | county | `anhua-seat` | `hvd_41723` | `approximate`／`medium` | 待独立替换 |
-| 690 | 湖广 | 府属州与县治 | 安仁县 | county | `anren-hengzhou-seat` | `hvd_41875` | `approximate`／`medium` | 待独立替换 |
-| 691 | 湖广 | 府属州与县治 | 安乡县 | county | `anxiang-seat` | `hvd_41934` | `approximate`／`medium` | 待独立替换 |
-| 692 | 湖广 | 府属州与县治 | 巴东县 | county | `badong-seat` | `hvd_45840` | `approximate`／`medium` | 待独立替换 |
-| 693 | 湖广 | 府属州与县治 | 保康县 | county | `baokang-seat` | `hvd_45955` | `approximate`／`medium` | 待独立替换 |
-| 694 | 湖广 | 府属州与县治 | 茶陵州 | department | `chaling-changsha-seat` | `hvd_41774` | `approximate`／`medium` | 待独立替换 |
-| 695 | 湖广 | 府属州与县治 | 常宁县 | county | `changning-hengzhou-seat` | `hvd_41873` | `approximate`／`medium` | 待独立替换 |
-| 696 | 湖广 | 府属州与县治 | 辰溪县 | county | `chenxi-chenzhou-seat` | `hvd_41807` | `approximate`／`medium` | 待独立替换 |
-| 697 | 湖广 | 府属州与县治 | 城步县 | county | `chengbu-baoqing-seat` | `hvd_42022` | `approximate`／`medium` | 待独立替换 |
-| 698 | 湖广 | 府属州与县治 | 崇阳县 | county | `chongyang-seat` | `hvd_43437` | `approximate`／`medium` | 待独立替换 |
-| 699 | 湖广 | 府属州与县治 | 慈利县 | county | `cili-seat` | `hvd_41942` | `approximate`／`medium` | 待独立替换 |
-| 700 | 湖广 | 府属州与县治 | 大冶县 | county | `daye-seat` | `hvd_43452` | `approximate`／`medium` | 待独立替换 |
-| 701 | 湖广 | 府属州与县治 | 当阳县 | county | `dangyang-seat` | `hvd_45780` | `approximate`／`medium` | 待独立替换 |
-| 702 | 湖广 | 府属州与县治 | 道州 | department | `daozhou-yongzhou-seat` | `hvd_41988` | `approximate`／`medium` | 待独立替换 |
-| 703 | 湖广 | 府属州与县治 | 东安县 | county | `dongan-yongzhou-seat` | `hvd_41963` | `approximate`／`medium` | 待独立替换 |
-| 704 | 湖广 | 府属州与县治 | 房县 | county | `fang-seat` | `hvd_45929` | `approximate`／`medium` | 待独立替换 |
-| 705 | 湖广 | 府属州与县治 | 公安县 | county | `gongan-seat` | `hvd_43687` | `approximate`／`medium` | 待独立替换 |
-| 706 | 湖广 | 府属州与县治 | 谷城县 | county | `gucheng-xiangyang-seat` | `hvd_631` | `approximate`／`low` | 低可信；待独立替换 |
-| 707 | 湖广 | 府属州与县治 | 光化县 | county | `guanghua-seat` | `hvd_45739` | `approximate`／`medium` | 待独立替换 |
-| 708 | 湖广 | 府属州与县治 | 广济县 | county | `guangji-seat` | `hvd_43553` | `approximate`／`medium` | 待独立替换 |
-| 709 | 湖广 | 府属州与县治 | 归州 | department | `guizhou-jingzhou-seat` | `hvd_45817` | `approximate`／`medium` | 待独立替换 |
-| 710 | 湖广 | 府属州与县治 | 桂东县 | county | `guidong-chenzhou-seat` | `hvd_41713` | `approximate`／`medium` | 待独立替换 |
-| 711 | 湖广 | 府属州与县治 | 桂阳县 | county | `guiyang-chenzhou-seat` | `hvd_41711` | `approximate`／`medium` | 待独立替换 |
-| 712 | 湖广 | 府属州与县治 | 桂阳州 | department | `guiyang-hengzhou-seat` | `hvd_41826` | `approximate`／`medium` | 待独立替换 |
-| 713 | 湖广 | 府属州与县治 | 汉川县 | county | `hanchuan-seat` | `hvd_43472` | `approximate`／`medium` | 待独立替换 |
-| 714 | 湖广 | 府属州与县治 | 衡山县 | county | `hengshan-hengzhou-seat` | `hvd_41862` | `approximate`／`medium` | 待独立替换 |
-| 715 | 湖广 | 府属州与县治 | 华容县 | county | `huarong-seat` | `hvd_42107` | `approximate`／`medium` | 待独立替换 |
-| 716 | 湖广 | 府属州与县治 | 黄安县 | county | `huangan-seat` | `hvd_43515` | `approximate`／`medium` | 待独立替换 |
-| 717 | 湖广 | 府属州与县治 | 黄梅县 | county | `huangmei-seat` | `hvd_43559` | `approximate`／`medium` | 待独立替换 |
-| 718 | 湖广 | 府属州与县治 | 黄陂县 | county | `huangpi-seat` | `hvd_43481` | `approximate`／`medium` | 待独立替换 |
-| 719 | 湖广 | 府属州与县治 | 会同县 | county | `huitong-jingzhou-seat` | `hvd_41892` | `approximate`／`medium` | 待独立替换 |
-| 720 | 湖广 | 府属州与县治 | 嘉鱼县 | county | `jiayu-seat` | `hvd_43438` | `approximate`／`medium` | 待独立替换 |
-| 721 | 湖广 | 府属州与县治 | 监利县 | county | `jianli-seat` | `hvd_43708` | `approximate`／`medium` | 待独立替换 |
-| 722 | 湖广 | 府属州与县治 | 江华县 | county | `jianghua-daozhou-seat` | `hvd_41979` | `approximate`／`medium` | 待独立替换 |
-| 723 | 湖广 | 府属州与县治 | 京山县 | county | `jingshan-seat` | `hvd_43568` | `approximate`／`medium` | 待独立替换 |
-| 724 | 湖广 | 府属州与县治 | 荆门州 | department | `jingmen-chengtian-seat` | `hvd_45770` | `approximate`／`medium` | 待独立替换 |
-| 725 | 湖广 | 府属州与县治 | 景陵县 | county | `jingling-seat` | `hvd_43600` | `approximate`／`medium` | 待独立替换 |
-| 726 | 湖广 | 府属州与县治 | 均州 | department | `junzhou-xiangyang-seat` | `hvd_45757` | `approximate`／`medium` | 待独立替换 |
-| 727 | 湖广 | 府属州与县治 | 蓝山县 | county | `lanshan-hengzhou-seat` | `hvd_41823` | `approximate`／`medium` | 待独立替换 |
-| 728 | 湖广 | 府属州与县治 | 耒阳县 | county | `leiyang-hengzhou-seat` | `hvd_41865` | `approximate`／`medium` | 待独立替换 |
-| 729 | 湖广 | 府属州与县治 | 澧州 | department | `lizhou-yuezhou-seat` | `hvd_42114` | `approximate`／`medium` | 待独立替换 |
-| 730 | 湖广 | 府属州与县治 | 醴陵县 | county | `liling-seat` | `hvd_41728` | `approximate`／`medium` | 待独立替换 |
-| 731 | 湖广 | 府属州与县治 | 临武县 | county | `linwu-hengzhou-seat` | `hvd_41832` | `approximate`／`medium` | 待独立替换 |
-| 732 | 湖广 | 府属州与县治 | 临湘县 | county | `linxiang-seat` | `hvd_42109` | `approximate`／`medium` | 待独立替换 |
-| 733 | 湖广 | 府属州与县治 | 酃县 | county | `ling-hengzhou-seat` | `hvd_41878` | `approximate`／`medium` | 待独立替换 |
-| 734 | 湖广 | 府属州与县治 | 浏阳县 | county | `liuyang-seat` | `hvd_41733` | `approximate`／`medium` | 待独立替换 |
-| 735 | 湖广 | 府属州与县治 | 龙阳县 | county | `longyang-seat` | `hvd_41914` | `approximate`／`medium` | 待独立替换 |
-| 736 | 湖广 | 府属州与县治 | 卢溪县 | county | `luxi-chenzhou-seat` | `hvd_41800` | `approximate`／`medium` | 待独立替换 |
-| 737 | 湖广 | 府属州与县治 | 罗田县 | county | `luotian-seat` | `hvd_43527` | `approximate`／`medium` | 待独立替换 |
-| 738 | 湖广 | 府属州与县治 | 麻城县 | county | `macheng-seat` | `hvd_43533` | `approximate`／`medium` | 待独立替换 |
-| 739 | 湖广 | 府属州与县治 | 麻阳县 | county | `mayang-yuanzhou-seat` | `hvd_42080` | `approximate`／`medium` | 待独立替换 |
-| 740 | 湖广 | 府属州与县治 | 沔阳州 | department | `mianyang-chengtian-seat` | `hvd_105011` | `approximate`／`medium` | 待独立替换 |
-| 741 | 湖广 | 府属州与县治 | 南漳县 | county | `nanzhang-seat` | `hvd_45692` | `approximate`／`medium` | 待独立替换 |
-| 742 | 湖广 | 府属州与县治 | 宁乡县 | county | `ningxiang-changsha-seat` | `hvd_41790` | `approximate`／`medium` | 待独立替换 |
-| 743 | 湖广 | 府属州与县治 | 宁远县 | county | `ningyuan-daozhou-seat` | `hvd_41974` | `approximate`／`medium` | 待独立替换 |
-| 744 | 湖广 | 府属州与县治 | 平江县 | county | `pingjiang-seat` | `hvd_42099` | `approximate`／`medium` | 待独立替换 |
-| 745 | 湖广 | 府属州与县治 | 蒲圻县 | county | `puqi-seat` | `hvd_43431` | `approximate`／`medium` | 待独立替换 |
-| 746 | 湖广 | 府属州与县治 | 祁阳县 | county | `qiyang-yongzhou-seat` | `hvd_41962` | `approximate`／`medium` | 待独立替换 |
-| 747 | 湖广 | 府属州与县治 | 蕲水县 | county | `qishui-seat` | `hvd_43519` | `approximate`／`medium` | 待独立替换 |
-| 748 | 湖广 | 府属州与县治 | 蕲州 | department | `qizhou-huangzhou-seat` | `hvd_43549` | `approximate`／`medium` | 待独立替换 |
-| 749 | 湖广 | 府属州与县治 | 潜江县 | county | `qianjiang-seat` | `hvd_43588` | `approximate`／`medium` | 待独立替换 |
-| 750 | 湖广 | 府属州与县治 | 黔阳县 | county | `qianyang-yuanzhou-seat` | `hvd_42078` | `approximate`／`medium` | 待独立替换 |
-| 751 | 湖广 | 府属州与县治 | 上津县 | county | `shangjin-seat` | `hvd_45967` | `approximate`／`medium` | 待独立替换 |
-| 752 | 湖广 | 府属州与县治 | 石门县 | county | `shimen-seat` | `hvd_41948` | `approximate`／`medium` | 待独立替换 |
-| 753 | 湖广 | 府属州与县治 | 石首县 | county | `shishou-seat` | `hvd_43701` | `approximate`／`medium` | 待独立替换 |
-| 754 | 湖广 | 府属州与县治 | 松滋县 | county | `songzi-seat` | `hvd_43717` | `approximate`／`medium` | 待独立替换 |
-| 755 | 湖广 | 府属州与县治 | 绥宁县 | county | `suining-jingzhou-seat` | `hvd_41898` | `approximate`／`medium` | 待独立替换 |
-| 756 | 湖广 | 府属州与县治 | 随州 | department | `suizhou-dean-seat` | `hvd_105025` | `approximate`／`medium` | 待独立替换 |
-| 757 | 湖广 | 府属州与县治 | 桃源县 | county | `taoyuan-changde-seat` | `hvd_41917` | `approximate`／`medium` | 待独立替换 |
-| 758 | 湖广 | 府属州与县治 | 天柱县 | county | `tianzhu-jingzhou-seat` | `hvd_41899` | `approximate`／`medium` | 待独立替换 |
-| 759 | 湖广 | 府属州与县治 | 通城县 | county | `tongcheng-wuchang-seat` | `hvd_43443` | `approximate`／`medium` | 待独立替换 |
-| 760 | 湖广 | 府属州与县治 | 通道县 | county | `tongdao-jingzhou-seat` | `hvd_41894` | `approximate`／`medium` | 待独立替换 |
-| 761 | 湖广 | 府属州与县治 | 通山县 | county | `tongshan-seat` | `hvd_43454` | `approximate`／`medium` | 待独立替换 |
-| 762 | 湖广 | 府属州与县治 | 武昌县 | county | `wuchang-seat` | `hvd_43425` | `approximate`／`medium` | 待独立替换 |
-| 763 | 湖广 | 府属州与县治 | 武冈州 | department | `wugang-baoqing-seat` | `hvd_42026` | `approximate`／`medium` | 待独立替换 |
-| 764 | 湖广 | 府属州与县治 | 咸宁县 | county | `xianning-seat` | `hvd_43433` | `approximate`／`medium` | 待独立替换 |
-| 765 | 湖广 | 府属州与县治 | 湘潭县 | county | `xiangtan-seat` | `hvd_41738` | `approximate`／`medium` | 待独立替换 |
-| 766 | 湖广 | 府属州与县治 | 湘乡县 | county | `xiangxiang-seat` | `hvd_41744` | `approximate`／`medium` | 待独立替换 |
-| 767 | 湖广 | 府属州与县治 | 湘阴县 | county | `xiangyin-seat` | `hvd_41754` | `approximate`／`medium` | 待独立替换 |
-| 768 | 湖广 | 府属州与县治 | 孝感县 | county | `xiaogan-seat` | `hvd_43477` | `approximate`／`medium` | 待独立替换 |
-| 769 | 湖广 | 府属州与县治 | 新化县 | county | `xinhua-baoqing-seat` | `hvd_42120` | `approximate`／`medium` | 待独立替换 |
-| 770 | 湖广 | 府属州与县治 | 新宁县 | county | `xinning-wugang-seat` | `hvd_42113` | `approximate`／`medium` | 待独立替换 |
-| 771 | 湖广 | 府属州与县治 | 兴国州 | department | `xingguo-huguang-seat` | `hvd_105005` | `approximate`／`medium` | 待独立替换 |
-| 772 | 湖广 | 府属州与县治 | 兴宁县 | county | `xingning-chenzhou-seat` | `hvd_41697` | `approximate`／`medium` | 待独立替换 |
-| 773 | 湖广 | 府属州与县治 | 兴山县 | county | `xingshan-seat` | `hvd_45835` | `approximate`／`medium` | 待独立替换 |
-| 774 | 湖广 | 府属州与县治 | 溆浦县 | county | `xupu-chenzhou-seat` | `hvd_41808` | `approximate`／`medium` | 待独立替换 |
-| 775 | 湖广 | 府属州与县治 | 夷陵州 | department | `yiling-jingzhou-seat` | `hvd_45806` | `approximate`／`medium` | 待独立替换 |
-| 776 | 湖广 | 府属州与县治 | 宜城县 | county | `yicheng-xiangyang-seat` | `hvd_45678` | `approximate`／`medium` | 待独立替换 |
-| 777 | 湖广 | 府属州与县治 | 宜都县 | county | `yidu-jingzhou-seat` | `hvd_43735` | `approximate`／`medium` | 待独立替换 |
-| 778 | 湖广 | 府属州与县治 | 宜章县 | county | `yizhang-chenzhou-seat` | `hvd_41705` | `approximate`／`medium` | 待独立替换 |
-| 779 | 湖广 | 府属州与县治 | 益阳县 | county | `yiyang-seat` | `hvd_41759` | `approximate`／`medium` | 待独立替换 |
-| 780 | 湖广 | 府属州与县治 | 应城县 | county | `yingcheng-seat` | `hvd_43617` | `approximate`／`medium` | 待独立替换 |
-| 781 | 湖广 | 府属州与县治 | 应山县 | county | `yingshan-dean-seat` | `hvd_43663` | `approximate`／`medium` | 待独立替换 |
-| 782 | 湖广 | 府属州与县治 | 永明县 | county | `yongming-daozhou-seat` | `hvd_41986` | `approximate`／`medium` | 待独立替换 |
-| 783 | 湖广 | 府属州与县治 | 永兴县 | county | `yongxing-chenzhou-seat` | `hvd_41701` | `approximate`／`medium` | 待独立替换 |
-| 784 | 湖广 | 府属州与县治 | 攸县 | county | `you-seat` | `hvd_41766` | `approximate`／`medium` | 待独立替换 |
-| 785 | 湖广 | 府属州与县治 | 沅江县 | county | `yuanjiang-changde-seat` | `hvd_41924` | `approximate`／`medium` | 待独立替换 |
-| 786 | 湖广 | 府属州与县治 | 沅州 | department | `yuanzhou-chenzhou-seat` | `hvd_42135` | `approximate`／`medium` | 待独立替换 |
-| 787 | 湖广 | 府属州与县治 | 远安县 | county | `yuanan-jingzhou-seat` | `hvd_45787` | `approximate`／`medium` | 待独立替换 |
-| 788 | 湖广 | 府属州与县治 | 云梦县 | county | `yunmeng-seat` | `hvd_43608` | `approximate`／`medium` | 待独立替换 |
-| 789 | 湖广 | 府属州与县治 | 郧西县 | county | `yunxi-seat` | `hvd_45962` | `approximate`／`medium` | 待独立替换 |
-| 790 | 湖广 | 府属州与县治 | 郧县 | county | `yun-yunyang-seat` | `hvd_45920` | `approximate`／`medium` | 待独立替换 |
-| 791 | 湖广 | 府属州与县治 | 枣阳县 | county | `zaoyang-seat` | `hvd_45704` | `approximate`／`medium` | 待独立替换 |
-| 792 | 湖广 | 府属州与县治 | 长阳县 | county | `changyang-seat` | `hvd_45824` | `approximate`／`medium` | 待独立替换 |
-| 793 | 湖广 | 府属州与县治 | 枝江县 | county | `zhijiang-jingzhou-seat` | `hvd_43726` | `approximate`／`medium` | 待独立替换 |
-| 794 | 湖广 | 府属州与县治 | 竹山县 | county | `zhushan-seat` | `hvd_45938` | `approximate`／`medium` | 待独立替换 |
-| 795 | 湖广 | 府属州与县治 | 竹溪县 | county | `zhuxi-seat` | `hvd_45951` | `approximate`／`medium` | 待独立替换 |
+| 689 | 湖广 | 府属州与县治 | 安化县 | county | `anhua-seat` | `hvd_41723` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 690 | 湖广 | 府属州与县治 | 安仁县 | county | `anren-hengzhou-seat` | `hvd_41875` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 691 | 湖广 | 府属州与县治 | 安乡县 | county | `anxiang-seat` | `hvd_41934` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 692 | 湖广 | 府属州与县治 | 巴东县 | county | `badong-seat` | `hvd_45840` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 693 | 湖广 | 府属州与县治 | 保康县 | county | `baokang-seat` | `hvd_45955` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 694 | 湖广 | 府属州与县治 | 茶陵州 | department | `chaling-changsha-seat` | `hvd_41774` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 695 | 湖广 | 府属州与县治 | 常宁县 | county | `changning-hengzhou-seat` | `hvd_41873` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 696 | 湖广 | 府属州与县治 | 辰溪县 | county | `chenxi-chenzhou-seat` | `hvd_41807` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 697 | 湖广 | 府属州与县治 | 城步县 | county | `chengbu-baoqing-seat` | `hvd_42022` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 698 | 湖广 | 府属州与县治 | 崇阳县 | county | `chongyang-seat` | `hvd_43437` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 699 | 湖广 | 府属州与县治 | 慈利县 | county | `cili-seat` | `hvd_41942` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 700 | 湖广 | 府属州与县治 | 大冶县 | county | `daye-seat` | `hvd_43452` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 701 | 湖广 | 府属州与县治 | 当阳县 | county | `dangyang-seat` | `hvd_45780` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 702 | 湖广 | 府属州与县治 | 道州 | department | `daozhou-yongzhou-seat` | `hvd_41988` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 703 | 湖广 | 府属州与县治 | 东安县 | county | `dongan-yongzhou-seat` | `hvd_41963` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 704 | 湖广 | 府属州与县治 | 房县 | county | `fang-seat` | `hvd_45929` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 705 | 湖广 | 府属州与县治 | 公安县 | county | `gongan-seat` | `hvd_43687` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 706 | 湖广 | 府属州与县治 | 谷城县 | county | `gucheng-xiangyang-seat` | `hvd_631` | `approximate`／`low` | 低可信；低可信；已独立替换（湖广三批） |
+| 707 | 湖广 | 府属州与县治 | 光化县 | county | `guanghua-seat` | `hvd_45739` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 708 | 湖广 | 府属州与县治 | 广济县 | county | `guangji-seat` | `hvd_43553` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 709 | 湖广 | 府属州与县治 | 归州 | department | `guizhou-jingzhou-seat` | `hvd_45817` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 710 | 湖广 | 府属州与县治 | 桂东县 | county | `guidong-chenzhou-seat` | `hvd_41713` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 711 | 湖广 | 府属州与县治 | 桂阳县 | county | `guiyang-chenzhou-seat` | `hvd_41711` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 712 | 湖广 | 府属州与县治 | 桂阳州 | department | `guiyang-hengzhou-seat` | `hvd_41826` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 713 | 湖广 | 府属州与县治 | 汉川县 | county | `hanchuan-seat` | `hvd_43472` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 714 | 湖广 | 府属州与县治 | 衡山县 | county | `hengshan-hengzhou-seat` | `hvd_41862` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 715 | 湖广 | 府属州与县治 | 华容县 | county | `huarong-seat` | `hvd_42107` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 716 | 湖广 | 府属州与县治 | 黄安县 | county | `huangan-seat` | `hvd_43515` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 717 | 湖广 | 府属州与县治 | 黄梅县 | county | `huangmei-seat` | `hvd_43559` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 718 | 湖广 | 府属州与县治 | 黄陂县 | county | `huangpi-seat` | `hvd_43481` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 719 | 湖广 | 府属州与县治 | 会同县 | county | `huitong-jingzhou-seat` | `hvd_41892` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 720 | 湖广 | 府属州与县治 | 嘉鱼县 | county | `jiayu-seat` | `hvd_43438` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 721 | 湖广 | 府属州与县治 | 监利县 | county | `jianli-seat` | `hvd_43708` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 722 | 湖广 | 府属州与县治 | 江华县 | county | `jianghua-daozhou-seat` | `hvd_41979` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 723 | 湖广 | 府属州与县治 | 京山县 | county | `jingshan-seat` | `hvd_43568` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 724 | 湖广 | 府属州与县治 | 荆门州 | department | `jingmen-chengtian-seat` | `hvd_45770` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 725 | 湖广 | 府属州与县治 | 景陵县 | county | `jingling-seat` | `hvd_43600` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 726 | 湖广 | 府属州与县治 | 均州 | department | `junzhou-xiangyang-seat` | `hvd_45757` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 727 | 湖广 | 府属州与县治 | 蓝山县 | county | `lanshan-hengzhou-seat` | `hvd_41823` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 728 | 湖广 | 府属州与县治 | 耒阳县 | county | `leiyang-hengzhou-seat` | `hvd_41865` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 729 | 湖广 | 府属州与县治 | 澧州 | department | `lizhou-yuezhou-seat` | `hvd_42114` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 730 | 湖广 | 府属州与县治 | 醴陵县 | county | `liling-seat` | `hvd_41728` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 731 | 湖广 | 府属州与县治 | 临武县 | county | `linwu-hengzhou-seat` | `hvd_41832` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 732 | 湖广 | 府属州与县治 | 临湘县 | county | `linxiang-seat` | `hvd_42109` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 733 | 湖广 | 府属州与县治 | 酃县 | county | `ling-hengzhou-seat` | `hvd_41878` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 734 | 湖广 | 府属州与县治 | 浏阳县 | county | `liuyang-seat` | `hvd_41733` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 735 | 湖广 | 府属州与县治 | 龙阳县 | county | `longyang-seat` | `hvd_41914` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 736 | 湖广 | 府属州与县治 | 卢溪县 | county | `luxi-chenzhou-seat` | `hvd_41800` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 737 | 湖广 | 府属州与县治 | 罗田县 | county | `luotian-seat` | `hvd_43527` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 738 | 湖广 | 府属州与县治 | 麻城县 | county | `macheng-seat` | `hvd_43533` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 739 | 湖广 | 府属州与县治 | 麻阳县 | county | `mayang-yuanzhou-seat` | `hvd_42080` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 740 | 湖广 | 府属州与县治 | 沔阳州 | department | `mianyang-chengtian-seat` | `hvd_105011` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 741 | 湖广 | 府属州与县治 | 南漳县 | county | `nanzhang-seat` | `hvd_45692` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 742 | 湖广 | 府属州与县治 | 宁乡县 | county | `ningxiang-changsha-seat` | `hvd_41790` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 743 | 湖广 | 府属州与县治 | 宁远县 | county | `ningyuan-daozhou-seat` | `hvd_41974` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 744 | 湖广 | 府属州与县治 | 平江县 | county | `pingjiang-seat` | `hvd_42099` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 745 | 湖广 | 府属州与县治 | 蒲圻县 | county | `puqi-seat` | `hvd_43431` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 746 | 湖广 | 府属州与县治 | 祁阳县 | county | `qiyang-yongzhou-seat` | `hvd_41962` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 747 | 湖广 | 府属州与县治 | 蕲水县 | county | `qishui-seat` | `hvd_43519` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 748 | 湖广 | 府属州与县治 | 蕲州 | department | `qizhou-huangzhou-seat` | `hvd_43549` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 749 | 湖广 | 府属州与县治 | 潜江县 | county | `qianjiang-seat` | `hvd_43588` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 750 | 湖广 | 府属州与县治 | 黔阳县 | county | `qianyang-yuanzhou-seat` | `hvd_42078` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 751 | 湖广 | 府属州与县治 | 上津县 | county | `shangjin-seat` | `hvd_45967` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 752 | 湖广 | 府属州与县治 | 石门县 | county | `shimen-seat` | `hvd_41948` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 753 | 湖广 | 府属州与县治 | 石首县 | county | `shishou-seat` | `hvd_43701` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 754 | 湖广 | 府属州与县治 | 松滋县 | county | `songzi-seat` | `hvd_43717` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 755 | 湖广 | 府属州与县治 | 绥宁县 | county | `suining-jingzhou-seat` | `hvd_41898` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 756 | 湖广 | 府属州与县治 | 随州 | department | `suizhou-dean-seat` | `hvd_105025` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 757 | 湖广 | 府属州与县治 | 桃源县 | county | `taoyuan-changde-seat` | `hvd_41917` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 758 | 湖广 | 府属州与县治 | 天柱县 | county | `tianzhu-jingzhou-seat` | `hvd_41899` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 759 | 湖广 | 府属州与县治 | 通城县 | county | `tongcheng-wuchang-seat` | `hvd_43443` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 760 | 湖广 | 府属州与县治 | 通道县 | county | `tongdao-jingzhou-seat` | `hvd_41894` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 761 | 湖广 | 府属州与县治 | 通山县 | county | `tongshan-seat` | `hvd_43454` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 762 | 湖广 | 府属州与县治 | 武昌县 | county | `wuchang-seat` | `hvd_43425` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 763 | 湖广 | 府属州与县治 | 武冈州 | department | `wugang-baoqing-seat` | `hvd_42026` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 764 | 湖广 | 府属州与县治 | 咸宁县 | county | `xianning-seat` | `hvd_43433` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 765 | 湖广 | 府属州与县治 | 湘潭县 | county | `xiangtan-seat` | `hvd_41738` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 766 | 湖广 | 府属州与县治 | 湘乡县 | county | `xiangxiang-seat` | `hvd_41744` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 767 | 湖广 | 府属州与县治 | 湘阴县 | county | `xiangyin-seat` | `hvd_41754` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 768 | 湖广 | 府属州与县治 | 孝感县 | county | `xiaogan-seat` | `hvd_43477` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 769 | 湖广 | 府属州与县治 | 新化县 | county | `xinhua-baoqing-seat` | `hvd_42120` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 770 | 湖广 | 府属州与县治 | 新宁县 | county | `xinning-wugang-seat` | `hvd_42113` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 771 | 湖广 | 府属州与县治 | 兴国州 | department | `xingguo-huguang-seat` | `hvd_105005` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 772 | 湖广 | 府属州与县治 | 兴宁县 | county | `xingning-chenzhou-seat` | `hvd_41697` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 773 | 湖广 | 府属州与县治 | 兴山县 | county | `xingshan-seat` | `hvd_45835` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 774 | 湖广 | 府属州与县治 | 溆浦县 | county | `xupu-chenzhou-seat` | `hvd_41808` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 775 | 湖广 | 府属州与县治 | 夷陵州 | department | `yiling-jingzhou-seat` | `hvd_45806` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 776 | 湖广 | 府属州与县治 | 宜城县 | county | `yicheng-xiangyang-seat` | `hvd_45678` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 777 | 湖广 | 府属州与县治 | 宜都县 | county | `yidu-jingzhou-seat` | `hvd_43735` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 778 | 湖广 | 府属州与县治 | 宜章县 | county | `yizhang-chenzhou-seat` | `hvd_41705` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 779 | 湖广 | 府属州与县治 | 益阳县 | county | `yiyang-seat` | `hvd_41759` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 780 | 湖广 | 府属州与县治 | 应城县 | county | `yingcheng-seat` | `hvd_43617` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 781 | 湖广 | 府属州与县治 | 应山县 | county | `yingshan-dean-seat` | `hvd_43663` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 782 | 湖广 | 府属州与县治 | 永明县 | county | `yongming-daozhou-seat` | `hvd_41986` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 783 | 湖广 | 府属州与县治 | 永兴县 | county | `yongxing-chenzhou-seat` | `hvd_41701` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 784 | 湖广 | 府属州与县治 | 攸县 | county | `you-seat` | `hvd_41766` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 785 | 湖广 | 府属州与县治 | 沅江县 | county | `yuanjiang-changde-seat` | `hvd_41924` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 786 | 湖广 | 府属州与县治 | 沅州 | department | `yuanzhou-chenzhou-seat` | `hvd_42135` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 787 | 湖广 | 府属州与县治 | 远安县 | county | `yuanan-jingzhou-seat` | `hvd_45787` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 788 | 湖广 | 府属州与县治 | 云梦县 | county | `yunmeng-seat` | `hvd_43608` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 789 | 湖广 | 府属州与县治 | 郧西县 | county | `yunxi-seat` | `hvd_45962` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 790 | 湖广 | 府属州与县治 | 郧县 | county | `yun-yunyang-seat` | `hvd_45920` | `approximate`／`low` | 低可信；已独立替换（湖广三批） |
+| 791 | 湖广 | 府属州与县治 | 枣阳县 | county | `zaoyang-seat` | `hvd_45704` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 792 | 湖广 | 府属州与县治 | 长阳县 | county | `changyang-seat` | `hvd_45824` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 793 | 湖广 | 府属州与县治 | 枝江县 | county | `zhijiang-jingzhou-seat` | `hvd_43726` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 794 | 湖广 | 府属州与县治 | 竹山县 | county | `zhushan-seat` | `hvd_45938` | `approximate`／`medium` | 已独立替换（湖广三批） |
+| 795 | 湖广 | 府属州与县治 | 竹溪县 | county | `zhuxi-seat` | `hvd_45951` | `approximate`／`medium` | 已独立替换（湖广三批） |
 | 796 | 浙江 | 府属州与县治 | 安吉州 | department | `zhejiang-anjizhou-seat` | `hvd_40153` | `approximate`／`medium` | 已独立替换（浙江两批） |
 | 797 | 浙江 | 府属州与县治 | 昌化县 | county | `zhejiang-changhua-seat` | `hvd_40110` | `approximate`／`medium` | 已独立替换（浙江两批） |
 | 798 | 浙江 | 府属州与县治 | 常山县 | county | `zhejiang-changshan-seat` | `hvd_40629` | `approximate`／`medium` | 已独立替换（浙江两批） |
