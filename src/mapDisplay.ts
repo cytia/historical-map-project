@@ -41,9 +41,10 @@ export function affiliationColorExpression(
   affiliationIds: readonly string[],
 ): string | ExpressionSpecification {
   if (!affiliationIds.length || mode !== "administrative") return mapColors.affiliationNeutral;
-  const branches = affiliationIds.flatMap((id, index) => [
+  const branches = affiliationIds.flatMap((id) => [
     id,
-    mapColors.affiliationPalette[index % mapColors.affiliationPalette.length],
+    mapColors.affiliationColors[id as keyof typeof mapColors.affiliationColors] ??
+      mapColors.affiliationNeutral,
   ]);
   return ["match", ["get", affiliationProperty[mode]], ...branches,
     mapColors.affiliationNeutral] as unknown as ExpressionSpecification;

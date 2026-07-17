@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>历史地图行政着色方案</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #e8e1d3;
+        --paper-light: #f6f1e7;
+        --ink: #282721;
+        --muted-ink: #736f65;
+        --border: rgba(54, 49, 40, 0.18);
+        --separator: rgba(54, 49, 40, 0.1);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-width: 320px;
+        margin: 0;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 12% 8%, rgba(255, 255, 255, 0.34), transparent 30rem),
+          var(--paper);
+        font-family: Georgia, "Noto Serif SC", "Source Han Serif SC", serif;
+      }
+
+      main {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 64px 0 72px;
+      }
+
+      header {
+        max-width: 680px;
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 4vw, 3.4rem);
+        font-weight: 500;
+        letter-spacing: -0.04em;
+        line-height: 1.08;
+      }
+
+      header p {
+        margin: 0;
+        color: var(--muted-ink);
+        font-size: 1rem;
+        line-height: 1.75;
+      }
+
+      .palette-list {
+        overflow: hidden;
+        border: 1px solid var(--border);
+        background: rgba(246, 241, 231, 0.68);
+      }
+
+      .palette-row {
+        display: grid;
+        grid-template-columns: minmax(150px, 1fr) minmax(210px, 1.4fr) minmax(380px, 3fr);
+        gap: 24px;
+        align-items: center;
+        min-height: 132px;
+        padding: 22px 24px;
+      }
+
+      .palette-row + .palette-row {
+        border-top: 1px solid var(--separator);
+      }
+
+      .group-name {
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 1.35;
+      }
+
+      .group-index {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--muted-ink);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.72rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .regions {
+        margin: 0;
+        color: var(--muted-ink);
+        font-size: 0.95rem;
+        line-height: 1.65;
+      }
+
+      .swatches {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+        gap: 10px;
+      }
+
+      .swatch {
+        display: flex;
+        min-height: 82px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: var(--swatch-ink, #f6f1e7);
+        background: var(--swatch-color);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14);
+      }
+
+      .swatch-name {
+        font-size: 0.86rem;
+        font-weight: 600;
+      }
+
+      .swatch-code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.72rem;
+        letter-spacing: 0.04em;
+        opacity: 0.9;
+      }
+
+      footer {
+        margin-top: 20px;
+        color: var(--muted-ink);
+        font-size: 0.82rem;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 860px) {
+        main {
+          width: min(100% - 28px, 680px);
+          padding-top: 40px;
+        }
+
+        .palette-row {
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .swatches {
+          grid-column: 1 / -1;
+        }
+      }
+
+      @media (max-width: 520px) {
+        main {
+          width: min(100% - 20px, 420px);
+        }
+
+        .palette-row {
+          grid-template-columns: 1fr;
+          gap: 14px;
+          padding: 20px 16px;
+        }
+
+        .swatches {
+          grid-column: auto;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>行政着色方案</h1>
+        <p>低饱和纸本基底下的区域分组配色。每个地区组保留同一色系，同时用色相和明度差异区分行政区域。</p>
+      </header>
+
+      <section id="palette-list" class="palette-list" aria-label="行政区域配色列表"></section>
+
+      <footer>行政区域颜色仅用于当前行政视图的归属识别，选中态和地形图层使用独立 token。</footer>
+    </main>
+
+    <script>
+      const paletteGroups = [
+        {
+          name: "传统山东地区",
+          regions: "京师、河南、山东",
+          colors: [
+            { name: "京师", code: "#A9584E", ink: "#F6F1E7" },
+            { name: "河南", code: "#C18A45", ink: "#282721" },
+            { name: "山东", code: "#8B6C4F", ink: "#F6F1E7" },
+          ],
+        },
+        {
+          name: "关内地区",
+          regions: "山西、陕西",
+          colors: [
+            { name: "山西", code: "#656762", ink: "#F6F1E7" },
+            { name: "陕西", code: "#3B3F3E", ink: "#F6F1E7" },
+          ],
+        },
+        {
+          name: "西南地区",
+          regions: "四川、云南、贵州",
+          colors: [
+            { name: "四川", code: "#5B7D58", ink: "#F6F1E7" },
+            { name: "云南", code: "#7D8D58", ink: "#282721" },
+            { name: "贵州", code: "#4B8078", ink: "#F6F1E7" },
+          ],
+        },
+        {
+          name: "中腹地区",
+          regions: "湖广、江西",
+          colors: [
+            { name: "湖广", code: "#4B8190", ink: "#F6F1E7" },
+            { name: "江西", code: "#6E929F", ink: "#282721" },
+          ],
+        },
+        {
+          name: "江南地区",
+          regions: "南京、浙江",
+          colors: [
+            { name: "南京", code: "#8C617B", ink: "#F6F1E7" },
+            { name: "浙江", code: "#A27082", ink: "#F6F1E7" },
+          ],
+        },
+        {
+          name: "东南沿海",
+          regions: "福建、广东、广西",
+          colors: [
+            { name: "福建", code: "#B5655D", ink: "#F6F1E7" },
+            { name: "广东", code: "#C38459", ink: "#282721" },
+            { name: "广西", code: "#95616E", ink: "#F6F1E7" },
+          ],
+        },
+      ];
+
+      const paletteList = document.querySelector("#palette-list");
+
+      paletteGroups.forEach((group, index) => {
+        const row = document.createElement("article");
+        row.className = "palette-row";
+        row.innerHTML = `
+          <div>
+            <span class="group-index">Group ${String(index + 1).padStart(2, "0")}</span>
+            <h2 class="group-name">${group.name}</h2>
+          </div>
+          <p class="regions">${group.regions}</p>
+          <div class="swatches" aria-label="${group.name}色号"></div>
+        `;
+
+        const swatches = row.querySelector(".swatches");
+        group.colors.forEach((color) => {
+          const swatch = document.createElement("div");
+          swatch.className = "swatch";
+          swatch.style.setProperty("--swatch-color", color.code);
+          swatch.style.setProperty("--swatch-ink", color.ink);
+          swatch.innerHTML = `
+            <span class="swatch-name">${color.name}</span>
+            <span class="swatch-code">${color.code}</span>
+          `;
+          swatches.appendChild(swatch);
+        });
+
+        paletteList.appendChild(row);
+      });
+    </script>
+  </body>
+</html>
