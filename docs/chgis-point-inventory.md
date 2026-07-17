@@ -10,11 +10,11 @@
 
 ## 统计口径
 
-项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点和广东 73 点（分两批）替换后，当前仍由 CHGIS `location` 主张承担坐标的地点为 **949 个，占全部地点 57.8%**。
+项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）和广西 82 点（分两批）替换后，当前仍由 CHGIS `location` 主张承担坐标的地点为 **867 个，占全部地点 52.8%**。
 
-迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **937 个唯一编号**和 **927 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
+迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **855 个唯一编号**和 **845 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
 
-当前未迁移记录的定位精度为 `approximate` 949；可信度为 `medium` 945、`low` 4。
+当前未迁移记录的定位精度为 `approximate` 867；可信度为 `medium` 863、`low` 4。
 
 “地点记录数”“唯一 CHGIS 编号数”和“唯一坐标数”不可互换；附郭、共治或项目实体拆分会造成同一 CHGIS 编号或坐标关联多个地点。
 
@@ -23,10 +23,10 @@
 | 类别 | 点位数 | 建议用途 |
 |---|---:|---|
 | 一级行政区域治所 | 5 | 在所属区域批次中优先复核 |
-| 府与直隶州治所 | 65 | 在所属区域批次中优先复核 |
-| 府属州与县治 | 875 | 随所属区域一并替换 |
-| 特殊治理／军事节点 | 4 | 单独研究与复核 |
-| 合计 | 949 | |
+| 府与直隶州治所 | 55 | 在所属区域批次中优先复核 |
+| 府属州与县治 | 804 | 随所属区域一并替换 |
+| 特殊治理／军事节点 | 3 | 单独研究与复核 |
+| 合计 | 867 | |
 
 分类采用互斥判定顺序：一级行政区域 → 府与直隶州 → 特殊治理／军事 → 府属州与县。该顺序只用于避免重复统计，不代表实际替换批次；一个地点与多个行政实体共址时只计一次。
 
@@ -46,10 +46,10 @@
 | 江西 | 0 |
 | 福建 | 0 |
 | 广东 | 0 |
-| 广西 | 82 |
+| 广西 | 0 |
 | 云南 | 0 |
 | 贵州 | 0 |
-| 合计 | 1,022 |
+| 合计 | 867 |
 
 ## 独立替换原则
 
@@ -90,7 +90,7 @@
 1. **云贵流程试验：14 点。** 云南 9 点、贵州 5 点，全部为 `approximate` 点；普通连续聚落为中可信，县域代理、迁治旧治和御夷府州代理为低可信。样本包含普通府治、军民府、御夷府州、旧治和铜仁府多 CHGIS 编号，可用于验证独立候选锁定、史料对应、审计保留和商业过滤的完整流程。
 2. **福建普通州县验证：47 点（已完成）。** 福建具有较完整的普通府州县结构，并包含同名消歧和 CHGIS 父标签与《明史》父链不一致的记录，用于补足云贵样本缺少普通县治、附郭共址和密集父链的局限。
 3. **江西压力测试：64 点（已完成）。** 覆盖清江府县共址、普通县治、改名县、撤并县和同名消歧；以独立 Wikidata 坐标替换并通过压力测试后，江西不再由 CHGIS 承担 `location` 主张。
-4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72 → 陕西 73 → 广西 82 → 山西 88 → 四川 90 → 河南 97 → 山东 104 → 湖广 107 → 南京 115 → 京师 121。
+4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72 → 陕西 73 → 山西 88 → 四川 90 → 河南 97 → 山东 104 → 湖广 107 → 南京 115 → 京师 121；广西 82 点已完成。
 5. 点位数量不是唯一依据；对外演示、爱发电说明或众筹宣传涉及的区域可以提前，但必须保持该区域完整验收，不能只替换截图范围内的少数点。
 6. 区域内先处理一级行政区域及府、直隶州治所，再处理府属州、县和特殊治理节点；特殊节点不能以普通现代城市代理掩盖制度和驻地不确定性。
 7. 商业构建必须拒绝目标发布区域中任何仍以 CHGIS 或其他非商业、授权不明来源承担定位主张的记录。
@@ -127,6 +127,15 @@
 - 电白县保留 Wikidata 现代电白区代理语义；因原始代表点在本项目自然参考层中落入海域，展示坐标向北移约 1.7 km 至陆地内侧，并在项目数据审计中记录该视觉校正。
 - 安定、昌化、程乡、东安、封川、感恩、会同、开建、乐会、钦州、石城、万州、西宁、香山、新安、新宁、崖州、永安、长乐和长宁等改名、撤并、迁治或区域代理情形标为低可信，待后续第二来源复核。
 - 数据结构、来源引用、坐标范围和商业发布资格校验通过；Wikidata `P625` 实体编号保留在 `data/project.json` 的现代空间来源记录中。
+
+### 广西替换验收
+
+- 82/82 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 65 点、`low` 17 点。
+- 按两批完成：第一批 41 点（清单 1052–1092），第二批 41 点（清单 1093–1133）；广西 82 个目标点均不再由 CHGIS `location` 主张承担坐标。
+- 对原 38 条低可信坐标逐条复核，其中 21 条因历史治所与现代乡镇代理可以闭合而升为中可信；仍保留低可信的 17 条为州域、跨县域、迁治未闭合或缺少独立乡镇坐标的代理：思陵、奉议、归德、河池、怀远、结安、都结、罗阳、茗盈、那地、思城、思明、陀陵、万承、镇远、忠、左。
+- 提升后的记录保留官方 Wikidata API／Query Service 返回的原始 `P625` 数值，不使用网页显示值或两位小数格式化值；其余记录不因同属一个县域而强行升为中可信。
+- 大新、扶绥、宁明、天等、江州等现代区域被多个历史记录共享代理时，保留各自历史身份，不将共享现代代理解释为旧行政复合体的精确复原。
+- 两批数据结构、来源引用、WGS 84 坐标范围、广西目标无 CHGIS `location` 主张和旧编号审计保留检查均通过；旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
 首轮锁定的现代代理如下（坐标来自 Wikidata `P625`，均按 WGS 84 经度在前记录）：
 
@@ -165,7 +174,7 @@
 
 ## 完整点位清单
 
-以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条和“已独立替换（广东两批）”的 73 条记录外，其余记录当前状态均为“待独立替换”。
+以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条和“已独立替换（广西两批）”的 82 条记录外，其余记录当前状态均为“待独立替换”。
 
 | # | 一级区域 | 类别 | 行政单位 | 等级 | placeId | CHGIS 编号 | 精度／可信度 | 标记 |
 |---:|---|---|---|---|---|---|---|---|
@@ -1220,88 +1229,88 @@
 | 1049 | 广东 | 府属州与县治 | 增城县 | county | `zengcheng-guangzhou-seat` | `hvd_42214` | `approximate`／`medium` | 已独立替换（广东两批） |
 | 1050 | 广东 | 府属州与县治 | 长乐县 | county | `changle-huizhou-seat` | `hvd_42587` | `approximate`／`low` | 低可信；已独立替换（广东两批） |
 | 1051 | 广东 | 府属州与县治 | 长宁县 | county | `changning-huizhou-seat` | `hvd_42178` | `approximate`／`low` | 低可信；已独立替换（广东两批） |
-| 1052 | 广西 | 府与直隶州治所 | 都康州 | department | `dukang-seat` | `hvd_35525` | `approximate`／`medium` | 待独立替换 |
-| 1053 | 广西 | 府与直隶州治所 | 江州 | department | `jiangzhou-guangxi-seat` | `hvd_35527` | `approximate`／`medium` | 待独立替换 |
-| 1054 | 广西 | 府与直隶州治所 | 龙州 | department | `longzhou-guangxi-seat` | `hvd_35526` | `approximate`／`medium` | 待独立替换 |
-| 1055 | 广西 | 府与直隶州治所 | 思恩军民府 | prefecture | `sien-prefectural-seat` | `hvd_35511` | `approximate`／`medium` | 待独立替换 |
-| 1056 | 广西 | 府与直隶州治所 | 思陵州 | department | `siling-seat` | `hvd_35528` | `approximate`／`medium` | 待独立替换 |
-| 1057 | 广西 | 府与直隶州治所 | 思明府 | prefecture | `siming-prefectural-seat` | `hvd_35538` | `approximate`／`medium` | 待独立替换 |
-| 1058 | 广西 | 府与直隶州治所 | 泗城州 | department | `sicheng-seat` | `hvd_35476` | `approximate`／`medium` | 待独立替换 |
-| 1059 | 广西 | 府与直隶州治所 | 田州 | department | `tianzhou-seat` | `hvd_35504` | `approximate`／`medium` | 待独立替换 |
-| 1060 | 广西 | 府与直隶州治所 | 向武州 | department | `xiangwu-seat` | `hvd_35524` | `approximate`／`medium` | 待独立替换 |
-| 1061 | 广西 | 府与直隶州治所 | 镇安府 | prefecture | `zhenan-prefectural-seat` | `hvd_35548` | `approximate`／`medium` | 待独立替换 |
-| 1062 | 广西 | 府属州与县治 | 北流县 | county | `beiliu-yulin-seat` | `hvd_44275` | `approximate`／`medium` | 待独立替换 |
-| 1063 | 广西 | 府属州与县治 | 宾州 | department | `binzhou-liuzhou-seat` | `hvd_44048` | `approximate`／`medium` | 待独立替换 |
-| 1064 | 广西 | 府属州与县治 | 博白县 | county | `bobai-yulin-seat` | `hvd_44250` | `approximate`／`medium` | 待独立替换 |
-| 1065 | 广西 | 府属州与县治 | 岑溪县 | county | `cenxi-wuzhou-seat` | `hvd_44186` | `approximate`／`medium` | 待独立替换 |
-| 1066 | 广西 | 府属州与县治 | 东兰州 | department | `donglan-qingyuan-seat` | `hvd_44013` | `approximate`／`medium` | 待独立替换 |
-| 1067 | 广西 | 府属州与县治 | 都结州 | department | `dujie-taiping-seat` | `hvd_44122` | `approximate`／`medium` | 待独立替换 |
-| 1068 | 广西 | 府属州与县治 | 奉议州 | department | `fengyi-sien-seat` | `hvd_44294` | `approximate`／`medium` | 待独立替换 |
-| 1069 | 广西 | 府属州与县治 | 富川县 | county | `fuchuan-pingle-seat` | `hvd_43917` | `approximate`／`medium` | 待独立替换 |
-| 1070 | 广西 | 府属州与县治 | 恭城县 | county | `gongcheng-pingle-seat` | `hvd_43915` | `approximate`／`medium` | 待独立替换 |
-| 1071 | 广西 | 府属州与县治 | 灌阳县 | county | `guanyang-quanzhou-seat` | `hvd_42116` | `approximate`／`medium` | 待独立替换 |
-| 1072 | 广西 | 府属州与县治 | 归德州 | department | `guide-nanning-seat` | `hvd_43905` | `approximate`／`medium` | 待独立替换 |
-| 1073 | 广西 | 府属州与县治 | 贵县 | county | `gui-xunzhou-seat` | `hvd_44232` | `approximate`／`medium` | 待独立替换 |
-| 1074 | 广西 | 府属州与县治 | 河池州 | department | `hechi-qingyuan-seat` | `hvd_43982` | `approximate`／`medium` | 待独立替换 |
-| 1075 | 广西 | 府属州与县治 | 贺县 | county | `he-pingle-seat` | `hvd_43925` | `approximate`／`medium` | 待独立替换 |
-| 1076 | 广西 | 府属州与县治 | 横州 | department | `hengzhou-nanning-seat` | `hvd_43858` | `approximate`／`medium` | 待独立替换 |
-| 1077 | 广西 | 府属州与县治 | 怀集县 | county | `huaiji-wuzhou-seat` | `hvd_44194` | `approximate`／`medium` | 待独立替换 |
-| 1078 | 广西 | 府属州与县治 | 怀远县 | county | `huaiyuan-liuzhou-seat` | `hvd_43813` | `approximate`／`medium` | 待独立替换 |
-| 1079 | 广西 | 府属州与县治 | 结安州 | department | `jiean-taiping-seat` | `hvd_44120` | `approximate`／`medium` | 待独立替换 |
-| 1080 | 广西 | 府属州与县治 | 来宾县 | county | `laibin-liuzhou-seat` | `hvd_43834` | `approximate`／`medium` | 待独立替换 |
-| 1081 | 广西 | 府属州与县治 | 荔波县 | county | `libo-hechi-seat` | `hvd_44043` | `approximate`／`medium` | 待独立替换 |
-| 1082 | 广西 | 府属州与县治 | 荔浦县 | county | `lipu-pingle-seat` | `hvd_43932` | `approximate`／`medium` | 待独立替换 |
-| 1083 | 广西 | 府属州与县治 | 灵川县 | county | `lingchuan-guilin-seat` | `hvd_43744` | `approximate`／`medium` | 待独立替换 |
-| 1084 | 广西 | 府属州与县治 | 柳城县 | county | `liucheng-liuzhou-seat` | `hvd_43806` | `approximate`／`medium` | 待独立替换 |
-| 1085 | 广西 | 府属州与县治 | 龙英州 | department | `longying-taiping-seat` | `hvd_44118` | `approximate`／`medium` | 待独立替换 |
-| 1086 | 广西 | 府属州与县治 | 隆安县 | county | `longan-nanning-seat` | `hvd_43852` | `approximate`／`medium` | 待独立替换 |
-| 1087 | 广西 | 府属州与县治 | 陆川县 | county | `luchuan-yulin-seat` | `hvd_44282` | `approximate`／`medium` | 待独立替换 |
-| 1088 | 广西 | 府属州与县治 | 罗白县 | county | `luobai-jiangzhou-seat` | `hvd_44132` | `approximate`／`medium` | 待独立替换 |
-| 1089 | 广西 | 府属州与县治 | 罗城县 | county | `luocheng-liuzhou-seat` | `hvd_43809` | `approximate`／`medium` | 待独立替换 |
-| 1090 | 广西 | 府属州与县治 | 罗阳县 | county | `luoyang-taiping-seat` | `hvd_44133` | `approximate`／`medium` | 待独立替换 |
-| 1091 | 广西 | 府属州与县治 | 洛容县 | county | `luorong-liuzhou-seat` | `hvd_43793` | `approximate`／`medium` | 待独立替换 |
-| 1092 | 广西 | 府属州与县治 | 茗盈州 | department | `mingying-taiping-seat` | `hvd_44116` | `approximate`／`medium` | 待独立替换 |
-| 1093 | 广西 | 府属州与县治 | 那地州 | department | `nadi-qingyuan-seat` | `hvd_44020` | `approximate`／`medium` | 待独立替换 |
-| 1094 | 广西 | 府属州与县治 | 南丹州 | department | `nandan-qingyuan-seat` | `hvd_44026` | `approximate`／`medium` | 待独立替换 |
-| 1095 | 广西 | 府属州与县治 | 平南县 | county | `pingnan-xunzhou-seat` | `hvd_44217` | `approximate`／`medium` | 待独立替换 |
-| 1096 | 广西 | 府属州与县治 | 迁江县 | county | `qianjiang-binzhou-seat` | `hvd_44064` | `approximate`／`medium` | 待独立替换 |
-| 1097 | 广西 | 府属州与县治 | 全茗州 | department | `quanming-taiping-seat` | `hvd_44117` | `approximate`／`medium` | 待独立替换 |
-| 1098 | 广西 | 府属州与县治 | 全州 | department | `quanzhou-guilin-seat` | `hvd_42115` | `approximate`／`medium` | 待独立替换 |
-| 1099 | 广西 | 府属州与县治 | 容县 | county | `rong-wuzhou-seat` | `hvd_44174` | `approximate`／`medium` | 待独立替换 |
-| 1100 | 广西 | 府属州与县治 | 融县 | county | `rong-liuzhou-seat` | `hvd_43818` | `approximate`／`medium` | 待独立替换 |
-| 1101 | 广西 | 府属州与县治 | 上林县 | county | `shanglin-binzhou-seat` | `hvd_44065` | `approximate`／`medium` | 待独立替换 |
-| 1102 | 广西 | 府属州与县治 | 上思州 | department | `shangsi-nanning-seat` | `hvd_43885` | `approximate`／`medium` | 待独立替换 |
-| 1103 | 广西 | 府属州与县治 | 上下冻州 | department | `shangxia-dong-taiping-seat` | `hvd_44128` | `approximate`／`medium` | 待独立替换 |
-| 1104 | 广西 | 府属州与县治 | 思城州 | department | `sicheng-taiping-seat` | `hvd_44080` | `approximate`／`medium` | 待独立替换 |
-| 1105 | 广西 | 府属州与县治 | 思恩县 | county | `sien-hechi-seat` | `hvd_44000` | `approximate`／`medium` | 待独立替换 |
-| 1106 | 广西 | 府属州与县治 | 思明州 | department | `siming-taiping-seat` | `hvd_43893` | `approximate`／`medium` | 待独立替换 |
-| 1107 | 广西 | 府属州与县治 | 太平州 | department | `taiping-taiping-seat` | `hvd_44114` | `approximate`／`medium` | 待独立替换 |
-| 1108 | 广西 | 府属州与县治 | 藤县 | county | `teng-wuzhou-seat` | `hvd_44163` | `approximate`／`medium` | 待独立替换 |
-| 1109 | 广西 | 府属州与县治 | 天河县 | county | `tianhe-qingyuan-seat` | `hvd_43977` | `approximate`／`medium` | 待独立替换 |
-| 1110 | 广西 | 府属州与县治 | 陀陵县 | county | `tuoling-taiping-seat` | `hvd_44134` | `approximate`／`medium` | 待独立替换 |
-| 1111 | 广西 | 府属州与县治 | 万承州 | department | `wancheng-taiping-seat` | `hvd_43895` | `approximate`／`medium` | 待独立替换 |
-| 1112 | 广西 | 府属州与县治 | 武宣县 | county | `wuxuan-xiangzhou-seat` | `hvd_44248` | `approximate`／`medium` | 待独立替换 |
-| 1113 | 广西 | 府属州与县治 | 下石西州 | department | `xia-shixi-siming-seat` | `hvd_43891` | `approximate`／`medium` | 待独立替换 |
-| 1114 | 广西 | 府属州与县治 | 象州 | department | `xiangzhou-liuzhou-seat` | `hvd_43819` | `approximate`／`medium` | 待独立替换 |
-| 1115 | 广西 | 府属州与县治 | 忻城县 | county | `xincheng-qingyuan-seat` | `hvd_44028` | `approximate`／`medium` | 待独立替换 |
-| 1116 | 广西 | 府属州与县治 | 新宁州 | department | `xinning-nanning-seat` | `hvd_43879` | `approximate`／`medium` | 待独立替换 |
-| 1117 | 广西 | 府属州与县治 | 兴安县 | county | `xingan-guilin-seat` | `hvd_43743` | `approximate`／`medium` | 待独立替换 |
-| 1118 | 广西 | 府属州与县治 | 兴业县 | county | `xingye-yulin-seat` | `hvd_44288` | `approximate`／`medium` | 待独立替换 |
-| 1119 | 广西 | 府属州与县治 | 修仁县 | county | `xiuren-pingle-seat` | `hvd_43945` | `approximate`／`medium` | 待独立替换 |
-| 1120 | 广西 | 府属州与县治 | 阳朔县 | county | `yangshuo-guilin-seat` | `hvd_43748` | `approximate`／`medium` | 待独立替换 |
-| 1121 | 广西 | 府属州与县治 | 养利州 | department | `yangli-taiping-seat` | `hvd_44101` | `approximate`／`medium` | 待独立替换 |
-| 1122 | 广西 | 府属州与县治 | 义宁县 | county | `yining-yongning-seat` | `hvd_43767` | `approximate`／`medium` | 待独立替换 |
-| 1123 | 广西 | 府属州与县治 | 永安州 | department | `yongan-pingle-seat` | `hvd_43957` | `approximate`／`medium` | 待独立替换 |
-| 1124 | 广西 | 府属州与县治 | 永淳县 | county | `yongchun-hengzhou-seat` | `hvd_43876` | `approximate`／`medium` | 待独立替换 |
-| 1125 | 广西 | 府属州与县治 | 永福县 | county | `yongfu-yongning-seat` | `hvd_43759` | `approximate`／`medium` | 待独立替换 |
-| 1126 | 广西 | 府属州与县治 | 永康州 | department | `yongkang-taiping-seat` | `hvd_44103` | `approximate`／`medium` | 待独立替换 |
-| 1127 | 广西 | 府属州与县治 | 永宁州 | department | `yongning-guilin-seat` | `hvd_43758` | `approximate`／`medium` | 待独立替换 |
-| 1128 | 广西 | 府属州与县治 | 郁林州 | department | `yulin-wuzhou-seat` | `hvd_116139` | `approximate`／`medium` | 待独立替换 |
-| 1129 | 广西 | 府属州与县治 | 昭平县 | county | `zhaoping-pingle-seat` | `hvd_43949` | `approximate`／`medium` | 待独立替换 |
-| 1130 | 广西 | 府属州与县治 | 镇远州 | department | `zhenyuan-taiping-seat` | `hvd_44121` | `approximate`／`medium` | 待独立替换 |
-| 1131 | 广西 | 府属州与县治 | 忠州 | department | `zhong-nanning-seat` | `hvd_43881` | `approximate`／`medium` | 待独立替换 |
-| 1132 | 广西 | 府属州与县治 | 左州 | department | `zuo-taiping-seat` | `hvd_43900` | `approximate`／`medium` | 待独立替换 |
-| 1133 | 广西 | 特殊治理／军事节点 | 安隆长官司 | military | `anlong-guangxi-seat` | `hvd_35481` | `approximate`／`medium` | 待独立替换 |
+| 1052 | 广西 | 府与直隶州治所 | 都康州 | department | `dukang-seat` | `hvd_35525` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1053 | 广西 | 府与直隶州治所 | 江州 | department | `jiangzhou-guangxi-seat` | `hvd_35527` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1054 | 广西 | 府与直隶州治所 | 龙州 | department | `longzhou-guangxi-seat` | `hvd_35526` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1055 | 广西 | 府与直隶州治所 | 思恩军民府 | prefecture | `sien-prefectural-seat` | `hvd_35511` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1056 | 广西 | 府与直隶州治所 | 思陵州 | department | `siling-seat` | `hvd_35528` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1057 | 广西 | 府与直隶州治所 | 思明府 | prefecture | `siming-prefectural-seat` | `hvd_35538` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1058 | 广西 | 府与直隶州治所 | 泗城州 | department | `sicheng-seat` | `hvd_35476` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1059 | 广西 | 府与直隶州治所 | 田州 | department | `tianzhou-seat` | `hvd_35504` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1060 | 广西 | 府与直隶州治所 | 向武州 | department | `xiangwu-seat` | `hvd_35524` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1061 | 广西 | 府与直隶州治所 | 镇安府 | prefecture | `zhenan-prefectural-seat` | `hvd_35548` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1062 | 广西 | 府属州与县治 | 北流县 | county | `beiliu-yulin-seat` | `hvd_44275` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1063 | 广西 | 府属州与县治 | 宾州 | department | `binzhou-liuzhou-seat` | `hvd_44048` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1064 | 广西 | 府属州与县治 | 博白县 | county | `bobai-yulin-seat` | `hvd_44250` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1065 | 广西 | 府属州与县治 | 岑溪县 | county | `cenxi-wuzhou-seat` | `hvd_44186` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1066 | 广西 | 府属州与县治 | 东兰州 | department | `donglan-qingyuan-seat` | `hvd_44013` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1067 | 广西 | 府属州与县治 | 都结州 | department | `dujie-taiping-seat` | `hvd_44122` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1068 | 广西 | 府属州与县治 | 奉议州 | department | `fengyi-sien-seat` | `hvd_44294` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1069 | 广西 | 府属州与县治 | 富川县 | county | `fuchuan-pingle-seat` | `hvd_43917` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1070 | 广西 | 府属州与县治 | 恭城县 | county | `gongcheng-pingle-seat` | `hvd_43915` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1071 | 广西 | 府属州与县治 | 灌阳县 | county | `guanyang-quanzhou-seat` | `hvd_42116` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1072 | 广西 | 府属州与县治 | 归德州 | department | `guide-nanning-seat` | `hvd_43905` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1073 | 广西 | 府属州与县治 | 贵县 | county | `gui-xunzhou-seat` | `hvd_44232` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1074 | 广西 | 府属州与县治 | 河池州 | department | `hechi-qingyuan-seat` | `hvd_43982` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1075 | 广西 | 府属州与县治 | 贺县 | county | `he-pingle-seat` | `hvd_43925` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1076 | 广西 | 府属州与县治 | 横州 | department | `hengzhou-nanning-seat` | `hvd_43858` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1077 | 广西 | 府属州与县治 | 怀集县 | county | `huaiji-wuzhou-seat` | `hvd_44194` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1078 | 广西 | 府属州与县治 | 怀远县 | county | `huaiyuan-liuzhou-seat` | `hvd_43813` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1079 | 广西 | 府属州与县治 | 结安州 | department | `jiean-taiping-seat` | `hvd_44120` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1080 | 广西 | 府属州与县治 | 来宾县 | county | `laibin-liuzhou-seat` | `hvd_43834` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1081 | 广西 | 府属州与县治 | 荔波县 | county | `libo-hechi-seat` | `hvd_44043` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1082 | 广西 | 府属州与县治 | 荔浦县 | county | `lipu-pingle-seat` | `hvd_43932` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1083 | 广西 | 府属州与县治 | 灵川县 | county | `lingchuan-guilin-seat` | `hvd_43744` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1084 | 广西 | 府属州与县治 | 柳城县 | county | `liucheng-liuzhou-seat` | `hvd_43806` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1085 | 广西 | 府属州与县治 | 龙英州 | department | `longying-taiping-seat` | `hvd_44118` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1086 | 广西 | 府属州与县治 | 隆安县 | county | `longan-nanning-seat` | `hvd_43852` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1087 | 广西 | 府属州与县治 | 陆川县 | county | `luchuan-yulin-seat` | `hvd_44282` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1088 | 广西 | 府属州与县治 | 罗白县 | county | `luobai-jiangzhou-seat` | `hvd_44132` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1089 | 广西 | 府属州与县治 | 罗城县 | county | `luocheng-liuzhou-seat` | `hvd_43809` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1090 | 广西 | 府属州与县治 | 罗阳县 | county | `luoyang-taiping-seat` | `hvd_44133` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1091 | 广西 | 府属州与县治 | 洛容县 | county | `luorong-liuzhou-seat` | `hvd_43793` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1092 | 广西 | 府属州与县治 | 茗盈州 | department | `mingying-taiping-seat` | `hvd_44116` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1093 | 广西 | 府属州与县治 | 那地州 | department | `nadi-qingyuan-seat` | `hvd_44020` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1094 | 广西 | 府属州与县治 | 南丹州 | department | `nandan-qingyuan-seat` | `hvd_44026` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1095 | 广西 | 府属州与县治 | 平南县 | county | `pingnan-xunzhou-seat` | `hvd_44217` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1096 | 广西 | 府属州与县治 | 迁江县 | county | `qianjiang-binzhou-seat` | `hvd_44064` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1097 | 广西 | 府属州与县治 | 全茗州 | department | `quanming-taiping-seat` | `hvd_44117` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1098 | 广西 | 府属州与县治 | 全州 | department | `quanzhou-guilin-seat` | `hvd_42115` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1099 | 广西 | 府属州与县治 | 容县 | county | `rong-wuzhou-seat` | `hvd_44174` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1100 | 广西 | 府属州与县治 | 融县 | county | `rong-liuzhou-seat` | `hvd_43818` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1101 | 广西 | 府属州与县治 | 上林县 | county | `shanglin-binzhou-seat` | `hvd_44065` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1102 | 广西 | 府属州与县治 | 上思州 | department | `shangsi-nanning-seat` | `hvd_43885` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1103 | 广西 | 府属州与县治 | 上下冻州 | department | `shangxia-dong-taiping-seat` | `hvd_44128` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1104 | 广西 | 府属州与县治 | 思城州 | department | `sicheng-taiping-seat` | `hvd_44080` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1105 | 广西 | 府属州与县治 | 思恩县 | county | `sien-hechi-seat` | `hvd_44000` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1106 | 广西 | 府属州与县治 | 思明州 | department | `siming-taiping-seat` | `hvd_43893` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1107 | 广西 | 府属州与县治 | 太平州 | department | `taiping-taiping-seat` | `hvd_44114` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1108 | 广西 | 府属州与县治 | 藤县 | county | `teng-wuzhou-seat` | `hvd_44163` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1109 | 广西 | 府属州与县治 | 天河县 | county | `tianhe-qingyuan-seat` | `hvd_43977` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1110 | 广西 | 府属州与县治 | 陀陵县 | county | `tuoling-taiping-seat` | `hvd_44134` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1111 | 广西 | 府属州与县治 | 万承州 | department | `wancheng-taiping-seat` | `hvd_43895` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1112 | 广西 | 府属州与县治 | 武宣县 | county | `wuxuan-xiangzhou-seat` | `hvd_44248` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1113 | 广西 | 府属州与县治 | 下石西州 | department | `xia-shixi-siming-seat` | `hvd_43891` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1114 | 广西 | 府属州与县治 | 象州 | department | `xiangzhou-liuzhou-seat` | `hvd_43819` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1115 | 广西 | 府属州与县治 | 忻城县 | county | `xincheng-qingyuan-seat` | `hvd_44028` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1116 | 广西 | 府属州与县治 | 新宁州 | department | `xinning-nanning-seat` | `hvd_43879` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1117 | 广西 | 府属州与县治 | 兴安县 | county | `xingan-guilin-seat` | `hvd_43743` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1118 | 广西 | 府属州与县治 | 兴业县 | county | `xingye-yulin-seat` | `hvd_44288` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1119 | 广西 | 府属州与县治 | 修仁县 | county | `xiuren-pingle-seat` | `hvd_43945` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1120 | 广西 | 府属州与县治 | 阳朔县 | county | `yangshuo-guilin-seat` | `hvd_43748` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1121 | 广西 | 府属州与县治 | 养利州 | department | `yangli-taiping-seat` | `hvd_44101` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1122 | 广西 | 府属州与县治 | 义宁县 | county | `yining-yongning-seat` | `hvd_43767` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1123 | 广西 | 府属州与县治 | 永安州 | department | `yongan-pingle-seat` | `hvd_43957` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1124 | 广西 | 府属州与县治 | 永淳县 | county | `yongchun-hengzhou-seat` | `hvd_43876` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1125 | 广西 | 府属州与县治 | 永福县 | county | `yongfu-yongning-seat` | `hvd_43759` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1126 | 广西 | 府属州与县治 | 永康州 | department | `yongkang-taiping-seat` | `hvd_44103` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1127 | 广西 | 府属州与县治 | 永宁州 | department | `yongning-guilin-seat` | `hvd_43758` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1128 | 广西 | 府属州与县治 | 郁林州 | department | `yulin-wuzhou-seat` | `hvd_116139` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1129 | 广西 | 府属州与县治 | 昭平县 | county | `zhaoping-pingle-seat` | `hvd_43949` | `approximate`／`medium` | 已独立替换（广西两批） |
+| 1130 | 广西 | 府属州与县治 | 镇远州 | department | `zhenyuan-taiping-seat` | `hvd_44121` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1131 | 广西 | 府属州与县治 | 忠州 | department | `zhong-nanning-seat` | `hvd_43881` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1132 | 广西 | 府属州与县治 | 左州 | department | `zuo-taiping-seat` | `hvd_43900` | `approximate`／`low` | 低可信；已独立替换（广西两批） |
+| 1133 | 广西 | 特殊治理／军事节点 | 安隆长官司 | military | `anlong-guangxi-seat` | `hvd_35481` | `approximate`／`medium` | 已独立替换（广西两批） |
 | 1134 | 云南 | 府与直隶州治所 | 广邑州 | department | `guangyi-seat` | `hvd_80133` | `approximate`／`low` | 已独立替换（云贵试点） |
 | 1135 | 云南 | 府与直隶州治所 | 鹤庆军民府 | prefecture | `heqing-prefectural-seat` | `hvd_80154` | `approximate`／`medium` | 已独立替换（云贵试点） |
 | 1136 | 云南 | 府与直隶州治所 | 景东府 | prefecture | `jingdong-prefectural-seat` | `hvd_80199` | `approximate`／`low` | 已独立替换（云贵试点） |
