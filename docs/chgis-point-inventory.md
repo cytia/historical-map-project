@@ -2,19 +2,19 @@
 
 本文件是当前数据的静态审计快照，用于 CHGIS 授权沟通、商业发布隔离和独立替换排期，不构成法律意见。明细表保留已替换点位的原 CHGIS 编号，供内部迁移审计回查。固定替换操作见 [CHGIS 坐标独立替换流程记录](chgis-replacement-procedure.md)。
 
-- 统计日期：2026-07-17
-- 数据文件：[`data/project.json`](../data/project.json)
+- 统计日期：2026-07-18
+- 数据清单：[`data/manifest.json`](../data/manifest.json)；正式数据保存在 manifest 指向的各个分片中。
 - CHGIS 来源 ID：`chgis-temporal-gazetteer`
 - 坐标参考系：WGS 84，经度在前
 - 清单不重复收录经纬度；每条记录通过 `placeId` 回查原始数据，避免产生第二份易失同步的受限坐标副本。
 
 ## 统计口径
 
-项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）、湖广 107 点（三批）和四川 90 点（三批）替换后，按本清单口径当前仍由 CHGIS `location` 主张承担坐标的地点为 **598 个，占全部地点 36.4%**。
+项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）、湖广 107 点（三批）、四川 90 点（三批）和陕西 73 点（分两批）替换后，按本清单口径当前仍由 CHGIS `location` 主张承担坐标的地点为 **525 个，占全部地点 32.0%**。
 
-迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **586 个唯一编号**和 **578 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
+迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **513 个唯一编号**和 **505 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
 
-当前未迁移记录的定位精度为 `approximate` 598；可信度为 `medium` 595、`low` 3。
+当前未迁移记录的定位精度为 `approximate` 525；可信度为 `medium` 525、`low` 0。
 
 “地点记录数”“唯一 CHGIS 编号数”和“唯一坐标数”不可互换；附郭、共治或项目实体拆分会造成同一 CHGIS 编号或坐标关联多个地点。
 
@@ -22,11 +22,11 @@
 
 | 类别 | 点位数 | 建议用途 |
 |---|---:|---|
-| 一级行政区域治所 | 5 | 在所属区域批次中优先复核 |
-| 府与直隶州治所 | 52 | 在所属区域批次中优先复核 |
-| 府属州与县治 | 541 | 随所属区域一并替换 |
+| 一级行政区域治所 | 4 | 在所属区域批次中优先复核 |
+| 府与直隶州治所 | 43 | 在所属区域批次中优先复核 |
+| 府属州与县治 | 478 | 随所属区域一并替换 |
 | 特殊治理／军事节点 | 0 | 单独研究与复核 |
-| 合计 | 598 | |
+| 合计 | 525 | |
 
 分类采用互斥判定顺序：一级行政区域 → 府与直隶州 → 特殊治理／军事 → 府属州与县。该顺序只用于避免重复统计，不代表实际替换批次；一个地点与多个行政实体共址时只计一次。
 
@@ -39,7 +39,7 @@
 | 山东 | 104 |
 | 河南 | 97 |
 | 山西 | 88 |
-| 陕西 | 73 |
+| 陕西 | 0 |
 | 四川 | 0 |
 | 湖广 | 0 |
 | 浙江 | 0 |
@@ -49,7 +49,7 @@
 | 广西 | 0 |
 | 云南 | 0 |
 | 贵州 | 0 |
-| 合计 | 598 |
+| 合计 | 525 |
 
 ## 独立替换原则
 
@@ -90,7 +90,7 @@
 1. **云贵流程试验：14 点。** 云南 9 点、贵州 5 点，全部为 `approximate` 点；普通连续聚落为中可信，县域代理、迁治旧治和御夷府州代理为低可信。样本包含普通府治、军民府、御夷府州、旧治和铜仁府多 CHGIS 编号，可用于验证独立候选锁定、史料对应、审计保留和商业过滤的完整流程。
 2. **福建普通州县验证：47 点（已完成）。** 福建具有较完整的普通府州县结构，并包含同名消歧和 CHGIS 父标签与《明史》父链不一致的记录，用于补足云贵样本缺少普通县治、附郭共址和密集父链的局限。
 3. **江西压力测试：64 点（已完成）。** 覆盖清江府县共址、普通县治、改名县、撤并县和同名消歧；以独立 Wikidata 坐标替换并通过压力测试后，江西不再由 CHGIS 承担 `location` 主张。
-4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73 → 山西 88 → 四川 90（已完成）→ 河南 97 → 山东 104 → 湖广 107（三批，已完成）→ 南京 115 → 京师 121；广西 82 点已完成。
+4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73（已完成，两批）→ 山西 88 → 四川 90（已完成）→ 河南 97 → 山东 104 → 湖广 107（三批，已完成）→ 南京 115 → 京师 121；广西 82 点已完成。
 5. 点位数量不是唯一依据；对外演示、爱发电说明或众筹宣传涉及的区域可以提前，但必须保持该区域完整验收，不能只替换截图范围内的少数点。
 6. 区域内先处理一级行政区域及府、直隶州治所，再处理府属州、县和特殊治理节点；特殊节点不能以普通现代城市代理掩盖制度和驻地不确定性。
 7. 商业构建必须拒绝目标发布区域中任何仍以 CHGIS 或其他非商业、授权不明来源承担定位主张的记录。
@@ -126,7 +126,7 @@
 - 按两批完成：第一批 37 点（清单 979–1015），第二批 36 点（清单 1016–1051）；广东 73 个目标点均不再由 CHGIS `location` 主张承担坐标。
 - 电白县保留 Wikidata 现代电白区代理语义；因原始代表点在本项目自然参考层中落入海域，展示坐标向北移约 1.7 km 至陆地内侧，并在项目数据审计中记录该视觉校正。
 - 安定、昌化、程乡、东安、封川、感恩、会同、开建、乐会、钦州、石城、万州、西宁、香山、新安、新宁、崖州、永安、长乐和长宁等改名、撤并、迁治或区域代理情形标为低可信，待后续第二来源复核。
-- 数据结构、来源引用、坐标范围和商业发布资格校验通过；Wikidata `P625` 实体编号保留在 `data/project.json` 的现代空间来源记录中。
+- 数据结构、来源引用、坐标范围和商业发布资格校验通过；Wikidata `P625` 实体编号保留在对应区域数据分片的现代空间来源记录中。
 
 ### 广西替换验收
 
@@ -143,7 +143,7 @@
 - 按两批完成：第一批 36 点（清单 796–831），第二批 36 点（清单 832–867）；浙江 72 个目标点均不再由 CHGIS `location` 主张承担坐标。
 - 崇德、分水、海宁、建德、慈溪、孝丰、新城、武康、汤溪、于潜等记录采用独立 Wikidata 现代聚落代理；归安／乌程共享湖州代理，嘉兴／秀水共享嘉兴代理。
 - 遂安使用淳安现代区域代理并标为低可信，因历史县城已淹没且现代对应未闭合；宣平使用武义现代区域代理并标为低可信，因历史县已撤并且确切治所仍待复核。
-- 所有候选均保留官方 Wikidata API 返回的原始 `P625` 数值，经度在前；Q ID、来源主张、精度、可信度和审计日期已写入 `data/project.json`。
+- 所有候选均保留官方 Wikidata API 返回的原始 `P625` 数值，经度在前；Q ID、来源主张、精度、可信度和审计日期已写入对应区域数据分片。
 - 浙江批次的数据结构、来源引用、坐标范围、共享代理和目标区域无 CHGIS `location` 主张检查通过；`data-validator` 与单元测试通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
 ### 湖广替换验收
@@ -153,7 +153,7 @@
 - 普通县治优先采用当前县、市或自治县代理；光化→老河口、广济→武穴、景陵→天门、龙阳→汉寿、蒲圻→赤壁、蕲水→浠水、应山→广水、永明→江永等改名或行政沿革项保留低可信说明。
 - 桂阳州与桂阳县共享现代桂阳县代理但保持两个历史 `placeId`；均标为低可信，避免将同名历史实体合并。
 - 均州使用丹江口市区域代理并标为低可信；归州、沅州、黔阳、上津等旧治或州县对应保留未解析说明。
-- 所有候选均保留官方 Wikidata `P625` 原始数值，经度在前；Q ID、来源主张、精度、可信度和审计日期已写入 `data/project.json`。湖广批次唯一 Q ID 为 106 个，其中 1 个现代代理由两个历史点共享。
+- 所有候选均保留官方 Wikidata `P625` 原始数值，经度在前；Q ID、来源主张、精度、可信度和审计日期已写入对应区域数据分片。湖广批次唯一 Q ID 为 106 个，其中 1 个现代代理由两个历史点共享。
 - 三批的数据结构、来源引用、WGS 84 坐标范围、湖广目标无 CHGIS `location` 主张和旧编号审计保留检查均通过；`data-validator` 与单元测试通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
 ### 四川替换验收
@@ -164,6 +164,14 @@
 - 定远、石泉、太平长官司保留低可信说明：分别采用武胜县域、北川县曲山镇和兴文县域代理；太平长官司所指现代大坝镇坐标尚未独立匹配。
 - 新宁按现开江县／新宁区域代理，永宁宣抚司按叙永镇代理，均保留“现代代理”语义，不解释为明代行政复合体精确复原。
 - 三批数据结构、来源引用、WGS 84 坐标范围、四川目标无 CHGIS `location` 主张和旧编号审计保留检查均通过；`data-validator` 与单元测试通过。行政单位基线未被修改。
+
+### 陕西替换验收
+
+- 73/73 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 61 点、`low` 12 点。
+- 按两批完成：第一批 37 点（清单 526–562），第二批 36 点（清单 563–598）；陕西 73 个目标点均不再由 CHGIS `location` 主张承担坐标。
+- 狄道、灵州、庆阳安化、兴安州、延安安定、褒城、延安保安、伏羌、金、宁远、三水和中部等 12 条记录因改名、迁治、撤并或现代聚落代理对应未完全闭合保留低可信。
+- 所有候选均保留官方 Wikidata `P625` 原始数值，经度在前；73 个现代代理 Q ID 均有对应的来源主张、访问日期和审计记录。
+- 陕西批次的数据结构、来源引用、WGS 84 坐标范围、目标无 CHGIS `location` 主张和旧编号审计保留检查通过；`data-validator`、单元测试与 `git diff --check` 均通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
 首轮锁定的现代代理如下（坐标来自 Wikidata `P625`，均按 WGS 84 经度在前记录）：
 
@@ -731,79 +739,79 @@
 | 523 | 山西 | 府属州与县治 | 长治县 | county | `shanxi-changzhi-seat` | `hvd_95319` | `approximate`／`medium` | 共址 2 个地点；待独立替换 |
 | 524 | 山西 | 府属州与县治 | 长子县 | county | `shanxi-changzi-seat` | `hvd_95322` | `approximate`／`medium` | 待独立替换 |
 | 525 | 山西 | 府属州与县治 | 赵城县 | county | `shanxi-zhaocheng-seat` | `hvd_95226` | `approximate`／`medium` | 待独立替换 |
-| 526 | 陕西 | 一级行政区域治所 | 陕西／西安府／长安县／咸宁县 | province／prefecture／county | `xian-city` | `hvd_70626` | `approximate`／`medium` | 关联 4 个行政实体；待独立替换 |
-| 527 | 陕西 | 府与直隶州治所 | 凤翔府／凤翔县 | prefecture／county | `fengxiang-seat` | `hvd_70896` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 528 | 陕西 | 府与直隶州治所 | 巩昌府／陇西县 | prefecture／county | `longxi-seat` | `hvd_70001` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 529 | 陕西 | 府与直隶州治所 | 汉中府／南郑县 | prefecture／county | `nanzheng-seat` | `hvd_70987` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 530 | 陕西 | 府与直隶州治所 | 临洮府／狄道县 | prefecture／county | `didao-seat` | `hvd_70106` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 531 | 陕西 | 府与直隶州治所 | 灵州 | department | `lingzhou-seat` | `hvd_70559` | `approximate`／`low` | 低可信；待独立替换 |
-| 532 | 陕西 | 府与直隶州治所 | 平凉府／平凉县 | prefecture／county | `pingliang-seat` | `hvd_115671` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 533 | 陕西 | 府与直隶州治所 | 庆阳府／安化县 | prefecture／county | `qingyang-anhua-seat` | `hvd_233` | `approximate`／`low` | 关联 2 个行政实体；低可信；待独立替换 |
-| 534 | 陕西 | 府与直隶州治所 | 兴安州 | department | `xingan-seat` | `hvd_71242` | `approximate`／`low` | 低可信；待独立替换 |
-| 535 | 陕西 | 府与直隶州治所 | 延安府／肤施县 | prefecture／county | `fushi-seat` | `hvd_70361` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 536 | 陕西 | 府属州与县治 | 安定县 | county | `anding-gongchang-seat` | `hvd_70008` | `approximate`／`medium` | 待独立替换 |
-| 537 | 陕西 | 府属州与县治 | 安定县 | county | `anding-yanan-seat` | `hvd_70368` | `approximate`／`medium` | 待独立替换 |
-| 538 | 陕西 | 府属州与县治 | 安塞县 | county | `ansai-seat` | `hvd_70365` | `approximate`／`medium` | 待独立替换 |
-| 539 | 陕西 | 府属州与县治 | 白河县 | county | `baihe-seat` | `hvd_71208` | `approximate`／`medium` | 待独立替换 |
-| 540 | 陕西 | 府属州与县治 | 白水县 | county | `baishui-tongzhou-seat` | `hvd_70342` | `approximate`／`medium` | 待独立替换 |
-| 541 | 陕西 | 府属州与县治 | 褒城县 | county | `baocheng-seat` | `hvd_70998` | `approximate`／`medium` | 待独立替换 |
-| 542 | 陕西 | 府属州与县治 | 宝鸡县 | county | `baoji-seat` | `hvd_70926` | `approximate`／`medium` | 待独立替换 |
-| 543 | 陕西 | 府属州与县治 | 保安县 | county | `baoan-yanan-seat` | `hvd_70369` | `approximate`／`medium` | 待独立替换 |
-| 544 | 陕西 | 府属州与县治 | 朝邑县 | county | `chaoyi-seat` | `hvd_70306` | `approximate`／`medium` | 待独立替换 |
-| 545 | 陕西 | 府属州与县治 | 澄城县 | county | `chengcheng-seat` | `hvd_70310` | `approximate`／`medium` | 待独立替换 |
-| 546 | 陕西 | 府属州与县治 | 淳化县 | county | `chunhua-seat` | `hvd_70214` | `approximate`／`medium` | 待独立替换 |
-| 547 | 陕西 | 府属州与县治 | 凤县 | county | `feng-hanzhong-seat` | `hvd_71071` | `approximate`／`medium` | 待独立替换 |
-| 548 | 陕西 | 府属州与县治 | 伏羌县 | county | `fuqiang-seat` | `hvd_70050` | `approximate`／`medium` | 待独立替换 |
-| 549 | 陕西 | 府属州与县治 | 府谷县 | county | `fugu-seat` | `hvd_70406` | `approximate`／`medium` | 待独立替换 |
-| 550 | 陕西 | 府属州与县治 | 富平县 | county | `fuping-seat` | `hvd_70809` | `approximate`／`medium` | 待独立替换 |
-| 551 | 陕西 | 府属州与县治 | 甘泉县 | county | `ganquan-seat` | `hvd_70367` | `approximate`／`medium` | 待独立替换 |
-| 552 | 陕西 | 府属州与县治 | 高陵县 | county | `gaoling-seat` | `hvd_70745` | `approximate`／`medium` | 待独立替换 |
-| 553 | 陕西 | 府属州与县治 | 韩城县 | county | `hancheng-seat` | `hvd_70319` | `approximate`／`medium` | 待独立替换 |
-| 554 | 陕西 | 府属州与县治 | 汉阴县 | county | `hanyin-seat` | `hvd_71241` | `approximate`／`medium` | 待独立替换 |
-| 555 | 陕西 | 府属州与县治 | 郃阳县 | county | `heyang-tongzhou-seat` | `hvd_70308` | `approximate`／`medium` | 待独立替换 |
-| 556 | 陕西 | 府属州与县治 | 鄠县 | county | `hu-seat` | `hvd_70747` | `approximate`／`medium` | 待独立替换 |
-| 557 | 陕西 | 府属州与县治 | 华亭县 | county | `huating-pingliang-seat` | `hvd_70190` | `approximate`／`medium` | 待独立替换 |
-| 558 | 陕西 | 府属州与县治 | 华阴县 | county | `huayin-seat` | `hvd_70329` | `approximate`／`medium` | 待独立替换 |
-| 559 | 陕西 | 府属州与县治 | 会宁县 | county | `huining-seat` | `hvd_70016` | `approximate`／`medium` | 待独立替换 |
-| 560 | 陕西 | 府属州与县治 | 金县 | county | `jin-seat` | `hvd_70099` | `approximate`／`medium` | 待独立替换 |
-| 561 | 陕西 | 府属州与县治 | 泾阳县 | county | `jingyang-seat` | `hvd_70700` | `approximate`／`medium` | 待独立替换 |
-| 562 | 陕西 | 府属州与县治 | 蓝田县 | county | `lantian-seat` | `hvd_70756` | `approximate`／`medium` | 待独立替换 |
-| 563 | 陕西 | 府属州与县治 | 醴泉县 | county | `liquan-seat` | `hvd_70819` | `approximate`／`medium` | 待独立替换 |
-| 564 | 陕西 | 府属州与县治 | 略阳县 | county | `lueyang-seat` | `hvd_71139` | `approximate`／`medium` | 待独立替换 |
-| 565 | 陕西 | 府属州与县治 | 洛川县 | county | `luochuan-seat` | `hvd_70227` | `approximate`／`medium` | 待独立替换 |
-| 566 | 陕西 | 府属州与县治 | 洛南县 | county | `luonan-seat` | `hvd_71287` | `approximate`／`medium` | 待独立替换 |
-| 567 | 陕西 | 府属州与县治 | 郿县 | county | `mei-seat` | `hvd_70940` | `approximate`／`medium` | 待独立替换 |
-| 568 | 陕西 | 府属州与县治 | 米脂县 | county | `mizhi-seat` | `hvd_70271` | `approximate`／`medium` | 待独立替换 |
-| 569 | 陕西 | 府属州与县治 | 沔县 | county | `mian-seat` | `hvd_71109` | `approximate`／`medium` | 待独立替换 |
-| 570 | 陕西 | 府属州与县治 | 宁远县 | county | `ningyuan-seat` | `hvd_70037` | `approximate`／`medium` | 待独立替换 |
-| 571 | 陕西 | 府属州与县治 | 平利县 | county | `pingli-seat` | `hvd_71162` | `approximate`／`medium` | 待独立替换 |
-| 572 | 陕西 | 府属州与县治 | 蒲城县 | county | `pucheng-seat` | `hvd_70337` | `approximate`／`medium` | 待独立替换 |
-| 573 | 陕西 | 府属州与县治 | 岐山县 | county | `qishan-seat` | `hvd_70907` | `approximate`／`medium` | 待独立替换 |
-| 574 | 陕西 | 府属州与县治 | 汧阳县 | county | `qianyang-seat` | `hvd_71289` | `approximate`／`medium` | 待独立替换 |
-| 575 | 陕西 | 府属州与县治 | 三水县 | county | `sanshui-seat` | `hvd_70213` | `approximate`／`medium` | 待独立替换 |
-| 576 | 陕西 | 府属州与县治 | 三原县 | county | `sanyuan-seat` | `hvd_70781` | `approximate`／`medium` | 待独立替换 |
-| 577 | 陕西 | 府属州与县治 | 山阳县 | county | `shanyang-shangzhou-seat` | `hvd_71278` | `approximate`／`medium` | 待独立替换 |
-| 578 | 陕西 | 府属州与县治 | 商南县 | county | `shangnan-seat` | `hvd_71279` | `approximate`／`medium` | 待独立替换 |
-| 579 | 陕西 | 府属州与县治 | 神木县 | county | `shenmu-seat` | `hvd_70404` | `approximate`／`medium` | 待独立替换 |
-| 580 | 陕西 | 府属州与县治 | 石泉县 | county | `shiquan-seat` | `hvd_71221` | `approximate`／`medium` | 待独立替换 |
-| 581 | 陕西 | 府属州与县治 | 渭南县 | county | `weinan-seat` | `hvd_70794` | `approximate`／`medium` | 待独立替换 |
-| 582 | 陕西 | 府属州与县治 | 渭源县 | county | `weiyuan-seat` | `hvd_70113` | `approximate`／`medium` | 待独立替换 |
-| 583 | 陕西 | 府属州与县治 | 吴堡县 | county | `wubu-seat` | `hvd_70274` | `approximate`／`medium` | 待独立替换 |
-| 584 | 陕西 | 府属州与县治 | 武功县 | county | `wugong-seat` | `hvd_70252` | `approximate`／`medium` | 待独立替换 |
-| 585 | 陕西 | 府属州与县治 | 西和县 | county | `xihe-seat` | `hvd_70051` | `approximate`／`medium` | 待独立替换 |
-| 586 | 陕西 | 府属州与县治 | 西乡县 | county | `xixiang-seat` | `hvd_71035` | `approximate`／`medium` | 待独立替换 |
-| 587 | 陕西 | 府属州与县治 | 兴平县 | county | `xingping-seat` | `hvd_70722` | `approximate`／`medium` | 待独立替换 |
-| 588 | 陕西 | 府属州与县治 | 洵阳县 | county | `xunyang-seat` | `hvd_71179` | `approximate`／`medium` | 待独立替换 |
-| 589 | 陕西 | 府属州与县治 | 洋县 | county | `yang-seat` | `hvd_71021` | `approximate`／`medium` | 待独立替换 |
-| 590 | 陕西 | 府属州与县治 | 宜川县 | county | `yichuan-seat` | `hvd_70374` | `approximate`／`medium` | 待独立替换 |
-| 591 | 陕西 | 府属州与县治 | 宜君县 | county | `yijun-seat` | `hvd_70232` | `approximate`／`medium` | 待独立替换 |
-| 592 | 陕西 | 府属州与县治 | 永寿县 | county | `yongshou-seat` | `hvd_70259` | `approximate`／`medium` | 待独立替换 |
-| 593 | 陕西 | 府属州与县治 | 漳县 | county | `zhang-seat` | `hvd_70022` | `approximate`／`medium` | 待独立替换 |
-| 594 | 陕西 | 府属州与县治 | 长武县 | county | `changwu-seat` | `hvd_70215` | `approximate`／`medium` | 待独立替换 |
-| 595 | 陕西 | 府属州与县治 | 镇安县 | county | `zhenan-shangzhou-seat` | `hvd_71277` | `approximate`／`medium` | 待独立替换 |
-| 596 | 陕西 | 府属州与县治 | 中部县 | county | `zhongbu-seat` | `hvd_70225` | `approximate`／`medium` | 待独立替换 |
-| 597 | 陕西 | 府属州与县治 | 盩厔县 | county | `zhouzhi-seat` | `hvd_70789` | `approximate`／`medium` | 待独立替换 |
-| 598 | 陕西 | 府属州与县治 | 紫阳县 | county | `ziyang-xingan-seat` | `hvd_71210` | `approximate`／`medium` | 待独立替换 |
+| 526 | 陕西 | 一级行政区域治所 | 陕西／西安府／长安县／咸宁县 | province／prefecture／county | `xian-city` | `hvd_70626` | `approximate`／`medium` | 关联 4 个行政实体；已独立替换（陕西两批） |
+| 527 | 陕西 | 府与直隶州治所 | 凤翔府／凤翔县 | prefecture／county | `fengxiang-seat` | `hvd_70896` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（陕西两批） |
+| 528 | 陕西 | 府与直隶州治所 | 巩昌府／陇西县 | prefecture／county | `longxi-seat` | `hvd_70001` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（陕西两批） |
+| 529 | 陕西 | 府与直隶州治所 | 汉中府／南郑县 | prefecture／county | `nanzheng-seat` | `hvd_70987` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（陕西两批） |
+| 530 | 陕西 | 府与直隶州治所 | 临洮府／狄道县 | prefecture／county | `didao-seat` | `hvd_70106` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（陕西两批） |
+| 531 | 陕西 | 府与直隶州治所 | 灵州 | department | `lingzhou-seat` | `hvd_70559` | `approximate`／`low` | 低可信；已独立替换（陕西两批） |
+| 532 | 陕西 | 府与直隶州治所 | 平凉府／平凉县 | prefecture／county | `pingliang-seat` | `hvd_115671` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（陕西两批） |
+| 533 | 陕西 | 府与直隶州治所 | 庆阳府／安化县 | prefecture／county | `qingyang-anhua-seat` | `hvd_233` | `approximate`／`low` | 关联 2 个行政实体；低可信；已独立替换（陕西两批） |
+| 534 | 陕西 | 府与直隶州治所 | 兴安州 | department | `xingan-seat` | `hvd_71242` | `approximate`／`low` | 低可信；已独立替换（陕西两批） |
+| 535 | 陕西 | 府与直隶州治所 | 延安府／肤施县 | prefecture／county | `fushi-seat` | `hvd_70361` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（陕西两批） |
+| 536 | 陕西 | 府属州与县治 | 安定县 | county | `anding-gongchang-seat` | `hvd_70008` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 537 | 陕西 | 府属州与县治 | 安定县 | county | `anding-yanan-seat` | `hvd_70368` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 538 | 陕西 | 府属州与县治 | 安塞县 | county | `ansai-seat` | `hvd_70365` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 539 | 陕西 | 府属州与县治 | 白河县 | county | `baihe-seat` | `hvd_71208` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 540 | 陕西 | 府属州与县治 | 白水县 | county | `baishui-tongzhou-seat` | `hvd_70342` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 541 | 陕西 | 府属州与县治 | 褒城县 | county | `baocheng-seat` | `hvd_70998` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 542 | 陕西 | 府属州与县治 | 宝鸡县 | county | `baoji-seat` | `hvd_70926` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 543 | 陕西 | 府属州与县治 | 保安县 | county | `baoan-yanan-seat` | `hvd_70369` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 544 | 陕西 | 府属州与县治 | 朝邑县 | county | `chaoyi-seat` | `hvd_70306` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 545 | 陕西 | 府属州与县治 | 澄城县 | county | `chengcheng-seat` | `hvd_70310` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 546 | 陕西 | 府属州与县治 | 淳化县 | county | `chunhua-seat` | `hvd_70214` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 547 | 陕西 | 府属州与县治 | 凤县 | county | `feng-hanzhong-seat` | `hvd_71071` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 548 | 陕西 | 府属州与县治 | 伏羌县 | county | `fuqiang-seat` | `hvd_70050` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 549 | 陕西 | 府属州与县治 | 府谷县 | county | `fugu-seat` | `hvd_70406` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 550 | 陕西 | 府属州与县治 | 富平县 | county | `fuping-seat` | `hvd_70809` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 551 | 陕西 | 府属州与县治 | 甘泉县 | county | `ganquan-seat` | `hvd_70367` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 552 | 陕西 | 府属州与县治 | 高陵县 | county | `gaoling-seat` | `hvd_70745` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 553 | 陕西 | 府属州与县治 | 韩城县 | county | `hancheng-seat` | `hvd_70319` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 554 | 陕西 | 府属州与县治 | 汉阴县 | county | `hanyin-seat` | `hvd_71241` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 555 | 陕西 | 府属州与县治 | 郃阳县 | county | `heyang-tongzhou-seat` | `hvd_70308` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 556 | 陕西 | 府属州与县治 | 鄠县 | county | `hu-seat` | `hvd_70747` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 557 | 陕西 | 府属州与县治 | 华亭县 | county | `huating-pingliang-seat` | `hvd_70190` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 558 | 陕西 | 府属州与县治 | 华阴县 | county | `huayin-seat` | `hvd_70329` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 559 | 陕西 | 府属州与县治 | 会宁县 | county | `huining-seat` | `hvd_70016` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 560 | 陕西 | 府属州与县治 | 金县 | county | `jin-seat` | `hvd_70099` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 561 | 陕西 | 府属州与县治 | 泾阳县 | county | `jingyang-seat` | `hvd_70700` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 562 | 陕西 | 府属州与县治 | 蓝田县 | county | `lantian-seat` | `hvd_70756` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 563 | 陕西 | 府属州与县治 | 醴泉县 | county | `liquan-seat` | `hvd_70819` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 564 | 陕西 | 府属州与县治 | 略阳县 | county | `lueyang-seat` | `hvd_71139` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 565 | 陕西 | 府属州与县治 | 洛川县 | county | `luochuan-seat` | `hvd_70227` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 566 | 陕西 | 府属州与县治 | 洛南县 | county | `luonan-seat` | `hvd_71287` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 567 | 陕西 | 府属州与县治 | 郿县 | county | `mei-seat` | `hvd_70940` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 568 | 陕西 | 府属州与县治 | 米脂县 | county | `mizhi-seat` | `hvd_70271` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 569 | 陕西 | 府属州与县治 | 沔县 | county | `mian-seat` | `hvd_71109` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 570 | 陕西 | 府属州与县治 | 宁远县 | county | `ningyuan-seat` | `hvd_70037` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 571 | 陕西 | 府属州与县治 | 平利县 | county | `pingli-seat` | `hvd_71162` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 572 | 陕西 | 府属州与县治 | 蒲城县 | county | `pucheng-seat` | `hvd_70337` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 573 | 陕西 | 府属州与县治 | 岐山县 | county | `qishan-seat` | `hvd_70907` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 574 | 陕西 | 府属州与县治 | 汧阳县 | county | `qianyang-seat` | `hvd_71289` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 575 | 陕西 | 府属州与县治 | 三水县 | county | `sanshui-seat` | `hvd_70213` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 576 | 陕西 | 府属州与县治 | 三原县 | county | `sanyuan-seat` | `hvd_70781` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 577 | 陕西 | 府属州与县治 | 山阳县 | county | `shanyang-shangzhou-seat` | `hvd_71278` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 578 | 陕西 | 府属州与县治 | 商南县 | county | `shangnan-seat` | `hvd_71279` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 579 | 陕西 | 府属州与县治 | 神木县 | county | `shenmu-seat` | `hvd_70404` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 580 | 陕西 | 府属州与县治 | 石泉县 | county | `shiquan-seat` | `hvd_71221` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 581 | 陕西 | 府属州与县治 | 渭南县 | county | `weinan-seat` | `hvd_70794` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 582 | 陕西 | 府属州与县治 | 渭源县 | county | `weiyuan-seat` | `hvd_70113` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 583 | 陕西 | 府属州与县治 | 吴堡县 | county | `wubu-seat` | `hvd_70274` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 584 | 陕西 | 府属州与县治 | 武功县 | county | `wugong-seat` | `hvd_70252` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 585 | 陕西 | 府属州与县治 | 西和县 | county | `xihe-seat` | `hvd_70051` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 586 | 陕西 | 府属州与县治 | 西乡县 | county | `xixiang-seat` | `hvd_71035` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 587 | 陕西 | 府属州与县治 | 兴平县 | county | `xingping-seat` | `hvd_70722` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 588 | 陕西 | 府属州与县治 | 洵阳县 | county | `xunyang-seat` | `hvd_71179` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 589 | 陕西 | 府属州与县治 | 洋县 | county | `yang-seat` | `hvd_71021` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 590 | 陕西 | 府属州与县治 | 宜川县 | county | `yichuan-seat` | `hvd_70374` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 591 | 陕西 | 府属州与县治 | 宜君县 | county | `yijun-seat` | `hvd_70232` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 592 | 陕西 | 府属州与县治 | 永寿县 | county | `yongshou-seat` | `hvd_70259` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 593 | 陕西 | 府属州与县治 | 漳县 | county | `zhang-seat` | `hvd_70022` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 594 | 陕西 | 府属州与县治 | 长武县 | county | `changwu-seat` | `hvd_70215` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 595 | 陕西 | 府属州与县治 | 镇安县 | county | `zhenan-shangzhou-seat` | `hvd_71277` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 596 | 陕西 | 府属州与县治 | 中部县 | county | `zhongbu-seat` | `hvd_70225` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 597 | 陕西 | 府属州与县治 | 盩厔县 | county | `zhouzhi-seat` | `hvd_70789` | `approximate`／`medium` | 已独立替换（陕西两批） |
+| 598 | 陕西 | 府属州与县治 | 紫阳县 | county | `ziyang-xingan-seat` | `hvd_71210` | `approximate`／`medium` | 已独立替换（陕西两批） |
 | 599 | 四川 | 府与直隶州治所 | 东川军民府 | prefecture | `dongchuan-seat` | `hvd_80090` | `approximate`／`medium` | 已独立替换（四川三批） |
 | 600 | 四川 | 府与直隶州治所 | 夔州府／奉节县 | prefecture／county | `fengjie-seat` | `hvd_44492` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（四川三批） |
 | 601 | 四川 | 府与直隶州治所 | 马湖府／屏山县 | prefecture／county | `pingshan-seat` | `hvd_96639` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（四川三批） |
