@@ -1216,10 +1216,10 @@
   },
   {
     "id": "jiangxi-jian-yongfeng-seat",
-    "longitude": 115.41762,
-    "latitude": 27.31886,
+    "longitude": 115.5,
+    "latitude": 27.316666666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "Modern continuous-position proxy for the Ji'an Yongfeng county seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1356822, guided by the Ming History geographic description; modern Yongfeng County proxy for the Ji'an Yongfeng county seat; exact old administrative compound remains unresolved",
     "confidence": "low",
     "sources": [
       {
@@ -1228,15 +1228,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "low",
-        "note": "No CHGIS 1600 point returned; retained a current county-seat proxy pending second-source verification; retained coordinate 115.41762, 27.31886"
+        "note": "Wikidata Q1356822 P625; modern Yongfeng County proxy for the Ji'an Yongfeng county seat; raw precision 0.016666666666667 degrees; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Retained a reversible low-confidence proxy after no CHGIS 1600 hit"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Jiangxi exception resolved: replaced the CHGIS location claim with an independently sourced Wikidata P625 modern proxy; exact old administrative compound remains unresolved."
     }
   },
   {

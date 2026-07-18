@@ -329,7 +329,7 @@
     "longitude": 114.19305,
     "latitude": 34.41144,
     "locationAccuracy": "approximate",
-    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no valid 1600 CHGIS point was returned",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no suitable 1600 historical coordinate was available",
     "confidence": "low",
     "sources": [
       {
@@ -624,7 +624,7 @@
     "longitude": 114.886,
     "latitude": 33.732,
     "locationAccuracy": "approximate",
-    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no valid 1600 CHGIS point was returned",
+    "locationMethod": "Modern historical-city proxy guided by the Ming History entry; no suitable 1600 historical coordinate was available",
     "confidence": "low",
     "sources": [
       {
@@ -1451,7 +1451,7 @@
         "sourceId": "ming-shi-geography-three",
         "claim": "location",
         "confidence": "low",
-        "note": "Old-town continuity proxy; direct CHGIS 1600 record was not found"
+        "note": "Old-town continuity proxy; no suitable 1600 historical coordinate was available"
       }
     ],
     "audit": {
@@ -1914,7 +1914,7 @@
     "longitude": 112.5810521,
     "latitude": 35.0945453,
     "locationAccuracy": "approximate",
-    "locationMethod": "Public Photon modern seat proxy for 济源; no stable CHGIS 1600 record was retrieved",
+    "locationMethod": "Public Photon modern seat proxy for 济源; no stable 1600 historical coordinate was available",
     "confidence": "low",
     "sources": [
       {
@@ -1934,7 +1934,7 @@
     "longitude": 113.4011621,
     "latitude": 35.0984028,
     "locationAccuracy": "approximate",
-    "locationMethod": "Public Photon modern seat proxy for 武陟; no stable CHGIS 1600 record was retrieved",
+    "locationMethod": "Public Photon modern seat proxy for 武陟; no stable 1600 historical coordinate was available",
     "confidence": "low",
     "sources": [
       {
@@ -1954,7 +1954,7 @@
     "longitude": 114.051111,
     "latitude": 35.308611,
     "locationAccuracy": "approximate",
-    "locationMethod": "Public Photon modern seat proxy for 新乡; no stable CHGIS 1600 record was retrieved",
+    "locationMethod": "Public Photon modern seat proxy for 新乡; no stable 1600 historical coordinate was available",
     "confidence": "low",
     "sources": [
       {
@@ -1974,7 +1974,7 @@
     "longitude": 114.2027583,
     "latitude": 35.6217454,
     "locationAccuracy": "approximate",
-    "locationMethod": "Public Photon modern seat proxy for 淇; no stable CHGIS 1600 record was retrieved",
+    "locationMethod": "Public Photon modern seat proxy for 淇; no stable 1600 historical coordinate was available",
     "confidence": "low",
     "sources": [
       {
@@ -1994,14 +1994,14 @@
     "longitude": 113.669601,
     "latitude": 36.5694846,
     "locationAccuracy": "approximate",
-    "locationMethod": "Modern She County seat proxy; CHGIS hvd_82243 conflicts with hvd_82232 and labels the current place as Wuan",
+    "locationMethod": "Modern She County seat proxy; historical hvd_82243 conflicts with hvd_82232 and labels the current place as Wuan",
     "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
         "claim": "location",
         "confidence": "low",
-        "note": "Rejected the conflicting CHGIS point and retained the modern She County location pending source reconciliation"
+        "note": "Rejected the conflicting historical point and retained the modern She County location pending source reconciliation"
       }
     ],
     "audit": {
@@ -2014,7 +2014,7 @@
     "longitude": 112.4373717,
     "latitude": 34.0799315,
     "locationAccuracy": "approximate",
-    "locationMethod": "Modern Ruyang County seat proxy for historical Yiyang; no stable CHGIS 1600 record was retrieved",
+    "locationMethod": "Modern Ruyang County seat proxy for historical Yiyang; no stable 1600 historical coordinate was available",
     "confidence": "low",
     "sources": [
       {
@@ -2609,7 +2609,7 @@
     "longitude": 112.2298021,
     "latitude": 33.0368537,
     "locationAccuracy": "approximate",
-    "locationMethod": "Public Photon modern seat proxy for 镇平; no stable CHGIS 1600 record was retrieved",
+    "locationMethod": "Public Photon modern seat proxy for 镇平; no stable 1600 historical coordinate was available",
     "confidence": "low",
     "sources": [
       {
@@ -2629,7 +2629,7 @@
     "longitude": 112.0818901,
     "latitude": 32.6880537,
     "locationAccuracy": "approximate",
-    "locationMethod": "Public Photon modern seat proxy for 邓州; no stable CHGIS 1600 record was retrieved",
+    "locationMethod": "Public Photon modern seat proxy for 邓州; no stable 1600 historical coordinate was available",
     "confidence": "low",
     "sources": [
       {

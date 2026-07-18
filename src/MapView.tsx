@@ -63,7 +63,8 @@ export function MapView() {
     map.addControl(
       new maplibregl.AttributionControl({
         compact: true,
-        customAttribution: "底图：Natural Earth · 历史数据：CHGIS / 《明史》",
+        customAttribution:
+          "底图：Natural Earth · 历史数据：《明史》 · 现代坐标：Wikidata | NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74.",
       }),
       "bottom-right",
     );

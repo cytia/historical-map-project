@@ -17,6 +17,7 @@ const sourceId = "counties";
 const relationSourceId = "county-relations";
 const layerIds = ["county-relations", "county-points", "county-labels"] as const;
 const clearTimers = new WeakMap<Map, number>();
+const coLocatedCountyIds = new Set(["shangyuan-county", "jiangning-county"]);
 
 export interface CountyLayerSelection {
   selectedUnitId: string | null;
@@ -24,6 +25,17 @@ export interface CountyLayerSelection {
   regionId: string | null;
   scope: AdministrativeDisplayScope;
   displayMode: MapDisplayMode;
+}
+
+function visualCoordinates(record: (typeof counties)[number] | (typeof seats)[number]) {
+  if ("parent" in record && coLocatedCountyIds.has(record.unit.id)) {
+    // Keep the historical proxy in data while rendering the documented co-located county seat at its prefectural anchor.
+    const parentSeat = seats.find(({ unit }) => unit.id === record.parent.id);
+    if (parentSeat?.place.longitude !== undefined && parentSeat.place.latitude !== undefined) {
+      return [parentSeat.place.longitude, parentSeat.place.latitude] as [number, number];
+    }
+  }
+  return [record.place.longitude!, record.place.latitude!] as [number, number];
 }
 
 function fadeDuration() {
@@ -60,13 +72,13 @@ function layerData(selection: CountyLayerSelection) {
     features: [
       ...childStates.map(({ unit, place, region }) => ({
         type: "Feature" as const,
-        geometry: { type: "Point" as const, coordinates: [place.longitude!, place.latitude!] },
+        geometry: { type: "Point" as const, coordinates: visualCoordinates({ unit, place, name: unit.name, region }) },
         properties: { id: unit.id, name: unit.name, kind: "department",
           parentId: unit.parentId, regionId: region.id },
       })),
       ...childCounties.map(({ unit, place, parent, region }) => ({
         type: "Feature" as const,
-        geometry: { type: "Point" as const, coordinates: [place.longitude!, place.latitude!] },
+        geometry: { type: "Point" as const, coordinates: visualCoordinates({ unit, place, parent, name: unit.name, region }) },
         properties: { id: unit.id, name: unit.name, kind: "county",
           parentId: parent.id, regionId: region.id },
       })),
@@ -75,17 +87,18 @@ function layerData(selection: CountyLayerSelection) {
   const records = [...childStates, ...childCounties];
   const relations = {
     type: "FeatureCollection" as const,
-    features: records.flatMap(({ unit, place }) => {
+    features: records.flatMap((record) => {
+      const { unit } = record;
       const parent = seats.find(({ unit: parentUnit }) => parentUnit.id === unit.parentId);
       if (!parent) return [];
+      const from = visualCoordinates(record);
+      const to = visualCoordinates(parent);
+      if (from[0] === to[0] && from[1] === to[1]) return [];
       return [{
         type: "Feature" as const,
         geometry: {
           type: "LineString" as const,
-          coordinates: curvedCoordinates(
-            [place.longitude!, place.latitude!],
-            [parent.place.longitude!, parent.place.latitude!],
-          ),
+          coordinates: curvedCoordinates(from, to),
         },
         properties: { id: unit.id },
       }];

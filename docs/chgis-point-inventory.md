@@ -10,11 +10,11 @@
 
 ## 统计口径
 
-项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）、湖广 107 点（三批）、四川 90 点（三批）、陕西 73 点（分两批）、山西 88 点（分两批）、河南 97 点（三批）和山东 104 点（三批）替换后，按本清单口径当前仍由 CHGIS `location` 主张承担坐标的地点为 **236 个，占全部地点 14.4%**。
+项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西压力测试 64 点及原无命中例外 1 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）、湖广 107 点（三批）、四川 90 点（三批）、陕西 73 点（分两批）、山西 88 点（分两批）、河南 97 点（三批）、山东 104 点（三批）、南京 115 点（三批）和京师 121 点（三批）替换后，按本清单口径当前仍由 CHGIS `location` 主张承担坐标的地点为 **0 个，占全部地点 0%**。
 
-迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **224 个唯一编号**和 **222 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
+迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **0 个唯一编号**和 **0 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
 
-当前未迁移记录的定位精度为 `approximate` 236；可信度为 `medium` 236、`low` 0。
+当前未迁移记录的定位精度和可信度统计均为 0；所有纳入基线的区域已完成独立替换。
 
 “地点记录数”“唯一 CHGIS 编号数”和“唯一坐标数”不可互换；附郭、共治或项目实体拆分会造成同一 CHGIS 编号或坐标关联多个地点。
 
@@ -22,11 +22,11 @@
 
 | 类别 | 点位数 | 建议用途 |
 |---|---:|---|
-| 一级行政区域治所 | 2 | 在所属区域批次中优先复核 |
-| 府与直隶州治所 | 29 | 在所属区域批次中优先复核 |
-| 府属州与县治 | 309 | 随所属区域一并替换 |
+| 一级行政区域治所 | 0 | |
+| 府与直隶州治所 | 0 | |
+| 府属州与县治 | 0 | |
 | 特殊治理／军事节点 | 0 | 单独研究与复核 |
-| 合计 | 236 | |
+| 合计 | 0 | |
 
 分类采用互斥判定顺序：一级行政区域 → 府与直隶州 → 特殊治理／军事 → 府属州与县。该顺序只用于避免重复统计，不代表实际替换批次；一个地点与多个行政实体共址时只计一次。
 
@@ -34,8 +34,8 @@
 
 | 一级行政区域 | 点位数 |
 |---|---:|
-| 京师 | 121 |
-| 南京 | 115 |
+| 京师 | 0 |
+| 南京 | 0 |
 | 山东 | 0 |
 | 河南 | 0 |
 | 山西 | 0 |
@@ -49,7 +49,7 @@
 | 广西 | 0 |
 | 云南 | 0 |
 | 贵州 | 0 |
-| 合计 | 236 |
+| 合计 | 0 |
 
 ## 独立替换原则
 
@@ -89,8 +89,8 @@
 
 1. **云贵流程试验：14 点。** 云南 9 点、贵州 5 点，全部为 `approximate` 点；普通连续聚落为中可信，县域代理、迁治旧治和御夷府州代理为低可信。样本包含普通府治、军民府、御夷府州、旧治和铜仁府多 CHGIS 编号，可用于验证独立候选锁定、史料对应、审计保留和商业过滤的完整流程。
 2. **福建普通州县验证：47 点（已完成）。** 福建具有较完整的普通府州县结构，并包含同名消歧和 CHGIS 父标签与《明史》父链不一致的记录，用于补足云贵样本缺少普通县治、附郭共址和密集父链的局限。
-3. **江西压力测试：64 点（已完成）。** 覆盖清江府县共址、普通县治、改名县、撤并县和同名消歧；以独立 Wikidata 坐标替换并通过压力测试后，江西不再由 CHGIS 承担 `location` 主张。
-4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73（已完成，两批）→ 山西 88（已完成，两批）→ 四川 90（已完成）→ 河南 97（三批，已完成）→ 山东 104 → 湖广 107（三批，已完成）→ 南京 115 → 京师 121；广西 82 点已完成。
+3. **江西压力测试：64 点及原无命中例外 1 点（已完成）。** 覆盖清江府县共址、普通县治、改名县、撤并县和同名消歧；原无命中例外永丰县也已改由独立 Wikidata 坐标承担 `location` 主张，江西不再由 CHGIS 承担 `location` 主张。
+4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73（已完成，两批）→ 山西 88（已完成，两批）→ 四川 90（已完成）→ 河南 97（三批，已完成）→ 山东 104（三批，已完成）→ 湖广 107（三批，已完成）→ 南京 115（三批，已完成）→ 京师 121（三批，已完成）；广西 82 点已完成。
 5. 点位数量不是唯一依据；对外演示、爱发电说明或众筹宣传涉及的区域可以提前，但必须保持该区域完整验收，不能只替换截图范围内的少数点。
 6. 区域内先处理一级行政区域及府、直隶州治所，再处理府属州、县和特殊治理节点；特殊节点不能以普通现代城市代理掩盖制度和驻地不确定性。
 7. 商业构建必须拒绝目标发布区域中任何仍以 CHGIS 或其他非商业、授权不明来源承担定位主张的记录。
@@ -114,11 +114,30 @@
 
 ### 江西压力测试验收
 
-- 64/64 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 54 点、`low` 10 点。
+- 65/65 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 54 点、`low` 11 点。
 - 江西商业发布记录不再由 CHGIS 承担任何 `location` 主张；旧 CHGIS 编号只保留在本内部清单中供迁移审计回查。
 - 清江县／临江府治共址继续作为一个项目点保留，并以樟树市现代代理承载两个历史实体；建昌（南康府）→永修、安仁→余江、泸溪→资溪、龙泉（吉安）→遂川、宁州→修水、新昌→宜丰、新城→黎川、兴安→横峰、永宁→宁冈、长宁→寻乌等改名或撤并情形列为低可信，等待第二来源复核。
+- 原无命中例外 `jiangxi-jian-yongfeng-seat` 使用 Wikidata `Q1356822` 的现代永丰县代理；与同一现代县域的另一历史 `placeId` 共用代理，但未合并历史行政实体。
 - 江西压力测试覆盖普通县治、府县共址、改名县、撤并县和同名消歧；数据结构、来源引用、坐标范围和商业发布资格校验均已通过。
-- 本轮结果：64/64 点完成独立来源替换；江西残留 CHGIS `location` 主张为 0；无法独立定位比例为 0/64；低可信点为 10/64。
+- 本轮结果：65/65 点完成独立来源替换；江西残留 CHGIS `location` 主张为 0；无法独立定位比例为 0/65；低可信点为 11/65。
+
+### 京师替换验收
+
+- 121/121 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 107 点、`low` 14 点。
+- 按 `data/places/jingshi.json` 文件顺序分三批完成：第一批 41 点（`hejian-seat` 至 `yizhou-baoding-seat`），第二批 40 点（`laishui-seat` 至 `luancheng-seat`），第三批 40 点（`wuji-seat` 至 `leting-seat`）；京师 121 个目标点均不再由 CHGIS `location` 主张承担坐标。
+- 保安州→涿鹿县、东安县→廊坊市、保定县→保定市、新城县→高碑店新城镇、庆都县→望都县、完县→顺平县、束鹿县→辛集市、安州／新安县→安新县及安新镇、交河县→泊头市交河镇、兴济县→兴济镇、唐山县／隆平县→隆尧县、开州→濮阳市等历史沿革或现代代理未完全闭合的 14 条记录保留低可信说明。
+- 大名府／大名县共用大名镇代理，唐山县／隆平县共用隆尧县代理，魏县的两个历史父链记录共用魏县代理；各历史 `placeId` 和关联实体数量均保留，未合并行政实体。
+- 所有候选均保留官方 Wikidata API 返回的原始 `P625` 数值，经度在前；Q ID、来源主张、可信度和审计日期已写入京师数据分片。
+- 三批数据结构、来源引用、WGS 84 坐标范围、京师目标无 CHGIS `location` 主张和旧编号审计保留检查通过；`data-validator` 与单元测试通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
+
+### 南京替换验收
+
+- 115/115 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 105 点、`low` 10 点。
+- 按 `data/places/nanjing.json` 文件顺序分三批完成：第一批 39 点（`nanjing-city` 至 `sizhou-seat`），第二批 38 点（`suzhou-fengyang-seat` 至 `lujiang-seat`），第三批 38 点（`chao-seat` 至 `jianping-seat`）；南京 115 个目标点均不再由 CHGIS `location` 主张承担坐标。
+- 临淮、虹、清河、安东、桃源、石埭、建德、东流、太平和建平等 10 条记录因改名、撤并、旧治或现代代理对应未完全闭合保留低可信；其余 105 条为中可信现代代理。
+- 当涂府／当涂县、徽州府／歙县、池州府／贵池县、庐州府／合肥县、泗州／虹县、宁国府／宣城县、苏州府／吴县／长洲县、凤阳府／凤阳县、松江府／华亭县、淮安府／山阳县和建德／东流等共享现代代理时，保留各自历史 `placeId` 与来源主张，不解释为明代行政复合体的精确复原。
+- 所有候选均保留官方 Wikidata API 返回的原始 `P625` 数值，经度在前；103 个唯一 Q ID、来源主张、可信度和审计日期已写入南京数据分片，历史来源统一保留为 `existence`。
+- 三批数据结构、来源引用、WGS 84 坐标范围、南京目标无 CHGIS `location` 主张和旧编号审计保留检查通过；`data-validator` 与单元测试通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
 ### 广东替换验收
 
@@ -232,250 +251,250 @@
 
 | placeId | 当前情况 | 建议 |
 |---|---|---|
-| `jiangxi-jian-yongfeng-seat` | `locationMethod` 与来源备注均说明 CHGIS 在 1600 年无命中，实际保留现代县治代理，但仍以 CHGIS 记录 `location` 主张。 | 从 CHGIS 采用清单排除；后续改由明确的现代空间来源承担定位主张。 |
+| `jiangxi-jian-yongfeng-seat` | 原无命中例外已使用 Wikidata `Q1356822` 的现代永丰县代理，原始 `P625` 为 `115.5, 27.316666666667`，精度约 `0.016666666666667` 度。 | 已纳入独立替换统计；旧 CHGIS 编号仅保留在本清单中供内部审计回查。 |
 
 ## 完整点位清单
 
-以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条、“已独立替换（广西两批）”的 82 条、“已独立替换（浙江两批）”的 72 条、“已独立替换（四川三批）”的 90 条、“已独立替换（山西两批）”的 88 条、“已独立替换（河南三批）”的 97 条和“已独立替换（山东三批）”的 104 条记录外，其余记录当前状态均为“待独立替换”。
+以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（江西无命中例外）”的 1 条、“已独立替换（广东两批）”的 73 条、“已独立替换（广西两批）”的 82 条、“已独立替换（浙江两批）”的 72 条、“已独立替换（四川三批）”的 90 条、“已独立替换（山西两批）”的 88 条、“已独立替换（河南三批）”的 97 条、“已独立替换（山东三批）”的 104 条、“已独立替换（京师三批）”的 121 条和“已独立替换（南京三批）”的 115 条记录外，其余记录均已完成独立替换。
 
 | # | 一级区域 | 类别 | 行政单位 | 等级 | placeId | CHGIS 编号 | 精度／可信度 | 标记 |
 |---:|---|---|---|---|---|---|---|---|
-| 1 | 京师 | 府与直隶州治所 | 保安州 | department | `baoan-seat` | `hvd_88275` | `approximate`／`medium` | 待独立替换 |
-| 2 | 京师 | 府与直隶州治所 | 大名府／元城县 | prefecture／county | `daming-seat` | `hvd_87779` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 3 | 京师 | 府与直隶州治所 | 广平府／永年县 | prefecture／county | `yongnian-seat` | `hvd_44826` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 4 | 京师 | 府与直隶州治所 | 河间府／河间县 | prefecture／county | `hejian-seat` | `hvd_87998` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 5 | 京师 | 府与直隶州治所 | 顺德府／邢台县 | prefecture／county | `xingtai-seat` | `hvd_44893` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 6 | 京师 | 府与直隶州治所 | 永平府／卢龙县 | prefecture／county | `lulong-seat` | `hvd_88307` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 7 | 京师 | 府与直隶州治所 | 真定府／真定县 | prefecture／county | `zhending-seat` | `hvd_88396` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 8 | 京师 | 府属州与县治 | 安平县 | county | `anping-seat` | `hvd_44891` | `approximate`／`medium` | 待独立替换 |
-| 9 | 京师 | 府属州与县治 | 安肃县 | county | `ansu-seat` | `hvd_44750` | `approximate`／`medium` | 待独立替换 |
-| 10 | 京师 | 府属州与县治 | 安州 | department | `anzhou-baoding-seat` | `hvd_87745` | `approximate`／`medium` | 待独立替换 |
-| 11 | 京师 | 府属州与县治 | 霸州 | department | `bazhou-seat` | `hvd_88200` | `approximate`／`medium` | 待独立替换 |
-| 12 | 京师 | 府属州与县治 | 柏乡县 | county | `baixiang-seat` | `hvd_44951` | `approximate`／`medium` | 待独立替换 |
-| 13 | 京师 | 府属州与县治 | 宝坻县 | county | `baodi-seat` | `hvd_88197` | `approximate`／`medium` | 待独立替换 |
-| 14 | 京师 | 府属州与县治 | 保定县 | county | `baoding-county-seat` | `hvd_88205` | `approximate`／`medium` | 待独立替换 |
-| 15 | 京师 | 府属州与县治 | 博野县 | county | `boye-seat` | `hvd_44753` | `approximate`／`medium` | 待独立替换 |
-| 16 | 京师 | 府属州与县治 | 沧州 | department | `cangzhou-seat` | `hvd_88239` | `approximate`／`medium` | 待独立替换 |
-| 17 | 京师 | 府属州与县治 | 昌黎县 | county | `changli-seat` | `hvd_88310` | `approximate`／`medium` | 待独立替换 |
-| 18 | 京师 | 府属州与县治 | 成安县 | county | `chengan-seat` | `hvd_44844` | `approximate`／`medium` | 待独立替换 |
-| 19 | 京师 | 府属州与县治 | 大城县 | county | `dacheng-seat` | `hvd_88203` | `approximate`／`medium` | 待独立替换 |
-| 20 | 京师 | 府属州与县治 | 大名县 | county | `daming-county-seat` | `hvd_45009` | `approximate`／`medium` | 待独立替换 |
-| 21 | 京师 | 府属州与县治 | 定兴县 | county | `dingxing-seat` | `hvd_87673` | `approximate`／`medium` | 待独立替换 |
-| 22 | 京师 | 府属州与县治 | 定州 | department | `dingzhou-zhending-seat` | `hvd_87865` | `approximate`／`medium` | 待独立替换 |
-| 23 | 京师 | 府属州与县治 | 东安县 | county | `dongan-shuntian-seat` | `hvd_88211` | `approximate`／`medium` | 待独立替换 |
-| 24 | 京师 | 府属州与县治 | 东光县 | county | `dongguang-seat` | `hvd_44878` | `approximate`／`medium` | 待独立替换 |
-| 25 | 京师 | 府属州与县治 | 东明县 | county | `dongming-seat` | `hvd_44815` | `approximate`／`medium` | 待独立替换 |
-| 26 | 京师 | 府属州与县治 | 肥乡县 | county | `feixiang-seat` | `hvd_44836` | `approximate`／`medium` | 待独立替换 |
-| 27 | 京师 | 府属州与县治 | 丰润县 | county | `fengrun-seat` | `hvd_88318` | `approximate`／`medium` | 待独立替换 |
-| 28 | 京师 | 府属州与县治 | 抚宁县 | county | `funing-yongping-seat` | `hvd_88309` | `approximate`／`medium` | 待独立替换 |
-| 29 | 京师 | 府属州与县治 | 阜城县 | county | `fucheng-hejian-seat` | `hvd_44865` | `approximate`／`medium` | 待独立替换 |
-| 30 | 京师 | 府属州与县治 | 阜平县 | county | `fuping-zhending-seat` | `hvd_44977` | `approximate`／`medium` | 待独立替换 |
-| 31 | 京师 | 府属州与县治 | 高阳县 | county | `gaoyang-seat` | `hvd_44789` | `approximate`／`medium` | 待独立替换 |
-| 32 | 京师 | 府属州与县治 | 高邑县 | county | `gaoyi-seat` | `hvd_88352` | `approximate`／`medium` | 待独立替换 |
-| 33 | 京师 | 府属州与县治 | 藁城县 | county | `gaocheng-seat` | `hvd_45007` | `approximate`／`medium` | 待独立替换 |
-| 34 | 京师 | 府属州与县治 | 固安县 | county | `guan-seat` | `hvd_88207` | `approximate`／`medium` | 待独立替换 |
-| 35 | 京师 | 府属州与县治 | 故城县 | county | `gucheng-hejian-seat` | `hvd_44876` | `approximate`／`medium` | 待独立替换 |
-| 36 | 京师 | 府属州与县治 | 广平县 | county | `guangping-county-seat` | `hvd_87922` | `approximate`／`medium` | 待独立替换 |
-| 37 | 京师 | 府属州与县治 | 广宗县 | county | `guangzong-seat` | `hvd_44904` | `approximate`／`medium` | 待独立替换 |
-| 38 | 京师 | 府属州与县治 | 邯郸县 | county | `handan-seat` | `hvd_44847` | `approximate`／`medium` | 待独立替换 |
-| 39 | 京师 | 府属州与县治 | 衡水县 | county | `hengshui-seat` | `hvd_44886` | `approximate`／`medium` | 待独立替换 |
-| 40 | 京师 | 府属州与县治 | 滑县 | county | `hua-daming-seat` | `hvd_82322` | `approximate`／`medium` | 待独立替换 |
-| 41 | 京师 | 府属州与县治 | 获鹿县 | county | `huolu-seat` | `hvd_44972` | `approximate`／`medium` | 待独立替换 |
-| 42 | 京师 | 府属州与县治 | 鸡泽县 | county | `jize-seat` | `hvd_44842` | `approximate`／`medium` | 待独立替换 |
-| 43 | 京师 | 府属州与县治 | 蓟州 | department | `jizhou-seat` | `hvd_88212` | `approximate`／`medium` | 待独立替换 |
-| 44 | 京师 | 府属州与县治 | 冀州 | department | `jizhou-zhending-seat` | `hvd_88072` | `approximate`／`medium` | 待独立替换 |
-| 45 | 京师 | 府属州与县治 | 交河县 | county | `jiaohe-seat` | `hvd_44874` | `approximate`／`medium` | 待独立替换 |
-| 46 | 京师 | 府属州与县治 | 晋州 | department | `jinzhou-zhending-seat` | `hvd_88403` | `approximate`／`medium` | 待独立替换 |
-| 47 | 京师 | 府属州与县治 | 井陉县 | county | `jingxing-seat` | `hvd_44975` | `approximate`／`medium` | 待独立替换 |
-| 48 | 京师 | 府属州与县治 | 景州 | department | `jingzhou-hejian-seat` | `hvd_88043` | `approximate`／`medium` | 待独立替换 |
-| 49 | 京师 | 府属州与县治 | 静海县 | county | `jinghai-seat` | `hvd_44923` | `approximate`／`medium` | 待独立替换 |
-| 50 | 京师 | 府属州与县治 | 钜鹿县 | county | `julu-seat` | `hvd_44906` | `approximate`／`medium` | 待独立替换 |
-| 51 | 京师 | 府属州与县治 | 浚县 | county | `jun-seat` | `hvd_82319` | `approximate`／`medium` | 待独立替换 |
-| 52 | 京师 | 府属州与县治 | 开州 | department | `kaizhou-seat` | `hvd_87833` | `approximate`／`medium` | 待独立替换 |
-| 53 | 京师 | 府属州与县治 | 涞水县 | county | `laishui-seat` | `hvd_44943` | `approximate`／`medium` | 待独立替换 |
-| 54 | 京师 | 府属州与县治 | 乐亭县 | county | `leting-seat` | `hvd_88311` | `approximate`／`medium` | 待独立替换 |
-| 55 | 京师 | 府属州与县治 | 蠡县 | county | `li-seat` | `hvd_44774` | `approximate`／`medium` | 待独立替换 |
-| 56 | 京师 | 府属州与县治 | 临城县 | county | `lincheng-seat` | `hvd_44961` | `approximate`／`medium` | 待独立替换 |
-| 57 | 京师 | 府属州与县治 | 灵寿县 | county | `lingshou-seat` | `hvd_44986` | `approximate`／`medium` | 待独立替换 |
-| 58 | 京师 | 府属州与县治 | 隆平县 | county | `longping-seat` | `hvd_44959` | `approximate`／`medium` | 待独立替换 |
-| 59 | 京师 | 府属州与县治 | 栾城县 | county | `luancheng-seat` | `hvd_44981` | `approximate`／`medium` | 待独立替换 |
-| 60 | 京师 | 府属州与县治 | 滦州 | department | `luanzhou-seat` | `hvd_88312` | `approximate`／`medium` | 待独立替换 |
-| 61 | 京师 | 府属州与县治 | 满城县 | county | `mancheng-seat` | `hvd_44747` | `approximate`／`medium` | 待独立替换 |
-| 62 | 京师 | 府属州与县治 | 南宫县 | county | `nangong-seat` | `hvd_44880` | `approximate`／`medium` | 待独立替换 |
-| 63 | 京师 | 府属州与县治 | 南和县 | county | `nanhe-seat` | `hvd_44899` | `approximate`／`medium` | 待独立替换 |
-| 64 | 京师 | 府属州与县治 | 南乐县 | county | `nanle-seat` | `hvd_87808` | `approximate`／`medium` | 待独立替换 |
-| 65 | 京师 | 府属州与县治 | 南皮县 | county | `nanpi-seat` | `hvd_88244` | `approximate`／`medium` | 待独立替换 |
-| 66 | 京师 | 府属州与县治 | 内黄县 | county | `neihuang-seat` | `hvd_82246` | `approximate`／`medium` | 待独立替换 |
-| 67 | 京师 | 府属州与县治 | 内丘县 | county | `neiqiu-seat` | `hvd_88173` | `approximate`／`medium` | 待独立替换 |
-| 68 | 京师 | 府属州与县治 | 宁津县 | county | `ningjin-hejian-seat` | `hvd_88036` | `approximate`／`medium` | 待独立替换 |
-| 69 | 京师 | 府属州与县治 | 宁晋县 | county | `ningjin-zhending-seat` | `hvd_44963` | `approximate`／`medium` | 待独立替换 |
-| 70 | 京师 | 府属州与县治 | 平山县 | county | `pingshan-zhending-seat` | `hvd_44988` | `approximate`／`medium` | 待独立替换 |
-| 71 | 京师 | 府属州与县治 | 平乡县 | county | `pingxiang-shunde-seat` | `hvd_44901` | `approximate`／`medium` | 待独立替换 |
-| 72 | 京师 | 府属州与县治 | 祁州 | department | `qizhou-baoding-seat` | `hvd_87725` | `approximate`／`medium` | 待独立替换 |
-| 73 | 京师 | 府属州与县治 | 迁安县 | county | `qianan-seat` | `hvd_88308` | `approximate`／`medium` | 待独立替换 |
-| 74 | 京师 | 府属州与县治 | 青县 | county | `qing-hejian-seat` | `hvd_44918` | `approximate`／`medium` | 待独立替换 |
-| 75 | 京师 | 府属州与县治 | 清丰县 | county | `qingfeng-seat` | `hvd_44811` | `approximate`／`medium` | 待独立替换 |
-| 76 | 京师 | 府属州与县治 | 清河县 | county | `qinghe-guangping-seat` | `hvd_44850` | `approximate`／`medium` | 待独立替换 |
-| 77 | 京师 | 府属州与县治 | 庆都县 | county | `qingdu-seat` | `hvd_44765` | `approximate`／`medium` | 待独立替换 |
-| 78 | 京师 | 府属州与县治 | 庆云县 | county | `qingyun-seat` | `hvd_44934` | `approximate`／`medium` | 待独立替换 |
-| 79 | 京师 | 府属州与县治 | 曲阳县 | county | `quyang-seat` | `hvd_44822` | `approximate`／`medium` | 待独立替换 |
-| 80 | 京师 | 府属州与县治 | 曲周县 | county | `quzhou-guangping-seat` | `hvd_44835` | `approximate`／`medium` | 待独立替换 |
-| 81 | 京师 | 府属州与县治 | 饶阳县 | county | `raoyang-seat` | `hvd_44890` | `approximate`／`medium` | 待独立替换 |
-| 82 | 京师 | 府属州与县治 | 任丘县 | county | `renqiu-seat` | `hvd_44868` | `approximate`／`medium` | 待独立替换 |
-| 83 | 京师 | 府属州与县治 | 任县 | county | `ren-shunde-seat` | `hvd_44913` | `approximate`／`medium` | 待独立替换 |
-| 84 | 京师 | 府属州与县治 | 容城县 | county | `rongcheng-seat` | `hvd_44795` | `approximate`／`medium` | 待独立替换 |
-| 85 | 京师 | 府属州与县治 | 三河县 | county | `sanhe-seat` | `hvd_88195` | `approximate`／`medium` | 待独立替换 |
-| 86 | 京师 | 府属州与县治 | 沙河县 | county | `shahe-shunde-seat` | `hvd_44898` | `approximate`／`medium` | 待独立替换 |
-| 87 | 京师 | 府属州与县治 | 深泽县 | county | `shenze-seat` | `hvd_44825` | `approximate`／`medium` | 待独立替换 |
-| 88 | 京师 | 府属州与县治 | 深州 | department | `shenzhou-seat` | `hvd_88111` | `approximate`／`medium` | 待独立替换 |
-| 89 | 京师 | 府属州与县治 | 束鹿县 | county | `shulu-seat` | `hvd_87732` | `approximate`／`medium` | 待独立替换 |
-| 90 | 京师 | 府属州与县治 | 肃宁县 | county | `suning-seat` | `hvd_44866` | `approximate`／`medium` | 待独立替换 |
-| 91 | 京师 | 府属州与县治 | 唐山县 | county | `tangshan-shunde-seat` | `hvd_44909` | `approximate`／`medium` | 待独立替换 |
-| 92 | 京师 | 府属州与县治 | 唐县 | county | `tang-baoding-seat` | `hvd_44762` | `approximate`／`medium` | 待独立替换 |
-| 93 | 京师 | 府属州与县治 | 完县 | county | `wan-baoding-seat` | `hvd_44773` | `approximate`／`medium` | 待独立替换 |
-| 94 | 京师 | 府属州与县治 | 威县 | county | `wei-guangping-seat` | `hvd_44853` | `approximate`／`medium` | 待独立替换 |
-| 95 | 京师 | 府属州与县治 | 魏县 | county | `wei-daming-seat` | `hvd_44796` | `approximate`／`medium` | 待独立替换 |
-| 96 | 京师 | 府属州与县治 | 文安县 | county | `wenan-seat` | `hvd_88202` | `approximate`／`medium` | 待独立替换 |
-| 97 | 京师 | 府属州与县治 | 无极县 | county | `wuji-seat` | `hvd_45002` | `approximate`／`medium` | 待独立替换 |
-| 98 | 京师 | 府属州与县治 | 吴桥县 | county | `wuqiao-seat` | `hvd_88049` | `approximate`／`medium` | 待独立替换 |
-| 99 | 京师 | 府属州与县治 | 武强县 | county | `wuqiang-seat` | `hvd_44888` | `approximate`／`medium` | 待独立替换 |
-| 100 | 京师 | 府属州与县治 | 武清县 | county | `wuqing-seat` | `hvd_88196` | `approximate`／`medium` | 待独立替换 |
-| 101 | 京师 | 府属州与县治 | 武邑县 | county | `wuyi-seat` | `hvd_44885` | `approximate`／`medium` | 待独立替换 |
-| 102 | 京师 | 府属州与县治 | 献县 | county | `xian-seat` | `hvd_44861` | `approximate`／`medium` | 待独立替换 |
-| 103 | 京师 | 府属州与县治 | 香河县 | county | `xianghe-seat` | `hvd_88199` | `approximate`／`medium` | 待独立替换 |
-| 104 | 京师 | 府属州与县治 | 新安县 | county | `xinan-anzhou-seat` | `hvd_44786` | `approximate`／`medium` | 待独立替换 |
-| 105 | 京师 | 府属州与县治 | 新城县 | county | `xincheng-baoding-seat` | `hvd_44755` | `approximate`／`medium` | 待独立替换 |
-| 106 | 京师 | 府属州与县治 | 新河县 | county | `xinhe-zhending-seat` | `hvd_44883` | `approximate`／`medium` | 待独立替换 |
-| 107 | 京师 | 府属州与县治 | 新乐县 | county | `xinle-seat` | `hvd_45008` | `approximate`／`medium` | 待独立替换 |
-| 108 | 京师 | 府属州与县治 | 行唐县 | county | `xingtang-seat` | `hvd_44985` | `approximate`／`medium` | 待独立替换 |
-| 109 | 京师 | 府属州与县治 | 兴济县 | county | `xingji-seat` | `hvd_44920` | `approximate`／`medium` | 待独立替换 |
-| 110 | 京师 | 府属州与县治 | 雄县 | county | `xiong-seat` | `hvd_44775` | `approximate`／`medium` | 待独立替换 |
-| 111 | 京师 | 府属州与县治 | 盐山县 | county | `yanshan-hejian-seat` | `hvd_44930` | `approximate`／`medium` | 待独立替换 |
-| 112 | 京师 | 府属州与县治 | 易州 | department | `yizhou-baoding-seat` | `hvd_88287` | `approximate`／`medium` | 待独立替换 |
-| 113 | 京师 | 府属州与县治 | 永清县 | county | `yongqing-county-seat` | `hvd_88208` | `approximate`／`medium` | 待独立替换 |
-| 114 | 京师 | 府属州与县治 | 玉田县 | county | `yutian-seat` | `hvd_88317` | `approximate`／`medium` | 待独立替换 |
-| 115 | 京师 | 府属州与县治 | 元氏县 | county | `yuanshi-seat` | `hvd_44989` | `approximate`／`medium` | 待独立替换 |
-| 116 | 京师 | 府属州与县治 | 赞皇县 | county | `zanhuang-seat` | `hvd_44993` | `approximate`／`medium` | 待独立替换 |
-| 117 | 京师 | 府属州与县治 | 枣强县 | county | `zaoqiang-seat` | `hvd_88089` | `approximate`／`medium` | 待独立替换 |
-| 118 | 京师 | 府属州与县治 | 长垣县 | county | `changyuan-seat` | `hvd_87821` | `approximate`／`medium` | 待独立替换 |
-| 119 | 京师 | 府属州与县治 | 赵州 | department | `zhaozhou-seat` | `hvd_88336` | `approximate`／`medium` | 待独立替换 |
-| 120 | 京师 | 府属州与县治 | 涿州 | department | `zhuozhou-seat` | `hvd_88193` | `approximate`／`medium` | 待独立替换 |
-| 121 | 京师 | 府属州与县治 | 遵化县 | county | `zunhua-seat` | `hvd_88314` | `approximate`／`medium` | 待独立替换 |
-| 122 | 南京 | 一级行政区域治所 | 南京／应天府 | capital-region／prefecture | `nanjing-city` | `hvd_30033` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 123 | 南京 | 府与直隶州治所 | 安庆府 | prefecture | `huaining-seat` | `hvd_43004` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 124 | 南京 | 府与直隶州治所 | 常州府 | prefecture | `wujin-seat` | `hvd_40459` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 125 | 南京 | 府与直隶州治所 | 池州府 | prefecture | `guichi-seat` | `hvd_41344` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 126 | 南京 | 府与直隶州治所 | 滁州 | department | `chuzhou-seat` | `hvd_33532` | `approximate`／`medium` | 待独立替换 |
-| 127 | 南京 | 府与直隶州治所 | 凤阳府 | prefecture | `fengyang-seat` | `hvd_43399` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 128 | 南京 | 府与直隶州治所 | 广德州 | department | `guangde-seat` | `hvd_32464` | `approximate`／`medium` | 待独立替换 |
-| 129 | 南京 | 府与直隶州治所 | 和州 | department | `hezhou-seat` | `hvd_33512` | `approximate`／`medium` | 待独立替换 |
-| 130 | 南京 | 府与直隶州治所 | 淮安府 | prefecture | `shanyang-seat` | `hvd_42766` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 131 | 南京 | 府与直隶州治所 | 徽州府 | prefecture | `she-seat` | `hvd_41320` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 132 | 南京 | 府与直隶州治所 | 庐州府 | prefecture | `hefei-seat` | `hvd_43060` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 133 | 南京 | 府与直隶州治所 | 宁国府 | prefecture | `xuancheng-seat` | `hvd_41303` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 134 | 南京 | 府与直隶州治所 | 松江府 | prefecture | `huating-seat` | `hvd_40495` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 135 | 南京 | 府与直隶州治所 | 苏州府 | prefecture | `suzhou-city` | `hvd_32432` | `approximate`／`medium` | 共址 3 个地点；待独立替换 |
-| 136 | 南京 | 府与直隶州治所 | 太平府 | prefecture | `dangtu-seat` | `hvd_41364` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 137 | 南京 | 府与直隶州治所 | 徐州 | department | `xuzhou-seat` | `hvd_33321` | `approximate`／`medium` | 待独立替换 |
-| 138 | 南京 | 府与直隶州治所 | 扬州府 | prefecture | `jiangdu-seat` | `hvd_42684` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 139 | 南京 | 府与直隶州治所 | 镇江府 | prefecture | `dantu-seat` | `hvd_40570` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 140 | 南京 | 府属州与县治 | 安东县 | county | `andong-seat` | `hvd_42924` | `approximate`／`medium` | 待独立替换 |
-| 141 | 南京 | 府属州与县治 | 宝应县 | county | `baoying-seat` | `hvd_42727` | `approximate`／`medium` | 待独立替换 |
-| 142 | 南京 | 府属州与县治 | 亳州 | department | `bozhou-seat` | `hvd_43408` | `approximate`／`medium` | 待独立替换 |
-| 143 | 南京 | 府属州与县治 | 常熟县 | county | `changshu-county-seat` | `hvd_40382` | `approximate`／`medium` | 待独立替换 |
-| 144 | 南京 | 府属州与县治 | 巢县 | county | `chao-seat` | `hvd_43041` | `approximate`／`medium` | 待独立替换 |
-| 145 | 南京 | 府属州与县治 | 崇明县 | county | `chongming-county-seat` | `hvd_40390` | `approximate`／`medium` | 待独立替换 |
-| 146 | 南京 | 府属州与县治 | 丹徒县 | county | `dantu-county-seat` | `hvd_40570` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 147 | 南京 | 府属州与县治 | 丹阳县 | county | `danyang-county-seat` | `hvd_40576` | `approximate`／`medium` | 待独立替换 |
-| 148 | 南京 | 府属州与县治 | 当涂县 | county | `dangtu-county-seat` | `hvd_41364` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 149 | 南京 | 府属州与县治 | 砀山县 | county | `dangshan-seat` | `hvd_42802` | `approximate`／`medium` | 待独立替换 |
-| 150 | 南京 | 府属州与县治 | 定远县 | county | `dingyuan-seat` | `hvd_43089` | `approximate`／`medium` | 待独立替换 |
-| 151 | 南京 | 府属州与县治 | 东流县 | county | `dongliu-seat` | `hvd_41362` | `approximate`／`medium` | 待独立替换 |
-| 152 | 南京 | 府属州与县治 | 繁昌县 | county | `fanchang-seat` | `hvd_41373` | `approximate`／`medium` | 待独立替换 |
-| 153 | 南京 | 府属州与县治 | 丰县 | county | `feng-seat` | `hvd_42806` | `approximate`／`medium` | 待独立替换 |
-| 154 | 南京 | 府属州与县治 | 凤阳县 | county | `fengyang-county-seat` | `hvd_43399` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 155 | 南京 | 府属州与县治 | 赣榆县 | county | `ganyu-seat` | `hvd_42893` | `approximate`／`medium` | 待独立替换 |
-| 156 | 南京 | 府属州与县治 | 高邮州 | department | `gaoyou-seat` | `hvd_42868` | `approximate`／`medium` | 待独立替换 |
-| 157 | 南京 | 府属州与县治 | 贵池县 | county | `guichi-county-seat` | `hvd_41344` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 158 | 南京 | 府属州与县治 | 海门县 | county | `haimen-seat` | `hvd_42935` | `approximate`／`medium` | 待独立替换 |
-| 159 | 南京 | 府属州与县治 | 含山县 | county | `hanshan-seat` | `hvd_43109` | `approximate`／`medium` | 待独立替换 |
-| 160 | 南京 | 府属州与县治 | 合肥县 | county | `hefei-county-seat` | `hvd_43060` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 161 | 南京 | 府属州与县治 | 虹县 | county | `hong-seat` | `hvd_43239` | `approximate`／`medium` | 待独立替换 |
-| 162 | 南京 | 府属州与县治 | 华亭县 | county | `huating-county-seat` | `hvd_40495` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 163 | 南京 | 府属州与县治 | 怀宁县 | county | `huaining-county-seat` | `hvd_43004` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 164 | 南京 | 府属州与县治 | 怀远县 | county | `huaiyuan-seat` | `hvd_43388` | `approximate`／`medium` | 待独立替换 |
-| 165 | 南京 | 府属州与县治 | 霍山县 | county | `huoshan-seat` | `hvd_43417` | `approximate`／`medium` | 待独立替换 |
-| 166 | 南京 | 府属州与县治 | 绩溪县 | county | `jixi-seat` | `hvd_41335` | `approximate`／`medium` | 待独立替换 |
-| 167 | 南京 | 府属州与县治 | 嘉定县 | county | `jiading-county-seat` | `hvd_40393` | `approximate`／`medium` | 待独立替换 |
-| 168 | 南京 | 府属州与县治 | 建德县 | county | `jiande-chizhou-seat` | `hvd_41363` | `approximate`／`medium` | 待独立替换 |
-| 169 | 南京 | 府属州与县治 | 建平县 | county | `jianping-seat` | `hvd_41359` | `approximate`／`medium` | 待独立替换 |
-| 170 | 南京 | 府属州与县治 | 江都县 | county | `jiangdu-county-seat` | `hvd_42684` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 171 | 南京 | 府属州与县治 | 江阴县 | county | `jiangyin-county-seat` | `hvd_40436` | `approximate`／`medium` | 待独立替换 |
-| 172 | 南京 | 府属州与县治 | 金坛县 | county | `jintan-county-seat` | `hvd_40595` | `approximate`／`medium` | 待独立替换 |
-| 173 | 南京 | 府属州与县治 | 泾县 | county | `jing-seat` | `hvd_41313` | `approximate`／`medium` | 待独立替换 |
-| 174 | 南京 | 府属州与县治 | 旌德县 | county | `jingde-seat` | `hvd_41307` | `approximate`／`medium` | 待独立替换 |
-| 175 | 南京 | 府属州与县治 | 靖江县 | county | `jingjiang-county-seat` | `hvd_40437` | `approximate`／`medium` | 待独立替换 |
-| 176 | 南京 | 府属州与县治 | 昆山县 | county | `kunshan-county-seat` | `hvd_40400` | `approximate`／`medium` | 待独立替换 |
-| 177 | 南京 | 府属州与县治 | 来安县 | county | `laian-seat` | `hvd_43168` | `approximate`／`medium` | 待独立替换 |
-| 178 | 南京 | 府属州与县治 | 临淮县 | county | `linhuai-seat` | `hvd_43077` | `approximate`／`medium` | 待独立替换 |
-| 179 | 南京 | 府属州与县治 | 六安州 | department | `luan-seat` | `hvd_43152` | `approximate`／`medium` | 待独立替换 |
-| 180 | 南京 | 府属州与县治 | 庐江县 | county | `lujiang-seat` | `hvd_43382` | `approximate`／`medium` | 待独立替换 |
-| 181 | 南京 | 府属州与县治 | 蒙城县 | county | `mengcheng-seat` | `hvd_43372` | `approximate`／`medium` | 待独立替换 |
-| 182 | 南京 | 府属州与县治 | 南陵县 | county | `nanling-seat` | `hvd_41318` | `approximate`／`medium` | 待独立替换 |
-| 183 | 南京 | 府属州与县治 | 宁国县 | county | `ningguo-seat` | `hvd_41312` | `approximate`／`medium` | 待独立替换 |
-| 184 | 南京 | 府属州与县治 | 沛县 | county | `pei-seat` | `hvd_42810` | `approximate`／`medium` | 待独立替换 |
-| 185 | 南京 | 府属州与县治 | 邳州 | department | `pizhou-seat` | `hvd_42825` | `approximate`／`medium` | 待独立替换 |
-| 186 | 南京 | 府属州与县治 | 祁门县 | county | `qimen-seat` | `hvd_41330` | `approximate`／`medium` | 待独立替换 |
-| 187 | 南京 | 府属州与县治 | 潜山县 | county | `qianshan-seat` | `hvd_43002` | `approximate`／`medium` | 待独立替换 |
-| 188 | 南京 | 府属州与县治 | 青浦县 | county | `qingpu-county-seat` | `hvd_40504` | `approximate`／`medium` | 待独立替换 |
-| 189 | 南京 | 府属州与县治 | 青阳县 | county | `qingyang-seat` | `hvd_41346` | `approximate`／`medium` | 待独立替换 |
-| 190 | 南京 | 府属州与县治 | 清河县 | county | `qinghe-huaian-seat` | `hvd_42769` | `approximate`／`medium` | 待独立替换 |
-| 191 | 南京 | 府属州与县治 | 全椒县 | county | `quanjiao-seat` | `hvd_43395` | `approximate`／`medium` | 待独立替换 |
-| 192 | 南京 | 府属州与县治 | 如皋县 | county | `rugao-seat` | `hvd_42931` | `approximate`／`medium` | 待独立替换 |
-| 193 | 南京 | 府属州与县治 | 山阳县 | county | `shanyang-county-seat` | `hvd_42766` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 194 | 南京 | 府属州与县治 | 上海县 | county | `shanghai-county-seat` | `hvd_40502` | `approximate`／`medium` | 待独立替换 |
-| 195 | 南京 | 府属州与县治 | 歙县 | county | `she-county-seat` | `hvd_41320` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 196 | 南京 | 府属州与县治 | 石埭县 | county | `shidai-seat` | `hvd_41352` | `approximate`／`medium` | 待独立替换 |
-| 197 | 南京 | 府属州与县治 | 寿州 | department | `shou-seat` | `hvd_43158` | `approximate`／`medium` | 待独立替换 |
-| 198 | 南京 | 府属州与县治 | 舒城县 | county | `shucheng-seat` | `hvd_43177` | `approximate`／`medium` | 待独立替换 |
-| 199 | 南京 | 府属州与县治 | 沭阳县 | county | `shuyang-seat` | `hvd_42898` | `approximate`／`medium` | 待独立替换 |
-| 200 | 南京 | 府属州与县治 | 泗州 | department | `sizhou-seat` | `hvd_43403` | `approximate`／`medium` | 待独立替换 |
-| 201 | 南京 | 府属州与县治 | 宿迁县 | county | `suqian-seat` | `hvd_42841` | `approximate`／`medium` | 待独立替换 |
-| 202 | 南京 | 府属州与县治 | 宿松县 | county | `susong-seat` | `hvd_43381` | `approximate`／`medium` | 待独立替换 |
-| 203 | 南京 | 府属州与县治 | 宿州 | department | `suzhou-fengyang-seat` | `hvd_43207` | `approximate`／`medium` | 待独立替换 |
-| 204 | 南京 | 府属州与县治 | 睢宁县 | county | `suining-seat` | `hvd_42867` | `approximate`／`medium` | 待独立替换 |
-| 205 | 南京 | 府属州与县治 | 太仓州 | department | `taicang-department-seat` | `hvd_40428` | `approximate`／`medium` | 待独立替换 |
-| 206 | 南京 | 府属州与县治 | 太和县 | county | `taihe-yingzhou-seat` | `hvd_43362` | `approximate`／`medium` | 待独立替换 |
-| 207 | 南京 | 府属州与县治 | 太湖县 | county | `taihu-seat` | `hvd_43008` | `approximate`／`medium` | 待独立替换 |
-| 208 | 南京 | 府属州与县治 | 太平县 | county | `taiping-ningguo-seat` | `hvd_41309` | `approximate`／`medium` | 待独立替换 |
-| 209 | 南京 | 府属州与县治 | 泰兴县 | county | `taixing-seat` | `hvd_42941` | `approximate`／`medium` | 待独立替换 |
-| 210 | 南京 | 府属州与县治 | 泰州 | department | `taizhou-yangzhou-seat` | `hvd_42928` | `approximate`／`medium` | 待独立替换 |
-| 211 | 南京 | 府属州与县治 | 桃源县 | county | `taoyuan-huaian-seat` | `hvd_42927` | `approximate`／`medium` | 待独立替换 |
-| 212 | 南京 | 府属州与县治 | 天长县 | county | `tianchang-seat` | `hvd_43266` | `approximate`／`medium` | 待独立替换 |
-| 213 | 南京 | 府属州与县治 | 桐城县 | county | `tongcheng-seat` | `hvd_43027` | `approximate`／`medium` | 待独立替换 |
-| 214 | 南京 | 府属州与县治 | 铜陵县 | county | `tongling-seat` | `hvd_41360` | `approximate`／`medium` | 待独立替换 |
-| 215 | 南京 | 府属州与县治 | 望江县 | county | `wangjiang-seat` | `hvd_43020` | `approximate`／`medium` | 待独立替换 |
-| 216 | 南京 | 府属州与县治 | 无为州 | department | `wuwei-seat` | `hvd_43045` | `approximate`／`medium` | 待独立替换 |
-| 217 | 南京 | 府属州与县治 | 无锡县 | county | `wuxi-county-seat` | `hvd_40447` | `approximate`／`medium` | 待独立替换 |
-| 218 | 南京 | 府属州与县治 | 吴江县 | county | `wujiang-county-seat` | `hvd_40415` | `approximate`／`medium` | 待独立替换 |
-| 219 | 南京 | 府属州与县治 | 吴县 | county | `wu-county-seat` | `hvd_40406` | `approximate`／`medium` | 共址 3 个地点；待独立替换 |
-| 220 | 南京 | 府属州与县治 | 芜湖县 | county | `wuhu-seat` | `hvd_41368` | `approximate`／`medium` | 待独立替换 |
-| 221 | 南京 | 府属州与县治 | 五河县 | county | `wuhe-seat` | `hvd_43268` | `approximate`／`medium` | 待独立替换 |
-| 222 | 南京 | 府属州与县治 | 武进县 | county | `wujin-county-seat` | `hvd_40459` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 223 | 南京 | 府属州与县治 | 婺源县 | county | `wuyuan-seat` | `hvd_41334` | `approximate`／`medium` | 待独立替换 |
-| 224 | 南京 | 府属州与县治 | 萧县 | county | `xiao-seat` | `hvd_42788` | `approximate`／`medium` | 待独立替换 |
-| 225 | 南京 | 府属州与县治 | 兴化县 | county | `xinghua-seat` | `hvd_42733` | `approximate`／`medium` | 待独立替换 |
-| 226 | 南京 | 府属州与县治 | 休宁县 | county | `xiuning-seat` | `hvd_41329` | `approximate`／`medium` | 待独立替换 |
-| 227 | 南京 | 府属州与县治 | 盱眙县 | county | `xuyi-seat` | `hvd_43293` | `approximate`／`medium` | 待独立替换 |
-| 228 | 南京 | 府属州与县治 | 宣城县 | county | `xuancheng-county-seat` | `hvd_41303` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；待独立替换 |
-| 229 | 南京 | 府属州与县治 | 盐城县 | county | `yancheng-seat` | `hvd_42743` | `approximate`／`medium` | 待独立替换 |
-| 230 | 南京 | 府属州与县治 | 黟县 | county | `yi-seat` | `hvd_41324` | `approximate`／`medium` | 待独立替换 |
-| 231 | 南京 | 府属州与县治 | 仪真县 | county | `yizhen-seat` | `hvd_42729` | `approximate`／`medium` | 待独立替换 |
-| 232 | 南京 | 府属州与县治 | 宜兴县 | county | `yixing-county-seat` | `hvd_40474` | `approximate`／`medium` | 待独立替换 |
-| 233 | 南京 | 府属州与县治 | 英山县 | county | `yingshan-seat` | `hvd_43312` | `approximate`／`medium` | 待独立替换 |
-| 234 | 南京 | 府属州与县治 | 颍上县 | county | `yingshang-seat` | `hvd_43333` | `approximate`／`medium` | 待独立替换 |
-| 235 | 南京 | 府属州与县治 | 颍州 | department | `yingzhou-seat` | `hvd_43415` | `approximate`／`medium` | 待独立替换 |
-| 236 | 南京 | 府属州与县治 | 长洲县 | county | `changzhou-county-seat` | `hvd_40407` | `approximate`／`medium` | 共址 3 个地点；待独立替换 |
+| 1 | 京师 | 府与直隶州治所 | 保安州 | department | `baoan-seat` | `hvd_88275` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 2 | 京师 | 府与直隶州治所 | 大名府／元城县 | prefecture／county | `daming-seat` | `hvd_87779` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（京师三批） |
+| 3 | 京师 | 府与直隶州治所 | 广平府／永年县 | prefecture／county | `yongnian-seat` | `hvd_44826` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（京师三批） |
+| 4 | 京师 | 府与直隶州治所 | 河间府／河间县 | prefecture／county | `hejian-seat` | `hvd_87998` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（京师三批） |
+| 5 | 京师 | 府与直隶州治所 | 顺德府／邢台县 | prefecture／county | `xingtai-seat` | `hvd_44893` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（京师三批） |
+| 6 | 京师 | 府与直隶州治所 | 永平府／卢龙县 | prefecture／county | `lulong-seat` | `hvd_88307` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（京师三批） |
+| 7 | 京师 | 府与直隶州治所 | 真定府／真定县 | prefecture／county | `zhending-seat` | `hvd_88396` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（京师三批） |
+| 8 | 京师 | 府属州与县治 | 安平县 | county | `anping-seat` | `hvd_44891` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 9 | 京师 | 府属州与县治 | 安肃县 | county | `ansu-seat` | `hvd_44750` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 10 | 京师 | 府属州与县治 | 安州 | department | `anzhou-baoding-seat` | `hvd_87745` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 11 | 京师 | 府属州与县治 | 霸州 | department | `bazhou-seat` | `hvd_88200` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 12 | 京师 | 府属州与县治 | 柏乡县 | county | `baixiang-seat` | `hvd_44951` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 13 | 京师 | 府属州与县治 | 宝坻县 | county | `baodi-seat` | `hvd_88197` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 14 | 京师 | 府属州与县治 | 保定县 | county | `baoding-county-seat` | `hvd_88205` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 15 | 京师 | 府属州与县治 | 博野县 | county | `boye-seat` | `hvd_44753` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 16 | 京师 | 府属州与县治 | 沧州 | department | `cangzhou-seat` | `hvd_88239` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 17 | 京师 | 府属州与县治 | 昌黎县 | county | `changli-seat` | `hvd_88310` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 18 | 京师 | 府属州与县治 | 成安县 | county | `chengan-seat` | `hvd_44844` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 19 | 京师 | 府属州与县治 | 大城县 | county | `dacheng-seat` | `hvd_88203` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 20 | 京师 | 府属州与县治 | 大名县 | county | `daming-county-seat` | `hvd_45009` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 21 | 京师 | 府属州与县治 | 定兴县 | county | `dingxing-seat` | `hvd_87673` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 22 | 京师 | 府属州与县治 | 定州 | department | `dingzhou-zhending-seat` | `hvd_87865` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 23 | 京师 | 府属州与县治 | 东安县 | county | `dongan-shuntian-seat` | `hvd_88211` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 24 | 京师 | 府属州与县治 | 东光县 | county | `dongguang-seat` | `hvd_44878` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 25 | 京师 | 府属州与县治 | 东明县 | county | `dongming-seat` | `hvd_44815` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 26 | 京师 | 府属州与县治 | 肥乡县 | county | `feixiang-seat` | `hvd_44836` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 27 | 京师 | 府属州与县治 | 丰润县 | county | `fengrun-seat` | `hvd_88318` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 28 | 京师 | 府属州与县治 | 抚宁县 | county | `funing-yongping-seat` | `hvd_88309` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 29 | 京师 | 府属州与县治 | 阜城县 | county | `fucheng-hejian-seat` | `hvd_44865` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 30 | 京师 | 府属州与县治 | 阜平县 | county | `fuping-zhending-seat` | `hvd_44977` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 31 | 京师 | 府属州与县治 | 高阳县 | county | `gaoyang-seat` | `hvd_44789` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 32 | 京师 | 府属州与县治 | 高邑县 | county | `gaoyi-seat` | `hvd_88352` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 33 | 京师 | 府属州与县治 | 藁城县 | county | `gaocheng-seat` | `hvd_45007` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 34 | 京师 | 府属州与县治 | 固安县 | county | `guan-seat` | `hvd_88207` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 35 | 京师 | 府属州与县治 | 故城县 | county | `gucheng-hejian-seat` | `hvd_44876` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 36 | 京师 | 府属州与县治 | 广平县 | county | `guangping-county-seat` | `hvd_87922` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 37 | 京师 | 府属州与县治 | 广宗县 | county | `guangzong-seat` | `hvd_44904` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 38 | 京师 | 府属州与县治 | 邯郸县 | county | `handan-seat` | `hvd_44847` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 39 | 京师 | 府属州与县治 | 衡水县 | county | `hengshui-seat` | `hvd_44886` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 40 | 京师 | 府属州与县治 | 滑县 | county | `hua-daming-seat` | `hvd_82322` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 41 | 京师 | 府属州与县治 | 获鹿县 | county | `huolu-seat` | `hvd_44972` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 42 | 京师 | 府属州与县治 | 鸡泽县 | county | `jize-seat` | `hvd_44842` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 43 | 京师 | 府属州与县治 | 蓟州 | department | `jizhou-seat` | `hvd_88212` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 44 | 京师 | 府属州与县治 | 冀州 | department | `jizhou-zhending-seat` | `hvd_88072` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 45 | 京师 | 府属州与县治 | 交河县 | county | `jiaohe-seat` | `hvd_44874` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 46 | 京师 | 府属州与县治 | 晋州 | department | `jinzhou-zhending-seat` | `hvd_88403` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 47 | 京师 | 府属州与县治 | 井陉县 | county | `jingxing-seat` | `hvd_44975` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 48 | 京师 | 府属州与县治 | 景州 | department | `jingzhou-hejian-seat` | `hvd_88043` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 49 | 京师 | 府属州与县治 | 静海县 | county | `jinghai-seat` | `hvd_44923` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 50 | 京师 | 府属州与县治 | 钜鹿县 | county | `julu-seat` | `hvd_44906` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 51 | 京师 | 府属州与县治 | 浚县 | county | `jun-seat` | `hvd_82319` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 52 | 京师 | 府属州与县治 | 开州 | department | `kaizhou-seat` | `hvd_87833` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 53 | 京师 | 府属州与县治 | 涞水县 | county | `laishui-seat` | `hvd_44943` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 54 | 京师 | 府属州与县治 | 乐亭县 | county | `leting-seat` | `hvd_88311` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 55 | 京师 | 府属州与县治 | 蠡县 | county | `li-seat` | `hvd_44774` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 56 | 京师 | 府属州与县治 | 临城县 | county | `lincheng-seat` | `hvd_44961` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 57 | 京师 | 府属州与县治 | 灵寿县 | county | `lingshou-seat` | `hvd_44986` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 58 | 京师 | 府属州与县治 | 隆平县 | county | `longping-seat` | `hvd_44959` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 59 | 京师 | 府属州与县治 | 栾城县 | county | `luancheng-seat` | `hvd_44981` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 60 | 京师 | 府属州与县治 | 滦州 | department | `luanzhou-seat` | `hvd_88312` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 61 | 京师 | 府属州与县治 | 满城县 | county | `mancheng-seat` | `hvd_44747` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 62 | 京师 | 府属州与县治 | 南宫县 | county | `nangong-seat` | `hvd_44880` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 63 | 京师 | 府属州与县治 | 南和县 | county | `nanhe-seat` | `hvd_44899` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 64 | 京师 | 府属州与县治 | 南乐县 | county | `nanle-seat` | `hvd_87808` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 65 | 京师 | 府属州与县治 | 南皮县 | county | `nanpi-seat` | `hvd_88244` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 66 | 京师 | 府属州与县治 | 内黄县 | county | `neihuang-seat` | `hvd_82246` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 67 | 京师 | 府属州与县治 | 内丘县 | county | `neiqiu-seat` | `hvd_88173` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 68 | 京师 | 府属州与县治 | 宁津县 | county | `ningjin-hejian-seat` | `hvd_88036` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 69 | 京师 | 府属州与县治 | 宁晋县 | county | `ningjin-zhending-seat` | `hvd_44963` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 70 | 京师 | 府属州与县治 | 平山县 | county | `pingshan-zhending-seat` | `hvd_44988` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 71 | 京师 | 府属州与县治 | 平乡县 | county | `pingxiang-shunde-seat` | `hvd_44901` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 72 | 京师 | 府属州与县治 | 祁州 | department | `qizhou-baoding-seat` | `hvd_87725` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 73 | 京师 | 府属州与县治 | 迁安县 | county | `qianan-seat` | `hvd_88308` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 74 | 京师 | 府属州与县治 | 青县 | county | `qing-hejian-seat` | `hvd_44918` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 75 | 京师 | 府属州与县治 | 清丰县 | county | `qingfeng-seat` | `hvd_44811` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 76 | 京师 | 府属州与县治 | 清河县 | county | `qinghe-guangping-seat` | `hvd_44850` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 77 | 京师 | 府属州与县治 | 庆都县 | county | `qingdu-seat` | `hvd_44765` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 78 | 京师 | 府属州与县治 | 庆云县 | county | `qingyun-seat` | `hvd_44934` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 79 | 京师 | 府属州与县治 | 曲阳县 | county | `quyang-seat` | `hvd_44822` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 80 | 京师 | 府属州与县治 | 曲周县 | county | `quzhou-guangping-seat` | `hvd_44835` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 81 | 京师 | 府属州与县治 | 饶阳县 | county | `raoyang-seat` | `hvd_44890` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 82 | 京师 | 府属州与县治 | 任丘县 | county | `renqiu-seat` | `hvd_44868` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 83 | 京师 | 府属州与县治 | 任县 | county | `ren-shunde-seat` | `hvd_44913` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 84 | 京师 | 府属州与县治 | 容城县 | county | `rongcheng-seat` | `hvd_44795` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 85 | 京师 | 府属州与县治 | 三河县 | county | `sanhe-seat` | `hvd_88195` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 86 | 京师 | 府属州与县治 | 沙河县 | county | `shahe-shunde-seat` | `hvd_44898` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 87 | 京师 | 府属州与县治 | 深泽县 | county | `shenze-seat` | `hvd_44825` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 88 | 京师 | 府属州与县治 | 深州 | department | `shenzhou-seat` | `hvd_88111` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 89 | 京师 | 府属州与县治 | 束鹿县 | county | `shulu-seat` | `hvd_87732` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 90 | 京师 | 府属州与县治 | 肃宁县 | county | `suning-seat` | `hvd_44866` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 91 | 京师 | 府属州与县治 | 唐山县 | county | `tangshan-shunde-seat` | `hvd_44909` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 92 | 京师 | 府属州与县治 | 唐县 | county | `tang-baoding-seat` | `hvd_44762` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 93 | 京师 | 府属州与县治 | 完县 | county | `wan-baoding-seat` | `hvd_44773` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 94 | 京师 | 府属州与县治 | 威县 | county | `wei-guangping-seat` | `hvd_44853` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 95 | 京师 | 府属州与县治 | 魏县 | county | `wei-daming-seat` | `hvd_44796` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 96 | 京师 | 府属州与县治 | 文安县 | county | `wenan-seat` | `hvd_88202` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 97 | 京师 | 府属州与县治 | 无极县 | county | `wuji-seat` | `hvd_45002` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 98 | 京师 | 府属州与县治 | 吴桥县 | county | `wuqiao-seat` | `hvd_88049` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 99 | 京师 | 府属州与县治 | 武强县 | county | `wuqiang-seat` | `hvd_44888` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 100 | 京师 | 府属州与县治 | 武清县 | county | `wuqing-seat` | `hvd_88196` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 101 | 京师 | 府属州与县治 | 武邑县 | county | `wuyi-seat` | `hvd_44885` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 102 | 京师 | 府属州与县治 | 献县 | county | `xian-seat` | `hvd_44861` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 103 | 京师 | 府属州与县治 | 香河县 | county | `xianghe-seat` | `hvd_88199` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 104 | 京师 | 府属州与县治 | 新安县 | county | `xinan-anzhou-seat` | `hvd_44786` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 105 | 京师 | 府属州与县治 | 新城县 | county | `xincheng-baoding-seat` | `hvd_44755` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 106 | 京师 | 府属州与县治 | 新河县 | county | `xinhe-zhending-seat` | `hvd_44883` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 107 | 京师 | 府属州与县治 | 新乐县 | county | `xinle-seat` | `hvd_45008` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 108 | 京师 | 府属州与县治 | 行唐县 | county | `xingtang-seat` | `hvd_44985` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 109 | 京师 | 府属州与县治 | 兴济县 | county | `xingji-seat` | `hvd_44920` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 110 | 京师 | 府属州与县治 | 雄县 | county | `xiong-seat` | `hvd_44775` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 111 | 京师 | 府属州与县治 | 盐山县 | county | `yanshan-hejian-seat` | `hvd_44930` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 112 | 京师 | 府属州与县治 | 易州 | department | `yizhou-baoding-seat` | `hvd_88287` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 113 | 京师 | 府属州与县治 | 永清县 | county | `yongqing-county-seat` | `hvd_88208` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 114 | 京师 | 府属州与县治 | 玉田县 | county | `yutian-seat` | `hvd_88317` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 115 | 京师 | 府属州与县治 | 元氏县 | county | `yuanshi-seat` | `hvd_44989` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 116 | 京师 | 府属州与县治 | 赞皇县 | county | `zanhuang-seat` | `hvd_44993` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 117 | 京师 | 府属州与县治 | 枣强县 | county | `zaoqiang-seat` | `hvd_88089` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 118 | 京师 | 府属州与县治 | 长垣县 | county | `changyuan-seat` | `hvd_87821` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 119 | 京师 | 府属州与县治 | 赵州 | department | `zhaozhou-seat` | `hvd_88336` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 120 | 京师 | 府属州与县治 | 涿州 | department | `zhuozhou-seat` | `hvd_88193` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 121 | 京师 | 府属州与县治 | 遵化县 | county | `zunhua-seat` | `hvd_88314` | `approximate`／`medium` | 已独立替换（京师三批） |
+| 122 | 南京 | 一级行政区域治所 | 南京／应天府 | capital-region／prefecture | `nanjing-city` | `hvd_30033` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（南京三批） |
+| 123 | 南京 | 府与直隶州治所 | 安庆府 | prefecture | `huaining-seat` | `hvd_43004` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 124 | 南京 | 府与直隶州治所 | 常州府 | prefecture | `wujin-seat` | `hvd_40459` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 125 | 南京 | 府与直隶州治所 | 池州府 | prefecture | `guichi-seat` | `hvd_41344` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 126 | 南京 | 府与直隶州治所 | 滁州 | department | `chuzhou-seat` | `hvd_33532` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 127 | 南京 | 府与直隶州治所 | 凤阳府 | prefecture | `fengyang-seat` | `hvd_43399` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 128 | 南京 | 府与直隶州治所 | 广德州 | department | `guangde-seat` | `hvd_32464` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 129 | 南京 | 府与直隶州治所 | 和州 | department | `hezhou-seat` | `hvd_33512` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 130 | 南京 | 府与直隶州治所 | 淮安府 | prefecture | `shanyang-seat` | `hvd_42766` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 131 | 南京 | 府与直隶州治所 | 徽州府 | prefecture | `she-seat` | `hvd_41320` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 132 | 南京 | 府与直隶州治所 | 庐州府 | prefecture | `hefei-seat` | `hvd_43060` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 133 | 南京 | 府与直隶州治所 | 宁国府 | prefecture | `xuancheng-seat` | `hvd_41303` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 134 | 南京 | 府与直隶州治所 | 松江府 | prefecture | `huating-seat` | `hvd_40495` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 135 | 南京 | 府与直隶州治所 | 苏州府 | prefecture | `suzhou-city` | `hvd_32432` | `approximate`／`medium` | 共址 3 个地点；已独立替换（南京三批） |
+| 136 | 南京 | 府与直隶州治所 | 太平府 | prefecture | `dangtu-seat` | `hvd_41364` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 137 | 南京 | 府与直隶州治所 | 徐州 | department | `xuzhou-seat` | `hvd_33321` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 138 | 南京 | 府与直隶州治所 | 扬州府 | prefecture | `jiangdu-seat` | `hvd_42684` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 139 | 南京 | 府与直隶州治所 | 镇江府 | prefecture | `dantu-seat` | `hvd_40570` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 140 | 南京 | 府属州与县治 | 安东县 | county | `andong-seat` | `hvd_42924` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 141 | 南京 | 府属州与县治 | 宝应县 | county | `baoying-seat` | `hvd_42727` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 142 | 南京 | 府属州与县治 | 亳州 | department | `bozhou-seat` | `hvd_43408` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 143 | 南京 | 府属州与县治 | 常熟县 | county | `changshu-county-seat` | `hvd_40382` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 144 | 南京 | 府属州与县治 | 巢县 | county | `chao-seat` | `hvd_43041` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 145 | 南京 | 府属州与县治 | 崇明县 | county | `chongming-county-seat` | `hvd_40390` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 146 | 南京 | 府属州与县治 | 丹徒县 | county | `dantu-county-seat` | `hvd_40570` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 147 | 南京 | 府属州与县治 | 丹阳县 | county | `danyang-county-seat` | `hvd_40576` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 148 | 南京 | 府属州与县治 | 当涂县 | county | `dangtu-county-seat` | `hvd_41364` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 149 | 南京 | 府属州与县治 | 砀山县 | county | `dangshan-seat` | `hvd_42802` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 150 | 南京 | 府属州与县治 | 定远县 | county | `dingyuan-seat` | `hvd_43089` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 151 | 南京 | 府属州与县治 | 东流县 | county | `dongliu-seat` | `hvd_41362` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 152 | 南京 | 府属州与县治 | 繁昌县 | county | `fanchang-seat` | `hvd_41373` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 153 | 南京 | 府属州与县治 | 丰县 | county | `feng-seat` | `hvd_42806` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 154 | 南京 | 府属州与县治 | 凤阳县 | county | `fengyang-county-seat` | `hvd_43399` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 155 | 南京 | 府属州与县治 | 赣榆县 | county | `ganyu-seat` | `hvd_42893` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 156 | 南京 | 府属州与县治 | 高邮州 | department | `gaoyou-seat` | `hvd_42868` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 157 | 南京 | 府属州与县治 | 贵池县 | county | `guichi-county-seat` | `hvd_41344` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 158 | 南京 | 府属州与县治 | 海门县 | county | `haimen-seat` | `hvd_42935` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 159 | 南京 | 府属州与县治 | 含山县 | county | `hanshan-seat` | `hvd_43109` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 160 | 南京 | 府属州与县治 | 合肥县 | county | `hefei-county-seat` | `hvd_43060` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 161 | 南京 | 府属州与县治 | 虹县 | county | `hong-seat` | `hvd_43239` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 162 | 南京 | 府属州与县治 | 华亭县 | county | `huating-county-seat` | `hvd_40495` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 163 | 南京 | 府属州与县治 | 怀宁县 | county | `huaining-county-seat` | `hvd_43004` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 164 | 南京 | 府属州与县治 | 怀远县 | county | `huaiyuan-seat` | `hvd_43388` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 165 | 南京 | 府属州与县治 | 霍山县 | county | `huoshan-seat` | `hvd_43417` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 166 | 南京 | 府属州与县治 | 绩溪县 | county | `jixi-seat` | `hvd_41335` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 167 | 南京 | 府属州与县治 | 嘉定县 | county | `jiading-county-seat` | `hvd_40393` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 168 | 南京 | 府属州与县治 | 建德县 | county | `jiande-chizhou-seat` | `hvd_41363` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 169 | 南京 | 府属州与县治 | 建平县 | county | `jianping-seat` | `hvd_41359` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 170 | 南京 | 府属州与县治 | 江都县 | county | `jiangdu-county-seat` | `hvd_42684` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 171 | 南京 | 府属州与县治 | 江阴县 | county | `jiangyin-county-seat` | `hvd_40436` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 172 | 南京 | 府属州与县治 | 金坛县 | county | `jintan-county-seat` | `hvd_40595` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 173 | 南京 | 府属州与县治 | 泾县 | county | `jing-seat` | `hvd_41313` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 174 | 南京 | 府属州与县治 | 旌德县 | county | `jingde-seat` | `hvd_41307` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 175 | 南京 | 府属州与县治 | 靖江县 | county | `jingjiang-county-seat` | `hvd_40437` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 176 | 南京 | 府属州与县治 | 昆山县 | county | `kunshan-county-seat` | `hvd_40400` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 177 | 南京 | 府属州与县治 | 来安县 | county | `laian-seat` | `hvd_43168` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 178 | 南京 | 府属州与县治 | 临淮县 | county | `linhuai-seat` | `hvd_43077` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 179 | 南京 | 府属州与县治 | 六安州 | department | `luan-seat` | `hvd_43152` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 180 | 南京 | 府属州与县治 | 庐江县 | county | `lujiang-seat` | `hvd_43382` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 181 | 南京 | 府属州与县治 | 蒙城县 | county | `mengcheng-seat` | `hvd_43372` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 182 | 南京 | 府属州与县治 | 南陵县 | county | `nanling-seat` | `hvd_41318` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 183 | 南京 | 府属州与县治 | 宁国县 | county | `ningguo-seat` | `hvd_41312` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 184 | 南京 | 府属州与县治 | 沛县 | county | `pei-seat` | `hvd_42810` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 185 | 南京 | 府属州与县治 | 邳州 | department | `pizhou-seat` | `hvd_42825` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 186 | 南京 | 府属州与县治 | 祁门县 | county | `qimen-seat` | `hvd_41330` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 187 | 南京 | 府属州与县治 | 潜山县 | county | `qianshan-seat` | `hvd_43002` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 188 | 南京 | 府属州与县治 | 青浦县 | county | `qingpu-county-seat` | `hvd_40504` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 189 | 南京 | 府属州与县治 | 青阳县 | county | `qingyang-seat` | `hvd_41346` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 190 | 南京 | 府属州与县治 | 清河县 | county | `qinghe-huaian-seat` | `hvd_42769` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 191 | 南京 | 府属州与县治 | 全椒县 | county | `quanjiao-seat` | `hvd_43395` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 192 | 南京 | 府属州与县治 | 如皋县 | county | `rugao-seat` | `hvd_42931` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 193 | 南京 | 府属州与县治 | 山阳县 | county | `shanyang-county-seat` | `hvd_42766` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 194 | 南京 | 府属州与县治 | 上海县 | county | `shanghai-county-seat` | `hvd_40502` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 195 | 南京 | 府属州与县治 | 歙县 | county | `she-county-seat` | `hvd_41320` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 196 | 南京 | 府属州与县治 | 石埭县 | county | `shidai-seat` | `hvd_41352` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 197 | 南京 | 府属州与县治 | 寿州 | department | `shou-seat` | `hvd_43158` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 198 | 南京 | 府属州与县治 | 舒城县 | county | `shucheng-seat` | `hvd_43177` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 199 | 南京 | 府属州与县治 | 沭阳县 | county | `shuyang-seat` | `hvd_42898` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 200 | 南京 | 府属州与县治 | 泗州 | department | `sizhou-seat` | `hvd_43403` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 201 | 南京 | 府属州与县治 | 宿迁县 | county | `suqian-seat` | `hvd_42841` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 202 | 南京 | 府属州与县治 | 宿松县 | county | `susong-seat` | `hvd_43381` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 203 | 南京 | 府属州与县治 | 宿州 | department | `suzhou-fengyang-seat` | `hvd_43207` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 204 | 南京 | 府属州与县治 | 睢宁县 | county | `suining-seat` | `hvd_42867` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 205 | 南京 | 府属州与县治 | 太仓州 | department | `taicang-department-seat` | `hvd_40428` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 206 | 南京 | 府属州与县治 | 太和县 | county | `taihe-yingzhou-seat` | `hvd_43362` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 207 | 南京 | 府属州与县治 | 太湖县 | county | `taihu-seat` | `hvd_43008` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 208 | 南京 | 府属州与县治 | 太平县 | county | `taiping-ningguo-seat` | `hvd_41309` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 209 | 南京 | 府属州与县治 | 泰兴县 | county | `taixing-seat` | `hvd_42941` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 210 | 南京 | 府属州与县治 | 泰州 | department | `taizhou-yangzhou-seat` | `hvd_42928` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 211 | 南京 | 府属州与县治 | 桃源县 | county | `taoyuan-huaian-seat` | `hvd_42927` | `approximate`／`low` | 低可信；已独立替换（南京三批） |
+| 212 | 南京 | 府属州与县治 | 天长县 | county | `tianchang-seat` | `hvd_43266` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 213 | 南京 | 府属州与县治 | 桐城县 | county | `tongcheng-seat` | `hvd_43027` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 214 | 南京 | 府属州与县治 | 铜陵县 | county | `tongling-seat` | `hvd_41360` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 215 | 南京 | 府属州与县治 | 望江县 | county | `wangjiang-seat` | `hvd_43020` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 216 | 南京 | 府属州与县治 | 无为州 | department | `wuwei-seat` | `hvd_43045` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 217 | 南京 | 府属州与县治 | 无锡县 | county | `wuxi-county-seat` | `hvd_40447` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 218 | 南京 | 府属州与县治 | 吴江县 | county | `wujiang-county-seat` | `hvd_40415` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 219 | 南京 | 府属州与县治 | 吴县 | county | `wu-county-seat` | `hvd_40406` | `approximate`／`medium` | 共址 3 个地点；已独立替换（南京三批） |
+| 220 | 南京 | 府属州与县治 | 芜湖县 | county | `wuhu-seat` | `hvd_41368` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 221 | 南京 | 府属州与县治 | 五河县 | county | `wuhe-seat` | `hvd_43268` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 222 | 南京 | 府属州与县治 | 武进县 | county | `wujin-county-seat` | `hvd_40459` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 223 | 南京 | 府属州与县治 | 婺源县 | county | `wuyuan-seat` | `hvd_41334` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 224 | 南京 | 府属州与县治 | 萧县 | county | `xiao-seat` | `hvd_42788` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 225 | 南京 | 府属州与县治 | 兴化县 | county | `xinghua-seat` | `hvd_42733` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 226 | 南京 | 府属州与县治 | 休宁县 | county | `xiuning-seat` | `hvd_41329` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 227 | 南京 | 府属州与县治 | 盱眙县 | county | `xuyi-seat` | `hvd_43293` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 228 | 南京 | 府属州与县治 | 宣城县 | county | `xuancheng-county-seat` | `hvd_41303` | `approximate`／`medium` | 共址 2 个地点；CHGIS 编号复用；已独立替换（南京三批） |
+| 229 | 南京 | 府属州与县治 | 盐城县 | county | `yancheng-seat` | `hvd_42743` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 230 | 南京 | 府属州与县治 | 黟县 | county | `yi-seat` | `hvd_41324` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 231 | 南京 | 府属州与县治 | 仪真县 | county | `yizhen-seat` | `hvd_42729` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 232 | 南京 | 府属州与县治 | 宜兴县 | county | `yixing-county-seat` | `hvd_40474` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 233 | 南京 | 府属州与县治 | 英山县 | county | `yingshan-seat` | `hvd_43312` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 234 | 南京 | 府属州与县治 | 颍上县 | county | `yingshang-seat` | `hvd_43333` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 235 | 南京 | 府属州与县治 | 颍州 | department | `yingzhou-seat` | `hvd_43415` | `approximate`／`medium` | 已独立替换（南京三批） |
+| 236 | 南京 | 府属州与县治 | 长洲县 | county | `changzhou-county-seat` | `hvd_40407` | `approximate`／`medium` | 共址 3 个地点；已独立替换（南京三批） |
 | 237 | 山东 | 一级行政区域治所 | 山东／济南府／历城县 | province／prefecture／county | `licheng-seat` | `hvd_86003` | `approximate`／`medium` | 关联 3 个行政实体；已独立替换（山东三批） |
 | 238 | 山东 | 府与直隶州治所 | 登州府／蓬莱县 | prefecture／county | `penglai-seat` | `hvd_86009` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（山东三批） |
 | 239 | 山东 | 府与直隶州治所 | 东昌府／聊城县 | prefecture／county | `liaocheng-seat` | `hvd_86002` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（山东三批） |
