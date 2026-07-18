@@ -10,11 +10,11 @@
 
 ## 统计口径
 
-项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）、湖广 107 点（三批）、四川 90 点（三批）、陕西 73 点（分两批）、山西 88 点（分两批）和河南 97 点（三批）替换后，按本清单口径当前仍由 CHGIS `location` 主张承担坐标的地点为 **340 个，占全部地点 20.7%**。
+项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）、湖广 107 点（三批）、四川 90 点（三批）、陕西 73 点（分两批）、山西 88 点（分两批）、河南 97 点（三批）和山东 104 点（三批）替换后，按本清单口径当前仍由 CHGIS `location` 主张承担坐标的地点为 **236 个，占全部地点 14.4%**。
 
-迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **328 个唯一编号**和 **326 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
+迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **224 个唯一编号**和 **222 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
 
-当前未迁移记录的定位精度为 `approximate` 340；可信度为 `medium` 340、`low` 0。
+当前未迁移记录的定位精度为 `approximate` 236；可信度为 `medium` 236、`low` 0。
 
 “地点记录数”“唯一 CHGIS 编号数”和“唯一坐标数”不可互换；附郭、共治或项目实体拆分会造成同一 CHGIS 编号或坐标关联多个地点。
 
@@ -26,7 +26,7 @@
 | 府与直隶州治所 | 29 | 在所属区域批次中优先复核 |
 | 府属州与县治 | 309 | 随所属区域一并替换 |
 | 特殊治理／军事节点 | 0 | 单独研究与复核 |
-| 合计 | 340 | |
+| 合计 | 236 | |
 
 分类采用互斥判定顺序：一级行政区域 → 府与直隶州 → 特殊治理／军事 → 府属州与县。该顺序只用于避免重复统计，不代表实际替换批次；一个地点与多个行政实体共址时只计一次。
 
@@ -36,7 +36,7 @@
 |---|---:|
 | 京师 | 121 |
 | 南京 | 115 |
-| 山东 | 104 |
+| 山东 | 0 |
 | 河南 | 0 |
 | 山西 | 0 |
 | 陕西 | 0 |
@@ -49,7 +49,7 @@
 | 广西 | 0 |
 | 云南 | 0 |
 | 贵州 | 0 |
-| 合计 | 340 |
+| 合计 | 236 |
 
 ## 独立替换原则
 
@@ -191,6 +191,14 @@
 - 所有候选均保留官方 Wikidata API／Query Service 返回的原始 `P625` 数值，经度在前；Q ID、来源主张、可信度和审计日期已写入河南数据分片。
 - 三批数据结构、来源引用、WGS 84 坐标范围、河南目标无 CHGIS `location` 主张和旧编号审计保留检查通过；旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
+### 山东替换验收
+
+- 104/104 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 75 点、`low` 29 点。
+- 按 `data/places/shandong.json` 文件顺序分三批完成：第一批 35 点、第二批 35 点、第三批 34 点；山东 104 个目标点均不再由 CHGIS `location` 主张承担坐标。
+- 104 个点使用 101 个 Wikidata Q ID；长山、齐东与邹平共用邹平现代代理，青城与高苑共用高城镇现代代理，均保留各自历史 `placeId`，不解释为明代行政复合体的精确复原。
+- 恩县、濮州、观城、朝城、黄县、宁海等因迁治、改名、撤并或古县治与现代代理对应未完全闭合保留低可信；这些判断与候选 Q ID、原始 `P625` 数值、来源主张和审计日期已写入山东数据分片。
+- 三批数据结构、来源引用、WGS 84 坐标范围、山东目标无 CHGIS `location` 主张和旧编号审计保留检查通过；`data-validator`、单元测试与 `git diff --check` 均通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
+
 首轮锁定的现代代理如下（坐标来自 Wikidata `P625`，均按 WGS 84 经度在前记录）：
 
 | `placeId` | 现代代理 | Wikidata | 经度 | 纬度 | 可信度 |
@@ -228,7 +236,7 @@
 
 ## 完整点位清单
 
-以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条、“已独立替换（广西两批）”的 82 条、“已独立替换（浙江两批）”的 72 条、“已独立替换（四川三批）”的 90 条、“已独立替换（山西两批）”的 88 条和“已独立替换（河南三批）”的 97 条记录外，其余记录当前状态均为“待独立替换”。
+以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条、“已独立替换（广西两批）”的 82 条、“已独立替换（浙江两批）”的 72 条、“已独立替换（四川三批）”的 90 条、“已独立替换（山西两批）”的 88 条、“已独立替换（河南三批）”的 97 条和“已独立替换（山东三批）”的 104 条记录外，其余记录当前状态均为“待独立替换”。
 
 | # | 一级区域 | 类别 | 行政单位 | 等级 | placeId | CHGIS 编号 | 精度／可信度 | 标记 |
 |---:|---|---|---|---|---|---|---|---|
@@ -468,110 +476,110 @@
 | 234 | 南京 | 府属州与县治 | 颍上县 | county | `yingshang-seat` | `hvd_43333` | `approximate`／`medium` | 待独立替换 |
 | 235 | 南京 | 府属州与县治 | 颍州 | department | `yingzhou-seat` | `hvd_43415` | `approximate`／`medium` | 待独立替换 |
 | 236 | 南京 | 府属州与县治 | 长洲县 | county | `changzhou-county-seat` | `hvd_40407` | `approximate`／`medium` | 共址 3 个地点；待独立替换 |
-| 237 | 山东 | 一级行政区域治所 | 山东／济南府／历城县 | province／prefecture／county | `licheng-seat` | `hvd_86003` | `approximate`／`medium` | 关联 3 个行政实体；待独立替换 |
-| 238 | 山东 | 府与直隶州治所 | 登州府／蓬莱县 | prefecture／county | `penglai-seat` | `hvd_86009` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 239 | 山东 | 府与直隶州治所 | 东昌府／聊城县 | prefecture／county | `liaocheng-seat` | `hvd_86002` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 240 | 山东 | 府与直隶州治所 | 莱州府／掖县 | prefecture／county | `ye-seat` | `hvd_86008` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 241 | 山东 | 府与直隶州治所 | 青州府／益都县 | prefecture／county | `yidu-seat` | `hvd_86007` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 242 | 山东 | 府与直隶州治所 | 兖州府／滋阳县 | prefecture／county | `ziyang-seat` | `hvd_86005` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 243 | 山东 | 府属州与县治 | 安丘县 | county | `anqiu-seat` | `hvd_85322` | `approximate`／`medium` | 待独立替换 |
-| 244 | 山东 | 府属州与县治 | 滨州 | department | `binzhou-seat` | `hvd_85544` | `approximate`／`medium` | 待独立替换 |
-| 245 | 山东 | 府属州与县治 | 博平县 | county | `boping-seat` | `hvd_45329` | `approximate`／`medium` | 待独立替换 |
-| 246 | 山东 | 府属州与县治 | 博兴县 | county | `boxing-seat` | `hvd_85247` | `approximate`／`medium` | 待独立替换 |
-| 247 | 山东 | 府属州与县治 | 曹县 | county | `cao-seat` | `hvd_85127` | `approximate`／`medium` | 待独立替换 |
-| 248 | 山东 | 府属州与县治 | 曹州 | department | `caozhou-seat` | `hvd_86014` | `approximate`／`medium` | 待独立替换 |
-| 249 | 山东 | 府属州与县治 | 昌乐县 | county | `changle-seat` | `hvd_85298` | `approximate`／`medium` | 待独立替换 |
-| 250 | 山东 | 府属州与县治 | 昌邑县 | county | `changyi-laizhou-seat` | `hvd_1041` | `approximate`／`medium` | 待独立替换 |
-| 251 | 山东 | 府属州与县治 | 朝城县 | county | `chaocheng-seat` | `hvd_85100` | `approximate`／`medium` | 待独立替换 |
-| 252 | 山东 | 府属州与县治 | 城武县 | county | `chengwu-seat` | `hvd_85120` | `approximate`／`medium` | 待独立替换 |
-| 253 | 山东 | 府属州与县治 | 茌平县 | county | `chiping-seat` | `hvd_45336` | `approximate`／`medium` | 待独立替换 |
-| 254 | 山东 | 府属州与县治 | 单县 | county | `shan-yanzhou-seat` | `hvd_85028` | `approximate`／`medium` | 待独立替换 |
-| 255 | 山东 | 府属州与县治 | 德平县 | county | `deping-seat` | `hvd_45112` | `approximate`／`medium` | 待独立替换 |
-| 256 | 山东 | 府属州与县治 | 德州 | department | `dezhou-seat` | `hvd_45176` | `approximate`／`medium` | 待独立替换 |
-| 257 | 山东 | 府属州与县治 | 定陶县 | county | `dingtao-seat` | `hvd_85062` | `approximate`／`medium` | 待独立替换 |
-| 258 | 山东 | 府属州与县治 | 东阿县 | county | `donge-seat` | `hvd_45306` | `approximate`／`medium` | 待独立替换 |
-| 259 | 山东 | 府属州与县治 | 东平州 | department | `dongping-seat` | `hvd_85704` | `approximate`／`medium` | 待独立替换 |
-| 260 | 山东 | 府属州与县治 | 恩县 | county | `en-seat` | `hvd_1003` | `approximate`／`medium` | 待独立替换 |
-| 261 | 山东 | 府属州与县治 | 范县 | county | `fan-seat` | `hvd_85107` | `approximate`／`medium` | 待独立替换 |
-| 262 | 山东 | 府属州与县治 | 肥城县 | county | `feicheng-seat` | `hvd_85703` | `approximate`／`medium` | 待独立替换 |
-| 263 | 山东 | 府属州与县治 | 费县 | county | `fei-seat` | `hvd_85606` | `approximate`／`medium` | 待独立替换 |
-| 264 | 山东 | 府属州与县治 | 福山县 | county | `fushan-seat` | `hvd_85424` | `approximate`／`medium` | 待独立替换 |
-| 265 | 山东 | 府属州与县治 | 高密县 | county | `gaomi-seat` | `hvd_85499` | `approximate`／`medium` | 待独立替换 |
-| 266 | 山东 | 府属州与县治 | 高唐州 | department | `gaotang-seat` | `hvd_86042` | `approximate`／`medium` | 待独立替换 |
-| 267 | 山东 | 府属州与县治 | 高苑县 | county | `gaoyuan-seat` | `hvd_85229` | `approximate`／`medium` | 待独立替换 |
-| 268 | 山东 | 府属州与县治 | 观城县 | county | `guancheng-seat` | `hvd_85089` | `approximate`／`medium` | 待独立替换 |
-| 269 | 山东 | 府属州与县治 | 冠县 | county | `guan-dongchang-seat` | `hvd_45349` | `approximate`／`medium` | 待独立替换 |
-| 270 | 山东 | 府属州与县治 | 馆陶县 | county | `guantao-seat` | `hvd_85191` | `approximate`／`medium` | 待独立替换 |
-| 271 | 山东 | 府属州与县治 | 海丰县 | county | `haifeng-wuding-seat` | `hvd_85565` | `approximate`／`medium` | 待独立替换 |
-| 272 | 山东 | 府属州与县治 | 黄县 | county | `huang-dengzhou-seat` | `hvd_85374` | `approximate`／`medium` | 待独立替换 |
-| 273 | 山东 | 府属州与县治 | 即墨县 | county | `jimo-seat` | `hvd_85461` | `approximate`／`medium` | 待独立替换 |
-| 274 | 山东 | 府属州与县治 | 济宁州 | department | `jining-seat` | `hvd_85157` | `approximate`／`medium` | 待独立替换 |
-| 275 | 山东 | 府属州与县治 | 济阳县 | county | `jiyang-seat` | `hvd_45174` | `approximate`／`medium` | 待独立替换 |
-| 276 | 山东 | 府属州与县治 | 嘉祥县 | county | `jiaxiang-seat` | `hvd_85142` | `approximate`／`medium` | 待独立替换 |
-| 277 | 山东 | 府属州与县治 | 胶州 | department | `jiaozhou-seat` | `hvd_85479` | `approximate`／`medium` | 待独立替换 |
-| 278 | 山东 | 府属州与县治 | 金乡县 | county | `jinxiang-seat` | `hvd_85159` | `approximate`／`medium` | 待独立替换 |
-| 279 | 山东 | 府属州与县治 | 莒州 | department | `juzhou-seat` | `hvd_85619` | `approximate`／`medium` | 待独立替换 |
-| 280 | 山东 | 府属州与县治 | 巨野县 | county | `juye-seat` | `hvd_85110` | `approximate`／`medium` | 待独立替换 |
-| 281 | 山东 | 府属州与县治 | 莱芜县 | county | `laiwu-seat` | `hvd_45056` | `approximate`／`medium` | 待独立替换 |
-| 282 | 山东 | 府属州与县治 | 莱阳县 | county | `laiyang-seat` | `hvd_85384` | `approximate`／`medium` | 待独立替换 |
-| 283 | 山东 | 府属州与县治 | 乐安县 | county | `lean-qingzhou-seat` | `hvd_85259` | `approximate`／`medium` | 待独立替换 |
-| 284 | 山东 | 府属州与县治 | 乐陵县 | county | `leling-seat` | `hvd_85557` | `approximate`／`medium` | 待独立替换 |
-| 285 | 山东 | 府属州与县治 | 利津县 | county | `lijin-seat` | `hvd_85545` | `approximate`／`medium` | 待独立替换 |
-| 286 | 山东 | 府属州与县治 | 临清州 | department | `linqing-seat` | `hvd_85164` | `approximate`／`medium` | 待独立替换 |
-| 287 | 山东 | 府属州与县治 | 临朐县 | county | `linqu-seat` | `hvd_45061` | `approximate`／`medium` | 待独立替换 |
-| 288 | 山东 | 府属州与县治 | 临邑县 | county | `linyi-jinan-seat` | `hvd_45097` | `approximate`／`medium` | 待独立替换 |
-| 289 | 山东 | 府属州与县治 | 临淄县 | county | `linzi-seat` | `hvd_85236` | `approximate`／`medium` | 待独立替换 |
-| 290 | 山东 | 府属州与县治 | 陵县 | county | `ling-jinan-seat` | `hvd_45175` | `approximate`／`medium` | 待独立替换 |
-| 291 | 山东 | 府属州与县治 | 蒙阴县 | county | `mengyin-seat` | `hvd_85632` | `approximate`／`medium` | 待独立替换 |
-| 292 | 山东 | 府属州与县治 | 宁海州 | department | `ninghai-dengzhou-seat` | `hvd_85407` | `approximate`／`medium` | 待独立替换 |
-| 293 | 山东 | 府属州与县治 | 宁阳县 | county | `ningyang-seat` | `hvd_45282` | `approximate`／`medium` | 待独立替换 |
-| 294 | 山东 | 府属州与县治 | 平度州 | department | `pingdu-seat` | `hvd_85392` | `approximate`／`medium` | 待独立替换 |
-| 295 | 山东 | 府属州与县治 | 平阴县 | county | `pingyin-seat` | `hvd_85695` | `approximate`／`medium` | 待独立替换 |
-| 296 | 山东 | 府属州与县治 | 平原县 | county | `pingyuan-seat` | `hvd_45101` | `approximate`／`medium` | 待独立替换 |
-| 297 | 山东 | 府属州与县治 | 蒲台县 | county | `putai-seat` | `hvd_85573` | `approximate`／`medium` | 待独立替换 |
-| 298 | 山东 | 府属州与县治 | 濮州 | department | `puzhou-seat` | `hvd_86022` | `approximate`／`medium` | 待独立替换 |
-| 299 | 山东 | 府属州与县治 | 栖霞县 | county | `qixia-seat` | `hvd_85426` | `approximate`／`medium` | 待独立替换 |
-| 300 | 山东 | 府属州与县治 | 齐东县 | county | `qidong-seat` | `hvd_45171` | `approximate`／`medium` | 待独立替换 |
-| 301 | 山东 | 府属州与县治 | 齐河县 | county | `qihe-seat` | `hvd_45170` | `approximate`／`medium` | 待独立替换 |
-| 302 | 山东 | 府属州与县治 | 青城县 | county | `qingcheng-jinan-seat` | `hvd_85562` | `approximate`／`medium` | 待独立替换 |
-| 303 | 山东 | 府属州与县治 | 清平县 | county | `qingping-seat` | `hvd_85211` | `approximate`／`medium` | 待独立替换 |
-| 304 | 山东 | 府属州与县治 | 丘县 | county | `qiu-seat` | `hvd_85188` | `approximate`／`medium` | 待独立替换 |
-| 305 | 山东 | 府属州与县治 | 曲阜县 | county | `qufu-seat` | `hvd_45185` | `approximate`／`medium` | 待独立替换 |
-| 306 | 山东 | 府属州与县治 | 日照县 | county | `rizhao-seat` | `hvd_85651` | `approximate`／`medium` | 待独立替换 |
-| 307 | 山东 | 府属州与县治 | 商河县 | county | `shanghe-seat` | `hvd_1005` | `approximate`／`medium` | 待独立替换 |
-| 308 | 山东 | 府属州与县治 | 莘县 | county | `shen-seat` | `hvd_45344` | `approximate`／`medium` | 待独立替换 |
-| 309 | 山东 | 府属州与县治 | 寿光县 | county | `shouguang-seat` | `hvd_85269` | `approximate`／`medium` | 待独立替换 |
-| 310 | 山东 | 府属州与县治 | 寿张县 | county | `shouzhang-seat` | `hvd_45266` | `approximate`／`medium` | 待独立替换 |
-| 311 | 山东 | 府属州与县治 | 泗水县 | county | `sishui-seat` | `hvd_45308` | `approximate`／`medium` | 待独立替换 |
-| 312 | 山东 | 府属州与县治 | 泰安州 | department | `taian-seat` | `hvd_115857` | `approximate`／`medium` | 待独立替换 |
-| 313 | 山东 | 府属州与县治 | 郯城县 | county | `tancheng-seat` | `hvd_1073` | `approximate`／`medium` | 待独立替换 |
-| 314 | 山东 | 府属州与县治 | 堂邑县 | county | `tangyi-seat` | `hvd_85206` | `approximate`／`medium` | 待独立替换 |
-| 315 | 山东 | 府属州与县治 | 滕县 | county | `teng-seat` | `hvd_45206` | `approximate`／`medium` | 待独立替换 |
-| 316 | 山东 | 府属州与县治 | 潍县 | county | `wei-laizhou-seat` | `hvd_85471` | `approximate`／`medium` | 待独立替换 |
-| 317 | 山东 | 府属州与县治 | 文登县 | county | `wendeng-seat` | `hvd_85428` | `approximate`／`medium` | 待独立替换 |
-| 318 | 山东 | 府属州与县治 | 汶上县 | county | `wenshang-seat` | `hvd_45249` | `approximate`／`medium` | 待独立替换 |
-| 319 | 山东 | 府属州与县治 | 武城县 | county | `wucheng-dongchang-seat` | `hvd_85173` | `approximate`／`medium` | 待独立替换 |
-| 320 | 山东 | 府属州与县治 | 武定州 | department | `wuding-shandong-seat` | `hvd_86015` | `approximate`／`medium` | 待独立替换 |
-| 321 | 山东 | 府属州与县治 | 夏津县 | county | `xiajin-seat` | `hvd_45156` | `approximate`／`medium` | 待独立替换 |
-| 322 | 山东 | 府属州与县治 | 新城县 | county | `xincheng-jinan-seat` | `hvd_45169` | `approximate`／`medium` | 待独立替换 |
-| 323 | 山东 | 府属州与县治 | 新泰县 | county | `xintai-seat` | `hvd_85675` | `approximate`／`medium` | 待独立替换 |
-| 324 | 山东 | 府属州与县治 | 阳谷县 | county | `yanggu-seat` | `hvd_45254` | `approximate`／`medium` | 待独立替换 |
-| 325 | 山东 | 府属州与县治 | 阳信县 | county | `yangxin-seat` | `hvd_85534` | `approximate`／`medium` | 待独立替换 |
-| 326 | 山东 | 府属州与县治 | 沂水县 | county | `yishui-seat` | `hvd_85636` | `approximate`／`medium` | 待独立替换 |
-| 327 | 山东 | 府属州与县治 | 沂州 | department | `yizhou-seat` | `hvd_85591` | `approximate`／`medium` | 待独立替换 |
-| 328 | 山东 | 府属州与县治 | 峄县 | county | `yi-yanzhou-seat` | `hvd_45230` | `approximate`／`medium` | 待独立替换 |
-| 329 | 山东 | 府属州与县治 | 鱼台县 | county | `yutai-seat` | `hvd_85151` | `approximate`／`medium` | 待独立替换 |
-| 330 | 山东 | 府属州与县治 | 禹城县 | county | `yucheng-seat` | `hvd_45086` | `approximate`／`medium` | 待独立替换 |
-| 331 | 山东 | 府属州与县治 | 郓城县 | county | `yuncheng-seat` | `hvd_85126` | `approximate`／`medium` | 待独立替换 |
-| 332 | 山东 | 府属州与县治 | 沾化县 | county | `zhanhua-seat` | `hvd_85569` | `approximate`／`medium` | 待独立替换 |
-| 333 | 山东 | 府属州与县治 | 章丘县 | county | `zhangqiu-seat` | `hvd_45091` | `approximate`／`medium` | 待独立替换 |
-| 334 | 山东 | 府属州与县治 | 长清县 | county | `changqing-seat` | `hvd_45126` | `approximate`／`medium` | 待独立替换 |
-| 335 | 山东 | 府属州与县治 | 长山县 | county | `changshan-jinan-seat` | `hvd_45067` | `approximate`／`medium` | 待独立替换 |
-| 336 | 山东 | 府属州与县治 | 招远县 | county | `zhaoyuan-seat` | `hvd_85427` | `approximate`／`medium` | 待独立替换 |
-| 337 | 山东 | 府属州与县治 | 诸城县 | county | `zhucheng-seat` | `hvd_85368` | `approximate`／`medium` | 待独立替换 |
-| 338 | 山东 | 府属州与县治 | 淄川县 | county | `zichuan-seat` | `hvd_45167` | `approximate`／`medium` | 待独立替换 |
-| 339 | 山东 | 府属州与县治 | 邹平县 | county | `zouping-seat` | `hvd_45045` | `approximate`／`medium` | 待独立替换 |
-| 340 | 山东 | 府属州与县治 | 邹县 | county | `zou-seat` | `hvd_45194` | `approximate`／`medium` | 待独立替换 |
+| 237 | 山东 | 一级行政区域治所 | 山东／济南府／历城县 | province／prefecture／county | `licheng-seat` | `hvd_86003` | `approximate`／`medium` | 关联 3 个行政实体；已独立替换（山东三批） |
+| 238 | 山东 | 府与直隶州治所 | 登州府／蓬莱县 | prefecture／county | `penglai-seat` | `hvd_86009` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（山东三批） |
+| 239 | 山东 | 府与直隶州治所 | 东昌府／聊城县 | prefecture／county | `liaocheng-seat` | `hvd_86002` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（山东三批） |
+| 240 | 山东 | 府与直隶州治所 | 莱州府／掖县 | prefecture／county | `ye-seat` | `hvd_86008` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（山东三批） |
+| 241 | 山东 | 府与直隶州治所 | 青州府／益都县 | prefecture／county | `yidu-seat` | `hvd_86007` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（山东三批） |
+| 242 | 山东 | 府与直隶州治所 | 兖州府／滋阳县 | prefecture／county | `ziyang-seat` | `hvd_86005` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（山东三批） |
+| 243 | 山东 | 府属州与县治 | 安丘县 | county | `anqiu-seat` | `hvd_85322` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 244 | 山东 | 府属州与县治 | 滨州 | department | `binzhou-seat` | `hvd_85544` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 245 | 山东 | 府属州与县治 | 博平县 | county | `boping-seat` | `hvd_45329` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 246 | 山东 | 府属州与县治 | 博兴县 | county | `boxing-seat` | `hvd_85247` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 247 | 山东 | 府属州与县治 | 曹县 | county | `cao-seat` | `hvd_85127` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 248 | 山东 | 府属州与县治 | 曹州 | department | `caozhou-seat` | `hvd_86014` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 249 | 山东 | 府属州与县治 | 昌乐县 | county | `changle-seat` | `hvd_85298` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 250 | 山东 | 府属州与县治 | 昌邑县 | county | `changyi-laizhou-seat` | `hvd_1041` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 251 | 山东 | 府属州与县治 | 朝城县 | county | `chaocheng-seat` | `hvd_85100` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 252 | 山东 | 府属州与县治 | 城武县 | county | `chengwu-seat` | `hvd_85120` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 253 | 山东 | 府属州与县治 | 茌平县 | county | `chiping-seat` | `hvd_45336` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 254 | 山东 | 府属州与县治 | 单县 | county | `shan-yanzhou-seat` | `hvd_85028` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 255 | 山东 | 府属州与县治 | 德平县 | county | `deping-seat` | `hvd_45112` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 256 | 山东 | 府属州与县治 | 德州 | department | `dezhou-seat` | `hvd_45176` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 257 | 山东 | 府属州与县治 | 定陶县 | county | `dingtao-seat` | `hvd_85062` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 258 | 山东 | 府属州与县治 | 东阿县 | county | `donge-seat` | `hvd_45306` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 259 | 山东 | 府属州与县治 | 东平州 | department | `dongping-seat` | `hvd_85704` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 260 | 山东 | 府属州与县治 | 恩县 | county | `en-seat` | `hvd_1003` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 261 | 山东 | 府属州与县治 | 范县 | county | `fan-seat` | `hvd_85107` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 262 | 山东 | 府属州与县治 | 肥城县 | county | `feicheng-seat` | `hvd_85703` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 263 | 山东 | 府属州与县治 | 费县 | county | `fei-seat` | `hvd_85606` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 264 | 山东 | 府属州与县治 | 福山县 | county | `fushan-seat` | `hvd_85424` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 265 | 山东 | 府属州与县治 | 高密县 | county | `gaomi-seat` | `hvd_85499` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 266 | 山东 | 府属州与县治 | 高唐州 | department | `gaotang-seat` | `hvd_86042` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 267 | 山东 | 府属州与县治 | 高苑县 | county | `gaoyuan-seat` | `hvd_85229` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 268 | 山东 | 府属州与县治 | 观城县 | county | `guancheng-seat` | `hvd_85089` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 269 | 山东 | 府属州与县治 | 冠县 | county | `guan-dongchang-seat` | `hvd_45349` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 270 | 山东 | 府属州与县治 | 馆陶县 | county | `guantao-seat` | `hvd_85191` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 271 | 山东 | 府属州与县治 | 海丰县 | county | `haifeng-wuding-seat` | `hvd_85565` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 272 | 山东 | 府属州与县治 | 黄县 | county | `huang-dengzhou-seat` | `hvd_85374` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 273 | 山东 | 府属州与县治 | 即墨县 | county | `jimo-seat` | `hvd_85461` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 274 | 山东 | 府属州与县治 | 济宁州 | department | `jining-seat` | `hvd_85157` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 275 | 山东 | 府属州与县治 | 济阳县 | county | `jiyang-seat` | `hvd_45174` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 276 | 山东 | 府属州与县治 | 嘉祥县 | county | `jiaxiang-seat` | `hvd_85142` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 277 | 山东 | 府属州与县治 | 胶州 | department | `jiaozhou-seat` | `hvd_85479` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 278 | 山东 | 府属州与县治 | 金乡县 | county | `jinxiang-seat` | `hvd_85159` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 279 | 山东 | 府属州与县治 | 莒州 | department | `juzhou-seat` | `hvd_85619` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 280 | 山东 | 府属州与县治 | 巨野县 | county | `juye-seat` | `hvd_85110` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 281 | 山东 | 府属州与县治 | 莱芜县 | county | `laiwu-seat` | `hvd_45056` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 282 | 山东 | 府属州与县治 | 莱阳县 | county | `laiyang-seat` | `hvd_85384` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 283 | 山东 | 府属州与县治 | 乐安县 | county | `lean-qingzhou-seat` | `hvd_85259` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 284 | 山东 | 府属州与县治 | 乐陵县 | county | `leling-seat` | `hvd_85557` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 285 | 山东 | 府属州与县治 | 利津县 | county | `lijin-seat` | `hvd_85545` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 286 | 山东 | 府属州与县治 | 临清州 | department | `linqing-seat` | `hvd_85164` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 287 | 山东 | 府属州与县治 | 临朐县 | county | `linqu-seat` | `hvd_45061` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 288 | 山东 | 府属州与县治 | 临邑县 | county | `linyi-jinan-seat` | `hvd_45097` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 289 | 山东 | 府属州与县治 | 临淄县 | county | `linzi-seat` | `hvd_85236` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 290 | 山东 | 府属州与县治 | 陵县 | county | `ling-jinan-seat` | `hvd_45175` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 291 | 山东 | 府属州与县治 | 蒙阴县 | county | `mengyin-seat` | `hvd_85632` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 292 | 山东 | 府属州与县治 | 宁海州 | department | `ninghai-dengzhou-seat` | `hvd_85407` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 293 | 山东 | 府属州与县治 | 宁阳县 | county | `ningyang-seat` | `hvd_45282` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 294 | 山东 | 府属州与县治 | 平度州 | department | `pingdu-seat` | `hvd_85392` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 295 | 山东 | 府属州与县治 | 平阴县 | county | `pingyin-seat` | `hvd_85695` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 296 | 山东 | 府属州与县治 | 平原县 | county | `pingyuan-seat` | `hvd_45101` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 297 | 山东 | 府属州与县治 | 蒲台县 | county | `putai-seat` | `hvd_85573` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 298 | 山东 | 府属州与县治 | 濮州 | department | `puzhou-seat` | `hvd_86022` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 299 | 山东 | 府属州与县治 | 栖霞县 | county | `qixia-seat` | `hvd_85426` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 300 | 山东 | 府属州与县治 | 齐东县 | county | `qidong-seat` | `hvd_45171` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 301 | 山东 | 府属州与县治 | 齐河县 | county | `qihe-seat` | `hvd_45170` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 302 | 山东 | 府属州与县治 | 青城县 | county | `qingcheng-jinan-seat` | `hvd_85562` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 303 | 山东 | 府属州与县治 | 清平县 | county | `qingping-seat` | `hvd_85211` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 304 | 山东 | 府属州与县治 | 丘县 | county | `qiu-seat` | `hvd_85188` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 305 | 山东 | 府属州与县治 | 曲阜县 | county | `qufu-seat` | `hvd_45185` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 306 | 山东 | 府属州与县治 | 日照县 | county | `rizhao-seat` | `hvd_85651` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 307 | 山东 | 府属州与县治 | 商河县 | county | `shanghe-seat` | `hvd_1005` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 308 | 山东 | 府属州与县治 | 莘县 | county | `shen-seat` | `hvd_45344` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 309 | 山东 | 府属州与县治 | 寿光县 | county | `shouguang-seat` | `hvd_85269` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 310 | 山东 | 府属州与县治 | 寿张县 | county | `shouzhang-seat` | `hvd_45266` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 311 | 山东 | 府属州与县治 | 泗水县 | county | `sishui-seat` | `hvd_45308` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 312 | 山东 | 府属州与县治 | 泰安州 | department | `taian-seat` | `hvd_115857` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 313 | 山东 | 府属州与县治 | 郯城县 | county | `tancheng-seat` | `hvd_1073` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 314 | 山东 | 府属州与县治 | 堂邑县 | county | `tangyi-seat` | `hvd_85206` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 315 | 山东 | 府属州与县治 | 滕县 | county | `teng-seat` | `hvd_45206` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 316 | 山东 | 府属州与县治 | 潍县 | county | `wei-laizhou-seat` | `hvd_85471` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 317 | 山东 | 府属州与县治 | 文登县 | county | `wendeng-seat` | `hvd_85428` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 318 | 山东 | 府属州与县治 | 汶上县 | county | `wenshang-seat` | `hvd_45249` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 319 | 山东 | 府属州与县治 | 武城县 | county | `wucheng-dongchang-seat` | `hvd_85173` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 320 | 山东 | 府属州与县治 | 武定州 | department | `wuding-shandong-seat` | `hvd_86015` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 321 | 山东 | 府属州与县治 | 夏津县 | county | `xiajin-seat` | `hvd_45156` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 322 | 山东 | 府属州与县治 | 新城县 | county | `xincheng-jinan-seat` | `hvd_45169` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 323 | 山东 | 府属州与县治 | 新泰县 | county | `xintai-seat` | `hvd_85675` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 324 | 山东 | 府属州与县治 | 阳谷县 | county | `yanggu-seat` | `hvd_45254` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 325 | 山东 | 府属州与县治 | 阳信县 | county | `yangxin-seat` | `hvd_85534` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 326 | 山东 | 府属州与县治 | 沂水县 | county | `yishui-seat` | `hvd_85636` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 327 | 山东 | 府属州与县治 | 沂州 | department | `yizhou-seat` | `hvd_85591` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 328 | 山东 | 府属州与县治 | 峄县 | county | `yi-yanzhou-seat` | `hvd_45230` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 329 | 山东 | 府属州与县治 | 鱼台县 | county | `yutai-seat` | `hvd_85151` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 330 | 山东 | 府属州与县治 | 禹城县 | county | `yucheng-seat` | `hvd_45086` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 331 | 山东 | 府属州与县治 | 郓城县 | county | `yuncheng-seat` | `hvd_85126` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 332 | 山东 | 府属州与县治 | 沾化县 | county | `zhanhua-seat` | `hvd_85569` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 333 | 山东 | 府属州与县治 | 章丘县 | county | `zhangqiu-seat` | `hvd_45091` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 334 | 山东 | 府属州与县治 | 长清县 | county | `changqing-seat` | `hvd_45126` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 335 | 山东 | 府属州与县治 | 长山县 | county | `changshan-jinan-seat` | `hvd_45067` | `approximate`／`low` | 低可信；已独立替换（山东三批） |
+| 336 | 山东 | 府属州与县治 | 招远县 | county | `zhaoyuan-seat` | `hvd_85427` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 337 | 山东 | 府属州与县治 | 诸城县 | county | `zhucheng-seat` | `hvd_85368` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 338 | 山东 | 府属州与县治 | 淄川县 | county | `zichuan-seat` | `hvd_45167` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 339 | 山东 | 府属州与县治 | 邹平县 | county | `zouping-seat` | `hvd_45045` | `approximate`／`medium` | 已独立替换（山东三批） |
+| 340 | 山东 | 府属州与县治 | 邹县 | county | `zou-seat` | `hvd_45194` | `approximate`／`medium` | 已独立替换（山东三批） |
 | 341 | 河南 | 一级行政区域治所 | 河南／开封府／祥符县 | province／prefecture／county | `xiangfu-seat` | `hvd_84008` | `approximate`／`medium` | 关联 3 个行政实体；已独立替换（河南三批） |
 | 342 | 河南 | 府与直隶州治所 | 归德府／商丘县 | prefecture／county | `shangqiu-seat` | `hvd_84009` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（河南三批） |
 | 343 | 河南 | 府与直隶州治所 | 河南府／洛阳县 | prefecture／county | `luoyang-seat` | `hvd_84004` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（河南三批） |

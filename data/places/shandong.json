@@ -1,10 +1,10 @@
 [
   {
     "id": "licheng-seat",
-    "longitude": 117.00149,
-    "latitude": 36.65013,
+    "longitude": 117.05911,
+    "latitude": 36.67958,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86003; Jinan Prefecture at its Licheng seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1337346, guided by the Ming History geographic description; modern Licheng District proxy for the Licheng seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -13,23 +13,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_86003, valid 1367-1911, parent Shandong Buzhengshisi"
+        "note": "Wikidata Q1337346 P625; modern Licheng District proxy for the Licheng seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS prefectural point matching the Licheng seat; exact yamen location remains unresolved"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Licheng District proxy for the Licheng seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "ziyang-seat",
-    "longitude": 116.8237,
-    "latitude": 35.5567,
+    "longitude": 116.83333333333,
+    "latitude": 35.55,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86005; Yanzhou Prefecture at its Ziyang seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q246791, guided by the Ming History geographic description; modern Yanzhou District proxy for the Ziyang seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -38,23 +38,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_86005, valid 1385-1911, parent Shandong Buzhengshisi"
+        "note": "Wikidata Q246791 P625; modern Yanzhou District proxy for the Ziyang seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Selected the CHGIS prefecture record rather than the conflicting aggregated state result"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Yanzhou District proxy for the Ziyang seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "liaocheng-seat",
-    "longitude": 115.98869,
-    "latitude": 36.44774,
+    "longitude": 116.04388888889,
+    "latitude": 36.421944444444,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86002; Dongchang Prefecture at its Liaocheng seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198216, guided by the Ming History geographic description; modern Dongchangfu District proxy for the Liaocheng seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -63,23 +63,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_86002, valid 1368-1911, parent Shandong Buzhengshisi"
+        "note": "Wikidata Q1198216 P625; modern Dongchangfu District proxy for the Liaocheng seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS prefectural point matching the Liaocheng seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Dongchangfu District proxy for the Liaocheng seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "yidu-seat",
-    "longitude": 118.47827,
-    "latitude": 36.68792,
+    "longitude": 118.47972222222,
+    "latitude": 36.696666666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86007; Qingzhou Prefecture at its Yidu seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1360781, guided by the Ming History geographic description; modern Qingzhou City proxy for the Yidu seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -88,23 +88,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_86007, valid 1367-1911, parent Shandong Buzhengshisi"
+        "note": "Wikidata Q1360781 P625; modern Qingzhou City proxy for the Yidu seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS prefectural point matching the Yidu seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Qingzhou City proxy for the Yidu seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "ye-seat",
-    "longitude": 119.938,
-    "latitude": 37.17543,
+    "longitude": 119.93333333333,
+    "latitude": 37.179166666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86008; Laizhou Prefecture at its Ye seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q666700, guided by the Ming History geographic description; modern Laizhou City proxy for the Ye seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -113,23 +113,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_86008, valid 1376-1911, parent Shandong Buzhengshisi"
+        "note": "Wikidata Q666700 P625; modern Laizhou City proxy for the Ye seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS prefectural point matching the Ye seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Laizhou City proxy for the Ye seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "penglai-seat",
-    "longitude": 120.7405,
-    "latitude": 37.80452,
+    "longitude": 120.73333333333,
+    "latitude": 37.816666666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer prefectural point hvd_86009; Dengzhou Prefecture at its Penglai seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1357774, guided by the Ming History geographic description; modern Penglai District proxy for the Penglai seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -138,2465 +138,2466 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_86009, valid 1376-1911, parent Shandong Buzhengshisi"
+        "note": "Wikidata Q1357774 P625; modern Penglai District proxy for the Penglai seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS prefectural point matching the Penglai seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Penglai District proxy for the Penglai seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "zhangqiu-seat",
-    "longitude": 117.48428,
-    "latitude": 36.85273,
+    "longitude": 117.49138888889,
+    "latitude": 36.758330555556,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45091",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q197392, guided by the Ming History geographic description; modern Zhangqiu District proxy for the Zhangqiu seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45091, 960 ~ 1912; covers 1600"
+        "note": "Wikidata Q197392 P625; modern Zhangqiu District proxy for the Zhangqiu seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Zhangqiu District proxy for the Zhangqiu seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "zouping-seat",
-    "longitude": 117.72535,
-    "latitude": 36.8847,
+    "longitude": 117.7424,
+    "latitude": 36.8625,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45045",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q227061, guided by the Ming History geographic description; modern Zouping City proxy for the Zouping seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45045, 1125 ~ 1911; covers 1600"
+        "note": "Wikidata Q227061 P625; modern Zouping City proxy for the Zouping seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Zouping City proxy for the Zouping seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "zichuan-seat",
-    "longitude": 117.96095,
-    "latitude": 36.63599,
+    "longitude": 117.96694444444,
+    "latitude": 36.643611111111,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45167",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q198408, guided by the Ming History geographic description; modern Zichuan District proxy for the Zichuan seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45167, 598 ~ 1912; covers 1600"
+        "note": "Wikidata Q198408 P625; modern Zichuan District proxy for the Zichuan seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Zichuan District proxy for the Zichuan seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "changshan-jinan-seat",
-    "longitude": 117.86491,
-    "latitude": 36.88238,
+    "longitude": 117.7424,
+    "latitude": 36.8625,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45067",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q227061, guided by the Ming History geographic description; modern Zouping City proxy for historical Changshan County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_45067, 598 ~ 1912; covers 1600"
+        "confidence": "low",
+        "note": "Wikidata Q227061 P625; modern Zouping City proxy for historical Changshan County; the former county is no longer a separate unit and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Changshan County is represented by a modern Zouping City proxy and remains low confidence."
     }
   },
   {
     "id": "xincheng-jinan-seat",
-    "longitude": 117.94308,
-    "latitude": 36.9496,
+    "longitude": 117.9459,
+    "latitude": 36.956,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45169",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q11082026, guided by the Ming History geographic description; modern Xincheng Town in Huantai County proxy for historical Xincheng County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_45169, 1378 ~ 1912; covers 1600"
+        "confidence": "low",
+        "note": "Wikidata Q11082026 P625; modern Xincheng Town in Huantai County proxy for historical Xincheng County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Xincheng County is represented by the modern Xincheng Town in Huantai County and remains low confidence."
     }
   },
   {
     "id": "qihe-seat",
-    "longitude": 116.77944,
-    "latitude": 36.70007,
+    "longitude": 116.74,
+    "latitude": 36.799,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45170",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198234, guided by the Ming History geographic description; modern Qihe County proxy for the Qihe seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45170, 1130 ~ 1912; covers 1600"
+        "note": "Wikidata Q1198234 P625; modern Qihe County proxy for the Qihe seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Qihe County proxy for the Qihe seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "qidong-seat",
-    "longitude": 117.62292,
-    "latitude": 36.99135,
+    "longitude": 117.7424,
+    "latitude": 36.8625,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45171",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q227061, guided by the Ming History geographic description; modern Zouping City proxy for historical Qidong County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_45171, 1252 ~ 1912; covers 1600"
+        "confidence": "low",
+        "note": "Wikidata Q227061 P625; modern Zouping City proxy for historical Qidong County; the former county seat was affected by later Yellow River changes and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Qidong County is represented by a modern Zouping City proxy and remains low confidence."
     }
   },
   {
     "id": "jiyang-seat",
-    "longitude": 117.21024,
-    "latitude": 36.97194,
+    "longitude": 117.18333333333,
+    "latitude": 36.983333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45174",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1675243, guided by the Ming History geographic description; modern Jiyang District proxy for the Jiyang seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45174, 1213 ~ 1912; covers 1600"
+        "note": "Wikidata Q1675243 P625; modern Jiyang District proxy for the Jiyang seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Jiyang District proxy for the Jiyang seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "yucheng-seat",
-    "longitude": 116.65119,
-    "latitude": 36.94436,
+    "longitude": 116.6403,
+    "latitude": 36.93286,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45086",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198528, guided by the Ming History geographic description; modern Yucheng City proxy for the Yucheng seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45086, 759 ~ 1912; covers 1600"
+        "note": "Wikidata Q1198528 P625; modern Yucheng City proxy for the Yucheng seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Yucheng City proxy for the Yucheng seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "linyi-jinan-seat",
-    "longitude": 116.85932,
-    "latitude": 37.19033,
+    "longitude": 116.8611,
+    "latitude": 37.18958,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45097",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q373461, guided by the Ming History geographic description; modern Linyi County proxy for the Linyi seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45097, 962 ~ 1912; covers 1600"
+        "note": "Wikidata Q373461 P625; modern Linyi County proxy for the Linyi seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Linyi County proxy for the Linyi seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "changqing-seat",
-    "longitude": 116.72205,
-    "latitude": 36.55182,
+    "longitude": 116.74527777778,
+    "latitude": 36.449166666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45126",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1062112, guided by the Ming History geographic description; modern Changqing District proxy for the Changqing seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45126, 996 ~ 1912; covers 1600"
+        "note": "Wikidata Q1062112 P625; modern Changqing District proxy for the Changqing seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Changqing District proxy for the Changqing seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "feicheng-seat",
-    "longitude": 116.76697,
-    "latitude": 36.18966,
+    "longitude": 116.772,
+    "latitude": 36.186,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85703",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198379, guided by the Ming History geographic description; modern Feicheng City proxy for the Feicheng seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85703, 1275 ~ 1912; covers 1600"
+        "note": "Wikidata Q1198379 P625; modern Feicheng City proxy for the Feicheng seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Feicheng City proxy for the Feicheng seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "qingcheng-jinan-seat",
-    "longitude": 117.69149,
-    "latitude": 37.18784,
+    "longitude": 117.95582,
+    "latitude": 37.09708,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85562",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q2857710, guided by the Ming History geographic description; modern Gaocheng Town proxy for historical Qingcheng County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85562, 1380 ~ 1911; covers 1600"
+        "confidence": "low",
+        "note": "Wikidata Q2857710 P625; modern Gaocheng Town proxy for historical Qingcheng County; the former county is no longer a separate unit and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Qingcheng County is represented by a modern Gaocheng Town proxy and remains low confidence."
     }
   },
   {
     "id": "ling-jinan-seat",
-    "longitude": 116.5772,
-    "latitude": 37.33111,
+    "longitude": 116.56666666667,
+    "latitude": 37.333333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45175",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198429, guided by the Ming History geographic description; modern Lingcheng District proxy for the Ling seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45175, 1380 ~ 1912; covers 1600"
+        "note": "Wikidata Q1198429 P625; modern Lingcheng District proxy for the Ling seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Lingcheng District proxy for the Ling seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "taian-seat",
-    "longitude": 117.12652,
-    "latitude": 36.1821,
+    "longitude": 117.0809,
+    "latitude": 36.2001,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_115857",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q217681, guided by the Ming History geographic description; modern Tai'an City proxy for the Tai'an seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_115857, 1169 ~ 1723; covers 1600"
+        "note": "Wikidata Q217681 P625; modern Tai'an City proxy for the Tai'an seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Tai'an City proxy for the Tai'an seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "xintai-seat",
-    "longitude": 117.75588,
-    "latitude": 35.90966,
+    "longitude": 117.78,
+    "latitude": 35.91,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85675",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1344683, guided by the Ming History geographic description; modern Xintai City proxy for the Xintai seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85675, 1294 ~ 1912; covers 1600"
+        "note": "Wikidata Q1344683 P625; modern Xintai City proxy for the Xintai seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Xintai City proxy for the Xintai seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "laiwu-seat",
-    "longitude": 117.66057,
-    "latitude": 36.2041,
+    "longitude": 117.59361111111,
+    "latitude": 36.150277777778,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45056",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198335, guided by the Ming History geographic description; modern Laiwu District proxy for the Laiwu seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45056, 1138 ~ 1911; covers 1600"
+        "note": "Wikidata Q1198335 P625; modern Laiwu District proxy for the Laiwu seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Laiwu District proxy for the Laiwu seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "dezhou-seat",
-    "longitude": 116.2862,
-    "latitude": 37.45066,
+    "longitude": 116.31046,
+    "latitude": 37.45127,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45176",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q162880, guided by the Ming History geographic description; modern Dezhou City proxy for the Dezhou seat; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_45176, 1730 ~ 1912; later continuity proxy"
+        "confidence": "low",
+        "note": "Wikidata Q162880 P625; modern Dezhou City continuity proxy for the Dezhou seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy pending a contemporaneous location source"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Dezhou City continuity proxy remains low confidence for the historical seat."
     }
   },
   {
     "id": "deping-seat",
-    "longitude": 116.95788,
-    "latitude": 37.46348,
+    "longitude": 116.95606,
+    "latitude": 37.46513,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45112",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q11071665, guided by the Ming History geographic description; modern Deping Town proxy for historical Deping County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_45112, 1099 ~ 1912; covers 1600"
+        "confidence": "low",
+        "note": "Wikidata Q11071665 P625; modern Deping Town proxy for historical Deping County; the former county is no longer a separate unit and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Deping County is represented by a modern Deping Town proxy and remains low confidence."
     }
   },
   {
     "id": "pingyuan-seat",
-    "longitude": 116.42786,
-    "latitude": 37.15674,
+    "longitude": 116.43333333333,
+    "latitude": 37.166666666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45101",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198034, guided by the Ming History geographic description; modern Pingyuan County proxy for the Pingyuan seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45101, 556 ~ 1912; covers 1600"
+        "note": "Wikidata Q1198034 P625; modern Pingyuan County proxy for the Pingyuan seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Pingyuan County proxy for the Pingyuan seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "wuding-shandong-seat",
-    "longitude": 117.50389,
-    "latitude": 37.48272,
+    "longitude": 117.49780277778,
+    "latitude": 37.478988888889,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_86015",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1348844, guided by the Ming History geographic description; modern Huimin County proxy for the Wuding State seat; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_86015, 1724 ~ 1733; later continuity proxy"
+        "confidence": "low",
+        "note": "Wikidata Q1348844 P625; modern Huimin County proxy for the Wuding State seat; the later continuity proxy does not resolve the exact historical administrative compound."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy pending a contemporaneous location source"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Huimin County proxy for the Wuding State seat remains low confidence."
     }
   },
   {
     "id": "yangxin-seat",
-    "longitude": 117.57631,
-    "latitude": 37.64083,
+    "longitude": 117.57843,
+    "latitude": 37.64145,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85534",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1348851, guided by the Ming History geographic description; modern Yangxin County proxy for the Yangxin seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85534, 1015 ~ 1911; covers 1600"
+        "note": "Wikidata Q1348851 P625; modern Yangxin County proxy for the Yangxin seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Yangxin County proxy for the Yangxin seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "haifeng-wuding-seat",
-    "longitude": 117.60121,
-    "latitude": 37.74062,
+    "longitude": 117.6116,
+    "latitude": 37.74391,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85565",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198189, guided by the Ming History geographic description; modern Wudi County proxy for historical Haifeng County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85565, 1373 ~ 1911; covers 1600"
+        "confidence": "low",
+        "note": "Wikidata Q1198189 P625; modern Wudi County proxy for historical Haifeng County; the historical name changed and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Haifeng County is represented by a modern Wudi County proxy and remains low confidence."
     }
   },
   {
     "id": "leling-seat",
-    "longitude": 117.21653,
-    "latitude": 37.73789,
+    "longitude": 117.21666666667,
+    "latitude": 37.733333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85557",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1026399, guided by the Ming History geographic description; modern Leling City proxy for the Leling seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85557, 1369 ~ 1911; covers 1600"
+        "note": "Wikidata Q1026399 P625; modern Leling City proxy for the Leling seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Leling City proxy for the Leling seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "shanghe-seat",
-    "longitude": 117.15755,
-    "latitude": 37.30868,
+    "longitude": 117.156,
+    "latitude": 37.313,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_1005",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1337409, guided by the Ming History geographic description; modern Shanghe County proxy for the Shanghe seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_1005, 1820; later continuity proxy"
+        "note": "Wikidata Q1337409 P625; modern Shanghe County proxy for the Shanghe seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy pending a contemporaneous location source"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Shanghe County proxy for the Shanghe seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "binzhou-seat",
-    "longitude": 118.02375,
-    "latitude": 37.36813,
+    "longitude": 118.0125,
+    "latitude": 37.380555555556,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85544",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q373687, guided by the Ming History geographic description; modern Binzhou City proxy for the historical Binzhou seat; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85544, 746 ~ 1368; former Bohai seat proxy"
+        "confidence": "low",
+        "note": "Wikidata Q373687 P625; modern Binzhou City proxy for the historical Binzhou seat; the former Bohai/Binzhou seat relationship and exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy pending a contemporaneous location source"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Binzhou City proxy for the historical seat remains low confidence."
     }
   },
   {
     "id": "lijin-seat",
-    "longitude": 118.25559,
-    "latitude": 37.49131,
+    "longitude": 118.2527,
+    "latitude": 37.4912,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85545",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198358, guided by the Ming History geographic description; modern Lijin County proxy for the Lijin seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85545, 1192 ~ 1911; covers 1600"
+        "note": "Wikidata Q1198358 P625; modern Lijin County proxy for the Lijin seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Lijin County proxy for the Lijin seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "zhanhua-seat",
-    "longitude": 117.80176,
-    "latitude": 37.68322,
+    "longitude": 118.13,
+    "latitude": 37.7,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85569",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q197408, guided by the Ming History geographic description; modern Zhanhua District proxy for the Zhanhua seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85569, 1195 ~ 1911; covers 1600"
+        "note": "Wikidata Q197408 P625; modern Zhanhua District proxy for the Zhanhua seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Zhanhua District proxy for the Zhanhua seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "putai-seat",
-    "longitude": 118.03027,
-    "latitude": 37.34684,
+    "longitude": 118.02,
+    "latitude": 37.387,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85573",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q863540, guided by the Ming History geographic description; modern Bincheng District proxy for historical Putai County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85573, 1142 ~ 1911; covers 1600"
+        "confidence": "low",
+        "note": "Wikidata Q863540 P625; modern Bincheng District proxy for historical Putai County; the former county seat is not represented by a dedicated modern Wikidata entity and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Putai County is represented by a modern Bincheng District proxy and remains low confidence."
     }
   },
   {
     "id": "qufu-seat",
-    "longitude": 116.98606,
-    "latitude": 35.59755,
+    "longitude": 116.98333333333,
+    "latitude": 35.6,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45185",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q210287, guided by the Ming History geographic description; modern Qufu City proxy for the Qufu seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45185; covers the 1600 time slice"
+        "note": "Wikidata Q210287 P625; modern Qufu City proxy for the Qufu seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Qufu City proxy for the Qufu seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "ningyang-seat",
-    "longitude": 116.78884,
-    "latitude": 35.76335,
+    "longitude": 116.8,
+    "latitude": 35.763055555556,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45282",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198182, guided by the Ming History geographic description; modern Ningyang County proxy for the Ningyang seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45282; covers the 1600 time slice"
+        "note": "Wikidata Q1198182 P625; modern Ningyang County proxy for the Ningyang seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Ningyang County proxy for the Ningyang seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "zou-seat",
-    "longitude": 116.96727,
-    "latitude": 35.40276,
+    "longitude": 116.45,
+    "latitude": 35.366666666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45194",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q227034, guided by the Ming History geographic description; modern Zoucheng City proxy for the Zou seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45194; covers the 1600 time slice"
+        "note": "Wikidata Q227034 P625; modern Zoucheng City proxy for the Zou seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Zoucheng City proxy for the Zou seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "sishui-seat",
-    "longitude": 117.27016,
-    "latitude": 35.6597,
+    "longitude": 117.31305555556,
+    "latitude": 35.651388888889,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45308",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q745725, guided by the Ming History geographic description; modern Sishui County proxy for the Sishui seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45308; covers the 1600 time slice"
+        "note": "Wikidata Q745725 P625; modern Sishui County proxy for the Sishui seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Sishui County proxy for the Sishui seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "teng-seat",
-    "longitude": 117.15701,
-    "latitude": 35.08502,
+    "longitude": 117.15,
+    "latitude": 35.083333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45206",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1207076, guided by the Ming History geographic description; modern Tengzhou City proxy for the Teng seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45206; covers the 1600 time slice"
+        "note": "Wikidata Q1207076 P625; modern Tengzhou City proxy for the Teng seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Tengzhou City proxy for the Teng seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "yi-yanzhou-seat",
-    "longitude": 117.58606,
-    "latitude": 34.77,
+    "longitude": 117.58055,
+    "latitude": 34.76754,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45230",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198065, guided by the Ming History geographic description; modern Yicheng District proxy for historical Yi County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_45230; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q1198065 P625; modern Yicheng District proxy for historical Yi County; the historical county name and later administrative boundaries do not close the exact old administrative compound."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Yi County is represented by a modern Yicheng District proxy and remains low confidence."
     }
   },
   {
     "id": "jinxiang-seat",
-    "longitude": 116.30453,
-    "latitude": 35.06816,
+    "longitude": 116.27527777778,
+    "latitude": 35.092222222222,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85159",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198052, guided by the Ming History geographic description; modern Jinxiang County proxy for the Jinxiang seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85159; covers the 1600 time slice"
+        "note": "Wikidata Q1198052 P625; modern Jinxiang County proxy for the Jinxiang seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Jinxiang County proxy for the Jinxiang seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "yutai-seat",
-    "longitude": 116.53735,
-    "latitude": 35.00492,
+    "longitude": 116.65,
+    "latitude": 35,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85151",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198559, guided by the Ming History geographic description; modern Yutai County proxy for the Yutai seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85151; covers the 1600 time slice"
+        "note": "Wikidata Q1198559 P625; modern Yutai County proxy for the Yutai seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Yutai County proxy for the Yutai seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "shan-yanzhou-seat",
-    "longitude": 116.07925,
-    "latitude": 34.7979,
+    "longitude": 116.0793,
+    "latitude": 34.79023,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85028",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198232, guided by the Ming History geographic description; modern Shan County proxy for the Shan seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85028; covers the 1600 time slice"
+        "note": "Wikidata Q1198232 P625; modern Shan County proxy for the Shan seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Shan County proxy for the Shan seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "chengwu-seat",
-    "longitude": 115.87518,
-    "latitude": 34.96223,
+    "longitude": 115.89722222222,
+    "latitude": 35.018888888889,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85120",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1070034, guided by the Ming History geographic description; modern Chengwu County proxy for the Chengwu seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85120; covers the 1600 time slice"
+        "note": "Wikidata Q1070034 P625; modern Chengwu County proxy for the Chengwu seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Chengwu County proxy for the Chengwu seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "jining-seat",
-    "longitude": 116.57787,
-    "latitude": 35.41043,
+    "longitude": 116.56666666667,
+    "latitude": 35.4,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85157",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q372791, guided by the Ming History geographic description; modern Jining City proxy for the Jining seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85157; documented continuity proxy"
+        "note": "Wikidata Q372791 P625; modern Jining City proxy for the Jining seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Jining City proxy for the Jining seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "jiaxiang-seat",
-    "longitude": 116.34298,
-    "latitude": 35.40069,
+    "longitude": 116.30111111111,
+    "latitude": 35.445833333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85142",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198257, guided by the Ming History geographic description; modern Jiaxiang County proxy for the Jiaxiang seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85142; covers the 1600 time slice"
+        "note": "Wikidata Q1198257 P625; modern Jiaxiang County proxy for the Jiaxiang seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Jiaxiang County proxy for the Jiaxiang seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "juye-seat",
-    "longitude": 116.08871,
-    "latitude": 35.39621,
+    "longitude": 116.08333333333,
+    "latitude": 35.383333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85110",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198228, guided by the Ming History geographic description; modern Juye County proxy for the Juye seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85110; covers the 1600 time slice"
+        "note": "Wikidata Q1198228 P625; modern Juye County proxy for the Juye seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Juye County proxy for the Juye seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "yuncheng-seat",
-    "longitude": 115.93501,
-    "latitude": 35.60506,
+    "longitude": 115.95,
+    "latitude": 35.6,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85126",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1186021, guided by the Ming History geographic description; modern Yuncheng County proxy for the Yuncheng seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85126; covers the 1600 time slice"
+        "note": "Wikidata Q1186021 P625; modern Yuncheng County proxy for the Yuncheng seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Yuncheng County proxy for the Yuncheng seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "dongping-seat",
-    "longitude": 116.29917,
-    "latitude": 35.91034,
+    "longitude": 116.3,
+    "latitude": 35.908333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85704",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198276, guided by the Ming History geographic description; modern Dongping County proxy for the Dongping seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85704; covers the 1600 time slice"
+        "note": "Wikidata Q1198276 P625; modern Dongping County proxy for the Dongping seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Dongping County proxy for the Dongping seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "wenshang-seat",
-    "longitude": 116.48438,
-    "latitude": 35.72881,
+    "longitude": 116.489,
+    "latitude": 35.733,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45249",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198224, guided by the Ming History geographic description; modern Wenshang County proxy for the Wenshang seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45249; covers the 1600 time slice"
+        "note": "Wikidata Q1198224 P625; modern Wenshang County proxy for the Wenshang seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Wenshang County proxy for the Wenshang seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "donge-seat",
-    "longitude": 116.25102,
-    "latitude": 36.21138,
+    "longitude": 116.27978,
+    "latitude": 36.17279,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45306",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q10871093, guided by the Ming History geographic description; modern Dong'e Town in Pingyin County proxy for the Dong'e seat; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_45306; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q10871093 P625; modern Dong'e Town in Pingyin County proxy for the Ming-era Dong'e seat after the 1375 relocation; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; the Ming-era Dong'e seat is represented by Dong'e Town in Pingyin County and remains low confidence."
     }
   },
   {
     "id": "pingyin-seat",
-    "longitude": 116.44867,
-    "latitude": 36.28693,
+    "longitude": 116.43333333333,
+    "latitude": 36.283333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85695",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1337083, guided by the Ming History geographic description; modern Pingyin County proxy for the Pingyin seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85695; covers the 1600 time slice"
+        "note": "Wikidata Q1337083 P625; modern Pingyin County proxy for the Pingyin seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Pingyin County proxy for the Pingyin seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "yanggu-seat",
-    "longitude": 115.77429,
-    "latitude": 36.11476,
+    "longitude": 115.7848,
+    "latitude": 36.11366,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45254",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q290059, guided by the Ming History geographic description; modern Yanggu County proxy for the Yanggu seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45254; covers the 1600 time slice"
+        "note": "Wikidata Q290059 P625; modern Yanggu County proxy for the Yanggu seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Yanggu County proxy for the Yanggu seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "shouzhang-seat",
-    "longitude": 115.84856,
-    "latitude": 36.01439,
+    "longitude": 115.85132,
+    "latitude": 36.01136,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45266",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q14812106, guided by the Ming History geographic description; modern Shouzhang Town in Yanggu County proxy for historical Shouzhang County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_45266; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q14812106 P625; modern Shouzhang Town in Yanggu County proxy for historical Shouzhang County after its relocation; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Shouzhang County is represented by Shouzhang Town in Yanggu County and remains low confidence."
     }
   },
   {
     "id": "caozhou-seat",
-    "longitude": 115.44413,
-    "latitude": 35.25025,
+    "longitude": 115.43333333333,
+    "latitude": 35.233333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_86014",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q332753, guided by the Ming History geographic description; modern Heze City proxy for the historical Caozhou seat; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_86014; documented continuity proxy"
+        "confidence": "low",
+        "note": "Wikidata Q332753 P625; modern Heze City proxy for the historical Caozhou seat; the historical prefectural seat and later relocations remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Heze City proxy for the historical Caozhou seat remains low confidence."
     }
   },
   {
     "id": "cao-seat",
-    "longitude": 115.53945,
-    "latitude": 34.82759,
+    "longitude": 115.5365,
+    "latitude": 34.82652,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85127",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q182023, guided by the Ming History geographic description; modern Cao County proxy for the Cao seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85127; covers the 1600 time slice"
+        "note": "Wikidata Q182023 P625; modern Cao County proxy for the Cao seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Cao County proxy for the Cao seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "dingtao-seat",
-    "longitude": 115.56662,
-    "latitude": 35.07399,
+    "longitude": 115.59111111111,
+    "latitude": 35.1425,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85062",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198464, guided by the Ming History geographic description; modern Dingtao District proxy for the Dingtao seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85062; covers the 1600 time slice"
+        "note": "Wikidata Q1198464 P625; modern Dingtao District proxy for the Dingtao seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Dingtao District proxy for the Dingtao seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "yizhou-seat",
-    "longitude": 118.34095,
-    "latitude": 35.07156,
+    "longitude": 118.35019,
+    "latitude": 35.10408,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85591",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q373346, guided by the Ming History geographic description; modern Linyi City proxy for the historical Yizhou seat; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85591; documented continuity proxy"
+        "confidence": "low",
+        "note": "Wikidata Q373346 P625; modern Linyi City proxy for the historical Yizhou seat; the historical prefectural seat and later urban boundaries do not close the exact old administrative compound."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Linyi City proxy for the historical Yizhou seat remains low confidence."
     }
   },
   {
     "id": "tancheng-seat",
-    "longitude": 118.33446,
-    "latitude": 34.61813,
+    "longitude": 118.222,
+    "latitude": 34.651,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_1073",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198314, guided by the Ming History geographic description; modern Tancheng County proxy for the Tancheng seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_1073; documented continuity proxy"
+        "note": "Wikidata Q1198314 P625; modern Tancheng County proxy for the Tancheng seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Tancheng County proxy for the Tancheng seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "fei-seat",
-    "longitude": 117.96462,
-    "latitude": 35.26521,
+    "longitude": 117.96666666667,
+    "latitude": 35.266666666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85606",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1197998, guided by the Ming History geographic description; modern Fei County proxy for the Fei seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85606; covers the 1600 time slice"
+        "note": "Wikidata Q1197998 P625; modern Fei County proxy for the Fei seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Fei County proxy for the Fei seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "tangyi-seat",
-    "longitude": 115.77485,
-    "latitude": 36.48784,
+    "longitude": 115.77631,
+    "latitude": 36.48863,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85206",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q10930528, guided by the Ming History geographic description; modern Tangyi Town in Dongchangfu District proxy for historical Tangyi County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85206; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q10930528 P625; modern Tangyi Town in Dongchangfu District proxy for historical Tangyi County; the former county is no longer a separate unit and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Tangyi County is represented by Tangyi Town in Dongchangfu District and remains low confidence."
     }
   },
   {
     "id": "boping-seat",
-    "longitude": 116.11023,
-    "latitude": 36.58689,
+    "longitude": 116.11217,
+    "latitude": 36.58995,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45329",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q10909436, guided by the Ming History geographic description; modern Boping Town proxy for historical Boping County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_45329; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q10909436 P625; modern Boping Town proxy for historical Boping County; the former county is no longer a separate unit and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Boping County is represented by Boping Town and remains low confidence."
     }
   },
   {
     "id": "chiping-seat",
-    "longitude": 116.24902,
-    "latitude": 36.5856,
+    "longitude": 116.26111111111,
+    "latitude": 36.564166666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45336",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1074561, guided by the Ming History geographic description; modern Chiping District proxy for the Chiping seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45336; covers the 1600 time slice"
+        "note": "Wikidata Q1074561 P625; modern Chiping District proxy for the Chiping seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Chiping District proxy for the Chiping seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "shen-seat",
-    "longitude": 115.66508,
-    "latitude": 36.23671,
+    "longitude": 115.66261,
+    "latitude": 36.23545,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45344",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q921293, guided by the Ming History geographic description; modern Shen County proxy for the Shen seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45344; covers the 1600 time slice"
+        "note": "Wikidata Q921293 P625; modern Shen County proxy for the Shen seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Shen County proxy for the Shen seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "qingping-seat",
-    "longitude": 116.07657,
-    "latitude": 36.75478,
+    "longitude": 116.0752,
+    "latitude": 36.75544,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85211",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q14817761, guided by the Ming History geographic description; modern Qingping Town proxy for historical Qingping County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85211; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q14817761 P625; modern Qingping Town proxy for historical Qingping County; the former county is no longer a separate unit and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Qingping County is represented by Qingping Town and remains low confidence."
     }
   },
   {
     "id": "guan-dongchang-seat",
-    "longitude": 115.43501,
-    "latitude": 36.4721,
+    "longitude": 115.43788,
+    "latitude": 36.47887,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45349",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198245, guided by the Ming History geographic description; modern Guan County proxy for the Guan seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45349; covers the 1600 time slice"
+        "note": "Wikidata Q1198245 P625; modern Guan County proxy for the Guan seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Guan County proxy for the Guan seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "linqing-seat",
-    "longitude": 115.70152,
-    "latitude": 36.84621,
+    "longitude": 115.70611111111,
+    "latitude": 36.849444444444,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85164",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1207099, guided by the Ming History geographic description; modern Linqing City proxy for the Linqing seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85164; documented continuity proxy"
+        "note": "Wikidata Q1207099 P625; modern Linqing City proxy for the Linqing seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Linqing City proxy for the Linqing seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "qiu-seat",
-    "longitude": 115.15681,
-    "latitude": 36.71392,
+    "longitude": 115.17086,
+    "latitude": 36.81122,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85188",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1196765, guided by the Ming History geographic description; modern Qiu County proxy for historical Qiu County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85188; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q1196765 P625; modern Qiu County proxy for historical Qiu County in the present Hebei-Shandong border region; cross-provincial continuity and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Qiu County is represented by the modern Qiu County proxy and remains low confidence."
     }
   },
   {
     "id": "guantao-seat",
-    "longitude": 115.40781,
-    "latitude": 36.65789,
+    "longitude": 115.2905,
+    "latitude": 36.53947,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85191",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1196876, guided by the Ming History geographic description; modern Guantao County proxy for the Guantao seat; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85191; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q1196876 P625; modern Guantao County proxy for the Guantao seat in the present Hebei-Shandong border region; cross-provincial continuity and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Guantao County proxy remains low confidence for the historical seat."
     }
   },
   {
     "id": "gaotang-seat",
-    "longitude": 116.231,
-    "latitude": 36.86162,
+    "longitude": 116.26805555556,
+    "latitude": 36.854444444444,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_86042",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198262, guided by the Ming History geographic description; modern Gaotang County proxy for the Gaotang seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_86042; documented continuity proxy"
+        "note": "Wikidata Q1198262 P625; modern Gaotang County proxy for the Gaotang seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Gaotang County proxy for the Gaotang seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "en-seat",
-    "longitude": 116.27579,
-    "latitude": 37.15112,
+    "longitude": 116.271,
+    "latitude": 37.1541,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_1003",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q11072996, guided by the Ming History geographic description; modern Encheng Town in Pingyuan County proxy for historical En County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_1003; documented continuity proxy"
+        "confidence": "low",
+        "note": "Wikidata Q11072996 P625; modern Encheng Town in Pingyuan County proxy for historical En County after the county-seat relocation; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical En County is represented by Encheng Town in Pingyuan County and remains low confidence."
     }
   },
   {
     "id": "xiajin-seat",
-    "longitude": 116.00168,
-    "latitude": 36.94928,
+    "longitude": 116,
+    "latitude": 36.948055555556,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45156",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1197959, guided by the Ming History geographic description; modern Xiajin County proxy for the Xiajin seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45156; covers the 1600 time slice"
+        "note": "Wikidata Q1197959 P625; modern Xiajin County proxy for the Xiajin seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Xiajin County proxy for the Xiajin seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "wucheng-dongchang-seat",
-    "longitude": 115.88631,
-    "latitude": 37.14809,
+    "longitude": 116.07631,
+    "latitude": 37.21207,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85173",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q263106, guided by the Ming History geographic description; modern Wucheng County proxy for the Wucheng seat; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85173; covers the 1600 time slice"
+        "note": "Wikidata Q263106 P625; modern Wucheng County proxy for the Wucheng seat; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Wucheng County proxy for the Wucheng seat; exact old administrative compound remains unresolved."
     }
   },
   {
     "id": "puzhou-seat",
-    "longitude": 115.39219,
-    "latitude": 35.73618,
+    "longitude": 115.37633,
+    "latitude": 35.7198,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_86022",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q13801438, guided by the Ming History geographic description; modern Pucheng Town in Fan County proxy for the historical Puzhou seat; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_86022; documented continuity proxy"
+        "confidence": "low",
+        "note": "Wikidata Q13801438 P625; modern Pucheng Town in Fan County proxy for the historical Puzhou seat after its relocation; the present town is in Henan and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; the historical Puzhou seat is represented by Pucheng Town in Fan County and remains low confidence."
     }
   },
   {
     "id": "fan-seat",
-    "longitude": 115.62972,
-    "latitude": 35.93529,
+    "longitude": 115.50135,
+    "latitude": 35.85722,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85107",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198967, guided by the Ming History geographic description; modern Fan County proxy for the historical Fan seat; exact old administrative compound remains unresolved",
+    "confidence": "low",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85107; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q1198967 P625; modern Fan County proxy for the historical Fan seat in the present Henan-Shandong border region; administrative continuity and the exact old compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Fan County proxy for the historical seat remains low confidence."
     }
   },
   {
     "id": "guancheng-seat",
-    "longitude": 115.37628,
-    "latitude": 35.94408,
+    "longitude": 115.37845,
+    "latitude": 35.94129,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85089",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q14813163, guided by the Ming History geographic description; modern Guancheng Town in Shen County proxy for historical Guancheng County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85089; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q14813163 P625; modern Guancheng Town in Shen County proxy for historical Guancheng County; the former county is no longer a separate unit and the exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Guancheng County is represented by Guancheng Town in Shen County and remains low confidence."
     }
   },
   {
     "id": "chaocheng-seat",
-    "longitude": 115.5786,
-    "latitude": 36.05568,
+    "longitude": 115.57903,
+    "latitude": 36.05669,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85100",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q11092516, guided by the Ming History geographic description; modern Chaocheng Town in Shen County proxy for historical Chaocheng County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85100; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q11092516 P625; modern Chaocheng Town in Shen County proxy for historical Chaocheng County; later administrative changes and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Chaocheng County is represented by Chaocheng Town in Shen County and remains low confidence."
     }
   },
   {
     "id": "linzi-seat",
-    "longitude": 118.28753,
-    "latitude": 36.8096,
+    "longitude": 118.3,
+    "latitude": 36.816666666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85236",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q225872, guided by the Ming History geographic description; modern Linzi District proxy for historical Linzi County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85236; covers the 1600 time slice"
+        "note": "Wikidata Q225872 P625; modern Linzi District proxy for historical Linzi County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Linzi County is represented by Linzi District and remains medium confidence."
     }
   },
   {
     "id": "boxing-seat",
-    "longitude": 118.1277,
-    "latitude": 37.1354,
+    "longitude": 118.226,
+    "latitude": 37.1781,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85247",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q895684, guided by the Ming History geographic description; modern Boxing County proxy for historical Boxing County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85247; covers the 1600 time slice"
+        "note": "Wikidata Q895684 P625; modern Boxing County proxy for historical Boxing County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Boxing County is represented by Boxing County and remains medium confidence."
     }
   },
   {
     "id": "gaoyuan-seat",
-    "longitude": 117.9595,
-    "latitude": 37.09429,
+    "longitude": 117.95582,
+    "latitude": 37.09708,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85229",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q2857710, guided by the Ming History geographic description; modern Gaocheng Town proxy for historical Gaoyuan County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85229; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q2857710 P625; modern Gaocheng Town proxy for historical Gaoyuan County; later administrative changes and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Gaoyuan County is represented by Gaocheng Town and remains low confidence."
     }
   },
   {
     "id": "lean-qingzhou-seat",
-    "longitude": 118.40031,
-    "latitude": 37.0498,
+    "longitude": 118.36666666667,
+    "latitude": 37.066666666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85259",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1197940, guided by the Ming History geographic description; modern Guangrao County proxy for historical Lean County; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85259; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q1197940 P625; modern Guangrao County proxy for historical Lean County; later administrative changes and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Lean County is represented by Guangrao County and remains low confidence."
     }
   },
   {
     "id": "shouguang-seat",
-    "longitude": 118.73851,
-    "latitude": 36.8798,
+    "longitude": 118.73333333333,
+    "latitude": 36.883333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85269",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1357984, guided by the Ming History geographic description; modern Shouguang County proxy for historical Shouguang County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85269; covers the 1600 time slice"
+        "note": "Wikidata Q1357984 P625; modern Shouguang County proxy for historical Shouguang County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Shouguang County is represented by Shouguang County and remains medium confidence."
     }
   },
   {
     "id": "changle-seat",
-    "longitude": 118.83671,
-    "latitude": 36.70358,
+    "longitude": 118.75,
+    "latitude": 36.7,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85298",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1062070, guided by the Ming History geographic description; modern Changle County proxy for historical Changle County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85298; covers the 1600 time slice"
+        "note": "Wikidata Q1062070 P625; modern Changle County proxy for historical Changle County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Changle County is represented by Changle County and remains medium confidence."
     }
   },
   {
     "id": "linqu-seat",
-    "longitude": 118.54163,
-    "latitude": 36.51025,
+    "longitude": 118.54222222222,
+    "latitude": 36.512222222222,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_45061",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198208, guided by the Ming History geographic description; modern Linqu County proxy for historical Linqu County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_45061; covers the 1600 time slice"
+        "note": "Wikidata Q1198208 P625; modern Linqu County proxy for historical Linqu County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Linqu County is represented by Linqu County and remains medium confidence."
     }
   },
   {
     "id": "anqiu-seat",
-    "longitude": 119.19739,
-    "latitude": 36.42905,
+    "longitude": 119.10720277778,
+    "latitude": 36.361933333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85322",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q568514, guided by the Ming History geographic description; modern Anqiu County proxy for historical Anqiu County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85322; covers the 1600 time slice"
+        "note": "Wikidata Q568514 P625; modern Anqiu County proxy for historical Anqiu County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Anqiu County is represented by Anqiu County and remains medium confidence."
     }
   },
   {
     "id": "zhucheng-seat",
-    "longitude": 119.40398,
-    "latitude": 35.99335,
+    "longitude": 119.41666666667,
+    "latitude": 36,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85368",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q198184, guided by the Ming History geographic description; modern Zhucheng County proxy for historical Zhucheng County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85368; covers the 1600 time slice"
+        "note": "Wikidata Q198184 P625; modern Zhucheng County proxy for historical Zhucheng County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Zhucheng County is represented by Zhucheng County and remains medium confidence."
     }
   },
   {
     "id": "mengyin-seat",
-    "longitude": 117.92838,
-    "latitude": 35.71375,
+    "longitude": 118,
+    "latitude": 35.739166666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85632",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198263, guided by the Ming History geographic description; modern Mengyin County proxy for historical Mengyin County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85632; covers the 1600 time slice"
+        "note": "Wikidata Q1198263 P625; modern Mengyin County proxy for historical Mengyin County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Mengyin County is represented by Mengyin County and remains medium confidence."
     }
   },
   {
     "id": "juzhou-seat",
-    "longitude": 118.83442,
-    "latitude": 35.58189,
+    "longitude": 118.83361666667,
+    "latitude": 35.576916666667,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85619",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198076, guided by the Ming History geographic description; modern Ju County proxy for historical Juzhou; later administrative changes and the exact old administrative compound remain unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85619; documented continuity proxy"
+        "note": "Wikidata Q1198076 P625; modern Ju County proxy for historical Juzhou; later administrative changes and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Juzhou is represented by Ju County and remains medium confidence."
     }
   },
   {
     "id": "yishui-seat",
-    "longitude": 118.62395,
-    "latitude": 35.79103,
+    "longitude": 118.627,
+    "latitude": 35.79,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85636",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1198349, guided by the Ming History geographic description; modern Yishui County proxy for historical Yishui County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85636; covers the 1600 time slice"
+        "note": "Wikidata Q1198349 P625; modern Yishui County proxy for historical Yishui County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Yishui County is represented by Yishui County and remains medium confidence."
     }
   },
   {
     "id": "rizhao-seat",
-    "longitude": 119.54641,
-    "latitude": 35.39318,
+    "longitude": 119.43305555556,
+    "latitude": 35.416388888889,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85651",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q373101, guided by the Ming History geographic description; modern Rizhao County proxy for historical Rizhao County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85651; covers the 1600 time slice"
+        "note": "Wikidata Q373101 P625; modern Rizhao County proxy for historical Rizhao County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Rizhao County is represented by Rizhao County and remains medium confidence."
     }
   },
   {
     "id": "pingdu-seat",
-    "longitude": 119.94828,
-    "latitude": 36.78823,
+    "longitude": 119.95555555556,
+    "latitude": 36.783333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85392",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q2060398, guided by the Ming History geographic description; modern Pingdu County proxy for historical Pingdu County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85392; covers the 1600 time slice"
+        "note": "Wikidata Q2060398 P625; modern Pingdu County proxy for historical Pingdu County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Pingdu County is represented by Pingdu County and remains medium confidence."
     }
   },
   {
     "id": "wei-laizhou-seat",
-    "longitude": 119.1065,
-    "latitude": 36.70271,
+    "longitude": 119.106,
+    "latitude": 36.714,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85471",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q669533, guided by the Ming History geographic description; modern Weicheng District proxy for historical Wei County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85471; covers the 1600 time slice"
+        "note": "Wikidata Q669533 P625; modern Weicheng District proxy for historical Wei County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Wei County is represented by Weicheng District and remains medium confidence."
     }
   },
   {
     "id": "changyi-laizhou-seat",
-    "longitude": 119.39998,
-    "latitude": 36.85567,
+    "longitude": 119.39041,
+    "latitude": 36.85282,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_1041",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1062186, guided by the Ming History geographic description; modern Changyi County proxy for historical Changyi County; later administrative changes and the exact old administrative compound remain unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_1041; documented continuity proxy"
+        "note": "Wikidata Q1062186 P625; modern Changyi County proxy for historical Changyi County; later administrative changes and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Changyi County is represented by Changyi County and remains medium confidence."
     }
   },
   {
     "id": "jiaozhou-seat",
-    "longitude": 120.0073,
-    "latitude": 36.30003,
+    "longitude": 119.9625,
+    "latitude": 36.248055555556,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85479",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q289051, guided by the Ming History geographic description; modern Jiaozhou City proxy for historical Jiaozhou; later administrative changes and the exact old administrative compound remain unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85479; documented continuity proxy"
+        "note": "Wikidata Q289051 P625; modern Jiaozhou City proxy for historical Jiaozhou; later administrative changes and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Reversible proxy selected from the documented predecessor or successor seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Jiaozhou is represented by Jiaozhou City and remains medium confidence."
     }
   },
   {
     "id": "gaomi-seat",
-    "longitude": 119.75256,
-    "latitude": 36.38541,
+    "longitude": 119.75,
+    "latitude": 36.383333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85499",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q651101, guided by the Ming History geographic description; modern Gaomi City proxy for historical Gaomi County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85499; covers the 1600 time slice"
+        "note": "Wikidata Q651101 P625; modern Gaomi City proxy for historical Gaomi County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Gaomi County is represented by Gaomi City and remains medium confidence."
     }
   },
   {
     "id": "jimo-seat",
-    "longitude": 120.45041,
-    "latitude": 36.38211,
+    "longitude": 120.46666666667,
+    "latitude": 36.383333333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85461",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q713349, guided by the Ming History geographic description; modern Jimo District proxy for historical Jimo County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85461; covers the 1600 time slice"
+        "note": "Wikidata Q713349 P625; modern Jimo District proxy for historical Jimo County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Jimo County is represented by Jimo District and remains medium confidence."
     }
   },
   {
     "id": "huang-dengzhou-seat",
-    "longitude": 120.48267,
-    "latitude": 37.65942,
+    "longitude": 120.325,
+    "latitude": 37.65,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85374",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1207037, guided by the Ming History geographic description; modern Longkou City proxy for historical Huang County; later renaming and the exact old administrative compound remain unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85374; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q1207037 P625; modern Longkou City proxy for historical Huang County; later renaming and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Huang County is represented by Longkou City and remains low confidence."
     }
   },
   {
     "id": "fushan-seat",
-    "longitude": 121.26053,
-    "latitude": 37.49328,
+    "longitude": 121.263,
+    "latitude": 37.49719,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85424",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1197949, guided by the Ming History geographic description; modern Fushan District proxy for historical Fushan County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85424; covers the 1600 time slice"
+        "note": "Wikidata Q1197949 P625; modern Fushan District proxy for historical Fushan County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Fushan County is represented by Fushan District and remains medium confidence."
     }
   },
   {
     "id": "qixia-seat",
-    "longitude": 120.82707,
-    "latitude": 37.30238,
+    "longitude": 120.8275,
+    "latitude": 37.305555555556,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85426",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1359073, guided by the Ming History geographic description; modern Qixia County proxy for historical Qixia County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85426; covers the 1600 time slice"
+        "note": "Wikidata Q1359073 P625; modern Qixia County proxy for historical Qixia County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Qixia County is represented by Qixia County and remains medium confidence."
     }
   },
   {
     "id": "zhaoyuan-seat",
-    "longitude": 120.38838,
-    "latitude": 37.35215,
+    "longitude": 120.396,
+    "latitude": 37.359,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85427",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q197524, guided by the Ming History geographic description; modern Zhaoyuan City proxy for historical Zhaoyuan County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85427; covers the 1600 time slice"
+        "note": "Wikidata Q197524 P625; modern Zhaoyuan City proxy for historical Zhaoyuan County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Zhaoyuan County is represented by Zhaoyuan City and remains medium confidence."
     }
   },
   {
     "id": "laiyang-seat",
-    "longitude": 120.70584,
-    "latitude": 36.97116,
+    "longitude": 120.71361111111,
+    "latitude": 36.975833333333,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85384",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q371640, guided by the Ming History geographic description; modern Laiyang City proxy for historical Laiyang County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85384; covers the 1600 time slice"
+        "note": "Wikidata Q371640 P625; modern Laiyang City proxy for historical Laiyang County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Laiyang County is represented by Laiyang City and remains medium confidence."
     }
   },
   {
     "id": "ninghai-dengzhou-seat",
-    "longitude": 121.58773,
-    "latitude": 37.37655,
+    "longitude": 121.6,
+    "latitude": 37.3833,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85407",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q281015, guided by the Ming History geographic description; modern Muping District proxy for historical Ninghai County; later administrative changes and the exact old administrative compound remain unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_85407; covers the 1600 time slice"
+        "confidence": "low",
+        "note": "Wikidata Q281015 P625; modern Muping District proxy for historical Ninghai County; later administrative changes and the exact old administrative compound remain unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Ninghai County is represented by Muping District and remains low confidence."
     }
   },
   {
     "id": "wendeng-seat",
-    "longitude": 122.05669,
-    "latitude": 37.19306,
+    "longitude": 122.05,
+    "latitude": 37.2,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer point hvd_85428",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1207049, guided by the Ming History geographic description; modern Wendeng District proxy for historical Wendeng County; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-two",
-        "claim": "location",
-        "confidence": "medium"
+        "claim": "existence",
+        "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_85428; covers the 1600 time slice"
+        "note": "Wikidata Q1207049 P625; modern Wendeng District proxy for historical Wendeng County; exact old administrative compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-14",
-      "revisionNote": "Selected a contemporaneous CHGIS point"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shandong coordinate replacement: replaced the restricted CHGIS location claim with an independently sourced modern proxy; historical Wendeng County is represented by Wendeng District and remains medium confidence."
     }
   }
 ]
