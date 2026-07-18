@@ -163,7 +163,19 @@ fn assemble_value(manifest_path: &Path) -> Result<Value, String> {
             .get_mut(&fragment.collection)
             .and_then(Value::as_array_mut)
             .expect("known collection must be an array");
-        target.extend(items.iter().cloned());
+        if fragment.collection == "administrativeUnits" {
+            for item in items {
+                let mut item = item.clone();
+                if let Some(domain) = &fragment.domain {
+                    item.as_object_mut()
+                        .ok_or_else(|| format!("Fragment {} contains a non-object unit", fragment_path.display()))?
+                        .insert("domain".to_owned(), Value::String(domain.clone()));
+                }
+                target.push(item);
+            }
+        } else {
+            target.extend(items.iter().cloned());
+        }
     }
 
     Ok(Value::Object(root))

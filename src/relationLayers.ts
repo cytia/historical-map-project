@@ -84,8 +84,8 @@ function coordinateAt(coordinates: GeoJSON.Position[], progress: number): GeoJSO
   return [from[0] + (to[0] - from[0]) * local, from[1] + (to[1] - from[1]) * local];
 }
 
-function segmentCoordinates(coordinates: GeoJSON.Position[], end: number) {
-  const start = Math.max(0, end - tokens.relationFlowSegmentLength);
+function segmentCoordinates(coordinates: GeoJSON.Position[], end: number, segmentLength: number) {
+  const start = Math.max(0, end - segmentLength);
   const firstIndex = Math.ceil(start * (coordinates.length - 1));
   const lastIndex = Math.floor(end * (coordinates.length - 1));
   const segment = [coordinateAt(coordinates, start)];
@@ -94,20 +94,33 @@ function segmentCoordinates(coordinates: GeoJSON.Position[], end: number) {
   return segment;
 }
 
-function flowData(
+export interface FlowDataConfig {
+  segmentLength: number;
+  durationMs: number;
+  pauseMs: number;
+}
+
+const defaultFlowConfig: FlowDataConfig = {
+  segmentLength: tokens.relationFlowSegmentLength,
+  durationMs: tokens.relationFlowDurationMs,
+  pauseMs: tokens.relationFlowPauseMs,
+};
+
+export function flowData(
   relations: GeoJSON.FeatureCollection<GeoJSON.LineString>,
   elapsed: number,
+  config: FlowDataConfig = defaultFlowConfig,
 ): GeoJSON.FeatureCollection<GeoJSON.LineString> {
-  const cycle = tokens.relationFlowDurationMs + tokens.relationFlowPauseMs;
+  const cycle = config.durationMs + config.pauseMs;
   return {
     type: "FeatureCollection",
     features: relations.features.flatMap((feature, index) => {
       const offset = (index / relations.features.length) * cycle;
       const localElapsed = (elapsed + offset) % cycle;
-      if (localElapsed >= tokens.relationFlowDurationMs) return [];
-      const progress = localElapsed / tokens.relationFlowDurationMs;
+      if (localElapsed >= config.durationMs) return [];
+      const progress = localElapsed / config.durationMs;
       return [{ ...feature, geometry: { type: "LineString" as const,
-        coordinates: segmentCoordinates(feature.geometry.coordinates, progress) } }];
+        coordinates: segmentCoordinates(feature.geometry.coordinates, progress, config.segmentLength) } }];
     }),
   };
 }

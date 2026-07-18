@@ -1,5 +1,5 @@
 import projectData from "../data/project.json";
-import type { CountyRecord, ProjectData, SeatRecord } from "./types";
+import type { CountyRecord, MilitaryRecord, ProjectData, SeatRecord } from "./types";
 import { buildAdministrativeData, findTopLevelUnitId, summarizeRegion } from "./administrativeData";
 
 export const data = projectData as ProjectData;
@@ -26,7 +26,7 @@ export const getStatistics = (unitId: string) =>
   data.statistics.filter((record) => record.administrativeUnitId === unitId);
 export const getRegionSummary = (regionId: string | null) => summarizeRegion(seats, regionId);
 
-export function getSources(record: SeatRecord | CountyRecord): ProjectData["sources"] {
+export function getSources(record: SeatRecord | CountyRecord | MilitaryRecord): ProjectData["sources"] {
   const ids = new Set([
     ...record.unit.sources.map((source) => source.sourceId),
     ...record.place.sources.map((source) => source.sourceId),

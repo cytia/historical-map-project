@@ -8,23 +8,29 @@ import {
 } from "./mapSelection";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { seatLayerIds } from "./seatLayers";
-import type { AdministrativeDisplayScope, MapDisplayMode } from "./types";
+import { setMilitarySelection, setMilitaryVisibility } from "./militaryLayers";
+import type { HierarchyScope, MapDisplayMode, MilitaryColorMode } from "./types";
 
 interface MapSelectionSyncOptions {
   mapRef: RefObject<Map | null>;
   hoveredRegionRef: RefObject<string | null>;
   selectedUnitId: string | null;
+  selectedMilitaryUnitId: string | null;
   selectedCountyId: string | null;
   activeRegionId: string | null;
-  administrativeDisplayScope: AdministrativeDisplayScope;
+  hierarchyScope: HierarchyScope;
   mapDisplayMode: MapDisplayMode;
+  militaryColorMode: MilitaryColorMode;
   seatsVisible: boolean;
+  militaryVisible: boolean;
 }
 
 export function useMapSelectionSync(options: MapSelectionSyncOptions) {
-  const { mapRef, hoveredRegionRef, selectedUnitId, selectedCountyId,
-    activeRegionId, administrativeDisplayScope, mapDisplayMode, seatsVisible } = options;
+  const { mapRef, hoveredRegionRef, selectedUnitId, selectedMilitaryUnitId, selectedCountyId,
+    activeRegionId, hierarchyScope, mapDisplayMode, militaryColorMode, seatsVisible,
+    militaryVisible } = options;
   const selectedRegionId = getUnitRegionId(selectedUnitId);
+  const militaryRegionId = selectedRegionId ?? activeRegionId;
 
   useEffect(() => {
     const map = mapRef.current;
@@ -44,19 +50,37 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
       selectedUnitId,
       selectedCountyId,
       countyRegionId: selectedRegionId ?? activeRegionId,
-      administrativeDisplayScope,
+      hierarchyScope,
       displayMode: mapDisplayMode,
     });
   }, [mapRef, selectedUnitId, selectedCountyId, selectedRegionId, activeRegionId,
-    administrativeDisplayScope, mapDisplayMode]);
+    hierarchyScope, mapDisplayMode]);
 
   useEffect(() => {
     const map = mapRef.current;
-    if (map) focusMapSelection(map, selectedUnitId, selectedCountyId);
-  }, [mapRef, selectedUnitId, selectedCountyId]);
+    if (!map?.getLayer("military-points")) return;
+    setMilitarySelection(map, {
+      selectedMilitaryId: selectedMilitaryUnitId,
+      selectedAdministrativeId: selectedUnitId,
+      activeRegionId: militaryRegionId,
+      scope: hierarchyScope,
+      colorMode: militaryColorMode,
+    });
+  }, [mapRef, selectedMilitaryUnitId, selectedUnitId, militaryRegionId,
+    hierarchyScope, militaryColorMode]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (map) focusMapSelection(map, selectedUnitId, selectedCountyId, selectedMilitaryUnitId);
+  }, [mapRef, selectedUnitId, selectedCountyId, selectedMilitaryUnitId]);
 
   useEffect(() => {
     const map = mapRef.current;
     if (map) setLayerVisibility(map, seatLayerIds, seatsVisible);
   }, [mapRef, seatsVisible]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (map) setMilitaryVisibility(map, militaryVisible);
+  }, [mapRef, militaryVisible]);
 }

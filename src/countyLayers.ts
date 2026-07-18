@@ -10,7 +10,7 @@ import { affiliationColorExpression } from "./mapDisplay";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { curvedCoordinates } from "./relationLayers";
 import { defaultTheme } from "./theme";
-import type { AdministrativeDisplayScope, MapDisplayMode } from "./types";
+import type { HierarchyScope, MapDisplayMode } from "./types";
 
 const tokens = defaultTheme.map;
 const sourceId = "counties";
@@ -23,7 +23,7 @@ export interface CountyLayerSelection {
   selectedUnitId: string | null;
   selectedCountyId: string | null;
   regionId: string | null;
-  scope: AdministrativeDisplayScope;
+  scope: HierarchyScope;
   displayMode: MapDisplayMode;
 }
 
@@ -48,8 +48,8 @@ function selectedTopLevelId(selection: CountyLayerSelection) {
 
 function displayRootId(selection: CountyLayerSelection) {
   const topLevelId = selectedTopLevelId(selection);
-  if (!topLevelId || selection.scope === "seat") return null;
-  return selection.scope === "region" ? selection.regionId ?? topLevelId : topLevelId;
+  if (!topLevelId || selection.scope === "overview") return null;
+  return selection.scope === "domain" ? selection.regionId ?? topLevelId : topLevelId;
 }
 
 function setOpacity(map: Map, visible: boolean) {

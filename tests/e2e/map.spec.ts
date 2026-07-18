@@ -44,6 +44,18 @@ test("keeps affiliation modes separate from base layer toggles", async ({ page }
   await expect(page.getByRole("button", { name: "山川地貌" })).toBeEnabled();
 });
 
+test("exposes the military layer and military-only coloring", async ({ page }) => {
+  await page.goto("/");
+  const militaryLayer = page.getByRole("button", { name: "都司" });
+  const militaryColor = page.getByRole("button", { name: "军事着色视图" });
+  await expect(militaryLayer).toHaveAttribute("aria-pressed", "false");
+  await expect(militaryColor).toBeEnabled();
+  await militaryColor.click();
+  await expect(militaryColor).toHaveAttribute("aria-pressed", "true");
+  await militaryLayer.click();
+  await expect(militaryLayer).toHaveAttribute("aria-pressed", "true");
+});
+
 test("shows the selected seat's administrative region", async ({ page, isMobile }) => {
   test.skip(isMobile, "Region focus is covered once on desktop");
   await page.goto("/");
@@ -236,7 +248,7 @@ test("opens map controls on a mobile viewport", async ({ page, isMobile }) => {
   await page.getByRole("button", { name: "全国与省级资料" }).click();
   await expect(page.getByText("全国总览")).toBeVisible();
   await expect(page.getByRole("button", { name: "府州治所" })).toBeVisible();
-  await expect(page.getByRole("button", { name: "府级关系" })).toBeEnabled();
-  await expect(page.getByRole("button", { name: "当前州府" })).toBeEnabled();
+  await expect(page.getByRole("button", { name: "总览" })).toBeEnabled();
+  await expect(page.getByRole("button", { name: "本级" })).toBeEnabled();
   expect(errors).toEqual([]);
 });

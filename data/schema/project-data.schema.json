@@ -187,6 +187,15 @@
         "level": {
           "enum": ["capital-region", "province", "prefecture", "department", "county", "military"]
         },
+        "domain": {
+          "enum": ["administrative", "military", "special-governance"]
+        },
+        "militaryKind": {
+          "enum": ["dusi", "xing-dusi", "liushou-si", "wei", "qianhu-suo", "suo"]
+        },
+        "fiveArmyId": {
+          "enum": ["central", "left", "right", "front", "rear"]
+        },
         "polityId": { "$ref": "#/$defs/id" },
         "parentId": { "$ref": "#/$defs/id" },
         "seatPlaceId": { "$ref": "#/$defs/id" },

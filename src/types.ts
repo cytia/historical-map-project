@@ -1,6 +1,11 @@
 export type Confidence = "high" | "medium" | "low";
-export type AdministrativeDisplayScope = "seat" | "prefecture" | "region";
+export type UnitDomain = "administrative" | "military" | "special-governance";
+export type HierarchyScope = "overview" | "unit" | "domain";
+export type AdministrativeDisplayScope = HierarchyScope;
 export type MapDisplayMode = "administrative" | "jurisdiction" | "control";
+export type MilitaryColorMode = "administrative" | "military";
+export type SelectionDomain = "administrative" | "military";
+export type MilitaryUnitKind = "dusi" | "xing-dusi" | "liushou-si" | "wei" | "qianhu-suo" | "suo";
 
 export interface SourceLink {
   sourceId: string;
@@ -22,7 +27,10 @@ export interface AdministrativeUnit {
   id: string;
   name: string;
   formalName?: string;
-  level: "capital-region" | "province" | "prefecture" | "department" | "county";
+  level: "capital-region" | "province" | "prefecture" | "department" | "county" | "military";
+  domain?: UnitDomain;
+  militaryKind?: MilitaryUnitKind;
+  fiveArmyId?: "central" | "left" | "right" | "front" | "rear";
   polityId: string;
   parentId?: string;
   seatPlaceId?: string;
@@ -87,4 +95,13 @@ export interface CountyRecord {
   name: string;
   parent: AdministrativeUnit;
   region: AdministrativeUnit;
+}
+
+export interface MilitaryRecord {
+  unit: AdministrativeUnit;
+  place: Place;
+  name: string;
+  administrativeRegionId: string | null;
+  administrativeUnitId: string | null;
+  militaryParentId: string | null;
 }

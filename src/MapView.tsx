@@ -18,6 +18,7 @@ import {
   addSeatLayers,
   setSeatFocus,
 } from "./seatLayers";
+import { addMilitaryLayers, stopMilitaryRelationAnimation } from "./militaryLayers";
 import { useAppStore } from "./store";
 import { addTerrainStyle, ensureTerrainProtocol } from "./terrain";
 import { useAdministrativeTargetChoice } from "./useAdministrativeTargetChoice";
@@ -28,21 +29,26 @@ export function MapView() {
   const mapRef = useRef<maplibregl.Map | null>(null);
   const hoveredRegionRef = useRef<string | null>(null);
   const selectUnit = useAppStore((state) => state.selectUnit);
+  const selectMilitaryUnit = useAppStore((state) => state.selectMilitaryUnit);
   const selectCounty = useAppStore((state) => state.selectCounty);
   const resetSelection = useAppStore((state) => state.resetSelection);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const setHoveredRegion = useAppStore((state) => state.setHoveredRegion);
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
+  const selectedMilitaryUnitId = useAppStore((state) => state.selectedMilitaryUnitId);
   const selectedCountyId = useAppStore((state) => state.selectedCountyId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
+  const militaryVisible = useAppStore((state) => state.militaryVisible);
   const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
-  const administrativeDisplayScope = useAppStore((state) => state.administrativeDisplayScope);
+  const hierarchyScope = useAppStore((state) => state.hierarchyScope);
   const mapDisplayMode = useAppStore((state) => state.mapDisplayMode);
+  const militaryColorMode = useAppStore((state) => state.militaryColorMode);
   const { targetChoice, closeTargetChoice, chooseTargets, applyAdministrativeTarget } =
-    useAdministrativeTargetChoice({ selectCounty, selectUnit, setActiveRegion });
-  useMapSelectionSync({ mapRef, hoveredRegionRef, selectedUnitId, selectedCountyId,
-    activeRegionId, administrativeDisplayScope, mapDisplayMode, seatsVisible });
+    useAdministrativeTargetChoice({ selectCounty, selectUnit, selectMilitaryUnit, setActiveRegion });
+  useMapSelectionSync({ mapRef, hoveredRegionRef, selectedUnitId, selectedMilitaryUnitId,
+    selectedCountyId, activeRegionId, hierarchyScope, mapDisplayMode, militaryColorMode,
+    seatsVisible, militaryVisible });
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -75,11 +81,18 @@ export function MapView() {
       addRelationLayers(map, state.selectedUnitId, true);
       addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId,
         state.seatsVisible, state.mapDisplayMode);
+      addMilitaryLayers(map, {
+        selectedMilitaryId: state.selectedMilitaryUnitId,
+        selectedAdministrativeId: state.selectedUnitId,
+        activeRegionId: selectedRegionId,
+        scope: state.hierarchyScope,
+        colorMode: state.militaryColorMode,
+      }, state.militaryVisible);
       addCountyLayers(map, {
         selectedUnitId: state.selectedUnitId,
         selectedCountyId: state.selectedCountyId,
         regionId: selectedRegionId,
-        scope: state.administrativeDisplayScope,
+        scope: state.hierarchyScope,
         displayMode: state.mapDisplayMode,
       }, true);
       setRelationSelection(map, state.selectedUnitId);
@@ -94,6 +107,7 @@ export function MapView() {
       },
       applyAdministrativeTarget,
       chooseTargets,
+      () => useAppStore.getState().selectionDomain,
     );
     const handleHover = (event: MapLayerMouseEvent) => {
       const feature = event.features?.[0];
@@ -110,6 +124,12 @@ export function MapView() {
     map.on("mousemove", "seat-points", handleHover);
     map.on("mouseenter", "seat-points", () => {
       map.getCanvas().style.cursor = "pointer";
+    });
+    map.on("mouseenter", "military-points", () => {
+      map.getCanvas().style.cursor = "pointer";
+    });
+    map.on("mouseleave", "military-points", () => {
+      map.getCanvas().style.cursor = "";
     });
     map.on("mouseenter", "county-points", () => {
       map.getCanvas().style.cursor = "pointer";
@@ -132,14 +152,15 @@ export function MapView() {
     return () => {
       stopSelectionPointerController();
       stopRelationAnimation(map);
+      stopMilitaryRelationAnimation(map);
       map.remove();
       mapRef.current = null;
     };
-  }, [applyAdministrativeTarget, chooseTargets, closeTargetChoice,
+  }, [applyAdministrativeTarget, chooseTargets, closeTargetChoice, selectMilitaryUnit,
     resetSelection, setHoveredRegion]);
 
-  useEffect(closeTargetChoice, [administrativeDisplayScope, selectedCountyId,
-    selectedUnitId, closeTargetChoice]);
+  useEffect(closeTargetChoice, [hierarchyScope, selectedCountyId,
+    selectedMilitaryUnitId, selectedUnitId, closeTargetChoice]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -147,11 +168,13 @@ export function MapView() {
 
     if (!modernReferenceVisible) {
       stopRelationAnimation(map);
+      stopMilitaryRelationAnimation(map);
       map.setStyle(paperStyle);
       return;
     }
 
     stopRelationAnimation(map);
+    stopMilitaryRelationAnimation(map);
     map.setStyle(addTerrainStyle(naturalReferenceStyle, import.meta.env.VITE_TERRAIN_URL));
   }, [modernReferenceVisible]);
   return <>

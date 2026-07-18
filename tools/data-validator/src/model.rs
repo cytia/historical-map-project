@@ -144,6 +144,9 @@ pub struct AdministrativeUnit {
     pub name: String,
     pub formal_name: Option<String>,
     pub level: AdministrativeLevel,
+    pub domain: Option<UnitDomain>,
+    pub military_kind: Option<MilitaryUnitKind>,
+    pub five_army_id: Option<FiveArmyId>,
     pub polity_id: String,
     pub parent_id: Option<String>,
     pub seat_place_id: Option<String>,
@@ -151,6 +154,35 @@ pub struct AdministrativeUnit {
     pub confidence: Confidence,
     pub sources: Vec<SourceLink>,
     pub audit: Audit,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum UnitDomain {
+    Administrative,
+    Military,
+    SpecialGovernance,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum MilitaryUnitKind {
+    Dusi,
+    XingDusi,
+    LiushouSi,
+    Wei,
+    QianhuSuo,
+    Suo,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum FiveArmyId {
+    Central,
+    Left,
+    Right,
+    Front,
+    Rear,
 }
 
 #[derive(Debug, Deserialize)]

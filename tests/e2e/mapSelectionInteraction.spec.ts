@@ -89,9 +89,9 @@ test("keeps the final scope after rapid switching and resolves co-located target
   await page.emulateMedia({ reducedMotion: "reduce" });
   await prepareMap(page);
   const canvas = page.locator(".maplibregl-canvas");
-  const seatScope = page.getByRole("button", { name: "府级关系" });
-  const prefectureScope = page.getByRole("button", { name: "当前州府" });
-  const regionScope = page.getByRole("button", { name: "所属一级区域" });
+  const seatScope = page.getByRole("button", { name: "总览" });
+  const prefectureScope = page.getByRole("button", { name: "本级" });
+  const regionScope = page.getByRole("button", { name: "全域" });
 
   await regionScope.click();
   await page.getByRole("textbox", { name: "搜索历史地名" }).fill("应天府");
@@ -100,7 +100,7 @@ test("keeps the final scope after rapid switching and resolves co-located target
   const regionView = await canvas.screenshot();
 
   await seatScope.click();
-  await expect(page.getByText("府级视图不显示下辖州县")).toBeVisible();
+  await expect(page.getByText("总览视图不显示下辖单位")).toBeVisible();
   await expect.poll(async () => (await canvas.screenshot()).equals(regionView)).toBe(false);
   await prefectureScope.click();
   await expect(page.getByRole("button", { name: "上元县" })).toBeVisible();

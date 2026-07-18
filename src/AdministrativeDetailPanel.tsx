@@ -124,8 +124,8 @@ function Jurisdiction({ seat, disabled }: { seat: SeatRecord; disabled: boolean 
     .filter(Boolean).join(" · ");
   if (disabled) return (
     <section className="jurisdiction is-disabled">
-      <div className="section-heading"><p className="eyebrow">下辖单位</p><span>府级模式</span></div>
-      <p className="metric-empty">府级视图不显示下辖州县</p>
+      <div className="section-heading"><p className="eyebrow">下辖单位</p><span>总览模式</span></div>
+      <p className="metric-empty">总览视图不显示下辖单位</p>
     </section>
   );
   return (
@@ -170,7 +170,7 @@ export function AdministrativeDetailPanel({ seat, county }: {
   const detailsOpen = useAppStore((state) => state.detailsOpen);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const setDetailsOpen = useAppStore((state) => state.setDetailsOpen);
-  const administrativeDisplayScope = useAppStore((state) => state.administrativeDisplayScope);
+  const hierarchyScope = useAppStore((state) => state.hierarchyScope);
   const record = county ?? seat;
   if (!record) return null;
   const sources = getSources(record);
@@ -196,7 +196,7 @@ export function AdministrativeDetailPanel({ seat, county }: {
         <PopulationMetric unitId={record.unit.id} />
         <TaxMetric unitId={record.unit.id} />
         {county ? <PeerCounties county={county} /> :
-          <Jurisdiction seat={seat!} disabled={administrativeDisplayScope === "seat"} />}
+          <Jurisdiction seat={seat!} disabled={hierarchyScope === "overview"} />}
 
         <section className="location-summary">
           <p className="eyebrow">治所定位</p>

@@ -1,15 +1,20 @@
 import { useEffect } from "react";
 import { counties, seats } from "./data";
-import type { AdministrativeTarget } from "./mapSelectionInteraction";
+import { militaryById } from "./militaryData";
+import type { MapTarget } from "./mapSelectionInteraction";
 
 interface AdministrativeTargetChooserProps {
   anchor: { x: number; y: number };
-  targets: AdministrativeTarget[];
+  targets: MapTarget[];
   onClose: () => void;
-  onSelect: (target: AdministrativeTarget) => void;
+  onSelect: (target: MapTarget) => void;
 }
 
-function targetDetails(target: AdministrativeTarget) {
+function targetDetails(target: MapTarget) {
+  if (target.kind === "military") {
+    const military = militaryById.get(target.id);
+    return { name: military?.unit.name ?? target.id, context: "军事单位" };
+  }
   if (target.kind === "county") {
     const county = counties.find(({ unit }) => unit.id === target.id);
     return {

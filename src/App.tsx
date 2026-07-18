@@ -1,7 +1,9 @@
 import { lazy, Suspense, useMemo } from "react";
 import { AdministrativeDetailPanel } from "./AdministrativeDetailPanel";
-import { AdministrativeScopeToolbar } from "./AdministrativeScopeToolbar";
+import { MilitaryDetailPanel } from "./MilitaryDetailPanel";
+import { HierarchyToolbar } from "./AdministrativeScopeToolbar";
 import { counties, regions, seats } from "./data";
+import { militaryRecords } from "./militaryData";
 import { LayerBar } from "./LayerBar";
 import { ScopePanel } from "./ScopePanel";
 import { useAppStore } from "./store";
@@ -13,17 +15,20 @@ const MapView = lazy(() =>
 export default function App() {
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
   const selectedCountyId = useAppStore((state) => state.selectedCountyId);
+  const selectedMilitaryUnitId = useAppStore((state) => state.selectedMilitaryUnitId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const hoveredRegionId = useAppStore((state) => state.hoveredRegionId);
   const searchQuery = useAppStore((state) => state.searchQuery);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const selectCounty = useAppStore((state) => state.selectCounty);
+  const selectMilitaryUnit = useAppStore((state) => state.selectMilitaryUnit);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const setSearchQuery = useAppStore((state) => state.setSearchQuery);
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
 
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
   const selectedCounty = counties.find((record) => record.unit.id === selectedCountyId);
+  const selectedMilitary = militaryRecords.find((record) => record.unit.id === selectedMilitaryUnitId);
   const panelRegion = regions.find(
     (region) => region.id === (hoveredRegionId ?? activeRegionId),
   );
@@ -40,7 +45,10 @@ export default function App() {
       unit.name.includes(query) || name.includes(query) ||
       parent.name.includes(query) || region.name.includes(query),
     ).map((record) => ({ kind: "county" as const, record }));
-    return [...seatResults, ...countyResults].slice(0, 6);
+    const militaryResults = militaryRecords.filter(({ unit, name }) =>
+      unit.name.includes(query) || name.includes(query),
+    ).map((record) => ({ kind: "military" as const, record }));
+    return [...seatResults, ...countyResults, ...militaryResults].slice(0, 6);
   }, [searchQuery]);
 
   return (
@@ -64,7 +72,7 @@ export default function App() {
             id="place-search"
             value={searchQuery}
             onChange={(event) => setSearchQuery(event.target.value)}
-            placeholder="搜索府、州、县或治所"
+            placeholder="搜索府、州、县、都司或卫所"
           />
           {results.length > 0 && (
             <div className="search-results">
@@ -72,7 +80,9 @@ export default function App() {
                 <button
                   key={record.unit.id}
                   onClick={() => {
-                    if (kind === "county") {
+                    if (kind === "military") {
+                      selectMilitaryUnit(record.unit.id, record.administrativeRegionId);
+                    } else if (kind === "county") {
                       selectCounty(record.unit.id, record.parent.id, record.region.id);
                     } else {
                       setActiveRegion(record.region.id);
@@ -82,7 +92,8 @@ export default function App() {
                   }}
                 >
                   <span>{record.unit.name}</span>
-                  <small>{kind === "county" ? `${record.parent.name} · ${record.name}` : record.name}</small>
+                  <small>{kind === "military" ? `军事 · ${record.name}` :
+                    kind === "county" ? `${record.parent.name} · ${record.name}` : record.name}</small>
                 </button>
               ))}
             </div>
@@ -97,9 +108,10 @@ export default function App() {
       </header>
 
       <ScopePanel region={panelRegion} />
-      <AdministrativeScopeToolbar />
+      <HierarchyToolbar />
 
       <AdministrativeDetailPanel seat={selected} county={selectedCounty} />
+      <MilitaryDetailPanel record={selectedMilitary} />
 
       <footer className="timeline">
         <span>1368</span>
