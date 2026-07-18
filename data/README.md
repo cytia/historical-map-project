@@ -1,6 +1,6 @@
 # Data workspace
 
-The JSON fragments under this directory are the hand-edited source data. `project.json` is a generated aggregate for the frontend and must not be edited directly.
+The JSON fragments under this directory are the hand-edited source data. `project.json` is a temporary generated aggregate for the frontend and must not be edited directly or committed.
 
 The fragment list is defined by `manifest.json`. Assemble and validate the aggregate with:
 
@@ -8,6 +8,8 @@ The fragment list is defined by `manifest.json`. Assemble and validate the aggre
 cargo run -p data-validator -- assemble data/manifest.json
 cargo run -p data-validator -- data/manifest.json
 ```
+
+`npm run dev` and `npm run build` assemble the temporary frontend input automatically. The generated `project.json` is ignored by Git and can be removed at any time.
 
 The assembled structure is defined by `schema/project-data.schema.json`. The manifest is defined by `schema/data-manifest.schema.json`.
 
@@ -29,7 +31,7 @@ Rules:
 - Keep raw third-party files outside published data unless redistribution is explicitly allowed.
 - Use stable IDs; names and periods may change without changing identity.
 - Keep physical places separate from the institutions that use them as seats.
-- Do not edit generated GeoJSON, tile artifacts, or `project.json` directly.
+- Do not edit generated GeoJSON, tile artifacts, or `project.json` directly. Treat the manifest and its fragments as the only editable data source.
 - Run assembly and the Rust validator before accepting data changes.
 
 Large source scans, caches, generated tiles, and license-restricted datasets do not belong in this directory.

@@ -1,10 +1,10 @@
 [
   {
     "id": "xian-city",
-    "longitude": 108.90697,
-    "latitude": 34.24642,
+    "longitude": 108.94222222222,
+    "latitude": 34.261111111111,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Changan county point hvd_70626; proxy for the west side of the shared Xian prefectural city",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q5826, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -13,23 +13,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70626, valid 703-1911; Xian Prefecture also shared the city with Xianning county"
+        "note": "Wikidata Q5826 P625 coordinates for the modern Xi'an City proxy for the shared historical Xian prefectural seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Uses the Changan point without treating either attached county as the sole prefectural seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "fengxiang-seat",
-    "longitude": 107.38592,
-    "latitude": 34.52252,
+    "longitude": 107.39494,
+    "latitude": 34.52178,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Fengxiang county point hvd_70896; attached county and prefectural seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1201619, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -38,23 +38,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70896, valid 1179-1911"
+        "note": "Wikidata Q1201619 P625 coordinates for the modern Fengxiang District proxy for the historical Fengxiang prefectural seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS point matching the Fengxiang seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "nanzheng-seat",
-    "longitude": 107.03519,
-    "latitude": 33.07649,
+    "longitude": 106.93905,
+    "latitude": 33.005,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Nanzheng county point hvd_70987; attached county and Hanzhong prefectural seat",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201660, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -63,23 +63,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70987, valid 1219-1911"
+        "note": "Wikidata Q1201660 P625 coordinates for the modern Nanzheng District proxy for the historical Hanzhong prefectural seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS point matching the Nanzheng seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "fushi-seat",
-    "longitude": 109.46991,
-    "latitude": 36.59181,
+    "longitude": 109.4882,
+    "latitude": 36.59123,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Fushi county point hvd_70361; attached county and Yanan prefectural seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q807078, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -88,23 +88,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70361, valid 607-1911"
+        "note": "Wikidata Q807078 P625 coordinates for the modern Baota District proxy for the historical Fushi county and Yan'an prefectural seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS point matching the Fushi seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "qingyang-anhua-seat",
-    "longitude": 107.87602,
-    "latitude": 36.00517,
+    "longitude": 107.88481,
+    "latitude": 36.00248,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Anhua county point hvd_233 from 1820; later same-city proxy for the Ming Qingyang seat",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1114832, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "low",
     "sources": [
       {
@@ -113,23 +113,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "low",
-        "note": "Record hvd_233 is dated 1820; used only as an explicit later-period proxy"
+        "note": "Wikidata Q1114832 P625 coordinates for the modern Qingcheng County proxy for the historical Anhua seat of Qingyang Prefecture; exact historical city continuity remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "No 1600 CHGIS point was available; exact Ming city continuity requires a second-source review"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "pingliang-seat",
-    "longitude": 106.68566,
-    "latitude": 35.53585,
+    "longitude": 106.68192,
+    "latitude": 35.54123,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Pingliang prefectural point hvd_115671",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q533985, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -138,23 +138,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_115671, valid 1186-1911"
+        "note": "Wikidata Q533985 P625 coordinates for the modern Pingliang City proxy for the historical Pingliang prefectural seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS prefectural point matching the Pingliang seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "longxi-seat",
-    "longitude": 104.6356,
-    "latitude": 35.00714,
+    "longitude": 104.63602,
+    "latitude": 35.00602,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Longxi county point hvd_70001; attached county and Gongchang prefectural seat",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201581, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -163,24 +163,24 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70001, valid 1090-1911"
+        "note": "Wikidata Q1201581 P625 coordinates for the modern Longxi County proxy for the historical Gongchang prefectural seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS point matching the Longxi seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "didao-seat",
-    "longitude": 103.85794,
-    "latitude": 35.37915,
+    "longitude": 103.86126,
+    "latitude": 35.37731,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Didao county point hvd_70106; attached county and Lintao prefectural seat",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q632997, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
@@ -188,23 +188,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_70106, valid 1079-1738"
+        "confidence": "low",
+        "note": "Wikidata Q632997 P625 coordinates for the modern Lintao County proxy for the historical Didao and Lintao prefectural seat; historical-modern name continuity remains approximate."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Added the CHGIS point matching the Didao seat"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "lingzhou-seat",
-    "longitude": 106.32814,
-    "latitude": 38.08889,
+    "longitude": 106.33209,
+    "latitude": 38.09369,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Lingzhou guard point hvd_70559; co-located military proxy for the civil state seat",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q609421, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "low",
     "sources": [
       {
@@ -213,23 +213,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "low",
-        "note": "Record hvd_70559, valid 1506-1724, is a guard rather than the civil state record"
+        "note": "Wikidata Q609421 P625 coordinates for the modern Lingwu City proxy for the historical Lingzhou civil seat; exact historical city continuity remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Civil state location requires second-source confirmation; military geometry was not imported"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "xingan-seat",
-    "longitude": 109.02697,
-    "latitude": 32.69363,
+    "longitude": 109.02352,
+    "latitude": 32.68774,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer Ankang county point hvd_71242 from 1782; later proxy for the Ming Xingan new city",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q515846, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "low",
     "sources": [
       {
@@ -238,15 +238,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "low",
-        "note": "Record hvd_71242 is dated 1782-1788 and notes the Ming Xingan new city; used as a later-period proxy"
+        "note": "Wikidata Q515846 P625 coordinates for the modern Ankang City proxy for the historical Xing'an state seat after the Ming new-city move; exact historical compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "The 1583 Ming new-city location requires direct second-source confirmation"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -671,10 +671,10 @@
   },
   {
     "id": "jingyang-seat",
-    "longitude": 108.83756,
-    "latitude": 34.53334,
+    "longitude": 108.83525,
+    "latitude": 34.53056,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70700",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201642, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -683,23 +683,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70700; valid 619 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201642 P625 coordinates for the modern Jingyang County proxy for the historical Jingyang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "xingping-seat",
-    "longitude": 108.4826,
-    "latitude": 34.29872,
+    "longitude": 108.48158,
+    "latitude": 34.29987,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70722",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q1201091, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -708,15 +708,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70722; valid 757 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201091 P625 coordinates for the modern Xingping City proxy for the historical Xingping County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -741,10 +741,10 @@
   },
   {
     "id": "weinan-seat",
-    "longitude": 109.50124,
-    "latitude": 34.503,
+    "longitude": 109.4875,
+    "latitude": 34.49953,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70794",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201578, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -753,23 +753,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70794; valid 553 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201578 P625 coordinates for the modern Linwei District proxy for the historical Weinan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "lantian-seat",
-    "longitude": 109.32156,
-    "latitude": 34.1537,
+    "longitude": 109.31088,
+    "latitude": 34.1616,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70756",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1204238, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -778,23 +778,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70756; valid 627 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1204238 P625 coordinates for the modern Lantian County proxy for the historical Lantian County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "hu-seat",
-    "longitude": 108.6039,
-    "latitude": 34.11182,
+    "longitude": 108.60562,
+    "latitude": 34.11257,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70747",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1339891, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -803,23 +803,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70747; valid -201 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1339891 P625 coordinates for the modern Huyi District proxy for the historical Hu County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "zhouzhi-seat",
-    "longitude": 108.21199,
-    "latitude": 34.17114,
+    "longitude": 108.21401,
+    "latitude": 34.16136,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70789",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q198072, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -828,23 +828,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70789; valid 757 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q198072 P625 coordinates for the modern Zhouzhi County proxy for the historical Zhouzhi County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "gaoling-seat",
-    "longitude": 109.08047,
-    "latitude": 34.53333,
+    "longitude": 109.0873,
+    "latitude": 34.53515,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70745",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q280060, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -853,23 +853,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70745; valid 627 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q280060 P625 coordinates for the modern Gaoling District proxy for the historical Gaoling County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "fuping-seat",
-    "longitude": 109.16157,
-    "latitude": 34.75443,
+    "longitude": 109.17558,
+    "latitude": 34.74878,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70809",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q127137, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -878,23 +878,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70809; valid 583 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q127137 P625 coordinates for the modern Fuping County proxy for the historical Fuping County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "sanyuan-seat",
-    "longitude": 108.92629,
-    "latitude": 34.61975,
+    "longitude": 108.9359,
+    "latitude": 34.62037,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70781",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201362, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -903,23 +903,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70781; valid 1287 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201362 P625 coordinates for the modern Sanyuan County proxy for the historical Sanyuan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "liquan-seat",
-    "longitude": 108.41656,
-    "latitude": 34.48997,
+    "longitude": 108.42581,
+    "latitude": 34.48328,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70819",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201612, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -928,23 +928,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70819; valid 636 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201612 P625 coordinates for the modern Liquan County proxy for the historical Liquan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "huayin-seat",
-    "longitude": 110.08936,
-    "latitude": 34.56831,
+    "longitude": 110.08658,
+    "latitude": 34.56644,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70329",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q785966, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -953,23 +953,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70329; valid 762 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q785966 P625 coordinates for the modern Huayin City proxy for the historical Huayin County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "pucheng-seat",
-    "longitude": 109.58512,
-    "latitude": 34.95594,
+    "longitude": 109.5853,
+    "latitude": 34.95791,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70337",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201065, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -978,23 +978,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70337; valid 971 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201065 P625 coordinates for the modern Pucheng County proxy for the historical Pucheng County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "shangnan-seat",
-    "longitude": 110.87067,
-    "latitude": 33.53094,
+    "longitude": 110.88118,
+    "latitude": 33.5276,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71279",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201592, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1003,23 +1003,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71279; valid 1477 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201592 P625 coordinates for the modern Shangnan County proxy for the historical Shangnan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "luonan-seat",
-    "longitude": 110.13496,
-    "latitude": 34.09576,
+    "longitude": 110.14048,
+    "latitude": 34.08864,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71287",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q263072, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1028,23 +1028,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71287; valid 657 ~ 1620; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q263072 P625 coordinates for the modern Luonan County proxy for the historical Luonan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "shanyang-shangzhou-seat",
-    "longitude": 109.87898,
-    "latitude": 33.53393,
+    "longitude": 109.8751,
+    "latitude": 33.53156,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71278",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1349932, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1053,23 +1053,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71278; valid 1476 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1349932 P625 coordinates for the modern Shanyang County proxy for the historical Shanyang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "zhenan-shangzhou-seat",
-    "longitude": 109.15329,
-    "latitude": 33.43184,
+    "longitude": 109.1497,
+    "latitude": 33.42443,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71277",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q197570, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1078,23 +1078,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71277; valid 1463 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q197570 P625 coordinates for the modern Zhen'an County proxy for the historical Zhen'an County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "chaoyi-seat",
-    "longitude": 110.12251,
-    "latitude": 34.78904,
+    "longitude": 110.09854,
+    "latitude": 34.79352,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70306",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q11092573, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1103,23 +1103,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70306; valid 770 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q11092573 P625 coordinates for the modern Chaoyi Town in Dali County proxy for the historical Chaoyi County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "heyang-tongzhou-seat",
-    "longitude": 110.15102,
-    "latitude": 35.24258,
+    "longitude": 110.1449,
+    "latitude": 35.23852,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70308",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201516, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1128,23 +1128,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70308; valid 596 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201516 P625 coordinates for the modern Heyang County proxy for the historical Heyang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "hancheng-seat",
-    "longitude": 110.43764,
-    "latitude": 35.46594,
+    "longitude": 110.44191,
+    "latitude": 35.47685,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70319",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q577415, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1153,23 +1153,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70319; valid 1269 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q577415 P625 coordinates for the modern Hancheng City proxy for the historical Hancheng County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "chengcheng-seat",
-    "longitude": 109.93044,
-    "latitude": 35.19091,
+    "longitude": 109.93195,
+    "latitude": 35.18207,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70310",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1069933, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1178,23 +1178,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70310; valid 446 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1069933 P625 coordinates for the modern Chengcheng County proxy for the historical Chengcheng County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "baishui-tongzhou-seat",
-    "longitude": 109.58706,
-    "latitude": 35.18162,
+    "longitude": 109.59128,
+    "latitude": 35.17805,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70342",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q803975, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1203,15 +1203,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70342; valid 636 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q803975 P625 coordinates for the modern Baishui County proxy for the historical Baishui County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -1236,10 +1236,10 @@
   },
   {
     "id": "wugong-seat",
-    "longitude": 108.1051,
-    "latitude": 34.33205,
+    "longitude": 108.20523,
+    "latitude": 34.26136,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70252",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201092, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1248,23 +1248,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70252; valid 1234 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201092 P625 coordinates for the modern Wugong County proxy for the historical Wugong County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "yongshou-seat",
-    "longitude": 108.04397,
-    "latitude": 34.81275,
+    "longitude": 108.13966,
+    "latitude": 34.6932,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70259",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1152653, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1273,23 +1273,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70259; valid 1278 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1152653 P625 coordinates for the modern Yongshou County proxy for the historical Yongshou County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "chunhua-seat",
-    "longitude": 108.57009,
-    "latitude": 34.80872,
+    "longitude": 108.57621,
+    "latitude": 34.79834,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70214",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1089609, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1298,24 +1298,24 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70214; valid 993 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1089609 P625 coordinates for the modern Chunhua County proxy for the historical Chunhua County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "sanshui-seat",
-    "longitude": 108.33258,
-    "latitude": 35.1225,
+    "longitude": 108.33156,
+    "latitude": 35.11214,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70213",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1153530, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
@@ -1323,23 +1323,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_70213; valid 1477 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "confidence": "low",
+        "note": "Wikidata Q1153530 P625 coordinates for the modern Xunyi County proxy for the historical Sanshui County seat; historical-modern name continuity remains approximate."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "changwu-seat",
-    "longitude": 107.78932,
-    "latitude": 35.20544,
+    "longitude": 107.78851,
+    "latitude": 35.20707,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70215",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1062165, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1348,23 +1348,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70215; valid 1583 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1062165 P625 coordinates for the modern Changwu County proxy for the historical Changwu County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "qishan-seat",
-    "longitude": 107.62709,
-    "latitude": 34.43964,
+    "longitude": 107.62093,
+    "latitude": 34.44482,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70907",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201047, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1373,23 +1373,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70907; valid 654 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201047 P625 coordinates for the modern Qishan County proxy for the historical Qishan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "baoji-seat",
-    "longitude": 107.14038,
-    "latitude": 34.38187,
+    "longitude": 107.17507,
+    "latitude": 34.36094,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70926",
+    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q514796, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1398,15 +1398,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70926; valid 757 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q514796 P625 coordinates for the modern Baoji City proxy for the historical Baoji County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -1431,10 +1431,10 @@
   },
   {
     "id": "mei-seat",
-    "longitude": 107.75479,
-    "latitude": 34.27356,
+    "longitude": 107.74416,
+    "latitude": 34.27439,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70940",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1200956, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1443,15 +1443,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70940; valid 1264 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1200956 P625 coordinates for the modern Mei County proxy for the historical Mei County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -1476,10 +1476,10 @@
   },
   {
     "id": "qianyang-seat",
-    "longitude": 107.13386,
-    "latitude": 34.64487,
+    "longitude": 107.12803,
+    "latitude": 34.64229,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71289",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1152685, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1488,24 +1488,24 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71289; valid 1559 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1152685 P625 coordinates for the modern Qianyang County proxy for the historical Qianyang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "baocheng-seat",
-    "longitude": 106.93858,
-    "latitude": 33.18939,
+    "longitude": 106.95444,
+    "latitude": 33.20329,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70998",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q13774436, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
@@ -1513,15 +1513,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_70998; valid 1378 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "confidence": "low",
+        "note": "Wikidata Q13774436 P625 coordinates for the modern Baocheng Town in Mian County proxy for the historical Baocheng County seat; exact old county compound remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -1546,10 +1546,10 @@
   },
   {
     "id": "yang-seat",
-    "longitude": 107.54173,
-    "latitude": 33.22109,
+    "longitude": 107.5473,
+    "latitude": 33.2237,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71021",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201504, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1558,23 +1558,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71021; valid 1378 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201504 P625 coordinates for the modern Yang County proxy for the historical Yang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "xixiang-seat",
-    "longitude": 107.76037,
-    "latitude": 32.99027,
+    "longitude": 107.76008,
+    "latitude": 32.9887,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71035",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q282764, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1583,23 +1583,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71035; valid 1378 ~ 1801; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q282764 P625 coordinates for the modern Xixiang County proxy for the historical Xixiang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "feng-hanzhong-seat",
-    "longitude": 106.62294,
-    "latitude": 33.94525,
+    "longitude": 106.5187,
+    "latitude": 33.91234,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71071",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201037, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1608,23 +1608,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71071; valid 1374 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201037 P625 coordinates for the modern Feng County proxy for the historical Feng County seat under Hanzhong Prefecture."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "mian-seat",
-    "longitude": 106.62171,
-    "latitude": 33.151,
+    "longitude": 106.67448,
+    "latitude": 33.1567,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71109",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201426, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1633,23 +1633,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71109; valid 1378 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201426 P625 coordinates for the modern Mian County proxy for the historical Mian County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "lueyang-seat",
-    "longitude": 106.16131,
-    "latitude": 33.3324,
+    "longitude": 106.14961,
+    "latitude": 33.33166,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71139",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201600, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1658,23 +1658,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71139; valid 1378 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201600 P625 coordinates for the modern Lueyang County proxy for the historical Lueyang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "ansai-seat",
-    "longitude": 109.31753,
-    "latitude": 36.9036,
+    "longitude": 109.32073,
+    "latitude": 36.86389,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70365",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q568814, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1683,23 +1683,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70365; valid 1312 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q568814 P625 coordinates for the modern Ansai District proxy for the historical Ansai County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "ganquan-seat",
-    "longitude": 109.34457,
-    "latitude": 36.27863,
+    "longitude": 109.3447,
+    "latitude": 36.27751,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70367",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1153538, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1708,24 +1708,24 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70367; valid 742 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1153538 P625 coordinates for the modern Ganquan County proxy for the historical Ganquan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "anding-yanan-seat",
-    "longitude": 109.66875,
-    "latitude": 37.13766,
+    "longitude": 109.51247,
+    "latitude": 37.17584,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70368",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10946590, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
@@ -1733,24 +1733,24 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_70368; valid 1312 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "confidence": "low",
+        "note": "Wikidata Q10946590 P625 coordinates for the modern Anding Town in Zichang City proxy for the historical Anding County under Yan'an Prefecture; exact old county seat remains unresolved."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "baoan-yanan-seat",
-    "longitude": 109.51595,
-    "latitude": 37.17207,
+    "longitude": 108.76039,
+    "latitude": 36.82656,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70369",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-settlement proxy independently located from Wikidata Q10887625, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
@@ -1758,23 +1758,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_70369; valid 1172 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "confidence": "low",
+        "note": "Wikidata Q10887625 P625 coordinates for the modern Bao'an Subdistrict in Zhidan County proxy for the historical Bao'an County seat; historical-modern administrative continuity remains approximate."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "yichuan-seat",
-    "longitude": 110.16488,
-    "latitude": 36.04517,
+    "longitude": 110.16655,
+    "latitude": 36.0486,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70374",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1153523, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1783,15 +1783,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70374; valid 976 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1153523 P625 coordinates for the modern Yichuan County proxy for the historical Yichuan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -1856,10 +1856,10 @@
   },
   {
     "id": "luochuan-seat",
-    "longitude": 109.55885,
-    "latitude": 35.86716,
+    "longitude": 109.43053,
+    "latitude": 35.7614,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70227",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q729617, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1868,24 +1868,24 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70227; valid 583 ~ 1765; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q729617 P625 coordinates for the modern Luochuan County proxy for the historical Luochuan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "zhongbu-seat",
-    "longitude": 109.26382,
-    "latitude": 35.58947,
+    "longitude": 109.2558,
+    "latitude": 35.58419,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70225",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201083, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
@@ -1893,23 +1893,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_70225; valid 619 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "confidence": "low",
+        "note": "Wikidata Q1201083 P625 coordinates for the modern Huangling County proxy for the historical Zhongbu County seat; historical-modern name continuity remains approximate."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "yijun-seat",
-    "longitude": 109.11311,
-    "latitude": 35.39728,
+    "longitude": 109.11125,
+    "latitude": 35.39407,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70232",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1200864, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1918,23 +1918,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70232; valid 663 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1200864 P625 coordinates for the modern Yijun County proxy for the historical Yijun County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "mizhi-seat",
-    "longitude": 110.18326,
-    "latitude": 37.76026,
+    "longitude": 110.17285,
+    "latitude": 37.7602,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70271",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201242, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1943,23 +1943,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70271; valid 1226 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201242 P625 coordinates for the modern Mizhi County proxy for the historical Mizhi County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "wubu-seat",
-    "longitude": 110.7319,
-    "latitude": 37.45689,
+    "longitude": 110.7345,
+    "latitude": 37.45199,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70274",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201530, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1968,23 +1968,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70274; valid 1380 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201530 P625 coordinates for the modern Wubu County proxy for the historical Wubu County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "shenmu-seat",
-    "longitude": 110.50092,
-    "latitude": 38.82196,
+    "longitude": 110.4896,
+    "latitude": 38.83887,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70404",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201124, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -1993,23 +1993,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70404; valid 1476 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201124 P625 coordinates for the modern Shenmu City proxy for the historical Shenmu County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "fugu-seat",
-    "longitude": 111.07457,
-    "latitude": 39.03214,
+    "longitude": 111.06193,
+    "latitude": 39.02764,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70406",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q179395, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2018,15 +2018,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70406; valid 1380 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q179395 P625 coordinates for the modern Fugu County proxy for the historical Fugu County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -2111,10 +2111,10 @@
   },
   {
     "id": "huating-pingliang-seat",
-    "longitude": 106.65195,
-    "latitude": 35.21884,
+    "longitude": 106.65452,
+    "latitude": 35.21751,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70190",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201540, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2123,15 +2123,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70190; valid 959 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201540 P625 coordinates for the modern Huating City proxy for the historical Huating County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -2216,10 +2216,10 @@
   },
   {
     "id": "anding-gongchang-seat",
-    "longitude": 104.62031,
-    "latitude": 35.57509,
+    "longitude": 104.62262,
+    "latitude": 35.58339,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70008",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q492100, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2228,23 +2228,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70008; valid 1377 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q492100 P625 coordinates for the modern Anding District proxy for the historical Anding County under Gongchang Prefecture."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "huining-seat",
-    "longitude": 105.05614,
-    "latitude": 35.6942,
+    "longitude": 105.05181,
+    "latitude": 35.6922,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70016",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201383, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2253,15 +2253,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70016; valid 1377 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201383 P625 coordinates for the modern Huining County proxy for the historical Huining County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -2286,10 +2286,10 @@
   },
   {
     "id": "zhang-seat",
-    "longitude": 104.47214,
-    "latitude": 34.85064,
+    "longitude": 104.46682,
+    "latitude": 34.84978,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70022",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q197146, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2298,24 +2298,24 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70022; valid 1442 ~ 1829; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q197146 P625 coordinates for the modern Zhang County proxy for the historical Zhang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "ningyuan-seat",
-    "longitude": 104.88529,
-    "latitude": 34.72002,
+    "longitude": 104.88828,
+    "latitude": 34.72371,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70037",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201096, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
@@ -2323,24 +2323,24 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_70037; valid 1264 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "confidence": "low",
+        "note": "Wikidata Q1201096 P625 coordinates for the modern Wushan County proxy for the historical Ningyuan County seat; historical-modern name continuity remains approximate."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "fuqiang-seat",
-    "longitude": 105.32908,
-    "latitude": 34.73944,
+    "longitude": 105.3297,
+    "latitude": 34.73969,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70050",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201599, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
@@ -2348,23 +2348,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_70050; valid 1276 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "confidence": "low",
+        "note": "Wikidata Q1201599 P625 coordinates for the modern Gangu County proxy for the historical Fuqiang County seat; historical-modern name continuity remains approximate."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "xihe-seat",
-    "longitude": 105.29073,
-    "latitude": 34.01193,
+    "longitude": 105.2957,
+    "latitude": 34.01388,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70051",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201553, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2373,15 +2373,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70051; valid 1377 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201553 P625 coordinates for the modern Xihe County proxy for the historical Xihe County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
@@ -2506,10 +2506,10 @@
   },
   {
     "id": "weiyuan-seat",
-    "longitude": 104.21017,
-    "latitude": 35.13949,
+    "longitude": 104.2116,
+    "latitude": 35.13472,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70113",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q693353, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2518,24 +2518,24 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_70113; valid 1276 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q693353 P625 coordinates for the modern Weiyuan County proxy for the historical Weiyuan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "jin-seat",
-    "longitude": 104.10787,
-    "latitude": 35.84682,
+    "longitude": 104.11099,
+    "latitude": 35.84734,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_70099",
-    "confidence": "medium",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1339965, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
+    "confidence": "low",
     "sources": [
       {
         "sourceId": "ming-shi-geography-three",
@@ -2543,23 +2543,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
-        "confidence": "medium",
-        "note": "Record hvd_70099; valid 1369 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "confidence": "low",
+        "note": "Wikidata Q1339965 P625 coordinates for the modern Yuzhong County proxy for the historical Jin County seat; historical-modern name continuity remains approximate."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "pingli-seat",
-    "longitude": 109.19894,
-    "latitude": 32.57111,
+    "longitude": 109.3546,
+    "latitude": 32.39154,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71162",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201646, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2568,23 +2568,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71162; valid 1378 ~ 1802; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201646 P625 coordinates for the modern Pingli County proxy for the historical Pingli County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "shiquan-seat",
-    "longitude": 108.25346,
-    "latitude": 33.04337,
+    "longitude": 108.24623,
+    "latitude": 33.03943,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71221",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201603, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2593,23 +2593,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71221; valid 1370 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201603 P625 coordinates for the modern Shiquan County proxy for the historical Shiquan County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "xunyang-seat",
-    "longitude": 109.37236,
-    "latitude": 32.83109,
+    "longitude": 109.35896,
+    "latitude": 32.83575,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71179",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201108, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2618,23 +2618,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71179; valid 1476 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201108 P625 coordinates for the modern Xunyang City proxy for the historical Xunyang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "hanyin-seat",
-    "longitude": 108.51544,
-    "latitude": 32.89523,
+    "longitude": 108.5041,
+    "latitude": 32.89024,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71241",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q1201374, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2643,23 +2643,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71241; valid 1378 ~ 1781; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q1201374 P625 coordinates for the modern Hanyin County proxy for the historical Hanyin County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "baihe-seat",
-    "longitude": 110.10673,
-    "latitude": 32.81462,
+    "longitude": 110.1096,
+    "latitude": 32.81085,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71208",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q803754, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2668,23 +2668,23 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71208; valid 1476 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q803754 P625 coordinates for the modern Baihe County proxy for the historical Baihe County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 1: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   },
   {
     "id": "ziyang-xingan-seat",
-    "longitude": 108.53822,
-    "latitude": 32.53733,
+    "longitude": 108.53221,
+    "latitude": 32.52324,
     "locationAccuracy": "approximate",
-    "locationMethod": "CHGIS Temporal Gazetteer county point hvd_71210",
+    "locationMethod": "Modern historical-county-seat proxy independently located from Wikidata Q207026, guided by the Ming History geographic description; exact old administrative compound remains unresolved",
     "confidence": "medium",
     "sources": [
       {
@@ -2693,15 +2693,15 @@
         "confidence": "high"
       },
       {
-        "sourceId": "chgis-temporal-gazetteer",
+        "sourceId": "wikidata-modern-place-coordinates",
         "claim": "location",
         "confidence": "medium",
-        "note": "Record hvd_71210; valid 1556 ~ 1911; point covers the 1600 time slice; Ming parentage follows Ming Shi where the CHGIS parent label differs"
+        "note": "Wikidata Q207026 P625 coordinates for the modern Ziyang County proxy for the historical Ziyang County seat."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Selected a CHGIS point covering the 1600 time slice"
+      "reviewedOn": "2026-07-18",
+      "revisionNote": "Shaanxi replacement batch 2: replaced the restricted CHGIS location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
   }
 ]
