@@ -10,11 +10,11 @@
 
 ## 统计口径
 
-项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）、湖广 107 点（三批）、四川 90 点（三批）、陕西 73 点（分两批）和山西 88 点（分两批）替换后，按本清单口径当前仍由 CHGIS `location` 主张承担坐标的地点为 **437 个，占全部地点 26.6%**。
+项目共有 1,641 个地点记录。云贵试点前，实际采用 CHGIS 坐标的地点为 1,147 个，占全部地点 69.9%；其中 `jiangxi-jian-yongfeng-seat` 明确记录 CHGIS 在 1600 年无命中并保留现代代理，因此不计入该基线。完成云贵 14 点、福建 47 点、江西 64 点、广东 73 点（分两批）、广西 82 点（分两批）、浙江 72 点（分两批）、湖广 107 点（三批）、四川 90 点（三批）、陕西 73 点（分两批）、山西 88 点（分两批）和河南 97 点（三批）替换后，按本清单口径当前仍由 CHGIS `location` 主张承担坐标的地点为 **340 个，占全部地点 20.7%**。
 
-迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **425 个唯一编号**和 **423 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
+迁移前基线涉及 1,139 个唯一 CHGIS `hvd_*` 编号和 1,125 组唯一坐标；当前未迁移记录涉及 **328 个唯一编号**和 **326 组唯一坐标**。迁移前有 21 组坐标由多个地点记录共用，共涉及 43 个地点；4 个地点同时引用多个 CHGIS 编号；12 个 CHGIS 编号被多个项目地点记录复用。
 
-当前未迁移记录的定位精度为 `approximate` 437；可信度为 `medium` 437、`low` 0。
+当前未迁移记录的定位精度为 `approximate` 340；可信度为 `medium` 340、`low` 0。
 
 “地点记录数”“唯一 CHGIS 编号数”和“唯一坐标数”不可互换；附郭、共治或项目实体拆分会造成同一 CHGIS 编号或坐标关联多个地点。
 
@@ -22,11 +22,11 @@
 
 | 类别 | 点位数 | 建议用途 |
 |---|---:|---|
-| 一级行政区域治所 | 3 | 在所属区域批次中优先复核 |
-| 府与直隶州治所 | 37 | 在所属区域批次中优先复核 |
-| 府属州与县治 | 397 | 随所属区域一并替换 |
+| 一级行政区域治所 | 2 | 在所属区域批次中优先复核 |
+| 府与直隶州治所 | 29 | 在所属区域批次中优先复核 |
+| 府属州与县治 | 309 | 随所属区域一并替换 |
 | 特殊治理／军事节点 | 0 | 单独研究与复核 |
-| 合计 | 437 | |
+| 合计 | 340 | |
 
 分类采用互斥判定顺序：一级行政区域 → 府与直隶州 → 特殊治理／军事 → 府属州与县。该顺序只用于避免重复统计，不代表实际替换批次；一个地点与多个行政实体共址时只计一次。
 
@@ -37,7 +37,7 @@
 | 京师 | 121 |
 | 南京 | 115 |
 | 山东 | 104 |
-| 河南 | 97 |
+| 河南 | 0 |
 | 山西 | 0 |
 | 陕西 | 0 |
 | 四川 | 0 |
@@ -49,7 +49,7 @@
 | 广西 | 0 |
 | 云南 | 0 |
 | 贵州 | 0 |
-| 合计 | 437 |
+| 合计 | 340 |
 
 ## 独立替换原则
 
@@ -90,7 +90,7 @@
 1. **云贵流程试验：14 点。** 云南 9 点、贵州 5 点，全部为 `approximate` 点；普通连续聚落为中可信，县域代理、迁治旧治和御夷府州代理为低可信。样本包含普通府治、军民府、御夷府州、旧治和铜仁府多 CHGIS 编号，可用于验证独立候选锁定、史料对应、审计保留和商业过滤的完整流程。
 2. **福建普通州县验证：47 点（已完成）。** 福建具有较完整的普通府州县结构，并包含同名消歧和 CHGIS 父标签与《明史》父链不一致的记录，用于补足云贵样本缺少普通县治、附郭共址和密集父链的局限。
 3. **江西压力测试：64 点（已完成）。** 覆盖清江府县共址、普通县治、改名县、撤并县和同名消歧；以独立 Wikidata 坐标替换并通过压力测试后，江西不再由 CHGIS 承担 `location` 主张。
-4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73（已完成，两批）→ 山西 88（已完成，两批）→ 四川 90（已完成）→ 河南 97 → 山东 104 → 湖广 107（三批，已完成）→ 南京 115 → 京师 121；广西 82 点已完成。
+4. **其余区域分批替换。** 默认按当前点位数量由少到多安排：浙江 72（已完成）→ 陕西 73（已完成，两批）→ 山西 88（已完成，两批）→ 四川 90（已完成）→ 河南 97（三批，已完成）→ 山东 104 → 湖广 107（三批，已完成）→ 南京 115 → 京师 121；广西 82 点已完成。
 5. 点位数量不是唯一依据；对外演示、爱发电说明或众筹宣传涉及的区域可以提前，但必须保持该区域完整验收，不能只替换截图范围内的少数点。
 6. 区域内先处理一级行政区域及府、直隶州治所，再处理府属州、县和特殊治理节点；特殊节点不能以普通现代城市代理掩盖制度和驻地不确定性。
 7. 商业构建必须拒绝目标发布区域中任何仍以 CHGIS 或其他非商业、授权不明来源承担定位主张的记录。
@@ -182,6 +182,15 @@
 - 所有候选均保留官方 Wikidata `P625` 原始数值，经度在前；Q ID、来源主张、可信度和审计日期已写入山西数据分片。
 - 山西批次的数据结构、来源引用、WGS 84 坐标范围、目标无 CHGIS `location` 主张和旧编号审计保留检查通过；`data-validator`、单元测试与 `git diff --check` 均通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
+### 河南替换验收
+
+- 97/97 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 84 点、`low` 13 点。
+- 按三批完成：第一批 33 点（清单 341–373），第二批 32 点（清单 374–405），第三批 32 点（清单 406–437）；河南 97 个目标点均不再由 CHGIS `location` 主张承担坐标。
+- 97 个点使用 92 个 Wikidata Q ID；灵宝／阌乡、兰考／仪封、荥阳／河阴／荥泽、卫辉／胙城等共享现代代理仍保留各自历史 `placeId`，不解释为明代行政复合体的精确复原。
+- 河阴、考城、兰阳、密、汜水、唐、洧川、阌乡、荥泽、阳武、仪封、永宁和胙城等 13 条记录因改名、撤并、古县治或现代代理对应未完全闭合保留低可信，等待第二来源复核。
+- 所有候选均保留官方 Wikidata API／Query Service 返回的原始 `P625` 数值，经度在前；Q ID、来源主张、可信度和审计日期已写入河南数据分片。
+- 三批数据结构、来源引用、WGS 84 坐标范围、河南目标无 CHGIS `location` 主张和旧编号审计保留检查通过；旧 CHGIS 编号只保留在本清单中供迁移审计回查。
+
 首轮锁定的现代代理如下（坐标来自 Wikidata `P625`，均按 WGS 84 经度在前记录）：
 
 | `placeId` | 现代代理 | Wikidata | 经度 | 纬度 | 可信度 |
@@ -219,7 +228,7 @@
 
 ## 完整点位清单
 
-以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条、“已独立替换（广西两批）”的 82 条、“已独立替换（浙江两批）”的 72 条、“已独立替换（四川三批）”的 90 条和“已独立替换（山西两批）”的 88 条记录外，其余记录当前状态均为“待独立替换”。
+以下清单按一级行政区域、行政层级分类和行政单位名称排序。除已标注“已独立替换（云贵试点）”的 14 条、“已独立替换（福建试验）”的 47 条、“已独立替换（江西压力测试）”的 64 条、“已独立替换（广东两批）”的 73 条、“已独立替换（广西两批）”的 82 条、“已独立替换（浙江两批）”的 72 条、“已独立替换（四川三批）”的 90 条、“已独立替换（山西两批）”的 88 条和“已独立替换（河南三批）”的 97 条记录外，其余记录当前状态均为“待独立替换”。
 
 | # | 一级区域 | 类别 | 行政单位 | 等级 | placeId | CHGIS 编号 | 精度／可信度 | 标记 |
 |---:|---|---|---|---|---|---|---|---|
@@ -563,103 +572,103 @@
 | 338 | 山东 | 府属州与县治 | 淄川县 | county | `zichuan-seat` | `hvd_45167` | `approximate`／`medium` | 待独立替换 |
 | 339 | 山东 | 府属州与县治 | 邹平县 | county | `zouping-seat` | `hvd_45045` | `approximate`／`medium` | 待独立替换 |
 | 340 | 山东 | 府属州与县治 | 邹县 | county | `zou-seat` | `hvd_45194` | `approximate`／`medium` | 待独立替换 |
-| 341 | 河南 | 一级行政区域治所 | 河南／开封府／祥符县 | province／prefecture／county | `xiangfu-seat` | `hvd_84008` | `approximate`／`medium` | 关联 3 个行政实体；待独立替换 |
-| 342 | 河南 | 府与直隶州治所 | 归德府／商丘县 | prefecture／county | `shangqiu-seat` | `hvd_84009` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 343 | 河南 | 府与直隶州治所 | 河南府／洛阳县 | prefecture／county | `luoyang-seat` | `hvd_84004` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 344 | 河南 | 府与直隶州治所 | 怀庆府／河内县 | prefecture／county | `henei-seat` | `hvd_84002` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 345 | 河南 | 府与直隶州治所 | 南阳府／南阳县 | prefecture／county | `nanyang-seat` | `hvd_84005` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 346 | 河南 | 府与直隶州治所 | 汝宁府／汝阳县 | prefecture／county | `ruyang-seat` | `hvd_84007` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 347 | 河南 | 府与直隶州治所 | 汝州 | department | `ruzhou-seat` | `hvd_84013` | `approximate`／`medium` | 待独立替换 |
-| 348 | 河南 | 府与直隶州治所 | 卫辉府／汲县 | prefecture／county | `ji-seat` | `hvd_84003` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 349 | 河南 | 府与直隶州治所 | 彰德府／安阳县 | prefecture／county | `anyang-seat` | `hvd_84001` | `approximate`／`medium` | 关联 2 个行政实体；待独立替换 |
-| 350 | 河南 | 府属州与县治 | 宝丰县 | county | `baofeng-ruzhou-seat` | `hvd_82993` | `approximate`／`medium` | 待独立替换 |
-| 351 | 河南 | 府属州与县治 | 陈留县 | county | `chenliu-kaifeng-seat` | `hvd_44325` | `approximate`／`medium` | 待独立替换 |
-| 352 | 河南 | 府属州与县治 | 磁州 | department | `cizhou-zhangde-seat` | `hvd_87977` | `approximate`／`medium` | 待独立替换 |
-| 353 | 河南 | 府属州与县治 | 登封县 | county | `dengfeng-henan-seat` | `hvd_82892` | `approximate`／`medium` | 待独立替换 |
-| 354 | 河南 | 府属州与县治 | 封丘县 | county | `fengqiu-seat` | `hvd_82327` | `approximate`／`medium` | 待独立替换 |
-| 355 | 河南 | 府属州与县治 | 扶沟县 | county | `fugou-seat` | `hvd_82060` | `approximate`／`medium` | 待独立替换 |
-| 356 | 河南 | 府属州与县治 | 巩县 | county | `gong-henan-seat` | `hvd_82876` | `approximate`／`medium` | 待独立替换 |
-| 357 | 河南 | 府属州与县治 | 固始县 | county | `gushi-runing-seat` | `hvd_82583` | `approximate`／`medium` | 待独立替换 |
-| 358 | 河南 | 府属州与县治 | 光山县 | county | `guangshan-runing-seat` | `hvd_82560` | `approximate`／`medium` | 待独立替换 |
-| 359 | 河南 | 府属州与县治 | 光州 | department | `guangzhou-runing-seat` | `hvd_82556` | `approximate`／`medium` | 待独立替换 |
-| 360 | 河南 | 府属州与县治 | 河阴县 | county | `heyin-seat` | `hvd_82434` | `approximate`／`medium` | 待独立替换 |
-| 361 | 河南 | 府属州与县治 | 辉县 | county | `hui-weihui-seat` | `hvd_82280` | `approximate`／`medium` | 待独立替换 |
-| 362 | 河南 | 府属州与县治 | 获嘉县 | county | `huojia-weihui-seat` | `hvd_82264` | `approximate`／`medium` | 待独立替换 |
-| 363 | 河南 | 府属州与县治 | 郏县 | county | `jia-ruzhou-seat` | `hvd_82985` | `approximate`／`medium` | 待独立替换 |
-| 364 | 河南 | 府属州与县治 | 考城县 | county | `kaocheng-guide-seat` | `hvd_82341` | `approximate`／`medium` | 待独立替换 |
-| 365 | 河南 | 府属州与县治 | 兰阳县 | county | `lanyang-seat` | `hvd_44371` | `approximate`／`medium` | 待独立替换 |
-| 366 | 河南 | 府属州与县治 | 林县 | county | `lin-zhangde-seat` | `hvd_82222` | `approximate`／`medium` | 待独立替换 |
-| 367 | 河南 | 府属州与县治 | 临颍县 | county | `linying-seat` | `hvd_83025` | `approximate`／`medium` | 待独立替换 |
-| 368 | 河南 | 府属州与县治 | 临漳县 | county | `linzhang-zhangde-seat` | `hvd_82205` | `approximate`／`medium` | 待独立替换 |
-| 369 | 河南 | 府属州与县治 | 灵宝县 | county | `lingbao-henan-seat` | `hvd_83052` | `approximate`／`medium` | 待独立替换 |
-| 370 | 河南 | 府属州与县治 | 卢氏县 | county | `lushi-henan-seat` | `hvd_83180` | `approximate`／`medium` | 待独立替换 |
-| 371 | 河南 | 府属州与县治 | 鲁山县 | county | `lushan-ruzhou-seat` | `hvd_82974` | `approximate`／`medium` | 待独立替换 |
-| 372 | 河南 | 府属州与县治 | 鹿邑县 | county | `luyi-guide-seat` | `hvd_82098` | `approximate`／`medium` | 待独立替换 |
-| 373 | 河南 | 府属州与县治 | 罗山县 | county | `luoshan-runing-seat` | `hvd_83089` | `approximate`／`medium` | 待独立替换 |
-| 374 | 河南 | 府属州与县治 | 孟津县 | county | `mengjin-henan-seat` | `hvd_82958` | `approximate`／`medium` | 待独立替换 |
-| 375 | 河南 | 府属州与县治 | 孟县 | county | `meng-huaiqing-seat` | `hvd_82518` | `approximate`／`medium` | 待独立替换 |
-| 376 | 河南 | 府属州与县治 | 泌阳县 | county | `biyang-nanyang-seat` | `hvd_82654` | `approximate`／`medium` | 待独立替换 |
-| 377 | 河南 | 府属州与县治 | 密县 | county | `mi-yuzhou-seat` | `hvd_82460` | `approximate`／`medium` | 待独立替换 |
-| 378 | 河南 | 府属州与县治 | 渑池县 | county | `mianchi-henan-seat` | `hvd_82931` | `approximate`／`medium` | 待独立替换 |
-| 379 | 河南 | 府属州与县治 | 南召县 | county | `nanzhao-nanyang-seat` | `hvd_82814` | `approximate`／`medium` | 待独立替换 |
-| 380 | 河南 | 府属州与县治 | 内乡县 | county | `neixiang-nanyang-seat` | `hvd_82767` | `approximate`／`medium` | 待独立替换 |
-| 381 | 河南 | 府属州与县治 | 宁陵县 | county | `ningling-guide-seat` | `hvd_82086` | `approximate`／`medium` | 待独立替换 |
-| 382 | 河南 | 府属州与县治 | 杞县 | county | `qi-kaifeng-seat` | `hvd_44329` | `approximate`／`medium` | 待独立替换 |
-| 383 | 河南 | 府属州与县治 | 确山县 | county | `queshan-runing-seat` | `hvd_83094` | `approximate`／`medium` | 待独立替换 |
-| 384 | 河南 | 府属州与县治 | 陕州 | department | `shanzhou-henan-seat` | `hvd_83049` | `approximate`／`medium` | 待独立替换 |
-| 385 | 河南 | 府属州与县治 | 商城县 | county | `shangcheng-runing-seat` | `hvd_82603` | `approximate`／`medium` | 待独立替换 |
-| 386 | 河南 | 府属州与县治 | 商水县 | county | `shangshui-seat` | `hvd_82013` | `approximate`／`medium` | 待独立替换 |
-| 387 | 河南 | 府属州与县治 | 上蔡县 | county | `shangcai-runing-seat` | `hvd_83091` | `approximate`／`medium` | 待独立替换 |
-| 388 | 河南 | 府属州与县治 | 沈丘县 | county | `shenqiu-seat` | `hvd_82052` | `approximate`／`medium` | 待独立替换 |
-| 389 | 河南 | 府属州与县治 | 汜水县 | county | `sishui-kaifeng-seat` | `hvd_82450` | `approximate`／`medium` | 待独立替换 |
-| 390 | 河南 | 府属州与县治 | 嵩县 | county | `song-henan-seat` | `hvd_82934` | `approximate`／`medium` | 待独立替换 |
-| 391 | 河南 | 府属州与县治 | 睢州 | department | `suizhou-guide-seat` | `hvd_82166` | `approximate`／`medium` | 待独立替换 |
-| 392 | 河南 | 府属州与县治 | 遂平县 | county | `suiping-runing-seat` | `hvd_83087` | `approximate`／`medium` | 待独立替换 |
-| 393 | 河南 | 府属州与县治 | 太康县 | county | `taikang-seat` | `hvd_82057` | `approximate`／`medium` | 待独立替换 |
-| 394 | 河南 | 府属州与县治 | 汤阴县 | county | `tangyin-zhangde-seat` | `hvd_82212` | `approximate`／`medium` | 待独立替换 |
-| 395 | 河南 | 府属州与县治 | 唐县 | county | `tang-nanyang-seat` | `hvd_82643` | `approximate`／`medium` | 待独立替换 |
-| 396 | 河南 | 府属州与县治 | 通许县 | county | `tongxu-seat` | `hvd_44331` | `approximate`／`medium` | 待独立替换 |
-| 397 | 河南 | 府属州与县治 | 桐柏县 | county | `tongbai-nanyang-seat` | `hvd_82672` | `approximate`／`medium` | 待独立替换 |
-| 398 | 河南 | 府属州与县治 | 洧川县 | county | `weichuan-seat` | `hvd_44347` | `approximate`／`medium` | 待独立替换 |
-| 399 | 河南 | 府属州与县治 | 温县 | county | `wen-huaiqing-seat` | `hvd_82522` | `approximate`／`medium` | 待独立替换 |
-| 400 | 河南 | 府属州与县治 | 阌乡县 | county | `wenxiang-henan-seat` | `hvd_83076` | `approximate`／`medium` | 待独立替换 |
-| 401 | 河南 | 府属州与县治 | 武安县 | county | `wuan-cizhou-seat` | `hvd_82232` | `approximate`／`medium` | 待独立替换 |
-| 402 | 河南 | 府属州与县治 | 舞阳县 | county | `wuyang-nanyang-seat` | `hvd_82796` | `approximate`／`medium` | 待独立替换 |
-| 403 | 河南 | 府属州与县治 | 西华县 | county | `xihua-seat` | `hvd_82039` | `approximate`／`medium` | 待独立替换 |
-| 404 | 河南 | 府属州与县治 | 西平县 | county | `xiping-runing-seat` | `hvd_83156` | `approximate`／`medium` | 待独立替换 |
-| 405 | 河南 | 府属州与县治 | 息县 | county | `xixian-runing-seat` | `hvd_82590` | `approximate`／`medium` | 待独立替换 |
-| 406 | 河南 | 府属州与县治 | 淅川县 | county | `xichuan-nanyang-seat` | `hvd_82735` | `approximate`／`medium` | 待独立替换 |
-| 407 | 河南 | 府属州与县治 | 夏邑县 | county | `xiayi-guide-seat` | `hvd_82113` | `approximate`／`medium` | 待独立替换 |
-| 408 | 河南 | 府属州与县治 | 襄城县 | county | `xiangcheng-xu-seat` | `hvd_83031` | `approximate`／`medium` | 待独立替换 |
-| 409 | 河南 | 府属州与县治 | 项城县 | county | `xiangcheng-chen-seat` | `hvd_82051` | `approximate`／`medium` | 待独立替换 |
-| 410 | 河南 | 府属州与县治 | 新安县 | county | `xinan-henan-seat` | `hvd_82918` | `approximate`／`medium` | 待独立替换 |
-| 411 | 河南 | 府属州与县治 | 新蔡县 | county | `xincai-runing-seat` | `hvd_83092` | `approximate`／`medium` | 待独立替换 |
-| 412 | 河南 | 府属州与县治 | 新野县 | county | `xinye-nanyang-seat` | `hvd_82753` | `approximate`／`medium` | 待独立替换 |
-| 413 | 河南 | 府属州与县治 | 新郑县 | county | `xinzheng-seat` | `hvd_82462` | `approximate`／`medium` | 待独立替换 |
-| 414 | 河南 | 府属州与县治 | 信阳州 | department | `xinyang-runing-seat` | `hvd_83095` | `approximate`／`medium` | 待独立替换 |
-| 415 | 河南 | 府属州与县治 | 荥阳县 | county | `xingyang-seat` | `hvd_44391` | `approximate`／`medium` | 待独立替换 |
-| 416 | 河南 | 府属州与县治 | 荥泽县 | county | `xingze-seat` | `hvd_82437` | `approximate`／`medium` | 待独立替换 |
-| 417 | 河南 | 府属州与县治 | 修武县 | county | `xiuwu-huaiqing-seat` | `hvd_82484` | `approximate`／`medium` | 待独立替换 |
-| 418 | 河南 | 府属州与县治 | 许州 | department | `xu-kaifeng-seat` | `hvd_116032` | `approximate`／`medium` | 待独立替换 |
-| 419 | 河南 | 府属州与县治 | 鄢陵县 | county | `yanling-kaifeng-seat` | `hvd_44355` | `approximate`／`medium` | 待独立替换 |
-| 420 | 河南 | 府属州与县治 | 延津县 | county | `yanjin-seat` | `hvd_82288` | `approximate`／`medium` | 待独立替换 |
-| 421 | 河南 | 府属州与县治 | 偃师县 | county | `yanshi-henan-seat` | `hvd_82849` | `approximate`／`medium` | 待独立替换 |
-| 422 | 河南 | 府属州与县治 | 郾城县 | county | `yancheng-kaifeng-seat` | `hvd_83038` | `approximate`／`medium` | 待独立替换 |
-| 423 | 河南 | 府属州与县治 | 阳武县 | county | `yangwu-seat` | `hvd_82528` | `approximate`／`medium` | 待独立替换 |
-| 424 | 河南 | 府属州与县治 | 叶县 | county | `ye-yuzhou-seat` | `hvd_82812` | `approximate`／`medium` | 待独立替换 |
-| 425 | 河南 | 府属州与县治 | 仪封县 | county | `yifeng-seat` | `hvd_44375` | `approximate`／`medium` | 待独立替换 |
-| 426 | 河南 | 府属州与县治 | 宜阳县 | county | `yiyang-henan-seat` | `hvd_82864` | `approximate`／`medium` | 待独立替换 |
-| 427 | 河南 | 府属州与县治 | 永宁县 | county | `yongning-henan-seat` | `hvd_82915` | `approximate`／`medium` | 待独立替换 |
-| 428 | 河南 | 府属州与县治 | 虞城县 | county | `yucheng-guide-seat` | `hvd_82153` | `approximate`／`medium` | 待独立替换 |
-| 429 | 河南 | 府属州与县治 | 禹州 | department | `yu-kaifeng-seat` | `hvd_116136` | `approximate`／`medium` | 待独立替换 |
-| 430 | 河南 | 府属州与县治 | 裕州 | department | `yuzhou-nanyang-seat` | `hvd_116142` | `approximate`／`medium` | 待独立替换 |
-| 431 | 河南 | 府属州与县治 | 原武县 | county | `yuanwu-seat` | `hvd_82534` | `approximate`／`medium` | 待独立替换 |
-| 432 | 河南 | 府属州与县治 | 长葛县 | county | `changge-seat` | `hvd_83043` | `approximate`／`medium` | 待独立替换 |
-| 433 | 河南 | 府属州与县治 | 柘城县 | county | `zhecheng-guide-seat` | `hvd_82172` | `approximate`／`medium` | 待独立替换 |
-| 434 | 河南 | 府属州与县治 | 真阳县 | county | `zhenyang-runing-seat` | `hvd_83096` | `approximate`／`medium` | 待独立替换 |
-| 435 | 河南 | 府属州与县治 | 郑州 | department | `zheng-kaifeng-seat` | `hvd_116189` | `approximate`／`medium` | 待独立替换 |
-| 436 | 河南 | 府属州与县治 | 中牟县 | county | `zhongmou-seat` | `hvd_44364` | `approximate`／`medium` | 待独立替换 |
-| 437 | 河南 | 府属州与县治 | 胙城县 | county | `zuocheng-weihui-seat` | `hvd_82297` | `approximate`／`medium` | 待独立替换 |
+| 341 | 河南 | 一级行政区域治所 | 河南／开封府／祥符县 | province／prefecture／county | `xiangfu-seat` | `hvd_84008` | `approximate`／`medium` | 关联 3 个行政实体；已独立替换（河南三批） |
+| 342 | 河南 | 府与直隶州治所 | 归德府／商丘县 | prefecture／county | `shangqiu-seat` | `hvd_84009` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（河南三批） |
+| 343 | 河南 | 府与直隶州治所 | 河南府／洛阳县 | prefecture／county | `luoyang-seat` | `hvd_84004` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（河南三批） |
+| 344 | 河南 | 府与直隶州治所 | 怀庆府／河内县 | prefecture／county | `henei-seat` | `hvd_84002` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（河南三批） |
+| 345 | 河南 | 府与直隶州治所 | 南阳府／南阳县 | prefecture／county | `nanyang-seat` | `hvd_84005` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（河南三批） |
+| 346 | 河南 | 府与直隶州治所 | 汝宁府／汝阳县 | prefecture／county | `ruyang-seat` | `hvd_84007` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（河南三批） |
+| 347 | 河南 | 府与直隶州治所 | 汝州 | department | `ruzhou-seat` | `hvd_84013` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 348 | 河南 | 府与直隶州治所 | 卫辉府／汲县 | prefecture／county | `ji-seat` | `hvd_84003` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（河南三批） |
+| 349 | 河南 | 府与直隶州治所 | 彰德府／安阳县 | prefecture／county | `anyang-seat` | `hvd_84001` | `approximate`／`medium` | 关联 2 个行政实体；已独立替换（河南三批） |
+| 350 | 河南 | 府属州与县治 | 宝丰县 | county | `baofeng-ruzhou-seat` | `hvd_82993` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 351 | 河南 | 府属州与县治 | 陈留县 | county | `chenliu-kaifeng-seat` | `hvd_44325` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 352 | 河南 | 府属州与县治 | 磁州 | department | `cizhou-zhangde-seat` | `hvd_87977` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 353 | 河南 | 府属州与县治 | 登封县 | county | `dengfeng-henan-seat` | `hvd_82892` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 354 | 河南 | 府属州与县治 | 封丘县 | county | `fengqiu-seat` | `hvd_82327` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 355 | 河南 | 府属州与县治 | 扶沟县 | county | `fugou-seat` | `hvd_82060` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 356 | 河南 | 府属州与县治 | 巩县 | county | `gong-henan-seat` | `hvd_82876` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 357 | 河南 | 府属州与县治 | 固始县 | county | `gushi-runing-seat` | `hvd_82583` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 358 | 河南 | 府属州与县治 | 光山县 | county | `guangshan-runing-seat` | `hvd_82560` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 359 | 河南 | 府属州与县治 | 光州 | department | `guangzhou-runing-seat` | `hvd_82556` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 360 | 河南 | 府属州与县治 | 河阴县 | county | `heyin-seat` | `hvd_82434` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 361 | 河南 | 府属州与县治 | 辉县 | county | `hui-weihui-seat` | `hvd_82280` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 362 | 河南 | 府属州与县治 | 获嘉县 | county | `huojia-weihui-seat` | `hvd_82264` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 363 | 河南 | 府属州与县治 | 郏县 | county | `jia-ruzhou-seat` | `hvd_82985` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 364 | 河南 | 府属州与县治 | 考城县 | county | `kaocheng-guide-seat` | `hvd_82341` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 365 | 河南 | 府属州与县治 | 兰阳县 | county | `lanyang-seat` | `hvd_44371` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 366 | 河南 | 府属州与县治 | 林县 | county | `lin-zhangde-seat` | `hvd_82222` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 367 | 河南 | 府属州与县治 | 临颍县 | county | `linying-seat` | `hvd_83025` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 368 | 河南 | 府属州与县治 | 临漳县 | county | `linzhang-zhangde-seat` | `hvd_82205` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 369 | 河南 | 府属州与县治 | 灵宝县 | county | `lingbao-henan-seat` | `hvd_83052` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 370 | 河南 | 府属州与县治 | 卢氏县 | county | `lushi-henan-seat` | `hvd_83180` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 371 | 河南 | 府属州与县治 | 鲁山县 | county | `lushan-ruzhou-seat` | `hvd_82974` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 372 | 河南 | 府属州与县治 | 鹿邑县 | county | `luyi-guide-seat` | `hvd_82098` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 373 | 河南 | 府属州与县治 | 罗山县 | county | `luoshan-runing-seat` | `hvd_83089` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 374 | 河南 | 府属州与县治 | 孟津县 | county | `mengjin-henan-seat` | `hvd_82958` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 375 | 河南 | 府属州与县治 | 孟县 | county | `meng-huaiqing-seat` | `hvd_82518` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 376 | 河南 | 府属州与县治 | 泌阳县 | county | `biyang-nanyang-seat` | `hvd_82654` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 377 | 河南 | 府属州与县治 | 密县 | county | `mi-yuzhou-seat` | `hvd_82460` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 378 | 河南 | 府属州与县治 | 渑池县 | county | `mianchi-henan-seat` | `hvd_82931` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 379 | 河南 | 府属州与县治 | 南召县 | county | `nanzhao-nanyang-seat` | `hvd_82814` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 380 | 河南 | 府属州与县治 | 内乡县 | county | `neixiang-nanyang-seat` | `hvd_82767` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 381 | 河南 | 府属州与县治 | 宁陵县 | county | `ningling-guide-seat` | `hvd_82086` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 382 | 河南 | 府属州与县治 | 杞县 | county | `qi-kaifeng-seat` | `hvd_44329` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 383 | 河南 | 府属州与县治 | 确山县 | county | `queshan-runing-seat` | `hvd_83094` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 384 | 河南 | 府属州与县治 | 陕州 | department | `shanzhou-henan-seat` | `hvd_83049` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 385 | 河南 | 府属州与县治 | 商城县 | county | `shangcheng-runing-seat` | `hvd_82603` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 386 | 河南 | 府属州与县治 | 商水县 | county | `shangshui-seat` | `hvd_82013` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 387 | 河南 | 府属州与县治 | 上蔡县 | county | `shangcai-runing-seat` | `hvd_83091` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 388 | 河南 | 府属州与县治 | 沈丘县 | county | `shenqiu-seat` | `hvd_82052` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 389 | 河南 | 府属州与县治 | 汜水县 | county | `sishui-kaifeng-seat` | `hvd_82450` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 390 | 河南 | 府属州与县治 | 嵩县 | county | `song-henan-seat` | `hvd_82934` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 391 | 河南 | 府属州与县治 | 睢州 | department | `suizhou-guide-seat` | `hvd_82166` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 392 | 河南 | 府属州与县治 | 遂平县 | county | `suiping-runing-seat` | `hvd_83087` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 393 | 河南 | 府属州与县治 | 太康县 | county | `taikang-seat` | `hvd_82057` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 394 | 河南 | 府属州与县治 | 汤阴县 | county | `tangyin-zhangde-seat` | `hvd_82212` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 395 | 河南 | 府属州与县治 | 唐县 | county | `tang-nanyang-seat` | `hvd_82643` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 396 | 河南 | 府属州与县治 | 通许县 | county | `tongxu-seat` | `hvd_44331` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 397 | 河南 | 府属州与县治 | 桐柏县 | county | `tongbai-nanyang-seat` | `hvd_82672` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 398 | 河南 | 府属州与县治 | 洧川县 | county | `weichuan-seat` | `hvd_44347` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 399 | 河南 | 府属州与县治 | 温县 | county | `wen-huaiqing-seat` | `hvd_82522` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 400 | 河南 | 府属州与县治 | 阌乡县 | county | `wenxiang-henan-seat` | `hvd_83076` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 401 | 河南 | 府属州与县治 | 武安县 | county | `wuan-cizhou-seat` | `hvd_82232` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 402 | 河南 | 府属州与县治 | 舞阳县 | county | `wuyang-nanyang-seat` | `hvd_82796` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 403 | 河南 | 府属州与县治 | 西华县 | county | `xihua-seat` | `hvd_82039` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 404 | 河南 | 府属州与县治 | 西平县 | county | `xiping-runing-seat` | `hvd_83156` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 405 | 河南 | 府属州与县治 | 息县 | county | `xixian-runing-seat` | `hvd_82590` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 406 | 河南 | 府属州与县治 | 淅川县 | county | `xichuan-nanyang-seat` | `hvd_82735` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 407 | 河南 | 府属州与县治 | 夏邑县 | county | `xiayi-guide-seat` | `hvd_82113` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 408 | 河南 | 府属州与县治 | 襄城县 | county | `xiangcheng-xu-seat` | `hvd_83031` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 409 | 河南 | 府属州与县治 | 项城县 | county | `xiangcheng-chen-seat` | `hvd_82051` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 410 | 河南 | 府属州与县治 | 新安县 | county | `xinan-henan-seat` | `hvd_82918` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 411 | 河南 | 府属州与县治 | 新蔡县 | county | `xincai-runing-seat` | `hvd_83092` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 412 | 河南 | 府属州与县治 | 新野县 | county | `xinye-nanyang-seat` | `hvd_82753` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 413 | 河南 | 府属州与县治 | 新郑县 | county | `xinzheng-seat` | `hvd_82462` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 414 | 河南 | 府属州与县治 | 信阳州 | department | `xinyang-runing-seat` | `hvd_83095` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 415 | 河南 | 府属州与县治 | 荥阳县 | county | `xingyang-seat` | `hvd_44391` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 416 | 河南 | 府属州与县治 | 荥泽县 | county | `xingze-seat` | `hvd_82437` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 417 | 河南 | 府属州与县治 | 修武县 | county | `xiuwu-huaiqing-seat` | `hvd_82484` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 418 | 河南 | 府属州与县治 | 许州 | department | `xu-kaifeng-seat` | `hvd_116032` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 419 | 河南 | 府属州与县治 | 鄢陵县 | county | `yanling-kaifeng-seat` | `hvd_44355` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 420 | 河南 | 府属州与县治 | 延津县 | county | `yanjin-seat` | `hvd_82288` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 421 | 河南 | 府属州与县治 | 偃师县 | county | `yanshi-henan-seat` | `hvd_82849` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 422 | 河南 | 府属州与县治 | 郾城县 | county | `yancheng-kaifeng-seat` | `hvd_83038` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 423 | 河南 | 府属州与县治 | 阳武县 | county | `yangwu-seat` | `hvd_82528` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 424 | 河南 | 府属州与县治 | 叶县 | county | `ye-yuzhou-seat` | `hvd_82812` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 425 | 河南 | 府属州与县治 | 仪封县 | county | `yifeng-seat` | `hvd_44375` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 426 | 河南 | 府属州与县治 | 宜阳县 | county | `yiyang-henan-seat` | `hvd_82864` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 427 | 河南 | 府属州与县治 | 永宁县 | county | `yongning-henan-seat` | `hvd_82915` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
+| 428 | 河南 | 府属州与县治 | 虞城县 | county | `yucheng-guide-seat` | `hvd_82153` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 429 | 河南 | 府属州与县治 | 禹州 | department | `yu-kaifeng-seat` | `hvd_116136` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 430 | 河南 | 府属州与县治 | 裕州 | department | `yuzhou-nanyang-seat` | `hvd_116142` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 431 | 河南 | 府属州与县治 | 原武县 | county | `yuanwu-seat` | `hvd_82534` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 432 | 河南 | 府属州与县治 | 长葛县 | county | `changge-seat` | `hvd_83043` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 433 | 河南 | 府属州与县治 | 柘城县 | county | `zhecheng-guide-seat` | `hvd_82172` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 434 | 河南 | 府属州与县治 | 真阳县 | county | `zhenyang-runing-seat` | `hvd_83096` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 435 | 河南 | 府属州与县治 | 郑州 | department | `zheng-kaifeng-seat` | `hvd_116189` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 436 | 河南 | 府属州与县治 | 中牟县 | county | `zhongmou-seat` | `hvd_44364` | `approximate`／`medium` | 已独立替换（河南三批） |
+| 437 | 河南 | 府属州与县治 | 胙城县 | county | `zuocheng-weihui-seat` | `hvd_82297` | `approximate`／`low` | 低可信；已独立替换（河南三批） |
 | 438 | 山西 | 一级行政区域治所 | 山西／太原府 | province／prefecture | `yangqu-seat` | `hvd_94021` | `approximate`／`medium` | 关联 2 个行政实体；共址 2 个地点；已独立替换（山西两批） |
 | 439 | 山西 | 府与直隶州治所 | 大同府 | prefecture | `datong-seat` | `hvd_115139` | `approximate`／`medium` | 共址 2 个地点；已独立替换（山西两批） |
 | 440 | 山西 | 府与直隶州治所 | 汾州府 | prefecture | `fenyang-seat` | `hvd_94027` | `approximate`／`medium` | 共址 2 个地点；已独立替换（山西两批） |

@@ -1,7 +1,7 @@
 {
   "name": "ming-historical-map",
   "private": true,
-  "version": "0.14.1",
+  "version": "0.14.2",
   "type": "module",
   "scripts": {
     "data:assemble": "cargo run -p data-validator -- assemble data/manifest.json",
