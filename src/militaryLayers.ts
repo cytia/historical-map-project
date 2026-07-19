@@ -100,6 +100,10 @@ function pointSize(selectedMilitaryId: string | null): ExpressionSpecification {
   return ["case", ["==", ["get", "id"], selectedMilitaryId ?? ""], 15, 11];
 }
 
+const dusiPointExpression = ["match", ["get", "militaryKind"],
+  "dusi", true, "xing-dusi", true, "liushou-si", true, false,
+] as ExpressionSpecification;
+
 export function addMilitaryLayers(map: Map, selection: MilitaryLayerSelection, visible: boolean) {
   const data = featureData(selection);
   map.addSource(pointSourceId, { type: "geojson", data: data.points });
@@ -116,8 +120,9 @@ export function addMilitaryLayers(map: Map, selection: MilitaryLayerSelection, v
   map.addLayer({ id: militaryLayerIds[2], type: "symbol", source: pointSourceId,
     layout: { "text-field": "▲", "text-font": ["Open Sans Regular"],
       "text-size": pointSize(selection.selectedMilitaryId), "text-allow-overlap": true },
-    paint: { "text-color": pointColor(selection.colorMode), "text-halo-color": tokens.land,
-      "text-halo-width": 0.8 } });
+    paint: { "text-color": pointColor(selection.colorMode),
+      "text-halo-color": ["case", dusiPointExpression, tokens.seatRing, tokens.land],
+      "text-halo-width": ["case", dusiPointExpression, 2, 0.8] } });
   map.addLayer({ id: militaryLayerIds[3], type: "symbol", source: pointSourceId,
     minzoom: 4.4, layout: { "text-field": ["get", "label"], "text-font": ["Open Sans Regular"],
       "text-size": ["interpolate", ["linear"], ["zoom"], 4, 10, 8, 13],

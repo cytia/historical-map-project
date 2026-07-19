@@ -2,6 +2,12 @@ import { mapDisplayModes, militaryColorModes } from "./mapDisplay";
 import { useAppStore } from "./store";
 import { Tooltip } from "./Tooltip";
 
+const colorOptions = [
+  ...mapDisplayModes.slice(0, 1).map((mode) => ({ ...mode, type: "map" as const })),
+  ...militaryColorModes.map((mode) => ({ ...mode, available: true, type: "military" as const })),
+  ...mapDisplayModes.slice(1).map((mode) => ({ ...mode, type: "map" as const })),
+];
+
 export function LayerBar() {
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const militaryVisible = useAppStore((state) => state.militaryVisible);
@@ -17,6 +23,13 @@ export function LayerBar() {
     setMapDisplayMode(mode);
     if (mode === "administrative") setMilitaryColorMode("administrative");
   };
+  const chooseColorMode = (option: (typeof colorOptions)[number]) => {
+    if (option.type === "military") {
+      setMilitaryColorMode(militaryColorMode === option.id ? "administrative" : option.id);
+      return;
+    }
+    chooseMapDisplayMode(option.id);
+  };
 
   return (
     <nav className="layer-bar" aria-label="地图视图与图层">
@@ -30,6 +43,17 @@ export function LayerBar() {
           onClick={() => setSeatsVisible(!seatsVisible)}
         >
           州府
+        </button>
+      </Tooltip>
+      <Tooltip content="都司、行都司、留守司及卫所">
+        <button
+          type="button"
+          className="layer-button"
+          aria-label="都司"
+          aria-pressed={militaryVisible}
+          onClick={() => setMilitaryVisible(!militaryVisible)}
+        >
+          都司
         </button>
       </Tooltip>
       <Tooltip content="行政边界数据尚未接入">
@@ -53,44 +77,19 @@ export function LayerBar() {
         地貌
       </button>
       </Tooltip>
-      <Tooltip content="都司、行都司、留守司及卫所">
-        <button
-          type="button"
-          className="layer-button"
-          aria-label="都司"
-          aria-pressed={militaryVisible}
-          onClick={() => setMilitaryVisible(!militaryVisible)}
-        >
-          都司
-        </button>
-      </Tooltip>
       <span className="layer-bar-divider" aria-hidden="true" />
       <span className="layer-bar-label layer-bar-label-secondary" aria-hidden="true">着色</span>
-      {mapDisplayModes.map((mode) => (
-        <Tooltip key={mode.id} content={mode.description}>
+      {colorOptions.map((option) => (
+        <Tooltip key={option.id} content={option.description}>
           <button
             type="button"
             className="layer-button"
-            aria-label={`${mode.label}着色视图`}
-            aria-pressed={mapDisplayMode === mode.id}
-            disabled={!mode.available}
-            onClick={() => chooseMapDisplayMode(mode.id)}
+            aria-label={`${option.label}着色视图`}
+            aria-pressed={option.type === "military" ? militaryColorMode === option.id : mapDisplayMode === option.id}
+            disabled={!option.available}
+            onClick={() => chooseColorMode(option)}
           >
-            {mode.label}
-          </button>
-        </Tooltip>
-      ))}
-      <span className="layer-bar-divider" aria-hidden="true" />
-      {militaryColorModes.map((mode) => (
-        <Tooltip key={mode.id} content={mode.description}>
-          <button
-            type="button"
-            className="layer-button"
-            aria-label={`${mode.label}着色视图`}
-            aria-pressed={militaryColorMode === mode.id}
-            onClick={() => setMilitaryColorMode(mode.id)}
-          >
-            {mode.label}
+            {option.label}
           </button>
         </Tooltip>
       ))}

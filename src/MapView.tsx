@@ -79,8 +79,6 @@ export function MapView() {
       const state = useAppStore.getState();
       const selectedRegionId = getUnitRegionId(state.selectedUnitId) ?? state.activeRegionId;
       addRelationLayers(map, state.selectedUnitId, true);
-      addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId,
-        state.seatsVisible, state.mapDisplayMode);
       addMilitaryLayers(map, {
         selectedMilitaryId: state.selectedMilitaryUnitId,
         selectedAdministrativeId: state.selectedUnitId,
@@ -88,6 +86,8 @@ export function MapView() {
         scope: state.hierarchyScope,
         colorMode: state.militaryColorMode,
       }, state.militaryVisible);
+      addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId,
+        state.seatsVisible, state.mapDisplayMode);
       addCountyLayers(map, {
         selectedUnitId: state.selectedUnitId,
         selectedCountyId: state.selectedCountyId,
