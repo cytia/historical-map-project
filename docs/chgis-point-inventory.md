@@ -123,11 +123,11 @@
 
 ### 京师替换验收
 
-- 121/121 点已由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标；全部为 `approximate`，其中 `medium` 107 点、`low` 14 点。
+- 120/121 点由 `wikidata-modern-place-coordinates` 独立取得现代代理坐标，`baoding-county-seat` 已改用 OpenStreetMap 的文安县新镇二村近似代理；全部为 `approximate`，其中 `medium` 107 点、`low` 14 点。
 - 按 `data/places/jingshi.json` 文件顺序分三批完成：第一批 41 点（`hejian-seat` 至 `yizhou-baoding-seat`），第二批 40 点（`laishui-seat` 至 `luancheng-seat`），第三批 40 点（`wuji-seat` 至 `leting-seat`）；京师 121 个目标点均不再由 CHGIS `location` 主张承担坐标。
-- 保安州→涿鹿县、东安县→廊坊市、保定县→保定市、新城县→高碑店新城镇、庆都县→望都县、完县→顺平县、束鹿县→辛集市、安州／新安县→安新县及安新镇、交河县→泊头市交河镇、兴济县→兴济镇、唐山县／隆平县→隆尧县、开州→濮阳市等历史沿革或现代代理未完全闭合的 14 条记录保留低可信说明。
+- 保安州→涿鹿县、东安县→廊坊市、保定县→文安县新镇、新城县→高碑店新城镇、庆都县→望都县、完县→顺平县、束鹿县→辛集市、安州／新安县→安新县及安新镇、交河县→泊头市交河镇、兴济县→兴济镇、唐山县／隆平县→隆尧县、开州→濮阳市等历史沿革或现代代理未完全闭合的 14 条记录保留低可信说明。
 - 大名府／大名县共用大名镇代理，唐山县／隆平县共用隆尧县代理，魏县的两个历史父链记录共用魏县代理；各历史 `placeId` 和关联实体数量均保留，未合并行政实体。
-- 所有候选均保留官方 Wikidata API 返回的原始 `P625` 数值，经度在前；Q ID、来源主张、可信度和审计日期已写入京师数据分片。
+- 120 个 Wikidata 候选保留官方 API 返回的原始 `P625` 数值；保定县记录改用 OpenStreetMap 新镇二村节点作为现代聚落代理。各记录的来源主张、可信度和审计日期均写入京师数据分片。
 - 三批数据结构、来源引用、WGS 84 坐标范围、京师目标无 CHGIS `location` 主张和旧编号审计保留检查通过；`data-validator` 与单元测试通过。旧 CHGIS 编号只保留在本清单中供迁移审计回查。
 
 ### 南京替换验收
@@ -272,7 +272,7 @@
 | 11 | 京师 | 府属州与县治 | 霸州 | department | `bazhou-seat` | `hvd_88200` | `approximate`／`medium` | 已独立替换（京师三批） |
 | 12 | 京师 | 府属州与县治 | 柏乡县 | county | `baixiang-seat` | `hvd_44951` | `approximate`／`medium` | 已独立替换（京师三批） |
 | 13 | 京师 | 府属州与县治 | 宝坻县 | county | `baodi-seat` | `hvd_88197` | `approximate`／`medium` | 已独立替换（京师三批） |
-| 14 | 京师 | 府属州与县治 | 保定县 | county | `baoding-county-seat` | `hvd_88205` | `approximate`／`low` | 低可信；已独立替换（京师三批） |
+| 14 | 京师 | 府属州与县治 | 保定县 | county | `baoding-county-seat` | `hvd_88205` | `approximate`／`low` | 低可信；已改为文安县新镇二村近似代理 |
 | 15 | 京师 | 府属州与县治 | 博野县 | county | `boye-seat` | `hvd_44753` | `approximate`／`medium` | 已独立替换（京师三批） |
 | 16 | 京师 | 府属州与县治 | 沧州 | department | `cangzhou-seat` | `hvd_88239` | `approximate`／`medium` | 已独立替换（京师三批） |
 | 17 | 京师 | 府属州与县治 | 昌黎县 | county | `changli-seat` | `hvd_88310` | `approximate`／`medium` | 已独立替换（京师三批） |

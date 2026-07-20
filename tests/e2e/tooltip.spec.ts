@@ -18,17 +18,15 @@ test.beforeEach(async ({ page }) => {
 });
 
 test("closes a tooltip when the pointer leaves a clicked button", async ({ page }) => {
-  for (const name of ["总览", "山川地貌"]) {
-    const button = page.getByRole("button", { name });
-    await button.hover();
-    await expect(page.getByRole("tooltip")).toBeVisible();
+  const button = page.getByRole("button", { name: "总览" });
+  await button.hover();
+  await expect(page.getByRole("tooltip")).toBeVisible();
 
-    await button.click();
-    await page.mouse.move(640, 500);
+  await button.click();
+  await page.mouse.move(640, 500);
 
-    await expect(button).toBeFocused();
-    await expect(page.getByRole("tooltip")).toHaveCount(0);
-  }
+  await expect(button).toBeFocused();
+  await expect(page.getByRole("tooltip")).toHaveCount(0);
 });
 
 test("keeps a tooltip while its trigger has keyboard focus", async ({ page }) => {

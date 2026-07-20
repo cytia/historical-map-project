@@ -4,7 +4,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import { AdministrativeTargetChooser } from "./AdministrativeTargetChooser";
 import { getTopLevelUnitId, getUnitRegionId } from "./data";
 import { addCountyLayers } from "./countyLayers";
-import { naturalReferenceStyle, paperStyle } from "./mapConfig";
+import { naturalReferenceStyle } from "./mapConfig";
 import {
   createSelectionPointerController,
   selectionClickTolerance,
@@ -40,7 +40,6 @@ export function MapView() {
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const militaryVisible = useAppStore((state) => state.militaryVisible);
-  const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
   const hierarchyScope = useAppStore((state) => state.hierarchyScope);
   const mapDisplayMode = useAppStore((state) => state.mapDisplayMode);
   const militaryColorMode = useAppStore((state) => state.militaryColorMode);
@@ -62,7 +61,7 @@ export function MapView() {
       maxZoom: 10,
       clickTolerance: selectionClickTolerance,
       attributionControl: false,
-      style: paperStyle,
+      style: addTerrainStyle(naturalReferenceStyle, import.meta.env.VITE_TERRAIN_URL),
     });
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
@@ -70,7 +69,7 @@ export function MapView() {
       new maplibregl.AttributionControl({
         compact: true,
         customAttribution:
-          "底图：Natural Earth · 历史数据：《明史》 · 现代坐标：Wikidata | NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74.",
+          "底图：Natural Earth · 历史数据：《明史》 · 现代坐标：Wikidata、OpenStreetMap contributors | NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74.",
       }),
       "bottom-right",
     );
@@ -162,21 +161,6 @@ export function MapView() {
   useEffect(closeTargetChoice, [hierarchyScope, selectedCountyId,
     selectedMilitaryUnitId, selectedUnitId, closeTargetChoice]);
 
-  useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
-
-    if (!modernReferenceVisible) {
-      stopRelationAnimation(map);
-      stopMilitaryRelationAnimation(map);
-      map.setStyle(paperStyle);
-      return;
-    }
-
-    stopRelationAnimation(map);
-    stopMilitaryRelationAnimation(map);
-    map.setStyle(addTerrainStyle(naturalReferenceStyle, import.meta.env.VITE_TERRAIN_URL));
-  }, [modernReferenceVisible]);
   return <>
     <div className="map" ref={containerRef} aria-label="公元1600年已录入行政治所地图" />
     {targetChoice && <AdministrativeTargetChooser

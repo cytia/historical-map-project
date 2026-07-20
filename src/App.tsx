@@ -3,7 +3,7 @@ import { AdministrativeDetailPanel } from "./AdministrativeDetailPanel";
 import { MilitaryDetailPanel } from "./MilitaryDetailPanel";
 import { HierarchyToolbar } from "./AdministrativeScopeToolbar";
 import { counties, regions, seats } from "./data";
-import { militaryRecords } from "./militaryData";
+import { publishedMilitaryRecords } from "./militaryData";
 import { LayerBar } from "./LayerBar";
 import { ScopePanel } from "./ScopePanel";
 import { useAppStore } from "./store";
@@ -28,7 +28,7 @@ export default function App() {
 
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
   const selectedCounty = counties.find((record) => record.unit.id === selectedCountyId);
-  const selectedMilitary = militaryRecords.find((record) => record.unit.id === selectedMilitaryUnitId);
+  const selectedMilitary = publishedMilitaryRecords.find((record) => record.unit.id === selectedMilitaryUnitId);
   const panelRegion = regions.find(
     (region) => region.id === (hoveredRegionId ?? activeRegionId),
   );
@@ -45,7 +45,7 @@ export default function App() {
       unit.name.includes(query) || name.includes(query) ||
       parent.name.includes(query) || region.name.includes(query),
     ).map((record) => ({ kind: "county" as const, record }));
-    const militaryResults = militaryRecords.filter(({ unit, name }) =>
+    const militaryResults = publishedMilitaryRecords.filter(({ unit, name }) =>
       unit.name.includes(query) || name.includes(query),
     ).map((record) => ({ kind: "military" as const, record }));
     return [...seatResults, ...countyResults, ...militaryResults].slice(0, 6);
@@ -113,10 +113,29 @@ export default function App() {
       <AdministrativeDetailPanel seat={selected} county={selectedCounty} />
       <MilitaryDetailPanel record={selectedMilitary} />
 
-      <footer className="timeline">
-        <span>1368</span>
-        <div className="timeline-track"><i /><strong>1600</strong></div>
-        <span>1644</span>
+      <footer className="timeline" aria-label="代表性时间节点">
+        <div className="timeline-track">
+          <span className="timeline-node timeline-node-start">
+            <i aria-hidden="true" />
+            <strong>洪武二十六年</strong>
+            <small>公元 1393 年</small>
+          </span>
+          <span className="timeline-node timeline-node-middle-start">
+            <i aria-hidden="true" />
+            <strong>弘治十五年</strong>
+            <small>公元 1502 年</small>
+          </span>
+          <span className="timeline-node timeline-node-current" aria-current="true">
+            <i aria-hidden="true" />
+            <strong>万历二十八年</strong>
+            <small>公元 1600 年</small>
+          </span>
+          <span className="timeline-node timeline-node-end">
+            <i aria-hidden="true" />
+            <strong>崇祯十七年</strong>
+            <small>公元 1644 年</small>
+          </span>
+        </div>
       </footer>
 
       <div className="map-note">历史示意图 · 非现代行政地图</div>

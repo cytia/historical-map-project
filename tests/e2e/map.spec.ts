@@ -41,19 +41,56 @@ test("keeps affiliation modes separate from base layer toggles", async ({ page }
   await expect(jurisdictionMode).toBeDisabled();
   await expect(controlMode).toBeDisabled();
   await expect(page.getByRole("button", { name: "府州治所" })).toBeEnabled();
-  await expect(page.getByRole("button", { name: "山川地貌" })).toBeEnabled();
+  await expect(page.getByRole("button", { name: "山川地貌" })).toHaveCount(0);
 });
 
-test("exposes the military layer and military-only coloring", async ({ page }) => {
+test("keeps unpublished military controls disabled", async ({ page }) => {
   await page.goto("/");
   const militaryLayer = page.getByRole("button", { name: "都司" });
   const militaryColor = page.getByRole("button", { name: "军事着色视图" });
+  await expect(militaryLayer).toBeDisabled();
   await expect(militaryLayer).toHaveAttribute("aria-pressed", "false");
-  await expect(militaryColor).toBeEnabled();
-  await militaryColor.click();
-  await expect(militaryColor).toHaveAttribute("aria-pressed", "true");
-  await militaryLayer.click();
-  await expect(militaryLayer).toHaveAttribute("aria-pressed", "true");
+  await expect(militaryColor).toBeDisabled();
+  await expect(militaryColor).toHaveAttribute("aria-pressed", "false");
+
+  const search = page.getByRole("textbox", { name: "搜索历史地名" });
+  await search.fill("龙里卫");
+  await expect(page.locator(".search-results")).toHaveCount(0);
+});
+
+test("shows four representative historical time points", async ({ page }) => {
+  await page.goto("/");
+  const timeline = page.locator(".timeline");
+  await expect(timeline.locator(".timeline-node")).toHaveCount(4);
+  await expect(timeline).toContainText("洪武二十六年");
+  await expect(timeline).toContainText("公元 1393 年");
+  await expect(timeline).toContainText("弘治十五年");
+  await expect(timeline).toContainText("公元 1502 年");
+  await expect(timeline).toContainText("万历二十八年");
+  await expect(timeline).toContainText("公元 1600 年");
+  await expect(timeline).toContainText("崇祯十七年");
+  await expect(timeline).toContainText("公元 1644 年");
+  await expect(timeline.locator('[aria-current="true"]')).toContainText("公元 1600 年");
+  const geometry = await timeline.evaluate((element) => {
+    const track = element.querySelector<HTMLElement>(".timeline-track");
+    const nodes = [...element.querySelectorAll<HTMLElement>(".timeline-node")];
+    const positions = nodes.map((node) => node.getBoundingClientRect().left);
+    return {
+      timelineTop: element.getBoundingClientRect().top,
+      timelineWidth: element.getBoundingClientRect().width,
+      trackTop: track?.getBoundingClientRect().top ?? 0,
+      trackWidth: track?.getBoundingClientRect().width ?? 0,
+      nodeSpan: Math.max(...positions) - Math.min(...positions),
+      titleCenter: nodes.reduce((sum, node) => {
+        const title = node.querySelector<HTMLElement>("strong")?.getBoundingClientRect();
+        return sum + (title ? title.top + title.height / 2 : 0);
+      }, 0) / nodes.length,
+    };
+  });
+  expect(geometry.trackWidth).toBeGreaterThan(geometry.timelineWidth * 0.7);
+  expect(geometry.nodeSpan).toBeGreaterThan(geometry.trackWidth * 0.7);
+  const upperRowCenter = (geometry.timelineTop + geometry.trackTop) / 2;
+  expect(Math.abs(geometry.titleCenter - upperRowCenter)).toBeLessThan(3);
 });
 
 test("shows the selected seat's administrative region", async ({ page, isMobile }) => {
@@ -180,8 +217,7 @@ test("loads the local terrain archive with attribution", async ({ page, isMobile
   test.skip(isMobile, "Terrain archive loading is covered once on desktop");
   await page.goto("/");
   await expectMapReady(page);
-  await expect(page.getByRole("button", { name: "山川地貌" }))
-    .toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByRole("button", { name: "山川地貌" })).toHaveCount(0);
   await expect(page.getByText(/ETOPO 2022/)).toBeAttached();
   const archiveResponse = await page.request.get("/terrain/china-terrain.pmtiles", {
     headers: { Range: "bytes=0-126" },
@@ -218,18 +254,13 @@ test("loads the local natural reference layer", async ({ page, isMobile }) => {
   ]));
 });
 
-test("keeps seat rendering after the natural style changes", async ({ page, isMobile }) => {
+test("keeps seat rendering over the always-visible natural style", async ({ page, isMobile }) => {
   test.skip(isMobile, "Desktop interaction is covered separately from mobile layout");
   await page.goto("/");
   const canvas = await expectMapReady(page);
-  const referenceToggle = page.getByRole("button", { name: "山川地貌" });
   const seatsToggle = page.getByRole("button", { name: "府州治所" });
 
-  await expect(referenceToggle).toHaveAttribute("aria-pressed", "true");
-  await referenceToggle.click();
-  await expect(referenceToggle).toHaveAttribute("aria-pressed", "false");
-  await referenceToggle.click();
-  await expect(referenceToggle).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByRole("button", { name: "山川地貌" })).toHaveCount(0);
 
   const withSeats = await canvas.screenshot();
   await seatsToggle.click();

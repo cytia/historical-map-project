@@ -50,6 +50,10 @@ export const militaryRecords = data.administrativeUnits
   .map(createRecord)
   .filter((record): record is MilitaryRecord => record !== null);
 
+// The current military records are still trial data and must not enter the public release.
+export const militaryTrialPublished = false;
+export const publishedMilitaryRecords = militaryTrialPublished ? militaryRecords : [];
+
 export const militaryById = new Map(militaryRecords.map((record) => [record.unit.id, record]));
 
 export function isMilitaryPrimaryUnit(unit: AdministrativeUnit) {

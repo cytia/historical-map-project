@@ -181,6 +181,29 @@
     "citation": "Wikidata entities and P625 coordinates retrieved through the official Action API and Query Service; individual entity IDs are recorded with each place claim."
   },
   {
+    "id": "ri-xia-old-hearings-geography",
+    "title": "钦定日下旧闻考·卷一百二十一",
+    "creator": "于敏中等",
+    "locator": "卷一百二十一·京畿·保定县",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%AC%BD%E5%AE%9A%E6%97%A5%E4%B8%8B%E8%88%8A%E8%81%9E%E8%80%83_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B7121",
+    "accessedOn": "2026-07-19",
+    "kind": "reference",
+    "license": "Public-domain historical text; Wikisource transcription available under CC BY-SA 4.0",
+    "redistribution": "allowed",
+    "citation": "《钦定日下旧闻考》卷一百二十一，京畿保定县条。"
+  },
+  {
+    "id": "openstreetmap-xinzhen-ercun",
+    "title": "OpenStreetMap Xinzhen Ercun coordinate",
+    "creator": "OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org/node/7834139035",
+    "accessedOn": "2026-07-19",
+    "kind": "dataset",
+    "license": "OpenStreetMap data © OpenStreetMap contributors, ODbL 1.0",
+    "redistribution": "allowed",
+    "citation": "OpenStreetMap node 7834139035, Xinzhen Ercun, Wen'an County, Hebei; coordinate retrieved 2026-07-19."
+  },
+  {
     "id": "noaa-etopo-2022-15s",
     "title": "ETOPO 2022 15 Arc-Second Global Relief Model",
     "creator": "NOAA National Centers for Environmental Information",

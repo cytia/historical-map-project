@@ -1,22 +1,25 @@
 import { mapDisplayModes, militaryColorModes } from "./mapDisplay";
+import { militaryTrialPublished } from "./militaryData";
 import { useAppStore } from "./store";
 import { Tooltip } from "./Tooltip";
 
 const colorOptions = [
   ...mapDisplayModes.slice(0, 1).map((mode) => ({ ...mode, type: "map" as const })),
-  ...militaryColorModes.map((mode) => ({ ...mode, available: true, type: "military" as const })),
+  ...militaryColorModes.map((mode) => ({
+    ...mode,
+    available: militaryTrialPublished,
+    type: "military" as const,
+  })),
   ...mapDisplayModes.slice(1).map((mode) => ({ ...mode, type: "map" as const })),
 ];
 
 export function LayerBar() {
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const militaryVisible = useAppStore((state) => state.militaryVisible);
-  const modernReferenceVisible = useAppStore((state) => state.modernReferenceVisible);
   const mapDisplayMode = useAppStore((state) => state.mapDisplayMode);
   const militaryColorMode = useAppStore((state) => state.militaryColorMode);
   const setSeatsVisible = useAppStore((state) => state.setSeatsVisible);
   const setMilitaryVisible = useAppStore((state) => state.setMilitaryVisible);
-  const setModernReferenceVisible = useAppStore((state) => state.setModernReferenceVisible);
   const setMapDisplayMode = useAppStore((state) => state.setMapDisplayMode);
   const setMilitaryColorMode = useAppStore((state) => state.setMilitaryColorMode);
   const chooseMapDisplayMode = (mode: (typeof mapDisplayModes)[number]["id"]) => {
@@ -45,12 +48,13 @@ export function LayerBar() {
           州府
         </button>
       </Tooltip>
-      <Tooltip content="都司、行都司、留守司及卫所">
+      <Tooltip content="试验军事点位暂未发布">
         <button
           type="button"
           className="layer-button"
           aria-label="都司"
-          aria-pressed={militaryVisible}
+          aria-pressed={militaryTrialPublished && militaryVisible}
+          disabled={!militaryTrialPublished}
           onClick={() => setMilitaryVisible(!militaryVisible)}
         >
           都司
@@ -66,17 +70,6 @@ export function LayerBar() {
           边界
         </button>
       </Tooltip>
-      <Tooltip content="山川地貌">
-        <button
-          type="button"
-          className="layer-button"
-          aria-label="山川地貌"
-          aria-pressed={modernReferenceVisible}
-          onClick={() => setModernReferenceVisible(!modernReferenceVisible)}
-      >
-        地貌
-      </button>
-      </Tooltip>
       <span className="layer-bar-divider" aria-hidden="true" />
       <span className="layer-bar-label layer-bar-label-secondary" aria-hidden="true">着色</span>
       {colorOptions.map((option) => (
@@ -85,7 +78,9 @@ export function LayerBar() {
             type="button"
             className="layer-button"
             aria-label={`${option.label}着色视图`}
-            aria-pressed={option.type === "military" ? militaryColorMode === option.id : mapDisplayMode === option.id}
+            aria-pressed={option.type === "military"
+              ? militaryTrialPublished && militaryColorMode === option.id
+              : mapDisplayMode === option.id}
             disabled={!option.available}
             onClick={() => chooseColorMode(option)}
           >

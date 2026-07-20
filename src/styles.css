@@ -415,7 +415,7 @@ summary { padding: 13px 0; cursor: pointer; font-size: 12px; font-weight: 700; }
   min-width: 320px;
   height: 48px;
   display: grid;
-  grid-template-columns: 48px 1fr 48px;
+  grid-template-columns: 1fr;
   align-items: center;
   padding: 0 16px;
   transform: translateX(-50%);
@@ -426,9 +426,19 @@ summary { padding: 13px 0; cursor: pointer; font-size: 12px; font-weight: 700; }
   font-size: 10px;
 }
 .timeline-track { position: relative; height: 1px; background: var(--color-track); }
-.timeline-track i { position: absolute; left: 83%; top: 50%; width: 10px; height: 10px; transform: translate(-50%, -50%); border: 2px solid var(--color-marker-ring); border-radius: 50%; background: var(--color-accent); }
-.timeline-track strong { position: absolute; left: 83%; top: -22px; transform: translateX(-50%); color: var(--color-accent); font: 600 10px Inter, sans-serif; }
-.timeline > span:last-child { text-align: right; }
+.timeline-node { position: absolute; top: 0; width: 10px; height: 10px; transform: translate(-50%, -50%); }
+.timeline-node-start { left: 0; transform: translate(0, -50%); }
+.timeline-node-middle-start { left: 33.333%; }
+.timeline-node-current { left: 66.667%; }
+.timeline-node-end { left: 100%; transform: translate(-100%, -50%); }
+.timeline-node i { position: absolute; inset: 0; width: 10px; height: 10px; border: 2px solid var(--color-marker-ring); border-radius: 50%; background: var(--color-panel); }
+.timeline-node strong, .timeline-node small { position: absolute; left: 50%; transform: translateX(-50%); white-space: nowrap; }
+.timeline-node-start strong, .timeline-node-start small { left: 0; transform: none; }
+.timeline-node-end strong, .timeline-node-end small { left: 10px; transform: translateX(-100%); }
+.timeline-node strong { top: -12px; color: var(--color-text-muted); font: 600 9px "Noto Serif SC", SimSun, serif; line-height: 1.1; }
+.timeline-node small { top: 12px; color: var(--color-text-muted); font: 9px Inter, sans-serif; }
+.timeline-node-current i { border-color: var(--color-accent); background: var(--color-accent); }
+.timeline-node-current strong, .timeline-node-current small { color: var(--color-accent); }
 .map-note { position: absolute; z-index: 2; right: 18px; bottom: 18px; color: var(--color-map-note); font-size: 9px; letter-spacing: 0.08em; }
 .mobile-control { display: none; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }

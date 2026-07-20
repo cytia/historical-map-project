@@ -559,10 +559,10 @@
   },
   {
     "id": "baoding-county-seat",
-    "longitude": 115.48452,
-    "latitude": 38.86712,
+    "longitude": 116.35959,
+    "latitude": 38.99824,
     "locationAccuracy": "approximate",
-    "locationMethod": "Modern historical-city proxy independently located from Wikidata Q58584, guided by the Ming History geographic description; modern Baoding City proxy for historical Baoding County; the historical county identity is not continuous with the modern prefecture-level city; exact old administrative compound remains unresolved",
+    "locationMethod": "Approximate modern proxy at Xinzhen Ercun in present-day Wen'an County, independently located from OpenStreetMap node 7834139035 and guided by the historical geographic account that Baoding County was the former Xinzhen and belonged to Bazhou in the Ming; exact Ming county seat compound remains unresolved",
     "confidence": "low",
     "sources": [
       {
@@ -571,15 +571,21 @@
         "confidence": "high"
       },
       {
-        "sourceId": "wikidata-modern-place-coordinates",
+        "sourceId": "ri-xia-old-hearings-geography",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The compilation identifies Baoding County as the former Xinzhen and records it as belonging to Bazhou in the Ming; it also gives distances toward Wen'an and Bazhou."
+      },
+      {
+        "sourceId": "openstreetmap-xinzhen-ercun",
         "claim": "location",
         "confidence": "low",
-        "note": "Wikidata Q58584 P625; modern Baoding City proxy for historical Baoding County; the historical county identity is not continuous with the modern prefecture-level city; exact old administrative compound remains unresolved."
+        "note": "OpenStreetMap node 7834139035; Xinzhen Ercun proxy in present-day Wen'an County, used for approximate settlement location rather than the exact Ming county seat compound."
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-18",
-      "revisionNote": "Jingshi first replacement batch: replaced the restricted CHGIS location claim with an independently sourced modern proxy; modern Baoding City proxy for historical Baoding County; the historical county identity is not continuous with the modern prefecture-level city; exact old administrative compound remains unresolved."
+      "reviewedOn": "2026-07-19",
+      "revisionNote": "Coordinate correction: replaced the erroneous modern Baoding City proxy (Wikidata Q58584) with an OpenStreetMap Xinzhen Ercun proxy in present-day Wen'an County; the historical identity remains under Bazhou, and the exact Ming county seat compound remains unresolved."
     }
   },
   {

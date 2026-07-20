@@ -1,11 +1,15 @@
 import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
-import { isMilitaryPrimaryUnit, militaryById, militaryRecords } from "./militaryData";
+import {
+  isMilitaryPrimaryUnit,
+  militaryById,
+  publishedMilitaryRecords,
+} from "./militaryData";
 import { militaryColorExpression } from "./mapDisplay";
 import { administrativeAffiliationIds } from "./data";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { curvedCoordinates, flowData, type FlowDataConfig } from "./relationLayers";
 import { defaultTheme } from "./theme";
-import type { HierarchyScope, MilitaryColorMode } from "./types";
+import type { HierarchyScope, MilitaryColorMode, MilitaryRecord } from "./types";
 
 const tokens = defaultTheme.map;
 const pointSourceId = "military-points";
@@ -30,7 +34,7 @@ export interface MilitaryLayerSelection {
   colorMode: MilitaryColorMode;
 }
 
-function isVisible(record: (typeof militaryRecords)[number], selection: MilitaryLayerSelection) {
+function isVisible(record: MilitaryRecord, selection: MilitaryLayerSelection) {
   if (isMilitaryPrimaryUnit(record.unit)) return true;
   if (selection.scope === "overview") {
     return false;
@@ -48,7 +52,7 @@ function isVisible(record: (typeof militaryRecords)[number], selection: Military
 }
 
 export function getVisibleMilitaryRecords(selection: MilitaryLayerSelection) {
-  return militaryRecords.filter((record) => isVisible(record, selection));
+  return publishedMilitaryRecords.filter((record) => isVisible(record, selection));
 }
 
 function featureData(selection: MilitaryLayerSelection) {
