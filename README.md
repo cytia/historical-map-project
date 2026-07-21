@@ -1,6 +1,6 @@
-# 中国历史地图计划
+# 历史地图计划
 
-中国历史地图计划（Historical Map Project）是一个面向公众与历史爱好者的开源历史地图项目。
+历史地图计划（Historical Map Project）是一个面向公众与历史爱好者的开源历史地图项目。
 
 项目希望用可浏览、可查询的地图，呈现中国不同历史时期的政区、地点、自然地理和历史事件。
 
@@ -50,7 +50,7 @@
 
 建议署名：
 
-> 本成果使用“中国历史地图计划（Historical Map Project）”历史地点数据库 `[数据版本]`。数据库采用 Open Data Commons Open Database License 1.0（ODbL 1.0）授权。部分坐标和来源资料仍受各自的许可证和署名要求约束。
+> 本成果使用“历史地图计划（Historical Map Project）”历史地点数据库 `[数据版本]`。数据库采用 Open Data Commons Open Database License 1.0（ODbL 1.0）授权。部分坐标和来源资料仍受各自的许可证和署名要求约束。
 
 ## 参与讨论
 
@@ -59,11 +59,13 @@
 
 ## 支持项目
 
-项目目前接受通过爱发电提供的开发支持。
+历史地图计划是一个需要长期投入的庞大工程。从历史点位坐标的校验、资料核对，到功能开发与版本维护，每一步都需要持续投入。
 
-- 爱发电地址：[https://ifdian.net/a/chronotabula](https://ifdian.net/a/chronotabula)
+如果这个项目对你有所帮助，欢迎在 GitHub 点亮一颗 Star。这是对独立开发者最直接、最有力的鼓励，也能帮助更多人发现这款工具。
 
-支持项目不代表获得未公开数据、受限资料或专属访问权限。
+你也可以通过爱发电支持项目的后续开发与维护：
+
+- [在爱发电支持项目](https://ifdian.net/a/chronotabula)
 
 ## 项目状态
 

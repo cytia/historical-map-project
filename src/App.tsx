@@ -1,10 +1,12 @@
-import { lazy, Suspense, useMemo } from "react";
+import { lazy, Suspense, useMemo, useState } from "react";
 import { AdministrativeDetailPanel } from "./AdministrativeDetailPanel";
 import { MilitaryDetailPanel } from "./MilitaryDetailPanel";
 import { HierarchyToolbar } from "./AdministrativeScopeToolbar";
 import { counties, regions, seats } from "./data";
 import { publishedMilitaryRecords } from "./militaryData";
 import { LayerBar } from "./LayerBar";
+import { ProjectActions } from "./ProjectActions";
+import { ProjectPanel } from "./ProjectPanel";
 import { ScopePanel } from "./ScopePanel";
 import { useAppStore } from "./store";
 
@@ -13,6 +15,7 @@ const MapView = lazy(() =>
 );
 
 export default function App() {
+  const [projectPanelOpen, setProjectPanelOpen] = useState(false);
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
   const selectedCountyId = useAppStore((state) => state.selectedCountyId);
   const selectedMilitaryUnitId = useAppStore((state) => state.selectedMilitaryUnitId);
@@ -100,15 +103,25 @@ export default function App() {
           )}
         </div>
 
-        <LayerBar />
+        <div className="topbar-right">
+          <LayerBar />
+          <span className="topbar-divider" aria-hidden="true" />
+          <ProjectActions onAbout={() => setProjectPanelOpen(true)} />
+        </div>
 
-        <button className="mobile-control" onClick={() => setSidebarOpen(true)}>
-          全国与省级资料
-        </button>
+        <div className="mobile-header-actions">
+          <button className="mobile-control" onClick={() => setSidebarOpen(true)}>
+            全国与省级资料
+          </button>
+          <button className="mobile-project-control" onClick={() => setProjectPanelOpen(true)}>
+            关于项目
+          </button>
+        </div>
       </header>
 
       <ScopePanel region={panelRegion} />
       <HierarchyToolbar />
+      <ProjectPanel isOpen={projectPanelOpen} onClose={() => setProjectPanelOpen(false)} />
 
       <AdministrativeDetailPanel seat={selected} county={selectedCounty} />
       <MilitaryDetailPanel record={selectedMilitary} />

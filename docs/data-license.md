@@ -4,7 +4,7 @@
 >
 > 生效日期：待首次公开数据版本发布时填写
 >
-> 项目名称：中国历史地图计划（Historical Map Project）
+> 项目名称：历史地图计划（Historical Map Project）
 >
 > 项目主页：<https://chronotabula.inkore.ink/>
 >
@@ -12,7 +12,7 @@
 >
 > 数据发布页：正式数据版本发布时补充；当前以仓库内数据目录、manifest 和 GitHub Releases 为准
 
-本文件说明中国历史地图计划（下称“本项目”）的代码、历史地点数据、来源资料和公众勘误流程。
+本文件说明历史地图计划（下称“本项目”）的代码、历史地点数据、来源资料和公众勘误流程。
 
 本文件是项目授权说明和数据维护规范。数据库的正式法律授权以随数据包发布的 [ODbL 1.0 正式文本](https://opendatacommons.org/licenses/odbl/1-0/) 为准；本文件不替代 ODbL 1.0 的完整法律文本。
 
@@ -113,7 +113,7 @@ ODbL 1.0 允许商业使用，但不意味着项目方保证数据适合商业�
 
 建议使用以下署名文本：
 
-> 本成果使用“中国历史地图计划（Historical Map Project）”历史地点数据库 `[数据版本]`。数据库采用 Open Data Commons Open Database License 1.0（ODbL 1.0）授权。部分坐标和来源资料的权利以数据包中的来源目录和第三方许可证为准。本数据主要用于公元 1600 年前后的历史地点近似重建，部分点位为现代代理点。项目仓库：https://github.com/cytia/historical-map-project
+> 本成果使用“历史地图计划（Historical Map Project）”历史地点数据库 `[数据版本]`。数据库采用 Open Data Commons Open Database License 1.0（ODbL 1.0）授权。部分坐标和来源资料的权利以数据包中的来源目录和第三方许可证为准。本数据主要用于公元 1600 年前后的历史地点近似重建，部分点位为现代代理点。项目仓库：https://github.com/cytia/historical-map-project
 
 如使用了 OpenStreetMap 坐标，还应保留：
 
@@ -280,7 +280,7 @@ AI 工具可以帮助整理候选点、发现同名地点和生成初步校勘�
 
 以下信息将在首次正式发布前补充：
 
-- 项目正式名称：中国历史地图计划（Historical Map Project）；
+- 项目正式名称：历史地图计划（Historical Map Project）；
 - 项目主页：<https://chronotabula.inkore.ink/>；
 - 代码仓库：<https://github.com/cytia/historical-map-project>；
 - 数据仓库或数据包：以代码仓库内数据目录、manifest 和 GitHub Releases 为准；
