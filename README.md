@@ -61,7 +61,7 @@
 
 项目目前接受通过爱发电提供的开发支持。
 
-- 爱发电地址：待补充。
+- 爱发电地址：[https://ifdian.net/a/chronotabula](https://ifdian.net/a/chronotabula)
 
 支持项目不代表获得未公开数据、受限资料或专属访问权限。
 
