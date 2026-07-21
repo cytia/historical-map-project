@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = Path(__file__).with_name("terrain.config.json")
 BUCKET = "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/15s/15s_surface_elev_gtif"
-USER_AGENT = "maps-terrain-builder/0.1 (+https://github.com/cytia/maps)"
+USER_AGENT = "maps-terrain-builder/0.1 (+https://github.com/cytia/historical-map-project)"
 
 
 def coordinate_token(value: int, positive: str, negative: str, width: int) -> str:

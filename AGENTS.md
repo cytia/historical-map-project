@@ -6,10 +6,10 @@
 
 ## 按任务读取规范
 
-- 修改代码、依赖或目录：读 `docs/engineering.md`。
-- 采集、转换或修改历史数据：读 `docs/historical-data.md`。
-- 创建或修改历史边界：同时读 `docs/boundary-reconstruction.md`。
-- 安排工作或改变范围：读 `docs/roadmap.md`。
+- 修改代码、依赖或目录：读 `.private-docs/engineering.md`。
+- 采集、转换或修改历史数据：读 `.private-docs/historical-data.md`。
+- 创建或修改历史边界：同时读 `.private-docs/boundary-reconstruction.md`。
+- 安排工作或改变范围：读 `.private-docs/roadmap.md`。
 - 不要为普通局部任务读取全部文档。
 
 ## 工作原则
@@ -20,7 +20,7 @@
 - Bug 先复现，再修复并验证。
 - 一个改动保持可运行、可验证、可回滚。
 - 不顺手重构，不静默修改版本号。
-- Git 以 `main` 为唯一长期分支；GitHub 更新按 `docs/engineering.md` 的发布流程执行。
+- Git 以 `main` 为唯一长期分支；GitHub 更新按 `.private-docs/engineering.md` 的发布流程执行。
 - 代码、标识符和代码注释使用英文；文档与用户界面可使用中文。
 - 注释解释原因，不复述代码行为。
 - 优先复用现有模块；同一概念全项目使用同一术语。

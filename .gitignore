@@ -12,6 +12,7 @@
 .env
 .env.*
 !.env.example
+.private-docs/
 *.log
 .DS_Store
 Thumbs.db
