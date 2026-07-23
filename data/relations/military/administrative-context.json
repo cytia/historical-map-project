@@ -1,0 +1,173 @@
+[
+  {
+    "id": "guizhou-dusi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guizhou-dusi",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "longliwei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "longliwei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "xintianwei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xintianwei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "annan-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "annan-guizhou-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "weiqing-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "weiqing-guizhou-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "pingba-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pingba-guizhou-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "bijie-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "bijie-guizhou-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "chishui-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chishui-guizhou-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "moni-chishui-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "moni-chishui-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "baisa-chishui-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "baisa-chishui-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "aluomi-chishui-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "aluomi-chishui-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "qian-chishui-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qian-chishui-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "pushi-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pushi-guizhou-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "wukai-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wukai-guizhou-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  }
+]

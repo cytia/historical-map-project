@@ -1,0 +1,257 @@
+[
+  {
+    "id": "longliwei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "longliwei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "The Ming History Guizhou roster explicitly places Longli Wei under Guizhou Dusi"
+    }
+  },
+  {
+    "id": "xintianwei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xintianwei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "The Ming History Guizhou roster explicitly places Xintian Wei under Guizhou Dusi"
+    }
+  },
+  {
+    "id": "annan-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "annan-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "The Ming History Guizhou roster explicitly places Anan Wei under Guizhou Dusi"
+    }
+  },
+  {
+    "id": "weiqing-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "weiqing-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "The Ming History Guizhou roster explicitly places Weiqing Wei under Guizhou Dusi"
+    }
+  },
+  {
+    "id": "pingba-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pingba-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "The Ming History Guizhou roster explicitly places Pingba Wei under Guizhou Dusi"
+    }
+  },
+  {
+    "id": "bijie-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "bijie-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "The Ming History Guizhou roster explicitly places Bijie Wei under Guizhou Dusi"
+    }
+  },
+  {
+    "id": "chishui-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chishui-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "The Ming History Guizhou roster lists Chishui Wei and its four subordinate offices in the Guizhou Dusi section"
+    }
+  },
+  {
+    "id": "moni-chishui-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "moni-chishui-military",
+    "objectId": "chishui-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated the military parent claim from the administrative context during the military data contract migration"
+    }
+  },
+  {
+    "id": "baisa-chishui-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "baisa-chishui-military",
+    "objectId": "chishui-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated the military parent claim from the administrative context during the military data contract migration"
+    }
+  },
+  {
+    "id": "aluomi-chishui-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "aluomi-chishui-military",
+    "objectId": "chishui-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated the military parent claim from the administrative context during the military data contract migration"
+    }
+  },
+  {
+    "id": "qian-chishui-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qian-chishui-military",
+    "objectId": "chishui-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated the military parent claim from the administrative context during the military data contract migration"
+    }
+  },
+  {
+    "id": "dapingfa-longliwei-military-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "dapingfa-longliwei-military",
+    "objectId": "longliwei-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated a special-governance affiliation from the former cross-domain parent field"
+    }
+  },
+  {
+    "id": "xintian-xintianwei-military-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "xintian-xintianwei-military",
+    "objectId": "xintianwei-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated a special-governance affiliation from the former cross-domain parent field"
+    }
+  },
+  {
+    "id": "xiaopingfa-xintianwei-military-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "xiaopingfa-xintianwei-military",
+    "objectId": "xintianwei-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated a special-governance affiliation from the former cross-domain parent field"
+    }
+  },
+  {
+    "id": "bapingzhai-xintianwei-military-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "bapingzhai-xintianwei-military",
+    "objectId": "xintianwei-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated a special-governance affiliation from the former cross-domain parent field"
+    }
+  },
+  {
+    "id": "danping-xintianwei-military-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "danping-xintianwei-military",
+    "objectId": "xintianwei-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated a special-governance affiliation from the former cross-domain parent field"
+    }
+  },
+  {
+    "id": "danxing-xintianwei-military-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "danxing-xintianwei-military",
+    "objectId": "xintianwei-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Separated a special-governance affiliation from the former cross-domain parent field"
+    }
+  }
+]

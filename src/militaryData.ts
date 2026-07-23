@@ -1,63 +1,88 @@
 import { data } from "./data";
-import type { AdministrativeUnit, MilitaryRecord } from "./types";
+import type { MilitaryRecord, MilitaryUnit } from "./types";
 
-const unitsById = new Map(data.administrativeUnits.map((unit) => [unit.id, unit]));
+const administrativeUnitsById = new Map(data.administrativeUnits.map((unit) => [unit.id, unit]));
 const placesById = new Map(data.places.map((place) => [place.id, place]));
 const namesByPlaceId = new Map(data.placeNames.map((name) => [name.placeId, name]));
 const regionLevels = new Set(["capital-region", "province"]);
 const militaryPrimaryKinds = new Set(["dusi", "xing-dusi", "liushou-si", "wei"]);
+const militaryCommandKinds = new Set(["dusi", "xing-dusi", "liushou-si"]);
+const militaryParentById = new Map(
+  data.relations
+    .filter((relation) => relation.relationType === "military-subordination")
+    .map((relation) => [relation.subjectId, relation.objectId]),
+);
+const administrativeContextById = new Map(
+  data.relations
+    .filter((relation) => relation.relationType === "administrative-context")
+    .map((relation) => [relation.subjectId, relation.objectId]),
+);
+const fiveArmyByUnitId = new Map(
+  data.relations
+    .filter((relation) => relation.relationType === "five-army-affiliation")
+    .map((relation) => [relation.subjectId, relation.objectId as MilitaryRecord["fiveArmyId"]]),
+);
 
-function findAdministrativeContext(unit: AdministrativeUnit) {
-  let current = unit.parentId ? unitsById.get(unit.parentId) : undefined;
+function findAdministrativeContext(unit: MilitaryUnit) {
+  let current = administrativeContextById.get(unit.id)
+    ? administrativeUnitsById.get(administrativeContextById.get(unit.id)!)
+    : undefined;
   const visited = new Set<string>();
-  let administrativeUnitId: string | null = null;
+  const administrativeUnitId = current?.id ?? null;
   let administrativeRegionId: string | null = null;
   while (current && !visited.has(current.id)) {
     visited.add(current.id);
-    if (current.domain === "administrative") {
-      administrativeUnitId ??= current.id;
-      if (regionLevels.has(current.level)) {
-        administrativeRegionId = current.id;
-        break;
-      }
+    if (regionLevels.has(current.level)) {
+      administrativeRegionId = current.id;
+      break;
     }
-    current = current.parentId ? unitsById.get(current.parentId) : undefined;
+    current = current.parentId ? administrativeUnitsById.get(current.parentId) : undefined;
   }
   return { administrativeUnitId, administrativeRegionId };
 }
 
-function createRecord(unit: AdministrativeUnit): MilitaryRecord | null {
+function createRecord(unit: MilitaryUnit): MilitaryRecord | null {
   if (!unit.seatPlaceId) return null;
   const place = placesById.get(unit.seatPlaceId);
   const placeName = namesByPlaceId.get(unit.seatPlaceId);
   if (!place || !placeName || place.longitude === undefined || place.latitude === undefined) {
     return null;
   }
-  const parent = unit.parentId ? unitsById.get(unit.parentId) : undefined;
   const context = findAdministrativeContext(unit);
   return {
     unit,
     place,
     name: placeName.name,
     administrativeRegionId: context.administrativeRegionId,
-    administrativeUnitId: parent?.domain === "administrative" ? parent.id : context.administrativeUnitId,
-    militaryParentId: parent?.domain === "military" ? parent.id : null,
+    administrativeUnitId: context.administrativeUnitId,
+    militaryParentId: militaryParentById.get(unit.id) ?? null,
+    fiveArmyId: fiveArmyByUnitId.get(unit.id),
   };
 }
 
-export const militaryRecords = data.administrativeUnits
-  .filter((unit) => unit.domain === "military" && unit.level === "military")
+export const militaryRecords = data.militaryUnits
   .map(createRecord)
   .filter((record): record is MilitaryRecord => record !== null);
 
-// The current military records are still trial data and must not enter the public release.
-export const militaryTrialPublished = false;
+// The Guizhou trial is visible in the application while remaining outside the public data release.
+export const militaryTrialPublished = true;
 export const publishedMilitaryRecords = militaryTrialPublished ? militaryRecords : [];
 
 export const militaryById = new Map(militaryRecords.map((record) => [record.unit.id, record]));
 
-export function isMilitaryPrimaryUnit(unit: AdministrativeUnit) {
-  return unit.militaryKind !== undefined && militaryPrimaryKinds.has(unit.militaryKind);
+export function isMilitaryPrimaryUnit(unit: MilitaryUnit) {
+  return militaryPrimaryKinds.has(unit.militaryKind);
+}
+
+export function getMilitaryCommandRecord(unitId: string | null) {
+  let current = unitId ? militaryById.get(unitId) : undefined;
+  const visited = new Set<string>();
+  while (current && !visited.has(current.unit.id)) {
+    visited.add(current.unit.id);
+    if (militaryCommandKinds.has(current.unit.militaryKind)) return current;
+    current = current.militaryParentId ? militaryById.get(current.militaryParentId) : undefined;
+  }
+  return undefined;
 }
 
 export function isMilitaryDescendant(unitId: string, ancestorId: string) {

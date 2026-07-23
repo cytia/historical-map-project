@@ -4,6 +4,7 @@ import { populationRegistrationNote } from "./statisticsNotes";
 import { TaxMetricLabel, type TaxMetric } from "./taxGlossary";
 import { Tooltip } from "./Tooltip";
 import { Scrollbar } from "./Scrollbar";
+import { ScopeUnitButtons } from "./ScopeUnitButtons";
 import type { AdministrativeUnit, StatisticFields } from "./types";
 
 const isDerivedRegionRecord = (record: StatisticFields) => record.valueType === "estimated";
@@ -58,14 +59,6 @@ function TaxSummary({ records, regionId }: { records: StatisticFields[]; regionI
   </section>;
 }
 
-function UnitButtons({ units, onSelect }: {
-  units: AdministrativeUnit[];
-  onSelect: (unit: AdministrativeUnit) => void;
-}) {
-  return <div className="scope-unit-list">{units.map((unit) =>
-    <button key={unit.id} onClick={() => onSelect(unit)}>{unit.name}</button>)}</div>;
-}
-
 export function ScopePanel({ region }: { region?: AdministrativeUnit }) {
   const sidebarOpen = useAppStore((state) => state.sidebarOpen);
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
@@ -106,7 +99,7 @@ export function ScopePanel({ region }: { region?: AdministrativeUnit }) {
           <span className="eyebrow">下辖单位</span>
           <span className="scope-peer-count">{region ? childSeats.length : regions.length} 处</span>
         </summary>
-        <UnitButtons units={region ? childSeats.map(({ unit }) => unit) : regions}
+        <ScopeUnitButtons units={region ? childSeats.map(({ unit }) => unit) : regions}
           onSelect={region ? selectSeat : selectRegion} />
       </details>
 
@@ -115,7 +108,7 @@ export function ScopePanel({ region }: { region?: AdministrativeUnit }) {
           <span className="eyebrow">同级单位</span>
           <span className="scope-peer-count">{regions.length} 处</span>
         </summary>
-        <UnitButtons units={regions} onSelect={selectRegion} />
+        <ScopeUnitButtons units={regions} onSelect={selectRegion} />
       </details>}
 
       <details className="scope-details">

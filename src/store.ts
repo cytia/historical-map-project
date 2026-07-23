@@ -13,6 +13,7 @@ interface AppState {
   selectedCountyId: string | null;
   activeRegionId: string | null;
   hoveredRegionId: string | null;
+  hoveredMilitaryUnitId: string | null;
   searchQuery: string;
   sidebarOpen: boolean;
   detailsOpen: boolean;
@@ -27,6 +28,7 @@ interface AppState {
   resetSelection: () => void;
   setActiveRegion: (id: string | null) => void;
   setHoveredRegion: (id: string | null) => void;
+  setHoveredMilitaryUnit: (id: string | null) => void;
   setSearchQuery: (query: string) => void;
   setSidebarOpen: (open: boolean) => void;
   setDetailsOpen: (open: boolean) => void;
@@ -44,6 +46,7 @@ export const useAppStore = create<AppState>((set) => ({
   selectedCountyId: null,
   activeRegionId: null,
   hoveredRegionId: null,
+  hoveredMilitaryUnitId: null,
   searchQuery: "",
   sidebarOpen: false,
   detailsOpen: false,
@@ -54,13 +57,15 @@ export const useAppStore = create<AppState>((set) => ({
   militaryColorMode: "administrative",
   selectUnit: (selectedUnitId) =>
     set({ selectedUnitId, selectedMilitaryUnitId: null, selectionDomain: "administrative",
-      selectedCountyId: null, detailsOpen: selectedUnitId !== null }),
+      selectedCountyId: null, hoveredMilitaryUnitId: null,
+      detailsOpen: selectedUnitId !== null }),
   selectMilitaryUnit: (selectedMilitaryUnitId, activeRegionId) =>
     set({ selectedMilitaryUnitId, selectedUnitId: null, selectedCountyId: null,
       selectionDomain: "military", activeRegionId, detailsOpen: selectedMilitaryUnitId !== null }),
   selectCounty: (selectedCountyId, selectedUnitId, activeRegionId) =>
     set({ selectedCountyId, selectedUnitId, selectedMilitaryUnitId: null,
-      selectionDomain: "administrative", activeRegionId, detailsOpen: true }),
+      selectionDomain: "administrative", activeRegionId, hoveredMilitaryUnitId: null,
+      detailsOpen: true }),
   resetSelection: () => set({
     selectedUnitId: null,
     selectedMilitaryUnitId: null,
@@ -68,6 +73,7 @@ export const useAppStore = create<AppState>((set) => ({
     selectedCountyId: null,
     activeRegionId: null,
     hoveredRegionId: null,
+    hoveredMilitaryUnitId: null,
     detailsOpen: false,
   }),
   setActiveRegion: (activeRegionId) => set({
@@ -76,9 +82,11 @@ export const useAppStore = create<AppState>((set) => ({
     selectedMilitaryUnitId: null,
     selectionDomain: "administrative",
     selectedCountyId: null,
+    hoveredMilitaryUnitId: null,
     detailsOpen: false,
   }),
   setHoveredRegion: (hoveredRegionId) => set({ hoveredRegionId }),
+  setHoveredMilitaryUnit: (hoveredMilitaryUnitId) => set({ hoveredMilitaryUnitId }),
   setSearchQuery: (searchQuery) => set({ searchQuery }),
   setSidebarOpen: (sidebarOpen) => set({ sidebarOpen }),
   setDetailsOpen: (detailsOpen) => set({ detailsOpen }),

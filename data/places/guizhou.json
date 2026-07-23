@@ -1401,22 +1401,28 @@
   },
   {
     "id": "longliwei-guizhou-military-seat",
-    "longitude": 106.95,
-    "latitude": 26.45,
-    "locationAccuracy": "area_only",
-    "locationMethod": "Modern historical-place or native-governance area proxy guided by the Ming History geographic description; no suitable historical coordinate was available",
-    "confidence": "low",
+    "longitude": 106.975,
+    "latitude": 26.4530556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Longli County proxy independently located from Wikidata Q374121; exact historical Wei seat remains unresolved",
+    "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-seven",
         "claim": "location",
         "confidence": "low",
-        "note": "Approximate regional proxy; exact historical seat requires independent review"
+        "note": "Historical geography identifies the Longli Wei but does not provide a modern coordinate"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q374121 P625; Longli County modern proxy"
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Reversible low-confidence proxy pending independent historical-location review"
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Independent modern candidate added for the first-level Wei point; exact historical seat remains unresolved"
     }
   },
   {
@@ -1441,22 +1447,28 @@
   },
   {
     "id": "xintianwei-guizhou-military-seat",
-    "longitude": 107.1,
-    "latitude": 26.7,
-    "locationAccuracy": "area_only",
-    "locationMethod": "Modern historical-place or native-governance area proxy guided by the Ming History geographic description; no suitable historical coordinate was available",
-    "confidence": "low",
+    "longitude": 107.2311111,
+    "latitude": 26.5833333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guiding County proxy independently located from Wikidata Q1200567; exact historical Wei seat remains unresolved",
+    "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-seven",
         "claim": "location",
         "confidence": "low",
-        "note": "Approximate regional proxy; exact historical seat requires independent review"
+        "note": "Historical geography identifies the Xintian Wei but does not provide a modern coordinate"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200567 P625; Guiding County modern proxy"
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Reversible low-confidence proxy pending independent historical-location review"
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Independent modern candidate added for the first-level Wei point; exact historical seat remains unresolved"
     }
   },
   {
@@ -1561,82 +1573,106 @@
   },
   {
     "id": "annan-guizhou-military-seat",
-    "longitude": 104.95,
-    "latitude": 25.7,
-    "locationAccuracy": "area_only",
-    "locationMethod": "Modern historical-place or native-governance area proxy guided by the Ming History geographic description; no suitable historical coordinate was available",
-    "confidence": "low",
+    "longitude": 105.2208333,
+    "latitude": 25.8383333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Qinglong County proxy independently located from Wikidata Q1200485; exact historical Wei seat remains unresolved",
+    "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-seven",
         "claim": "location",
         "confidence": "low",
-        "note": "Approximate regional proxy; exact historical seat requires independent review"
+        "note": "Historical geography identifies the Anan Wei but does not provide a modern coordinate"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200485 P625; Qinglong County modern proxy"
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Reversible low-confidence proxy pending independent historical-location review"
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Independent modern candidate added for the first-level Wei point; exact historical seat remains unresolved"
     }
   },
   {
     "id": "weiqing-guizhou-military-seat",
-    "longitude": 106.3,
-    "latitude": 26.7,
-    "locationAccuracy": "area_only",
-    "locationMethod": "Modern historical-place or native-governance area proxy guided by the Ming History geographic description; no suitable historical coordinate was available",
-    "confidence": "low",
+    "longitude": 106.4647222,
+    "latitude": 26.5555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Qingzhen City proxy independently located from Wikidata Q1339926; exact historical Wei seat remains unresolved",
+    "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-seven",
         "claim": "location",
         "confidence": "low",
-        "note": "Approximate regional proxy; exact historical seat requires independent review"
+        "note": "Historical geography identifies the Weiqing Wei but does not provide a modern coordinate"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1339926 P625; Qingzhen City modern proxy"
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Reversible low-confidence proxy pending independent historical-location review"
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Independent modern candidate added for the first-level Wei point; exact historical seat remains unresolved"
     }
   },
   {
     "id": "pingba-guizhou-military-seat",
-    "longitude": 106.25,
-    "latitude": 26.4,
-    "locationAccuracy": "area_only",
-    "locationMethod": "Modern historical-place or native-governance area proxy guided by the Ming History geographic description; no suitable historical coordinate was available",
-    "confidence": "low",
+    "longitude": 106.2583333,
+    "latitude": 26.4113889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Pingba District proxy independently located from Wikidata Q1200562; exact historical Wei seat remains unresolved",
+    "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-seven",
         "claim": "location",
         "confidence": "low",
-        "note": "Approximate regional proxy; exact historical seat requires independent review"
+        "note": "Historical geography identifies the Pingba Wei but does not provide a modern coordinate"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200562 P625; Pingba District modern proxy"
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Reversible low-confidence proxy pending independent historical-location review"
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Independent modern candidate added for the first-level Wei point; exact historical seat remains unresolved"
     }
   },
   {
     "id": "bijie-guizhou-military-seat",
-    "longitude": 105.3,
+    "longitude": 105.2333333,
     "latitude": 27.3,
-    "locationAccuracy": "area_only",
-    "locationMethod": "Modern historical-place or native-governance area proxy guided by the Ming History geographic description; no suitable historical coordinate was available",
-    "confidence": "low",
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Bijie city proxy independently located from Wikidata Q486319; exact historical Wei seat remains unresolved",
+    "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-seven",
         "claim": "location",
         "confidence": "low",
-        "note": "Approximate regional proxy; exact historical seat requires independent review"
+        "note": "Historical geography identifies the Bijie Wei but does not provide a modern coordinate"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q486319 P625; Bijie city modern proxy"
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Reversible low-confidence proxy pending independent historical-location review"
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Independent modern candidate added for the first-level Wei point; exact historical seat remains unresolved"
     }
   },
   {
@@ -1761,22 +1797,28 @@
   },
   {
     "id": "wukai-guizhou-military-seat",
-    "longitude": 109.13,
-    "latitude": 26.22,
-    "locationAccuracy": "area_only",
-    "locationMethod": "Modern historical-place or native-governance area proxy guided by the Ming History geographic description; no suitable historical coordinate was available",
-    "confidence": "low",
+    "longitude": 109.1327778,
+    "latitude": 26.2355556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Liping County proxy independently located from Wikidata Q1152707; exact historical Wei seat remains unresolved",
+    "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-seven",
         "claim": "location",
         "confidence": "low",
-        "note": "Approximate regional proxy; exact historical seat requires independent review"
+        "note": "Historical geography places Five Kai in the wider Huguang/Guizhou transition but does not provide a modern coordinate"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1152707 P625; Liping County modern proxy"
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "Reversible low-confidence proxy pending independent historical-location review"
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Independent modern candidate added for the first-level Wei point; exact historical seat and military parent remain unresolved"
     }
   },
   {
@@ -1792,11 +1834,17 @@
         "claim": "location",
         "confidence": "medium",
         "note": "Approximate correspondence with 新贵 and the Guiyang prefectural city"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q192271 P625; modern Guiyang city corroboration for the shared city proxy"
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-13",
-      "revisionNote": "Reversible approximate point for the 1600 map skeleton"
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Shared approximate Guiyang city proxy for the provincial, prefectural, and Guizhou Dusi seats"
     }
   },
   {

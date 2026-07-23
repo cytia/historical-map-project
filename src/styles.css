@@ -356,6 +356,7 @@ button { color: inherit; }
 .scope-unit-list { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
 .scope-unit-list button { padding: 5px 7px; border: 1px solid var(--color-border); background: transparent; cursor: pointer; font-size: 9px; }
 .scope-unit-list button:hover { border-color: var(--color-accent); color: var(--color-accent); background: var(--color-accent-soft); }
+.scope-unit-group + .scope-unit-group { margin-top: 12px; }
 .scope-collapsible > summary { padding: 0; list-style: none; cursor: pointer; }
 .scope-collapsible > summary::-webkit-details-marker { display: none; }
 .scope-collapsible .eyebrow { margin: 0; }

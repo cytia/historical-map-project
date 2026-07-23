@@ -38,6 +38,36 @@ export interface AdministrativeUnit {
   sources: SourceLink[];
 }
 
+export interface MilitaryUnit {
+  id: string;
+  name: string;
+  formalName?: string;
+  level: "military";
+  domain: "military";
+  militaryKind: MilitaryUnitKind;
+  polityId: string;
+  seatPlaceId?: string;
+  confidence: Confidence;
+  sources: SourceLink[];
+}
+
+export type HistoricalRelationType =
+  | "military-subordination"
+  | "military-affiliation"
+  | "five-army-affiliation"
+  | "administrative-context"
+  | "co-location";
+
+export interface HistoricalRelation {
+  id: string;
+  relationType: HistoricalRelationType;
+  subjectId: string;
+  objectId: string;
+  confidence: Confidence;
+  note?: string;
+  sources: SourceLink[];
+}
+
 export interface Place {
   id: string;
   longitude?: number;
@@ -59,6 +89,8 @@ export interface ProjectData {
   scopeStatistics: ScopeStatisticRecord[];
   statistics: StatisticRecord[];
   administrativeUnits: AdministrativeUnit[];
+  militaryUnits: MilitaryUnit[];
+  relations: HistoricalRelation[];
   places: Place[];
   placeNames: PlaceName[];
 }
@@ -98,10 +130,11 @@ export interface CountyRecord {
 }
 
 export interface MilitaryRecord {
-  unit: AdministrativeUnit;
+  unit: MilitaryUnit;
   place: Place;
   name: string;
   administrativeRegionId: string | null;
   administrativeUnitId: string | null;
   militaryParentId: string | null;
+  fiveArmyId?: "central" | "left" | "right" | "front" | "rear";
 }

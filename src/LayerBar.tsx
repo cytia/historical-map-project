@@ -48,7 +48,7 @@ export function LayerBar() {
           州府
         </button>
       </Tooltip>
-      <Tooltip content="试验军事点位暂未发布">
+      <Tooltip content="都司、卫所军事点位">
         <button
           type="button"
           className="layer-button"

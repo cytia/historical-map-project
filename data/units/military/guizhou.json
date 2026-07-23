@@ -1,11 +1,36 @@
 [
   {
+    "id": "guizhou-dusi",
+    "name": "贵州都指挥使司",
+    "formalName": "贵州都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "xingui-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "First-level Guizhou military pilot point; shares the approximate Guiyang city proxy with Guiyang Prefecture"
+    }
+  },
+  {
     "id": "longliwei-guizhou-military",
     "name": "龙里卫军民指挥使司",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
-    "parentId": "guizhou",
     "seatPlaceId": "longliwei-guizhou-military-seat",
     "validity": {
       "from": 1600,
@@ -36,7 +61,6 @@
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
-    "parentId": "guizhou",
     "seatPlaceId": "xintianwei-guizhou-military-seat",
     "validity": {
       "from": 1600,
@@ -67,7 +91,6 @@
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
-    "parentId": "guizhou",
     "seatPlaceId": "annan-guizhou-military-seat",
     "validity": {
       "from": 1600,
@@ -98,7 +121,6 @@
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
-    "parentId": "guizhou",
     "seatPlaceId": "weiqing-guizhou-military-seat",
     "validity": {
       "from": 1600,
@@ -129,7 +151,6 @@
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
-    "parentId": "guizhou",
     "seatPlaceId": "pingba-guizhou-military-seat",
     "validity": {
       "from": 1600,
@@ -160,7 +181,6 @@
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
-    "parentId": "guizhou",
     "seatPlaceId": "bijie-guizhou-military-seat",
     "validity": {
       "from": 1600,
@@ -191,7 +211,6 @@
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
-    "parentId": "guizhou",
     "seatPlaceId": "chishui-guizhou-military-seat",
     "validity": {
       "from": 1600,
@@ -222,7 +241,6 @@
     "level": "military",
     "militaryKind": "qianhu-suo",
     "polityId": "ming",
-    "parentId": "chishui-guizhou-military",
     "seatPlaceId": "moni-chishui-military-seat",
     "validity": {
       "from": 1600,
@@ -253,7 +271,6 @@
     "level": "military",
     "militaryKind": "qianhu-suo",
     "polityId": "ming",
-    "parentId": "chishui-guizhou-military",
     "seatPlaceId": "baisa-chishui-military-seat",
     "validity": {
       "from": 1600,
@@ -284,7 +301,6 @@
     "level": "military",
     "militaryKind": "qianhu-suo",
     "polityId": "ming",
-    "parentId": "chishui-guizhou-military",
     "seatPlaceId": "aluomi-chishui-military-seat",
     "validity": {
       "from": 1600,
@@ -315,7 +331,6 @@
     "level": "military",
     "militaryKind": "qianhu-suo",
     "polityId": "ming",
-    "parentId": "chishui-guizhou-military",
     "seatPlaceId": "qian-chishui-military-seat",
     "validity": {
       "from": 1600,
@@ -346,7 +361,6 @@
     "level": "military",
     "militaryKind": "qianhu-suo",
     "polityId": "ming",
-    "parentId": "guizhou",
     "seatPlaceId": "pushi-guizhou-military-seat",
     "validity": {
       "from": 1600,
@@ -377,29 +391,24 @@
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
-    "parentId": "guizhou",
     "seatPlaceId": "wukai-guizhou-military-seat",
     "validity": {
       "from": 1600,
       "to": 1600,
       "precision": "exact"
     },
-    "confidence": "high",
+    "confidence": "medium",
     "sources": [
       {
         "sourceId": "ming-shi-geography-seven",
         "claim": "existence",
-        "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-seven",
-        "claim": "parent",
-        "confidence": "high"
+        "confidence": "high",
+        "note": "Retained as a first-level Guizhou trial point; its dated Dusi parent is not yet resolved"
       }
     ],
     "audit": {
-      "reviewedOn": "2026-07-15",
-      "revisionNote": "1600 Yunnan–Guizhou administrative roster; special governance retained as an independent node"
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "First-level trial point retained; sources differ on whether Five Kai belonged to Huguang or Guizhou Dusi in the 1600 slice"
     }
   }
 ]

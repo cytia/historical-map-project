@@ -4,22 +4,13 @@ import { populationRegistrationNote } from "./statisticsNotes";
 import { TaxMetricLabel, type TaxMetric } from "./taxGlossary";
 import { Tooltip } from "./Tooltip";
 import { Scrollbar } from "./Scrollbar";
+import { locationAccuracyLabel, locationConfidenceLabel } from "./locationLabels";
 import type { CountyRecord, SeatRecord, StatisticRecord } from "./types";
 
 function levelLabel(seat: SeatRecord) {
   if (seat.unit.level === "prefecture") return "府";
   return seat.unit.parentId === seat.region.id ? "直隶州" : "州";
 }
-
-const accuracyLabel = {
-  exact: "可靠位置",
-  approximate: "约略位置",
-  area_only: "区域级定位",
-  disputed: "存在争议",
-  unknown: "尚不可定位",
-} as const;
-
-const confidenceLabel = { high: "高可信度", medium: "中等可信度", low: "低可信度" } as const;
 
 function sourceMarker(record: StatisticRecord, index = 1, note?: string) {
   const sourceId = record.sources[0]?.sourceId;
@@ -200,7 +191,7 @@ export function AdministrativeDetailPanel({ seat, county }: {
 
         <section className="location-summary">
           <p className="eyebrow">治所定位</p>
-          <strong>{accuracyLabel[record.place.locationAccuracy]} · {confidenceLabel[record.place.confidence]}</strong>
+          <strong>{locationAccuracyLabel[record.place.locationAccuracy]} · {locationConfidenceLabel[record.place.confidence]}</strong>
         </section>
 
         <details className="research-details">

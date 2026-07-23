@@ -1,8 +1,8 @@
 use std::collections::HashSet;
 
 use crate::model::{
-    AdministrativeUnit, LocationAccuracy, Place, PlaceName, Polity, ProjectData, SourceLink,
-    YearRange,
+    AdministrativeUnit, LocationAccuracy, MilitaryUnit, Place, PlaceName, Polity, ProjectData,
+    Relation, RelationType, SourceLink, YearRange,
 };
 
 pub fn validate(data: &ProjectData) -> Vec<String> {
@@ -25,13 +25,35 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
         "polity",
         &mut errors,
     );
-    let unit_ids = collect_unique_ids(
+    let administrative_unit_ids = collect_unique_ids(
         data.administrative_units
             .iter()
             .map(|item| item.id.as_str()),
         "administrative unit",
         &mut errors,
     );
+    let military_unit_ids = collect_unique_ids(
+        data.military_units.iter().map(|item| item.id.as_str()),
+        "military unit",
+        &mut errors,
+    );
+    let special_governance_unit_ids = data
+        .administrative_units
+        .iter()
+        .filter(|unit| {
+            matches!(
+                &unit.domain,
+                Some(crate::model::UnitDomain::SpecialGovernance)
+            )
+        })
+        .map(|unit| unit.id.as_str())
+        .collect::<HashSet<_>>();
+    let mut unit_ids = administrative_unit_ids.clone();
+    for id in &military_unit_ids {
+        if !unit_ids.insert(id) {
+            errors.push(format!("duplicate historical unit id: {id}"));
+        }
+    }
     collect_unique_ids(
         data.statistics
             .iter()
@@ -70,7 +92,23 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
             unit,
             &source_ids,
             &polity_ids,
-            &unit_ids,
+            &administrative_unit_ids,
+            &place_ids,
+            &mut errors,
+        );
+    }
+
+    for unit in &data.military_units {
+        validate_military_unit(unit, &source_ids, &polity_ids, &place_ids, &mut errors);
+    }
+
+    for relation in &data.relations {
+        validate_relation(
+            relation,
+            &source_ids,
+            &administrative_unit_ids,
+            &military_unit_ids,
+            &special_governance_unit_ids,
             &place_ids,
             &mut errors,
         );
@@ -78,7 +116,7 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
 
     for statistic in &data.statistics {
         validate_id(&statistic.id, "statistic", &mut errors);
-        if !unit_ids.contains(statistic.administrative_unit_id.as_str()) {
+        if !administrative_unit_ids.contains(statistic.administrative_unit_id.as_str()) {
             errors.push(format!(
                 "{} references missing administrative unit {}",
                 statistic.id, statistic.administrative_unit_id
@@ -181,6 +219,183 @@ fn validate_unit(
         errors.push(format!(
             "{} references missing seat place {}",
             unit.id, place_id
+        ));
+    }
+}
+
+fn validate_military_unit(
+    unit: &MilitaryUnit,
+    source_ids: &HashSet<&str>,
+    polity_ids: &HashSet<&str>,
+    place_ids: &HashSet<&str>,
+    errors: &mut Vec<String>,
+) {
+    validate_id(&unit.id, "military unit", errors);
+    require_text(&unit.name, &unit.id, "name", errors);
+    validate_year_range(&unit.validity, &unit.id, errors);
+    validate_source_links(&unit.sources, &unit.id, source_ids, errors);
+    validate_audit(
+        &unit.audit.reviewed_on,
+        &unit.audit.revision_note,
+        &unit.id,
+        errors,
+    );
+
+    if !matches!(&unit.level, crate::model::AdministrativeLevel::Military) {
+        errors.push(format!("{} must use military level", unit.id));
+    }
+    if !matches!(&unit.domain, crate::model::UnitDomain::Military) {
+        errors.push(format!("{} must use military domain", unit.id));
+    }
+    if !polity_ids.contains(unit.polity_id.as_str()) {
+        errors.push(format!(
+            "{} references missing polity {}",
+            unit.id, unit.polity_id
+        ));
+    }
+    if let Some(place_id) = &unit.seat_place_id
+        && !place_ids.contains(place_id.as_str())
+    {
+        errors.push(format!(
+            "{} references missing seat place {}",
+            unit.id, place_id
+        ));
+    }
+}
+
+fn validate_relation(
+    relation: &Relation,
+    source_ids: &HashSet<&str>,
+    administrative_unit_ids: &HashSet<&str>,
+    military_unit_ids: &HashSet<&str>,
+    special_governance_unit_ids: &HashSet<&str>,
+    place_ids: &HashSet<&str>,
+    errors: &mut Vec<String>,
+) {
+    validate_id(&relation.id, "relation", errors);
+    validate_year_range(&relation.validity, &relation.id, errors);
+    validate_source_links(&relation.sources, &relation.id, source_ids, errors);
+    validate_audit(
+        &relation.audit.reviewed_on,
+        &relation.audit.revision_note,
+        &relation.id,
+        errors,
+    );
+
+    let subject_is_military = military_unit_ids.contains(relation.subject_id.as_str());
+    let object_is_military = military_unit_ids.contains(relation.object_id.as_str());
+    let subject_is_special_governance =
+        special_governance_unit_ids.contains(relation.subject_id.as_str());
+    let subject_is_administrative = administrative_unit_ids.contains(relation.subject_id.as_str());
+    let object_is_administrative = administrative_unit_ids.contains(relation.object_id.as_str());
+    let object_is_place = place_ids.contains(relation.object_id.as_str());
+
+    match &relation.relation_type {
+        RelationType::MilitarySubordination => {
+            require_relation_endpoint(
+                subject_is_military,
+                &relation.subject_id,
+                "military unit",
+                &relation.id,
+                errors,
+            );
+            require_relation_endpoint(
+                object_is_military,
+                &relation.object_id,
+                "military unit",
+                &relation.id,
+                errors,
+            );
+        }
+        RelationType::MilitaryAffiliation => {
+            require_relation_endpoint(
+                subject_is_military || subject_is_special_governance,
+                &relation.subject_id,
+                "military or special-governance unit",
+                &relation.id,
+                errors,
+            );
+            require_relation_endpoint(
+                object_is_military,
+                &relation.object_id,
+                "military unit",
+                &relation.id,
+                errors,
+            );
+        }
+        RelationType::FiveArmyAffiliation => {
+            require_relation_endpoint(
+                subject_is_military,
+                &relation.subject_id,
+                "military unit",
+                &relation.id,
+                errors,
+            );
+            let valid_five_army = matches!(
+                relation.object_id.as_str(),
+                "central" | "left" | "right" | "front" | "rear"
+            );
+            require_relation_endpoint(
+                valid_five_army,
+                &relation.object_id,
+                "five army command",
+                &relation.id,
+                errors,
+            );
+        }
+        RelationType::AdministrativeContext | RelationType::CoLocation => {
+            require_relation_endpoint(
+                subject_is_military,
+                &relation.subject_id,
+                "military unit",
+                &relation.id,
+                errors,
+            );
+            require_relation_endpoint(
+                object_is_administrative,
+                &relation.object_id,
+                "administrative unit",
+                &relation.id,
+                errors,
+            );
+        }
+    }
+
+    if relation.subject_id == relation.object_id {
+        errors.push(format!("{} cannot relate an object to itself", relation.id));
+    }
+    if !subject_is_military
+        && !subject_is_administrative
+        && !place_ids.contains(relation.subject_id.as_str())
+    {
+        errors.push(format!(
+            "{} references missing subject {}",
+            relation.id, relation.subject_id
+        ));
+    }
+    if !object_is_military
+        && !object_is_administrative
+        && !object_is_place
+        && !matches!(&relation.relation_type, RelationType::FiveArmyAffiliation)
+    {
+        errors.push(format!(
+            "{} references missing object {}",
+            relation.id, relation.object_id
+        ));
+    }
+}
+
+fn require_relation_endpoint(
+    valid: bool,
+    endpoint: &str,
+    expected: &str,
+    relation_id: &str,
+    errors: &mut Vec<String>,
+) {
+    if !valid {
+        errors.push(format!(
+            "{} expects {} endpoint {}, but it was not found",
+            relation_id, expected, endpoint
         ));
     }
 }
@@ -345,6 +560,8 @@ mod tests {
                 "statistics": [],
                 "polities": [],
                 "administrativeUnits": [],
+                "militaryUnits": [],
+                "relations": [],
                 "places": [],
                 "placeNames": []
             }"#,
@@ -363,6 +580,8 @@ mod tests {
                 "statistics": [],
                 "polities": [],
                 "administrativeUnits": [],
+                "militaryUnits": [],
+                "relations": [],
                 "places": [{
                     "id": "sample-place",
                     "longitude": 181,

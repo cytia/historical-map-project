@@ -17,6 +17,8 @@ pub struct ProjectData {
     pub statistics: Vec<Statistic>,
     pub polities: Vec<Polity>,
     pub administrative_units: Vec<AdministrativeUnit>,
+    pub military_units: Vec<MilitaryUnit>,
+    pub relations: Vec<Relation>,
     pub places: Vec<Place>,
     pub place_names: Vec<PlaceName>,
 }
@@ -157,6 +159,37 @@ pub struct AdministrativeUnit {
 }
 
 #[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase", deny_unknown_fields)]
+pub struct MilitaryUnit {
+    pub id: String,
+    pub name: String,
+    pub formal_name: Option<String>,
+    pub level: AdministrativeLevel,
+    pub domain: UnitDomain,
+    pub military_kind: MilitaryUnitKind,
+    pub polity_id: String,
+    pub seat_place_id: Option<String>,
+    pub validity: YearRange,
+    pub confidence: Confidence,
+    pub sources: Vec<SourceLink>,
+    pub audit: Audit,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase", deny_unknown_fields)]
+pub struct Relation {
+    pub id: String,
+    pub relation_type: RelationType,
+    pub subject_id: String,
+    pub object_id: String,
+    pub validity: YearRange,
+    pub confidence: Confidence,
+    pub note: Option<String>,
+    pub sources: Vec<SourceLink>,
+    pub audit: Audit,
+}
+
+#[derive(Debug, Deserialize)]
 #[serde(rename_all = "kebab-case")]
 pub enum UnitDomain {
     Administrative,
@@ -183,6 +216,16 @@ pub enum FiveArmyId {
     Right,
     Front,
     Rear,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum RelationType {
+    MilitarySubordination,
+    MilitaryAffiliation,
+    FiveArmyAffiliation,
+    AdministrativeContext,
+    CoLocation,
 }
 
 #[derive(Debug, Deserialize)]

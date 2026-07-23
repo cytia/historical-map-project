@@ -11,6 +11,8 @@
     "statistics",
     "polities",
     "administrativeUnits",
+    "militaryUnits",
+    "relations",
     "places",
     "placeNames"
   ],
@@ -36,6 +38,14 @@
     "administrativeUnits": {
       "type": "array",
       "items": { "$ref": "#/$defs/administrativeUnit" }
+    },
+    "militaryUnits": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/militaryUnit" }
+    },
+    "relations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/relation" }
     },
     "places": {
       "type": "array",
@@ -201,6 +211,63 @@
         "seatPlaceId": { "$ref": "#/$defs/id" },
         "validity": { "$ref": "#/$defs/yearRange" },
         "confidence": { "$ref": "#/$defs/confidence" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceLink" }
+        },
+        "audit": { "$ref": "#/$defs/audit" }
+      }
+    },
+    "militaryUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "name", "level", "domain", "militaryKind", "polityId", "validity", "confidence", "sources", "audit"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "formalName": { "type": "string", "minLength": 1 },
+        "level": { "const": "military" },
+        "domain": { "const": "military" },
+        "militaryKind": {
+          "enum": ["dusi", "xing-dusi", "liushou-si", "wei", "qianhu-suo", "suo"]
+        },
+        "polityId": { "$ref": "#/$defs/id" },
+        "seatPlaceId": { "$ref": "#/$defs/id" },
+        "validity": { "$ref": "#/$defs/yearRange" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceLink" }
+        },
+        "audit": { "$ref": "#/$defs/audit" }
+      }
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "relationType", "subjectId", "objectId", "validity", "confidence", "sources", "audit"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "relationType": {
+          "enum": [
+            "military-subordination",
+            "military-affiliation",
+            "five-army-affiliation",
+            "administrative-context",
+            "co-location"
+          ]
+        },
+        "subjectId": { "$ref": "#/$defs/id" },
+        "objectId": { "$ref": "#/$defs/id" },
+        "validity": { "$ref": "#/$defs/yearRange" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "note": { "type": "string", "maxLength": 500 },
         "sources": {
           "type": "array",
           "minItems": 1,

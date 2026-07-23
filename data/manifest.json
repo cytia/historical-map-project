@@ -107,10 +107,30 @@
       "path": "units/administrative/zhejiang.json"
     },
     {
-      "collection": "administrativeUnits",
+      "collection": "militaryUnits",
       "domain": "military",
       "region": "guizhou",
       "path": "units/military/guizhou.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/command-structure.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/five-army-affiliation.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/administrative-context.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/co-location.json"
     },
     {
       "collection": "administrativeUnits",

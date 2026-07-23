@@ -1,9 +1,10 @@
 import { lazy, Suspense, useMemo, useState } from "react";
 import { AdministrativeDetailPanel } from "./AdministrativeDetailPanel";
 import { MilitaryDetailPanel } from "./MilitaryDetailPanel";
+import { MilitaryScopePanel } from "./MilitaryScopePanel";
 import { HierarchyToolbar } from "./AdministrativeScopeToolbar";
 import { counties, regions, seats } from "./data";
-import { publishedMilitaryRecords } from "./militaryData";
+import { militaryById, publishedMilitaryRecords } from "./militaryData";
 import { LayerBar } from "./LayerBar";
 import { ProjectActions } from "./ProjectActions";
 import { ProjectPanel } from "./ProjectPanel";
@@ -21,6 +22,7 @@ export default function App() {
   const selectedMilitaryUnitId = useAppStore((state) => state.selectedMilitaryUnitId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const hoveredRegionId = useAppStore((state) => state.hoveredRegionId);
+  const hoveredMilitaryUnitId = useAppStore((state) => state.hoveredMilitaryUnitId);
   const searchQuery = useAppStore((state) => state.searchQuery);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const selectCounty = useAppStore((state) => state.selectCounty);
@@ -32,6 +34,9 @@ export default function App() {
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
   const selectedCounty = counties.find((record) => record.unit.id === selectedCountyId);
   const selectedMilitary = publishedMilitaryRecords.find((record) => record.unit.id === selectedMilitaryUnitId);
+  const militaryPanelRecord = hoveredRegionId
+    ? undefined
+    : militaryById.get(hoveredMilitaryUnitId ?? selectedMilitaryUnitId ?? "");
   const panelRegion = regions.find(
     (region) => region.id === (hoveredRegionId ?? activeRegionId),
   );
@@ -111,7 +116,7 @@ export default function App() {
 
         <div className="mobile-header-actions">
           <button className="mobile-control" onClick={() => setSidebarOpen(true)}>
-            全国与省级资料
+            {militaryPanelRecord ? "都司系统资料" : "全国与省级资料"}
           </button>
           <button className="mobile-project-control" onClick={() => setProjectPanelOpen(true)}>
             关于项目
@@ -119,7 +124,9 @@ export default function App() {
         </div>
       </header>
 
-      <ScopePanel region={panelRegion} />
+      {militaryPanelRecord
+        ? <MilitaryScopePanel record={militaryPanelRecord} />
+        : <ScopePanel region={panelRegion} />}
       <HierarchyToolbar />
       <ProjectPanel isOpen={projectPanelOpen} onClose={() => setProjectPanelOpen(false)} />
 

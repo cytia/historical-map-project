@@ -1,0 +1,18 @@
+[
+  {
+    "id": "guizhou-dusi-guiyang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "guizhou-dusi",
+    "objectId": "guiyang-prefecture",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "medium" }
+    ],
+    "note": "The Dusi and Guiyang Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-23",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  }
+]

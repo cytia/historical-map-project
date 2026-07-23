@@ -8,7 +8,7 @@ import {
 } from "./data";
 import { affiliationColorExpression } from "./mapDisplay";
 import { setLayerVisibility } from "./mapLayerVisibility";
-import { curvedCoordinates } from "./relationLayers";
+import { addSubordinateRelationLayer, curvedCoordinates } from "./relationRendering";
 import { defaultTheme } from "./theme";
 import type { HierarchyScope, MapDisplayMode } from "./types";
 
@@ -136,9 +136,12 @@ export function addCountyLayers(
   const data = layerData(selection);
   map.addSource(sourceId, { type: "geojson", data: data.points });
   map.addSource(relationSourceId, { type: "geojson", data: data.relations });
-  map.addLayer({ id: layerIds[0], type: "line", source: relationSourceId,
-    paint: { "line-color": tokens.relationLine, "line-width": tokens.relationLineWidth,
-      "line-opacity": selection.selectedUnitId ? 0.78 : 0, "line-opacity-transition": { duration } } });
+  addSubordinateRelationLayer(map, {
+    sourceId: relationSourceId,
+    layerId: layerIds[0],
+    opacity: selection.selectedUnitId ? 0.78 : 0,
+    transitionDuration: duration,
+  });
   map.addLayer({ id: layerIds[1], type: "circle", source: sourceId,
     paint: { "circle-radius": radius(selection.selectedUnitId, selection.selectedCountyId),
       "circle-color": pointColor(selection),

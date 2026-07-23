@@ -44,18 +44,18 @@ test("keeps affiliation modes separate from base layer toggles", async ({ page }
   await expect(page.getByRole("button", { name: "山川地貌" })).toHaveCount(0);
 });
 
-test("keeps unpublished military controls disabled", async ({ page }) => {
+test("enables published military controls and search", async ({ page }) => {
   await page.goto("/");
   const militaryLayer = page.getByRole("button", { name: "都司" });
   const militaryColor = page.getByRole("button", { name: "军事着色视图" });
-  await expect(militaryLayer).toBeDisabled();
+  await expect(militaryLayer).toBeEnabled();
   await expect(militaryLayer).toHaveAttribute("aria-pressed", "false");
-  await expect(militaryColor).toBeDisabled();
+  await expect(militaryColor).toBeEnabled();
   await expect(militaryColor).toHaveAttribute("aria-pressed", "false");
 
   const search = page.getByRole("textbox", { name: "搜索历史地名" });
   await search.fill("龙里卫");
-  await expect(page.locator(".search-results")).toHaveCount(0);
+  await expect(page.locator(".search-results")).toContainText("龙里卫军民指挥使司");
 });
 
 test("shows four representative historical time points", async ({ page }) => {
@@ -146,7 +146,9 @@ test("shows the Nanjing capital-region aggregation and missing-item notes", asyn
   const populationMarker = page.locator(".scope-primary sup");
   await populationMarker.hover();
   await expect(page.getByRole("tooltip")).toContainText("按14府、4直隶州登记值汇总");
-  const taxMarker = page.getByText("赋税原额", { exact: true }).locator("sup");
+  const taxMarker = page.locator(".left-panel .scope-section")
+    .filter({ hasText: "赋税原额" })
+    .locator(".eyebrow sup");
   await taxMarker.hover();
   await expect(page.getByRole("tooltip")).toContainText("折色银等其他税目未纳入");
 });
@@ -165,12 +167,12 @@ test("shows Yingtian statistics and opens a county from its jurisdiction", async
   await expect(populationMarker).not.toHaveAttribute("title");
   await populationMarker.hover();
   await expect(page.getByRole("tooltip")).toContainText(
-    "本项目不另行统计军户、匠户、灶户等特殊户籍",
+    "军户、匠户、灶户等特殊户籍原史料未分列",
   );
   const taxMarker = page.locator(".tax-evidence .eyebrow sup");
   await expect(taxMarker).not.toHaveAttribute("title");
   await taxMarker.focus();
-  await expect(page.getByRole("tooltip").filter({ hasText: "《大明会典》万历六年实征" }))
+  await expect(page.getByRole("tooltip").filter({ hasText: "《大明会典》万历六年实在田土" }))
     .toBeVisible();
   await expect(page.getByText("本色小麦 11,654 石余")).toBeVisible();
   await expect(page.getByText("本色米 215,159 石余")).toBeVisible();

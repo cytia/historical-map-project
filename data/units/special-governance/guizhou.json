@@ -1684,7 +1684,6 @@
     "name": "大平伐长官司",
     "level": "military",
     "polityId": "ming",
-    "parentId": "longliwei-guizhou-military",
     "seatPlaceId": "dapingfa-longliwei-military-seat",
     "validity": {
       "from": 1600,
@@ -1714,7 +1713,6 @@
     "name": "新添长官司",
     "level": "military",
     "polityId": "ming",
-    "parentId": "xintianwei-guizhou-military",
     "seatPlaceId": "xintian-xintianwei-military-seat",
     "validity": {
       "from": 1600,
@@ -1744,7 +1742,6 @@
     "name": "小平伐长官司",
     "level": "military",
     "polityId": "ming",
-    "parentId": "xintianwei-guizhou-military",
     "seatPlaceId": "xiaopingfa-xintianwei-military-seat",
     "validity": {
       "from": 1600,
@@ -1774,7 +1771,6 @@
     "name": "把平寨长官司",
     "level": "military",
     "polityId": "ming",
-    "parentId": "xintianwei-guizhou-military",
     "seatPlaceId": "bapingzhai-xintianwei-military-seat",
     "validity": {
       "from": 1600,
@@ -1804,7 +1800,6 @@
     "name": "丹平长官司",
     "level": "military",
     "polityId": "ming",
-    "parentId": "xintianwei-guizhou-military",
     "seatPlaceId": "danping-xintianwei-military-seat",
     "validity": {
       "from": 1600,
@@ -1834,7 +1829,6 @@
     "name": "丹行长官司",
     "level": "military",
     "polityId": "ming",
-    "parentId": "xintianwei-guizhou-military",
     "seatPlaceId": "danxing-xintianwei-military-seat",
     "validity": {
       "from": 1600,

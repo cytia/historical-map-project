@@ -31,7 +31,9 @@ function regionOpacity(
   regionId: string | null,
   active: number,
   inactive: number,
+  dimAll = false,
 ): number | ExpressionSpecification {
+  if (dimAll) return inactive;
   if (!regionId) return active;
   return ["case", ["==", ["get", "regionId"], regionId], active, inactive];
 }
@@ -104,10 +106,17 @@ export function setSeatDisplayMode(map: Map, displayMode: MapDisplayMode) {
   map.setPaintProperty("seat-points", "circle-color", pointColor(displayMode));
 }
 
-export function setSeatFocus(map: Map, selectedUnitId: string | null, focusRegionId: string | null) {
+export function setSeatSelection(map: Map, selectedUnitId: string | null) {
   if (!map.getLayer("seat-points")) return;
   map.setPaintProperty("seat-points", "circle-radius", pointRadius(selectedUnitId));
-  map.setPaintProperty("seat-points", "circle-opacity", regionOpacity(focusRegionId, 1, 0.28));
-  map.setPaintProperty("seat-labels", "text-opacity", regionOpacity(focusRegionId, 1, 0.2));
-  map.setPaintProperty("seat-halo", "circle-opacity", regionOpacity(focusRegionId, 1, 0.2));
+}
+
+export function setSeatFocus(map: Map, focusRegionId: string | null, dimAll = false) {
+  if (!map.getLayer("seat-points")) return;
+  map.setPaintProperty("seat-points", "circle-opacity",
+    regionOpacity(focusRegionId, 1, 0.28, dimAll));
+  map.setPaintProperty("seat-labels", "text-opacity",
+    regionOpacity(focusRegionId, 1, 0.2, dimAll));
+  map.setPaintProperty("seat-halo", "circle-opacity",
+    regionOpacity(focusRegionId, 1, 0.2, dimAll));
 }

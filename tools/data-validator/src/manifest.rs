@@ -9,12 +9,14 @@ use serde_json::{Map, Value};
 
 use crate::{model::ProjectData, validate};
 
-const COLLECTIONS: [&str; 7] = [
+const COLLECTIONS: [&str; 9] = [
     "sources",
     "scopeStatistics",
     "statistics",
     "polities",
     "administrativeUnits",
+    "militaryUnits",
+    "relations",
     "places",
     "placeNames",
 ];
@@ -139,7 +141,7 @@ fn assemble_value(manifest_path: &Path) -> Result<Value, String> {
         }
         if matches!(
             fragment.collection.as_str(),
-            "administrativeUnits" | "places" | "placeNames" | "statistics"
+            "administrativeUnits" | "militaryUnits" | "places" | "placeNames" | "statistics"
         ) && (fragment.domain.is_none() && fragment.region.is_none())
         {
             return Err(format!(
@@ -163,12 +165,20 @@ fn assemble_value(manifest_path: &Path) -> Result<Value, String> {
             .get_mut(&fragment.collection)
             .and_then(Value::as_array_mut)
             .expect("known collection must be an array");
-        if fragment.collection == "administrativeUnits" {
+        if matches!(
+            fragment.collection.as_str(),
+            "administrativeUnits" | "militaryUnits"
+        ) {
             for item in items {
                 let mut item = item.clone();
                 if let Some(domain) = &fragment.domain {
                     item.as_object_mut()
-                        .ok_or_else(|| format!("Fragment {} contains a non-object unit", fragment_path.display()))?
+                        .ok_or_else(|| {
+                            format!(
+                                "Fragment {} contains a non-object unit",
+                                fragment_path.display()
+                            )
+                        })?
                         .insert("domain".to_owned(), Value::String(domain.clone()));
                 }
                 target.push(item);

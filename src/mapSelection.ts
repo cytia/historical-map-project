@@ -3,17 +3,16 @@ import { setCountySelection } from "./countyLayers";
 import { counties, getTopLevelUnitId, seats } from "./data";
 import { militaryById } from "./militaryData";
 import { setRelationSelection } from "./relationLayers";
-import { setSeatDisplayMode, setSeatFocus } from "./seatLayers";
+import { setSeatDisplayMode, setSeatSelection } from "./seatLayers";
 import type { HierarchyScope, MapDisplayMode } from "./types";
 
 export function updateMapHierarchySelection(map: Map, options: {
   selectedUnitId: string | null;
-  focusRegionId: string | null;
   displayMode: MapDisplayMode;
 }) {
-  const { selectedUnitId, focusRegionId, displayMode } = options;
+  const { selectedUnitId, displayMode } = options;
   const topLevelUnitId = getTopLevelUnitId(selectedUnitId);
-  setSeatFocus(map, topLevelUnitId, focusRegionId);
+  setSeatSelection(map, topLevelUnitId);
   setSeatDisplayMode(map, displayMode);
   setRelationSelection(map, topLevelUnitId);
 }
