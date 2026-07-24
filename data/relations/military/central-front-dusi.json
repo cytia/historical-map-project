@@ -1,0 +1,677 @@
+[
+  {
+    "id": "zhongdu-liushou-si-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhongdu-liushou-si",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The institutional listing places the Zhongdu Regent Garrison under the Central Army Commandery"
+    }
+  },
+  {
+    "id": "henan-dusi-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "henan-dusi",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The institutional listing places the Henan Dusi under the Central Army Commandery"
+    }
+  },
+  {
+    "id": "xingdu-liushou-si-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xingdu-liushou-si",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The institutional listing places the Xingdu Regent Garrison under the Front Army Commandery"
+    }
+  },
+  {
+    "id": "huguang-dusi-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huguang-dusi",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The institutional listing places the Huguang Dusi under the Front Army Commandery"
+    }
+  },
+  {
+    "id": "huguang-xing-dusi-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huguang-xing-dusi",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The institutional listing places the Huguang Auxiliary Dusi under the Front Army Commandery"
+    }
+  },
+  {
+    "id": "fujian-dusi-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "fujian-dusi",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The institutional listing places the Fujian Dusi under the Front Army Commandery"
+    }
+  },
+  {
+    "id": "fujian-xing-dusi-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "fujian-xing-dusi",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The institutional listing places the Fujian Auxiliary Dusi under the Front Army Commandery"
+    }
+  },
+  {
+    "id": "jiangxi-dusi-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "jiangxi-dusi",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The institutional listing places the Jiangxi Dusi under the Front Army Commandery"
+    }
+  },
+  {
+    "id": "guangdong-dusi-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangdong-dusi",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The institutional listing places the Guangdong Dusi under the Front Army Commandery"
+    }
+  },
+  {
+    "id": "zhongdu-liushou-si-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhongdu-liushou-si",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "henan-dusi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "henan-dusi",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Henan as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xingdu-liushou-si-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xingdu-liushou-si",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Huguang as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "huguang-dusi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huguang-dusi",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Huguang as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "huguang-xing-dusi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huguang-xing-dusi",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Huguang as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "fujian-dusi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fujian-dusi",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "fujian-xing-dusi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fujian-xing-dusi",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jiangxi-dusi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jiangxi-dusi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "guangdong-dusi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangdong-dusi",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "zhongdu-liushou-si-fengyang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "zhongdu-liushou-si",
+    "objectId": "fengyang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The Regent Garrison and Fengyang Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "henan-dusi-kaifeng-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "henan-dusi",
+    "objectId": "kaifeng-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The Dusi and Kaifeng Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "xingdu-liushou-si-chengtian-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "xingdu-liushou-si",
+    "objectId": "chengtian-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The Regent Garrison and Chengtian Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "huguang-dusi-wuchang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "huguang-dusi",
+    "objectId": "wuchang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The Dusi and Wuchang Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "huguang-xing-dusi-yunyang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "huguang-xing-dusi",
+    "objectId": "yunyang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The Auxiliary Dusi and Yunyang Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "fujian-dusi-fuzhou-fujian-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "fujian-dusi",
+    "objectId": "fuzhou-fujian-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The Dusi and Fuzhou Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "fujian-xing-dusi-jianning-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "fujian-xing-dusi",
+    "objectId": "jianning-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The Auxiliary Dusi and Jianning Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "jiangxi-dusi-nanchang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "jiangxi-dusi",
+    "objectId": "nanchang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The Dusi and Nanchang Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "guangdong-dusi-guangzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "guangdong-dusi",
+    "objectId": "guangzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The Dusi and Guangzhou Prefecture share the same approximate city proxy; the exact historical compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  }
+]

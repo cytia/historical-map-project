@@ -119,6 +119,12 @@
       "path": "units/military/liaodong.json"
     },
     {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "central-front",
+      "path": "units/military/central-front-dusi.json"
+    },
+    {
       "collection": "relations",
       "domain": "military",
       "path": "relations/military/command-structure.json"
@@ -137,6 +143,11 @@
       "collection": "relations",
       "domain": "military",
       "path": "relations/military/co-location.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/central-front-dusi.json"
     },
     {
       "collection": "administrativeUnits",

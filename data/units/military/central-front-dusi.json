@@ -1,0 +1,236 @@
+[
+  {
+    "id": "zhongdu-liushou-si",
+    "name": "中都留守司",
+    "formalName": "中都留守司",
+    "level": "military",
+    "militaryKind": "liushou-si",
+    "polityId": "ming",
+    "seatPlaceId": "fengyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Central-army batch record; the Zhongdu Regent Garrison established at Fengyang in 1381 reuses the Fengyang prefecture seat proxy"
+    }
+  },
+  {
+    "id": "henan-dusi",
+    "name": "河南都指挥使司",
+    "formalName": "河南都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "xiangfu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-three",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Central-army batch record; the Henan Dusi converted from the Henan regional guard in 1375 reuses the Kaifeng prefecture seat proxy"
+    }
+  },
+  {
+    "id": "xingdu-liushou-si",
+    "name": "兴都留守司",
+    "formalName": "兴都留守司",
+    "level": "military",
+    "militaryKind": "liushou-si",
+    "polityId": "ming",
+    "seatPlaceId": "zhongxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Front-army batch record; the Xingdu Regent Garrison established at Chengtian Prefecture in 1539 reuses the Zhongxiang seat proxy"
+    }
+  },
+  {
+    "id": "huguang-dusi",
+    "name": "湖广都指挥使司",
+    "formalName": "湖广都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "jiangxia-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Front-army batch record; the Huguang Dusi seated with the provincial administration at Wuchang reuses the Jiangxia seat proxy"
+    }
+  },
+  {
+    "id": "huguang-xing-dusi",
+    "name": "湖广行都指挥使司",
+    "formalName": "湖广行都指挥使司",
+    "level": "military",
+    "militaryKind": "xing-dusi",
+    "polityId": "ming",
+    "seatPlaceId": "yun-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Front-army batch record; the Huguang Auxiliary Dusi established at Yunyang Prefecture in 1476 reuses the Yun county seat proxy"
+    }
+  },
+  {
+    "id": "fujian-dusi",
+    "name": "福建都指挥使司",
+    "formalName": "福建都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "fuzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Front-army batch record; the Fujian Dusi converted from the Fuzhou regional guard in 1375 reuses the Fuzhou city proxy"
+    }
+  },
+  {
+    "id": "fujian-xing-dusi",
+    "name": "福建行都指挥使司",
+    "formalName": "福建行都指挥使司",
+    "level": "military",
+    "militaryKind": "xing-dusi",
+    "polityId": "ming",
+    "seatPlaceId": "jianning-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Front-army batch record; the Fujian Auxiliary Dusi converted from the Jianning regional guard in 1375 reuses the Jianning city proxy"
+    }
+  },
+  {
+    "id": "jiangxi-dusi",
+    "name": "江西都指挥使司",
+    "formalName": "江西都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "nanchang-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-four",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Front-army batch record; the Jiangxi Dusi seated with the provincial administration at Nanchang reuses the Nanchang city proxy"
+    }
+  },
+  {
+    "id": "guangdong-dusi",
+    "name": "广东都指挥使司",
+    "formalName": "广东都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "guangzhou-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Front-army batch record; the Guangdong Dusi seated with the provincial administration at Guangzhou reuses the Guangzhou city proxy"
+    }
+  }
+]
