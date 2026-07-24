@@ -232,5 +232,254 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Front-army batch record; the Guangdong Dusi seated with the provincial administration at Guangzhou reuses the Guangzhou city proxy"
     }
+  },
+  {
+    "id": "fengyangwei-zhongdu",
+    "name": "凤阳卫",
+    "formalName": "凤阳卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "fengyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Zhongdu city guard from the eight-guard roster of the Regent Garrison; shares the Fengyang prefecture seat proxy"
+    }
+  },
+  {
+    "id": "fengyang-zhongwei-zhongdu",
+    "name": "凤阳中卫",
+    "formalName": "凤阳中卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "fengyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Zhongdu city guard from the eight-guard roster of the Regent Garrison; shares the Fengyang prefecture seat proxy"
+    }
+  },
+  {
+    "id": "fengyang-youwei-zhongdu",
+    "name": "凤阳右卫",
+    "formalName": "凤阳右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "fengyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Zhongdu city guard from the eight-guard roster of the Regent Garrison; shares the Fengyang prefecture seat proxy"
+    }
+  },
+  {
+    "id": "liushou-zuowei-zhongdu",
+    "name": "留守左卫",
+    "formalName": "留守左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "fengyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Zhongdu city guard from the eight-guard roster of the Regent Garrison; shares the Fengyang prefecture seat proxy"
+    }
+  },
+  {
+    "id": "liushou-zhongwei-zhongdu",
+    "name": "留守中卫",
+    "formalName": "留守中卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "fengyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Zhongdu city guard from the eight-guard roster of the Regent Garrison; shares the Fengyang prefecture seat proxy"
+    }
+  },
+  {
+    "id": "huanglingwei-zhongdu",
+    "name": "皇陵卫",
+    "formalName": "皇陵卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "huangling-zhongdu-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Mausoleum guard placed at the Huangling fort southwest of Fengyang in 1369"
+    }
+  },
+  {
+    "id": "changhuaiwei-zhongdu",
+    "name": "长淮卫",
+    "formalName": "长淮卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "changhuaiwei-zhongdu-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guard placed at the Changhuai Pass on the Huai River northeast of Fengyang in 1373"
+    }
+  },
+  {
+    "id": "huaiyuanwei-zhongdu",
+    "name": "怀远卫",
+    "formalName": "怀远卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "huaiyuan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Roster guard whose seat is taken at Huaiyuan county; the geography treatise does not state the compound"
+    }
+  },
+  {
+    "id": "hongtanghu-qianhusuo-zhongdu",
+    "name": "洪塘湖千户所",
+    "formalName": "洪塘湖屯田守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "hongtanghu-zhongdu-area",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Garrison-farmland battalion northeast of Fengyang placed in 1378; listed directly under the Regent Garrison"
+    }
   }
 ]

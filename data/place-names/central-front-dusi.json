@@ -1,0 +1,71 @@
+[
+  {
+    "id": "name-huangling-zhongdu-military-seat",
+    "placeId": "huangling-zhongdu-military-seat",
+    "name": "皇陵城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Historical fort label from the Fengyang entry"
+    }
+  },
+  {
+    "id": "name-changhuaiwei-zhongdu-military-seat",
+    "placeId": "changhuaiwei-zhongdu-military-seat",
+    "name": "长淮卫城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guard-city label derived from the Changhuai Pass guard placement"
+    }
+  },
+  {
+    "id": "name-hongtanghu-zhongdu-area",
+    "placeId": "hongtanghu-zhongdu-area",
+    "name": "洪塘湖",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Lake-area label from the Fengyang entry"
+    }
+  }
+]

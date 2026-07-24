@@ -1,0 +1,80 @@
+[
+  {
+    "id": "huangling-zhongdu-military-seat",
+    "longitude": 117.51833344,
+    "latitude": 32.81083298,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Ming Imperial Mausoleum proxy independently located from Wikidata Q11088150 P625, guided by the Ming History description of the Huangling fort southwest of Fengyang",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The source places the Huangling fort southwest of Fengyang with a guard since 1369"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11088150 P625 used as the modern mausoleum proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent mausoleum proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "changhuaiwei-zhongdu-military-seat",
+    "longitude": 117.47834,
+    "latitude": 32.963,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Changhuaiwei town proxy independently located from Wikidata Q14321911 P625; the town retains the guard's name at the Changhuai Pass site on the Huai River",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The source places the Changhuai Pass northeast of Fengyang with the guard since 1373"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q14321911 P625 used as the modern town proxy; no precision recorded; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Name-continuous town proxy; the exact Ming guard city is unresolved"
+    }
+  },
+  {
+    "id": "hongtanghu-zhongdu-area",
+    "longitude": 117.61597,
+    "latitude": 32.90403,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Linhuaiguan town area proxy for the Hongtang Lake garrison farmland northeast of Fengyang; the exact battalion fort is unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "low",
+        "note": "The source only states the battalion northeast of Fengyang at Hongtang Lake"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q10877183 P625 (first statement) used only as a broad modern area proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Area-only proxy; no exact seat is asserted"
+    }
+  }
+]

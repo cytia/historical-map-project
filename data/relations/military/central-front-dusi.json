@@ -673,5 +673,787 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
     }
+  },
+  {
+    "id": "fengyangwei-zhongdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fengyangwei-zhongdu",
+    "objectId": "zhongdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise lists the guard in the eight-guard roster of the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "fengyang-zhongwei-zhongdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fengyang-zhongwei-zhongdu",
+    "objectId": "zhongdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise lists the guard in the eight-guard roster of the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "fengyang-youwei-zhongdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fengyang-youwei-zhongdu",
+    "objectId": "zhongdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise lists the guard in the eight-guard roster of the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "liushou-zuowei-zhongdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "liushou-zuowei-zhongdu",
+    "objectId": "zhongdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise lists the guard in the eight-guard roster of the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "liushou-zhongwei-zhongdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "liushou-zhongwei-zhongdu",
+    "objectId": "zhongdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise lists the guard in the eight-guard roster of the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "huanglingwei-zhongdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huanglingwei-zhongdu",
+    "objectId": "zhongdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise lists the guard in the eight-guard roster of the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "changhuaiwei-zhongdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "changhuaiwei-zhongdu",
+    "objectId": "zhongdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise lists the guard in the eight-guard roster of the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "huaiyuanwei-zhongdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huaiyuanwei-zhongdu",
+    "objectId": "zhongdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise lists the guard in the eight-guard roster of the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "hongtanghu-qianhusuo-zhongdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "hongtanghu-qianhusuo-zhongdu",
+    "objectId": "zhongdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster places the Hongtang battalion directly under the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "fengyangwei-zhongdu-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "fengyangwei-zhongdu",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "fengyang-zhongwei-zhongdu-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "fengyang-zhongwei-zhongdu",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "fengyang-youwei-zhongdu-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "fengyang-youwei-zhongdu",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "liushou-zuowei-zhongdu-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "liushou-zuowei-zhongdu",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "liushou-zhongwei-zhongdu-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "liushou-zhongwei-zhongdu",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "huanglingwei-zhongdu-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huanglingwei-zhongdu",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "changhuaiwei-zhongdu-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "changhuaiwei-zhongdu",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "huaiyuanwei-zhongdu-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huaiyuanwei-zhongdu",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Zhongdu Regent Garrison"
+    }
+  },
+  {
+    "id": "fengyangwei-zhongdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fengyangwei-zhongdu",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "fengyang-zhongwei-zhongdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fengyang-zhongwei-zhongdu",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "fengyang-youwei-zhongdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fengyang-youwei-zhongdu",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "liushou-zuowei-zhongdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "liushou-zuowei-zhongdu",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "liushou-zhongwei-zhongdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "liushou-zhongwei-zhongdu",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "huanglingwei-zhongdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huanglingwei-zhongdu",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "changhuaiwei-zhongdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "changhuaiwei-zhongdu",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "huaiyuanwei-zhongdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huaiyuanwei-zhongdu",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "hongtanghu-qianhusuo-zhongdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "hongtanghu-qianhusuo-zhongdu",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the Nanjing capital region as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "fengyangwei-zhongdu-fengyang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "fengyangwei-zhongdu",
+    "objectId": "fengyang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "City guard of the Zhongdu complex sharing the approximate Fengyang city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "fengyang-zhongwei-zhongdu-fengyang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "fengyang-zhongwei-zhongdu",
+    "objectId": "fengyang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "City guard of the Zhongdu complex sharing the approximate Fengyang city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "fengyang-youwei-zhongdu-fengyang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "fengyang-youwei-zhongdu",
+    "objectId": "fengyang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "City guard of the Zhongdu complex sharing the approximate Fengyang city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "liushou-zuowei-zhongdu-fengyang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "liushou-zuowei-zhongdu",
+    "objectId": "fengyang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "City guard of the Zhongdu complex sharing the approximate Fengyang city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "liushou-zhongwei-zhongdu-fengyang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "liushou-zhongwei-zhongdu",
+    "objectId": "fengyang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "City guard of the Zhongdu complex sharing the approximate Fengyang city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "huaiyuanwei-zhongdu-huaiyuan-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "huaiyuanwei-zhongdu",
+    "objectId": "huaiyuan-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "note": "Seat inferred from the guard's name and the Zhongdu roster context; the geography treatise does not state the seat",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Low-confidence co-location kept for review; no independent seat evidence beyond the shared name"
+    }
   }
 ]

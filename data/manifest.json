@@ -175,6 +175,11 @@
     },
     {
       "collection": "places",
+      "region": "central-front",
+      "path": "places/central-front-dusi.json"
+    },
+    {
+      "collection": "places",
       "region": "fujian",
       "path": "places/fujian.json"
     },
@@ -252,6 +257,11 @@
       "collection": "places",
       "region": "zhejiang",
       "path": "places/zhejiang.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "central-front",
+      "path": "place-names/central-front-dusi.json"
     },
     {
       "collection": "placeNames",
