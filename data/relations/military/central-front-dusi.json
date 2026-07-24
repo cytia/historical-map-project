@@ -5045,5 +5045,845 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
     }
+  },
+  {
+    "id": "jianning-zuowei-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jianning-zuowei-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "jianning-zuowei-fujianxing-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "jianning-zuowei-fujianxing",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "jianning-zuowei-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jianning-zuowei-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jianning-zuowei-fujianxing-jianning-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "jianning-zuowei-fujianxing",
+    "objectId": "jianning-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "jianning-youwei-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jianning-youwei-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "jianning-youwei-fujianxing-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "jianning-youwei-fujianxing",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "jianning-youwei-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jianning-youwei-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jianning-youwei-fujianxing-jianning-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "jianning-youwei-fujianxing",
+    "objectId": "jianning-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yanpingwei-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yanpingwei-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "yanpingwei-fujianxing-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yanpingwei-fujianxing",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "yanpingwei-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yanpingwei-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "yanpingwei-fujianxing-yanping-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "yanpingwei-fujianxing",
+    "objectId": "yanping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "shaowuwei-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shaowuwei-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "shaowuwei-fujianxing-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shaowuwei-fujianxing",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "shaowuwei-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shaowuwei-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "shaowuwei-fujianxing-shaowu-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "shaowuwei-fujianxing",
+    "objectId": "shaowu-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "tingzhouwei-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tingzhouwei-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "tingzhouwei-fujianxing-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tingzhouwei-fujianxing",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "tingzhouwei-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tingzhouwei-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "tingzhouwei-fujianxing-tingzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "tingzhouwei-fujianxing",
+    "objectId": "tingzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "jiangle-qianhusuo-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jiangle-qianhusuo-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "jiangle-qianhusuo-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jiangle-qianhusuo-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jiangle-qianhusuo-fujianxing-fujian-jianle-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "jiangle-qianhusuo-fujianxing",
+    "objectId": "fujian-jianle-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "wuping-qianhusuo-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wuping-qianhusuo-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "wuping-qianhusuo-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuping-qianhusuo-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "wuping-qianhusuo-fujianxing-fujian-wuping-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "wuping-qianhusuo-fujianxing",
+    "objectId": "fujian-wuping-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yongan-qianhusuo-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongan-qianhusuo-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "yongan-qianhusuo-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongan-qianhusuo-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "yongan-qianhusuo-fujianxing-fujian-yongan-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "yongan-qianhusuo-fujianxing",
+    "objectId": "fujian-yongan-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "shanghang-qianhusuo-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shanghang-qianhusuo-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "shanghang-qianhusuo-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shanghang-qianhusuo-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "shanghang-qianhusuo-fujianxing-fujian-shanghang-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "shanghang-qianhusuo-fujianxing",
+    "objectId": "fujian-shanghang-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "pucheng-qianhusuo-fujianxing-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pucheng-qianhusuo-fujianxing",
+    "objectId": "fujian-xing-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Fujian Auxiliary Dusi"
+    }
+  },
+  {
+    "id": "pucheng-qianhusuo-fujianxing-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pucheng-qianhusuo-fujianxing",
+    "objectId": "fujian",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Fujian as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "pucheng-qianhusuo-fujianxing-fujian-pucheng-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "pucheng-qianhusuo-fujianxing",
+    "objectId": "fujian-pucheng-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
   }
 ]

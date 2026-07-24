@@ -1679,5 +1679,269 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Jiangxi Dusi roster unit from the Wanli Huidian"
     }
+  },
+  {
+    "id": "jianning-zuowei-fujianxing",
+    "name": "建宁左卫",
+    "formalName": "建宁左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "jianning-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
+  },
+  {
+    "id": "jianning-youwei-fujianxing",
+    "name": "建宁右卫",
+    "formalName": "建宁右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "jianning-city",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
+  },
+  {
+    "id": "yanpingwei-fujianxing",
+    "name": "延平卫",
+    "formalName": "延平卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "nanping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
+  },
+  {
+    "id": "shaowuwei-fujianxing",
+    "name": "邵武卫",
+    "formalName": "邵武卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shaowu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
+  },
+  {
+    "id": "tingzhouwei-fujianxing",
+    "name": "汀州卫",
+    "formalName": "汀州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "changting-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
+  },
+  {
+    "id": "jiangle-qianhusuo-fujianxing",
+    "name": "将乐千户所",
+    "formalName": "将乐千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "fujian-jianle-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
+  },
+  {
+    "id": "wuping-qianhusuo-fujianxing",
+    "name": "武平千户所",
+    "formalName": "武平千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "fujian-wuping-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated as a later addition in the Huidian roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
+  },
+  {
+    "id": "yongan-qianhusuo-fujianxing",
+    "name": "永安千户所",
+    "formalName": "永安千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "fujian-yongan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated as a later addition in the Huidian roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
+  },
+  {
+    "id": "shanghang-qianhusuo-fujianxing",
+    "name": "上杭千户所",
+    "formalName": "上杭千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "fujian-shanghang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated as a later addition in the Huidian roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
+  },
+  {
+    "id": "pucheng-qianhusuo-fujianxing",
+    "name": "浦城千户所",
+    "formalName": "浦城千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "fujian-pucheng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated as a later addition in the Huidian roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
+    }
   }
 ]
