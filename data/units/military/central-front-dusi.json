@@ -554,18 +554,24 @@
       "to": 1600,
       "precision": "exact"
     },
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "sourceId": "ming-shi-military-two",
         "claim": "existence",
         "confidence": "high",
         "note": "The military roster annotates Mianyang Wei as later transferred to the Xingdu Regent Garrison"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "The Huidian roster confirms the 1542 transfer to the Xingdu Regent Garrison"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-24",
-      "revisionNote": "Guard at Mianyang Department transferred to the Xingdu Regent Garrison; the transfer year is unresolved"
+      "revisionNote": "Transfer year resolved to 1542 by the Huidian roster annotation; earlier unresolved note superseded"
     }
   },
   {
@@ -581,18 +587,24 @@
       "to": 1600,
       "precision": "exact"
     },
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "sourceId": "ming-shi-military-two",
         "claim": "existence",
         "confidence": "high",
         "note": "The military roster annotates the De'an battalion as later transferred to the Xingdu Regent Garrison"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "The Huidian roster confirms the 1542 transfer to the Xingdu Regent Garrison"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-24",
-      "revisionNote": "Battalion at De'an Prefecture transferred to the Xingdu Regent Garrison; the transfer year is unresolved"
+      "revisionNote": "Transfer year resolved to 1542 by the Huidian roster annotation; earlier unresolved note superseded"
     }
   },
   {
@@ -891,5 +903,414 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
     }
+  },
+  {
+    "id": "jingzhouwei-xingdusi",
+    "name": "荆州卫",
+    "formalName": "荆州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "jiangling-seat"
+  },
+  {
+    "id": "jingzhou-youwei-xingdusi",
+    "name": "荆州右卫",
+    "formalName": "荆州右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "jiangling-seat"
+  },
+  {
+    "id": "qutangwei-xingdusi",
+    "name": "瞿塘卫",
+    "formalName": "瞿塘卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Transferred from the Huguang Dusi per the military treatise annotation; seated in Kuizhou territory"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "The Hongwu-era roster carries the later transfer annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "fengjie-seat"
+  },
+  {
+    "id": "xiangyangwei-xingdusi",
+    "name": "襄阳卫",
+    "formalName": "襄阳卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Transferred from the Huguang Dusi per the military treatise annotation"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "The Hongwu-era roster carries the later transfer annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "xiangyang-seat"
+  },
+  {
+    "id": "xiangyang-huwei-xingdusi",
+    "name": "襄阳护卫",
+    "formalName": "襄阳护卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Princely escort guard of the Xiang principality listed in the auxiliary Dusi roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "xiangyang-seat"
+  },
+  {
+    "id": "yunyangwei-xingdusi",
+    "name": "郧阳卫",
+    "formalName": "郧阳卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated as an added guard at the auxiliary Dusi seat"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "yun-seat"
+  },
+  {
+    "id": "yiling-qianhusuo-xingdusi",
+    "name": "夷陵千户所",
+    "formalName": "夷陵千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "The Hongwu-era roster carries the later transfer annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "yiling-jingzhou-seat"
+  },
+  {
+    "id": "changning-qianhusuo-xingdusi",
+    "name": "长宁千户所",
+    "formalName": "长宁千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Roster battalion whose seat is unresolved in the consulted sources"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "The Hongwu-era roster carries the later transfer annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
+  },
+  {
+    "id": "zhijiang-qianhusuo-xingdusi",
+    "name": "枝江千户所",
+    "formalName": "枝江千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "The Hongwu-era roster carries the later transfer annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "zhijiang-jingzhou-seat"
+  },
+  {
+    "id": "yuanan-qianhusuo-xingdusi",
+    "name": "远安千户所",
+    "formalName": "远安千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated as a later addition in the Huidian roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "yuanan-jingzhou-seat"
+  },
+  {
+    "id": "zhushan-qianhusuo-xingdusi",
+    "name": "竹山千户所",
+    "formalName": "竹山千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated as a later addition in the Huidian roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "zhushan-seat"
+  },
+  {
+    "id": "junzhou-qianhusuo-xingdusi",
+    "name": "均州千户所",
+    "formalName": "均州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated as a later addition in the Huidian roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "junzhou-xiangyang-seat"
+  },
+  {
+    "id": "fangxian-qianhusuo-xingdusi",
+    "name": "房县千户所",
+    "formalName": "房县千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated as a later addition in the Huidian roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "fang-seat"
+  },
+  {
+    "id": "zhongzhou-qianhusuo-xingdusi",
+    "name": "忠州千户所",
+    "formalName": "忠州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "The Huidian roster annotates the battalion as lying in Sichuan territory"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "The Hongwu-era roster carries the later transfer annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Huguang Auxiliary Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "zhongzhou-chongqing-seat"
   }
 ]
