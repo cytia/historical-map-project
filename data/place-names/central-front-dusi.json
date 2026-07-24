@@ -757,5 +757,258 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Fort label derived from the roster unit name"
     }
+  },
+  {
+    "id": "name-shizhouwei-huguang-military-seat",
+    "placeId": "shizhouwei-huguang-military-seat",
+    "name": "施州卫城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-pingxiwei-huguang-military-seat",
+    "placeId": "pingxiwei-huguang-military-seat",
+    "name": "平溪卫城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-jiuxiwei-huguang-military-seat",
+    "placeId": "jiuxiwei-huguang-military-seat",
+    "name": "九溪卫城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-yongdingwei-huguang-military-seat",
+    "placeId": "yongdingwei-huguang-military-seat",
+    "name": "永定卫城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-anfu-huguang-military-seat",
+    "placeId": "anfu-huguang-military-seat",
+    "name": "安福所城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-tianping-huguang-military-seat",
+    "placeId": "tianping-huguang-military-seat",
+    "name": "添平所城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-zhenxi-huguang-military-seat",
+    "placeId": "zhenxi-huguang-military-seat",
+    "name": "镇溪所城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-taochuan-huguang-military-seat",
+    "placeId": "taochuan-huguang-military-seat",
+    "name": "桃川所城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-datian-huguang-military-seat",
+    "placeId": "datian-huguang-military-seat",
+    "name": "大田所城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-zhongchao-huguang-military-seat",
+    "placeId": "zhongchao-huguang-military-seat",
+    "name": "中潮所城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
+  },
+  {
+    "id": "name-longli-huguang-military-seat",
+    "placeId": "longli-huguang-military-seat",
+    "name": "隆里所城",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fort label derived from the roster unit name"
+    }
   }
 ]

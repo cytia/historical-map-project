@@ -12141,5 +12141,3857 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
     }
+  },
+  {
+    "id": "wuchangwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wuchangwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "wuchangwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wuchangwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "wuchangwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuchangwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "wuchangwei-huguang-wuchang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "wuchangwei-huguang",
+    "objectId": "wuchang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "wuchang-zuowei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wuchang-zuowei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "wuchang-zuowei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wuchang-zuowei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "wuchang-zuowei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuchang-zuowei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "wuchang-zuowei-huguang-wuchang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "wuchang-zuowei-huguang",
+    "objectId": "wuchang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "huangzhouwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huangzhouwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "huangzhouwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huangzhouwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "huangzhouwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huangzhouwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "huangzhouwei-huguang-huangzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "huangzhouwei-huguang",
+    "objectId": "huangzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yongzhouwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongzhouwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "yongzhouwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yongzhouwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "yongzhouwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongzhouwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "yongzhouwei-huguang-yongzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "yongzhouwei-huguang",
+    "objectId": "yongzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yuezhouwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yuezhouwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "yuezhouwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yuezhouwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "yuezhouwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yuezhouwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "yuezhouwei-huguang-yuezhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "yuezhouwei-huguang",
+    "objectId": "yuezhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "qizhouwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qizhouwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "qizhouwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "qizhouwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "qizhouwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qizhouwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "qizhouwei-huguang-qizhou-huangzhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "qizhouwei-huguang",
+    "objectId": "qizhou-huangzhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "shizhouwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shizhouwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "shizhouwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shizhouwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "shizhouwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shizhouwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "chenzhouwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chenzhouwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "chenzhouwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "chenzhouwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "chenzhouwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chenzhouwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "chenzhouwei-huguang-chenzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "chenzhouwei-huguang",
+    "objectId": "chenzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "changdewei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "changdewei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "changdewei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "changdewei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "changdewei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "changdewei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "changdewei-huguang-changde-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "changdewei-huguang",
+    "objectId": "changde-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yuanzhouwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yuanzhouwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "yuanzhouwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yuanzhouwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "yuanzhouwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yuanzhouwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "yuanzhouwei-huguang-yuanzhou-chenzhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "yuanzhouwei-huguang",
+    "objectId": "yuanzhou-chenzhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "baoqingwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "baoqingwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "baoqingwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "baoqingwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "baoqingwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "baoqingwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "baoqingwei-huguang-baoqing-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "baoqingwei-huguang",
+    "objectId": "baoqing-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "changshawei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "changshawei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "changshawei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "changshawei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "changshawei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "changshawei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "changshawei-huguang-changsha-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "changshawei-huguang",
+    "objectId": "changsha-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "chalingwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chalingwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "chalingwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "chalingwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "chalingwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chalingwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "chalingwei-huguang-chaling-changsha-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "chalingwei-huguang",
+    "objectId": "chaling-changsha-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "hengzhouwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "hengzhouwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "hengzhouwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "hengzhouwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "hengzhouwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "hengzhouwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "hengzhouwei-huguang-hengzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "hengzhouwei-huguang",
+    "objectId": "hengzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "zhenyuanwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "zhenyuanwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "zhenyuanwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhenyuanwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "zhenyuanwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhenyuanwei-huguang",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "zhenyuanwei-huguang-zhenyuan-guizhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "zhenyuanwei-huguang",
+    "objectId": "zhenyuan-guizhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "pianqiaowei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pianqiaowei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "pianqiaowei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "pianqiaowei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "pianqiaowei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pianqiaowei-huguang",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "pianqiaowei-huguang-shibing-zhenyuan-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "pianqiaowei-huguang",
+    "objectId": "shibing-zhenyuan-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "qinglangwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qinglangwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "qinglangwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "qinglangwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "qinglangwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qinglangwei-huguang",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "pingxiwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pingxiwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "pingxiwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "pingxiwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "pingxiwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pingxiwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "jiuxiwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jiuxiwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "jiuxiwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "jiuxiwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "jiuxiwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jiuxiwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "jingzhouwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jingzhouwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "jingzhouwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "jingzhouwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "jingzhouwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jingzhouwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "jingzhouwei-huguang-jingzhou-direct-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "jingzhouwei-huguang",
+    "objectId": "jingzhou-direct-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yongdingwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongdingwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "yongdingwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yongdingwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "yongdingwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongdingwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "wuchang-huwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wuchang-huwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "wuchang-huwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wuchang-huwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "wuchang-huwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuchang-huwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "wuchang-huwei-huguang-wuchang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "wuchang-huwei-huguang",
+    "objectId": "wuchang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "ningyuanwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "ningyuanwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "ningyuanwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "ningyuanwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "ningyuanwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "ningyuanwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "ningyuanwei-huguang-ningyuan-daozhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "ningyuanwei-huguang",
+    "objectId": "ningyuan-daozhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "tongguwei-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tongguwei-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "tongguwei-huguang-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tongguwei-huguang",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Huguang Dusi"
+    }
+  },
+  {
+    "id": "tongguwei-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tongguwei-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "chenzhou-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chenzhou-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "chenzhou-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chenzhou-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "chenzhou-qianhusuo-huguang-chenzhou-direct-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "chenzhou-qianhusuo-huguang",
+    "objectId": "chenzhou-direct-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "maliao-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "maliao-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "maliao-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "maliao-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "anfu-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "anfu-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "anfu-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "anfu-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "dayong-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dayong-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "dayong-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dayong-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "guiyang-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guiyang-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "guiyang-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guiyang-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "guiyang-qianhusuo-huguang-guiyang-hengzhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "guiyang-qianhusuo-huguang",
+    "objectId": "guiyang-hengzhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "wugang-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wugang-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "wugang-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wugang-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "wugang-qianhusuo-huguang-wugang-baoqing-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "wugang-qianhusuo-huguang",
+    "objectId": "wugang-baoqing-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "tianping-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tianping-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "tianping-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tianping-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "lizhou-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "lizhou-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "lizhou-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "lizhou-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "lizhou-qianhusuo-huguang-lizhou-yuezhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "lizhou-qianhusuo-huguang",
+    "objectId": "lizhou-yuezhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "ningxi-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "ningxi-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "ningxi-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "ningxi-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "changning-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "changning-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "changning-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "changning-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "changning-qianhusuo-huguang-changning-hengzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "changning-qianhusuo-huguang",
+    "objectId": "changning-hengzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "zhenxi-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "zhenxi-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "zhenxi-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhenxi-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "taochuan-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "taochuan-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "taochuan-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "taochuan-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "pipa-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pipa-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "pipa-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pipa-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "jintian-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jintian-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "jintian-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jintian-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "ningyuan-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "ningyuan-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "ningyuan-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "ningyuan-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "ningyuan-qianhusuo-huguang-ningyuan-daozhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "ningyuan-qianhusuo-huguang",
+    "objectId": "ningyuan-daozhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "jianghua-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jianghua-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "jianghua-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jianghua-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "jianghua-qianhusuo-huguang-jianghua-daozhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "jianghua-qianhusuo-huguang",
+    "objectId": "jianghua-daozhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "chengbu-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chengbu-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "chengbu-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chengbu-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "chengbu-qianhusuo-huguang-chengbu-baoqing-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "chengbu-qianhusuo-huguang",
+    "objectId": "chengbu-baoqing-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "tianzhu-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tianzhu-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "tianzhu-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tianzhu-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "tianzhu-qianhusuo-huguang-tianzhu-jingzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "tianzhu-qianhusuo-huguang",
+    "objectId": "tianzhu-jingzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "wenxi-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wenxi-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "wenxi-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wenxi-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "yizhang-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yizhang-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "yizhang-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yizhang-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "yizhang-qianhusuo-huguang-yizhang-chenzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "yizhang-qianhusuo-huguang",
+    "objectId": "yizhang-chenzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "datian-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "datian-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "datian-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "datian-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "guangan-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangan-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "guangan-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangan-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "liping-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "liping-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "liping-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "liping-qianhusuo-huguang",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "liping-qianhusuo-huguang-liping-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "liping-qianhusuo-huguang",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "zhongchao-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "zhongchao-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "zhongchao-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhongchao-qianhusuo-huguang",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinhuatun-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinhuatun-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "xinhuatun-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinhuatun-qianhusuo-huguang",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinhua-liangzhai-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinhua-liangzhai-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "xinhua-liangzhai-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinhua-liangzhai-qianhusuo-huguang",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "longli-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "longli-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "longli-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "longli-qianhusuo-huguang",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "tonggu-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tonggu-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "tonggu-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tonggu-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "pingcha-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pingcha-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "pingcha-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pingcha-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "pingchatun-qianhusuo-huguang-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pingchatun-qianhusuo-huguang",
+    "objectId": "huguang-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Huguang Dusi"
+    }
+  },
+  {
+    "id": "pingchatun-qianhusuo-huguang-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pingchatun-qianhusuo-huguang",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
   }
 ]

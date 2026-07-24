@@ -856,5 +856,291 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Independent coastal proxy; the exact Ming fort wall trace is unresolved"
     }
+  },
+  {
+    "id": "shizhouwei-huguang-military-seat",
+    "longitude": 109.47499,
+    "latitude": 30.29106,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Enshi city proxy independently located from Wikidata Q1028110 P625; the Shizhou military-civilian guard city survives as modern Enshi",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1028110 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "pingxiwei-huguang-military-seat",
+    "longitude": 108.91464,
+    "latitude": 27.24074,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yuping county proxy independently located from Wikidata Q1200618 P625; the Pingxi guard city survives as the modern Yuping county seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200618 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "jiuxiwei-huguang-military-seat",
+    "longitude": 110.7654,
+    "latitude": 29.50504,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jiangya Town, Cili proxy independently located from Wikidata Q11134083 P625; the Jiuxi guard city lies in modern Jiangya Town used as a broad proxy",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q11134083 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "yongdingwei-huguang-military-seat",
+    "longitude": 110.48442,
+    "latitude": 29.12548,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhangjiajie city proxy independently located from Wikidata Q197379 P625; the Yongding guard city survives as the modern Zhangjiajie urban seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q197379 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "anfu-huguang-military-seat",
+    "longitude": 111.64244,
+    "latitude": 29.44453,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Linli county proxy independently located from Wikidata Q1338719 P625; the Anfu battalion city survives as the modern Linli county seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1338719 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "tianping-huguang-military-seat",
+    "longitude": 110.89674,
+    "latitude": 29.88078,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Suojie township, Shimen proxy independently located from Wikidata Q11075532 P625; the Tianping fort lies in modern Suojie township named after the battalion",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Wikidata Q11075532 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "zhenxi-huguang-military-seat",
+    "longitude": 109.73176,
+    "latitude": 28.31847,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jishou city proxy independently located from Wikidata Q1344702 P625; the Zhenxi military-civilian battalion city survives as modern Jishou",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1344702 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "taochuan-huguang-military-seat",
+    "longitude": 111.10205,
+    "latitude": 25.11234,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Taochuan Town, Jiangyong proxy independently located from Wikidata Q11112273 P625; the town retains the battalion's name",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11112273 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "datian-huguang-military-seat",
+    "longitude": 109.14653,
+    "latitude": 29.68208,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xianfeng county proxy independently located from Wikidata Q741584 P625; the Datian military-civilian battalion city survives as the modern Xianfeng county seat",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q741584 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "zhongchao-huguang-military-seat",
+    "longitude": 109.22,
+    "latitude": 26.1375,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhongchao Town, Liping proxy independently located from Wikidata Q10875844 P625; the town retains the battalion's name",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q10875844 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
+  },
+  {
+    "id": "longli-huguang-military-seat",
+    "longitude": 109.09886,
+    "latitude": 26.42073,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Longli township, Jinping proxy independently located from Wikidata Q14173606 P625; the walled battalion city survives as the Longli ancient city",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The roster names the unit; the fort identification follows the name-continuous modern settlement"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q14173606 P625 used as the modern proxy; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent interior proxy; the exact Ming fort wall trace is unresolved"
+    }
   }
 ]
