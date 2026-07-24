@@ -113,6 +113,12 @@
       "path": "units/military/guizhou.json"
     },
     {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "liaodong",
+      "path": "units/military/liaodong.json"
+    },
+    {
       "collection": "relations",
       "domain": "military",
       "path": "relations/military/command-structure.json"
@@ -175,6 +181,11 @@
       "collection": "places",
       "region": "guizhou",
       "path": "places/guizhou.json"
+    },
+    {
+      "collection": "places",
+      "region": "liaodong",
+      "path": "places/liaodong.json"
     },
     {
       "collection": "places",
@@ -250,6 +261,11 @@
       "collection": "placeNames",
       "region": "guizhou",
       "path": "place-names/guizhou.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "liaodong",
+      "path": "place-names/liaodong.json"
     },
     {
       "collection": "placeNames",

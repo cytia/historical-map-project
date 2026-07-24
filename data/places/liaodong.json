@@ -1,0 +1,340 @@
+[
+  {
+    "id": "liaoyang-liaodong-military-seat",
+    "longitude": 123.177222,
+    "latitude": 41.264444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Liaoyang city proxy for the Liaodong Dusi city and the five Dingliao guards explicitly grouped there",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high", "note": "The source states that the Dusi and the five Dingliao guards shared the Dusi city" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q75203 P625 used as the modern Liaoyang city proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Shared historical seat proxy; exact Ming compounds remain unresolved" }
+  },
+  {
+    "id": "dongning-liaodong-military-seat",
+    "longitude": 123.177222,
+    "latitude": 41.264444,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Liaoyang area proxy; the historical source identifies Dongning Wei but does not establish its exact compound",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "low", "note": "Exact Dongning Wei seat is not inferred from the adjacent five-guard co-location statement" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q75203 P625 used only as a regional modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Conservative regional proxy pending independent historical seat review" }
+  },
+  {
+    "id": "haizhou-liaodong-military-seat",
+    "longitude": 122.7475,
+    "latitude": 40.852222,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Haicheng city proxy guided by the historical Haizhou description",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source gives Haizhou's relation and distance to the Dusi, not a modern coordinate" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1011073 P625 used as the modern Haicheng proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Reversible approximate proxy" }
+  },
+  {
+    "id": "gaizhou-liaodong-military-seat",
+    "longitude": 122.35,
+    "latitude": 40.401944,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Gaizhou city proxy guided by the historical Gaizhou description",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source gives Gaizhou's relation and distance to the Dusi, not a modern coordinate" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1331447 P625 used as the modern Gaizhou proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Reversible approximate proxy" }
+  },
+  {
+    "id": "fuzhou-liaodong-military-seat",
+    "longitude": 121.997222,
+    "latitude": 39.627222,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Wafangdian city proxy for the historical Fuzhou seat area",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Fuzhou and its distance from the Dusi" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q616048 P625 used as the modern Wafangdian proxy; historical Fuzhou seat is not treated as exact" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Reversible approximate proxy" }
+  },
+  {
+    "id": "jinzhou-dalian-liaodong-military-seat",
+    "longitude": 121.713889,
+    "latitude": 39.099444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jinzhou District of Dalian proxy for the historical Jinzhou Wei seat",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Jinzhou Wei and its distance from the Dusi" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1362024 P625 used as the modern Dalian Jinzhou proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Separated from the modern Jinzhou city proxy used for the Tuntun Wei cluster" }
+  },
+  {
+    "id": "guangning-liaodong-military-seat",
+    "longitude": 121.792781,
+    "latitude": 41.596111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Beizhen city proxy for Guangning Wei city",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source states that Guangning Middle, Left, and Right Wei were all in Guangning Wei city" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q814966 P625 used as the modern Beizhen proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Shared Guangning city proxy for four military institutions" }
+  },
+  {
+    "id": "yizhou-liaodong-military-seat",
+    "longitude": 121.235,
+    "latitude": 41.5325,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yi County proxy for the historical Yi State city",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high", "note": "The source places Guangning Rear Tuntun Wei in Yi State Wei city" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1331458 P625 used as the modern Yi County proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Shared Yi State city proxy for Yi State Wei and Guangning Rear Tuntun Wei" }
+  },
+  {
+    "id": "jinzhou-liaodong-city-seat",
+    "longitude": 121.129167,
+    "latitude": 41.114444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jinzhou city proxy for the historical Jinzhou seat",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high", "note": "The source places Guangning Middle and Left Tuntun Wei in the former Jinzhou city area" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q28996 P625 used as the modern Jinzhou proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Shared historical Jinzhou proxy for the Tuntun Wei cluster" }
+  },
+  {
+    "id": "linhai-liaodong-military-seat",
+    "longitude": 121.355833,
+    "latitude": 41.1675,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Linghai city proxy for the historical Linhai township area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source records the transfer to Linhai township but does not identify a surviving exact seat" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q1362450 P625 used only as an area proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Conservative area proxy pending historical seat review" }
+  },
+  {
+    "id": "ruizhou-liaodong-area",
+    "longitude": 120.338889,
+    "latitude": 40.324167,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Suizhong County area proxy for historical Ruizhou and the western frontier description",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "low", "note": "The source names old Ruizhou and the Shanhaiguan-facing frontier but does not resolve the exact seat" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q1362032 P625 used only as a broad modern area proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy; no exact seat is asserted" }
+  },
+  {
+    "id": "ningyuan-liaodong-military-seat",
+    "longitude": 120.720556,
+    "latitude": 40.618889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xingcheng city proxy for the historical Tangchi seat area",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Tangchi as the Ningyuan Wei seat" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1375638 P625 used as the modern Xingcheng proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Reversible approximate proxy for the Tangchi seat area" }
+  },
+  {
+    "id": "shenyang-liaodong-military-seat",
+    "longitude": 123.428056,
+    "latitude": 41.8025,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Shenyang city proxy for the historical Shenyang Wei seat",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Shenyang Middle Wei and its historical seat" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q11720 P625 used as the modern Shenyang proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Reversible approximate proxy" }
+  },
+  {
+    "id": "tieling-liaodong-military-seat",
+    "longitude": 123.836667,
+    "latitude": 42.284167,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Tieling city proxy for the relocated historical Tieling Wei seat",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source records the relocation of Tieling Wei to the current historical site" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q75268 P625 used as the modern Tieling proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Reversible approximate proxy" }
+  },
+  {
+    "id": "kaiyuan-liaodong-military-seat",
+    "longitude": 124.037222,
+    "latitude": 42.538056,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Kaiyuan city proxy for the relocated Sanwan Wei city",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high", "note": "The source places Sanwan Wei and Liaohai Wei in Sanwan Wei city at Kaiyuan" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1000918 P625 used as the modern Kaiyuan proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Shared Kaiyuan city proxy for Sanwan Wei and Liaohai Wei" }
+  },
+  {
+    "id": "jinzhou-zhongzuo-liaodong-area",
+    "longitude": 121.256944,
+    "latitude": 38.850833,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Lüshunkou District proxy for the historical north city of Lüshunkou",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source locates this Qianhu Office at the north city of Lüshunkou" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q623329 P625 used only as a regional modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy; the historical north-city compound is unresolved" }
+  },
+  {
+    "id": "songshan-liaodong-area",
+    "longitude": 121.129167,
+    "latitude": 41.114444,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Jinzhou city proxy for the historical Songshan Fort area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Songshan Fort as the seat of the Qianhu Office" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q28996 P625 used only as a broad modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent Songshan Fort coordinate" }
+  },
+  {
+    "id": "dalinghe-liaodong-area",
+    "longitude": 121.355833,
+    "latitude": 41.1675,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Linghai city proxy for the historical Dalinghe Fort area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Dalinghe Fort as the seat of the Qianhu Office" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q1362450 P625 used only as a broad modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent Dalinghe Fort coordinate" }
+  },
+  {
+    "id": "jishuihe-liaodong-area",
+    "longitude": 120.338889,
+    "latitude": 40.324167,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Suizhong County proxy for the historical Jishuihe Fort area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Jishuihe Fort as the seat of the Qianhu Office" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q1362032 P625 used only as a broad modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent Jishuihe Fort coordinate" }
+  },
+  {
+    "id": "xinglin-liaodong-area",
+    "longitude": 120.720556,
+    "latitude": 40.618889,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Xingcheng city proxy for the historical Xinglin Fort area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Xinglin Fort as the seat of the Qianhu Office" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q1375638 P625 used only as a broad modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent Xinglin Fort coordinate" }
+  },
+  {
+    "id": "tashan-liaodong-area",
+    "longitude": 120.720556,
+    "latitude": 40.618889,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Xingcheng city proxy for the historical Tashan area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Tashan as the seat of the Qianhu Office" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q1375638 P625 used only as a broad modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent Tashan coordinate" }
+  },
+  {
+    "id": "xiaoshahe-liaodong-area",
+    "longitude": 120.720556,
+    "latitude": 40.618889,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Xingcheng city proxy for the historical Xiaoshahe area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source identifies Xiaoshahe as the seat of the Qianhu Office" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q1375638 P625 used only as a broad modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent Xiaoshahe coordinate" }
+  },
+  {
+    "id": "fushun-liaodong-area",
+    "longitude": 123.891667,
+    "latitude": 41.870833,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Fushun city proxy for the historical Fushun Qianhu Office area",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source names Fushun Qianhu Office east of Shenyang Middle Wei" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q75026 P625 used as the modern Fushun proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent historical seat coordinate" }
+  },
+  {
+    "id": "puhe-liaodong-area",
+    "longitude": 123.428056,
+    "latitude": 41.8025,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Shenyang city proxy for the historical Puhe Qianhu Office area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source names Puhe Qianhu Office north of Shenyang Middle Wei" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q11720 P625 used only as a broad modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent Puhe coordinate" }
+  },
+  {
+    "id": "yilu-liaodong-area",
+    "longitude": 123.836667,
+    "latitude": 42.284167,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Tieling city proxy for the historical Yilu Qianhu Office area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source names Yilu city south of Tieling Wei" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q75268 P625 used only as a broad modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent Yilu coordinate" }
+  },
+  {
+    "id": "fanhe-liaodong-area",
+    "longitude": 123.836667,
+    "latitude": 42.284167,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Tieling city proxy for the historical Fanhe Qianhu Office area",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium", "note": "The source names Fanhe city south of Tieling Wei" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q75268 P625 used only as a broad modern proxy" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Area-only proxy pending an independent Fanhe coordinate" }
+  }
+]

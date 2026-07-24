@@ -1,0 +1,560 @@
+[
+  {
+    "id": "liaodong-dusi",
+    "name": "辽东都指挥使司",
+    "formalName": "辽东都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "liaoyang-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 Liaodong Dusi record; the active roster excludes guards explicitly described as abolished or transferred outside the regional seat"
+    }
+  },
+  {
+    "id": "dingliao-zhongwei-liaodong",
+    "name": "定辽中卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "liaoyang-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard in the Liaodong Dusi roster" }
+  },
+  {
+    "id": "dingliao-zuowei-liaodong",
+    "name": "定辽左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "liaoyang-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard in the Liaodong Dusi roster" }
+  },
+  {
+    "id": "dingliao-youwei-liaodong",
+    "name": "定辽右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "liaoyang-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard in the Liaodong Dusi roster" }
+  },
+  {
+    "id": "dingliao-qianwei-liaodong",
+    "name": "定辽前卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "liaoyang-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard in the Liaodong Dusi roster" }
+  },
+  {
+    "id": "dingliao-houwei-liaodong",
+    "name": "定辽后卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "liaoyang-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard in the Liaodong Dusi roster" }
+  },
+  {
+    "id": "dongningwei-liaodong",
+    "name": "东宁卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "dongning-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard; the exact historical compound is not inferred from the nearby five-guard co-location statement" }
+  },
+  {
+    "id": "haizhouwei-liaodong",
+    "name": "海州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "haizhou-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard; modern Haicheng proxy remains approximate" }
+  },
+  {
+    "id": "gaizhouwei-liaodong",
+    "name": "盖州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "gaizhou-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard in the Liaodong Dusi roster" }
+  },
+  {
+    "id": "fuzhouwei-liaodong",
+    "name": "复州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "fuzhou-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard; modern Wafangdian proxy is approximate" }
+  },
+  {
+    "id": "jinzhouwei-liaodong",
+    "name": "金州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "jinzhou-dalian-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard in the Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangningwei-liaodong",
+    "name": "广宁卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "guangning-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard and anchor for the Guangning city cluster" }
+  },
+  {
+    "id": "guangning-zhongwei-liaodong",
+    "name": "广宁中卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "guangning-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Restored before the 1600 slice and recorded at Guangning Wei city" }
+  },
+  {
+    "id": "guangning-zuowei-liaodong",
+    "name": "广宁左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "guangning-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Restored before the 1600 slice and recorded at Guangning Wei city" }
+  },
+  {
+    "id": "guangning-youwei-liaodong",
+    "name": "广宁右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "guangning-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Restored before the 1600 slice and recorded at Guangning Wei city" }
+  },
+  {
+    "id": "yizhouwei-liaodong",
+    "name": "义州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yizhou-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard; modern Yi County proxy uses the historical Yi State seat area" }
+  },
+  {
+    "id": "guangning-houtunwei-liaodong",
+    "name": "广宁后屯卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yizhou-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard at the Yi State city seat" }
+  },
+  {
+    "id": "guangning-zhongtunwei-liaodong",
+    "name": "广宁中屯卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "jinzhou-liaodong-city-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard at the historical Jinzhou seat area" }
+  },
+  {
+    "id": "guangning-zuotunwei-liaodong",
+    "name": "广宁左屯卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "jinzhou-liaodong-city-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard after transfer to Guangning Middle Tuntun Wei city" }
+  },
+  {
+    "id": "guangning-youtunwei-liaodong",
+    "name": "广宁右屯卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "linhai-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard; modern Linghai proxy represents the historical Linhai township area" }
+  },
+  {
+    "id": "guangning-qiantunwei-liaodong",
+    "name": "广宁前屯卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "ruizhou-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard; historical Ruizhou and the western boundary description do not establish an exact modern seat" }
+  },
+  {
+    "id": "ningyuanwei-liaodong",
+    "name": "宁远卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "ningyuan-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard; modern Xingcheng proxy for the historical Tangchi seat area" }
+  },
+  {
+    "id": "shenyang-zhongwei-liaodong",
+    "name": "沈阳中卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shenyang-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard at the historical Shenyang seat area" }
+  },
+  {
+    "id": "tielingwei-liaodong",
+    "name": "铁岭卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "tieling-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard at the relocated historical seat area" }
+  },
+  {
+    "id": "sanwanwei-liaodong",
+    "name": "三万卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "kaiyuan-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard after relocation to Kaiyuan city" }
+  },
+  {
+    "id": "liaohaiwei-liaodong",
+    "name": "辽海卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "kaiyuan-liaodong-military-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active 1600 guard after relocation to Sanwan Wei city" }
+  },
+  {
+    "id": "jinzhou-zhongzuo-qianhusuo-liaodong",
+    "name": "中左千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "jinzhou-zhongzuo-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Jinzhou-area Qianhu Office listed at the north city of Lüshunkou" }
+  },
+  {
+    "id": "guangning-zhongtun-zhongzuo-qianhusuo-liaodong",
+    "name": "中左千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "songshan-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office at Songshan Fort under Guangning Middle Tuntun Wei" }
+  },
+  {
+    "id": "guangning-zhongtun-zhongyou-qianhusuo-liaodong",
+    "name": "中右千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "dalinghe-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office at Dalinghe Fort under Guangning Middle Tuntun Wei" }
+  },
+  {
+    "id": "guangning-qiantun-zhongqian-qianhusuo-liaodong",
+    "name": "中前千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "jishuihe-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office at Jishuihe Fort under Guangning Front Tuntun Wei" }
+  },
+  {
+    "id": "guangning-qiantun-zhonghou-qianhusuo-liaodong",
+    "name": "中后千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "xinglin-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office at Xinglin Fort under Guangning Front Tuntun Wei" }
+  },
+  {
+    "id": "ningyuan-zhongzuo-qianhusuo-liaodong",
+    "name": "中左千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "tashan-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office at Tashan under Ningyuan Wei" }
+  },
+  {
+    "id": "ningyuan-zhongyou-qianhusuo-liaodong",
+    "name": "中右千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "xiaoshahe-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office at Xiaoshahe under Ningyuan Wei" }
+  },
+  {
+    "id": "shenyang-fushun-qianhusuo-liaodong",
+    "name": "抚顺千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "fushun-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office listed east of Shenyang Middle Wei" }
+  },
+  {
+    "id": "shenyang-puhe-qianhusuo-liaodong",
+    "name": "蒲河千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "puhe-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office listed north of Shenyang Middle Wei" }
+  },
+  {
+    "id": "tieling-yilu-qianhusuo-liaodong",
+    "name": "懿路千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yilu-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office at Yilu under Tieling Wei" }
+  },
+  {
+    "id": "tieling-fanhe-qianhusuo-liaodong",
+    "name": "泛河千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "fanhe-liaodong-area",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Active Qianhu Office at Fanhe under Tieling Wei" }
+  }
+]

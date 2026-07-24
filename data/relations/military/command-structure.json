@@ -575,5 +575,365 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "The Ming History lists the Qixing Pass Guard Office under Bijie Wei"
     }
+  },
+  {
+    "id": "dingliao-zhongwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dingliao-zhongwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "dingliao-zuowei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dingliao-zuowei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "dingliao-youwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dingliao-youwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "dingliao-qianwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dingliao-qianwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "dingliao-houwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dingliao-houwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "dongningwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dongningwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "haizhouwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "haizhouwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "gaizhouwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "gaizhouwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "fuzhouwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fuzhouwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "jinzhouwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jinzhouwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangningwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangningwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangning-zhongwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-zhongwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangning-zuowei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-zuowei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangning-youwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-youwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "yizhouwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yizhouwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangning-houtunwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-houtunwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangning-zhongtunwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-zhongtunwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangning-zuotunwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-zuotunwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangning-youtunwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-youtunwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "guangning-qiantunwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-qiantunwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "ningyuanwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "ningyuanwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "shenyang-zhongwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shenyang-zhongwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "tielingwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tielingwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "sanwanwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "sanwanwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "liaohaiwei-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "liaohaiwei-liaodong",
+    "objectId": "liaodong-dusi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under the 1600 Liaodong Dusi roster" }
+  },
+  {
+    "id": "jinzhou-zhongzuo-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jinzhou-zhongzuo-qianhusuo-liaodong",
+    "objectId": "jinzhouwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed in the Jinzhou Wei geographic description" }
+  },
+  {
+    "id": "guangning-zhongtun-zhongzuo-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-zhongtun-zhongzuo-qianhusuo-liaodong",
+    "objectId": "guangning-zhongtunwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Guangning Middle Tuntun Wei" }
+  },
+  {
+    "id": "guangning-zhongtun-zhongyou-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-zhongtun-zhongyou-qianhusuo-liaodong",
+    "objectId": "guangning-zhongtunwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Guangning Middle Tuntun Wei" }
+  },
+  {
+    "id": "guangning-qiantun-zhongqian-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-qiantun-zhongqian-qianhusuo-liaodong",
+    "objectId": "guangning-qiantunwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Guangning Front Tuntun Wei" }
+  },
+  {
+    "id": "guangning-qiantun-zhonghou-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-qiantun-zhonghou-qianhusuo-liaodong",
+    "objectId": "guangning-qiantunwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Guangning Front Tuntun Wei" }
+  },
+  {
+    "id": "ningyuan-zhongzuo-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "ningyuan-zhongzuo-qianhusuo-liaodong",
+    "objectId": "ningyuanwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Ningyuan Wei" }
+  },
+  {
+    "id": "ningyuan-zhongyou-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "ningyuan-zhongyou-qianhusuo-liaodong",
+    "objectId": "ningyuanwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Ningyuan Wei" }
+  },
+  {
+    "id": "shenyang-fushun-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shenyang-fushun-qianhusuo-liaodong",
+    "objectId": "shenyang-zhongwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Shenyang Middle Wei" }
+  },
+  {
+    "id": "shenyang-puhe-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shenyang-puhe-qianhusuo-liaodong",
+    "objectId": "shenyang-zhongwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Shenyang Middle Wei" }
+  },
+  {
+    "id": "tieling-yilu-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tieling-yilu-qianhusuo-liaodong",
+    "objectId": "tielingwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Tieling Wei" }
+  },
+  {
+    "id": "tieling-fanhe-qianhusuo-liaodong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tieling-fanhe-qianhusuo-liaodong",
+    "objectId": "tielingwei-liaodong",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Listed under Tieling Wei" }
   }
 ]

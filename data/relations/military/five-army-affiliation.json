@@ -369,5 +369,293 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
     }
+  },
+  {
+    "id": "liaodong-dusi-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "liaodong-dusi",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "high" },
+      { "sourceId": "ming-huidian-military-227", "claim": "parent", "confidence": "medium" }
+    ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "The institutional listing places Liaodong Dusi under the Left Army Commandery" }
+  },
+  {
+    "id": "dingliao-zhongwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dingliao-zhongwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "dingliao-zuowei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dingliao-zuowei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "dingliao-youwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dingliao-youwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "dingliao-qianwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dingliao-qianwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "dingliao-houwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dingliao-houwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "dongningwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dongningwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "haizhouwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "haizhouwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "gaizhouwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "gaizhouwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "fuzhouwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "fuzhouwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "jinzhouwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "jinzhouwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "guangningwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangningwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "guangning-zhongwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangning-zhongwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "guangning-zuowei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangning-zuowei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "guangning-youwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangning-youwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "yizhouwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yizhouwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "guangning-houtunwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangning-houtunwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "guangning-zhongtunwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangning-zhongtunwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "guangning-zuotunwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangning-zuotunwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "guangning-youtunwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangning-youtunwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "guangning-qiantunwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangning-qiantunwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "ningyuanwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "ningyuanwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "shenyang-zhongwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shenyang-zhongwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "tielingwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tielingwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "sanwanwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "sanwanwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
+  },
+  {
+    "id": "liaohaiwei-liaodong-left-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "liaohaiwei-liaodong",
+    "objectId": "left",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-officials-76", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Liaodong Dusi institutional affiliation for military display",
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Inherited five-army display affiliation from the verified Liaodong Dusi system" }
   }
 ]

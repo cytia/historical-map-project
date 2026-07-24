@@ -1,0 +1,262 @@
+[
+  {
+    "id": "name-liaoyang-liaodong-military-seat",
+    "placeId": "liaoyang-liaodong-military-seat",
+    "name": "辽东都司城",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat label for the Dusi city cluster" }
+  },
+  {
+    "id": "name-dongning-liaodong-military-seat",
+    "placeId": "dongning-liaodong-military-seat",
+    "name": "东宁卫城",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical unit seat label; exact compound remains unresolved" }
+  },
+  {
+    "id": "name-haizhou-liaodong-military-seat",
+    "placeId": "haizhou-liaodong-military-seat",
+    "name": "海州",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat label" }
+  },
+  {
+    "id": "name-gaizhou-liaodong-military-seat",
+    "placeId": "gaizhou-liaodong-military-seat",
+    "name": "盖州",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat label" }
+  },
+  {
+    "id": "name-fuzhou-liaodong-military-seat",
+    "placeId": "fuzhou-liaodong-military-seat",
+    "name": "复州",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat label" }
+  },
+  {
+    "id": "name-jinzhou-dalian-liaodong-military-seat",
+    "placeId": "jinzhou-dalian-liaodong-military-seat",
+    "name": "金州",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat label" }
+  },
+  {
+    "id": "name-guangning-liaodong-military-seat",
+    "placeId": "guangning-liaodong-military-seat",
+    "name": "广宁卫城",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Shared historical seat label for the Guangning city cluster" }
+  },
+  {
+    "id": "name-yizhou-liaodong-military-seat",
+    "placeId": "yizhou-liaodong-military-seat",
+    "name": "义州卫城",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Shared historical seat label for Yi State Wei and Guangning Rear Tuntun Wei" }
+  },
+  {
+    "id": "name-jinzhou-liaodong-city-seat",
+    "placeId": "jinzhou-liaodong-city-seat",
+    "name": "锦州",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Shared historical seat label for the Tuntun Wei cluster" }
+  },
+  {
+    "id": "name-linhai-liaodong-military-seat",
+    "placeId": "linhai-liaodong-military-seat",
+    "name": "临海乡",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical transfer-area label" }
+  },
+  {
+    "id": "name-ruizhou-liaodong-area",
+    "placeId": "ruizhou-liaodong-area",
+    "name": "瑞州",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label; coordinate remains area-only" }
+  },
+  {
+    "id": "name-ningyuan-liaodong-military-seat",
+    "placeId": "ningyuan-liaodong-military-seat",
+    "name": "汤池",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical Ningyuan Wei seat label" }
+  },
+  {
+    "id": "name-shenyang-liaodong-military-seat",
+    "placeId": "shenyang-liaodong-military-seat",
+    "name": "沈阳",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat label" }
+  },
+  {
+    "id": "name-tieling-liaodong-military-seat",
+    "placeId": "tieling-liaodong-military-seat",
+    "name": "铁岭",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat label" }
+  },
+  {
+    "id": "name-kaiyuan-liaodong-military-seat",
+    "placeId": "kaiyuan-liaodong-military-seat",
+    "name": "三万卫城",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Shared historical seat label for Sanwan Wei and Liaohai Wei" }
+  },
+  {
+    "id": "name-jinzhou-zhongzuo-liaodong-area",
+    "placeId": "jinzhou-zhongzuo-liaodong-area",
+    "name": "旅顺口北城",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-songshan-liaodong-area",
+    "placeId": "songshan-liaodong-area",
+    "name": "松山堡",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-dalinghe-liaodong-area",
+    "placeId": "dalinghe-liaodong-area",
+    "name": "大凌河堡",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-jishuihe-liaodong-area",
+    "placeId": "jishuihe-liaodong-area",
+    "name": "急水河堡",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-xinglin-liaodong-area",
+    "placeId": "xinglin-liaodong-area",
+    "name": "杏林堡",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-tashan-liaodong-area",
+    "placeId": "tashan-liaodong-area",
+    "name": "塔山",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-xiaoshahe-liaodong-area",
+    "placeId": "xiaoshahe-liaodong-area",
+    "name": "小沙河",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-fushun-liaodong-area",
+    "placeId": "fushun-liaodong-area",
+    "name": "抚顺",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-puhe-liaodong-area",
+    "placeId": "puhe-liaodong-area",
+    "name": "蒲河",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-yilu-liaodong-area",
+    "placeId": "yilu-liaodong-area",
+    "name": "懿路",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  },
+  {
+    "id": "name-fanhe-liaodong-area",
+    "placeId": "fanhe-liaodong-area",
+    "name": "泛河",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-24", "revisionNote": "Historical seat-area label" }
+  }
+]
