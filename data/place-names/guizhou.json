@@ -2252,5 +2252,327 @@
       "reviewedOn": "2026-07-13",
       "revisionNote": "Pre-1602 directly administered state seat label"
     }
+  },
+  {
+    "id": "name-guizhou-wei-military-seat",
+    "placeId": "guizhou-wei-military-seat",
+    "name": "\u8d35\u5dde\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-guizhou-qianwei-military-seat",
+    "placeId": "guizhou-qianwei-military-seat",
+    "name": "\u8d35\u5dde\u524d\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-pingyuewei-guizhou-military-seat",
+    "placeId": "pingyuewei-guizhou-military-seat",
+    "name": "\u5e73\u8d8a\u536b\u519b\u6c11\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-qingpingwei-guizhou-military-seat",
+    "placeId": "qingpingwei-guizhou-military-seat",
+    "name": "\u6e05\u5e73\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-xinglongwei-guizhou-military-seat",
+    "placeId": "xinglongwei-guizhou-military-seat",
+    "name": "\u5174\u9686\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-duyunwei-guizhou-military-seat",
+    "placeId": "duyunwei-guizhou-military-seat",
+    "name": "\u90fd\u5300\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-pudingwei-guizhou-military-seat",
+    "placeId": "anshun-seat",
+    "name": "\u666e\u5b9a\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-anzhuangwei-guizhou-military-seat",
+    "placeId": "zhenning-guizhou-department-seat",
+    "name": "\u5b89\u5e84\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-puanwei-guizhou-military-seat",
+    "placeId": "puanwei-guizhou-military-seat",
+    "name": "\u666e\u5b89\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-wusawei-guizhou-military-seat",
+    "placeId": "wusawei-guizhou-military-seat",
+    "name": "\u4e4c\u6492\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-yongningwei-guizhou-military-seat",
+    "placeId": "yongningwei-guizhou-military-seat",
+    "name": "\u6c38\u5b81\u536b\u6307\u6325\u4f7f\u53f8",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-huangping-guizhou-military-seat",
+    "placeId": "huangping-guizhou-military-seat",
+    "name": "\u9ec4\u5e73\u5b88\u5fa1\u5343\u6237\u6240",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-guansuoling-anzhuang-military-seat",
+    "placeId": "guansuoling-anzhuang-military-seat",
+    "name": "\u5173\u7d22\u5cad\u5b88\u5fa1\u5343\u6237\u6240",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
+  },
+  {
+    "id": "name-qixingguan-bijie-military-seat",
+    "placeId": "qixingguan-bijie-military-seat",
+    "name": "\u4e03\u661f\u5173\u540e\u5343\u6237\u6240",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "1600 military seat label"
+    }
   }
 ]

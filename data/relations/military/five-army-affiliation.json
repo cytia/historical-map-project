@@ -105,5 +105,269 @@
     ],
     "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
     "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Inherited five-army display affiliation from the verified Guizhou Dusi system" }
+  },
+  {
+    "id": "guizhou-wei-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guizhou-wei-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "guizhou-qianwei-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guizhou-qianwei-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "pingyuewei-guizhou-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "pingyuewei-guizhou-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "qingpingwei-guizhou-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "qingpingwei-guizhou-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "xinglongwei-guizhou-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xinglongwei-guizhou-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "duyunwei-guizhou-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "duyunwei-guizhou-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "pudingwei-guizhou-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "pudingwei-guizhou-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "anzhuangwei-guizhou-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "anzhuangwei-guizhou-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "puanwei-guizhou-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "puanwei-guizhou-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "wusawei-guizhou-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wusawei-guizhou-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
+  },
+  {
+    "id": "yongningwei-guizhou-military-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yongningwei-guizhou-military",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guizhou Dusi institutional affiliation for military display; not a separate direct listing of this Wei",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Inherited five-army display affiliation from the Guizhou Dusi system"
+    }
   }
 ]

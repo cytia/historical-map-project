@@ -2031,5 +2031,305 @@
       "reviewedOn": "2026-07-13",
       "revisionNote": "Reversible approximate point for the 1600 map skeleton"
     }
+  },
+  {
+    "id": "guizhou-wei-military-seat",
+    "longitude": 106.63,
+    "latitude": 26.65,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guiyang historical-city proxy; the exact Ming Wei compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The military roster places Guizhou Wei in the provincial military system"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q192271 P625; modern Guiyang proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added as a reversible shared Guiyang-area proxy for the Guizhou Wei seat"
+    }
+  },
+  {
+    "id": "guizhou-qianwei-military-seat",
+    "longitude": 106.63,
+    "latitude": 26.65,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guiyang historical-city proxy; the exact Ming Wei compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The office roster places Guizhou Front Wei in the Guizhou Dusi system"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q192271 P625; modern Guiyang proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added as a reversible shared Guiyang-area proxy for the Guizhou Front Wei seat"
+    }
+  },
+  {
+    "id": "pingyuewei-guizhou-military-seat",
+    "longitude": 107.5086111,
+    "latitude": 26.7038889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Fuquan historical-city proxy for the Pingyue Wei seat; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The Pingyue military prefecture was established at the Wei city in 1601"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1339246 P625; modern Fuquan proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added a reversible Fuquan-area proxy; the 1600 slice precedes the 1601 prefectural overlay"
+    }
+  },
+  {
+    "id": "qingpingwei-guizhou-military-seat",
+    "longitude": 107.7,
+    "latitude": 26.55,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Lushan historical-place proxy for Qingping Wei; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The Qingping Wei was a Guizhou Dusi Wei before 1601"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added as a reversible Lushan-area proxy pending independent historical-seat review"
+    }
+  },
+  {
+    "id": "xinglongwei-guizhou-military-seat",
+    "longitude": 107.8975,
+    "latitude": 26.9016667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Huangping historical-place proxy for Xinglong Wei; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The Xinglong Wei is listed in the Pingyue military prefecture section"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200556 P625; modern Huangping proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added a reversible Huangping-area proxy for the Xinglong Wei seat"
+    }
+  },
+  {
+    "id": "duyunwei-guizhou-military-seat",
+    "longitude": 107.5143,
+    "latitude": 26.26717,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Duyun historical-city proxy for the Duyun Wei seat; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The Duyun prefecture was placed at the Wei city"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1207027 P625; modern Duyun proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added as a reversible Duyun-area proxy for the Duyun Wei seat"
+    }
+  },
+  {
+    "id": "puanwei-guizhou-military-seat",
+    "longitude": 104.4672222,
+    "latitude": 25.7108333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Panzhou historical-place proxy for the Puan Wei seat; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The office roster identifies Puan Wei in the Guizhou military system"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200299 P625; modern Panzhou proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added a reversible Panzhou-area proxy for the Puan Wei seat"
+    }
+  },
+  {
+    "id": "wusawei-guizhou-military-seat",
+    "longitude": 104.2822222,
+    "latitude": 26.8655556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Weining historical-place proxy for the Wusa Wei seat; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The office roster identifies Wusa Wei in the Guizhou military system"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200354 P625; modern Weining proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added a reversible Weining-area proxy for the Wusa Wei seat"
+    }
+  },
+  {
+    "id": "yongningwei-guizhou-military-seat",
+    "longitude": 105.4327778,
+    "latitude": 28.1708333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xuyong historical-place proxy for the Yongning Wei seat; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The office roster identifies Yongning Wei as attached to Guizhou Dusi"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1199580 P625; modern Xuyong proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added a reversible Xuyong-area proxy; the historical seat lies outside present Guizhou"
+    }
+  },
+  {
+    "id": "huangping-guizhou-military-seat",
+    "longitude": 107.8975,
+    "latitude": 26.9016667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Huangping historical-place proxy for the Huangping Guard Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The office roster identifies Huangping Guard Office"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200556 P625; modern Huangping proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added a reversible Huangping-area proxy for the Huangping Guard Office"
+    }
+  },
+  {
+    "id": "guansuoling-anzhuang-military-seat",
+    "longitude": 105.6158333,
+    "latitude": 25.9458333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guansuo historical-place proxy for the Guansuo Ridge Guard Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Yongning State later moved its seat to the Guansuo Ridge Guard Office city"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q1200595 P625; modern Guanling proxy"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added a reversible Guansuo-area proxy for the Guansuo Ridge Guard Office"
+    }
+  },
+  {
+    "id": "qixingguan-bijie-military-seat",
+    "longitude": 105.4,
+    "latitude": 27.3,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Qixingguan District area proxy for the Qixing Pass Guard Office; exact Ming pass seat remains unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low",
+        "note": "The historical text names the Qixing Pass Guard Office but does not provide a modern coordinate"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added a reversible area proxy pending independent pass-site verification"
+    }
   }
 ]

@@ -169,5 +169,327 @@
       { "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }
     ],
     "audit": { "reviewedOn": "2026-07-23", "revisionNote": "Preserved the existing Guizhou administrative context as a cross-system relation" }
+  },
+  {
+    "id": "guizhou-wei-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guizhou-wei-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "guizhou-qianwei-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guizhou-qianwei-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "pingyuewei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pingyuewei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "qingpingwei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qingpingwei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinglongwei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinglongwei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "duyunwei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "duyunwei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "pudingwei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pudingwei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "anzhuangwei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "anzhuangwei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "puanwei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "puanwei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "wusawei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wusawei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "yongningwei-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongningwei-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "huangping-guizhou-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huangping-guizhou-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "guansuoling-anzhuang-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guansuoling-anzhuang-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "qixingguan-bijie-military-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qixingguan-bijie-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
+    }
   }
 ]

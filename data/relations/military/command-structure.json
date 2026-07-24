@@ -253,5 +253,327 @@
       "reviewedOn": "2026-07-23",
       "revisionNote": "Separated a special-governance affiliation from the former cross-domain parent field"
     }
+  },
+  {
+    "id": "guizhou-wei-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guizhou-wei-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "guizhou-qianwei-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guizhou-qianwei-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "pingyuewei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pingyuewei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "qingpingwei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qingpingwei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "xinglongwei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinglongwei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "duyunwei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "duyunwei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "pudingwei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pudingwei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "anzhuangwei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "anzhuangwei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "puanwei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "puanwei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "wusawei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wusawei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "yongningwei-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongningwei-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Added the 1600 Guizhou Dusi to Wei command relation"
+    }
+  },
+  {
+    "id": "huangping-guizhou-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huangping-guizhou-military",
+    "objectId": "guizhou-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The named Huangping Guard Office is directly listed in the Guizhou Dusi military roster"
+    }
+  },
+  {
+    "id": "guansuoling-anzhuang-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guansuoling-anzhuang-military",
+    "objectId": "anzhuangwei-guizhou-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "jia-jing-guizhou-tongzhi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The named Guansuo Ridge Guard Office is listed under Anzhuang Wei"
+    }
+  },
+  {
+    "id": "qixingguan-bijie-military-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qixingguan-bijie-military",
+    "objectId": "bijie-guizhou-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Ming History lists the Qixing Pass Guard Office under Bijie Wei"
+    }
   }
 ]
