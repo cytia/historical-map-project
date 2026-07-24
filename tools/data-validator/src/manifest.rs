@@ -78,7 +78,7 @@ pub fn assemble_to_file(
         .or_else(|| {
             manifest_path
                 .parent()
-                .map(|parent| parent.join("project.json"))
+                .map(|parent| parent.join(".generated").join("project-data.json"))
         })
         .ok_or_else(|| "Manifest path has no parent directory".to_owned())?;
     if requested_output.is_none() {

@@ -1,6 +1,6 @@
 # Data workspace
 
-The JSON fragments under this directory are the hand-edited source data. `project.json` is a temporary generated aggregate for the frontend and must not be edited directly or committed.
+The JSON fragments under this directory are the hand-edited source data. `.generated/project-data.json` is a temporary generated aggregate for the frontend and must not be edited directly or committed. The former `project.json` path is retired and must not be recreated.
 
 The fragment list is defined by `manifest.json`. Assemble and validate the aggregate with:
 
@@ -9,7 +9,7 @@ cargo run -p data-validator -- assemble data/manifest.json
 cargo run -p data-validator -- data/manifest.json
 ```
 
-`npm run dev` and `npm run build` assemble the temporary frontend input automatically. The generated `project.json` is ignored by Git and can be removed at any time.
+`npm run dev` and `npm run build` assemble the temporary frontend input automatically. The generated `.generated/project-data.json` is ignored by Git and can be removed at any time.
 
 The assembled structure is defined by `schema/project-data.schema.json`. The manifest is defined by `schema/data-manifest.schema.json`.
 
@@ -32,7 +32,7 @@ Rules:
 - Use stable IDs; names and periods may change without changing identity.
 - Keep physical places separate from the institutions that use them as seats.
 - Keep `militaryUnits` separate from `administrativeUnits`; store military subordination and administrative context in `relations` rather than in an administrative `parentId`.
-- Do not edit generated GeoJSON, tile artifacts, or `project.json` directly. Treat the manifest and its fragments as the only editable data source.
+- Do not edit generated GeoJSON, tile artifacts, or `.generated/project-data.json` directly. Treat the manifest and its fragments as the only editable data source.
 - Run assembly and the Rust validator before accepting data changes.
 
 Large source scans, caches, generated tiles, and license-restricted datasets do not belong in this directory.
