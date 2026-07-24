@@ -481,5 +481,118 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Garrison-farmland battalion northeast of Fengyang placed in 1378; listed directly under the Regent Garrison"
     }
+  },
+  {
+    "id": "xianlingwei-xingdu",
+    "name": "显陵卫",
+    "formalName": "显陵卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xianling-xingdu-military-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Converted from Jingzhou Left Guard to guard the Xianling mausoleum in 1539"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Mausoleum guard of the Xingdu Regent Garrison at the Chunde hill north of Zhongxiang"
+    }
+  },
+  {
+    "id": "chengtianwei-xingdu",
+    "name": "承天卫",
+    "formalName": "承天卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zhongxiang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "The military roster records Anlu Wei later renamed Chengtian Wei"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "City guard of Chengtian Prefecture renamed from Anlu Wei; shares the Zhongxiang seat proxy"
+    }
+  },
+  {
+    "id": "mianyangwei-xingdu",
+    "name": "沔阳卫",
+    "formalName": "沔阳卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "mianyang-chengtian-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "The military roster annotates Mianyang Wei as later transferred to the Xingdu Regent Garrison"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guard at Mianyang Department transferred to the Xingdu Regent Garrison; the transfer year is unresolved"
+    }
+  },
+  {
+    "id": "dean-qianhusuo-xingdu",
+    "name": "德安千户所",
+    "formalName": "德安守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "anlu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "The military roster annotates the De'an battalion as later transferred to the Xingdu Regent Garrison"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Battalion at De'an Prefecture transferred to the Xingdu Regent Garrison; the transfer year is unresolved"
+    }
   }
 ]

@@ -67,5 +67,28 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Lake-area label from the Fengyang entry"
     }
+  },
+  {
+    "id": "name-xianling-xingdu-military-seat",
+    "placeId": "xianling-xingdu-military-seat",
+    "name": "显陵",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Mausoleum label from the Zhongxiang entry"
+    }
   }
 ]

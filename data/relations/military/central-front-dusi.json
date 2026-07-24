@@ -1455,5 +1455,345 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Low-confidence co-location kept for review; no independent seat evidence beyond the shared name"
     }
+  },
+  {
+    "id": "xianlingwei-xingdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xianlingwei-xingdu",
+    "objectId": "xingdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise states the Regent Garrison commands the Xianling and Chengtian guards"
+    }
+  },
+  {
+    "id": "chengtianwei-xingdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chengtianwei-xingdu",
+    "objectId": "xingdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The officials treatise states the Regent Garrison commands the Xianling and Chengtian guards"
+    }
+  },
+  {
+    "id": "mianyangwei-xingdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "mianyangwei-xingdu",
+    "objectId": "xingdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Subordination rests on the roster annotation of a later transfer to the Regent Garrison"
+    }
+  },
+  {
+    "id": "dean-qianhusuo-xingdu-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dean-qianhusuo-xingdu",
+    "objectId": "xingdu-liushou-si",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Subordination rests on the roster annotation of a later transfer to the Regent Garrison"
+    }
+  },
+  {
+    "id": "xianlingwei-xingdu-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xianlingwei-xingdu",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Xingdu Regent Garrison"
+    }
+  },
+  {
+    "id": "chengtianwei-xingdu-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "chengtianwei-xingdu",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Xingdu Regent Garrison"
+    }
+  },
+  {
+    "id": "mianyangwei-xingdu-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "mianyangwei-xingdu",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Xingdu Regent Garrison"
+    }
+  },
+  {
+    "id": "xianlingwei-xingdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xianlingwei-xingdu",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Huguang as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "chengtianwei-xingdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chengtianwei-xingdu",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Huguang as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "mianyangwei-xingdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "mianyangwei-xingdu",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Huguang as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "dean-qianhusuo-xingdu-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dean-qianhusuo-xingdu",
+    "objectId": "huguang",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Huguang as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "chengtianwei-xingdu-chengtian-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "chengtianwei-xingdu",
+    "objectId": "chengtian-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "City guard sharing the approximate Zhongxiang city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "mianyangwei-xingdu-mianyang-chengtian-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "mianyangwei-xingdu",
+    "objectId": "mianyang-chengtian-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Guard named for and seated at Mianyang Department per the roster; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "dean-qianhusuo-xingdu-dean-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "dean-qianhusuo-xingdu",
+    "objectId": "dean-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Battalion named for and seated at De'an Prefecture per the roster; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
   }
 ]

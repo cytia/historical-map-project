@@ -76,5 +76,31 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Area-only proxy; no exact seat is asserted"
     }
+  },
+  {
+    "id": "xianling-xingdu-military-seat",
+    "longitude": 112.62976,
+    "latitude": 31.205675,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Ming Xianling mausoleum proxy independently located from Wikidata Q11087935 P625, guided by the Ming History description of the Chunde hill north of Zhongxiang",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-five",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The source places the Xianling tomb at the Songlin (Chunde) hill north of Zhongxiang"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q11087935 P625 used as the modern mausoleum proxy; precision 1e-06; accessed 2026-07-24"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Independent mausoleum proxy; the exact guard compound is unresolved"
+    }
   }
 ]
