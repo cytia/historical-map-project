@@ -1,4 +1,4 @@
-import projectData from "../data/project.json";
+import projectData from "../data/.generated/project-data.json";
 import type { CountyRecord, MilitaryRecord, ProjectData, SeatRecord } from "./types";
 import { buildAdministrativeData, findTopLevelUnitId, summarizeRegion } from "./administrativeData";
 
