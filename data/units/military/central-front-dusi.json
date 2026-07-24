@@ -594,5 +594,302 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Battalion at De'an Prefecture transferred to the Xingdu Regent Garrison; the transfer year is unresolved"
     }
+  },
+  {
+    "id": "henanwei-henan",
+    "name": "河南卫",
+    "formalName": "河南卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "luoyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "xuanwuwei-henan",
+    "name": "宣武卫",
+    "formalName": "宣武卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xiangfu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "zhangdewei-henan",
+    "name": "彰德卫",
+    "formalName": "彰德卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "anyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "huaiqingwei-henan",
+    "name": "怀庆卫",
+    "formalName": "怀庆卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "henei-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "nanyangwei-henan",
+    "name": "南阳卫",
+    "formalName": "南阳卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "nanyang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "chenzhouwei-henan",
+    "name": "陈州卫",
+    "formalName": "陈州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "chen-kaifeng-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "suiyangwei-henan",
+    "name": "睢阳卫",
+    "formalName": "睢阳卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shangqiu-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "xinyangwei-henan",
+    "name": "信阳卫",
+    "formalName": "信阳卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xinyang-runing-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "hongnongwei-henan",
+    "name": "弘农卫",
+    "formalName": "弘农卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shanzhou-henan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "yingzhouwei-henan",
+    "name": "颍州卫",
+    "formalName": "颍州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yingzhou-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
+  },
+  {
+    "id": "yingshang-qianhusuo-henan",
+    "name": "颍上千户所",
+    "formalName": "颍上守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yingshang-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Henan Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Henan Dusi roster unit; guards annotated as transferred to other commanderies are excluded from this batch"
+    }
   }
 ]

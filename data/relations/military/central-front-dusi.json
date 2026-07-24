@@ -1795,5 +1795,1055 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
     }
+  },
+  {
+    "id": "henanwei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "henanwei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "henanwei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "henanwei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "henanwei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "henanwei-henan",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "henanwei-henan-henan-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "henanwei-henan",
+    "objectId": "henan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Guard named for Henan Prefecture sharing the Luoyang city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "xuanwuwei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xuanwuwei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "xuanwuwei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xuanwuwei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "xuanwuwei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xuanwuwei-henan",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "xuanwuwei-henan-kaifeng-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "xuanwuwei-henan",
+    "objectId": "kaifeng-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "note": "Provincial-capital garrison placement lacks a direct seat statement in the consulted sources; kept for review",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "zhangdewei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "zhangdewei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "zhangdewei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhangdewei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "zhangdewei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhangdewei-henan",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "zhangdewei-henan-zhangde-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "zhangdewei-henan",
+    "objectId": "zhangde-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Guard named for Zhangde Prefecture sharing the Anyang city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "huaiqingwei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huaiqingwei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "huaiqingwei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huaiqingwei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "huaiqingwei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huaiqingwei-henan",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "huaiqingwei-henan-huaiqing-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "huaiqingwei-henan",
+    "objectId": "huaiqing-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Guard named for Huaiqing Prefecture sharing the Henei city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "nanyangwei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "nanyangwei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "nanyangwei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "nanyangwei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "nanyangwei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "nanyangwei-henan",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "nanyangwei-henan-nanyang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "nanyangwei-henan",
+    "objectId": "nanyang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Guard named for Nanyang Prefecture sharing its city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "chenzhouwei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chenzhouwei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "chenzhouwei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "chenzhouwei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "chenzhouwei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chenzhouwei-henan",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "chenzhouwei-henan-chen-kaifeng-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "chenzhouwei-henan",
+    "objectId": "chen-kaifeng-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Guard named for Chen Department sharing its city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "suiyangwei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "suiyangwei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "suiyangwei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "suiyangwei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "suiyangwei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "suiyangwei-henan",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "suiyangwei-henan-guide-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "suiyangwei-henan",
+    "objectId": "guide-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Suiyang is the classical name of the Guide seat; the guard shares the Shangqiu city proxy",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "xinyangwei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinyangwei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "xinyangwei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xinyangwei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "xinyangwei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinyangwei-henan",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinyangwei-henan-xinyang-runing-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "xinyangwei-henan",
+    "objectId": "xinyang-runing-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Guard named for Xinyang Department sharing its city proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "hongnongwei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "hongnongwei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "hongnongwei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "hongnongwei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "hongnongwei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "hongnongwei-henan",
+    "objectId": "henan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "hongnongwei-henan-shanzhou-henan-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "hongnongwei-henan",
+    "objectId": "shanzhou-henan-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Hongnong is the classical name of the Shanzhou area; the guard shares the Shanzhou city proxy",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yingzhouwei-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yingzhouwei-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "yingzhouwei-henan-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yingzhouwei-henan",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Central Army Commandery through the Henan Dusi"
+    }
+  },
+  {
+    "id": "yingzhouwei-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yingzhouwei-henan",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "yingzhouwei-henan-yingzhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "yingzhouwei-henan",
+    "objectId": "yingzhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Guard named for Yingzhou in the Nanjing capital region while commanded from Henan; shares the Yingzhou city proxy",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yingshang-qianhusuo-henan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yingshang-qianhusuo-henan",
+    "objectId": "henan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The military treatise roster lists the unit under the Henan Dusi"
+    }
+  },
+  {
+    "id": "yingshang-qianhusuo-henan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yingshang-qianhusuo-henan",
+    "objectId": "nanjing",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded the seat's administrative region without changing the military command chain"
+    }
+  },
+  {
+    "id": "yingshang-qianhusuo-henan-yingshang-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "yingshang-qianhusuo-henan",
+    "objectId": "yingshang-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Battalion named for Yingshang county in the Nanjing capital region while commanded from Henan; shares its seat proxy",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
   }
 ]
