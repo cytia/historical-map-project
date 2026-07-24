@@ -3981,5 +3981,1069 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
     }
+  },
+  {
+    "id": "nanchangwei-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "nanchangwei-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "nanchangwei-jiangxi-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "nanchangwei-jiangxi",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "nanchangwei-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "nanchangwei-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "nanchangwei-jiangxi-nanchang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "nanchangwei-jiangxi",
+    "objectId": "nanchang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yuanzhouwei-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yuanzhouwei-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "yuanzhouwei-jiangxi-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yuanzhouwei-jiangxi",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "yuanzhouwei-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yuanzhouwei-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "yuanzhouwei-jiangxi-yuanzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "yuanzhouwei-jiangxi",
+    "objectId": "yuanzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "ganzhouwei-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "ganzhouwei-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "ganzhouwei-jiangxi-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "ganzhouwei-jiangxi",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "ganzhouwei-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "ganzhouwei-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "ganzhouwei-jiangxi-ganzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "ganzhouwei-jiangxi",
+    "objectId": "ganzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "jian-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jian-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "jian-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jian-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jian-qianhusuo-jiangxi-jian-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "jian-qianhusuo-jiangxi",
+    "objectId": "jian-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "raozhou-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "raozhou-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "raozhou-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "raozhou-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "raozhou-qianhusuo-jiangxi-raozhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "raozhou-qianhusuo-jiangxi",
+    "objectId": "raozhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "anfu-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "anfu-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "anfu-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "anfu-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "anfu-qianhusuo-jiangxi-jiangxi-anfu-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "anfu-qianhusuo-jiangxi",
+    "objectId": "jiangxi-anfu-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "huichang-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huichang-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "huichang-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huichang-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "huichang-qianhusuo-jiangxi-jiangxi-huichang-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "huichang-qianhusuo-jiangxi",
+    "objectId": "jiangxi-huichang-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yongxin-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongxin-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "yongxin-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongxin-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "yongxin-qianhusuo-jiangxi-jiangxi-yongxin-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "yongxin-qianhusuo-jiangxi",
+    "objectId": "jiangxi-yongxin-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "nanan-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "nanan-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "nanan-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "nanan-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "nanan-qianhusuo-jiangxi-nanan-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "nanan-qianhusuo-jiangxi",
+    "objectId": "nanan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "jianchang-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jianchang-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "jianchang-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jianchang-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jianchang-qianhusuo-jiangxi-jianchang-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "jianchang-qianhusuo-jiangxi",
+    "objectId": "jianchang-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "fuzhou-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fuzhou-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "fuzhou-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fuzhou-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "fuzhou-qianhusuo-jiangxi-fuzhou-jiangxi-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "fuzhou-qianhusuo-jiangxi",
+    "objectId": "fuzhou-jiangxi-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "qianshan-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qianshan-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "qianshan-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qianshan-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "qianshan-qianhusuo-jiangxi-jiangxi-qianshan-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "qianshan-qianhusuo-jiangxi",
+    "objectId": "jiangxi-qianshan-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "guangxin-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangxin-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "guangxin-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangxin-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "guangxin-qianhusuo-jiangxi-guangxin-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "guangxin-qianhusuo-jiangxi",
+    "objectId": "guangxin-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "xinfeng-qianhusuo-jiangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinfeng-qianhusuo-jiangxi",
+    "objectId": "jiangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Jiangxi Dusi"
+    }
+  },
+  {
+    "id": "xinfeng-qianhusuo-jiangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinfeng-qianhusuo-jiangxi",
+    "objectId": "jiangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Jiangxi as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinfeng-qianhusuo-jiangxi-jiangxi-xinfeng-ganzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "xinfeng-qianhusuo-jiangxi",
+    "objectId": "jiangxi-xinfeng-ganzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
   }
 ]
