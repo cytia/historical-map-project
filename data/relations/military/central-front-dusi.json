@@ -7559,5 +7559,4587 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
     }
+  },
+  {
+    "id": "guangzhou-qianwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangzhou-qianwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guangzhou-qianwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangzhou-qianwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guangzhou-qianwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangzhou-qianwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "guangzhou-qianwei-guangdong-guangzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "guangzhou-qianwei-guangdong",
+    "objectId": "guangzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "guangzhou-houwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangzhou-houwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guangzhou-houwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangzhou-houwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guangzhou-houwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangzhou-houwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "guangzhou-houwei-guangdong-guangzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "guangzhou-houwei-guangdong",
+    "objectId": "guangzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "guangzhou-zuowei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangzhou-zuowei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guangzhou-zuowei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangzhou-zuowei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guangzhou-zuowei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangzhou-zuowei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "guangzhou-zuowei-guangdong-guangzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "guangzhou-zuowei-guangdong",
+    "objectId": "guangzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "guangzhou-youwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangzhou-youwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guangzhou-youwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangzhou-youwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guangzhou-youwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangzhou-youwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "guangzhou-youwei-guangdong-guangzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "guangzhou-youwei-guangdong",
+    "objectId": "guangzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "nanhaiwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "nanhaiwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "nanhaiwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "nanhaiwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "nanhaiwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "nanhaiwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "nanhaiwei-guangdong-guangzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "nanhaiwei-guangdong",
+    "objectId": "guangzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "qingyuanwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qingyuanwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "qingyuanwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "qingyuanwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "qingyuanwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qingyuanwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "qingyuanwei-guangdong-qingyuan-guangzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "qingyuanwei-guangdong",
+    "objectId": "qingyuan-guangzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "huizhouwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huizhouwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "huizhouwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huizhouwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "huizhouwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huizhouwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "huizhouwei-guangdong-huizhou-guangdong-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "huizhouwei-guangdong",
+    "objectId": "huizhou-guangdong-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "chaozhouwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chaozhouwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "chaozhouwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "chaozhouwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "chaozhouwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chaozhouwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "chaozhouwei-guangdong-chaozhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "chaozhouwei-guangdong",
+    "objectId": "chaozhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "zhaoqingwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "zhaoqingwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "zhaoqingwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhaoqingwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "zhaoqingwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhaoqingwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "zhaoqingwei-guangdong-zhaoqing-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "zhaoqingwei-guangdong",
+    "objectId": "zhaoqing-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "leizhouwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "leizhouwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "leizhouwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "leizhouwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "leizhouwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "leizhouwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "leizhouwei-guangdong-leizhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "leizhouwei-guangdong",
+    "objectId": "leizhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "hainanwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "hainanwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "hainanwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "hainanwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "hainanwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "hainanwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "hainanwei-guangdong-qiongzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "hainanwei-guangdong",
+    "objectId": "qiongzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "lianzhouwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "lianzhouwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "lianzhouwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "lianzhouwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "lianzhouwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "lianzhouwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "lianzhouwei-guangdong-lianzhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "lianzhouwei-guangdong",
+    "objectId": "lianzhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "guanghaiwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guanghaiwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guanghaiwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guanghaiwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guanghaiwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guanghaiwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jieshiwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jieshiwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "jieshiwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "jieshiwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "jieshiwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jieshiwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "shendianwei-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shendianwei-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "shendianwei-guangdong-front-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shendianwei-guangdong",
+    "objectId": "front",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-227",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Affiliated to the Front Army Commandery through the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "shendianwei-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shendianwei-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinhui-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinhui-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "xinhui-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinhui-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinhui-qianhusuo-guangdong-xinhui-guangzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "xinhui-qianhusuo-guangdong",
+    "objectId": "xinhui-guangzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "shaozhou-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shaozhou-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "shaozhou-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shaozhou-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "shaozhou-qianhusuo-guangdong-shaozhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "shaozhou-qianhusuo-guangdong",
+    "objectId": "shaozhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "nanxiong-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "nanxiong-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "nanxiong-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "nanxiong-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "nanxiong-qianhusuo-guangdong-nanxiong-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "nanxiong-qianhusuo-guangdong",
+    "objectId": "nanxiong-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "longchuan-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "longchuan-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "longchuan-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "longchuan-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "longchuan-qianhusuo-guangdong-longchuan-huizhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "longchuan-qianhusuo-guangdong",
+    "objectId": "longchuan-huizhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "chengxiang-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chengxiang-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "chengxiang-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chengxiang-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "chengxiang-qianhusuo-guangdong-chengxiang-chaozhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "chengxiang-qianhusuo-guangdong",
+    "objectId": "chengxiang-chaozhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "deqing-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "deqing-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "deqing-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "deqing-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "deqing-qianhusuo-guangdong-deqing-zhaoqing-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "deqing-qianhusuo-guangdong",
+    "objectId": "deqing-zhaoqing-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "xinxing-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinxing-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "xinxing-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinxing-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinxing-qianhusuo-guangdong-xinxing-zhaoqing-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "xinxing-qianhusuo-guangdong",
+    "objectId": "xinxing-zhaoqing-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yangjiang-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yangjiang-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "yangjiang-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yangjiang-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "yangjiang-qianhusuo-guangdong-yangjiang-zhaoqing-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "yangjiang-qianhusuo-guangdong",
+    "objectId": "yangjiang-zhaoqing-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "gaozhou-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "gaozhou-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "gaozhou-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "gaozhou-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "gaozhou-qianhusuo-guangdong-gaozhou-prefecture-co-location",
+    "relationType": "co-location",
+    "subjectId": "gaozhou-qianhusuo-guangdong",
+    "objectId": "gaozhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "danzhou-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "danzhou-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "danzhou-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "danzhou-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "danzhou-qianhusuo-guangdong-dan-qiongzhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "danzhou-qianhusuo-guangdong",
+    "objectId": "dan-qiongzhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "wanzhou-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wanzhou-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "wanzhou-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wanzhou-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "wanzhou-qianhusuo-guangdong-wanzhou-qiongzhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "wanzhou-qianhusuo-guangdong",
+    "objectId": "wanzhou-qiongzhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yazhou-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yazhou-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "yazhou-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yazhou-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "yazhou-qianhusuo-guangdong-yazhou-qiongzhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "yazhou-qianhusuo-guangdong",
+    "objectId": "yazhou-qiongzhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "dongguan-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dongguan-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "dongguan-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dongguan-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "dongguan-qianhusuo-guangdong-dongguan-guangzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "dongguan-qianhusuo-guangdong",
+    "objectId": "dongguan-guangzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "dapeng-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dapeng-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "dapeng-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dapeng-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinning-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinning-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "xinning-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinning-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinning-qianhusuo-guangdong-xinning-guangzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "xinning-qianhusuo-guangdong",
+    "objectId": "xinning-guangzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "conghua-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "conghua-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "conghua-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "conghua-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "conghua-qianhusuo-guangdong-conghua-guangzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "conghua-qianhusuo-guangdong",
+    "objectId": "conghua-guangzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "zengcheng-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "zengcheng-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "zengcheng-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zengcheng-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "zengcheng-qianhusuo-guangdong-zengcheng-guangzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "zengcheng-qianhusuo-guangdong",
+    "objectId": "zengcheng-guangzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "lianzhou-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "lianzhou-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "lianzhou-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "lianzhou-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "lianzhou-qianhusuo-guangdong-lianzhou-guangzhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "lianzhou-qianhusuo-guangdong",
+    "objectId": "lianzhou-guangzhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "xiangshan-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xiangshan-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "xiangshan-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xiangshan-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xiangshan-qianhusuo-guangdong-xiangshan-guangzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "xiangshan-qianhusuo-guangdong",
+    "objectId": "xiangshan-guangzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "hailang-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "hailang-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "hailang-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "hailang-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "changle-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "changle-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "changle-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "changle-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "changle-qianhusuo-guangdong-changle-huizhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "changle-qianhusuo-guangdong",
+    "objectId": "changle-huizhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "heyuan-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "heyuan-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "heyuan-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "heyuan-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "heyuan-qianhusuo-guangdong-heyuan-huizhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "heyuan-qianhusuo-guangdong",
+    "objectId": "heyuan-huizhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "pinghai-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pinghai-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "pinghai-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pinghai-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "haifeng-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "haifeng-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "haifeng-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "haifeng-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "haifeng-qianhusuo-guangdong-haifeng-huizhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "haifeng-qianhusuo-guangdong",
+    "objectId": "haifeng-huizhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "jiesheng-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jiesheng-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "jiesheng-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jiesheng-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jiazimen-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jiazimen-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "jiazimen-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jiazimen-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "dacheng-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dacheng-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "dacheng-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dacheng-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jinghai-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jinghai-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "jinghai-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jinghai-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "haimen-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "haimen-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "haimen-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "haimen-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "pengzhou-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pengzhou-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "pengzhou-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pengzhou-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "chenghai-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chenghai-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "chenghai-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chenghai-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "chenghai-qianhusuo-guangdong-chenghai-chaozhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "chenghai-qianhusuo-guangdong",
+    "objectId": "chenghai-chaozhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "guangning-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangning-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "guangning-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangning-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "guangning-qianhusuo-guangdong-guangning-zhaoqing-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "guangning-qianhusuo-guangdong",
+    "objectId": "guangning-zhaoqing-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yongan-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongan-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "yongan-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongan-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "yongan-qianhusuo-guangdong-yongan-huizhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "yongan-qianhusuo-guangdong",
+    "objectId": "yongan-huizhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "lingshan-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "lingshan-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "lingshan-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "lingshan-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "lingshan-qianhusuo-guangdong-lingshan-qinzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "lingshan-qianhusuo-guangdong",
+    "objectId": "lingshan-qinzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "qinzhou-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qinzhou-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "qinzhou-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qinzhou-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "qinzhou-qianhusuo-guangdong-qinzhou-lianzhou-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "qinzhou-qianhusuo-guangdong",
+    "objectId": "qinzhou-lianzhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "ningchuan-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "ningchuan-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "ningchuan-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "ningchuan-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinyi-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinyi-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "xinyi-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinyi-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "xinyi-qianhusuo-guangdong-xinyi-gaozhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "xinyi-qianhusuo-guangdong",
+    "objectId": "xinyi-gaozhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "yangchun-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yangchun-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "yangchun-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yangchun-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "yangchun-qianhusuo-guangdong-yangchun-zhaoqing-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "yangchun-qianhusuo-guangdong",
+    "objectId": "yangchun-zhaoqing-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "shuangyu-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shuangyu-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "shuangyu-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shuangyu-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "haikang-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "haikang-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "haikang-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "haikang-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "haikang-qianhusuo-guangdong-haikang-leizhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "haikang-qianhusuo-guangdong",
+    "objectId": "haikang-leizhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "lemin-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "lemin-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "lemin-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "lemin-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "haian-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "haian-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "haian-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "haian-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "jinnang-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jinnang-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "jinnang-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jinnang-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "shicheng-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shicheng-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "shicheng-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shicheng-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "shicheng-qianhusuo-guangdong-shicheng-huazhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "shicheng-qianhusuo-guangdong",
+    "objectId": "shicheng-huazhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "qinglan-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qinglan-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "qinglan-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qinglan-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "nanshan-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "nanshan-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "nanshan-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "nanshan-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "changhua-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "changhua-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "changhua-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "changhua-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "changhua-qianhusuo-guangdong-changhua-danzhou-county-co-location",
+    "relationType": "co-location",
+    "subjectId": "changhua-qianhusuo-guangdong",
+    "objectId": "changhua-danzhou-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "longshui-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "longshui-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "longshui-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "longshui-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "longshui-qianhusuo-guangdong-luoding-direct-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "longshui-qianhusuo-guangdong",
+    "objectId": "luoding-direct-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "nanxiang-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "nanxiang-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "nanxiang-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "nanxiang-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "nanxiang-qianhusuo-guangdong-dongan-luoding-department-co-location",
+    "relationType": "co-location",
+    "subjectId": "nanxiang-qianhusuo-guangdong",
+    "objectId": "dongan-luoding-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "note": "Unit named for or seated in its host jurisdiction sharing the administrative seat proxy; the exact compounds are unresolved",
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Unified the military and administrative seat proxies without merging their institutional records"
+    }
+  },
+  {
+    "id": "fengmen-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fengmen-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "fengmen-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fengmen-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "hankou-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "hankou-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "hankou-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "hankou-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
+  },
+  {
+    "id": "fulin-qianhusuo-guangdong-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fulin-qianhusuo-guangdong",
+    "objectId": "guangdong-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "The Wanli Huidian roster lists the unit under the Guangdong Dusi"
+    }
+  },
+  {
+    "id": "fulin-qianhusuo-guangdong-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fulin-qianhusuo-guangdong",
+    "objectId": "guangdong",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Recorded Guangdong as the administrative context without changing the military command chain"
+    }
   }
 ]

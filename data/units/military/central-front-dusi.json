@@ -2672,5 +2672,1857 @@
       "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
     },
     "seatPlaceId": "fujian-longyan-seat"
+  },
+  {
+    "id": "guangzhou-qianwei-guangdong",
+    "name": "广州前卫",
+    "formalName": "广州前卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "guangzhou-city"
+  },
+  {
+    "id": "guangzhou-houwei-guangdong",
+    "name": "广州后卫",
+    "formalName": "广州后卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "guangzhou-city"
+  },
+  {
+    "id": "guangzhou-zuowei-guangdong",
+    "name": "广州左卫",
+    "formalName": "广州左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "guangzhou-city"
+  },
+  {
+    "id": "guangzhou-youwei-guangdong",
+    "name": "广州右卫",
+    "formalName": "广州右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "guangzhou-city"
+  },
+  {
+    "id": "nanhaiwei-guangdong",
+    "name": "南海卫",
+    "formalName": "南海卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Provincial-capital garrison placement lacks a direct seat statement in the consulted sources; kept for review"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "guangzhou-city"
+  },
+  {
+    "id": "qingyuanwei-guangdong",
+    "name": "清远卫",
+    "formalName": "清远卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "qingyuan-guangzhou-seat"
+  },
+  {
+    "id": "huizhouwei-guangdong",
+    "name": "惠州卫",
+    "formalName": "惠州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "guishan-seat"
+  },
+  {
+    "id": "chaozhouwei-guangdong",
+    "name": "潮州卫",
+    "formalName": "潮州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "haiyang-guangdong-seat"
+  },
+  {
+    "id": "zhaoqingwei-guangdong",
+    "name": "肇庆卫",
+    "formalName": "肇庆卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "gaoyao-seat"
+  },
+  {
+    "id": "leizhouwei-guangdong",
+    "name": "雷州卫",
+    "formalName": "雷州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "haikang-seat"
+  },
+  {
+    "id": "hainanwei-guangdong",
+    "name": "海南卫",
+    "formalName": "海南卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Island command guard seated at the Qiongzhou prefecture city"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "qiongshan-seat"
+  },
+  {
+    "id": "lianzhouwei-guangdong",
+    "name": "廉州卫",
+    "formalName": "廉州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Formerly a battalion, elevated to a guard per the roster annotation"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "Listed in the Hongwu-era Guangdong roster"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "hepu-seat"
+  },
+  {
+    "id": "guanghaiwei-guangdong",
+    "name": "广海卫",
+    "formalName": "广海卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated among the three later-added guards"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "guanghaiwei-guangdong-military-seat"
+  },
+  {
+    "id": "jieshiwei-guangdong",
+    "name": "碣石卫",
+    "formalName": "碣石卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated among the three later-added guards"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "jieshiwei-guangdong-military-seat"
+  },
+  {
+    "id": "shendianwei-guangdong",
+    "name": "神电卫",
+    "formalName": "神电卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated among the three later-added guards"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "shendianwei-guangdong-military-seat"
+  },
+  {
+    "id": "xinhui-qianhusuo-guangdong",
+    "name": "新会千户所",
+    "formalName": "新会千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "xinhui-guangzhou-seat"
+  },
+  {
+    "id": "shaozhou-qianhusuo-guangdong",
+    "name": "韶州千户所",
+    "formalName": "韶州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "qujiang-seat"
+  },
+  {
+    "id": "nanxiong-qianhusuo-guangdong",
+    "name": "南雄千户所",
+    "formalName": "南雄千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "baochang-seat"
+  },
+  {
+    "id": "longchuan-qianhusuo-guangdong",
+    "name": "龙川千户所",
+    "formalName": "龙川千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "longchuan-huizhou-seat"
+  },
+  {
+    "id": "chengxiang-qianhusuo-guangdong",
+    "name": "程乡千户所",
+    "formalName": "程乡千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "chengxiang-chaozhou-seat"
+  },
+  {
+    "id": "deqing-qianhusuo-guangdong",
+    "name": "德庆千户所",
+    "formalName": "德庆千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "deqing-zhaoqing-seat"
+  },
+  {
+    "id": "xinxing-qianhusuo-guangdong",
+    "name": "新兴千户所",
+    "formalName": "新兴千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "xinxing-zhaoqing-seat"
+  },
+  {
+    "id": "yangjiang-qianhusuo-guangdong",
+    "name": "阳江千户所",
+    "formalName": "阳江千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "yangjiang-zhaoqing-seat"
+  },
+  {
+    "id": "gaozhou-qianhusuo-guangdong",
+    "name": "高州千户所",
+    "formalName": "高州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "maoming-seat"
+  },
+  {
+    "id": "danzhou-qianhusuo-guangdong",
+    "name": "儋州千户所",
+    "formalName": "儋州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "dan-qiongzhou-seat"
+  },
+  {
+    "id": "wanzhou-qianhusuo-guangdong",
+    "name": "万州千户所",
+    "formalName": "万州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "wanzhou-qiongzhou-seat"
+  },
+  {
+    "id": "yazhou-qianhusuo-guangdong",
+    "name": "崖州千户所",
+    "formalName": "崖州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "yazhou-qiongzhou-seat"
+  },
+  {
+    "id": "dongguan-qianhusuo-guangdong",
+    "name": "东莞千户所",
+    "formalName": "东莞千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "dongguan-guangzhou-seat"
+  },
+  {
+    "id": "dapeng-qianhusuo-guangdong",
+    "name": "大鹏千户所",
+    "formalName": "大鹏千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "dapeng-guangdong-military-seat"
+  },
+  {
+    "id": "xinning-qianhusuo-guangdong",
+    "name": "新宁千户所",
+    "formalName": "新宁千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "xinning-guangzhou-seat"
+  },
+  {
+    "id": "conghua-qianhusuo-guangdong",
+    "name": "从化千户所",
+    "formalName": "从化千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "conghua-guangzhou-seat"
+  },
+  {
+    "id": "zengcheng-qianhusuo-guangdong",
+    "name": "增城千户所",
+    "formalName": "增城千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "zengcheng-guangzhou-seat"
+  },
+  {
+    "id": "lianzhou-qianhusuo-guangdong",
+    "name": "连州千户所",
+    "formalName": "连州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "lianzhou-guangzhou-seat"
+  },
+  {
+    "id": "xiangshan-qianhusuo-guangdong",
+    "name": "香山千户所",
+    "formalName": "香山千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "xiangshan-guangzhou-seat"
+  },
+  {
+    "id": "hailang-qianhusuo-guangdong",
+    "name": "海朗千户所",
+    "formalName": "海朗千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Roster battalion whose seat is unresolved in the consulted sources"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
+  },
+  {
+    "id": "changle-qianhusuo-guangdong",
+    "name": "长乐千户所",
+    "formalName": "长乐千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "changle-huizhou-seat"
+  },
+  {
+    "id": "heyuan-qianhusuo-guangdong",
+    "name": "河源千户所",
+    "formalName": "河源千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "heyuan-huizhou-seat"
+  },
+  {
+    "id": "pinghai-qianhusuo-guangdong",
+    "name": "平海千户所",
+    "formalName": "平海千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "pinghai-guangdong-military-seat"
+  },
+  {
+    "id": "haifeng-qianhusuo-guangdong",
+    "name": "海丰千户所",
+    "formalName": "海丰千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "haifeng-huizhou-seat"
+  },
+  {
+    "id": "jiesheng-qianhusuo-guangdong",
+    "name": "捷胜千户所",
+    "formalName": "捷胜千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "jiesheng-guangdong-military-seat"
+  },
+  {
+    "id": "jiazimen-qianhusuo-guangdong",
+    "name": "甲子门千户所",
+    "formalName": "甲子门千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "jiazimen-guangdong-military-seat"
+  },
+  {
+    "id": "dacheng-qianhusuo-guangdong",
+    "name": "大城千户所",
+    "formalName": "大城千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "dacheng-guangdong-military-seat"
+  },
+  {
+    "id": "jinghai-qianhusuo-guangdong",
+    "name": "靖海千户所",
+    "formalName": "靖海千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "jinghai-guangdong-military-seat"
+  },
+  {
+    "id": "haimen-qianhusuo-guangdong",
+    "name": "海门千户所",
+    "formalName": "海门千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "haimen-guangdong-military-seat"
+  },
+  {
+    "id": "pengzhou-qianhusuo-guangdong",
+    "name": "蓬州千户所",
+    "formalName": "蓬州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Roster battalion whose seat is unresolved in the consulted sources"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
+  },
+  {
+    "id": "chenghai-qianhusuo-guangdong",
+    "name": "澄海千户所",
+    "formalName": "澄海千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "chenghai-chaozhou-seat"
+  },
+  {
+    "id": "guangning-qianhusuo-guangdong",
+    "name": "广宁千户所",
+    "formalName": "广宁千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Identification with Guangning county rests on the shared name only; kept for review"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "guangning-zhaoqing-seat"
+  },
+  {
+    "id": "yongan-qianhusuo-guangdong",
+    "name": "永安千户所",
+    "formalName": "永安千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "yongan-huizhou-seat"
+  },
+  {
+    "id": "lingshan-qianhusuo-guangdong",
+    "name": "灵山千户所",
+    "formalName": "灵山千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "lingshan-qinzhou-seat"
+  },
+  {
+    "id": "qinzhou-qianhusuo-guangdong",
+    "name": "钦州千户所",
+    "formalName": "钦州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "qinzhou-lianzhou-seat"
+  },
+  {
+    "id": "ningchuan-qianhusuo-guangdong",
+    "name": "宁川千户所",
+    "formalName": "宁川千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Roster battalion whose seat is unresolved in the consulted sources"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
+  },
+  {
+    "id": "xinyi-qianhusuo-guangdong",
+    "name": "信宜千户所",
+    "formalName": "信宜千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "xinyi-gaozhou-seat"
+  },
+  {
+    "id": "yangchun-qianhusuo-guangdong",
+    "name": "阳春千户所",
+    "formalName": "阳春千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "yangchun-zhaoqing-seat"
+  },
+  {
+    "id": "shuangyu-qianhusuo-guangdong",
+    "name": "双鱼千户所",
+    "formalName": "双鱼千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "shuangyu-guangdong-military-seat"
+  },
+  {
+    "id": "haikang-qianhusuo-guangdong",
+    "name": "海康千户所",
+    "formalName": "海康千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "haikang-seat"
+  },
+  {
+    "id": "lemin-qianhusuo-guangdong",
+    "name": "乐民千户所",
+    "formalName": "乐民千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "lemin-guangdong-military-seat"
+  },
+  {
+    "id": "haian-qianhusuo-guangdong",
+    "name": "海安千户所",
+    "formalName": "海安千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "haian-guangdong-military-seat"
+  },
+  {
+    "id": "jinnang-qianhusuo-guangdong",
+    "name": "锦囊千户所",
+    "formalName": "锦囊千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "jinnang-guangdong-military-seat"
+  },
+  {
+    "id": "shicheng-qianhusuo-guangdong",
+    "name": "石城千户所",
+    "formalName": "石城千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "shicheng-huazhou-seat"
+  },
+  {
+    "id": "qinglan-qianhusuo-guangdong",
+    "name": "清澜千户所",
+    "formalName": "清澜千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Roster battalion whose seat is unresolved in the consulted sources"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
+  },
+  {
+    "id": "nanshan-qianhusuo-guangdong",
+    "name": "南山千户所",
+    "formalName": "南山千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Roster battalion whose seat is unresolved in the consulted sources"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
+  },
+  {
+    "id": "changhua-qianhusuo-guangdong",
+    "name": "昌化千户所",
+    "formalName": "昌化千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "changhua-danzhou-seat"
+  },
+  {
+    "id": "longshui-qianhusuo-guangdong",
+    "name": "泷水千户所",
+    "formalName": "泷水千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Named for Longshui county, elevated to Luoding department in 1577; co-location kept at low confidence"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "luoding-seat"
+  },
+  {
+    "id": "nanxiang-qianhusuo-guangdong",
+    "name": "南乡千户所",
+    "formalName": "南乡千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Dong'an department was founded beside the Nanxiang fort in 1577; co-location kept at low confidence"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "dongan-luoding-seat"
+  },
+  {
+    "id": "fengmen-qianhusuo-guangdong",
+    "name": "封门千户所",
+    "formalName": "封门千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Roster battalion whose seat is unresolved in the consulted sources"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
+  },
+  {
+    "id": "hankou-qianhusuo-guangdong",
+    "name": "函口千户所",
+    "formalName": "函口千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Roster battalion whose seat is unresolved in the consulted sources"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
+  },
+  {
+    "id": "fulin-qianhusuo-guangdong",
+    "name": "富霖千户所",
+    "formalName": "富霖千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Roster battalion whose seat is unresolved in the consulted sources"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Guangdong Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
   }
 ]
