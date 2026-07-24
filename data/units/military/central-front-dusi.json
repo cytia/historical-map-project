@@ -1943,5 +1943,734 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Fujian Auxiliary Dusi roster unit from the Wanli Huidian; the abolished Jianyang Wei is excluded"
     }
+  },
+  {
+    "id": "fuzhou-zhongwei-fujian",
+    "name": "福州中卫",
+    "formalName": "福州中卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "fuzhou-city"
+  },
+  {
+    "id": "fuzhou-zuowei-fujian",
+    "name": "福州左卫",
+    "formalName": "福州左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "fuzhou-city"
+  },
+  {
+    "id": "fuzhou-youwei-fujian",
+    "name": "福州右卫",
+    "formalName": "福州右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "fuzhou-city"
+  },
+  {
+    "id": "xinghuawei-fujian",
+    "name": "兴化卫",
+    "formalName": "兴化卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "putian-seat"
+  },
+  {
+    "id": "quanzhouwei-fujian",
+    "name": "泉州卫",
+    "formalName": "泉州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "jinjiang-seat"
+  },
+  {
+    "id": "zhangzhouwei-fujian",
+    "name": "漳州卫",
+    "formalName": "漳州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "longxi-fujian-seat"
+  },
+  {
+    "id": "funingwei-fujian",
+    "name": "福宁卫",
+    "formalName": "福宁卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "funing-seat"
+  },
+  {
+    "id": "zhendongwei-fujian",
+    "name": "镇东卫",
+    "formalName": "镇东卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "zhendongwei-fujian-military-seat"
+  },
+  {
+    "id": "pinghaiwei-fujian",
+    "name": "平海卫",
+    "formalName": "平海卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "pinghaiwei-fujian-military-seat"
+  },
+  {
+    "id": "yongningwei-fujian",
+    "name": "永宁卫",
+    "formalName": "永宁卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "yongningwei-fujian-military-seat"
+  },
+  {
+    "id": "zhenhaiwei-fujian",
+    "name": "镇海卫",
+    "formalName": "镇海卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Listed in the Hongwu-era Fujian Dusi roster without a transfer or abolition annotation"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "zhenhaiwei-fujian-military-seat"
+  },
+  {
+    "id": "dajin-qianhusuo-fujian",
+    "name": "大金千户所",
+    "formalName": "大金千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian; seat unresolved, kept without a place claim for review"
+    }
+  },
+  {
+    "id": "dinghai-qianhusuo-fujian",
+    "name": "定海千户所",
+    "formalName": "定海千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "dinghai-fujian-military-seat"
+  },
+  {
+    "id": "meihua-qianhusuo-fujian",
+    "name": "梅花千户所",
+    "formalName": "梅花千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "meihua-fujian-military-seat"
+  },
+  {
+    "id": "wanan-qianhusuo-fujian",
+    "name": "万安千户所",
+    "formalName": "万安千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "wanan-fujian-military-seat"
+  },
+  {
+    "id": "puxi-qianhusuo-fujian",
+    "name": "莆禧千户所",
+    "formalName": "莆禧千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "puxi-fujian-military-seat"
+  },
+  {
+    "id": "fuquan-qianhusuo-fujian",
+    "name": "福全千户所",
+    "formalName": "福全千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "fuquan-fujian-military-seat"
+  },
+  {
+    "id": "jinmen-qianhusuo-fujian",
+    "name": "金门千户所",
+    "formalName": "金门千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "jinmen-fujian-military-seat"
+  },
+  {
+    "id": "gaopu-qianhusuo-fujian",
+    "name": "高浦千户所",
+    "formalName": "高浦千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "gaopu-fujian-military-seat"
+  },
+  {
+    "id": "liuao-qianhusuo-fujian",
+    "name": "六鳌千户所",
+    "formalName": "六鳌千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "liuao-fujian-military-seat"
+  },
+  {
+    "id": "tongshan-qianhusuo-fujian",
+    "name": "铜山千户所",
+    "formalName": "铜山千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "tongshan-fujian-military-seat"
+  },
+  {
+    "id": "xuanzhong-qianhusuo-fujian",
+    "name": "玄钟千户所",
+    "formalName": "玄钟千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "xuanzhong-fujian-military-seat"
+  },
+  {
+    "id": "chongwu-qianhusuo-fujian",
+    "name": "崇武千户所",
+    "formalName": "崇武千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "chongwu-fujian-military-seat"
+  },
+  {
+    "id": "nanzhao-qianhusuo-fujian",
+    "name": "南诏千户所",
+    "formalName": "南诏千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "fujian-zhaoan-seat"
+  },
+  {
+    "id": "longyan-qianhusuo-fujian",
+    "name": "龙岩千户所",
+    "formalName": "龙岩千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "Annotated in the Huidian roster as a later addition"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-24",
+      "revisionNote": "Fujian Dusi roster unit from the Wanli Huidian"
+    },
+    "seatPlaceId": "fujian-longyan-seat"
   }
 ]
