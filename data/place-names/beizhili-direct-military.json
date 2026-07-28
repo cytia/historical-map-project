@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "name-jizhou-wei-beizhili-seat",
+    "placeId": "jizhou-wei-beizhili-seat",
+    "name": "蓟州卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-zunhua-wei-beizhili-seat",
+    "placeId": "zunhua-wei-beizhili-seat",
+    "name": "遵化卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-miyun-middle-wei-beizhili-seat",
+    "placeId": "miyun-middle-wei-beizhili-seat",
+    "name": "密云中卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-miyun-rear-wei-beizhili-seat",
+    "placeId": "miyun-rear-wei-beizhili-seat",
+    "name": "密云后卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-zhenshuo-wei-beizhili-seat",
+    "placeId": "zhenshuo-wei-beizhili-seat",
+    "name": "镇朔卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-dongsheng-right-wei-beizhili-seat",
+    "placeId": "dongsheng-right-wei-beizhili-seat",
+    "name": "东胜右卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-xingzhou-left-tunwei-beizhili-seat",
+    "placeId": "xingzhou-left-tunwei-beizhili-seat",
+    "name": "兴州左屯卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-xingzhou-middle-tunwei-beizhili-seat",
+    "placeId": "xingzhou-middle-tunwei-beizhili-seat",
+    "name": "兴州中屯卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-xingzhou-front-tunwei-beizhili-seat",
+    "placeId": "xingzhou-front-tunwei-beizhili-seat",
+    "name": "兴州前屯卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-xingzhou-rear-tunwei-beizhili-seat",
+    "placeId": "xingzhou-rear-tunwei-beizhili-seat",
+    "name": "兴州后屯卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-zhongyi-middle-wei-beizhili-seat",
+    "placeId": "zhongyi-middle-wei-beizhili-seat",
+    "name": "忠义中卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-tongzhou-left-wei-beizhili-seat",
+    "placeId": "tongzhou-left-wei-beizhili-seat",
+    "name": "通州左卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-tongzhou-right-wei-beizhili-seat",
+    "placeId": "tongzhou-right-wei-beizhili-seat",
+    "name": "通州右卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-shenwu-middle-wei-beizhili-seat",
+    "placeId": "shenwu-middle-wei-beizhili-seat",
+    "name": "神武中卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-dingbian-wei-beizhili-seat",
+    "placeId": "dingbian-wei-beizhili-seat",
+    "name": "定边卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-wuqing-wei-beizhili-seat",
+    "placeId": "wuqing-wei-beizhili-seat",
+    "name": "武清卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-zhuolu-wei-beizhili-seat",
+    "placeId": "zhuolu-wei-beizhili-seat",
+    "name": "涿鹿卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-zhuolu-left-wei-beizhili-seat",
+    "placeId": "zhuolu-left-wei-beizhili-seat",
+    "name": "涿鹿左卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-zhuolu-middle-wei-beizhili-seat",
+    "placeId": "zhuolu-middle-wei-beizhili-seat",
+    "name": "涿鹿中卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-yongping-wei-beizhili-seat",
+    "placeId": "yongping-wei-beizhili-seat",
+    "name": "永平卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-shanhai-wei-beizhili-seat",
+    "placeId": "shanhai-wei-beizhili-seat",
+    "name": "山海卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-lulong-wei-beizhili-seat",
+    "placeId": "lulong-wei-beizhili-seat",
+    "name": "卢龙卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-kaiping-middle-tunwei-beizhili-seat",
+    "placeId": "kaiping-middle-tunwei-beizhili-seat",
+    "name": "开平中屯卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-xingzhou-right-tunwei-beizhili-seat",
+    "placeId": "xingzhou-right-tunwei-beizhili-seat",
+    "name": "兴州右屯卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-dongsheng-left-wei-beizhili-seat",
+    "placeId": "dongsheng-left-wei-beizhili-seat",
+    "name": "东胜左卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-funing-wei-beizhili-seat",
+    "placeId": "funing-wei-beizhili-seat",
+    "name": "抚宁卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-yanqing-wei-beizhili-seat",
+    "placeId": "yanqing-wei-beizhili-seat",
+    "name": "延庆卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-hejian-wei-beizhili-seat",
+    "placeId": "hejian-wei-beizhili-seat",
+    "name": "河间卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-datong-middle-tunwei-beizhili-seat",
+    "placeId": "datong-middle-tunwei-beizhili-seat",
+    "name": "大同中屯卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-shenyang-middle-tunwei-beizhili-seat",
+    "placeId": "shenyang-middle-tunwei-beizhili-seat",
+    "name": "沈阳中屯卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-tianjin-wei-beizhili-seat",
+    "placeId": "tianjin-wei-beizhili-seat",
+    "name": "天津卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-tianjin-left-wei-beizhili-seat",
+    "placeId": "tianjin-left-wei-beizhili-seat",
+    "name": "天津左卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-tianjin-right-wei-beizhili-seat",
+    "placeId": "tianjin-right-wei-beizhili-seat",
+    "name": "天津右卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-zhending-wei-beizhili-seat",
+    "placeId": "zhending-wei-beizhili-seat",
+    "name": "真定卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-shenwu-right-wei-beizhili-seat",
+    "placeId": "shenwu-right-wei-beizhili-seat",
+    "name": "神武右卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-dingzhou-wei-beizhili-seat",
+    "placeId": "dingzhou-wei-beizhili-seat",
+    "name": "定州卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-tongguan-wei-beizhili-seat",
+    "placeId": "tongguan-wei-beizhili-seat",
+    "name": "潼关卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-ningshan-wei-beizhili-seat",
+    "placeId": "ningshan-wei-beizhili-seat",
+    "name": "宁山卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-dezhou-wei-beizhili-seat",
+    "placeId": "dezhou-wei-beizhili-seat",
+    "name": "德州卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-dezhou-left-wei-beizhili-seat",
+    "placeId": "dezhou-left-wei-beizhili-seat",
+    "name": "德州左卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-liangcheng-qianhusuo-beizhili-seat",
+    "placeId": "liangcheng-qianhusuo-beizhili-seat",
+    "name": "梁城千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-chaohe-qianhusuo-beizhili-seat",
+    "placeId": "chaohe-qianhusuo-beizhili-seat",
+    "name": "潮河千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-baiyangkou-qianhusuo-beizhili-seat",
+    "placeId": "baiyangkou-qianhusuo-beizhili-seat",
+    "name": "白羊口千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-bohai-qianhusuo-beizhili-seat",
+    "placeId": "bohai-qianhusuo-beizhili-seat",
+    "name": "渤海千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-kuanghe-qianhusuo-beizhili-seat",
+    "placeId": "kuanghe-qianhusuo-beizhili-seat",
+    "name": "宽河千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-zhenbiancheng-qianhusuo-beizhili-seat",
+    "placeId": "zhenbiancheng-qianhusuo-beizhili-seat",
+    "name": "镇边城千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-cangzhou-qianhusuo-beizhili-seat",
+    "placeId": "cangzhou-qianhusuo-beizhili-seat",
+    "name": "沧州千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-daomaguan-qianhusuo-beizhili-seat",
+    "placeId": "daomaguan-qianhusuo-beizhili-seat",
+    "name": "倒马关千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-shunde-qianhusuo-beizhili-seat",
+    "placeId": "shunde-qianhusuo-beizhili-seat",
+    "name": "顺德千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-wuding-qianhusuo-beizhili-seat",
+    "placeId": "wuding-qianhusuo-beizhili-seat",
+    "name": "武定千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-pingding-qianhusuo-beizhili-seat",
+    "placeId": "pingding-qianhusuo-beizhili-seat",
+    "name": "平定千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  },
+  {
+    "id": "name-puzhou-qianhusuo-beizhili-seat",
+    "placeId": "puzhou-qianhusuo-beizhili-seat",
+    "name": "蒲州千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified historical military institution label."
+    }
+  }
+]

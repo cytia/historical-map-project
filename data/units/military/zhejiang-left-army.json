@@ -1,0 +1,218 @@
+[
+  {
+    "id": "zhejiang-dusi",
+    "name": "浙江都司",
+    "formalName": "浙江都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "hangzhou-city",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-geography-five", "claim": "name", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster record; the Hangzhou city proxy represents the Dusi seat area and does not assert the exact compound." }
+  },
+  {
+    "id": "hangzhou-qianwei-zhejiang", "name": "杭州前卫", "formalName": "杭州前卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "hangzhou-city",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; exact guard compound is unresolved." }
+  },
+  {
+    "id": "hangzhou-youwei-zhejiang", "name": "杭州右卫", "formalName": "杭州右卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "hangzhou-city",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; exact guard compound is unresolved." }
+  },
+  {
+    "id": "taizhou-wei-zhejiang", "name": "台州卫", "formalName": "台州卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "linhai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Linhai is used as the historical Taizhou seat proxy." }
+  },
+  {
+    "id": "ningbo-wei-zhejiang", "name": "宁波卫", "formalName": "宁波卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "yin-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; the Yin county seat proxy represents Ningbo." }
+  },
+  {
+    "id": "chuzhou-wei-zhejiang", "name": "处州卫", "formalName": "处州卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "lishui-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Lishui is used as the Chuzhou seat proxy." }
+  },
+  {
+    "id": "shaoxing-wei-zhejiang", "name": "绍兴卫", "formalName": "绍兴卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "shaoxing-city",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; exact guard compound is unresolved." }
+  },
+  {
+    "id": "haining-wei-zhejiang", "name": "海宁卫", "formalName": "海宁卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "zhejiang-haining-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; the Haining settlement proxy represents the seat area." }
+  },
+  {
+    "id": "changguo-wei-zhejiang", "name": "昌国卫", "formalName": "昌国卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "zhejiang-dinghai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Dinghai is used as the Changguo island-seat proxy." }
+  },
+  {
+    "id": "wenzhou-wei-zhejiang", "name": "温州卫", "formalName": "温州卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "yongjia-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Yongjia is used as the Wenzhou seat proxy." }
+  },
+  {
+    "id": "linshan-wei-zhejiang", "name": "临山卫", "formalName": "临山卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "zhejiang-yuyao-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Yuyao is used as the Linshan area proxy." }
+  },
+  {
+    "id": "songmen-wei-zhejiang", "name": "松门卫", "formalName": "松门卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "zhejiang-linhai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; the Linhai coastal proxy does not assert the exact fort." }
+  },
+  {
+    "id": "jinxiang-wei-zhejiang", "name": "金乡卫", "formalName": "金乡卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "zhejiang-pingyang-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Pingyang is used as the Jinxiang coastal area proxy." }
+  },
+  {
+    "id": "dinghai-wei-zhejiang", "name": "定海卫", "formalName": "定海卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "zhejiang-dinghai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Dinghai is used as the historical island-seat proxy." }
+  },
+  {
+    "id": "haimen-wei-zhejiang", "name": "海门卫", "formalName": "海门卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "zhejiang-linhai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; the Linhai coastal proxy does not assert the exact fort." }
+  },
+  {
+    "id": "panshi-wei-zhejiang", "name": "磐石卫", "formalName": "磐石卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "zhejiang-yueqing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Yueqing is used as the Panshi coastal area proxy." }
+  },
+  {
+    "id": "guanhai-wei-zhejiang", "name": "观海卫", "formalName": "观海卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "zhejiang-cixi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Cixi is used as the Guanhai area proxy." }
+  },
+  {
+    "id": "haining-qianhusuo-zhejiang", "name": "海宁千户所", "formalName": "海宁千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-haining-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; lower guard-level parent is not asserted from list position." }
+  },
+  {
+    "id": "quzhou-qianhusuo-zhejiang", "name": "衢州千户所", "formalName": "衢州千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-xian-zhejiang-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; the Xi'an county seat proxy represents the Quzhou area." }
+  },
+  {
+    "id": "yanzhou-qianhusuo-zhejiang", "name": "严州千户所", "formalName": "严州千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "jiande-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; Jiande is used as the Yanzhou seat proxy." }
+  },
+  {
+    "id": "huzhou-qianhusuo-zhejiang", "name": "湖州千户所", "formalName": "湖州千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-wucheng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Zhejiang Dusi roster; the Wucheng/Huzhou city proxy represents the seat area." }
+  },
+  {
+    "id": "jinhua-qianhusuo-zhejiang", "name": "金华千户所", "formalName": "金华千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "jinhua-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Jinhua is used as the seat proxy." }
+  },
+  {
+    "id": "ganpu-qianhusuo-zhejiang", "name": "澉浦千户所", "formalName": "澉浦千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-haiyan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Haiyan is used as the coastal area proxy." }
+  },
+  {
+    "id": "zhapu-qianhusuo-zhejiang", "name": "乍浦千户所", "formalName": "乍浦千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-pinghu-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Pinghu is used as the coastal area proxy." }
+  },
+  {
+    "id": "dinghai-hou-qianhusuo-zhejiang", "name": "定海后千户所", "formalName": "定海后千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-dinghai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Dinghai is used as the island-seat proxy." }
+  },
+  {
+    "id": "dinghai-zhongzuo-qianhusuo-zhejiang", "name": "定海中左千户所", "formalName": "定海中左千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-dinghai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Dinghai is used as the island-seat proxy." }
+  },
+  {
+    "id": "dinghai-zhongzhong-qianhusuo-zhejiang", "name": "定海中中千户所", "formalName": "定海中中千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-dinghai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Dinghai is used as the island-seat proxy." }
+  },
+  {
+    "id": "kuoqu-qianhusuo-zhejiang", "name": "霩衢千户所", "formalName": "霩衢千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-xiangshan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high", "note": "The rare character is preserved from the Huidian transcription; variant readings require later textual review." }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; name form retained pending collation of variant transcriptions." }
+  },
+  {
+    "id": "dasong-qianhusuo-zhejiang", "name": "大嵩千户所", "formalName": "大嵩千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-xiangshan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Xiangshan is used as the coastal area proxy." }
+  },
+  {
+    "id": "shipu-qianhusuo-zhejiang", "name": "石浦前千户所", "formalName": "石浦前千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-xiangshan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Xiangshan is used as the coastal area proxy." }
+  },
+  {
+    "id": "shipu-hou-qianhusuo-zhejiang", "name": "石浦后千户所", "formalName": "石浦后千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-xiangshan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Xiangshan is used as the coastal area proxy." }
+  },
+  {
+    "id": "qiancang-qianhusuo-zhejiang", "name": "钱仓千户所", "formalName": "钱仓千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-pingyang-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Pingyang is used as the coastal area proxy." }
+  },
+  {
+    "id": "juexi-qianhusuo-zhejiang", "name": "爵溪千户所", "formalName": "爵溪千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-xiangshan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Xiangshan is used as the coastal area proxy." }
+  },
+  {
+    "id": "longshan-qianhusuo-zhejiang", "name": "龙山千户所", "formalName": "龙山千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-cixi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Cixi is used as the coastal area proxy." }
+  },
+  {
+    "id": "sanjiang-qianhusuo-zhejiang", "name": "三江千户所", "formalName": "三江千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-shangyu-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Shangyu is used as the coastal area proxy." }
+  },
+  {
+    "id": "lihai-qianhusuo-zhejiang", "name": "沥海千户所", "formalName": "沥海千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-shangyu-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Shangyu is used as the coastal area proxy." }
+  },
+  {
+    "id": "sanshan-qianhusuo-zhejiang", "name": "三山千户所", "formalName": "三山千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-shangyu-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Shangyu is used as the coastal area proxy." }
+  },
+  {
+    "id": "shuijun-qianhusuo-zhejiang", "name": "水军千户所", "formalName": "水军千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "yin-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Ningbo is used only as a broad naval-office area proxy." }
+  },
+  {
+    "id": "xinhe-qianhusuo-zhejiang", "name": "新河千户所", "formalName": "新河千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-linhai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Linhai is used as the Taizhou coastal proxy." }
+  },
+  {
+    "id": "taozhu-qianhusuo-zhejiang", "name": "桃渚千户所", "formalName": "桃渚千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-linhai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Linhai is used as the Taizhou coastal proxy." }
+  },
+  {
+    "id": "jiantiao-qianhusuo-zhejiang", "name": "律跳千户所", "formalName": "律跳千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-linhai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high", "note": "The Huidian transcription uses a rare place-name form; variant reading is retained for later collation." }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; name form retained pending collation of variant transcriptions." }
+  },
+  {
+    "id": "aiwan-qianhusuo-zhejiang", "name": "隘顽千户所", "formalName": "隘顽千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-linhai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high", "note": "The Huidian transcription uses a rare place-name form; variant reading is retained for later collation." }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; name form retained pending collation of variant transcriptions." }
+  },
+  {
+    "id": "chumen-qianhusuo-zhejiang", "name": "楚门千户所", "formalName": "楚门千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-linhai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Linhai is used as the Taizhou coastal proxy." }
+  },
+  {
+    "id": "pingyang-qianhusuo-zhejiang", "name": "平阳千户所", "formalName": "平阳千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-pingyang-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Pingyang is used as the seat proxy." }
+  },
+  {
+    "id": "ruian-qianhusuo-zhejiang", "name": "瑞安千户所", "formalName": "瑞安千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-ruian-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Rui'an is used as the seat proxy." }
+  },
+  {
+    "id": "haian-qianhusuo-zhejiang", "name": "海安千户所", "formalName": "海安千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-ruian-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Rui'an is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "pumen-qianhusuo-zhejiang", "name": "蒲门千户所", "formalName": "蒲门千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-ruian-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Rui'an is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "zhuangshi-qianhusuo-zhejiang", "name": "壮士千户所", "formalName": "壮士千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-yueqing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Yueqing is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "shayuan-qianhusuo-zhejiang", "name": "沙园千户所", "formalName": "沙园千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-yueqing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Yueqing is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "puqi-qianhusuo-zhejiang", "name": "蒲岐千户所", "formalName": "蒲岐千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-yueqing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Yueqing is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "ningcun-qianhusuo-zhejiang", "name": "宁村千户所", "formalName": "宁村千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhejiang-yueqing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Yueqing is used as a broad coastal area proxy." }
+  }
+]

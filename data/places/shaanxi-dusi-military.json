@@ -1,0 +1,265 @@
+[
+  {
+    "id": "shaanxi-dusi-seat",
+    "longitude": 108.94222222222,
+    "latitude": 34.261111111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xi'an historical-city proxy for the Shaanxi Dusi seat; exact Ming military compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Shared Xi'an city proxy from the existing project place." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Military seat proxy is kept separate from the Xi'an administrative place." }
+  },
+  {
+    "id": "xian-right-huwei-shaanxi-seat",
+    "longitude": 108.94222222222,
+    "latitude": 34.261111111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Xi'an historical-city proxy; exact Huwei compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Xi'an city proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared city proxy; no false precision for the guard compound." }
+  },
+  {
+    "id": "xian-left-wei-shaanxi-seat",
+    "longitude": 108.94222222222,
+    "latitude": 34.261111111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Xi'an historical-city proxy; exact guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Xi'an city proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared city proxy; no false precision for the guard compound." }
+  },
+  {
+    "id": "xian-front-wei-shaanxi-seat",
+    "longitude": 108.94222222222,
+    "latitude": 34.261111111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Xi'an historical-city proxy; exact guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Xi'an city proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared city proxy; no false precision for the guard compound." }
+  },
+  {
+    "id": "xian-rear-wei-shaanxi-seat",
+    "longitude": 108.94222222222,
+    "latitude": 34.261111111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Xi'an historical-city proxy; exact guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Xi'an city proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared city proxy; no false precision for the guard compound." }
+  },
+  {
+    "id": "yanan-wei-shaanxi-seat",
+    "longitude": 109.4882,
+    "latitude": 36.59123,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yan'an historical-city proxy for the Yan'an Guard; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Fushi/Yan'an proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Yan'an historical-city proxy." }
+  },
+  {
+    "id": "hanzhong-wei-shaanxi-seat",
+    "longitude": 106.93905,
+    "latitude": 33.005,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Nanzheng historical-seat proxy for the Hanzhong Guard; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Nanzheng/Hanzhong proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Hanzhong administrative-seat proxy." }
+  },
+  {
+    "id": "pingliang-wei-shaanxi-seat",
+    "longitude": 106.68192,
+    "latitude": 35.54123,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Pingliang historical-city proxy for the Pingliang Guard; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Pingliang proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Pingliang historical-city proxy." }
+  },
+  {
+    "id": "suide-wei-shaanxi-seat",
+    "longitude": 110.26,
+    "latitude": 37.5,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Suide historical-state proxy for the Suide Guard; exact Ming compound unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low", "note": "Existing Suide proxy; exact historical guard compound remains unresolved." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Approximate Suide proxy retained pending a more precise guard-city reconstruction." }
+  },
+  {
+    "id": "qingyang-wei-shaanxi-seat",
+    "longitude": 107.88481,
+    "latitude": 36.00248,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Qingyang historical-seat proxy for the Qingyang Guard; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Anhua/Qingyang proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Qingyang historical-seat proxy." }
+  },
+  {
+    "id": "gongchang-wei-shaanxi-seat",
+    "longitude": 104.63602,
+    "latitude": 35.00602,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Longxi historical-seat proxy for the Gongchang Guard; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Longxi proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Gongchang/Longxi historical-seat proxy." }
+  },
+  {
+    "id": "lintao-wei-shaanxi-seat",
+    "longitude": 103.86126,
+    "latitude": 35.37731,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Didao historical-seat proxy for the Lintao Guard; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Didao/Lintao proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Lintao/Didao historical-seat proxy." }
+  },
+  {
+    "id": "lanzhou-wei-shaanxi-seat",
+    "longitude": 103.83,
+    "latitude": 36.06,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Lanzhou historical-seat proxy for the Lanzhou Guard; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low", "note": "Existing Lanzhou proxy; exact historical guard compound remains unresolved." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Lanzhou historical-seat proxy." }
+  },
+  {
+    "id": "qinzhou-wei-shaanxi-seat",
+    "longitude": 105.72,
+    "latitude": 34.58,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Qinzhou historical-seat proxy for the Qinzhou Guard; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low", "note": "Existing Qinzhou proxy; exact historical guard compound remains unresolved." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Qinzhou historical-seat proxy." }
+  },
+  {
+    "id": "minzhou-wei-shaanxi-seat",
+    "longitude": 104.0338574,
+    "latitude": 34.4379793,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Min County proxy for the Minzhou Guard; exact Ming guard city and compound unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Public modern Min County coordinate proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern county proxy; retain as an area point until the guard-city location is reconstructed." }
+  },
+  {
+    "id": "hezhou-wei-shaanxi-seat",
+    "longitude": 103.21,
+    "latitude": 35.6,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Hezhou historical-seat proxy for the Hezhou Guard; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low", "note": "Existing Hezhou proxy; exact historical guard compound remains unresolved." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Hezhou historical-seat proxy." }
+  },
+  {
+    "id": "taozhou-wei-shaanxi-seat",
+    "longitude": 103.3513288,
+    "latitude": 34.6938177,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Lintan proxy for the Taotzhou Guard and its preserved Ming guard-city area; exact compound unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Modern Lintan coordinate proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence Lintan proxy; historical Taotzhou guard-city source supports the area but not the exact compound." }
+  },
+  {
+    "id": "ningqiang-wei-shaanxi-seat",
+    "longitude": 106.25,
+    "latitude": 32.83,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Ningqiang historical-state proxy for the Ningqiang Guard; exact Ming compound unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low", "note": "Existing Ningqiang proxy; exact guard compound remains unresolved." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern historical-state proxy for a later-added guard." }
+  },
+  {
+    "id": "guyuan-wei-shaanxi-seat",
+    "longitude": 106.24,
+    "latitude": 36.0,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guyuan historical-state proxy for the Guyuan Guard; exact Ming compound unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low", "note": "Existing Guyuan proxy; exact guard compound remains unresolved." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern historical-state proxy for a later-added guard." }
+  },
+  {
+    "id": "xingan-qianhusuo-shaanxi-seat",
+    "longitude": 109.02352,
+    "latitude": 32.68774,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xing'an historical-city proxy for the Xing'an Qianhu-Suo; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Xing'an proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Xing'an historical-city proxy after the Wanli renaming from Jinzhou." }
+  },
+  {
+    "id": "fengxiang-qianhusuo-shaanxi-seat",
+    "longitude": 107.39494,
+    "latitude": 34.52178,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Fengxiang historical-seat proxy for the Fengxiang Qianhu-Suo; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Fengxiang proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Fengxiang historical-seat proxy." }
+  },
+  {
+    "id": "lidian-front-qianhusuo-shaanxi-seat",
+    "longitude": 105.18,
+    "latitude": 34.19,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Lixian proxy for the Lidian Qianhu-Suo; exact Ming compound unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low", "note": "Existing Lixian/Li proxy; exact old Lidian seat remains unresolved." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern Lixian proxy; the old military seat and later county seat are not treated as identical compounds." }
+  },
+  {
+    "id": "mianxian-qianhusuo-shaanxi-seat",
+    "longitude": 106.67448,
+    "latitude": 33.1567,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Mianxian historical-county-seat proxy for the Mianxian Qianhu-Suo; exact Ming compound unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing Mianxian proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Mianxian historical-county-seat proxy." }
+  },
+  {
+    "id": "huanxian-qianhusuo-shaanxi-seat",
+    "longitude": 107.308,
+    "latitude": 36.57,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Huanxian historical-county-seat proxy for the Huanxian Qianhu-Suo; exact Ming compound unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low", "note": "Existing Huan proxy; exact old military compound remains unresolved." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern Huanxian proxy." }
+  },
+  {
+    "id": "wenxian-qianhusuo-shaanxi-seat",
+    "longitude": 104.68,
+    "latitude": 32.94,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Wenxian historical-county-seat proxy for the Wenxian Qianhu-Suo; exact Ming compound unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low", "note": "Existing Wen proxy; exact old military compound remains unresolved." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern Wenxian proxy." }
+  },
+  {
+    "id": "jiezou-qianhusuo-shaanxi-seat",
+    "longitude": 104.9246262,
+    "latitude": 33.3917138,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Wudu proxy for the Jiezhou Qianhu-Suo; exact Ming compound unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-huidian-military-227", "claim": "location", "confidence": "high" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Public modern Wudu coordinate proxy." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence Wudu proxy; Ming Jiezhou moved to Wudu, but the exact qianhu-suo compound remains unresolved." }
+  }
+]

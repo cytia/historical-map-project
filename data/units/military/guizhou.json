@@ -1,7 +1,7 @@
 [
   {
     "id": "guizhou-dusi",
-    "name": "贵州都指挥使司",
+    "name": "贵州都司",
     "formalName": "贵州都指挥使司",
     "level": "military",
     "militaryKind": "dusi",
@@ -27,7 +27,8 @@
   },
   {
     "id": "longliwei-guizhou-military",
-    "name": "龙里卫军民指挥使司",
+    "name": "龙里卫",
+    "formalName": "龙里卫军民指挥使司",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -57,7 +58,8 @@
   },
   {
     "id": "xintianwei-guizhou-military",
-    "name": "新添卫军民指挥使司",
+    "name": "新添卫",
+    "formalName": "新添卫军民指挥使司",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -357,7 +359,8 @@
   },
   {
     "id": "pushi-guizhou-military",
-    "name": "普市守御千户所",
+    "name": "普市千户所",
+    "formalName": "普市守御千户所",
     "level": "military",
     "militaryKind": "qianhu-suo",
     "polityId": "ming",
@@ -413,7 +416,8 @@
   },
   {
     "id": "guizhou-wei-military",
-    "name": "\u8d35\u5dde\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u8d35\u5dde\u536b",
+    "formalName": "\u8d35\u5dde\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -443,7 +447,8 @@
   },
   {
     "id": "guizhou-qianwei-military",
-    "name": "\u8d35\u5dde\u524d\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u8d35\u5dde\u524d\u536b",
+    "formalName": "\u8d35\u5dde\u524d\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -473,7 +478,8 @@
   },
   {
     "id": "pingyuewei-guizhou-military",
-    "name": "\u5e73\u8d8a\u536b\u519b\u6c11\u6307\u6325\u4f7f\u53f8",
+    "name": "\u5e73\u8d8a\u536b",
+    "formalName": "\u5e73\u8d8a\u536b\u519b\u6c11\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -503,7 +509,8 @@
   },
   {
     "id": "qingpingwei-guizhou-military",
-    "name": "\u6e05\u5e73\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u6e05\u5e73\u536b",
+    "formalName": "\u6e05\u5e73\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -533,7 +540,8 @@
   },
   {
     "id": "xinglongwei-guizhou-military",
-    "name": "\u5174\u9686\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u5174\u9686\u536b",
+    "formalName": "\u5174\u9686\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -563,7 +571,8 @@
   },
   {
     "id": "duyunwei-guizhou-military",
-    "name": "\u90fd\u5300\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u90fd\u5300\u536b",
+    "formalName": "\u90fd\u5300\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -593,7 +602,8 @@
   },
   {
     "id": "pudingwei-guizhou-military",
-    "name": "\u666e\u5b9a\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u666e\u5b9a\u536b",
+    "formalName": "\u666e\u5b9a\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -623,7 +633,8 @@
   },
   {
     "id": "anzhuangwei-guizhou-military",
-    "name": "\u5b89\u5e84\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u5b89\u5e84\u536b",
+    "formalName": "\u5b89\u5e84\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -653,7 +664,8 @@
   },
   {
     "id": "puanwei-guizhou-military",
-    "name": "\u666e\u5b89\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u666e\u5b89\u536b",
+    "formalName": "\u666e\u5b89\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -683,7 +695,8 @@
   },
   {
     "id": "wusawei-guizhou-military",
-    "name": "\u4e4c\u6492\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u4e4c\u6492\u536b",
+    "formalName": "\u4e4c\u6492\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -713,7 +726,8 @@
   },
   {
     "id": "yongningwei-guizhou-military",
-    "name": "\u6c38\u5b81\u536b\u6307\u6325\u4f7f\u53f8",
+    "name": "\u6c38\u5b81\u536b",
+    "formalName": "\u6c38\u5b81\u536b\u6307\u6325\u4f7f\u53f8",
     "level": "military",
     "militaryKind": "wei",
     "polityId": "ming",
@@ -743,7 +757,8 @@
   },
   {
     "id": "huangping-guizhou-military",
-    "name": "\u9ec4\u5e73\u5b88\u5fa1\u5343\u6237\u6240",
+    "name": "\u9ec4\u5e73\u5343\u6237\u6240",
+    "formalName": "\u9ec4\u5e73\u5b88\u5fa1\u5343\u6237\u6240",
     "level": "military",
     "militaryKind": "qianhu-suo",
     "polityId": "ming",
@@ -773,7 +788,8 @@
   },
   {
     "id": "guansuoling-anzhuang-military",
-    "name": "\u5173\u7d22\u5cad\u5b88\u5fa1\u5343\u6237\u6240",
+    "name": "\u5173\u7d22\u5cad\u5343\u6237\u6240",
+    "formalName": "\u5173\u7d22\u5cad\u5b88\u5fa1\u5343\u6237\u6240",
     "level": "military",
     "militaryKind": "qianhu-suo",
     "polityId": "ming",

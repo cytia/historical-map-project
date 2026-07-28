@@ -1,0 +1,1406 @@
+[
+  {
+    "id": "jizhou-wei-beizhili",
+    "name": "蓟州卫",
+    "formalName": "蓟州卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "jizhou-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "zunhua-wei-beizhili",
+    "name": "遵化卫",
+    "formalName": "遵化卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zunhua-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "miyun-middle-wei-beizhili",
+    "name": "密云中卫",
+    "formalName": "密云中卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "miyun-middle-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "miyun-rear-wei-beizhili",
+    "name": "密云后卫",
+    "formalName": "密云后卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "miyun-rear-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "zhenshuo-wei-beizhili",
+    "name": "镇朔卫",
+    "formalName": "镇朔卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zhenshuo-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "dongsheng-right-wei-beizhili",
+    "name": "东胜右卫",
+    "formalName": "东胜右卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "dongsheng-right-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "xingzhou-left-tunwei-beizhili",
+    "name": "兴州左屯卫",
+    "formalName": "兴州左屯卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xingzhou-left-tunwei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "xingzhou-middle-tunwei-beizhili",
+    "name": "兴州中屯卫",
+    "formalName": "兴州中屯卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xingzhou-middle-tunwei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "xingzhou-front-tunwei-beizhili",
+    "name": "兴州前屯卫",
+    "formalName": "兴州前屯卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xingzhou-front-tunwei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "xingzhou-rear-tunwei-beizhili",
+    "name": "兴州后屯卫",
+    "formalName": "兴州后屯卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xingzhou-rear-tunwei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "zhongyi-middle-wei-beizhili",
+    "name": "忠义中卫",
+    "formalName": "忠义中卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zhongyi-middle-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "tongzhou-left-wei-beizhili",
+    "name": "通州左卫",
+    "formalName": "通州左卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "tongzhou-left-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "tongzhou-right-wei-beizhili",
+    "name": "通州右卫",
+    "formalName": "通州右卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "tongzhou-right-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "shenwu-middle-wei-beizhili",
+    "name": "神武中卫",
+    "formalName": "神武中卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shenwu-middle-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "dingbian-wei-beizhili",
+    "name": "定边卫",
+    "formalName": "定边卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "dingbian-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "wuqing-wei-beizhili",
+    "name": "武清卫",
+    "formalName": "武清卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "wuqing-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "zhuolu-wei-beizhili",
+    "name": "涿鹿卫",
+    "formalName": "涿鹿卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zhuolu-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "zhuolu-left-wei-beizhili",
+    "name": "涿鹿左卫",
+    "formalName": "涿鹿左卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zhuolu-left-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "zhuolu-middle-wei-beizhili",
+    "name": "涿鹿中卫",
+    "formalName": "涿鹿中卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zhuolu-middle-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "yongping-wei-beizhili",
+    "name": "永平卫",
+    "formalName": "永平卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yongping-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "shanhai-wei-beizhili",
+    "name": "山海卫",
+    "formalName": "山海卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shanhai-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "lulong-wei-beizhili",
+    "name": "卢龙卫",
+    "formalName": "卢龙卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "lulong-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "kaiping-middle-tunwei-beizhili",
+    "name": "开平中屯卫",
+    "formalName": "开平中屯卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "kaiping-middle-tunwei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "xingzhou-right-tunwei-beizhili",
+    "name": "兴州右屯卫",
+    "formalName": "兴州右屯卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xingzhou-right-tunwei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "dongsheng-left-wei-beizhili",
+    "name": "东胜左卫",
+    "formalName": "东胜左卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "dongsheng-left-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "funing-wei-beizhili",
+    "name": "抚宁卫",
+    "formalName": "抚宁卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "funing-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "yanqing-wei-beizhili",
+    "name": "延庆卫",
+    "formalName": "延庆卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yanqing-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "hejian-wei-beizhili",
+    "name": "河间卫",
+    "formalName": "河间卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "hejian-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "datong-middle-tunwei-beizhili",
+    "name": "大同中屯卫",
+    "formalName": "大同中屯卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "datong-middle-tunwei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "shenyang-middle-tunwei-beizhili",
+    "name": "沈阳中屯卫",
+    "formalName": "沈阳中屯卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shenyang-middle-tunwei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "tianjin-wei-beizhili",
+    "name": "天津卫",
+    "formalName": "天津卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "tianjin-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "tianjin-left-wei-beizhili",
+    "name": "天津左卫",
+    "formalName": "天津左卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "tianjin-left-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "tianjin-right-wei-beizhili",
+    "name": "天津右卫",
+    "formalName": "天津右卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "tianjin-right-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "zhending-wei-beizhili",
+    "name": "真定卫",
+    "formalName": "真定卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zhending-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "shenwu-right-wei-beizhili",
+    "name": "神武右卫",
+    "formalName": "神武右卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shenwu-right-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "dingzhou-wei-beizhili",
+    "name": "定州卫",
+    "formalName": "定州卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "dingzhou-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "tongguan-wei-beizhili",
+    "name": "潼关卫",
+    "formalName": "潼关卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "tongguan-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the Wanli direct-Zhili roster, but military affiliation is corrected to the Central Army Commandery; Northern Zhili jurisdiction is recorded separately."
+    }
+  },
+  {
+    "id": "ningshan-wei-beizhili",
+    "name": "宁山卫",
+    "formalName": "宁山卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "ningshan-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "dezhou-wei-beizhili",
+    "name": "德州卫",
+    "formalName": "德州卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "dezhou-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "dezhou-left-wei-beizhili",
+    "name": "德州左卫",
+    "formalName": "德州左卫",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "dezhou-left-wei-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "liangcheng-qianhusuo-beizhili",
+    "name": "梁城千户所",
+    "formalName": "梁城千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "liangcheng-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "chaohe-qianhusuo-beizhili",
+    "name": "潮河千户所",
+    "formalName": "潮河千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "chaohe-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "baiyangkou-qianhusuo-beizhili",
+    "name": "白羊口千户所",
+    "formalName": "白羊口千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "baiyangkou-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "bohai-qianhusuo-beizhili",
+    "name": "渤海千户所",
+    "formalName": "渤海千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "bohai-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "kuanghe-qianhusuo-beizhili",
+    "name": "宽河千户所",
+    "formalName": "宽河千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "kuanghe-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "zhenbiancheng-qianhusuo-beizhili",
+    "name": "镇边城千户所",
+    "formalName": "镇边城千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "zhenbiancheng-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "cangzhou-qianhusuo-beizhili",
+    "name": "沧州千户所",
+    "formalName": "沧州千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "cangzhou-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "daomaguan-qianhusuo-beizhili",
+    "name": "倒马关千户所",
+    "formalName": "倒马关千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "daomaguan-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "shunde-qianhusuo-beizhili",
+    "name": "顺德千户所",
+    "formalName": "顺德千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "shunde-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "wuding-qianhusuo-beizhili",
+    "name": "武定千户所",
+    "formalName": "武定千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "wuding-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "pingding-qianhusuo-beizhili",
+    "name": "平定千户所",
+    "formalName": "平定千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "pingding-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli current direct Zhili external guard roster under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "puzhou-qianhusuo-beizhili",
+    "name": "蒲州千户所",
+    "formalName": "蒲州千户所",
+    "level": "military",
+    "domain": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "puzhou-qianhusuo-beizhili-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the Wanli direct-Zhili roster, but military affiliation is corrected through Tongguan Guard to the Central Army Commandery; Northern Zhili jurisdiction is recorded separately."
+    }
+  }
+]

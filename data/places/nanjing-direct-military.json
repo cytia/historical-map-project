@@ -1,0 +1,3 @@
+[
+  {"id":"nanjing-garrison-area","longitude":118.778888888889,"latitude":32.0608333333333,"locationAccuracy":"area_only","locationMethod":"Shared city-level proxy based on the historical Nanjing seat; the individual compounds of the Nanjing in-capital guards are unresolved.","confidence":"low","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"},{"sourceId":"ming-shi-geography-one","claim":"location","confidence":"medium"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"A reversible area-level point for Nanjing in-capital guard data; it must not be read as the seat of any single guard."}}
+]

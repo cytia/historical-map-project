@@ -181,6 +181,28 @@
     "citation": "Wikidata entities and P625 coordinates retrieved through the official Action API and Query Service; individual entity IDs are recorded with each place claim."
   },
   {
+    "id": "modern-lizhou-coordinate-directory",
+    "title": "现代地名坐标目录（礼州镇）",
+    "creator": "在线经纬度查询目录",
+    "url": "https://jingweidu.122cha.com/601319.html",
+    "accessedOn": "2026-07-27",
+    "kind": "reference",
+    "license": "Online coordinate directory; terms apply; used only as an approximate modern locality reference.",
+    "redistribution": "unknown",
+    "citation": "在线经纬度查询目录，四川凉山西昌礼州镇坐标记录。"
+  },
+  {
+    "id": "amap-modern-place-directory",
+    "title": "高德地图现代地点目录（兴文县建武村）",
+    "creator": "高德地图",
+    "url": "https://www.amap.com/place/B0IGDHACVU",
+    "accessedOn": "2026-07-27",
+    "kind": "reference",
+    "license": "Online map directory; terms apply; used only as a low-confidence modern locality reference.",
+    "redistribution": "unknown",
+    "citation": "高德地图，兴文县建武村长征国家文化公园地点记录。"
+  },
+  {
     "id": "ri-xia-old-hearings-geography",
     "title": "钦定日下旧闻考·卷一百二十一",
     "creator": "于敏中等",
@@ -297,5 +319,86 @@
     "license": "Public-domain historical text; ctext wiki transcription unproofread, rights not asserted for redistribution",
     "redistribution": "unknown",
     "citation": "《大明会典》卷一百二十四，都司卫所名录。"
+  },
+  {
+    "id": "shanxi-tongzhi-military",
+    "title": "《山西通志》·卷二十五·武备下",
+    "creator": "李维祯等纂修",
+    "locator": "卷二十五·武备下",
+    "url": "https://www.shidianguji.com/book/NA02528/chapter/1m5sqpicict2e",
+    "accessedOn": "2026-07-27",
+    "kind": "primary",
+    "license": "Public-domain historical text; website transcription rights not asserted for redistribution",
+    "redistribution": "unknown",
+    "citation": "《山西通志》卷二十五，武备下。"
+  },
+  {
+    "id": "yinchuan-history-military",
+    "title": "银川简史",
+    "creator": "银川市档案馆（网站发布）",
+    "locator": "明代宁夏镇卫所沿革",
+    "url": "https://dag.yinchuan.gov.cn/dayw/daby/202001/P020200110532501394338.pdf",
+    "accessedOn": "2026-07-27",
+    "kind": "reference",
+    "license": "Official web PDF; redistribution status not stated",
+    "redistribution": "unknown",
+    "citation": "《银川简史》，银川市档案馆网站发布。"
+  },
+  {
+    "id": "modern-haitang-coordinate-directory",
+    "title": "现代地名坐标目录（甘洛县海棠镇）",
+    "creator": "在线经纬度查询目录",
+    "url": "https://jw.122cha.com/604844.html",
+    "accessedOn": "2026-07-27",
+    "kind": "reference",
+    "license": "Online coordinate directory; terms apply; used only as an approximate modern locality reference.",
+    "redistribution": "unknown",
+    "citation": "在线经纬度查询目录，四川凉山甘洛县海棠镇坐标记录。"
+  },
+  {
+    "id": "modern-puwei-coordinate-directory",
+    "title": "高德地图现代地点目录（米易县普威镇）",
+    "creator": "高德地图",
+    "url": "https://ditu.amap.com/place/B032C0M8V2",
+    "accessedOn": "2026-07-27",
+    "kind": "reference",
+    "license": "Online map directory; terms apply; used only as an approximate modern locality reference.",
+    "redistribution": "unknown",
+    "citation": "高德地图，攀枝花市米易县普威镇地点记录。"
+  },
+  {
+    "id": "modern-huimin-coordinate-directory",
+    "title": "现代地名坐标目录（盐边县惠民镇）",
+    "creator": "在线经纬度查询目录",
+    "url": "https://www.abcdtools.com/city-to-latlong/20747150",
+    "accessedOn": "2026-07-27",
+    "kind": "reference",
+    "license": "Online coordinate directory; terms apply; used only as an approximate modern locality reference.",
+    "redistribution": "unknown",
+    "citation": "在线经纬度查询目录，四川攀枝花盐边县惠民乡坐标记录。"
+  },
+  {
+    "id": "tongguan-beizhili-study",
+    "title": "明代潼关卫与北直隶关系考论",
+    "creator": "张金奎",
+    "locator": "《故宫博物院院刊》2016年第6期（总第188期）",
+    "url": "https://www.dpm.org.cn/Uploads/File/2018/06/04/u5b14e428ad46f.pdf",
+    "accessedOn": "2026-07-28",
+    "kind": "reference",
+    "license": "Official journal PDF; redistribution status not stated",
+    "redistribution": "unknown",
+    "citation": "张金奎：《明代潼关卫与北直隶关系考论》，《故宫博物院院刊》2016年第6期。"
+  },
+  {
+    "id": "national-museum-tongguan-puzhou-document",
+    "title": "永乐十年五月十九日直隶潼关卫蒲州守御千户史义等启",
+    "creator": "中国国家博物馆",
+    "locator": "馆藏精品·古籍文献碑帖",
+    "url": "https://www.chnmuseum.cn/zp/zpml/gjwxbt/202008/t20200824_247141.shtml",
+    "accessedOn": "2026-07-28",
+    "kind": "reference",
+    "license": "Official museum web page; redistribution status not stated",
+    "redistribution": "unknown",
+    "citation": "中国国家博物馆：《永乐十年五月十九日直隶潼关卫蒲州守御千户史义等启》。"
   }
 ]

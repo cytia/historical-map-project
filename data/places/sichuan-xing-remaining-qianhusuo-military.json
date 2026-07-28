@@ -1,0 +1,54 @@
+[
+  {
+    "id": "mianshanqiao-hou-qianhusuo-sichuan-xing-seat",
+    "longitude": 102.30994,
+    "latitude": 28.35845,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Mianshan Town proxy for the Mianshanqiao Rear Qianhusuo; the exact Ming compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Mianshan Town proxy, Wikidata Q10894983." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "The historical seat is identified with modern Mianshan Town; the compound-level location is unresolved." }
+  },
+  {
+    "id": "zhenxi-hou-qianhusuo-sichuan-xing-seat",
+    "longitude": 102.55584,
+    "latitude": 29.03502,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Haitang Town proxy for the Zhenxi Rear Qianhusuo; the exact Ming compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" },
+      { "sourceId": "modern-haitang-coordinate-directory", "claim": "location", "confidence": "medium", "note": "Modern Haitang Town coordinate proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Modern Haitang Town is the documented locality correspondence; the historical compound remains unresolved." }
+  },
+  {
+    "id": "dachonghe-zhongzuo-qianhusuo-sichuan-xing-seat",
+    "longitude": 101.960833,
+    "latitude": 27.718056,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jinhe Town proxy for the Dachonghe Zhongzuo Qianhusuo; the historical record identifies northern Jinhe but not the exact compound.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "medium", "note": "Historical sources place the seat at northern Jinhe in modern Yanyuan County." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Modern Jinhe Town proxy, Wikidata Q14081117." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence proxy pending a more exact reconstruction of the historical Dachonghe Zhongzuo seat." }
+  },
+  {
+    "id": "miyi-qianhusuo-sichuan-xing-seat",
+    "longitude": 102.10886,
+    "latitude": 26.89092,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Miyi county-seat proxy for the Miyi Qianhusuo; the exact Ming compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Miyi County proxy, Wikidata Q677700." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "The historical 迷易 locality is retained while the point uses the modern Miyi county-seat proxy." }
+  }
+]

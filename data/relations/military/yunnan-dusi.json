@@ -1,0 +1,2899 @@
+[
+  {
+    "id": "yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Yunnan Dusi is listed under the Right Army Commandery."
+    }
+  },
+  {
+    "id": "yunnan-left-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yunnan-left-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "yunnan-right-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yunnan-right-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "yunnan-middle-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yunnan-middle-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "yunnan-front-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yunnan-front-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "yunnan-rear-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yunnan-rear-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "guangnan-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangnan-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "linan-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "linan-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "qujing-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qujing-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "pingyi-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pingyi-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "yuezhou-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yuezhou-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "liuliang-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "liuliang-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "dali-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dali-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "erhai-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "erhai-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "daluo-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "daluo-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "chuxiong-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "chuxiong-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "jingdong-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "jingdong-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "menghua-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "menghua-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "lancang-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "lancang-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "yongchang-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongchang-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "tengchong-wei-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tengchong-wei-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Yunnan Dusi guard roster."
+    }
+  },
+  {
+    "id": "anning-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "anning-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "yiliang-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yiliang-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "yimen-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yimen-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "yanglinbao-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yanglinbao-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "shibazhai-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "shibazhai-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "tonghai-front-front-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tonghai-front-front-qianhusuo-yunnan-dusi",
+    "objectId": "linan-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "tonghai-right-right-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tonghai-right-right-qianhusuo-yunnan-dusi",
+    "objectId": "linan-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "dingyuan-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dingyuan-qianhusuo-yunnan-dusi",
+    "objectId": "chuxiong-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "malong-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "malong-qianhusuo-yunnan-dusi",
+    "objectId": "qujing-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "yaoan-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yaoan-qianhusuo-yunnan-dusi",
+    "objectId": "chuxiong-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "yaoan-middle-tun-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yaoan-middle-tun-qianhusuo-yunnan-dusi",
+    "objectId": "chuxiong-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "wuding-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wuding-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "mumiguan-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "mumiguan-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "zhenan-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "zhenan-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "zhenyao-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "zhenyao-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "yongping-front-front-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongping-front-front-qianhusuo-yunnan-dusi",
+    "objectId": "yongchang-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "yongping-rear-rear-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongping-rear-rear-qianhusuo-yunnan-dusi",
+    "objectId": "yongchang-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "tengchong-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "tengchong-qianhusuo-yunnan-dusi",
+    "objectId": "tengchong-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "xinan-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinan-qianhusuo-yunnan-dusi",
+    "objectId": "linan-wei-yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Recorded under the immediate guard parent in the current Yunnan military hierarchy.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "fengwu-qianhusuo-yunnan-dusi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fengwu-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded in the current Yunnan Dusi qianhu-office hierarchy."
+    }
+  },
+  {
+    "id": "yunnan-left-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yunnan-left-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-right-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yunnan-right-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-middle-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yunnan-middle-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-front-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yunnan-front-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-rear-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yunnan-rear-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "guangnan-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangnan-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "linan-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "linan-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "qujing-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "qujing-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "pingyi-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "pingyi-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yuezhou-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yuezhou-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "liuliang-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "liuliang-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "dali-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dali-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "erhai-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "erhai-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "daluo-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "daluo-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "chuxiong-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "chuxiong-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "jingdong-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "jingdong-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "menghua-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "menghua-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "lancang-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "lancang-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yongchang-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yongchang-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "tengchong-wei-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tengchong-wei-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "anning-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "anning-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yiliang-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yiliang-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yimen-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yimen-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yanglinbao-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yanglinbao-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "shibazhai-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shibazhai-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "tonghai-front-front-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tonghai-front-front-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "tonghai-right-right-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tonghai-right-right-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "dingyuan-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dingyuan-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "malong-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "malong-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yaoan-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yaoan-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yaoan-middle-tun-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yaoan-middle-tun-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "wuding-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wuding-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "mumiguan-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "mumiguan-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "zhenan-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhenan-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "zhenyao-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhenyao-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yongping-front-front-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yongping-front-front-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yongping-rear-rear-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yongping-rear-rear-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "tengchong-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tengchong-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "xinan-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xinan-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "fengwu-qianhusuo-yunnan-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "fengwu-qianhusuo-yunnan-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "note": "Inherited from the Yunnan Dusi's Right Army affiliation; this is not a separate command chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded inherited five-army affiliation separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-left-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yunnan-left-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-right-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yunnan-right-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-middle-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yunnan-middle-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-front-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yunnan-front-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yunnan-rear-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yunnan-rear-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "guangnan-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangnan-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "linan-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "linan-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "qujing-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qujing-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "pingyi-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pingyi-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yuezhou-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yuezhou-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "liuliang-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "liuliang-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "dali-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dali-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "erhai-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "erhai-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "daluo-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "daluo-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "chuxiong-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chuxiong-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "jingdong-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jingdong-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "menghua-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "menghua-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "lancang-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "lancang-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yongchang-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongchang-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "tengchong-wei-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tengchong-wei-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "anning-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "anning-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yiliang-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yiliang-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yimen-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yimen-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yanglinbao-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yanglinbao-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "shibazhai-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shibazhai-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "tonghai-front-front-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tonghai-front-front-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "tonghai-right-right-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tonghai-right-right-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "dingyuan-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dingyuan-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "malong-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "malong-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yaoan-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yaoan-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yaoan-middle-tun-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yaoan-middle-tun-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "wuding-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuding-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "mumiguan-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "mumiguan-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "zhenan-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhenan-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "zhenyao-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhenyao-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yongping-front-front-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongping-front-front-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yongping-rear-rear-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongping-rear-rear-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "tengchong-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tengchong-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "xinan-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinan-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "fengwu-qianhusuo-yunnan-dusi-yunnan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fengwu-qianhusuo-yunnan-dusi",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded Yunnan administrative context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  }
+]

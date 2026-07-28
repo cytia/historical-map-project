@@ -1,0 +1,132 @@
+[
+  {
+    "id": "name-danning-dusi-seat",
+    "placeId": "danning-dusi-seat",
+    "name": "大宁都司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-baoding-left-wei-danning-seat",
+    "placeId": "baoding-left-wei-danning-seat",
+    "name": "保定左卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-baoding-right-wei-danning-seat",
+    "placeId": "baoding-right-wei-danning-seat",
+    "name": "保定右卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-baoding-middle-wei-danning-seat",
+    "placeId": "baoding-middle-wei-danning-seat",
+    "name": "保定中卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-baoding-front-wei-danning-seat",
+    "placeId": "baoding-front-wei-danning-seat",
+    "name": "保定前卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-baoding-rear-wei-danning-seat",
+    "placeId": "baoding-rear-wei-danning-seat",
+    "name": "保定后卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-yingzhou-left-tunwei-danning-seat",
+    "placeId": "yingzhou-left-tunwei-danning-seat",
+    "name": "营州左屯卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-yingzhou-right-tunwei-danning-seat",
+    "placeId": "yingzhou-right-tunwei-danning-seat",
+    "name": "营州右屯卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-yingzhou-middle-tunwei-danning-seat",
+    "placeId": "yingzhou-middle-tunwei-danning-seat",
+    "name": "营州中屯卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-yingzhou-front-tunwei-danning-seat",
+    "placeId": "yingzhou-front-tunwei-danning-seat",
+    "name": "营州前屯卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-yingzhou-rear-tunwei-danning-seat",
+    "placeId": "yingzhou-rear-tunwei-danning-seat",
+    "name": "营州后屯卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-maoshan-wei-danning-seat",
+    "placeId": "maoshan-wei-danning-seat",
+    "name": "茂山卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-zijingguan-qianhusuo-danning-seat",
+    "placeId": "zijingguan-qianhusuo-danning-seat",
+    "name": "紫荆关千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  }
+]

@@ -1,0 +1,945 @@
+[
+  {
+    "id": "name-yunnan-dusi-seat",
+    "placeId": "yunnan-dusi-seat",
+    "name": "云南都司",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yunnan-left-wei-yunnan-dusi-seat",
+    "placeId": "yunnan-left-wei-yunnan-dusi-seat",
+    "name": "云南左卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yunnan-right-wei-yunnan-dusi-seat",
+    "placeId": "yunnan-right-wei-yunnan-dusi-seat",
+    "name": "云南右卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yunnan-middle-wei-yunnan-dusi-seat",
+    "placeId": "yunnan-middle-wei-yunnan-dusi-seat",
+    "name": "云南中卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yunnan-front-wei-yunnan-dusi-seat",
+    "placeId": "yunnan-front-wei-yunnan-dusi-seat",
+    "name": "云南前卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yunnan-rear-wei-yunnan-dusi-seat",
+    "placeId": "yunnan-rear-wei-yunnan-dusi-seat",
+    "name": "云南后卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-guangnan-wei-yunnan-dusi-seat",
+    "placeId": "guangnan-wei-yunnan-dusi-seat",
+    "name": "广南卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-linan-wei-yunnan-dusi-seat",
+    "placeId": "linan-wei-yunnan-dusi-seat",
+    "name": "临安卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-qujing-wei-yunnan-dusi-seat",
+    "placeId": "qujing-wei-yunnan-dusi-seat",
+    "name": "曲靖卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-pingyi-wei-yunnan-dusi-seat",
+    "placeId": "pingyi-wei-yunnan-dusi-seat",
+    "name": "平夷卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yuezhou-wei-yunnan-dusi-seat",
+    "placeId": "yuezhou-wei-yunnan-dusi-seat",
+    "name": "越州卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-liuliang-wei-yunnan-dusi-seat",
+    "placeId": "liuliang-wei-yunnan-dusi-seat",
+    "name": "六凉卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-dali-wei-yunnan-dusi-seat",
+    "placeId": "dali-wei-yunnan-dusi-seat",
+    "name": "大理卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-erhai-wei-yunnan-dusi-seat",
+    "placeId": "erhai-wei-yunnan-dusi-seat",
+    "name": "洱海卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-daluo-wei-yunnan-dusi-seat",
+    "placeId": "daluo-wei-yunnan-dusi-seat",
+    "name": "大罗卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-chuxiong-wei-yunnan-dusi-seat",
+    "placeId": "chuxiong-wei-yunnan-dusi-seat",
+    "name": "楚雄卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-jingdong-wei-yunnan-dusi-seat",
+    "placeId": "jingdong-wei-yunnan-dusi-seat",
+    "name": "景东卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-menghua-wei-yunnan-dusi-seat",
+    "placeId": "menghua-wei-yunnan-dusi-seat",
+    "name": "蒙化卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-lancang-wei-yunnan-dusi-seat",
+    "placeId": "lancang-wei-yunnan-dusi-seat",
+    "name": "澜沧卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yongchang-wei-yunnan-dusi-seat",
+    "placeId": "yongchang-wei-yunnan-dusi-seat",
+    "name": "永昌卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-tengchong-wei-yunnan-dusi-seat",
+    "placeId": "tengchong-wei-yunnan-dusi-seat",
+    "name": "腾冲卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-anning-qianhusuo-yunnan-dusi-seat",
+    "placeId": "anning-qianhusuo-yunnan-dusi-seat",
+    "name": "安宁千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yiliang-qianhusuo-yunnan-dusi-seat",
+    "placeId": "yiliang-qianhusuo-yunnan-dusi-seat",
+    "name": "宜良千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yimen-qianhusuo-yunnan-dusi-seat",
+    "placeId": "yimen-qianhusuo-yunnan-dusi-seat",
+    "name": "易门千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yanglinbao-qianhusuo-yunnan-dusi-seat",
+    "placeId": "yanglinbao-qianhusuo-yunnan-dusi-seat",
+    "name": "杨林堡千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-shibazhai-qianhusuo-yunnan-dusi-seat",
+    "placeId": "shibazhai-qianhusuo-yunnan-dusi-seat",
+    "name": "十八寨千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-tonghai-front-front-qianhusuo-yunnan-dusi-seat",
+    "placeId": "tonghai-front-front-qianhusuo-yunnan-dusi-seat",
+    "name": "通海前前千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-tonghai-right-right-qianhusuo-yunnan-dusi-seat",
+    "placeId": "tonghai-right-right-qianhusuo-yunnan-dusi-seat",
+    "name": "通海右右千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-dingyuan-qianhusuo-yunnan-dusi-seat",
+    "placeId": "dingyuan-qianhusuo-yunnan-dusi-seat",
+    "name": "定远千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-malong-qianhusuo-yunnan-dusi-seat",
+    "placeId": "malong-qianhusuo-yunnan-dusi-seat",
+    "name": "马隆千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yaoan-qianhusuo-yunnan-dusi-seat",
+    "placeId": "yaoan-qianhusuo-yunnan-dusi-seat",
+    "name": "姚安千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yaoan-middle-tun-qianhusuo-yunnan-dusi-seat",
+    "placeId": "yaoan-middle-tun-qianhusuo-yunnan-dusi-seat",
+    "name": "姚安中屯千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-wuding-qianhusuo-yunnan-dusi-seat",
+    "placeId": "wuding-qianhusuo-yunnan-dusi-seat",
+    "name": "武定千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-mumiguan-qianhusuo-yunnan-dusi-seat",
+    "placeId": "mumiguan-qianhusuo-yunnan-dusi-seat",
+    "name": "木密关千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-zhenan-qianhusuo-yunnan-dusi-seat",
+    "placeId": "zhenan-qianhusuo-yunnan-dusi-seat",
+    "name": "镇安千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-zhenyao-qianhusuo-yunnan-dusi-seat",
+    "placeId": "zhenyao-qianhusuo-yunnan-dusi-seat",
+    "name": "镇姚千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yongping-front-front-qianhusuo-yunnan-dusi-seat",
+    "placeId": "yongping-front-front-qianhusuo-yunnan-dusi-seat",
+    "name": "永平前前千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yongping-rear-rear-qianhusuo-yunnan-dusi-seat",
+    "placeId": "yongping-rear-rear-qianhusuo-yunnan-dusi-seat",
+    "name": "永平后后千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-tengchong-qianhusuo-yunnan-dusi-seat",
+    "placeId": "tengchong-qianhusuo-yunnan-dusi-seat",
+    "name": "腾冲千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-xinan-qianhusuo-yunnan-dusi-seat",
+    "placeId": "xinan-qianhusuo-yunnan-dusi-seat",
+    "name": "新安千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-fengwu-qianhusuo-yunnan-dusi-seat",
+    "placeId": "fengwu-qianhusuo-yunnan-dusi-seat",
+    "name": "凤梧千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Unified public military institution label."
+    }
+  }
+]

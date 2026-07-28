@@ -55,7 +55,7 @@ test("enables published military controls and search", async ({ page }) => {
 
   const search = page.getByRole("textbox", { name: "搜索历史地名" });
   await search.fill("龙里卫");
-  await expect(page.locator(".search-results")).toContainText("龙里卫军民指挥使司");
+  await expect(page.locator(".search-results")).toContainText("龙里卫");
 });
 
 test("shows four representative historical time points", async ({ page }) => {

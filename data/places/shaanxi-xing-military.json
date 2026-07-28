@@ -1,0 +1,223 @@
+[
+  {
+    "id": "shaanxi-xing-dusi-seat",
+    "longitude": 100.45527777778,
+    "latitude": 38.93555555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhangye historical-city proxy for the Ganzhou seat of the Shaanxi Xing Dusi; exact Ming military compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Zhangye proxy based on Wikidata Q197402." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the military seat as a reversible city-level proxy rather than implying a precise office compound." }
+  },
+  {
+    "id": "ganzhou-left-wei-shaanxi-xing-seat",
+    "longitude": 100.45527777778,
+    "latitude": 38.93555555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhangye historical-city proxy for the Ganzhou Left Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Zhangye proxy based on Wikidata Q197402." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Shared historical-city proxy for a guard seated in Ganzhou." }
+  },
+  {
+    "id": "ganzhou-right-wei-shaanxi-xing-seat",
+    "longitude": 100.45527777778,
+    "latitude": 38.93555555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhangye historical-city proxy for the Ganzhou Right Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Zhangye proxy based on Wikidata Q197402." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Shared historical-city proxy for a guard seated in Ganzhou." }
+  },
+  {
+    "id": "ganzhou-middle-wei-shaanxi-xing-seat",
+    "longitude": 100.45527777778,
+    "latitude": 38.93555555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhangye historical-city proxy for the Ganzhou Middle Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Zhangye proxy based on Wikidata Q197402." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Shared historical-city proxy for a guard seated in Ganzhou." }
+  },
+  {
+    "id": "ganzhou-front-wei-shaanxi-xing-seat",
+    "longitude": 100.45527777778,
+    "latitude": 38.93555555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhangye historical-city proxy for the Ganzhou Front Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Zhangye proxy based on Wikidata Q197402." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Shared historical-city proxy for a guard seated in Ganzhou." }
+  },
+  {
+    "id": "ganzhou-rear-wei-shaanxi-xing-seat",
+    "longitude": 100.45527777778,
+    "latitude": 38.93555555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhangye historical-city proxy for the Ganzhou Rear Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Zhangye proxy based on Wikidata Q197402." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Shared historical-city proxy for a guard seated in Ganzhou." }
+  },
+  {
+    "id": "suzhou-wei-shaanxi-xing-seat",
+    "longitude": 98.505,
+    "latitude": 39.73694444444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jiuquan historical-city proxy for the Suzhou Guard; exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Jiuquan proxy based on Wikidata Q533432." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the modern historical-city proxy while leaving the old guard compound unresolved." }
+  },
+  {
+    "id": "shandan-wei-shaanxi-xing-seat",
+    "longitude": 101.08972222222,
+    "latitude": 38.78194444444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Shandan county-seat proxy for the Shandan Guard; exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Shandan proxy based on Wikidata Q1339645." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the modern county-seat proxy without implying the historical wall or office position." }
+  },
+  {
+    "id": "yongchang-wei-shaanxi-xing-seat",
+    "longitude": 101.9714,
+    "latitude": 38.2472,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yongchang county-seat proxy for the Yongchang Guard; exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Yongchang proxy based on Wikidata Q1201102." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the modern county-seat proxy without implying the historical wall or office position." }
+  },
+  {
+    "id": "liangzhou-wei-shaanxi-xing-seat",
+    "longitude": 102.6349,
+    "latitude": 37.9278,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Wuwei historical-city proxy for the Liangzhou Guard; exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Wuwei proxy based on Wikidata Q249007." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the modern Liangzhou/Wuwei city proxy while leaving the old guard compound unresolved." }
+  },
+  {
+    "id": "zhenfan-wei-shaanxi-xing-seat",
+    "longitude": 103.09,
+    "latitude": 38.62416666667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Minqin county-seat proxy for the historical Zhenfan Guard; exact Ming guard compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Historical Zhenfan corresponds to modern Minqin; proxy based on Wikidata Q374171." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Historical-to-modern correspondence is broad; the point is intentionally low confidence." }
+  },
+  {
+    "id": "zhuanglang-wei-shaanxi-xing-seat",
+    "longitude": 103.25833333333,
+    "latitude": 36.73527777778,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yongdeng county-seat proxy for the historical Zhuanglang Guard; exact Ming guard compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Historical Zhuanglang corresponds to modern Yongdeng; proxy based on Wikidata Q1338336." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Corrected the modern proxy from Pingliang Zhuanglang to Yongdeng northwest of the Lanzhou Guard; exact Ming guard site remains unresolved." }
+  },
+  {
+    "id": "xining-wei-shaanxi-xing-seat",
+    "longitude": 101.77861111111,
+    "latitude": 36.62388888889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xining historical-city proxy for the Xining Guard; exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Xining proxy based on Wikidata Q69060." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the modern historical-city proxy without implying the historical wall or office position." }
+  },
+  {
+    "id": "nianbo-qianhusuo-shaanxi-xing-seat",
+    "longitude": 102.39916666667,
+    "latitude": 36.47944444444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Ledu/Nianbo county-seat proxy for the Nianbo Guard Company; exact Ming compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Historical Nianbo corresponds to modern Ledu; proxy based on Wikidata Q1202880." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the direct qianhu-suo coordinate low confidence because later administrative changes obscure the exact Ming site." }
+  },
+  {
+    "id": "zhenyi-qianhusuo-shaanxi-xing-seat",
+    "longitude": 99.815,
+    "latitude": 39.37305555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Gaotai county-seat area proxy for the historical Zhenyi Guard Company; exact Ming site remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Broad Gaotai-area proxy based on Wikidata Q10929551." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "The historical text fixes a broad position, not an identifiable modern compound; coordinate is low confidence." }
+  },
+  {
+    "id": "gulang-qianhusuo-shaanxi-xing-seat",
+    "longitude": 102.89277777778,
+    "latitude": 37.46305555556,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Gulang county-seat proxy for the Gulang Guard Company; exact Ming compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Gulang proxy based on Wikidata Q1201411." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the modern county-seat proxy without implying the historical wall or office position." }
+  },
+  {
+    "id": "gaotai-qianhusuo-shaanxi-xing-seat",
+    "longitude": 99.49322,
+    "latitude": 39.34418,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Xusanwan archaeological-site proxy in modern Gaotai for the historical Gaotai Guard Company; exact Wanli seat remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-three", "claim": "location", "confidence": "low" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Historical high台 guard-site proxy based on Xusanwan, Wikidata Q2598524." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "The Xusanwan association is a reversible archaeological proxy, not a claim of exact Wanli military-site identification." }
+  }
+]

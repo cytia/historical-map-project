@@ -1,0 +1,80 @@
+[
+  {
+    "id": "sichuan-xing-dusi",
+    "name": "四川行都司",
+    "formalName": "四川行都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "sichuan-xing-dusi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" }, { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current Sichuan Xing Dusi seat at Jianchang; the historical office compound remains unresolved." }
+  },
+  {
+    "id": "jianchang-wei-sichuan-xing",
+    "name": "建昌卫",
+    "formalName": "建昌卫军民指挥使司",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "jianchang-wei-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Formerly under Sichuan Dusi; current 1600 seat is represented by the modern Xichang historical-city proxy." }
+  },
+  {
+    "id": "ningfan-wei-sichuan-xing",
+    "name": "宁番卫",
+    "formalName": "宁番卫军民指挥使司",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "ningfan-wei-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Formerly Suzhou Guard; current 1600 seat is represented by the modern Mianning proxy." }
+  },
+  {
+    "id": "yuexi-wei-sichuan-xing",
+    "name": "越巂卫",
+    "formalName": "越巂卫军民指挥使司",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yuexi-wei-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 seat is represented by the modern Yuexi historical-county-seat proxy." }
+  },
+  {
+    "id": "yanjing-wei-sichuan-xing",
+    "name": "盐井卫",
+    "formalName": "盐井卫军民指挥使司",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yanjing-wei-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 seat is represented by the historical Weicheng locality east of modern Yanyuan county seat." }
+  },
+  {
+    "id": "huichuan-wei-sichuan-xing",
+    "name": "会川卫",
+    "formalName": "会川卫军民指挥使司",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "huichuan-wei-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 seat is represented by the modern Huili historical-city proxy." }
+  }
+]

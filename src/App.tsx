@@ -54,7 +54,7 @@ export default function App() {
       parent.name.includes(query) || region.name.includes(query),
     ).map((record) => ({ kind: "county" as const, record }));
     const militaryResults = publishedMilitaryRecords.filter(({ unit, name }) =>
-      unit.name.includes(query) || name.includes(query),
+      unit.name.includes(query) || unit.formalName?.includes(query) || name.includes(query),
     ).map((record) => ({ kind: "military" as const, record }));
     return [...seatResults, ...countyResults, ...militaryResults].slice(0, 6);
   }, [searchQuery]);

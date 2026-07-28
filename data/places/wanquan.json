@@ -1,0 +1,738 @@
+[
+  {
+    "id": "wanquan-dusi-seat",
+    "longitude": 115.09951,
+    "latitude": 40.60944,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Approximate Xuanfu walled-city proxy for the Wanquan Dusi seat; exact military compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History places the Dusi at the Xuanfu seat."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Xuanhua District proxy; Wikidata Q1363262 coordinates."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "wanquan-left-wei-wanquan-seat",
+    "longitude": 114.70251,
+    "latitude": 40.673025,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Left Guard Town proxy; exact Ming guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History places the guard east of the Dusi."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Left Guard Town proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "wanquan-right-wei-wanquan-seat",
+    "longitude": 114.740584,
+    "latitude": 40.767377,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Wanquan Town proxy; exact Ming guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History places the guard east of the Dusi."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Wanquan Town proxy; the walled-city compound remains unresolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "xuanfu-front-wei-wanquan-seat",
+    "longitude": 115.09951,
+    "latitude": 40.60944,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Xuanhua proxy; exact Ming guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History states that the Front Guard was stationed at Xuanfu city."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Xuanhua District proxy; Wikidata Q1363262 coordinates."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "xuanfu-left-wei-wanquan-seat",
+    "longitude": 115.09951,
+    "latitude": 40.60944,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Xuanhua proxy; exact Ming guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History records its Xuanfu city seat."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Xuanhua District proxy; Wikidata Q1363262 coordinates."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "xuanfu-right-wei-wanquan-seat",
+    "longitude": 115.09951,
+    "latitude": 40.60944,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Xuanhua proxy; exact Ming guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History records its Xuanfu city seat."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Xuanhua District proxy; Wikidata Q1363262 coordinates."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "huaian-wei-wanquan-seat",
+    "longitude": 114.472601,
+    "latitude": 40.464649,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Huai'an City Town proxy; exact Ming guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History places the guard 120 li east of the Dusi."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Huai'an City Town proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "kaiping-wei-wanquan-seat",
+    "longitude": 115.71515,
+    "latitude": 41.31161,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Dushikou Town proxy for the relocated Kaiping Guard; exact compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History identifies the current seat as Dushikou Fort."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Dushikou Town proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "yanqing-left-wei-wanquan-seat",
+    "longitude": 116.16079,
+    "latitude": 40.52644,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yongning old-town proxy for the relocated Yanqing Left Guard; exact compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The left guard was moved to Yongning County before the 1567 renaming."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Yongning Town proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "yanqing-right-wei-wanquan-seat",
+    "longitude": 115.511286,
+    "latitude": 40.397481,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Huailai county-seat proxy; historic Huailai City is partly submerged and exact compound unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The right guard was moved to Huailai City before the 1567 renaming."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern Huailai county-seat proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "longmen-wei-wanquan-seat",
+    "longitude": 115.572969,
+    "latitude": 40.783136,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Longguan Town proxy; exact Ming guard compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History places the guard at the former Longmen County."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Longguan Town proxy; GeoNames feature 2849814 coordinates."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "baoan-wei-wanquan-seat",
+    "longitude": 115.2132,
+    "latitude": 40.37874,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhuolu County proxy for the old Bao'an State seat; exact Ming guard compound unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The guard was established at the Bao'an State seat before the later state relocation."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern Zhuolu County proxy; historical correspondence remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "baoan-right-wei-wanquan-seat",
+    "longitude": 114.472601,
+    "latitude": 40.464649,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Huai'an City Town proxy; exact military compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Bao'an Right Guard was moved into Huai'an Guard City in 1422."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Huai'an City Town proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "weizhou-wei-wanquan-seat",
+    "longitude": 114.5786,
+    "latitude": 39.83279,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yu County proxy for historical Weizhou; exact guard compound unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Weizhou is an administrative department in Datong Prefecture, Shanxi."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern Yu County proxy; historical correspondence represented at low confidence."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "yongning-wei-wanquan-seat",
+    "longitude": 116.16079,
+    "latitude": 40.52644,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yongning old-town proxy; exact Ming military compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Yongning Guard was established at Yongning County seat."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Yongning Town proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "huailai-wei-wanquan-seat",
+    "longitude": 115.511286,
+    "latitude": 40.397481,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Huailai county-seat proxy; historic Huailai City is partly submerged and exact compound unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The current guard was tied to the Huailai City area."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern Huailai county-seat proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "xinghe-qianhusuo-wanquan-seat",
+    "longitude": 115.09951,
+    "latitude": 40.60944,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xuanhua proxy after the 1422 relocation into Xuanfu city; exact office unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History states that the guard moved from Xinghe to Xuanfu city."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Xuanhua District proxy; Wikidata Q1363262 coordinates."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "meiyu-qianhusuo-wanquan-seat",
+    "longitude": 115.28,
+    "latitude": 40.17,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Approximate Meiyu Ridge proxy south of Bao'an State; exact Qianhu office unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The 1600 seat was at the old Meiyu Ridge site south of Bao'an State."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern Meiyu Ridge area proxy; low-confidence coordinate pending a more exact gazetteer match."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "sihaiye-qianhusuo-wanquan-seat",
+    "longitude": 116.40695,
+    "latitude": 40.52999,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Sihai Town proxy; exact Ming office compound unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Sihaiye fort is located east of Yongning in the Ming defensive geography."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Sihai Town proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "guangchang-qianhusuo-wanquan-seat",
+    "longitude": 114.6858,
+    "latitude": 39.35331,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Laiyuan County proxy for historical Guangchang; exact Qianhu office unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Guangchang is a historical county in Shanxi administrative geography."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern Laiyuan County proxy; historical continuity remains approximate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "changan-qianhusuo-wanquan-seat",
+    "longitude": 115.585,
+    "latitude": 40.52,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Approximate Chang'an Ridge proxy in Wangjialou Township; exact Qianhu office unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Ming sources place Chang'an Ridge southeast of Longmen County."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern Chang'an Ridge area proxy near Wangjialou Township; low-confidence coordinate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "yunchuan-qianhusuo-wanquan-seat",
+    "longitude": 115.79,
+    "latitude": 41.12,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Approximate Yunzhou Fort area proxy in Yunzhou Township; exact Qianhu office unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The Yunzhou Fort area is among the Wanquan defensive sites; name correspondence is approximate."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern Yunzhou Township proxy; low-confidence coordinate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  },
+  {
+    "id": "longmen-qianhusuo-wanquan-seat",
+    "longitude": 115.97672,
+    "latitude": 40.93017,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Longmensuo Town proxy for the Li Family Village site; exact office unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The Wanli current roster places this institution under Wanquan Dusi."
+      },
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Ming History places the Qianhu Guard at Li Family Village."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Longmensuo Town proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanquan batch military seat proxy; exact Ming office compound remains unresolved where noted."
+    }
+  }
+]

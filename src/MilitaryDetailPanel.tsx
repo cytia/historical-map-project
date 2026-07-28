@@ -82,7 +82,7 @@ export function MilitaryDetailPanel({ record }: { record?: MilitaryRecord }) {
       <button className="panel-close" onClick={() => setDetailsOpen(false)} aria-label="关闭地点详情">×</button>
       <Scrollbar>
         <p className="eyebrow">{kindLabel(record)}</p>
-        <h2>{record.unit.name}</h2>
+        <h2>{record.unit.formalName ?? record.unit.name}</h2>
         <p className="seat-line">驻所 · {record.name}</p>
         {region && <p className="administrative-path">行政所在 · {region.name}</p>}
 

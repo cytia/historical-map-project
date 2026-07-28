@@ -138,3 +138,21 @@ export interface MilitaryRecord {
   militaryParentId: string | null;
   fiveArmyId?: "central" | "left" | "right" | "front" | "rear";
 }
+
+export interface MilitaryDisplayAnchor {
+  id: string;
+  label: string;
+  description: string;
+  longitude: number;
+  latitude: number;
+}
+
+export interface MilitaryDisplayGroup {
+  id: string;
+  name: string;
+  description: string;
+  fiveArmyId?: "central" | "left" | "right" | "front" | "rear";
+  administrativePath?: string;
+  memberIds: readonly string[];
+  anchor: MilitaryDisplayAnchor;
+}

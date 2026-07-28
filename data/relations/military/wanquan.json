@@ -1,0 +1,1611 @@
+[
+  {
+    "id": "wanquan-dusi-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wanquan-dusi",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Institutional affiliation under the Rear Army Commandery."
+    }
+  },
+  {
+    "id": "wanquan-dusi-wanquan-left-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wanquan-left-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-wanquan-right-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wanquan-right-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-xuanfu-front-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xuanfu-front-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-xuanfu-left-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xuanfu-left-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-xuanfu-right-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xuanfu-right-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-huaian-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huaian-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-kaiping-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "kaiping-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-yanqing-left-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yanqing-left-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-yanqing-right-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yanqing-right-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-longmen-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "longmen-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-baoan-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "baoan-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-baoan-right-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "baoan-right-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-weizhou-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "weizhou-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-yongning-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yongning-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-huailai-wei-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huailai-wei-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-xinghe-qianhusuo-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xinghe-qianhusuo-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-meiyu-qianhusuo-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "meiyu-qianhusuo-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-sihaiye-qianhusuo-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "sihaiye-qianhusuo-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-guangchang-qianhusuo-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangchang-qianhusuo-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-changan-qianhusuo-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "changan-qianhusuo-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-yunchuan-qianhusuo-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yunchuan-qianhusuo-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-dusi-longmen-qianhusuo-wanquan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "longmen-qianhusuo-wanquan",
+    "objectId": "wanquan-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Listed in the current Wanquan Dusi roster."
+    }
+  },
+  {
+    "id": "wanquan-left-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wanquan-left-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "wanquan-right-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wanquan-right-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "xuanfu-front-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xuanfu-front-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "xuanfu-left-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xuanfu-left-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "xuanfu-right-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xuanfu-right-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "huaian-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huaian-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "kaiping-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "kaiping-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "yanqing-left-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yanqing-left-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "yanqing-right-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yanqing-right-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "longmen-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "longmen-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "baoan-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "baoan-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "baoan-right-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "baoan-right-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "weizhou-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "weizhou-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "yongning-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yongning-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "huailai-wei-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huailai-wei-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "xinghe-qianhusuo-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xinghe-qianhusuo-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "meiyu-qianhusuo-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "meiyu-qianhusuo-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "sihaiye-qianhusuo-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "sihaiye-qianhusuo-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "guangchang-qianhusuo-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangchang-qianhusuo-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "changan-qianhusuo-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "changan-qianhusuo-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "yunchuan-qianhusuo-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yunchuan-qianhusuo-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "longmen-qianhusuo-wanquan-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "longmen-qianhusuo-wanquan",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Wanquan Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Inherited Rear Army display affiliation."
+    }
+  },
+  {
+    "id": "wanquan-dusi-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wanquan-dusi",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "wanquan-left-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wanquan-left-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "wanquan-right-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wanquan-right-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "xuanfu-front-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xuanfu-front-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "xuanfu-left-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xuanfu-left-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "xuanfu-right-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xuanfu-right-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "huaian-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huaian-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "kaiping-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "kaiping-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yanqing-left-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yanqing-left-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yanqing-right-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yanqing-right-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "longmen-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "longmen-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "baoan-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "baoan-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "baoan-right-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "baoan-right-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "weizhou-wei-wanquan-shanxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "weizhou-wei-wanquan",
+    "objectId": "shanxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat remains in Shanxi administrative geography while military subordination is Wanquan Dusi.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yongning-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongning-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "huailai-wei-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huailai-wei-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "xinghe-qianhusuo-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xinghe-qianhusuo-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "meiyu-qianhusuo-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "meiyu-qianhusuo-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "sihaiye-qianhusuo-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "sihaiye-qianhusuo-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "guangchang-qianhusuo-wanquan-shanxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangchang-qianhusuo-wanquan",
+    "objectId": "shanxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-two",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat remains in Shanxi administrative geography while military subordination is Wanquan Dusi.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "changan-qianhusuo-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "changan-qianhusuo-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yunchuan-qianhusuo-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yunchuan-qianhusuo-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "longmen-qianhusuo-wanquan-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "longmen-qianhusuo-wanquan",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "note": "Physical seat is represented within the Jingshi administrative sphere for the 1600 map.",
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  }
+]

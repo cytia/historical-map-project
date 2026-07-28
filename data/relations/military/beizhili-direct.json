@@ -1,0 +1,1236 @@
+[
+  {
+    "id": "jizhou-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "jizhou-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "zunhua-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zunhua-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "miyun-middle-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "miyun-middle-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "miyun-rear-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "miyun-rear-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "zhenshuo-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhenshuo-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "dongsheng-right-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dongsheng-right-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "xingzhou-left-tunwei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xingzhou-left-tunwei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "xingzhou-middle-tunwei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xingzhou-middle-tunwei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "xingzhou-front-tunwei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xingzhou-front-tunwei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "xingzhou-rear-tunwei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xingzhou-rear-tunwei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "zhongyi-middle-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhongyi-middle-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "tongzhou-left-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tongzhou-left-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "tongzhou-right-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tongzhou-right-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "shenwu-middle-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shenwu-middle-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "dingbian-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dingbian-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "wuqing-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wuqing-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "zhuolu-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhuolu-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "zhuolu-left-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhuolu-left-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "zhuolu-middle-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhuolu-middle-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "yongping-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yongping-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "shanhai-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shanhai-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "lulong-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "lulong-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "kaiping-middle-tunwei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "kaiping-middle-tunwei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "xingzhou-right-tunwei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xingzhou-right-tunwei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "dongsheng-left-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dongsheng-left-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "funing-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "funing-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "yanqing-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yanqing-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "hejian-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "hejian-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "datong-middle-tunwei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "datong-middle-tunwei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "shenyang-middle-tunwei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shenyang-middle-tunwei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "tianjin-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tianjin-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "tianjin-left-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tianjin-left-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "tianjin-right-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tianjin-right-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "zhending-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhending-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "shenwu-right-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shenwu-right-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "dingzhou-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dingzhou-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "tongguan-wei-beizhili-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "tongguan-wei-beizhili",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "tongguan-beizhili-study",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Corrected from the Wanli Huidian direct-Zhili roster placement; the military affiliation is Central Army Commandery, while the Northern Zhili jurisdiction is recorded separately."
+    }
+  },
+  {
+    "id": "ningshan-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "ningshan-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "dezhou-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dezhou-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "dezhou-left-wei-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dezhou-left-wei-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "liangcheng-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "liangcheng-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "chaohe-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "chaohe-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "baiyangkou-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "baiyangkou-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "bohai-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "bohai-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "kuanghe-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "kuanghe-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "zhenbiancheng-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhenbiancheng-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "cangzhou-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "cangzhou-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "daomaguan-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "daomaguan-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "shunde-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "shunde-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "wuding-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wuding-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "pingding-qianhusuo-beizhili-rear-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "pingding-qianhusuo-beizhili",
+    "objectId": "rear",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Direct affiliation with the Rear Army Commandery in the Wanli roster."
+    }
+  },
+  {
+    "id": "puzhou-qianhusuo-beizhili-tongguan-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "puzhou-qianhusuo-beizhili",
+    "objectId": "tongguan-wei-beizhili",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "national-museum-tongguan-puzhou-document",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "tongguan-beizhili-study",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "The Puzhou Guard Battalion is recorded as subordinate to Tongguan Guard."
+    }
+  },
+  {
+    "id": "puzhou-qianhusuo-beizhili-central-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "puzhou-qianhusuo-beizhili",
+    "objectId": "central",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-officials-76",
+        "claim": "parent",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "tongguan-beizhili-study",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Central Army Commandery affiliation through Tongguan Guard; the Wanli direct-Zhili list is not used as the military parent."
+    }
+  }
+]

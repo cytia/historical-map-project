@@ -1,0 +1,54 @@
+[
+  {
+    "id": "mianshanqiao-hou-qianhusuo-sichuan-xing",
+    "name": "冕山桥后千户所",
+    "formalName": "守御冕山桥后千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "mianshanqiao-hou-qianhusuo-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 qianhu-suo under the Ningfan Guard; modern Mianshan Town is used as an approximate seat proxy." }
+  },
+  {
+    "id": "zhenxi-hou-qianhusuo-sichuan-xing",
+    "name": "镇西后千户所",
+    "formalName": "守御镇西后千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "zhenxi-hou-qianhusuo-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 qianhu-suo under the Yuexi Guard; the historical seat is placed by the modern Haitang-area proxy." }
+  },
+  {
+    "id": "dachonghe-zhongzuo-qianhusuo-sichuan-xing",
+    "name": "打冲河中左千户所",
+    "formalName": "守御打冲河中左千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "dachonghe-zhongzuo-qianhusuo-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 qianhu-suo under the Salt Well Guard; northern Jinhe is used as a low-confidence modern locality proxy." }
+  },
+  {
+    "id": "miyi-qianhusuo-sichuan-xing",
+    "name": "迷易千户所",
+    "formalName": "守御迷易千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "miyi-qianhusuo-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 qianhu-suo under the Huichuan Guard; the modern Miyi county seat is used as an approximate historical locality proxy." }
+  }
+]

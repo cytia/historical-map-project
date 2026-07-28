@@ -1,0 +1,192 @@
+[
+  {
+    "id": "name-shanxi-dusi-seat",
+    "placeId": "shanxi-dusi-seat",
+    "name": "山西都司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-taiyuan-left-wei-shanxi-seat",
+    "placeId": "taiyuan-left-wei-shanxi-seat",
+    "name": "太原左卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-taiyuan-right-wei-shanxi-seat",
+    "placeId": "taiyuan-right-wei-shanxi-seat",
+    "name": "太原右卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-taiyuan-front-wei-shanxi-seat",
+    "placeId": "taiyuan-front-wei-shanxi-seat",
+    "name": "太原前卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-zhenwu-wei-shanxi-seat",
+    "placeId": "zhenwu-wei-shanxi-seat",
+    "name": "振武卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-pingyang-wei-shanxi-seat",
+    "placeId": "pingyang-wei-shanxi-seat",
+    "name": "平阳卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-zhenxi-wei-shanxi-seat",
+    "placeId": "zhenxi-wei-shanxi-seat",
+    "name": "镇西卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-luzhou-wei-shanxi-seat",
+    "placeId": "luzhou-wei-shanxi-seat",
+    "name": "潞州卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-shenyang-middle-huwei-shanxi-seat",
+    "placeId": "shenyang-middle-huwei-shanxi-seat",
+    "name": "沈阳中护卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-fenzhou-wei-shanxi-seat",
+    "placeId": "fenzhou-wei-shanxi-seat",
+    "name": "汾州卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-qinzhou-qianhusuo-shanxi-seat",
+    "placeId": "qinzhou-qianhusuo-shanxi-seat",
+    "name": "沁州千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-ninghua-qianhusuo-shanxi-seat",
+    "placeId": "ninghua-qianhusuo-shanxi-seat",
+    "name": "宁化千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-yanmen-qianhusuo-shanxi-seat",
+    "placeId": "yanmen-qianhusuo-shanxi-seat",
+    "name": "雁门千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-baodezhou-qianhusuo-shanxi-seat",
+    "placeId": "baodezhou-qianhusuo-shanxi-seat",
+    "name": "保德州千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-piantouguan-qianhusuo-shanxi-seat",
+    "placeId": "piantouguan-qianhusuo-shanxi-seat",
+    "name": "偏头关千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-cizhou-qianhusuo-shanxi-seat",
+    "placeId": "cizhou-qianhusuo-shanxi-seat",
+    "name": "磁州千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-ningwu-qianhusuo-shanxi-seat",
+    "placeId": "ningwu-qianhusuo-shanxi-seat",
+    "name": "宁武千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-bajiao-qianhusuo-shanxi-seat",
+    "placeId": "bajiao-qianhusuo-shanxi-seat",
+    "name": "八角千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  },
+  {
+    "id": "name-laoyingbao-qianhusuo-shanxi-seat",
+    "placeId": "laoyingbao-qianhusuo-shanxi-seat",
+    "name": "老营堡千户所",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public military institution label." }
+  }
+]

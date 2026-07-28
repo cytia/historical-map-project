@@ -1,6 +1,6 @@
 import type { Map } from "maplibre-gl";
 import { getUnitRegionId } from "./data";
-import { getMilitaryCommandRecord } from "./militaryData";
+import { getMilitaryFocusId } from "./militaryData";
 import { setMilitaryPointFocus } from "./militaryLayers";
 import { setSeatFocus } from "./seatLayers";
 
@@ -16,7 +16,7 @@ export function applyMapPointFocus(map: Map, focus: MapPointFocus) {
   const militaryUnitId = focus.selectedMilitaryUnitId ??
     (focus.selectedUnitId ? null : focus.hoveredMilitaryUnitId);
   if (militaryUnitId) {
-    const commandId = getMilitaryCommandRecord(militaryUnitId)?.unit.id ?? militaryUnitId;
+    const commandId = getMilitaryFocusId(militaryUnitId) ?? militaryUnitId;
     setSeatFocus(map, null, true);
     setMilitaryPointFocus(map, commandId);
     return;

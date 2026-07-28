@@ -1,0 +1,175 @@
+[
+  {
+    "id": "danning-dusi-seat",
+    "longitude": 115.49309,
+    "latitude": 38.85707,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Approximate historical Baoding walled-city proxy; the Wanli roster places the Danning Dusi at Baoding, while the exact Ming military compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "The current roster places Danning Dusi and its Baoding guards in the Baoding section." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium", "note": "Baoding is used as the historical city proxy; the exact Dusi compound is unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Danning batch military seat proxy; exact office compound remains unresolved." }
+  },
+  {
+    "id": "baoding-left-wei-danning-seat",
+    "longitude": 115.49309,
+    "latitude": 38.85707,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared approximate Baoding walled-city proxy for the five Baoding guards; exact Ming guard compounds remain unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Baoding Left Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium", "note": "Baoding city proxy; exact guard compound is unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared Baoding proxy for the Danning Dusi guard cluster." }
+  },
+  {
+    "id": "baoding-right-wei-danning-seat",
+    "longitude": 115.49309,
+    "latitude": 38.85707,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared approximate Baoding walled-city proxy for the five Baoding guards; exact Ming guard compounds remain unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Baoding Right Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium", "note": "Baoding city proxy; exact guard compound is unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared Baoding proxy for the Danning Dusi guard cluster." }
+  },
+  {
+    "id": "baoding-middle-wei-danning-seat",
+    "longitude": 115.49309,
+    "latitude": 38.85707,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared approximate Baoding walled-city proxy for the five Baoding guards; exact Ming guard compounds remain unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Baoding Middle Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium", "note": "Baoding city proxy; exact guard compound is unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared Baoding proxy for the Danning Dusi guard cluster." }
+  },
+  {
+    "id": "baoding-front-wei-danning-seat",
+    "longitude": 115.49309,
+    "latitude": 38.85707,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared approximate Baoding walled-city proxy for the five Baoding guards; exact Ming guard compounds remain unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Baoding Front Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium", "note": "Baoding city proxy; exact guard compound is unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared Baoding proxy for the Danning Dusi guard cluster." }
+  },
+  {
+    "id": "baoding-rear-wei-danning-seat",
+    "longitude": 115.49309,
+    "latitude": 38.85707,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared approximate Baoding walled-city proxy for the five Baoding guards; exact Ming guard compounds remain unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Baoding Rear Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "medium", "note": "Baoding city proxy; exact guard compound is unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared Baoding proxy for the Danning Dusi guard cluster." }
+  },
+  {
+    "id": "yingzhou-left-tunwei-danning-seat",
+    "longitude": 116.65456,
+    "latitude": 40.13035,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Shunyi county-seat proxy for the relocated Yingzhou Left Tuntun Guard; exact Ming guard compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Yingzhou Left Tuntun Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "high", "note": "The guard was relocated to Shunyi; the county-seat proxy is used." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Relocated Shunyi proxy for the Danning Dusi Tuntun Guard." }
+  },
+  {
+    "id": "yingzhou-right-tunwei-danning-seat",
+    "longitude": 117.40139,
+    "latitude": 40.04428,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jizhou seat proxy for the relocated Yingzhou Right Tuntun Guard; exact Ming guard compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Yingzhou Right Tuntun Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "high", "note": "The guard was relocated to Jizhou; the state-seat proxy is used." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Relocated Jizhou proxy for the Danning Dusi Tuntun Guard." }
+  },
+  {
+    "id": "yingzhou-middle-tunwei-danning-seat",
+    "longitude": 117.12141,
+    "latitude": 40.14062,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Pinggu county-seat proxy for the relocated Yingzhou Middle Tuntun Guard; exact Ming guard compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Yingzhou Middle Tuntun Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "high", "note": "The guard was relocated to Pinggu; the county-area proxy is used." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Relocated Pinggu proxy for the Danning Dusi Tuntun Guard." }
+  },
+  {
+    "id": "yingzhou-front-tunwei-danning-seat",
+    "longitude": 117.00313,
+    "latitude": 39.75627,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xianghe county-seat proxy for the relocated Yingzhou Front Tuntun Guard; exact Ming guard compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Yingzhou Front Tuntun Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "high", "note": "The guard was relocated to Xianghe; the county-seat proxy is used." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1196474 P625 used as the modern Xianghe proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Relocated Xianghe proxy for the Danning Dusi Tuntun Guard." }
+  },
+  {
+    "id": "yingzhou-rear-tunwei-danning-seat",
+    "longitude": 117.07008,
+    "latitude": 39.9808,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Sanhe county-seat proxy for the relocated Yingzhou Rear Tuntun Guard; exact Ming guard compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Yingzhou Rear Tuntun Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "high", "note": "The guard was relocated to Sanhe; the county-seat proxy is used." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q132381 P625 used as the modern Sanhe proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Relocated Sanhe proxy for the Danning Dusi Tuntun Guard." }
+  },
+  {
+    "id": "maoshan-wei-danning-seat",
+    "longitude": 115.49596,
+    "latitude": 39.34991,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yi County proxy for Maoshan Guard after its Ming relocation to Yizhou; exact Ming guard compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Maoshan Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "high", "note": "The guard was relocated to Yizhou; the state-seat proxy is used." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q197865 P625 used as the modern Yi County proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Yizhou proxy for the relocated Maoshan Guard." }
+  },
+  {
+    "id": "zijingguan-qianhusuo-danning-seat",
+    "longitude": 115.171619,
+    "latitude": 39.4354995,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zijingguan town proxy; Ming sources place the guard at Zijingguan west of Yizhou, while the exact Ming office compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "location", "confidence": "high", "note": "Zijingguan Qianhu Guard is listed under Danning Dusi." },
+      { "sourceId": "ming-shi-geography-one", "claim": "location", "confidence": "high", "note": "The guard was established at the Zijingguan pass west of Yizhou." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q202848 P625 used as the modern Zijingguan proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Pass-area proxy for the Danning Dusi Qianhu Guard." }
+  }
+]

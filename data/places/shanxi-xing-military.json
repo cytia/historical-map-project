@@ -1,0 +1,236 @@
+[
+  {
+    "id": "shanxi-xing-dusi-seat",
+    "longitude": 113.29138888889,
+    "latitude": 40.093611111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Datong historical-city proxy for the Shanxi Xing Dusi seat; exact Ming military compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing project Datong proxy based on Wikidata Q72877." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared Datong city proxy for the Xing Dusi and its two guards seated in the same city." }
+  },
+  {
+    "id": "datong-front-wei-shanxi-xing-seat",
+    "longitude": 113.29138888889,
+    "latitude": 40.093611111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Datong historical-city proxy; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing project Datong proxy based on Wikidata Q72877." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared Datong city proxy; no false precision for the guard compound." }
+  },
+  {
+    "id": "datong-rear-wei-shanxi-xing-seat",
+    "longitude": 113.29138888889,
+    "latitude": 40.093611111111,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Shared modern Datong historical-city proxy; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing project Datong proxy based on Wikidata Q72877." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared Datong city proxy; no false precision for the guard compound." }
+  },
+  {
+    "id": "datong-left-wei-shanxi-xing-seat",
+    "longitude": 112.70037,
+    "latitude": 40.01215,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zuoyun county-seat proxy for the relocated Datong Left Guard at the former Zhenshuo Guard city.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Zuoyun proxy; exact former guard city location remains unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared with Yunchuan Guard after the Zhengde relocation." }
+  },
+  {
+    "id": "yunchuan-wei-shanxi-xing-seat",
+    "longitude": 112.70037,
+    "latitude": 40.01215,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zuoyun county-seat proxy for the relocated Yunchuan Guard at the former Zhenshuo Guard city.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Zuoyun proxy; exact former guard city location remains unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared with Datong Left Guard after the Zhengde relocation." }
+  },
+  {
+    "id": "datong-right-wei-shanxi-xing-seat",
+    "longitude": 112.35023,
+    "latitude": 40.16279,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Youwei town proxy for the relocated Datong Right Guard at the former Dingbian Guard city.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Youwei proxy; exact former guard city location remains unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared with Yulin Guard after the relocation." }
+  },
+  {
+    "id": "yulin-wei-shanxi-xing-seat",
+    "longitude": 112.35023,
+    "latitude": 40.16279,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Youwei town proxy for the relocated Yulin Guard at the former Dingbian Guard city.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Youwei proxy; exact former guard city location remains unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared with Datong Right Guard after the relocation." }
+  },
+  {
+    "id": "yanghe-wei-shanxi-xing-seat",
+    "longitude": 113.74,
+    "latitude": 40.3602778,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yanggao county-seat proxy for the historical Yanghe Guard city; exact Ming city wall remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1169571 modern Yanggao proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared with Gaoshan Guard after its relocation to Yanghe." }
+  },
+  {
+    "id": "gaoshan-wei-shanxi-xing-seat",
+    "longitude": 113.74,
+    "latitude": 40.3602778,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yanggao county-seat proxy for the post-relocation seat of the Gaoshan Guard; original Gaoshan town is not used for the 1600 point.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1169571 modern Yanggao proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared with Yanghe Guard after the relocation." }
+  },
+  {
+    "id": "tiancheng-wei-shanxi-xing-seat",
+    "longitude": 114.084722,
+    "latitude": 40.419167,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Tianzhen county-seat proxy for the historical Tiancheng Guard city; exact Ming city wall remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1197024 modern Tianzhen proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared with Zhenlu Guard after the relocation." }
+  },
+  {
+    "id": "zhenlu-wei-shanxi-xing-seat",
+    "longitude": 114.084722,
+    "latitude": 40.419167,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Tianzhen county-seat proxy for the post-relocation seat of the Zhenlu Guard.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1197024 modern Tianzhen proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shared with Tiancheng Guard after the relocation." }
+  },
+  {
+    "id": "shuozhou-wei-shanxi-xing-seat",
+    "longitude": 112.42923,
+    "latitude": 39.34078,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Shuozhou historical-state-seat proxy guided by the Ming geographic description; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing project proxy based on Wikidata Q73020." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Shuozhou historical-state-seat proxy." }
+  },
+  {
+    "id": "weiyuan-wei-shanxi-xing-seat",
+    "longitude": 112.34118,
+    "latitude": 39.94935,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Weiyuan town proxy for the historical 净水坪 seat; exact Ming guard site remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern town proxy; replace if a primary-coordinate reconstruction becomes available." }
+  },
+  {
+    "id": "pinglu-wei-shanxi-xing-seat",
+    "longitude": 112.17545,
+    "latitude": 39.75902,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Fenghuangcheng proxy for old Pinglu City, the Ming Pinglu Guard seat; exact city-wall point remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Modern Fenghuangcheng proxy; coordinate is retained as an approximate public gazetteer point." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence old Pinglu City proxy; historical relocation is documented, exact wall location remains open." }
+  },
+  {
+    "id": "andong-middle-tun-wei-shanxi-xing-seat",
+    "longitude": 113.187,
+    "latitude": 39.56,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yingzhou historical-city proxy for the post-relocation seat of the Andong Middle Tun Guard; exact military compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "medium" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing low-confidence Yingzhou proxy for the relocated guard." }
+  },
+  {
+    "id": "shanyin-qianhusuo-shanxi-xing-seat",
+    "longitude": 112.81156,
+    "latitude": 39.52501,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Shanyin county-seat proxy for the historical Shanyin qianhu-suo; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Existing project proxy based on Wikidata Q676843." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing Shanyin historical-county-seat proxy." }
+  },
+  {
+    "id": "mayi-qianhusuo-shanxi-xing-seat",
+    "longitude": 112.42498,
+    "latitude": 39.3181,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Shuocheng/Mayi historical-state-seat proxy for the Mayi qianhu-suo; exact compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Existing project proxy based on Wikidata Q1197150." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Reuses the existing low-confidence Mayi historical-state-seat proxy." }
+  },
+  {
+    "id": "jingping-qianhusuo-shanxi-xing-seat",
+    "longitude": 112.28389,
+    "latitude": 39.52,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jingping town proxy for the historical Jingping qianhu-suo and Ming Jingping city site; exact compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-two", "claim": "location", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern Jingping proxy; historical city wall requires separate reconstruction." }
+  }
+]

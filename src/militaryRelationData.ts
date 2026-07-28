@@ -4,6 +4,7 @@ import {
   isMilitaryPrimaryUnit,
   militaryById,
 } from "./militaryData";
+import { getMilitaryDisplayGroup } from "./militaryDisplayGroups";
 import { curvedCoordinates } from "./relationRendering";
 import type { HierarchyScope, MilitaryRecord } from "./types";
 
@@ -21,11 +22,14 @@ function secondaryRecords(
   if (scope === "overview") return [];
   const command = getMilitaryCommandRecord(selectedMilitaryId);
   const primary = selectedPrimaryUnit(selectedMilitaryId);
-  if (!command || !primary) return [];
+  const hierarchyRoot = command ?? (
+    primary?.unit.militaryKind === "wei" ? primary : undefined
+  );
+  if (!hierarchyRoot || !primary) return [];
   return records.filter((record) => {
     if (isMilitaryPrimaryUnit(record.unit)) return false;
     return scope === "domain"
-      ? isMilitaryDescendant(record.unit.id, command.unit.id)
+      ? isMilitaryDescendant(record.unit.id, hierarchyRoot.unit.id)
       : record.militaryParentId === primary.unit.id;
   });
 }
@@ -57,6 +61,73 @@ function lineData(
   };
 }
 
+function displayGroupLineData(
+  records: MilitaryRecord[],
+  selectedMilitaryId: string | null,
+  scope: HierarchyScope,
+): GeoJSON.FeatureCollection<GeoJSON.LineString> {
+  const group = getMilitaryDisplayGroup(selectedMilitaryId);
+  if (!group) return { type: "FeatureCollection", features: [] };
+  const anchor = [group.anchor.longitude, group.anchor.latitude] as [number, number];
+  return {
+    type: "FeatureCollection",
+    features: displayGroupRecords(records, selectedMilitaryId, scope)
+      .map((record) => ({
+        type: "Feature" as const,
+        geometry: {
+          type: "LineString" as const,
+          coordinates: curvedCoordinates(
+            [record.place.longitude!, record.place.latitude!],
+            anchor,
+          ),
+        },
+        properties: {
+          id: record.unit.id,
+          selected: record.unit.id === selectedMilitaryId,
+        },
+      })),
+  };
+}
+
+function displayGroupRecords(
+  records: MilitaryRecord[],
+  selectedMilitaryId: string | null,
+  scope: HierarchyScope,
+) {
+  const group = getMilitaryDisplayGroup(selectedMilitaryId);
+  if (!group) return [];
+  const groupRecords = records.filter(({ unit }) => group.memberIds.includes(unit.id));
+  if (scope === "domain") return groupRecords;
+  const primaryRecords = groupRecords.filter(({ unit }) => isMilitaryPrimaryUnit(unit));
+  if (scope === "overview") return primaryRecords;
+  const selected = groupRecords.find(({ unit }) => unit.id === selectedMilitaryId);
+  return selected && !isMilitaryPrimaryUnit(selected.unit)
+    ? [...primaryRecords, selected]
+    : primaryRecords;
+}
+
+function displayGroupAnchorData(
+  selectedMilitaryId: string | null,
+): GeoJSON.FeatureCollection<GeoJSON.Point> {
+  const group = getMilitaryDisplayGroup(selectedMilitaryId);
+  if (!group) return { type: "FeatureCollection", features: [] };
+  return {
+    type: "FeatureCollection",
+    features: [{
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [group.anchor.longitude, group.anchor.latitude],
+      },
+      properties: {
+        id: group.anchor.id,
+        label: group.anchor.label,
+        description: group.anchor.description,
+      },
+    }],
+  };
+}
+
 export function militaryHierarchyData(
   records: MilitaryRecord[],
   selectedMilitaryId: string | null,
@@ -64,9 +135,12 @@ export function militaryHierarchyData(
 ) {
   const command = getMilitaryCommandRecord(selectedMilitaryId);
   const secondary = secondaryRecords(records, selectedMilitaryId, scope);
+  const displayGroupSecondary = displayGroupRecords(records, selectedMilitaryId, scope)
+    .filter(({ unit }) => !isMilitaryPrimaryUnit(unit));
   const visibleRecords = [
     ...records.filter(({ unit }) => isMilitaryPrimaryUnit(unit)),
     ...secondary,
+    ...displayGroupSecondary,
   ];
   const primary = command
     ? records.filter((record) =>
@@ -78,5 +152,7 @@ export function militaryHierarchyData(
     primaryRelations,
     flowRelations: primaryRelations,
     secondaryRelations: lineData(secondary, selectedMilitaryId),
+    displayGroupRelations: displayGroupLineData(records, selectedMilitaryId, scope),
+    displayGroupAnchor: displayGroupAnchorData(selectedMilitaryId),
   };
 }

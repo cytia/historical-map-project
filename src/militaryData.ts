@@ -1,4 +1,5 @@
 import { data } from "./data";
+import { getMilitaryDisplayGroup, getMilitaryDisplayGroupId } from "./militaryDisplayGroups";
 import type { MilitaryRecord, MilitaryUnit } from "./types";
 
 const administrativeUnitsById = new Map(data.administrativeUnits.map((unit) => [unit.id, unit]));
@@ -84,6 +85,12 @@ export function getMilitaryCommandRecord(unitId: string | null) {
   }
   return undefined;
 }
+
+export function getMilitaryFocusId(unitId: string | null) {
+  return getMilitaryCommandRecord(unitId)?.unit.id ?? getMilitaryDisplayGroupId(unitId) ?? unitId;
+}
+
+export { getMilitaryDisplayGroup };
 
 export function isMilitaryDescendant(unitId: string, ancestorId: string) {
   let current = militaryById.get(unitId);

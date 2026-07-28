@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "yunnan-dusi",
+    "name": "云南都司",
+    "formalName": "云南都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded Yunnan Dusi at the Wanli 1600 snapshot."
+    }
+  },
+  {
+    "id": "yunnan-left-wei-yunnan-dusi",
+    "name": "云南左卫",
+    "formalName": "云南左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yunnan-left-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yunnan-right-wei-yunnan-dusi",
+    "name": "云南右卫",
+    "formalName": "云南右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yunnan-right-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yunnan-middle-wei-yunnan-dusi",
+    "name": "云南中卫",
+    "formalName": "云南中卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yunnan-middle-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yunnan-front-wei-yunnan-dusi",
+    "name": "云南前卫",
+    "formalName": "云南前卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yunnan-front-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yunnan-rear-wei-yunnan-dusi",
+    "name": "云南后卫",
+    "formalName": "云南后卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yunnan-rear-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "guangnan-wei-yunnan-dusi",
+    "name": "广南卫",
+    "formalName": "广南卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "guangnan-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "linan-wei-yunnan-dusi",
+    "name": "临安卫",
+    "formalName": "临安卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "linan-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "qujing-wei-yunnan-dusi",
+    "name": "曲靖卫",
+    "formalName": "曲靖卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "qujing-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "pingyi-wei-yunnan-dusi",
+    "name": "平夷卫",
+    "formalName": "平夷卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "pingyi-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yuezhou-wei-yunnan-dusi",
+    "name": "越州卫",
+    "formalName": "越州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yuezhou-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "liuliang-wei-yunnan-dusi",
+    "name": "六凉卫",
+    "formalName": "六凉卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "liuliang-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "dali-wei-yunnan-dusi",
+    "name": "大理卫",
+    "formalName": "大理卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "dali-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "erhai-wei-yunnan-dusi",
+    "name": "洱海卫",
+    "formalName": "洱海卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "erhai-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "daluo-wei-yunnan-dusi",
+    "name": "大罗卫",
+    "formalName": "大罗卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "daluo-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "chuxiong-wei-yunnan-dusi",
+    "name": "楚雄卫",
+    "formalName": "楚雄卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "chuxiong-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "jingdong-wei-yunnan-dusi",
+    "name": "景东卫",
+    "formalName": "景东卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "jingdong-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "menghua-wei-yunnan-dusi",
+    "name": "蒙化卫",
+    "formalName": "蒙化卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "menghua-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "lancang-wei-yunnan-dusi",
+    "name": "澜沧卫",
+    "formalName": "澜沧卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "lancang-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yongchang-wei-yunnan-dusi",
+    "name": "永昌卫",
+    "formalName": "永昌卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yongchang-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "tengchong-wei-yunnan-dusi",
+    "name": "腾冲卫",
+    "formalName": "腾冲卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "tengchong-wei-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current twenty guards under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "anning-qianhusuo-yunnan-dusi",
+    "name": "安宁千户所",
+    "formalName": "安宁守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "anning-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yiliang-qianhusuo-yunnan-dusi",
+    "name": "宜良千户所",
+    "formalName": "宜良守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yiliang-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yimen-qianhusuo-yunnan-dusi",
+    "name": "易门千户所",
+    "formalName": "易门守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yimen-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yanglinbao-qianhusuo-yunnan-dusi",
+    "name": "杨林堡千户所",
+    "formalName": "杨林堡守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yanglinbao-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "shibazhai-qianhusuo-yunnan-dusi",
+    "name": "十八寨千户所",
+    "formalName": "十八寨守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "shibazhai-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "tonghai-front-front-qianhusuo-yunnan-dusi",
+    "name": "通海前前千户所",
+    "formalName": "通海前前守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "tonghai-front-front-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded the historical repeated-direction name used for the two Tonghai guard offices."
+    }
+  },
+  {
+    "id": "tonghai-right-right-qianhusuo-yunnan-dusi",
+    "name": "通海右右千户所",
+    "formalName": "通海右右守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "tonghai-right-right-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded the historical repeated-direction name used for the two Tonghai guard offices."
+    }
+  },
+  {
+    "id": "dingyuan-qianhusuo-yunnan-dusi",
+    "name": "定远千户所",
+    "formalName": "定远守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "dingyuan-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "malong-qianhusuo-yunnan-dusi",
+    "name": "马隆千户所",
+    "formalName": "马隆守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "malong-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yaoan-qianhusuo-yunnan-dusi",
+    "name": "姚安千户所",
+    "formalName": "姚安守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yaoan-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "yaoan-middle-tun-qianhusuo-yunnan-dusi",
+    "name": "姚安中屯千户所",
+    "formalName": "姚安中屯守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yaoan-middle-tun-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "wuding-qianhusuo-yunnan-dusi",
+    "name": "武定千户所",
+    "formalName": "武定守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "wuding-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "mumiguan-qianhusuo-yunnan-dusi",
+    "name": "木密关千户所",
+    "formalName": "木密关守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "mumiguan-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "zhenan-qianhusuo-yunnan-dusi",
+    "name": "镇安千户所",
+    "formalName": "镇安守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "zhenan-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli thirteen renamed the former Jinchi qianhu office and stationed it at Menglin."
+    }
+  },
+  {
+    "id": "zhenyao-qianhusuo-yunnan-dusi",
+    "name": "镇姚千户所",
+    "formalName": "镇姚守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "zhenyao-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Wanli thirteen renamed the former Yongchang qianhu office and stationed it at Lao Yao Pass."
+    }
+  },
+  {
+    "id": "yongping-front-front-qianhusuo-yunnan-dusi",
+    "name": "永平前前千户所",
+    "formalName": "永平前前守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yongping-front-front-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded the two Yongping guard offices under the current Wanli roster."
+    }
+  },
+  {
+    "id": "yongping-rear-rear-qianhusuo-yunnan-dusi",
+    "name": "永平后后千户所",
+    "formalName": "永平后后守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yongping-rear-rear-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded the two Yongping guard offices under the current Wanli roster."
+    }
+  },
+  {
+    "id": "tengchong-qianhusuo-yunnan-dusi",
+    "name": "腾冲千户所",
+    "formalName": "腾冲守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "tengchong-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "xinan-qianhusuo-yunnan-dusi",
+    "name": "新安千户所",
+    "formalName": "新安守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "xinan-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  },
+  {
+    "id": "fengwu-qianhusuo-yunnan-dusi",
+    "name": "凤梧千户所",
+    "formalName": "凤梧守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "fengwu-qianhusuo-yunnan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed among the current qianhu offices under Yunnan Dusi."
+    }
+  }
+]

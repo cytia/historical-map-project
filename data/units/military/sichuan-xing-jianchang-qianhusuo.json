@@ -1,0 +1,54 @@
+[
+  {
+    "id": "lizhou-hou-qianhusuo-sichuan-xing",
+    "name": "礼州后千户所",
+    "formalName": "守御礼州后千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "lizhou-hou-qianhusuo-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 qianhu-suo under the Jianchang Guard; the exact Ming compound is unresolved within modern Lizhou Town." }
+  },
+  {
+    "id": "lizhou-zhongzhong-qianhusuo-sichuan-xing",
+    "name": "礼州中中千户所",
+    "formalName": "守御礼州中中千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "lizhou-zhongzhong-qianhusuo-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 qianhu-suo under the Jianchang Guard; the exact Ming compound is unresolved within modern Lizhou Town." }
+  },
+  {
+    "id": "dachonghe-zhongqian-qianhusuo-sichuan-xing",
+    "name": "打冲河中前千户所",
+    "formalName": "守御打冲河中前千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "dachonghe-zhongqian-qianhusuo-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 qianhu-suo under the Jianchang Guard; the historical seat is placed only by a low-confidence modern locality proxy." }
+  },
+  {
+    "id": "dechang-qianhusuo-sichuan-xing",
+    "name": "德昌千户所",
+    "formalName": "守御德昌千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "dechang-qianhusuo-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 qianhu-suo under the Jianchang Guard; modern Dechang historical-county proxy used for the seat." }
+  }
+]

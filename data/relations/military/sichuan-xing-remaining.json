@@ -1,0 +1,188 @@
+[
+  {
+    "id": "ningfan-wei-sichuan-xing-mianshanqiao-hou-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "mianshanqiao-hou-qianhusuo-sichuan-xing",
+    "objectId": "ningfan-wei-sichuan-xing",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed under the Ningfan Guard." }
+  },
+  {
+    "id": "yuexi-wei-sichuan-xing-zhenxi-hou-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "zhenxi-hou-qianhusuo-sichuan-xing",
+    "objectId": "yuexi-wei-sichuan-xing",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed under the Yuexi Guard." }
+  },
+  {
+    "id": "yanjing-wei-sichuan-xing-dachonghe-zhongzuo-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "dachonghe-zhongzuo-qianhusuo-sichuan-xing",
+    "objectId": "yanjing-wei-sichuan-xing",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed under the Salt Well Guard." }
+  },
+  {
+    "id": "huichuan-wei-sichuan-xing-miyi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "miyi-qianhusuo-sichuan-xing",
+    "objectId": "huichuan-wei-sichuan-xing",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed under the Huichuan Guard." }
+  },
+
+  {
+    "id": "mianshanqiao-hou-qianhusuo-sichuan-xing-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "mianshanqiao-hou-qianhusuo-sichuan-xing",
+    "objectId": "right",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Ningfan Guard and Sichuan Xing Dusi's Right Army affiliation.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Recorded inherited Five Armies affiliation." }
+  },
+  {
+    "id": "zhenxi-hou-qianhusuo-sichuan-xing-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "zhenxi-hou-qianhusuo-sichuan-xing",
+    "objectId": "right",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Yuexi Guard and Sichuan Xing Dusi's Right Army affiliation.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Recorded inherited Five Armies affiliation." }
+  },
+  {
+    "id": "dachonghe-zhongzuo-qianhusuo-sichuan-xing-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "dachonghe-zhongzuo-qianhusuo-sichuan-xing",
+    "objectId": "right",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Salt Well Guard and Sichuan Xing Dusi's Right Army affiliation.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Recorded inherited Five Armies affiliation." }
+  },
+  {
+    "id": "miyi-qianhusuo-sichuan-xing-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "miyi-qianhusuo-sichuan-xing",
+    "objectId": "right",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "medium" } ],
+    "note": "Inherited from the Huichuan Guard and Sichuan Xing Dusi's Right Army affiliation.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Recorded inherited Five Armies affiliation." }
+  },
+
+  {
+    "id": "mianshanqiao-hou-qianhusuo-sichuan-xing-sichuan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "mianshanqiao-hou-qianhusuo-sichuan-xing",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" } ],
+    "note": "Physical seat is in the historical Sichuan administrative geography while military subordination is through the Ningfan Guard.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Recorded physical administrative context separately from military subordination." }
+  },
+  {
+    "id": "zhenxi-hou-qianhusuo-sichuan-xing-sichuan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhenxi-hou-qianhusuo-sichuan-xing",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" } ],
+    "note": "Physical seat is in the historical Sichuan administrative geography while military subordination is through the Yuexi Guard.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Recorded physical administrative context separately from military subordination." }
+  },
+  {
+    "id": "dachonghe-zhongzuo-qianhusuo-sichuan-xing-sichuan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dachonghe-zhongzuo-qianhusuo-sichuan-xing",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "medium" } ],
+    "note": "Physical seat is in the historical Sichuan frontier geography while military subordination is through the Salt Well Guard.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Administrative context is recorded with low confidence because the historical seat is not yet precisely located." }
+  },
+  {
+    "id": "miyi-qianhusuo-sichuan-xing-sichuan-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "miyi-qianhusuo-sichuan-xing",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" } ],
+    "note": "Physical seat is in the historical Sichuan administrative geography while military subordination is through the Huichuan Guard.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Recorded physical administrative context separately from military subordination." }
+  },
+
+  {
+    "id": "changzhou-sichuan-xing-jianchang-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "changzhou-sichuan-xing",
+    "objectId": "jianchang-wei-sichuan-xing",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high" } ],
+    "note": "Special-governance unit listed under the Jianchang Guard.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Encoded military affiliation without converting the special-governance unit into a military unit." }
+  },
+  {
+    "id": "weilong-sichuan-xing-jianchang-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "weilong-sichuan-xing",
+    "objectId": "jianchang-wei-sichuan-xing",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high" } ],
+    "note": "Special-governance unit listed under the Jianchang Guard.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Encoded military affiliation without converting the special-governance unit into a military unit." }
+  },
+  {
+    "id": "puji-sichuan-xing-jianchang-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "puji-sichuan-xing",
+    "objectId": "jianchang-wei-sichuan-xing",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high" } ],
+    "note": "Special-governance unit listed under the Jianchang Guard.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Encoded military affiliation without converting the special-governance unit into a military unit." }
+  },
+  {
+    "id": "mala-sichuan-xing-yanjing-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "mala-sichuan-xing",
+    "objectId": "yanjing-wei-sichuan-xing",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high" } ],
+    "note": "Special-governance unit listed under the Salt Well Guard.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Encoded military affiliation without converting the special-governance unit into a military unit." }
+  },
+  {
+    "id": "qiongbu-sichuan-xing-yuexi-affiliation",
+    "relationType": "military-affiliation",
+    "subjectId": "qiongbu-sichuan-xing",
+    "objectId": "yuexi-wei-sichuan-xing",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high" } ],
+    "note": "Special-governance unit listed under the Yuexi Guard.",
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Encoded military affiliation without converting the special-governance unit into a military unit." }
+  }
+]

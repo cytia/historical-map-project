@@ -1,0 +1,3 @@
+[
+  {"id":"beijing-garrison-area","longitude":116.39139,"latitude":39.90619,"locationAccuracy":"area_only","locationMethod":"Shared city-level proxy based on the approximate Ming Shuntian Prefecture seat; the individual compounds of the in-capital guards are unresolved.","confidence":"low","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"},{"sourceId":"ming-shi-geography-one","claim":"location","confidence":"medium"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"A reversible area-level point for in-capital guard data; it must not be read as the seat of any single guard."}}
+]

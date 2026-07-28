@@ -1,6 +1,13 @@
 import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
-import { getMilitaryCommandRecord, publishedMilitaryRecords } from "./militaryData";
+import { getMilitaryFocusId, publishedMilitaryRecords } from "./militaryData";
 import { militaryHierarchyData } from "./militaryRelationData";
+import {
+  addMilitaryDisplayLayers,
+  militaryDisplayLayerIds,
+  setMilitaryDisplaySelection,
+  setMilitaryDisplayVisibility,
+  stopMilitaryDisplayAnimation,
+} from "./militaryDisplayRelations";
 import { militaryColorExpression } from "./mapDisplay";
 import { administrativeAffiliationIds } from "./data";
 import { setLayerVisibility } from "./mapLayerVisibility";
@@ -34,7 +41,7 @@ const militaryRelationAnimation = createRelationAnimationController({
 });
 export const militaryLayerIds = [
   relationLayerId, flowLayerId, subordinateRelationLayerId, pointOutlineLayerId, pointLayerId,
-  labelLayerId,
+  labelLayerId, ...militaryDisplayLayerIds,
 ] as const;
 
 export interface MilitaryLayerSelection {
@@ -61,20 +68,20 @@ function featureData(selection: MilitaryLayerSelection) {
   );
   const points = {
     type: "FeatureCollection" as const,
-    features: hierarchy.records.map(({ unit, place, name, administrativeRegionId, administrativeUnitId, militaryParentId, fiveArmyId }) => ({
+    features: hierarchy.records.map(({ unit, place, administrativeRegionId, administrativeUnitId, militaryParentId, fiveArmyId }) => ({
       type: "Feature" as const,
       geometry: { type: "Point" as const, coordinates: [place.longitude!, place.latitude!] },
       properties: {
         id: unit.id,
         name: unit.name,
-        label: name,
+        label: unit.name,
         kind: "military",
         regionId: administrativeRegionId,
         administrativeUnitId,
         militaryParentId,
         militaryKind: unit.militaryKind ?? "",
         fiveArmyId: fiveArmyId ?? "",
-        commandId: getMilitaryCommandRecord(unit.id)?.unit.id ?? unit.id,
+        commandId: getMilitaryFocusId(unit.id),
       },
     })),
   };
@@ -119,6 +126,7 @@ export function addMilitaryLayers(map: Map, selection: MilitaryLayerSelection, v
     layerId: subordinateRelationLayerId,
     opacity: 0.78,
   });
+  addMilitaryDisplayLayers(map, data, visible);
   map.addLayer({ id: pointOutlineLayerId, type: "symbol", source: pointSourceId,
     layout: { "icon-image": militarySymbolImageId,
       "icon-size": iconSizes.outline,
@@ -152,6 +160,7 @@ export function setMilitarySelection(map: Map, selection: MilitaryLayerSelection
   points.setData(data.points);
   relations.setData(data.primaryRelations);
   subordinateRelations.setData(data.secondaryRelations);
+  setMilitaryDisplaySelection(map, data);
   militaryRelationAnimation.setRelations(map, data.flowRelations);
   if (map.getLayer(pointOutlineLayerId)) {
     map.setLayoutProperty(pointOutlineLayerId, "icon-size", iconSizes.outline);
@@ -183,8 +192,10 @@ export function setMilitaryVisibility(map: Map, visible: boolean) {
   setLayerVisibility(map, militaryLayerIds, visible);
   if (visible) militaryRelationAnimation.start(map);
   else militaryRelationAnimation.stop(map);
+  setMilitaryDisplayVisibility(map, visible);
 }
 
 export function stopMilitaryRelationAnimation(map: Map) {
   militaryRelationAnimation.stop(map);
+  stopMilitaryDisplayAnimation(map);
 }

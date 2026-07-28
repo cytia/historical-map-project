@@ -125,6 +125,132 @@
       "path": "units/military/central-front-dusi.json"
     },
     {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "zhejiang-left-army",
+      "path": "units/military/zhejiang-left-army.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "shandong-left-army",
+      "path": "units/military/shandong-left-army.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "danning",
+      "path": "units/military/danning.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "wanquan",
+      "path": "units/military/wanquan.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "beizhili-direct",
+      "path": "units/military/beizhili-direct.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "beijing-direct",
+      "path": "units/military/beijing-direct.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "nanzhili-direct",
+      "path": "units/military/nanzhili-direct.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "nanjing-direct",
+      "path": "units/military/nanjing-direct.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "shanxi",
+      "path": "units/military/shanxi.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "shanxi-xing",
+      "path": "units/military/shanxi-xing.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "shaanxi-dusi",
+      "path": "units/military/shaanxi-dusi.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "shaanxi-dusi-frontier",
+      "path": "units/military/shaanxi-dusi-frontier.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "shaanxi-xing",
+      "path": "units/military/shaanxi-xing.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "guangxi-dusi",
+      "path": "units/military/guangxi-dusi.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "yunnan-dusi",
+      "path": "units/military/yunnan-dusi.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "sichuan-dusi",
+      "path": "units/military/sichuan-dusi.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "sichuan-dusi-qianhusuo",
+      "path": "units/military/sichuan-dusi-qianhusuo.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "sichuan-dusi-qianhusuo-later",
+      "path": "units/military/sichuan-dusi-qianhusuo-later.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "sichuan-xing-dusi",
+      "path": "units/military/sichuan-xing-dusi.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "sichuan-xing-jianchang-qianhusuo",
+      "path": "units/military/sichuan-xing-jianchang-qianhusuo.json"
+    },
+    {
+      "collection": "militaryUnits",
+      "domain": "military",
+      "region": "sichuan-xing-remaining-qianhusuo",
+      "path": "units/military/sichuan-xing-remaining-qianhusuo.json"
+    },
+    {
       "collection": "relations",
       "domain": "military",
       "path": "relations/military/command-structure.json"
@@ -148,6 +274,111 @@
       "collection": "relations",
       "domain": "military",
       "path": "relations/military/central-front-dusi.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/left-army-dusi.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/left-army-units-affiliation.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/danning.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/wanquan.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/beizhili-direct.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/beijing-direct.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/nanzhili-direct.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/nanjing-direct.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/shanxi.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/shanxi-xing.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/shaanxi-dusi.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/shaanxi-dusi-frontier.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/shaanxi-xing.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/guangxi-dusi.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/yunnan-dusi.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/sichuan-dusi.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/sichuan-dusi-qianhusuo.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/sichuan-dusi-qianhusuo-later.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/sichuan-xing-dusi.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/sichuan-xing-jianchang-qianhusuo.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "military",
+      "path": "relations/military/sichuan-xing-remaining.json"
     },
     {
       "collection": "administrativeUnits",
@@ -225,6 +456,46 @@
     },
     {
       "collection": "places",
+      "region": "danning",
+      "path": "places/danning.json"
+    },
+    {
+      "collection": "places",
+      "region": "wanquan",
+      "path": "places/wanquan.json"
+    },
+    {
+      "collection": "places",
+      "region": "beizhili-direct-military",
+      "path": "places/beizhili-direct-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "beijing-direct-military",
+      "path": "places/beijing-direct-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "nanzhili-direct-military",
+      "path": "places/nanzhili-direct-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "nanjing-direct-military",
+      "path": "places/nanjing-direct-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "shanxi-military",
+      "path": "places/shanxi-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "shanxi-xing-military",
+      "path": "places/shanxi-xing-military.json"
+    },
+    {
+      "collection": "places",
       "region": "nanjing",
       "path": "places/nanjing.json"
     },
@@ -232,6 +503,61 @@
       "collection": "places",
       "region": "shaanxi",
       "path": "places/shaanxi.json"
+    },
+    {
+      "collection": "places",
+      "region": "shaanxi-dusi-military",
+      "path": "places/shaanxi-dusi-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "shaanxi-dusi-frontier-military",
+      "path": "places/shaanxi-dusi-frontier-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "shaanxi-xing-military",
+      "path": "places/shaanxi-xing-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "guangxi-dusi-military",
+      "path": "places/guangxi-dusi-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "yunnan-dusi-military",
+      "path": "places/yunnan-dusi-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "sichuan-dusi-military",
+      "path": "places/sichuan-dusi-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "sichuan-dusi-qianhusuo-military",
+      "path": "places/sichuan-dusi-qianhusuo-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "sichuan-dusi-qianhusuo-later-military",
+      "path": "places/sichuan-dusi-qianhusuo-later-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "sichuan-xing-dusi-military",
+      "path": "places/sichuan-xing-dusi-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "sichuan-xing-jianchang-qianhusuo-military",
+      "path": "places/sichuan-xing-jianchang-qianhusuo-military.json"
+    },
+    {
+      "collection": "places",
+      "region": "sichuan-xing-remaining-qianhusuo-military",
+      "path": "places/sichuan-xing-remaining-qianhusuo-military.json"
     },
     {
       "collection": "places",
@@ -310,6 +636,46 @@
     },
     {
       "collection": "placeNames",
+      "region": "danning",
+      "path": "place-names/danning.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "wanquan",
+      "path": "place-names/wanquan.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "beizhili-direct-military",
+      "path": "place-names/beizhili-direct-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "beijing-direct-military",
+      "path": "place-names/beijing-direct-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "nanzhili-direct-military",
+      "path": "place-names/nanzhili-direct-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "nanjing-direct-military",
+      "path": "place-names/nanjing-direct-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "shanxi-military",
+      "path": "place-names/shanxi-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "shanxi-xing-military",
+      "path": "place-names/shanxi-xing-military.json"
+    },
+    {
+      "collection": "placeNames",
       "region": "nanjing",
       "path": "place-names/nanjing.json"
     },
@@ -317,6 +683,61 @@
       "collection": "placeNames",
       "region": "shaanxi",
       "path": "place-names/shaanxi.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "shaanxi-dusi-military",
+      "path": "place-names/shaanxi-dusi-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "shaanxi-dusi-frontier-military",
+      "path": "place-names/shaanxi-dusi-frontier-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "shaanxi-xing-military",
+      "path": "place-names/shaanxi-xing-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "guangxi-dusi-military",
+      "path": "place-names/guangxi-dusi-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "yunnan-dusi-military",
+      "path": "place-names/yunnan-dusi-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "sichuan-dusi-military",
+      "path": "place-names/sichuan-dusi-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "sichuan-dusi-qianhusuo-military",
+      "path": "place-names/sichuan-dusi-qianhusuo-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "sichuan-dusi-qianhusuo-later-military",
+      "path": "place-names/sichuan-dusi-qianhusuo-later-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "sichuan-xing-dusi-military",
+      "path": "place-names/sichuan-xing-dusi-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "sichuan-xing-jianchang-qianhusuo-military",
+      "path": "place-names/sichuan-xing-jianchang-qianhusuo-military.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "sichuan-xing-remaining-qianhusuo-military",
+      "path": "place-names/sichuan-xing-remaining-qianhusuo-military.json"
     },
     {
       "collection": "placeNames",

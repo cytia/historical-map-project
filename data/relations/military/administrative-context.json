@@ -491,5 +491,80 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Recorded Guizhou as the administrative context without changing the military command chain"
     }
-  }
+  },
+  {
+    "id": "tongguan-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tongguan-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "tongguan-beizhili-study",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded the Northern Zhili jurisdiction separately from the Central Army military affiliation; the seat remains at the Tongguan proxy."
+    }
+  },
+  {
+    "id": "puzhou-qianhusuo-beizhili-shanxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "puzhou-qianhusuo-beizhili",
+    "objectId": "shanxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "national-museum-tongguan-puzhou-document",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded the Puzhou seat in Shanxi separately from its Tongguan Guard military parent."
+    }
+  },
+  {"id":"liushou-left-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"liushou-left-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"zhennan-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"zhennan-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"shuijun-left-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"shuijun-left-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"xiaoqi-right-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"xiaoqi-right-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"longhu-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"longhu-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"yingwu-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"yingwu-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"shenyang-left-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"shenyang-left-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"shenyang-right-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"shenyang-right-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"huben-right-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"huben-right-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"liushou-right-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"liushou-right-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"shuijun-right-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"shuijun-right-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"wude-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"wude-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"guangwu-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"guangwu-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"liushou-middle-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"liushou-middle-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"shence-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"shence-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"guangyang-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"guangyang-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"yingtian-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"yingtian-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"heyang-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"heyang-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"muma-qianhusuo-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"muma-qianhusuo-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital battalion's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"tiance-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"tiance-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"longxiang-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"longxiang-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"baotao-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"baotao-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"longjiang-left-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"longjiang-left-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"feixiong-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"feixiong-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"henghai-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"henghai-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"yingyang-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"yingyang-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"xingwu-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"xingwu-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"jiangyin-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"jiangyin-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}},
+  {"id":"menggu-left-wei-beijing-jingshi-administrative-context","relationType":"administrative-context","subjectId":"menggu-left-wei-beijing","objectId":"jingshi","validity":{"from":1600,"to":1600,"precision":"exact"},"confidence":"high","sources":[{"sourceId":"ming-huidian-military-124","claim":"location","confidence":"high"}],"audit":{"reviewedOn":"2026-07-28","revisionNote":"Recorded the in-capital guard's Beijing administrative context without treating Jingshi as its military parent."}}
 ]

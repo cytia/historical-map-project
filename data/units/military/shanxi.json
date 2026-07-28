@@ -1,0 +1,294 @@
+[
+  {
+    "id": "shanxi-dusi",
+    "name": "山西都司",
+    "formalName": "山西都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "shanxi-dusi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current Shanxi Dusi seat at Taiyuan; exact military compound unresolved." }
+  },
+  {
+    "id": "taiyuan-left-wei-shanxi",
+    "name": "太原左卫",
+    "formalName": "太原左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "taiyuan-left-wei-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current guard; Taiyuan historical-city proxy." }
+  },
+  {
+    "id": "taiyuan-right-wei-shanxi",
+    "name": "太原右卫",
+    "formalName": "太原右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "taiyuan-right-wei-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current guard; Taiyuan historical-city proxy." }
+  },
+  {
+    "id": "taiyuan-front-wei-shanxi",
+    "name": "太原前卫",
+    "formalName": "太原前卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "taiyuan-front-wei-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current guard; Taiyuan historical-city proxy." }
+  },
+  {
+    "id": "zhenwu-wei-shanxi",
+    "name": "振武卫",
+    "formalName": "振武卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zhenwu-wei-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current guard; Daizhou historical-city proxy." }
+  },
+  {
+    "id": "pingyang-wei-shanxi",
+    "name": "平阳卫",
+    "formalName": "平阳卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "pingyang-wei-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current guard; Linfen historical-city proxy." }
+  },
+  {
+    "id": "zhenxi-wei-shanxi",
+    "name": "镇西卫",
+    "formalName": "镇西卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "zhenxi-wei-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current guard; Kelan historical-city proxy, not Piantou." }
+  },
+  {
+    "id": "luzhou-wei-shanxi",
+    "name": "潞州卫",
+    "formalName": "潞州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "luzhou-wei-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current guard; Luzhou historical-city proxy at modern Changzhi." }
+  },
+  {
+    "id": "shenyang-middle-huwei-shanxi",
+    "name": "沈阳中护卫",
+    "formalName": "沈阳中护卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shenyang-middle-huwei-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Shen princely guard relocated from Shenyang to Luzhou; modern Changzhi proxy." }
+  },
+  {
+    "id": "fenzhou-wei-shanxi",
+    "name": "汾州卫",
+    "formalName": "汾州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "fenzhou-wei-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Later-added guard; Fenzhou historical-city proxy at modern Fenyang." }
+  },
+  {
+    "id": "qinzhou-qianhusuo-shanxi",
+    "name": "沁州千户所",
+    "formalName": "沁州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "qinzhou-qianhusuo-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current qianhu-suo; Qinzhou historical-city proxy." }
+  },
+  {
+    "id": "ninghua-qianhusuo-shanxi",
+    "name": "宁化千户所",
+    "formalName": "宁化千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "ninghua-qianhusuo-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current qianhu-suo; Ninghua modern-town proxy." }
+  },
+  {
+    "id": "yanmen-qianhusuo-shanxi",
+    "name": "雁门千户所",
+    "formalName": "雁门千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yanmen-qianhusuo-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current qianhu-suo; Yanmen Pass proxy." }
+  },
+  {
+    "id": "baodezhou-qianhusuo-shanxi",
+    "name": "保德州千户所",
+    "formalName": "保德州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "baodezhou-qianhusuo-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli current qianhu-suo; Baodezhou historical-city proxy." }
+  },
+  {
+    "id": "piantouguan-qianhusuo-shanxi",
+    "name": "偏头关千户所",
+    "formalName": "偏头关千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "piantouguan-qianhusuo-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Later-added qianhu-suo; Piantou Pass proxy at modern Pianguan." }
+  },
+  {
+    "id": "cizhou-qianhusuo-shanxi",
+    "name": "磁州千户所",
+    "formalName": "磁州千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "cizhou-qianhusuo-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Later-added qianhu-suo at Cizhou under the Luzhou guard; administrative context is Zhangde, Henan." }
+  },
+  {
+    "id": "ningwu-qianhusuo-shanxi",
+    "name": "宁武千户所",
+    "formalName": "宁武千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "ningwu-qianhusuo-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Later-added qianhu-suo; Ningwu modern county-seat proxy." }
+  },
+  {
+    "id": "bajiao-qianhusuo-shanxi",
+    "name": "八角千户所",
+    "formalName": "八角千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "bajiao-qianhusuo-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Later-added qianhu-suo; modern Bajiao town proxy." }
+  },
+  {
+    "id": "laoyingbao-qianhusuo-shanxi",
+    "name": "老营堡千户所",
+    "formalName": "老营堡千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "laoyingbao-qianhusuo-shanxi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "shanxi-tongzhi-military", "claim": "location", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Later-added qianhu-suo; modern Laoying town proxy northeast of Piantou." }
+  }
+]

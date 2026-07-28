@@ -1,0 +1,158 @@
+[
+  {
+    "id": "shandong-dusi",
+    "name": "山东都司",
+    "formalName": "山东都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "licheng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster record; the Licheng proxy represents the Jinan seat area and does not assert the exact Dusi compound." }
+  },
+  {
+    "id": "jinan-wei-shandong", "name": "济南卫", "formalName": "济南卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "licheng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed in the Wanli Shandong Dusi roster; exact guard compound is unresolved." }
+  },
+  {
+    "id": "yanzhou-huwei-shandong", "name": "兖州护卫", "formalName": "兖州护卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "ziyang-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high", "note": "Included because the Wanli Huidian current roster retains the entry; the Ming History military summary records a different earlier disposition." }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry retained despite a conflicting earlier Ming History disposition; requires later reconciliation." }
+  },
+  {
+    "id": "pingshan-wei-shandong", "name": "平山卫", "formalName": "平山卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "xincheng-jinan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; the Xincheng area proxy does not assert the exact guard compound." }
+  },
+  {
+    "id": "qingzhou-zuowei-shandong", "name": "青州左卫", "formalName": "青州左卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "yidu-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Yidu/Qingzhou is used as the seat proxy." }
+  },
+  {
+    "id": "dengzhou-wei-shandong", "name": "登州卫", "formalName": "登州卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "penglai-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Penglai is used as the Dengzhou seat proxy." }
+  },
+  {
+    "id": "laizhou-wei-shandong", "name": "莱州卫", "formalName": "莱州卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "ye-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Ye/Laizhou is used as the seat proxy." }
+  },
+  {
+    "id": "ninghai-wei-shandong", "name": "宁海卫", "formalName": "宁海卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "ninghai-dengzhou-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; the Ninghai modern proxy is retained with low geographic precision." }
+  },
+  {
+    "id": "linqing-wei-shandong", "name": "临清卫", "formalName": "临清卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "linqing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Linqing is used as the seat proxy." }
+  },
+  {
+    "id": "rencheng-wei-shandong", "name": "任城卫", "formalName": "任城卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "jining-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Jining is used as the Rencheng seat proxy." }
+  },
+  {
+    "id": "andong-wei-shandong", "name": "安东卫", "formalName": "安东卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "rizhao-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Rizhao is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "dongchang-wei-shandong", "name": "东昌卫", "formalName": "东昌卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "liaocheng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Liaocheng is used as the Dongchang seat proxy." }
+  },
+  {
+    "id": "jining-wei-shandong", "name": "济宁卫", "formalName": "济宁卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "jining-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Added guard retained in the Wanli roster; Jining is used as the seat proxy." }
+  },
+  {
+    "id": "lingshan-wei-shandong", "name": "灵山卫", "formalName": "灵山卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "jimo-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Added guard retained in the Wanli roster; Jimo is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "aoshan-wei-shandong", "name": "鳌山卫", "formalName": "鳌山卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "jimo-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Added guard retained in the Wanli roster; Jimo is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "dasong-wei-shandong", "name": "大嵩卫", "formalName": "大嵩卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "jimo-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Added guard retained in the Wanli roster; Jimo is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "weihai-wei-shandong", "name": "威海卫", "formalName": "威海卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "wendeng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Added guard retained in the Wanli roster; Wendeng is used as the area proxy." }
+  },
+  {
+    "id": "chengshan-wei-shandong", "name": "成山卫", "formalName": "成山卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "wendeng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Added guard retained in the Wanli roster; Wendeng is used as the area proxy." }
+  },
+  {
+    "id": "jinghai-wei-shandong", "name": "靖海卫", "formalName": "靖海卫", "level": "military", "militaryKind": "wei", "polityId": "ming", "seatPlaceId": "wendeng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Added guard retained in the Wanli roster; Wendeng is used as a broad coastal area proxy." }
+  },
+  {
+    "id": "jiaozhou-qianhusuo-shandong", "name": "胶州千户所", "formalName": "胶州千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "jiaozhou-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Jiaozhou is used as the seat proxy." }
+  },
+  {
+    "id": "zhucheng-qianhusuo-shandong", "name": "诸城千户所", "formalName": "诸城千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "zhucheng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; Zhucheng is used as the seat proxy." }
+  },
+  {
+    "id": "tengxian-qianhusuo-shandong", "name": "滕县千户所", "formalName": "滕县千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "yi-yanzhou-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Wanli roster entry; the Yanzhou-area proxy does not assert the exact office compound." }
+  },
+  {
+    "id": "feicheng-qianhusuo-shandong", "name": "肥城千户所", "formalName": "肥城千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "feicheng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Feicheng is used as the seat proxy." }
+  },
+  {
+    "id": "dongping-qianhusuo-shandong", "name": "东平千户所", "formalName": "东平千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "dongping-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Dongping is used as the seat proxy." }
+  },
+  {
+    "id": "puzhou-qianhusuo-shandong", "name": "濮州千户所", "formalName": "濮州千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "puzhou-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Puzhou is used as the seat proxy." }
+  },
+  {
+    "id": "fushan-zhongqian-qianhusuo-shandong", "name": "福山中前千户所", "formalName": "福山中前千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "fushan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Fushan is used as the seat proxy." }
+  },
+  {
+    "id": "qishan-qianhusuo-shandong", "name": "奇山千户所", "formalName": "奇山千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "qixia-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Qixia is used as a broad northern coastal proxy." }
+  },
+  {
+    "id": "jinshan-zuo-qianhusuo-shandong", "name": "金山左千户所", "formalName": "金山左千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "laiyang-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Laiyang is used as a broad coastal proxy." }
+  },
+  {
+    "id": "haiyang-qianhusuo-shandong", "name": "海阳千户所", "formalName": "海阳千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "laiyang-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Laiyang is used as a broad coastal proxy." }
+  },
+  {
+    "id": "ningjin-qianhusuo-shandong", "name": "宁津千户所", "formalName": "宁津千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "ling-jinan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Lingcheng is used as a broad northern area proxy." }
+  },
+  {
+    "id": "xunshan-hou-qianhusuo-shandong", "name": "寻山后千户所", "formalName": "寻山后千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "wendeng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Wendeng is used as a broad coastal proxy." }
+  },
+  {
+    "id": "baichiya-hou-qianhusuo-shandong", "name": "百尺崖后千户所", "formalName": "百尺崖后千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "wendeng-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Wendeng is used as a broad coastal proxy." }
+  },
+  {
+    "id": "fushan-qian-qianhusuo-shandong", "name": "浮山前千户所", "formalName": "浮山前千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "fushan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "high", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Fushan is used as the seat proxy." }
+  },
+  {
+    "id": "wangxuzhai-qian-qianhusuo-shandong", "name": "王徐寨前千户所", "formalName": "王徐寨前千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "jimo-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Jimo is used as a broad coastal proxy." }
+  },
+  {
+    "id": "xiahezhai-qian-qianhusuo-shandong", "name": "夏河寨前千户所", "formalName": "夏河寨前千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "jimo-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Jimo is used as a broad coastal proxy." }
+  },
+  {
+    "id": "xionggya-qianhusuo-shandong", "name": "雄崖千户所", "formalName": "雄崖千户所", "level": "military", "militaryKind": "qianhu-suo", "polityId": "ming", "seatPlaceId": "jimo-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" }, "confidence": "medium", "sources": [{ "sourceId": "ming-huidian-military-124", "claim": "existence", "confidence": "high" }], "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Marked as a later addition in the Wanli roster; Jimo is used as a broad coastal proxy." }
+  }
+]

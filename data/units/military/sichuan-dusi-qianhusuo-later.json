@@ -1,0 +1,80 @@
+[
+  {
+    "id": "guangan-qianhusuo-sichuan",
+    "name": "广安千户所",
+    "formalName": "广安守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "guangan-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Later-added qianhu-suo directly under Sichuan Dusi; historical seat is east of Guang'an State seat." }
+  },
+  {
+    "id": "guan-qianhusuo-sichuan",
+    "name": "灌县千户所",
+    "formalName": "灌县守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "guan-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "景泰后新设的守御千户所，直隶四川都司；现代都江堰历史城市代理用于驻地。" }
+  },
+  {
+    "id": "qianjiang-qianhusuo-sichuan",
+    "name": "黔江千户所",
+    "formalName": "黔江守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "qianjiang-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Later-added qianhu-suo under Chongqing Guard; modern Qianjiang county-seat proxy used." }
+  },
+  {
+    "id": "diexi-qianhusuo-sichuan",
+    "name": "叠溪千户所",
+    "formalName": "叠溪守御军民千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "diexi-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Originally under Maozhou Guard, then directly under Sichuan Dusi by the 1600 slice; modern Diexi Town proxy used." }
+  },
+  {
+    "id": "jianwu-qianhusuo-sichuan",
+    "name": "建武千户所",
+    "formalName": "建武守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "jianwu-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Established after the Wanli suppression of the Bo people area and directly attached to Sichuan Dusi; modern Jianwu locality proxy used." }
+  },
+  {
+    "id": "xiaohe-qianhusuo-sichuan",
+    "name": "小河千户所",
+    "formalName": "小河守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "xiaohe-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Later-added qianhu-suo under Songpan Guard; modern Xiaohe Town and Ming Xiaohe ancient-city proxy used." }
+  }
+]

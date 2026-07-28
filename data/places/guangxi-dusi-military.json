@@ -1,0 +1,398 @@
+[
+  {
+    "id": "guangxi-dusi-seat",
+    "longitude": 110.29,
+    "latitude": 25.27,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guilin historical-city proxy for the Guangxi Dusi seat; exact Ming military compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high", "note": "Guilin was the historical military and prefectural seat area." } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the Dusi seat at city scale rather than implying a precise office compound." }
+  },
+  {
+    "id": "guilin-right-wei-guangxi-seat",
+    "longitude": 110.29,
+    "latitude": 25.27,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guilin historical-city proxy for the Guilin Right Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Shared city-level proxy for the guard seated at Guilin." }
+  },
+  {
+    "id": "guilin-middle-wei-guangxi-seat",
+    "longitude": 110.29,
+    "latitude": 25.27,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guilin historical-city proxy for the Guilin Middle Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Shared city-level proxy for the guard seated at Guilin." }
+  },
+  {
+    "id": "nanning-wei-guangxi-seat",
+    "longitude": 108.32,
+    "latitude": 22.82,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Nanning historical-city proxy for the Nanning Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the point at the historical Nanning city area." }
+  },
+  {
+    "id": "liuzhou-wei-guangxi-seat",
+    "longitude": 109.41,
+    "latitude": 24.32,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Liuzhou historical-city proxy for the Liuzhou Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the point at the historical Liuzhou city area." }
+  },
+  {
+    "id": "xunxiang-wei-guangxi-seat",
+    "longitude": 109.2674,
+    "latitude": 22.68955,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Hengzhou historical-city proxy for the Xunxiang Guard after its migration from the Left River area; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Hengzhou proxy based on Wikidata Q1355002." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used Hengzhou as the Wanli-era seat proxy, not the earlier Left River establishment area." }
+  },
+  {
+    "id": "guangxi-huwei-seat",
+    "longitude": 110.29,
+    "latitude": 25.27,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guilin historical-city proxy for the Guangxi Huwei; exact princely guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high", "note": "The current Guangxi Huwei retained the Guilin seat area." } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Recorded the Huwei at Guilin while keeping its military roster identity separate from the Dusi seat." }
+  },
+  {
+    "id": "nandan-wei-guangxi-seat",
+    "longitude": 108.59969,
+    "latitude": 23.43455,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Shanglin Sanli area proxy for the Nandan Guard after its migration; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Shanglin County proxy based on Wikidata Q1209053." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the later Sanli/Shanglin seat area rather than the earlier Nandan county proxy." }
+  },
+  {
+    "id": "qingyuan-wei-guangxi-seat",
+    "longitude": 108.66,
+    "latitude": 24.49,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yizhou historical-city proxy for the Qingyuan Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the point at the Qingyuan/Yizhou city area." }
+  },
+  {
+    "id": "xunzhou-wei-guangxi-seat",
+    "longitude": 110.08,
+    "latitude": 23.39,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guiping historical-city proxy for the Xunzhou Guard; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the point at the historical Xunzhou/Guiping city area." }
+  },
+  {
+    "id": "fengyi-wei-guangxi-seat",
+    "longitude": 109.59444444444,
+    "latitude": 23.11444444444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guigang historical-city proxy for the Fengyi Guard after its migration to the Gui County area; exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Guigang proxy based on Wikidata Q571808." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the later Gui County/Guigang seat area rather than the earlier native-state proxy." }
+  },
+  {
+    "id": "wuzhou-qianhusuo-guangxi-seat",
+    "longitude": 111.28,
+    "latitude": 23.48,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Wuzhou historical-city proxy for the Wuzhou Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the point at the historical Wuzhou/Cangwu city area." }
+  },
+  {
+    "id": "quanzhou-qianhusuo-guangxi-seat",
+    "longitude": 111.0669,
+    "latitude": 25.93104,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Quanzhou County proxy for the Quanzhou Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Quanzhou County proxy based on Wikidata Q1343801." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used a modern county proxy for the historical Quanzhou seat area." }
+  },
+  {
+    "id": "guanyang-qianhusuo-guangxi-seat",
+    "longitude": 111.15453,
+    "latitude": 25.49337,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guanyang County proxy for the Guanyang Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Guanyang County proxy based on Wikidata Q1342700." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used a modern county proxy for the historical Guanyang seat area." }
+  },
+  {
+    "id": "gutian-qianhusuo-guangxi-seat",
+    "longitude": 109.98333333333,
+    "latitude": 24.98333333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yongfu area proxy for the Gutian Qianhu Office, historically associated with Yongning state; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Yongfu County proxy based on Wikidata Q1342071." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Placed the Wanli-era Gutian proxy in the Yongfu northwest area." }
+  },
+  {
+    "id": "xiangzhou-qianhusuo-guangxi-seat",
+    "longitude": 109.75138888889,
+    "latitude": 24.02472222222,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xiangzhou County proxy for the Xiangzhou Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Xiangzhou County proxy based on Wikidata Q1355157." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used a modern county proxy for the historical Xiangzhou seat area." }
+  },
+  {
+    "id": "binzhou-qianhusuo-guangxi-seat",
+    "longitude": 109.24,
+    "latitude": 23.22,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Binyang area proxy for the Binzhou Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Binyang County proxy based on Wikidata Q864098." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the Binyang seat area for historical Binzhou." }
+  },
+  {
+    "id": "rongxian-qianhusuo-guangxi-seat",
+    "longitude": 109.39963,
+    "latitude": 25.21812,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Rong'an area proxy for the Rong County Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Rong'an County proxy based on Wikidata Q1342775." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Distinguished historical 融县 from historical 容县 in the place identifier and proxy." }
+  },
+  {
+    "id": "laibin-qianhusuo-guangxi-seat",
+    "longitude": 109.23333333333,
+    "latitude": 23.73333333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Laibin area proxy for the Laibin Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Laibin City proxy based on Wikidata Q572140." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used a modern city proxy for the historical Laibin seat area." }
+  },
+  {
+    "id": "wuxuan-qianhusuo-guangxi-seat",
+    "longitude": 109.65,
+    "latitude": 23.6,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Wuxuan County proxy for the Wuxuan Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Wuxuan County proxy based on Wikidata Q1341883." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used a modern county proxy for the historical Wuxuan seat area." }
+  },
+  {
+    "id": "qianjiang-tuntian-qianhusuo-guangxi-seat",
+    "longitude": 109.23333333333,
+    "latitude": 23.73333333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Laibin area proxy for the Qianjiang Tuntian Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Laibin proxy based on Wikidata Q572140; Qianjiang was in the Laibin area." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the modern Qianjiang/Laibin area proxy for the屯田所." }
+  },
+  {
+    "id": "hechi-qianhusuo-guangxi-seat",
+    "longitude": 108.085,
+    "latitude": 24.69277777778,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Hechi area proxy for the Hechi Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Hechi City proxy based on Wikidata Q572089." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the point in the historical Hechi/Yizhou regional area." }
+  },
+  {
+    "id": "pingle-qianhusuo-guangxi-seat",
+    "longitude": 110.64,
+    "latitude": 24.63,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Pingle historical-city proxy for the Pingle Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the point at the historical Pingle seat area." }
+  },
+  {
+    "id": "fuchuan-qianhusuo-guangxi-seat",
+    "longitude": 111.26666666667,
+    "latitude": 24.83333333333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Fuchuan County proxy for the Fuchuan Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Fuchuan County proxy based on Wikidata Q1202232." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used a modern county proxy for the historical Fuchuan seat area." }
+  },
+  {
+    "id": "he-xian-qianhusuo-guangxi-seat",
+    "longitude": 111.54777777778,
+    "latitude": 24.41638888889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Hezhou area proxy for the He County Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Hezhou proxy based on Wikidata Q572014." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the historical He County/Hezhou seat area." }
+  },
+  {
+    "id": "huaiji-qianhusuo-guangxi-seat",
+    "longitude": 112.1765,
+    "latitude": 23.91533,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Huaiji County proxy for the Huaiji Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Huaiji County proxy based on Wikidata Q1199561." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Retained the historical Guangxi Dusi roster while locating Huaiji in its modern county area." }
+  },
+  {
+    "id": "rong-qianhusuo-guangxi-seat",
+    "longitude": 110.55,
+    "latitude": 22.86666666667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Rong County proxy for the Rong County Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Rong County proxy based on Wikidata Q1341965." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Distinguished historical 容县 from historical 融县 in the place identifier and proxy." }
+  },
+  {
+    "id": "yulin-qianhusuo-guangxi-seat",
+    "longitude": 110.15067,
+    "latitude": 22.6293,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yulin area proxy for the historical Yulin Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Yulin City proxy based on Wikidata Q571918." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Kept the historical 郁林 name while using the modern Yulin area as a coordinate proxy." }
+  },
+  {
+    "id": "wutun-tuntian-qianhusuo-guangxi-seat",
+    "longitude": 110.92435,
+    "latitude": 23.37661,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Teng County western-area proxy for the Wutun Tuntian Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Teng County proxy based on Wikidata Q1314049; Wutun was west of Teng County." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the Wutun/Teng County area rather than the Wuzhou city point." }
+  },
+  {
+    "id": "guixian-qianhusuo-guangxi-seat",
+    "longitude": 109.59444444444,
+    "latitude": 23.11444444444,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guigang area proxy for the Gui County Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Guigang City proxy based on Wikidata Q571808." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the historical Gui County/Guigang seat area." }
+  },
+  {
+    "id": "xiangwu-qianhusuo-guangxi-seat",
+    "longitude": 106.95944,
+    "latitude": 23.23379,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xiangdu area proxy for the Xiangwu Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Xiangdu Town proxy based on Wikidata Q10918187." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the historical Xiangwu state-seat area as the reversible proxy." }
+  },
+  {
+    "id": "wuyuan-qianhusuo-guangxi-seat",
+    "longitude": 108.27,
+    "latitude": 23.16,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Wuming area proxy for the Wuyuan Qianhu Office; exact compound remains unresolved.",
+    "confidence": "low",
+    "sources": [ { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "medium", "note": "Modern Wuming area is an approximate successor-area proxy for historical Wuyuan." } ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Marked low confidence because the exact historical Wuyuan seat needs a dedicated gazetteer review." }
+  },
+  {
+    "id": "taiping-qianhusuo-guangxi-seat",
+    "longitude": 107.09782,
+    "latitude": 22.64463,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Leiping area proxy for the Taiping Qianhu Office; exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-six", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Leiping Town proxy based on Wikidata Q14575938." }
+    ],
+    "audit": { "reviewedOn": "2026-07-28", "revisionNote": "Used the historical Taiping state-seat area as the reversible proxy." }
+  }
+]

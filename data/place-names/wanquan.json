@@ -1,0 +1,531 @@
+[
+  {
+    "id": "name-wanquan-dusi-seat",
+    "placeId": "wanquan-dusi-seat",
+    "name": "万全都司",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-wanquan-left-wei-wanquan-seat",
+    "placeId": "wanquan-left-wei-wanquan-seat",
+    "name": "万全左卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-wanquan-right-wei-wanquan-seat",
+    "placeId": "wanquan-right-wei-wanquan-seat",
+    "name": "万全右卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-xuanfu-front-wei-wanquan-seat",
+    "placeId": "xuanfu-front-wei-wanquan-seat",
+    "name": "宣府前卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-xuanfu-left-wei-wanquan-seat",
+    "placeId": "xuanfu-left-wei-wanquan-seat",
+    "name": "宣府左卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-xuanfu-right-wei-wanquan-seat",
+    "placeId": "xuanfu-right-wei-wanquan-seat",
+    "name": "宣府右卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-huaian-wei-wanquan-seat",
+    "placeId": "huaian-wei-wanquan-seat",
+    "name": "怀安卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-kaiping-wei-wanquan-seat",
+    "placeId": "kaiping-wei-wanquan-seat",
+    "name": "开平卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yanqing-left-wei-wanquan-seat",
+    "placeId": "yanqing-left-wei-wanquan-seat",
+    "name": "延庆左卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yanqing-right-wei-wanquan-seat",
+    "placeId": "yanqing-right-wei-wanquan-seat",
+    "name": "延庆右卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-longmen-wei-wanquan-seat",
+    "placeId": "longmen-wei-wanquan-seat",
+    "name": "龙门卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-baoan-wei-wanquan-seat",
+    "placeId": "baoan-wei-wanquan-seat",
+    "name": "保安卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-baoan-right-wei-wanquan-seat",
+    "placeId": "baoan-right-wei-wanquan-seat",
+    "name": "保安右卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-weizhou-wei-wanquan-seat",
+    "placeId": "weizhou-wei-wanquan-seat",
+    "name": "蔚州卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yongning-wei-wanquan-seat",
+    "placeId": "yongning-wei-wanquan-seat",
+    "name": "永宁卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-huailai-wei-wanquan-seat",
+    "placeId": "huailai-wei-wanquan-seat",
+    "name": "怀来卫",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-xinghe-qianhusuo-wanquan-seat",
+    "placeId": "xinghe-qianhusuo-wanquan-seat",
+    "name": "兴和千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-meiyu-qianhusuo-wanquan-seat",
+    "placeId": "meiyu-qianhusuo-wanquan-seat",
+    "name": "美峪千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-sihaiye-qianhusuo-wanquan-seat",
+    "placeId": "sihaiye-qianhusuo-wanquan-seat",
+    "name": "四海冶千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-guangchang-qianhusuo-wanquan-seat",
+    "placeId": "guangchang-qianhusuo-wanquan-seat",
+    "name": "广昌千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-changan-qianhusuo-wanquan-seat",
+    "placeId": "changan-qianhusuo-wanquan-seat",
+    "name": "长安千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-yunchuan-qianhusuo-wanquan-seat",
+    "placeId": "yunchuan-qianhusuo-wanquan-seat",
+    "name": "云川千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  },
+  {
+    "id": "name-longmen-qianhusuo-wanquan-seat",
+    "placeId": "longmen-qianhusuo-wanquan-seat",
+    "name": "龙门千户所",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Unified public military institution label."
+    }
+  }
+]

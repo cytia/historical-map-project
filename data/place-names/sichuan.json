@@ -3287,5 +3287,55 @@
       "reviewedOn": "2026-07-15",
       "revisionNote": "1600 zhaotaosi label"
     }
+  },
+  {
+    "id": "name-changzhou-sichuan-xing-seat",
+    "placeId": "changzhou-sichuan-xing-seat",
+    "name": "昌州长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public special-governance unit label." }
+  },
+  {
+    "id": "name-weilong-sichuan-xing-seat",
+    "placeId": "weilong-sichuan-xing-seat",
+    "name": "威龙长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public special-governance unit label." }
+  },
+  {
+    "id": "name-puji-sichuan-xing-seat",
+    "placeId": "puji-sichuan-xing-seat",
+    "name": "普济长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public special-governance unit label." }
+  },
+  {
+    "id": "name-mala-sichuan-xing-seat",
+    "placeId": "mala-sichuan-xing-seat",
+    "name": "马剌长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high", "note": "马喇 is a later/common variant." } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Primary-source spelling retained in the public label." }
+  },
+  {
+    "id": "name-qiongbu-sichuan-xing-seat",
+    "placeId": "qiongbu-sichuan-xing-seat",
+    "name": "邛部长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Unified public special-governance unit label." }
   }
 ]

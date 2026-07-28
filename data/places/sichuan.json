@@ -3308,5 +3308,70 @@
       "reviewedOn": "2026-07-17",
       "revisionNote": "Sichuan replacement batch 3: replaced the restricted location claim with an independent Wikidata modern proxy; the 1600 historical identity remains from Ming Shi."
     }
+  },
+  {
+    "id": "changzhou-sichuan-xing-seat",
+    "longitude": 102.1740914,
+    "latitude": 27.406278,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Dezhou Town and Dechang historical-county proxy for Changzhou Longguan-si; the exact historical compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Dechang proxy, Wikidata Q1181789." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "The historical source identifies modern Dezhou/Dechang; the exact Changzhou compound is unresolved." }
+  },
+  {
+    "id": "weilong-sichuan-xing-seat",
+    "longitude": 102.175661,
+    "latitude": 27.402832,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Dechang county proxy for Weilong Longguan-si; the historical source identifies modern Dashan Township, but an independent township-center coordinate was not available.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high", "note": "Modern correspondence is Dashan Township in Dechang County." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Modern Dechang county proxy, Wikidata Q1181789." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence county proxy pending a dedicated coordinate for historical Weilong or modern Dashan Township." }
+  },
+  {
+    "id": "puji-sichuan-xing-seat",
+    "longitude": 101.971714,
+    "latitude": 27.045652,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Puwei Town proxy for Puji Longguan-si; modern local-history sources identify Puwei as the historical Puji area.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" },
+      { "sourceId": "modern-puwei-coordinate-directory", "claim": "location", "confidence": "medium", "note": "Modern Puwei Town coordinate proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "The historical Puji identity is retained while the point uses the modern Puwei locality proxy." }
+  },
+  {
+    "id": "mala-sichuan-xing-seat",
+    "longitude": 101.4429993,
+    "latitude": 26.8295689,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Huimin Town proxy for Mala Longguan-si; the exact historical compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "medium", "note": "The historical unit is also written 马喇 and is placed in the modern Yanbian area by local historical references." },
+      { "sourceId": "modern-huimin-coordinate-directory", "claim": "location", "confidence": "low", "note": "Modern Huimin Town coordinate proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern proxy; the historical 马剌/马喇 seat requires a more exact locality reconstruction." }
+  },
+  {
+    "id": "qiongbu-sichuan-xing-seat",
+    "longitude": 102.50609,
+    "latitude": 28.643938,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yuexi county-seat proxy for Qiongbu Longguan-si; the historical source identifies the locality as modern Yuexi Chengguan.",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Yuexi county-seat proxy shared with the Yuexi Guard." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "The historical Qiongbu seat is identified with modern Yuexi Chengguan; exact compound remains unresolved." }
   }
 ]

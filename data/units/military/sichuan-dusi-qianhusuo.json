@@ -1,0 +1,67 @@
+[
+  {
+    "id": "qingchuan-qianhusuo-sichuan",
+    "name": "青川千户所",
+    "formalName": "青川守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "qingchuan-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Historical seat is in modern Qingchuan Qingxi Town; the exact Ming compound remains unresolved." }
+  },
+  {
+    "id": "baoning-qianhusuo-sichuan",
+    "name": "保宁千户所",
+    "formalName": "保宁守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "baoning-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Listed under Baoning Prefecture; the modern Langzhong historical-city proxy is used for the seat." }
+  },
+  {
+    "id": "weizhou-qianhusuo-sichuan",
+    "name": "威州千户所",
+    "formalName": "威州守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "weizhou-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "The qianhusuo is kept separate from the later Weizhou administrative seat; modern Weizhou Town is only a location proxy." }
+  },
+  {
+    "id": "yazhou-qianhusuo-sichuan",
+    "name": "雅州千户所",
+    "formalName": "雅州守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yazhou-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Modern Ya'an/Yazhou historical-city proxy used for the seat; exact Ming compound unresolved." }
+  },
+  {
+    "id": "daduhe-qianhusuo-sichuan",
+    "name": "大渡河千户所",
+    "formalName": "大渡河守御千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "daduhe-qianhusuo-sichuan-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [ { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" } ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Modern Hanyuan Qingxi/Fulin area proxy used; the exact Ming military compound remains unresolved." }
+  }
+]

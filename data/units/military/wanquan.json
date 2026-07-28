@@ -1,0 +1,600 @@
+[
+  {
+    "id": "wanquan-dusi",
+    "name": "万全都司",
+    "formalName": "万全都指挥使司",
+    "level": "military",
+    "militaryKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "wanquan-dusi-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current Wanquan Dusi seat in the Xuanfu walled-city proxy."
+    }
+  },
+  {
+    "id": "wanquan-left-wei-wanquan",
+    "name": "万全左卫",
+    "formalName": "万全左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "wanquan-left-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Left Guard Town proxy."
+    }
+  },
+  {
+    "id": "wanquan-right-wei-wanquan",
+    "name": "万全右卫",
+    "formalName": "万全右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "wanquan-right-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Wanquan Town proxy."
+    }
+  },
+  {
+    "id": "xuanfu-front-wei-wanquan",
+    "name": "宣府前卫",
+    "formalName": "宣府前卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xuanfu-front-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Xuanhua proxy for Xuanfu city."
+    }
+  },
+  {
+    "id": "xuanfu-left-wei-wanquan",
+    "name": "宣府左卫",
+    "formalName": "宣府左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xuanfu-left-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Xuanhua proxy for Xuanfu city."
+    }
+  },
+  {
+    "id": "xuanfu-right-wei-wanquan",
+    "name": "宣府右卫",
+    "formalName": "宣府右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "xuanfu-right-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Xuanhua proxy for Xuanfu city."
+    }
+  },
+  {
+    "id": "huaian-wei-wanquan",
+    "name": "怀安卫",
+    "formalName": "怀安卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "huaian-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Huai'an City Town proxy."
+    }
+  },
+  {
+    "id": "kaiping-wei-wanquan",
+    "name": "开平卫",
+    "formalName": "开平卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "kaiping-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; Ming seat moved to Dushikou."
+    }
+  },
+  {
+    "id": "yanqing-left-wei-wanquan",
+    "name": "延庆左卫",
+    "formalName": "延庆左卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yanqing-left-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; relocated seat at Yongning."
+    }
+  },
+  {
+    "id": "yanqing-right-wei-wanquan",
+    "name": "延庆右卫",
+    "formalName": "延庆右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yanqing-right-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; relocated seat at Huailai City."
+    }
+  },
+  {
+    "id": "longmen-wei-wanquan",
+    "name": "龙门卫",
+    "formalName": "龙门卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "longmen-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Longguan Town proxy."
+    }
+  },
+  {
+    "id": "baoan-wei-wanquan",
+    "name": "保安卫",
+    "formalName": "保安卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "baoan-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; old Baoan State seat proxy."
+    }
+  },
+  {
+    "id": "baoan-right-wei-wanquan",
+    "name": "保安右卫",
+    "formalName": "保安右卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "baoan-right-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; co-located with Huai'an Guard."
+    }
+  },
+  {
+    "id": "weizhou-wei-wanquan",
+    "name": "蔚州卫",
+    "formalName": "蔚州卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "weizhou-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Yu County seat proxy."
+    }
+  },
+  {
+    "id": "yongning-wei-wanquan",
+    "name": "永宁卫",
+    "formalName": "永宁卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "yongning-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Yongning Town proxy."
+    }
+  },
+  {
+    "id": "huailai-wei-wanquan",
+    "name": "怀来卫",
+    "formalName": "怀来卫",
+    "level": "military",
+    "militaryKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "huailai-wei-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current guard; modern Huailai county-seat proxy."
+    }
+  },
+  {
+    "id": "xinghe-qianhusuo-wanquan",
+    "name": "兴和千户所",
+    "formalName": "兴和千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "xinghe-qianhusuo-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current Qianhu Guard; moved to Xuanfu city in 1422."
+    }
+  },
+  {
+    "id": "meiyu-qianhusuo-wanquan",
+    "name": "美峪千户所",
+    "formalName": "美峪千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "meiyu-qianhusuo-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current Qianhu Guard; 1600 seat at old Meiyu Ridge."
+    }
+  },
+  {
+    "id": "sihaiye-qianhusuo-wanquan",
+    "name": "四海冶千户所",
+    "formalName": "四海冶千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "sihaiye-qianhusuo-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current Qianhu Guard; modern Sihai Town proxy."
+    }
+  },
+  {
+    "id": "guangchang-qianhusuo-wanquan",
+    "name": "广昌千户所",
+    "formalName": "广昌千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "guangchang-qianhusuo-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current Qianhu Guard; historical seat in Shanxi Guangchang."
+    }
+  },
+  {
+    "id": "changan-qianhusuo-wanquan",
+    "name": "长安千户所",
+    "formalName": "长安千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "changan-qianhusuo-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current Qianhu Guard; modern Chang'an Ridge proxy."
+    }
+  },
+  {
+    "id": "yunchuan-qianhusuo-wanquan",
+    "name": "云川千户所",
+    "formalName": "云川千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "yunchuan-qianhusuo-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current Qianhu Guard; mapped to the Yunzhou Fort area."
+    }
+  },
+  {
+    "id": "longmen-qianhusuo-wanquan",
+    "name": "龙门千户所",
+    "formalName": "龙门千户所",
+    "level": "military",
+    "militaryKind": "qianhu-suo",
+    "polityId": "ming",
+    "seatPlaceId": "longmen-qianhusuo-wanquan-seat",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Wanli current Qianhu Guard; modern Longmensuo proxy for Li Family Village."
+    }
+  }
+]

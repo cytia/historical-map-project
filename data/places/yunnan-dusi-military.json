@@ -1,0 +1,793 @@
+[
+  {
+    "id": "yunnan-dusi-seat",
+    "longitude": 102.71,
+    "latitude": 25.04,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Kunming historical-city proxy for the Yunnan Dusi seat; the exact Ming military compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yunnan Dusi seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yunnan-left-wei-yunnan-dusi-seat",
+    "longitude": 102.71,
+    "latitude": 25.04,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Kunming historical-city proxy for the Yunnan Left Guard; the exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yunnan Left Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yunnan-right-wei-yunnan-dusi-seat",
+    "longitude": 102.71,
+    "latitude": 25.04,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Kunming historical-city proxy for the Yunnan Right Guard; the exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yunnan Right Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yunnan-middle-wei-yunnan-dusi-seat",
+    "longitude": 102.71,
+    "latitude": 25.04,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Kunming historical-city proxy for the Yunnan Middle Guard; the exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yunnan Middle Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yunnan-front-wei-yunnan-dusi-seat",
+    "longitude": 102.71,
+    "latitude": 25.04,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Kunming historical-city proxy for the Yunnan Front Guard; the exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yunnan Front Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yunnan-rear-wei-yunnan-dusi-seat",
+    "longitude": 102.71,
+    "latitude": 25.04,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Kunming historical-city proxy for the Yunnan Rear Guard; the exact guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yunnan Rear Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "guangnan-wei-yunnan-dusi-seat",
+    "longitude": 105.06,
+    "latitude": 24.05,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guangnan historical-seat proxy for Guangnan Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Guangnan Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "linan-wei-yunnan-dusi-seat",
+    "longitude": 102.83,
+    "latitude": 23.62,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jianshui historical-city proxy for the Linan Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Linan Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "qujing-wei-yunnan-dusi-seat",
+    "longitude": 103.8,
+    "latitude": 25.49,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Qujing historical-city proxy for the Qujing Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Qujing Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "pingyi-wei-yunnan-dusi-seat",
+    "longitude": 104.25,
+    "latitude": 25.67,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Fuyuan-area proxy for the relocated Pingyi Guard; the exact historical seat and compound remain unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Pingyi Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yuezhou-wei-yunnan-dusi-seat",
+    "longitude": 103.82,
+    "latitude": 25.62,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhanyi-area proxy for the Yuezhou Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yuezhou Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "liuliang-wei-yunnan-dusi-seat",
+    "longitude": 103.66,
+    "latitude": 25.03,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Luliang-area proxy for the Liuliang Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Liuliang Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "dali-wei-yunnan-dusi-seat",
+    "longitude": 100.16,
+    "latitude": 25.69,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Dali historical-city proxy for the Dali Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Dali Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "erhai-wei-yunnan-dusi-seat",
+    "longitude": 100.56,
+    "latitude": 25.48,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xiangyun-area proxy for the Erhai Guard; the historical seat is not resolved to a precise modern compound.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Erhai Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "daluo-wei-yunnan-dusi-seat",
+    "longitude": 100.58,
+    "latitude": 25.82,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Binchuan-area proxy north of Binchuan for the Daluo Guard; the exact historical seat remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Daluo Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "chuxiong-wei-yunnan-dusi-seat",
+    "longitude": 101.55,
+    "latitude": 25.04,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Chuxiong historical-city proxy for the Chuxiong Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Chuxiong Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "jingdong-wei-yunnan-dusi-seat",
+    "longitude": 100.83771,
+    "latitude": 24.4515,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jingdong county-seat proxy for the Jingdong Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Jingdong county-seat proxy based on Wikidata Q1152904."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Jingdong Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "menghua-wei-yunnan-dusi-seat",
+    "longitude": 100.30788,
+    "latitude": 25.2404,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Menghua-area proxy for the Menghua Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern Menghua-area proxy based on Wikidata Q10909007."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Menghua Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "lancang-wei-yunnan-dusi-seat",
+    "longitude": 100.75,
+    "latitude": 26.68,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yongsheng/Beisheng proxy for the Lancang Guard; the historical military compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Lancang Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yongchang-wei-yunnan-dusi-seat",
+    "longitude": 99.16,
+    "latitude": 25.12,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Baoshan historical-city proxy for the Yongchang Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yongchang Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "tengchong-wei-yunnan-dusi-seat",
+    "longitude": 98.49,
+    "latitude": 25.02,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Tengchong historical-city proxy for the Tengchong Guard; the exact Ming guard compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Tengchong Guard seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "anning-qianhusuo-yunnan-dusi-seat",
+    "longitude": 102.49,
+    "latitude": 24.92,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Anning historical-city proxy for the Anning Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Anning Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yiliang-qianhusuo-yunnan-dusi-seat",
+    "longitude": 103.14,
+    "latitude": 24.92,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yiliang historical-city proxy for the Yiliang Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yiliang Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yimen-qianhusuo-yunnan-dusi-seat",
+    "longitude": 102.16,
+    "latitude": 24.67,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yimen historical-city proxy for the Yimen Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yimen Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yanglinbao-qianhusuo-yunnan-dusi-seat",
+    "longitude": 103.04,
+    "latitude": 25.34,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yanglin/Songming-area proxy for the Yanglinbao Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yanglinbao Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "shibazhai-qianhusuo-yunnan-dusi-seat",
+    "longitude": 103.44,
+    "latitude": 24.4,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Mile-area proxy for the Shibazhai Qianhu Office; the exact historical settlement remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Shibazhai Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "tonghai-front-front-qianhusuo-yunnan-dusi-seat",
+    "longitude": 102.76,
+    "latitude": 24.11,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Tonghai historical-city proxy for the Tonghai Front-Front Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Tonghai Front-Front Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "tonghai-right-right-qianhusuo-yunnan-dusi-seat",
+    "longitude": 102.76,
+    "latitude": 24.11,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Tonghai historical-city proxy for the Tonghai Right-Right Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Tonghai Right-Right Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "dingyuan-qianhusuo-yunnan-dusi-seat",
+    "longitude": 101.83,
+    "latitude": 25.7,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Dingyuan/Dayao-area proxy for the Dingyuan Qianhu Office; the exact historical compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Dingyuan Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "malong-qianhusuo-yunnan-dusi-seat",
+    "longitude": 103.61,
+    "latitude": 25.43,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Malong historical-city proxy for the Malong Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Malong Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yaoan-qianhusuo-yunnan-dusi-seat",
+    "longitude": 101.24,
+    "latitude": 25.51,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yao'an historical-city proxy for the Yaoan Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yaoan Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yaoan-middle-tun-qianhusuo-yunnan-dusi-seat",
+    "longitude": 101.35,
+    "latitude": 25.7,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Dayao-area proxy for the Yaoan Middle Tun Qianhu Office; the exact historical compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yaoan Middle Tun Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "wuding-qianhusuo-yunnan-dusi-seat",
+    "longitude": 102.4,
+    "latitude": 25.53,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Wuding historical-area proxy for the Wuding Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Wuding Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "mumiguan-qianhusuo-yunnan-dusi-seat",
+    "longitude": 103.35,
+    "latitude": 25.2,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Approximate modern Xundian southeast-area proxy for Mumiguan/Yilongbao; the exact historical pass and compound remain unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Mumiguan Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "zhenan-qianhusuo-yunnan-dusi-seat",
+    "longitude": 98.9,
+    "latitude": 25.2,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Lujiang/Menglin-area proxy for the relocated Zhenan Qianhu Office; the exact historical compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Zhenan Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "zhenyao-qianhusuo-yunnan-dusi-seat",
+    "longitude": 99.18,
+    "latitude": 24.72,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Shidian/Lao Yao Pass-area proxy for the Zhenyao Qianhu Office; the exact historical compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Zhenyao Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yongping-front-front-qianhusuo-yunnan-dusi-seat",
+    "longitude": 99.53,
+    "latitude": 25.47,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yongping historical-area proxy for the Yongping Front-Front Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yongping Front-Front Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "yongping-rear-rear-qianhusuo-yunnan-dusi-seat",
+    "longitude": 99.53,
+    "latitude": 25.47,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yongping historical-area proxy for the Yongping Rear-Rear Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Yongping Rear-Rear Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "tengchong-qianhusuo-yunnan-dusi-seat",
+    "longitude": 98.49,
+    "latitude": 25.02,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Tengchong historical-city proxy for the Tengchong Qianhu Office; the exact compound remains unresolved.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Tengchong Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "xinan-qianhusuo-yunnan-dusi-seat",
+    "longitude": 103.39,
+    "latitude": 23.36,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xin'an town/Mengzi-area proxy for the Xin'an Qianhu Office; the exact historical compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Xin'an Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  },
+  {
+    "id": "fengwu-qianhusuo-yunnan-dusi-seat",
+    "longitude": 103.26,
+    "latitude": 25.56,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xundian/Fengwu-area proxy for the Fengwu Qianhu Office; the exact historical compound remains unresolved.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded a modern area proxy for the Fengwu Qianhu Office seat; no precise Ming military compound is asserted."
+    }
+  }
+]

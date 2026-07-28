@@ -1,0 +1,2321 @@
+[
+  {
+    "id": "guangxi-dusi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangxi-dusi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Guangxi Dusi is listed under the Right Army Commandery."
+    }
+  },
+  {
+    "id": "guilin-right-wei-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guilin-right-wei-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "guilin-middle-wei-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guilin-middle-wei-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "nanning-wei-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "nanning-wei-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "liuzhou-wei-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "liuzhou-wei-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "xunxiang-wei-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xunxiang-wei-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "guangxi-huwei-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guangxi-huwei",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "nandan-wei-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "nandan-wei-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "qingyuan-wei-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qingyuan-wei-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "xunzhou-wei-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xunzhou-wei-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "fengyi-wei-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fengyi-wei-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "wuzhou-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wuzhou-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "quanzhou-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "quanzhou-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "guanyang-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guanyang-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "gutian-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "gutian-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "xiangzhou-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xiangzhou-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "binzhou-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "binzhou-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "rongxian-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "rongxian-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "laibin-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "laibin-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "wuxuan-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wuxuan-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "qianjiang-tuntian-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "qianjiang-tuntian-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "hechi-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "hechi-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "pingle-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "pingle-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "fuchuan-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "fuchuan-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "he-xian-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "he-xian-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "huaiji-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "huaiji-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "rong-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "rong-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "yulin-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "yulin-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "wutun-tuntian-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wutun-tuntian-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "guixian-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "guixian-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "xiangwu-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "xiangwu-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "wuyuan-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "wuyuan-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "taiping-qianhusuo-guangxi-subordination",
+    "relationType": "military-subordination",
+    "subjectId": "taiping-qianhusuo-guangxi",
+    "objectId": "guangxi-dusi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Listed in the current Guangxi Dusi roster."
+    }
+  },
+  {
+    "id": "guilin-right-wei-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guilin-right-wei-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "guilin-middle-wei-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guilin-middle-wei-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "nanning-wei-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "nanning-wei-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "liuzhou-wei-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "liuzhou-wei-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "xunxiang-wei-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xunxiang-wei-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "guangxi-huwei-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guangxi-huwei",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "nandan-wei-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "nandan-wei-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "qingyuan-wei-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "qingyuan-wei-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "xunzhou-wei-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xunzhou-wei-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "fengyi-wei-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "fengyi-wei-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "wuzhou-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wuzhou-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "quanzhou-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "quanzhou-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "guanyang-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guanyang-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "gutian-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "gutian-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "xiangzhou-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xiangzhou-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "binzhou-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "binzhou-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "rongxian-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "rongxian-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "laibin-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "laibin-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "wuxuan-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wuxuan-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "qianjiang-tuntian-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "qianjiang-tuntian-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "hechi-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "hechi-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "pingle-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "pingle-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "fuchuan-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "fuchuan-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "he-xian-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "he-xian-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "huaiji-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "huaiji-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "rong-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "rong-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "yulin-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "yulin-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "wutun-tuntian-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wutun-tuntian-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "guixian-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "guixian-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "xiangwu-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "xiangwu-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "wuyuan-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "wuyuan-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "taiping-qianhusuo-guangxi-right-army-affiliation",
+    "relationType": "five-army-affiliation",
+    "subjectId": "taiping-qianhusuo-guangxi",
+    "objectId": "right",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "parent",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Inherited from the Guangxi Dusi institutional affiliation.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Inherited Right Army display affiliation."
+    }
+  },
+  {
+    "id": "guangxi-dusi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangxi-dusi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "The military roster is recorded in the Guangxi historical geographic context separately from the Right Army chain.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded administrative context without changing military subordination."
+    }
+  },
+  {
+    "id": "guilin-right-wei-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guilin-right-wei-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "guilin-middle-wei-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guilin-middle-wei-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "nanning-wei-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "nanning-wei-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "liuzhou-wei-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "liuzhou-wei-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "xunxiang-wei-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xunxiang-wei-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "guangxi-huwei-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guangxi-huwei",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "nandan-wei-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "nandan-wei-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "qingyuan-wei-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qingyuan-wei-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "xunzhou-wei-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xunzhou-wei-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "fengyi-wei-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fengyi-wei-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "wuzhou-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuzhou-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "quanzhou-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "quanzhou-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "guanyang-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guanyang-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "gutian-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "gutian-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "xiangzhou-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xiangzhou-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "binzhou-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "binzhou-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "rongxian-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "rongxian-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "laibin-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "laibin-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "wuxuan-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuxuan-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "qianjiang-tuntian-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "qianjiang-tuntian-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "hechi-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "hechi-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "pingle-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pingle-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "fuchuan-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "fuchuan-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "he-xian-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "he-xian-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "huaiji-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "huaiji-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "rong-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "rong-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "yulin-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yulin-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "wutun-tuntian-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wutun-tuntian-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "guixian-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "guixian-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "xiangwu-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xiangwu-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "wuyuan-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuyuan-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  },
+  {
+    "id": "taiping-qianhusuo-guangxi-guangxi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "taiping-qianhusuo-guangxi",
+    "objectId": "guangxi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-six",
+        "claim": "location",
+        "confidence": "medium"
+      }
+    ],
+    "note": "Recorded in the Guangxi military roster context separately from military subordination.",
+    "audit": {
+      "reviewedOn": "2026-07-28",
+      "revisionNote": "Recorded physical administrative context separately from military subordination."
+    }
+  }
+]

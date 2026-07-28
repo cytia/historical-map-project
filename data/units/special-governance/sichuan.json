@@ -358,5 +358,80 @@
       "reviewedOn": "2026-07-15",
       "revisionNote": "Ming Shi records the unit under the Sichuan military-administrative system; CHGIS record hvd_96388 covers 1374-1729"
     }
+  },
+  {
+    "id": "changzhou-sichuan-xing",
+    "name": "昌州长官司",
+    "level": "military",
+    "domain": "special-governance",
+    "polityId": "ming",
+    "seatPlaceId": "changzhou-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Jianchang Guard." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 longguan-si linked to the Jianchang Guard through a military-affiliation relation." }
+  },
+  {
+    "id": "weilong-sichuan-xing",
+    "name": "威龙长官司",
+    "level": "military",
+    "domain": "special-governance",
+    "polityId": "ming",
+    "seatPlaceId": "weilong-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Jianchang Guard." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 longguan-si linked to the Jianchang Guard through a military-affiliation relation." }
+  },
+  {
+    "id": "puji-sichuan-xing",
+    "name": "普济长官司",
+    "level": "military",
+    "domain": "special-governance",
+    "polityId": "ming",
+    "seatPlaceId": "puji-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Jianchang Guard." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 longguan-si linked to the Jianchang Guard through a military-affiliation relation." }
+  },
+  {
+    "id": "mala-sichuan-xing",
+    "name": "马剌长官司",
+    "level": "military",
+    "domain": "special-governance",
+    "polityId": "ming",
+    "seatPlaceId": "mala-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Salt Well Guard; 马喇 is a later/common variant." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Primary-source spelling 马剌 retained; the later/common form 马喇 is recorded in the source note." }
+  },
+  {
+    "id": "qiongbu-sichuan-xing",
+    "name": "邛部长官司",
+    "level": "military",
+    "domain": "special-governance",
+    "polityId": "ming",
+    "seatPlaceId": "qiongbu-sichuan-xing-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Yuexi Guard." }
+    ],
+    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 longguan-si linked to the Yuexi Guard through a military-affiliation relation." }
   }
 ]

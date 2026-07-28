@@ -1,4 +1,5 @@
 import { getSources } from "./data";
+import { MilitaryDisplayGroupPanel } from "./MilitaryDisplayGroupPanel";
 import {
   getMilitaryCommandRecord,
   isMilitaryDescendant,
@@ -6,6 +7,7 @@ import {
   militaryById,
   publishedMilitaryRecords,
 } from "./militaryData";
+import { getMilitaryDisplayGroup } from "./militaryDisplayGroups";
 import { ScopeUnitButtons } from "./ScopeUnitButtons";
 import { Scrollbar } from "./Scrollbar";
 import { useAppStore } from "./store";
@@ -32,6 +34,9 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
   const selectMilitaryUnit = useAppStore((state) => state.selectMilitaryUnit);
   const command = getMilitaryCommandRecord(record.unit.id);
+  const displayGroup = getMilitaryDisplayGroup(record.unit.id);
+
+  if (!command && displayGroup) return <MilitaryDisplayGroupPanel group={displayGroup} />;
 
   if (!command) {
     return <aside className={`left-panel ${sidebarOpen ? "is-open" : ""}`}>
@@ -40,7 +45,7 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
       <Scrollbar>
         <p className="eyebrow">都司系统资料</p>
         <h2 className="region-title">所属都司待考</h2>
-        <p className="muted">{record.unit.name}</p>
+        <p className="muted">{record.unit.formalName ?? record.unit.name}</p>
         <section className="scope-section scope-population">
           <p className="eyebrow">关系状态</p>
           <span className="metric-empty">暂无已核验的都司隶属关系</span>
@@ -82,7 +87,7 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
     <Scrollbar>
       <p className="eyebrow">都司系统资料</p>
       <div className="region-heading">
-        <h2 className="region-title">{command.unit.name}</h2>
+        <h2 className="region-title">{command.unit.formalName ?? command.unit.name}</h2>
       </div>
       <p className="muted">驻所 · {command.name}</p>
       {command.fiveArmyId &&

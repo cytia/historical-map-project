@@ -1,9 +1,9 @@
 import { expect, test, type Page } from "@playwright/test";
 
-async function selectMilitarySearchResult(page: Page, query: string, name: string) {
+async function selectMilitarySearchResult(page: Page, query: string, name: string, headingName = name) {
   await page.getByRole("textbox", { name: "搜索历史地名" }).fill(query);
   await page.locator(".search-results").getByRole("button", { name: new RegExp(name) }).click();
-  await expect(page.getByRole("heading", { name }).last()).toBeVisible();
+  await expect(page.getByRole("heading", { name: headingName }).last()).toBeVisible();
   await page.waitForTimeout(800);
 }
 
@@ -44,7 +44,7 @@ test("reuses animated prefecture relations across the Dusi hierarchy", async ({ 
   });
   await expect(leftPanel.getByRole("heading", { name: "两京十三省" })).toBeVisible();
 
-  await selectMilitarySearchResult(page, "贵州都指挥使司", "贵州都指挥使司");
+  await selectMilitarySearchResult(page, "贵州都指挥使司", "贵州都司", "贵州都指挥使司");
   await expect(leftPanel.getByText("都司系统资料", { exact: true })).toBeVisible();
   await expect(leftPanel.getByText("驻所 · 新贵", { exact: true })).toBeVisible();
   await expect(leftPanel.getByText("五军都督府 · 右军都督府", { exact: true })).toBeVisible();
@@ -111,7 +111,7 @@ test("reuses animated prefecture relations across the Dusi hierarchy", async ({ 
   expect(administrativeFocusPaint["military-points.icon-opacity"]).toBe(0.28);
   await expectAnimatedMap(page);
 
-  await selectMilitarySearchResult(page, "龙里卫", "龙里卫军民指挥使司");
+  await selectMilitarySearchResult(page, "龙里卫", "龙里卫", "龙里卫军民指挥使司");
   await expect(leftPanel.getByRole("heading", { name: "贵州都指挥使司" })).toBeVisible();
   const focusCommandId = await page.evaluate(async () => {
     const { getMilitaryCommandRecord } = await import("/src/militaryData.ts");
