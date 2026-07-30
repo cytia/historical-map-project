@@ -1,3 +1,5 @@
+import { Disclosure } from "./components/Disclosure";
+import { PanelCloseButton } from "./components/PanelCloseButton";
 import { getMilitaryStatistics, getSources } from "./data";
 import { MilitaryDisplayGroupPanel } from "./MilitaryDisplayGroupPanel";
 import { MilitaryStatistics } from "./MilitaryStatistics";
@@ -41,8 +43,7 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
 
   if (!command) {
     return <aside className={`left-panel ${sidebarOpen ? "is-open" : ""}`}>
-      <button className="panel-close" onClick={() => setSidebarOpen(false)}
-        aria-label="关闭资料面板">×</button>
+      <PanelCloseButton label="关闭资料面板" onClick={() => setSidebarOpen(false)} />
       <Scrollbar>
         <p className="eyebrow">都司系统资料</p>
         <h2 className="region-title">所属都司待考</h2>
@@ -51,11 +52,10 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
           <p className="eyebrow">关系状态</p>
           <span className="metric-empty">暂无已核验的都司隶属关系</span>
         </section>
-        <details className="scope-details">
-          <summary>数据说明</summary>
+        <Disclosure className="scope-details" summary="数据说明">
           <p>该单位不因行政所在或地图距离被推定为某都司下属。</p>
           <small>资料记录：{sourceCount([record])} 种来源</small>
-        </details>
+        </Disclosure>
       </Scrollbar>
     </aside>;
   }
@@ -84,8 +84,7 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
   };
 
   return <aside className={`left-panel ${sidebarOpen ? "is-open" : ""}`}>
-    <button className="panel-close" onClick={() => setSidebarOpen(false)}
-      aria-label="关闭资料面板">×</button>
+    <PanelCloseButton label="关闭资料面板" onClick={() => setSidebarOpen(false)} />
     <Scrollbar>
       <p className="eyebrow">都司系统资料</p>
       <div className="region-heading">
@@ -96,19 +95,21 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
         <p className="administrative-path">五军都督府 · {fiveArmyLabels[command.fiveArmyId]}</p>}
       <p className="muted">已核验 {primary.length} 卫，{secondary.length} 所</p>
 
-      <details className="scope-section scope-collapsible">
-        <summary className="section-heading">
+      <MilitaryStatistics records={statistics} />
+
+      <Disclosure className="scope-section scope-collapsible" summaryClassName="section-heading"
+        summary={<>
           <span className="eyebrow">直属卫</span>
           <span className="scope-peer-count">{selectLabel(primary.length, "处")}</span>
-        </summary>
+        </>}>
         <ScopeUnitButtons units={primary.map(({ unit }) => unit)} onSelect={chooseUnit} />
-      </details>
+      </Disclosure>
 
-      {secondary.length > 0 && <details className="scope-section scope-collapsible">
-        <summary className="section-heading">
+      {secondary.length > 0 && <Disclosure className="scope-section scope-collapsible"
+        summaryClassName="section-heading" summary={<>
           <span className="eyebrow">二级单位</span>
           <span className="scope-peer-count">{selectLabel(secondary.length, "处")}</span>
-        </summary>
+        </>}>
         {secondaryParents.map((parent) => <div className="scope-unit-group" key={parent.unit.id}>
           <p className="scope-secondary">{parent.unit.name}</p>
           <ScopeUnitButtons
@@ -117,26 +118,23 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
             onSelect={chooseUnit}
           />
         </div>)}
-      </details>}
+      </Disclosure>}
 
-      {peers.length > 0 && <details className="scope-section scope-collapsible">
-        <summary className="section-heading">
+      {peers.length > 0 && <Disclosure className="scope-section scope-collapsible"
+        summaryClassName="section-heading" summary={<>
           <span className="eyebrow">同级都司</span>
           <span className="scope-peer-count">{selectLabel(peers.length, "处")}</span>
-        </summary>
+        </>}>
         <ScopeUnitButtons units={peers.map(({ unit }) => unit)} onSelect={chooseUnit} />
-      </details>}
+      </Disclosure>}
 
-      <MilitaryStatistics records={statistics} />
-
-      <details className="scope-details">
-        <summary>数据与统计说明</summary>
+      <Disclosure className="scope-details" summary="数据与统计说明">
         <p>军数、屯田和屯粮按史料原文分项显示，不由下辖卫所合计或向都司反推；缺失项不以零代替。</p>
         {(unresolvedPrimary > 0 || unresolvedSecondary > 0) &&
           <p>本区域另有 {unresolvedPrimary} 个一级单位、{unresolvedSecondary} 个二级单位的都司隶属待考，未计入本系统规模。</p>}
         <p>系统规模只统计具有明确军事隶属关系的单位。</p>
         <small>资料记录：{sourceCount(systemRecords)} 种来源</small>
-      </details>
+      </Disclosure>
     </Scrollbar>
   </aside>;
 }

@@ -48,7 +48,18 @@ test("reuses animated prefecture relations across the Dusi hierarchy", async ({ 
   await expect(leftPanel.getByText("都司系统资料", { exact: true })).toBeVisible();
   await expect(leftPanel.getByText("驻所 · 新贵", { exact: true })).toBeVisible();
   await expect(leftPanel.getByText("五军都督府 · 右军都督府", { exact: true })).toBeVisible();
-  await expect(leftPanel.getByText("已核验 7 卫，4 所", { exact: true })).toBeVisible();
+  await expect(leftPanel.getByText("已核验 18 卫，7 所", { exact: true })).toBeVisible();
+  const statisticsSection = leftPanel.locator(".scope-section").filter({ hasText: "军额／屯田／屯粮" });
+  await expect(statisticsSection).toBeVisible();
+  const sectionOrder = await leftPanel.locator(".scope-section").evaluateAll((sections) =>
+    sections.map((section) => section.textContent ?? ""));
+  expect(sectionOrder.findIndex((text) => text.includes("军额／屯田／屯粮")))
+    .toBeLessThan(sectionOrder.findIndex((text) => text.includes("直属卫")));
+  for (const marker of ["①", "②", "③"]) {
+    const footnote = statisticsSection.locator("sup", { hasText: marker });
+    await footnote.hover();
+    await expect(page.getByRole("tooltip")).toContainText("来源：");
+  }
   const mapBounds = await page.locator(".map").boundingBox();
   expect(mapBounds).not.toBeNull();
   await page.mouse.move(

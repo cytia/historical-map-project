@@ -17,10 +17,9 @@ import {
   militaryPointIconSizes,
 } from "./militaryMarker";
 import {
-  addRelationLineLayers,
   addSubordinateRelationLayer,
-  createRelationAnimationController,
 } from "./relationRendering";
+import { createRelationRenderer } from "./relationRenderer";
 import { defaultTheme } from "./theme";
 import type { HierarchyScope, MilitaryColorMode } from "./types";
 
@@ -35,12 +34,15 @@ const subordinateRelationLayerId = "military-subordinate-relations";
 const pointOutlineLayerId = "military-point-outline";
 const pointLayerId = "military-points";
 const labelLayerId = "military-labels";
-const militaryRelationAnimation = createRelationAnimationController({
+const militaryRelationRenderer = createRelationRenderer({
+  relationSourceId,
   flowSourceId,
+  relationLayerId,
   flowLayerId,
 });
 export const militaryLayerIds = [
-  relationLayerId, flowLayerId, subordinateRelationLayerId, pointOutlineLayerId, pointLayerId,
+  ...militaryRelationRenderer.layerIds,
+  subordinateRelationLayerId, pointOutlineLayerId, pointLayerId,
   labelLayerId, ...militaryDisplayLayerIds,
 ] as const;
 
@@ -108,18 +110,13 @@ export function addMilitaryLayers(map: Map, selection: MilitaryLayerSelection, v
   const iconSizes = militaryPointIconSizes(selection.selectedMilitaryId);
   ensureMilitarySymbolImage(map);
   map.addSource(pointSourceId, { type: "geojson", data: data.points });
-  map.addSource(relationSourceId, { type: "geojson", data: data.primaryRelations });
-  map.addSource(flowSourceId, { type: "geojson",
-    data: { type: "FeatureCollection", features: [] } });
   map.addSource(subordinateRelationSourceId, {
     type: "geojson",
     data: data.secondaryRelations,
   });
-  addRelationLineLayers(map, {
-    relationSourceId,
-    flowSourceId,
-    relationLayerId,
-    flowLayerId,
+  militaryRelationRenderer.add(map, {
+    relations: data.primaryRelations,
+    flowRelations: data.flowRelations,
   });
   addSubordinateRelationLayer(map, {
     sourceId: subordinateRelationSourceId,
@@ -144,24 +141,23 @@ export function addMilitaryLayers(map: Map, selection: MilitaryLayerSelection, v
     paint: { "text-color": tokens.militaryLabel, "text-opacity": 0.78,
       "text-halo-color": tokens.land, "text-halo-width": 1.2 } });
   setLayerVisibility(map, militaryLayerIds, visible);
-  militaryRelationAnimation.setRelations(map, data.flowRelations);
-  if (visible) militaryRelationAnimation.start(map);
+  if (visible) militaryRelationRenderer.start(map);
 }
 
 export function setMilitarySelection(map: Map, selection: MilitaryLayerSelection) {
   const points = map.getSource(pointSourceId) as GeoJSONSource | undefined;
-  const relations = map.getSource(relationSourceId) as GeoJSONSource | undefined;
-  const flow = map.getSource(flowSourceId) as GeoJSONSource | undefined;
   const subordinateRelations = map.getSource(subordinateRelationSourceId) as
     GeoJSONSource | undefined;
-  if (!points || !relations || !flow || !subordinateRelations) return;
+  if (!points || !subordinateRelations) return;
   const data = featureData(selection);
   const iconSizes = militaryPointIconSizes(selection.selectedMilitaryId);
   points.setData(data.points);
-  relations.setData(data.primaryRelations);
   subordinateRelations.setData(data.secondaryRelations);
+  militaryRelationRenderer.setData(map, {
+    relations: data.primaryRelations,
+    flowRelations: data.flowRelations,
+  });
   setMilitaryDisplaySelection(map, data);
-  militaryRelationAnimation.setRelations(map, data.flowRelations);
   if (map.getLayer(pointOutlineLayerId)) {
     map.setLayoutProperty(pointOutlineLayerId, "icon-size", iconSizes.outline);
   }
@@ -170,8 +166,8 @@ export function setMilitarySelection(map: Map, selection: MilitaryLayerSelection
     map.setPaintProperty(pointLayerId, "icon-color", pointColor(selection.colorMode));
   }
   const flowVisible = map.getLayoutProperty(flowLayerId, "visibility") !== "none";
-  if (flowVisible) militaryRelationAnimation.start(map);
-  else militaryRelationAnimation.stop(map);
+  if (flowVisible) militaryRelationRenderer.start(map);
+  else militaryRelationRenderer.stop(map);
 }
 
 export function setMilitaryPointFocus(
@@ -190,12 +186,12 @@ export function setMilitaryPointFocus(
 
 export function setMilitaryVisibility(map: Map, visible: boolean) {
   setLayerVisibility(map, militaryLayerIds, visible);
-  if (visible) militaryRelationAnimation.start(map);
-  else militaryRelationAnimation.stop(map);
+  if (visible) militaryRelationRenderer.start(map);
+  else militaryRelationRenderer.stop(map);
   setMilitaryDisplayVisibility(map, visible);
 }
 
 export function stopMilitaryRelationAnimation(map: Map) {
-  militaryRelationAnimation.stop(map);
+  militaryRelationRenderer.stop(map);
   stopMilitaryDisplayAnimation(map);
 }

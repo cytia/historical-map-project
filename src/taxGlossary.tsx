@@ -1,4 +1,4 @@
-import { Tooltip } from "./Tooltip";
+import { Footnote } from "./components/Footnote";
 
 export type TaxMetric = "registered-land" | "summer-tax" | "autumn-grain" | "silver";
 
@@ -25,11 +25,9 @@ const taxMetricExplanations: Record<TaxMetric, string> = {
 
 export function TaxMetricLabel({ metric }: { metric: TaxMetric }) {
   return (
-    <span className="tax-label">
+    <span className="metric-label">
       <span>{taxMetricLabels[metric]}</span>
-      <Tooltip content={taxMetricExplanations[metric]}>
-        <sup className="tax-footnote" tabIndex={0}>{taxMetricMarkers[metric]}</sup>
-      </Tooltip>
+      <Footnote marker={taxMetricMarkers[metric]} content={taxMetricExplanations[metric]} />
     </span>
   );
 }

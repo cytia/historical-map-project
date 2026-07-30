@@ -1,5 +1,7 @@
 import { lazy, Suspense, useMemo, useState } from "react";
 import { AdministrativeDetailPanel } from "./AdministrativeDetailPanel";
+import { Button } from "./components/Button";
+import { TextInput } from "./components/TextInput";
 import { MilitaryDetailPanel } from "./MilitaryDetailPanel";
 import { MilitaryScopePanel } from "./MilitaryScopePanel";
 import { HierarchyToolbar } from "./AdministrativeScopeToolbar";
@@ -76,7 +78,7 @@ export default function App() {
 
         <div className="search-wrap">
           <label className="sr-only" htmlFor="place-search">搜索历史地名</label>
-          <input
+          <TextInput
             id="place-search"
             value={searchQuery}
             onChange={(event) => setSearchQuery(event.target.value)}
@@ -85,7 +87,8 @@ export default function App() {
           {results.length > 0 && (
             <div className="search-results">
               {results.map(({ kind, record }) => (
-                <button
+                <Button
+                  variant="menu"
                   key={record.unit.id}
                   onClick={() => {
                     if (kind === "military") {
@@ -102,7 +105,7 @@ export default function App() {
                   <span>{record.unit.name}</span>
                   <small>{kind === "military" ? `军事 · ${record.name}` :
                     kind === "county" ? `${record.parent.name} · ${record.name}` : record.name}</small>
-                </button>
+                </Button>
               ))}
             </div>
           )}
@@ -115,12 +118,13 @@ export default function App() {
         </div>
 
         <div className="mobile-header-actions">
-          <button className="mobile-control" onClick={() => setSidebarOpen(true)}>
+          <Button variant="outline" className="mobile-control" onClick={() => setSidebarOpen(true)}>
             {militaryPanelRecord ? "都司系统资料" : "全国与省级资料"}
-          </button>
-          <button className="mobile-project-control" onClick={() => setProjectPanelOpen(true)}>
+          </Button>
+          <Button variant="outline" className="mobile-project-control"
+            onClick={() => setProjectPanelOpen(true)}>
             关于项目
-          </button>
+          </Button>
         </div>
       </header>
 

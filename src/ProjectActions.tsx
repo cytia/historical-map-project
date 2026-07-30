@@ -1,3 +1,5 @@
+import { Button } from "./components/Button";
+import { ExternalLink } from "./components/ExternalLink";
 import { PROJECT_LINKS } from "./projectLinks";
 
 interface ProjectActionsProps {
@@ -7,25 +9,15 @@ interface ProjectActionsProps {
 export function ProjectActions({ onAbout }: ProjectActionsProps) {
   return (
     <nav className="project-actions" aria-label="项目入口">
-      <button type="button" className="project-action" onClick={onAbout}>
+      <Button variant="action" onClick={onAbout}>
         关于项目
-      </button>
-      <a
-        className="project-action"
-        href={PROJECT_LINKS.github}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      </Button>
+      <ExternalLink href={PROJECT_LINKS.github}>
         GitHub
-      </a>
-      <a
-        className="project-action project-action-primary"
-        href={PROJECT_LINKS.afdian}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      </ExternalLink>
+      <ExternalLink href={PROJECT_LINKS.afdian} emphasis>
         支持项目
-      </a>
+      </ExternalLink>
     </nav>
   );
 }

@@ -13,17 +13,17 @@ import {
   type ReactNode,
 } from "react";
 
-type TooltipProps = {
+interface TooltipProps {
   content: ReactNode;
   children: ReactElement<{ "aria-describedby"?: string }>;
-};
+}
 
-type TooltipPosition = {
+interface TooltipPosition {
   top: number;
   left: number;
   placement: "top" | "bottom";
   arrowLeft: number;
-};
+}
 
 const VIEWPORT_PADDING = 12;
 const TRIGGER_GAP = 8;
@@ -87,7 +87,8 @@ export function Tooltip({ content, children }: TooltipProps) {
     };
     const closeOnOutsidePointer = (event: globalThis.PointerEvent) => {
       if (!(event.target instanceof Node)) return;
-      if (!triggerRef.current?.contains(event.target) && !tooltipRef.current?.contains(event.target)) {
+      if (!triggerRef.current?.contains(event.target) &&
+        !tooltipRef.current?.contains(event.target)) {
         setOpen(false);
       }
     };
@@ -145,7 +146,8 @@ export function Tooltip({ content, children }: TooltipProps) {
         onPointerDown={handlePointerDown}
         onFocusCapture={show}
         onBlurCapture={(event) => {
-          if (!(event.relatedTarget instanceof Node) || !event.currentTarget.contains(event.relatedTarget)) {
+          if (!(event.relatedTarget instanceof Node) ||
+            !event.currentTarget.contains(event.relatedTarget)) {
             hideUnlessFocused();
           }
         }}

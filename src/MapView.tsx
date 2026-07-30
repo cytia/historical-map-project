@@ -5,6 +5,7 @@ import { AdministrativeTargetChooser } from "./AdministrativeTargetChooser";
 import { getTopLevelUnitId, getUnitRegionId } from "./data";
 import { addCountyLayers } from "./countyLayers";
 import { naturalReferenceStyle } from "./mapConfig";
+import { addStandardMapControls } from "./mapControls";
 import { applyMapPointFocus } from "./mapPointFocus";
 import { registerPointHoverHandlers } from "./mapPointHover";
 import {
@@ -67,15 +68,7 @@ export function MapView() {
       style: addTerrainStyle(naturalReferenceStyle, import.meta.env.VITE_TERRAIN_URL),
     });
 
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
-    map.addControl(
-      new maplibregl.AttributionControl({
-        compact: true,
-        customAttribution:
-          "底图：Natural Earth · 历史数据：《明史》 · 现代坐标：Wikidata、OpenStreetMap contributors | NOAA National Centers for Environmental Information. 2022: ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74.",
-      }),
-      "bottom-right",
-    );
+    addStandardMapControls(map);
 
     map.on("style.load", () => {
       const state = useAppStore.getState();

@@ -1,8 +1,11 @@
+import { Button } from "./components/Button";
+import { Disclosure } from "./components/Disclosure";
+import { Footnote } from "./components/Footnote";
+import { PanelCloseButton } from "./components/PanelCloseButton";
 import { counties, data, getSources, getStatistics, seats } from "./data";
 import { useAppStore } from "./store";
 import { populationRegistrationNote } from "./statisticsNotes";
 import { TaxMetricLabel, type TaxMetric } from "./taxGlossary";
-import { Tooltip } from "./Tooltip";
 import { Scrollbar } from "./Scrollbar";
 import { locationAccuracyLabel, locationConfidenceLabel } from "./locationLabels";
 import type { CountyRecord, SeatRecord, StatisticRecord } from "./types";
@@ -16,11 +19,7 @@ function sourceMarker(record: StatisticRecord, index = 1, note?: string) {
   const sourceId = record.sources[0]?.sourceId;
   const source = data.sources.find(({ id }) => id === sourceId);
   const sourceNote = `来源：${source?.title ?? sourceId}`;
-  return (
-    <Tooltip content={note ? `${note}\n${sourceNote}` : sourceNote}>
-      <sup tabIndex={0}>{index}</sup>
-    </Tooltip>
-  );
+  return <Footnote marker={index} content={note ? `${note}\n${sourceNote}` : sourceNote} />;
 }
 
 function taxSourceLabel(record: StatisticRecord) {
@@ -124,13 +123,16 @@ function Jurisdiction({ seat, disabled }: { seat: SeatRecord; disabled: boolean 
       <div className="section-heading"><p className="eyebrow">下辖单位</p><span>{countLabel}</span></div>
       {childStates.length || childCounties.length ? <div className="county-list">
         {childStates.map((child) => (
-          <button key={child.unit.id} onClick={() => selectUnit(child.unit.id)}>{child.unit.name}</button>
+          <Button variant="choice" size="medium" key={child.unit.id}
+            onClick={() => selectUnit(child.unit.id)}>
+            {child.unit.name}
+          </Button>
         ))}
         {childCounties.map((county) => (
-          <button key={county.unit.id} onClick={() =>
+          <Button variant="choice" size="medium" key={county.unit.id} onClick={() =>
             selectCounty(county.unit.id, county.parent.id, county.region.id)}>
             {county.unit.name}
-          </button>
+          </Button>
         ))}
       </div> : <p className="metric-empty">下辖数据尚未录入</p>}
     </section>
@@ -144,11 +146,13 @@ function PeerCounties({ county }: { county: CountyRecord }) {
     <section className="jurisdiction">
       <div className="section-heading"><p className="eyebrow">同级单位</p><span>{siblings.length} 县</span></div>
       <div className="county-list">{siblings.map((sibling) => (
-        <button className={sibling.unit.id === county.unit.id ? "is-current" : ""}
+        <Button variant="choice" size="medium"
+          className={sibling.unit.id === county.unit.id ? "is-current" : ""}
+          aria-current={sibling.unit.id === county.unit.id ? "true" : undefined}
           key={sibling.unit.id} onClick={() =>
             selectCounty(sibling.unit.id, sibling.parent.id, sibling.region.id)}>
           {sibling.unit.name}
-        </button>
+        </Button>
       ))}</div>
     </section>
   );
@@ -171,18 +175,18 @@ export function AdministrativeDetailPanel({ seat, county }: {
     : undefined;
   return (
     <aside className={`detail-panel ${detailsOpen ? "is-open" : ""}`}>
-      <button className="panel-close" onClick={() => setDetailsOpen(false)} aria-label="关闭地点详情">×</button>
+      <PanelCloseButton label="关闭地点详情" onClick={() => setDetailsOpen(false)} />
       <Scrollbar>
         <p className="eyebrow">{county ? "县" : levelLabel(seat!)}</p>
         <h2>{record.unit.name}</h2>
         <p className="seat-line">治所 · {record.name}</p>
         {county && <p className="administrative-path">{county.parent.name} · {county.region.name}</p>}
-        {county && <button className="return-prefecture" onClick={() => selectUnit(county.parent.id)}>
+        {county && <Button variant="text" onClick={() => selectUnit(county.parent.id)}>
           <span aria-hidden="true">←</span> 返回{county.parent.name}
-        </button>}
-        {parentSeat && <button className="return-prefecture" onClick={() => selectUnit(parentSeat.unit.id)}>
+        </Button>}
+        {parentSeat && <Button variant="text" onClick={() => selectUnit(parentSeat.unit.id)}>
           <span aria-hidden="true">←</span> 返回{parentSeat.unit.name}
-        </button>}
+        </Button>}
 
         <PopulationMetric unitId={record.unit.id} />
         <TaxMetric unitId={record.unit.id} />
@@ -194,8 +198,7 @@ export function AdministrativeDetailPanel({ seat, county }: {
           <strong>{locationAccuracyLabel[record.place.locationAccuracy]} · {locationConfidenceLabel[record.place.confidence]}</strong>
         </section>
 
-        <details className="research-details">
-          <summary>详细资料</summary>
+        <Disclosure className="research-details" summary="详细资料">
           <p>{county ? `行政链：明 → ${county.region.name} → ${county.parent.name} → ${county.unit.name}` :
             `${seat!.unit.name}治下已录入 ${seats.filter(({ unit }) => unit.parentId === seat!.unit.id).length} 州、${counties.filter(({ parent }) => parent.id === seat!.unit.id).length} 县。`}</p>
           <dl className="facts">
@@ -209,7 +212,7 @@ export function AdministrativeDetailPanel({ seat, county }: {
           {sources.map((source) => <article className="source" key={source.id}>
             <h3>{source.title}</h3><p>{source.citation}</p><small>{source.license}</small>
           </article>)}
-        </details>
+        </Disclosure>
       </Scrollbar>
     </aside>
   );

@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Button } from "./components/Button";
 import { counties, seats } from "./data";
 import { militaryById } from "./militaryData";
 import type { MapTarget } from "./mapSelectionInteraction";
@@ -54,16 +55,16 @@ export function AdministrativeTargetChooser({
     >
       <div className="administrative-target-chooser-heading">
         <span>共址单位</span>
-        <button type="button" onClick={onClose} aria-label="关闭共址单位选择">×</button>
+        <Button variant="icon" onClick={onClose} aria-label="关闭共址单位选择">×</Button>
       </div>
       {targets.map((target, index) => {
         const details = targetDetails(target);
         return (
-          <button type="button" key={`${target.kind}-${target.id}`} autoFocus={index === 0}
+          <Button variant="menu" key={`${target.kind}-${target.id}`} autoFocus={index === 0}
             onClick={() => onSelect(target)}>
             <strong>{details.name}</strong>
             <small>{details.context}</small>
-          </button>
+          </Button>
         );
       })}
     </div>

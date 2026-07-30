@@ -1,3 +1,6 @@
+import { Button } from "./components/Button";
+import { Disclosure } from "./components/Disclosure";
+import { PanelCloseButton } from "./components/PanelCloseButton";
 import { getSources, regions } from "./data";
 import { locationAccuracyLabel, locationConfidenceLabel } from "./locationLabels";
 import { militaryById, militaryRecords } from "./militaryData";
@@ -40,18 +43,18 @@ function MilitaryRelations({ record, parent, children }: {
       {fiveArmy && <p className="administrative-path">五军都督府 · {fiveArmy}</p>}
       {parent && <>
         <p className="administrative-path">上级军事单位</p>
-        <div className="county-list"><button onClick={() =>
+        <div className="county-list"><Button variant="choice" size="medium" onClick={() =>
           selectMilitaryUnit(parent.unit.id, parent.administrativeRegionId)}>
           {parent.unit.name}
-        </button></div>
+        </Button></div>
       </>}
       {children.length > 0 && <>
         <p className="administrative-path">下辖单位</p>
         <div className="county-list">
-          {children.map((child) => <button key={child.unit.id}
+          {children.map((child) => <Button variant="choice" size="medium" key={child.unit.id}
             onClick={() => selectMilitaryUnit(child.unit.id, child.administrativeRegionId)}>
             {child.unit.name}
-          </button>)}
+          </Button>)}
         </div>
       </>}
     </section>
@@ -79,7 +82,7 @@ export function MilitaryDetailPanel({ record }: { record?: MilitaryRecord }) {
   const relationText = relationSummary(record, parent, children);
   return (
     <aside className={`detail-panel ${detailsOpen ? "is-open" : ""}`}>
-      <button className="panel-close" onClick={() => setDetailsOpen(false)} aria-label="关闭地点详情">×</button>
+      <PanelCloseButton label="关闭地点详情" onClick={() => setDetailsOpen(false)} />
       <Scrollbar>
         <p className="eyebrow">{kindLabel(record)}</p>
         <h2>{record.unit.formalName ?? record.unit.name}</h2>
@@ -93,8 +96,7 @@ export function MilitaryDetailPanel({ record }: { record?: MilitaryRecord }) {
           <strong>{locationAccuracyLabel[record.place.locationAccuracy]} · {locationConfidenceLabel[record.place.confidence]}</strong>
         </section>
 
-        <details className="research-details">
-          <summary>详细资料</summary>
+        <Disclosure className="research-details" summary="详细资料">
           {relationText && <p>{relationText}</p>}
           <dl className="facts">
             <div><dt>坐标</dt><dd>{record.place.longitude?.toFixed(5)}, {record.place.latitude?.toFixed(5)}</dd></div>
@@ -104,7 +106,7 @@ export function MilitaryDetailPanel({ record }: { record?: MilitaryRecord }) {
           {sources.map((source) => <article className="source" key={source.id}>
             <h3>{source.title}</h3><p>{source.citation}</p><small>{source.license}</small>
           </article>)}
-        </details>
+        </Disclosure>
       </Scrollbar>
     </aside>
   );

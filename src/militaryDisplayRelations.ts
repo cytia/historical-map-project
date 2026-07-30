@@ -1,9 +1,6 @@
-import type { GeoJSONSource, Map } from "maplibre-gl";
+import type { Map } from "maplibre-gl";
 import { setLayerVisibility } from "./mapLayerVisibility";
-import {
-  addRelationLineLayers,
-  createRelationAnimationController,
-} from "./relationRendering";
+import { createRelationRenderer } from "./relationRenderer";
 import { defaultTheme } from "./theme";
 
 const tokens = defaultTheme.map;
@@ -12,16 +9,20 @@ const displayFlowSourceId = "military-display-relation-flow";
 const displayAnchorSourceId = "military-display-anchor";
 const displayRelationLayerId = "military-display-relations";
 const displayFlowLayerId = "military-display-relation-flow";
+const displayPulseLayerId = "military-display-anchor-pulse";
 const displayAnchorLayerId = "military-display-anchor";
 const displayAnchorLabelLayerId = "military-display-anchor-label";
-const displayRelationAnimation = createRelationAnimationController({
+const displayRelationRenderer = createRelationRenderer({
+  relationSourceId: displayRelationSourceId,
   flowSourceId: displayFlowSourceId,
+  pulseSourceId: displayAnchorSourceId,
+  relationLayerId: displayRelationLayerId,
   flowLayerId: displayFlowLayerId,
+  pulseLayerId: displayPulseLayerId,
 });
 
 export const militaryDisplayLayerIds = [
-  displayRelationLayerId,
-  displayFlowLayerId,
+  ...displayRelationRenderer.layerIds,
   displayAnchorLayerId,
   displayAnchorLabelLayerId,
 ] as const;
@@ -36,17 +37,9 @@ export function addMilitaryDisplayLayers(
   data: MilitaryDisplayLayerData,
   visible: boolean,
 ) {
-  map.addSource(displayRelationSourceId, { type: "geojson", data: data.displayGroupRelations });
-  map.addSource(displayFlowSourceId, {
-    type: "geojson",
-    data: { type: "FeatureCollection", features: [] },
-  });
-  map.addSource(displayAnchorSourceId, { type: "geojson", data: data.displayGroupAnchor });
-  addRelationLineLayers(map, {
-    relationSourceId: displayRelationSourceId,
-    flowSourceId: displayFlowSourceId,
-    relationLayerId: displayRelationLayerId,
-    flowLayerId: displayFlowLayerId,
+  displayRelationRenderer.add(map, {
+    relations: data.displayGroupRelations,
+    pulsePoint: data.displayGroupAnchor,
   });
   map.addLayer({
     id: displayAnchorLayerId,
@@ -81,27 +74,25 @@ export function addMilitaryDisplayLayers(
     },
   });
   setLayerVisibility(map, militaryDisplayLayerIds, visible);
-  displayRelationAnimation.setRelations(map, data.displayGroupRelations);
-  if (visible) displayRelationAnimation.start(map);
+  if (visible) displayRelationRenderer.start(map);
 }
 
 export function setMilitaryDisplaySelection(map: Map, data: MilitaryDisplayLayerData) {
-  const relations = map.getSource(displayRelationSourceId) as GeoJSONSource | undefined;
-  const anchor = map.getSource(displayAnchorSourceId) as GeoJSONSource | undefined;
-  if (!relations || !anchor) return;
-  relations.setData(data.displayGroupRelations);
-  anchor.setData(data.displayGroupAnchor);
-  displayRelationAnimation.setRelations(map, data.displayGroupRelations);
+  const updated = displayRelationRenderer.setData(map, {
+    relations: data.displayGroupRelations,
+    pulsePoint: data.displayGroupAnchor,
+  });
+  if (!updated) return;
   const flowVisible = map.getLayoutProperty(displayFlowLayerId, "visibility") !== "none";
-  if (flowVisible) displayRelationAnimation.start(map);
-  else displayRelationAnimation.stop(map);
+  if (flowVisible) displayRelationRenderer.start(map);
+  else displayRelationRenderer.stop(map);
 }
 
 export function setMilitaryDisplayVisibility(map: Map, visible: boolean) {
-  if (visible) displayRelationAnimation.start(map);
-  else displayRelationAnimation.stop(map);
+  if (visible) displayRelationRenderer.start(map);
+  else displayRelationRenderer.stop(map);
 }
 
 export function stopMilitaryDisplayAnimation(map: Map) {
-  displayRelationAnimation.stop(map);
+  displayRelationRenderer.stop(map);
 }

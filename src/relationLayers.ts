@@ -1,19 +1,22 @@
-import type { GeoJSONSource, Map } from "maplibre-gl";
+import type { Map } from "maplibre-gl";
 import { getTopLevelUnitId, seats, topLevelSeats } from "./data";
 import { setLayerVisibility } from "./mapLayerVisibility";
-import {
-  addRelationLineLayers,
-  createRelationAnimationController,
-  curvedCoordinates,
-} from "./relationRendering";
-import { defaultTheme } from "./theme";
+import { curvedCoordinates } from "./relationRendering";
+import { createRelationRenderer } from "./relationRenderer";
 
-const tokens = defaultTheme.map;
 const sourceId = "seat-relations";
 const flowSourceId = "seat-relation-flow-segments";
 const capitalSourceId = "seat-relation-capital";
 const layerIds = ["seat-relations", "seat-relation-flow", "seat-relation-capital-pulse"] as const;
 export { curvedCoordinates } from "./relationRendering";
+const relationRenderer = createRelationRenderer({
+  relationSourceId: sourceId,
+  flowSourceId,
+  pulseSourceId: capitalSourceId,
+  relationLayerId: layerIds[0],
+  flowLayerId: layerIds[1],
+  pulseLayerId: layerIds[2],
+});
 
 function relationContext(selectedUnitId: string | null) {
   const topLevelUnitId = getTopLevelUnitId(selectedUnitId);
@@ -54,57 +57,28 @@ function capitalData(
   } }] };
 }
 
-const relationAnimation = createRelationAnimationController({
-  flowSourceId,
-  flowLayerId: layerIds[1],
-  onFrame: (map, elapsed) => {
-    const cycle = tokens.relationFlowDurationMs + tokens.relationFlowPauseMs;
-    const cycleElapsed = elapsed % cycle;
-    const pulse = cycleElapsed < tokens.relationFlowDurationMs ? 0 :
-      (cycleElapsed - tokens.relationFlowDurationMs) / tokens.relationFlowPauseMs;
-    map.setPaintProperty(layerIds[2], "circle-radius", pulse * tokens.relationCapitalPulseRadius);
-    map.setPaintProperty(layerIds[2], "circle-opacity", pulse > 0 ? 1 - pulse : 0);
-  },
-});
-
 export function stopRelationAnimation(map: Map) {
-  relationAnimation.stop(map);
+  relationRenderer.stop(map);
 }
 
 export function addRelationLayers(map: Map, selectedUnitId: string | null, visible: boolean) {
   const context = relationContext(selectedUnitId);
   const relations = relationData(context);
-  map.addSource(sourceId, { type: "geojson", data: relations });
-  map.addSource(flowSourceId, { type: "geojson",
-    data: { type: "FeatureCollection", features: [] } });
-  map.addSource(capitalSourceId, { type: "geojson", data: capitalData(context) });
-  addRelationLineLayers(map, {
-    relationSourceId: sourceId,
-    flowSourceId,
-    relationLayerId: layerIds[0],
-    flowLayerId: layerIds[1],
+  relationRenderer.add(map, {
+    relations,
+    pulsePoint: capitalData(context),
   });
-  map.addLayer({ id: layerIds[2], type: "circle", source: capitalSourceId,
-    paint: { "circle-radius": 0, "circle-color": "rgba(0,0,0,0)",
-      "circle-stroke-color": tokens.relationCapitalPulse, "circle-stroke-width": tokens.relationCapitalPulseStrokeWidth,
-      "circle-opacity": 0 } });
   setLayerVisibility(map, layerIds, visible);
-  relationAnimation.setRelations(map, relations);
 }
 
 export function setRelationSelection(map: Map, selectedUnitId: string | null) {
   const context = relationContext(selectedUnitId);
   const relations = relationData(context);
-  const source = map.getSource(sourceId) as GeoJSONSource | undefined;
-  const flowSource = map.getSource(flowSourceId) as GeoJSONSource | undefined;
-  const capitalSource = map.getSource(capitalSourceId) as GeoJSONSource | undefined;
-  if (!source || !flowSource || !capitalSource) return;
-  source.setData(relations);
-  capitalSource.setData(capitalData(context));
-  relationAnimation.stop(map);
-  relationAnimation.setRelations(map, relations);
-  map.setPaintProperty(layerIds[2], "circle-radius", 0);
-  map.setPaintProperty(layerIds[2], "circle-opacity", 0);
+  const updated = relationRenderer.setData(map, {
+    relations,
+    pulsePoint: capitalData(context),
+  });
+  if (!updated) return;
   if (!context.selected?.region.seatPlaceId) return;
-  relationAnimation.start(map);
+  relationRenderer.start(map);
 }

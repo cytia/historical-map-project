@@ -1,4 +1,7 @@
 import { useEffect, useRef } from "react";
+import { Button } from "./components/Button";
+import { ExternalLink } from "./components/ExternalLink";
+import { PanelCloseButton } from "./components/PanelCloseButton";
 import { PROJECT_LINKS } from "./projectLinks";
 
 interface ProjectPanelProps {
@@ -22,8 +25,8 @@ export function ProjectPanel({ isOpen, onClose }: ProjectPanelProps) {
   return (
     <>
       {isOpen && (
-        <button
-          type="button"
+        <Button
+          variant="backdrop"
           className="project-panel-backdrop"
           aria-label="关闭关于项目面板"
           onClick={onClose}
@@ -36,15 +39,11 @@ export function ProjectPanel({ isOpen, onClose }: ProjectPanelProps) {
         aria-labelledby="project-panel-title"
         aria-hidden={!isOpen}
       >
-        <button
+        <PanelCloseButton
           ref={closeButtonRef}
-          type="button"
-          className="panel-close"
-          aria-label="关闭关于项目面板"
+          label="关闭关于项目面板"
           onClick={onClose}
-        >
-          ×
-        </button>
+        />
         <div className="panel-scrollbar">
           <p className="eyebrow">关于项目</p>
           <h2 id="project-panel-title">历史地图计划</h2>
@@ -73,22 +72,12 @@ export function ProjectPanel({ isOpen, onClose }: ProjectPanelProps) {
           </section>
 
           <div className="project-panel-actions">
-            <a
-              className="project-action"
-              href={PROJECT_LINKS.github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <ExternalLink href={PROJECT_LINKS.github}>
               访问 GitHub
-            </a>
-            <a
-              className="project-action project-action-primary"
-              href={PROJECT_LINKS.afdian}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </ExternalLink>
+            <ExternalLink href={PROJECT_LINKS.afdian} emphasis>
               前往爱发电
-            </a>
+            </ExternalLink>
           </div>
         </div>
       </aside>

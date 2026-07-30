@@ -178,7 +178,7 @@ test("shows Yingtian statistics and opens a county from its jurisdiction", async
   await expect(page.getByText("本色米 215,159 石余")).toBeVisible();
   await expect(page.locator(".tax-evidence").getByText("折色银", { exact: true })).toBeVisible();
   await expect(page.locator(".tax-evidence").getByText("暂无可靠记录", { exact: true })).toBeVisible();
-  const taxFootnotes = page.locator(".tax-ledger .tax-footnote");
+  const taxFootnotes = page.locator(".tax-ledger .ui-footnote");
   await expect(taxFootnotes).toHaveCount(4);
   await taxFootnotes.nth(0).hover();
   await expect(page.getByRole("tooltip").filter({ hasText: "未分列官田、民田" })).toBeVisible();

@@ -1,3 +1,5 @@
+import { Disclosure } from "./components/Disclosure";
+import { PanelCloseButton } from "./components/PanelCloseButton";
 import { useAppStore } from "./store";
 import { Scrollbar } from "./Scrollbar";
 import { ScopeUnitButtons } from "./ScopeUnitButtons";
@@ -37,8 +39,7 @@ export function MilitaryDisplayGroupPanel({ group }: { group: MilitaryDisplayGro
   };
 
   return <aside className={`left-panel ${sidebarOpen ? "is-open" : ""}`}>
-    <button className="panel-close" onClick={() => setSidebarOpen(false)}
-      aria-label="关闭资料面板">×</button>
+    <PanelCloseButton label="关闭资料面板" onClick={() => setSidebarOpen(false)} />
     <Scrollbar>
       <p className="eyebrow">军事显示分组</p>
       <div className="region-heading">
@@ -47,27 +48,26 @@ export function MilitaryDisplayGroupPanel({ group }: { group: MilitaryDisplayGro
       <p className="administrative-path">{groupAdministrativePath(group)}</p>
       <p className="muted">地图归类 · {records.length} 处已录入单位</p>
 
-      <details className="scope-section scope-collapsible" open>
-        <summary className="section-heading">
+      <Disclosure className="scope-section scope-collapsible" open
+        summaryClassName="section-heading" summary={<>
           <span className="eyebrow">卫</span>
           <span className="scope-peer-count">{guards.length} 处</span>
-        </summary>
+        </>}>
         <ScopeUnitButtons units={guards.map(({ unit }) => unit)} onSelect={chooseUnit} />
-      </details>
+      </Disclosure>
 
-      <details className="scope-section scope-collapsible" open>
-        <summary className="section-heading">
+      <Disclosure className="scope-section scope-collapsible" open
+        summaryClassName="section-heading" summary={<>
           <span className="eyebrow">千户所</span>
           <span className="scope-peer-count">{qianhu.length} 处</span>
-        </summary>
+        </>}>
         <ScopeUnitButtons units={qianhu.map(({ unit }) => unit)} onSelect={chooseUnit} />
-      </details>
+      </Disclosure>
 
-      <details className="scope-details">
-        <summary>显示说明</summary>
+      <Disclosure className="scope-details" summary="显示说明">
         <p>{group.description}</p>
         <p>选择组内单位后，地图会显示指向“{group.anchor.label}”的虚线；锚点仅用于集中表示，不是历史机构治所，也不表示行政隶属。</p>
-      </details>
+      </Disclosure>
     </Scrollbar>
   </aside>;
 }
