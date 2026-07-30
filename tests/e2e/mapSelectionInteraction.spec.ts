@@ -114,8 +114,51 @@ test("keeps the final scope after rapid switching and resolves co-located target
   await page.mouse.click(suzhou.x, suzhou.y);
   const chooser = page.getByRole("dialog", { name: "选择共址单位" });
   await expect(chooser).toBeVisible();
+  const targetList = chooser.locator(".administrative-target-list");
+  await expect(targetList).toHaveClass(/panel-scrollbar/);
+  expect(await targetList.evaluate((element) =>
+    element.scrollHeight <= element.clientHeight,
+  )).toBe(true);
   await chooser.getByRole("button", { name: "吴县 苏州府", exact: true }).click();
   await expect(page.getByRole("heading", { name: "吴县" })).toBeVisible();
+});
+
+test("limits a long co-located target list and keeps every unit scrollable", async ({ page }) => {
+  await prepareMap(page);
+  await page.getByRole("button", { name: "都司" }).click();
+  const search = page.getByRole("textbox", { name: "搜索历史地名" });
+  await search.fill("蒙古左卫");
+  await page.locator(".search-results").getByRole("button").first().click();
+  await page.waitForTimeout(700);
+
+  const beijing = await mapPoint(
+    page,
+    [116.39139, 39.90619],
+    [116.39139, 39.90619],
+    6.2,
+  );
+  await page.mouse.click(beijing.x, beijing.y);
+
+  const chooser = page.getByRole("dialog", { name: "选择共址单位" });
+  await expect(chooser).toBeVisible();
+  const targetList = chooser.locator(".administrative-target-list");
+  expect(await targetList.getByRole("button").count()).toBeGreaterThan(8);
+  const dimensions = await targetList.evaluate((element) => ({
+    clientHeight: element.clientHeight,
+    scrollHeight: element.scrollHeight,
+  }));
+  expect(dimensions.clientHeight).toBeLessThanOrEqual(304);
+  expect(dimensions.scrollHeight).toBeGreaterThan(dimensions.clientHeight);
+
+  await targetList.evaluate((element) => element.scrollTo(0, element.scrollHeight));
+  await expect.poll(() => targetList.evaluate((element) => element.scrollTop))
+    .toBeGreaterThan(0);
+  const chooserBox = await chooser.boundingBox();
+  expect(chooserBox).not.toBeNull();
+  expect(chooserBox!.y).toBeGreaterThanOrEqual(10);
+  expect(chooserBox!.y + chooserBox!.height).toBeLessThanOrEqual(
+    (page.viewportSize()?.height ?? 0) - 10,
+  );
 });
 
 test("clears a selection after a focused control blurs on pointer down", async ({ page, isMobile }) => {

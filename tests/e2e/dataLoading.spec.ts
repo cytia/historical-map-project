@@ -13,7 +13,7 @@ test("loads split historical data without requesting a full aggregate", async ({
 
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "明代历史地图" })).toBeVisible();
-  await expect(page.getByText("两京十三省", { exact: true })).toBeVisible();
+  await expect(page.getByText("两京十三布政司", { exact: true })).toBeVisible();
   await expect.poll(() => fetches.some((url) =>
     includesAsset(url, "runtime-index.json", "runtime-index"))).toBe(true);
   await expect.poll(() => fetches.some((url) =>

@@ -51,7 +51,7 @@ button { color: inherit; }
 }
 
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand h1, .left-panel h2, .detail-panel h2 {
+.brand h1, .left-panel h1, .left-panel h2, .detail-panel h2 {
   margin: 0;
   font-family: "Noto Serif SC", "Songti SC", SimSun, serif;
   font-weight: 600;
@@ -157,7 +157,7 @@ button { color: inherit; }
 .ui-icon-button:focus-visible { outline: 1px solid var(--color-accent-focus); outline-offset: 2px; }
 .panel-close { display: none; position: absolute; top: 10px; right: 12px; padding: 0; font-size: 24px; }
 .eyebrow { margin: 0 0 9px; color: var(--color-accent); font-size: 10px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; }
-.left-panel h2, .detail-panel h2 { font-size: 26px; }
+.left-panel h1, .left-panel h2, .detail-panel h2 { font-size: 26px; }
 .region-heading {
   display: flex;
   align-items: baseline;
@@ -321,13 +321,21 @@ button { color: inherit; }
 .administrative-target-chooser-heading .ui-icon-button {
   font-size: 16px;
 }
-.administrative-target-chooser > .ui-menu-button {
+.administrative-target-list {
+  height: auto;
+  max-height: min(304px, calc(100vh - 72px));
+  margin-right: -6px;
+  padding-right: 6px;
+  overflow-x: hidden;
+}
+.administrative-target-list > .ui-menu-button {
   align-items: baseline;
+  min-height: 38px;
   padding: 9px 8px;
   border-top: 1px solid var(--color-separator);
 }
-.administrative-target-chooser > .ui-menu-button strong { font: 600 12px/1.2 "Noto Serif SC", SimSun, serif; }
-.administrative-target-chooser > .ui-menu-button small { color: var(--color-text-muted); font-size: 9px; }
+.administrative-target-list > .ui-menu-button strong { font: 600 12px/1.2 "Noto Serif SC", SimSun, serif; }
+.administrative-target-list > .ui-menu-button small { color: var(--color-text-muted); font-size: 9px; }
 
 .scope-section { margin-top: 20px; padding-top: 17px; border-top: 1px solid var(--color-border); }
 .scope-population { border-top: 0; }

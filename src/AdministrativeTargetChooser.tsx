@@ -3,6 +3,10 @@ import { Button } from "./components/Button";
 import { counties, seats } from "./data";
 import { militaryById } from "./militaryData";
 import type { MapTarget } from "./mapSelectionInteraction";
+import { Scrollbar } from "./Scrollbar";
+
+const visibleTargetLimit = 8;
+const targetRowHeight = 38;
 
 interface AdministrativeTargetChooserProps {
   anchor: { x: number; y: number };
@@ -42,7 +46,7 @@ export function AdministrativeTargetChooser({
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [onClose]);
 
-  const height = 42 + targets.length * 38;
+  const height = 42 + Math.min(targets.length, visibleTargetLimit) * targetRowHeight;
   const left = Math.max(10, Math.min(anchor.x + 10, window.innerWidth - 230));
   const top = Math.max(10, Math.min(anchor.y + 10, window.innerHeight - height - 10));
 
@@ -57,16 +61,18 @@ export function AdministrativeTargetChooser({
         <span>共址单位</span>
         <Button variant="icon" onClick={onClose} aria-label="关闭共址单位选择">×</Button>
       </div>
-      {targets.map((target, index) => {
-        const details = targetDetails(target);
-        return (
-          <Button variant="menu" key={`${target.kind}-${target.id}`} autoFocus={index === 0}
-            onClick={() => onSelect(target)}>
-            <strong>{details.name}</strong>
-            <small>{details.context}</small>
-          </Button>
-        );
-      })}
+      <Scrollbar className="administrative-target-list">
+        {targets.map((target, index) => {
+          const details = targetDetails(target);
+          return (
+            <Button variant="menu" key={`${target.kind}-${target.id}`} autoFocus={index === 0}
+              onClick={() => onSelect(target)}>
+              <strong>{details.name}</strong>
+              <small>{details.context}</small>
+            </Button>
+          );
+        })}
+      </Scrollbar>
     </div>
   );
 }

@@ -42,7 +42,7 @@ test("reuses animated prefecture relations across the Dusi hierarchy", async ({ 
     const { useAppStore } = await import("/src/store.ts");
     useAppStore.getState().setHoveredMilitaryUnit(null);
   });
-  await expect(leftPanel.getByRole("heading", { name: "两京十三省" })).toBeVisible();
+  await expect(leftPanel.getByRole("heading", { name: "两京十三布政司" })).toBeVisible();
 
   await selectMilitarySearchResult(page, "贵州都指挥使司", "贵州都司", "贵州都指挥使司");
   await expect(leftPanel.getByText("都司系统资料", { exact: true })).toBeVisible();
