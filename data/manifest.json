@@ -2,7 +2,6 @@
   "$schema": "./schema/data-manifest.schema.json",
   "schemaVersion": 1,
   "projectSchema": "./schema/project-data.schema.json",
-  "output": ".generated/project-data.json",
   "fragments": [
     {
       "collection": "sources",

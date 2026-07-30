@@ -1,14 +1,14 @@
 {
   "name": "ming-historical-map",
   "private": true,
-  "version": "0.21.0",
+  "version": "0.22.0",
   "type": "module",
   "scripts": {
-    "data:assemble": "cargo run -p data-validator -- assemble data/manifest.json",
+    "data:prepare": "cargo run -p data-validator -- prepare data/manifest.json data/.generated/runtime-index.json",
     "dev": "vite",
-    "predev": "npm run data:assemble",
+    "predev": "npm run data:prepare",
     "build": "tsc -b && vite build",
-    "prebuild": "npm run data:assemble",
+    "prebuild": "npm run data:prepare",
     "lint": "eslint .",
     "preview": "vite preview",
     "test:e2e": "playwright test"

@@ -1,5 +1,6 @@
 mod manifest;
 mod model;
+mod runtime_index;
 mod validate;
 
 use std::{env, path::PathBuf, process::ExitCode};
@@ -23,17 +24,20 @@ fn run() -> Result<(), String> {
         .map(PathBuf::from)
         .ok_or_else(|| usage().to_owned())?;
 
-    if first == PathBuf::from("assemble") {
+    if first.as_os_str() == "prepare" {
         let manifest_path = arguments
             .next()
             .map(PathBuf::from)
             .ok_or_else(|| usage().to_owned())?;
-        let output_path = arguments.next().map(PathBuf::from);
+        let output_path = arguments
+            .next()
+            .map(PathBuf::from)
+            .ok_or_else(|| usage().to_owned())?;
         if arguments.next().is_some() {
             return Err(usage().to_owned());
         }
-        let output = manifest::assemble_to_file(&manifest_path, output_path.as_deref())?;
-        println!("Assembled historical data: {}", output.display());
+        let output = runtime_index::write(&manifest_path, &output_path)?;
+        println!("Prepared runtime data index: {}", output.display());
         return Ok(());
     }
 
@@ -62,5 +66,5 @@ fn run() -> Result<(), String> {
 }
 
 fn usage() -> &'static str {
-    "Usage: data-validator <project-data.json|manifest.json> | data-validator assemble <manifest.json> [output.json]"
+    "Usage: data-validator <project-data.json|manifest.json> | data-validator prepare <manifest.json> <runtime-index.json>"
 }

@@ -1,13 +1,14 @@
 import { Disclosure } from "./components/Disclosure";
 import { Footnote } from "./components/Footnote";
 import { PanelCloseButton } from "./components/PanelCloseButton";
-import { counties, data, getRegionSummary, getStatistics, regions, topLevelSeats } from "./data";
+import { counties, data, getRegionSummary, regions, topLevelSeats } from "./data";
 import { useAppStore } from "./store";
 import { populationRegistrationNote } from "./statisticsNotes";
 import { TaxMetricLabel, type TaxMetric } from "./taxGlossary";
 import { Scrollbar } from "./Scrollbar";
 import { ScopeUnitButtons } from "./ScopeUnitButtons";
 import type { AdministrativeUnit, StatisticFields } from "./types";
+import { useStatistics } from "./useHistoricalData";
 
 const isDerivedRegionRecord = (record: StatisticFields) => record.valueType === "estimated";
 
@@ -67,7 +68,11 @@ export function ScopePanel({ region }: { region?: AdministrativeUnit }) {
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const selectUnit = useAppStore((state) => state.selectUnit);
-  const records = region ? getStatistics(region.id) : data.scopeStatistics;
+  const { data: loadedStatistics } = useStatistics(region?.id ?? null);
+  const records = region
+    ? loadedStatistics.filter((record) =>
+      "administrativeUnitId" in record && record.administrativeUnitId === region.id)
+    : loadedStatistics;
   const summary = getRegionSummary(region?.id ?? null);
   const childSeats = region ? topLevelSeats.filter(({ region: parent }) => parent.id === region.id) : [];
   const countyCount = region
@@ -118,7 +123,7 @@ export function ScopePanel({ region }: { region?: AdministrativeUnit }) {
         <p>本项目以万历六年（1578）为人口、田产与赋税展示口径；南京直隶区的区域值按14府、4直隶州分项汇总，折色银等缺失项目明确标注。</p>
         <p>当前版本保留完整府州县行政层级；县级人口、赋税暂不继续扩展，江宁县记录作为现有示例保留。</p>
         <p>当前行政数量表示项目已录入数据，并不代替史籍总数校勘。</p>
-        <small>资料记录：{data.sources.length} 种来源</small>
+        <small>资料记录：{data.sourceCount} 种来源</small>
       </Disclosure>
     </Scrollbar>
   </aside>;

@@ -4,12 +4,11 @@
   "title": "Historical map data manifest",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "projectSchema", "output", "fragments"],
+  "required": ["schemaVersion", "projectSchema", "fragments"],
   "properties": {
     "$schema": { "type": "string" },
     "schemaVersion": { "const": 1 },
     "projectSchema": { "type": "string", "minLength": 1 },
-    "output": { "type": "string", "minLength": 1 },
     "fragments": {
       "type": "array",
       "items": { "$ref": "#/$defs/fragment" }

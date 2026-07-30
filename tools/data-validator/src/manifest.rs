@@ -1,8 +1,4 @@
-use std::{
-    collections::HashSet,
-    fs,
-    path::{Path, PathBuf},
-};
+use std::{collections::HashSet, fs, path::Path};
 
 use serde::Deserialize;
 use serde_json::{Map, Value};
@@ -29,7 +25,6 @@ struct Manifest {
     _schema: Option<String>,
     schema_version: u32,
     project_schema: Option<String>,
-    output: Option<String>,
     fragments: Vec<Fragment>,
 }
 
@@ -54,50 +49,23 @@ pub fn load_project(path: &Path) -> Result<ProjectData, String> {
         .map_err(|error| format!("Invalid project data in {}: {error}", path.display()))
 }
 
-pub fn assemble_to_file(
-    manifest_path: &Path,
-    requested_output: Option<&Path>,
-) -> Result<PathBuf, String> {
+pub(crate) fn validated_assembled_value(manifest_path: &Path) -> Result<Value, String> {
     let value = assemble_value(manifest_path)?;
     let data: ProjectData = serde_json::from_value(value.clone())
         .map_err(|error| format!("Assembled project data is invalid: {error}"))?;
     let errors = validate::validate(&data);
-    if !errors.is_empty() {
-        let details = errors
-            .iter()
-            .map(|error| format!("- {error}"))
-            .collect::<Vec<_>>()
-            .join("\n");
-        return Err(format!(
-            "Assembled historical data validation failed with {} error(s):\n{details}",
-            errors.len()
-        ));
+    if errors.is_empty() {
+        return Ok(value);
     }
-
-    let output = requested_output
-        .map(PathBuf::from)
-        .or_else(|| {
-            manifest_path
-                .parent()
-                .map(|parent| parent.join(".generated").join("project-data.json"))
-        })
-        .ok_or_else(|| "Manifest path has no parent directory".to_owned())?;
-    if requested_output.is_none() {
-        let manifest = read_manifest(manifest_path)?;
-        if let Some(manifest_output) = manifest.output {
-            let parent = manifest_path
-                .parent()
-                .ok_or_else(|| "Manifest path has no parent directory".to_owned())?;
-            let candidate = PathBuf::from(manifest_output);
-            if candidate.is_absolute() {
-                return Err("Manifest output must be a relative path".to_owned());
-            }
-            let manifest_output = parent.join(candidate);
-            return write_output(&manifest_output, value);
-        }
-    }
-
-    write_output(&output, value)
+    let details = errors
+        .iter()
+        .map(|error| format!("- {error}"))
+        .collect::<Vec<_>>()
+        .join("\n");
+    Err(format!(
+        "Assembled historical data validation failed with {} error(s):\n{details}",
+        errors.len()
+    ))
 }
 
 fn assemble_value(manifest_path: &Path) -> Result<Value, String> {
@@ -208,16 +176,4 @@ fn read_json(path: &Path) -> Result<Value, String> {
         .map_err(|error| format!("Could not read {}: {error}", path.display()))?;
     serde_json::from_str(&content)
         .map_err(|error| format!("Invalid JSON in {}: {error}", path.display()))
-}
-
-fn write_output(path: &Path, value: Value) -> Result<PathBuf, String> {
-    let content = serde_json::to_string_pretty(&value)
-        .map_err(|error| format!("Could not serialize {}: {error}", path.display()))?;
-    if let Some(parent) = path.parent() {
-        fs::create_dir_all(parent)
-            .map_err(|error| format!("Could not create {}: {error}", parent.display()))?;
-    }
-    fs::write(path, format!("{content}\n"))
-        .map_err(|error| format!("Could not write {}: {error}", path.display()))?;
-    Ok(path.to_path_buf())
 }

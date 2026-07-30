@@ -1,8 +1,10 @@
-import type { AdministrativeUnit, CountyRecord, ProjectData, SeatRecord } from "./types";
+import type { AdministrativeUnit, CountyRecord, RuntimeIndex, SeatRecord } from "./types";
 
 const regionLevels = new Set(["capital-region", "province"]);
 
-export function buildAdministrativeData(data: ProjectData) {
+export function buildAdministrativeData(
+  data: Pick<RuntimeIndex, "administrativeUnits" | "places" | "placeNames">,
+) {
   const unitsById = new Map(data.administrativeUnits.map((unit) => [unit.id, unit]));
   const placesById = new Map(data.places.map((place) => [place.id, place]));
   const namesByPlaceId = new Map(data.placeNames.map((name) => [name.placeId, name]));

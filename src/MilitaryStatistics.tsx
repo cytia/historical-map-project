@@ -1,6 +1,11 @@
 import { Footnote } from "./components/Footnote";
-import { data } from "./data";
-import type { MilitaryMeasureType, MilitaryStatistic, MilitaryStatisticMetric } from "./types";
+import type {
+  MilitaryMeasureType,
+  MilitaryStatistic,
+  MilitaryStatisticMetric,
+  Source,
+} from "./types";
+import { useSources } from "./useHistoricalData";
 
 const metricLabels: Record<MilitaryStatisticMetric, string> = {
   "soldier-count": "军额",
@@ -41,10 +46,10 @@ function formatValue(record: MilitaryStatistic) {
   return `${estimate}${value} ${unitLabels[record.unit]}`;
 }
 
-function sourceNote(records: MilitaryStatistic[]) {
+function sourceNote(records: MilitaryStatistic[], sources: Source[]) {
   if (records.length === 0) return "当前暂无完整单位级数据记录。";
   const sourceIds = new Set(records.flatMap((record) => record.sources.map(({ sourceId }) => sourceId)));
-  const sourceText = data.sources
+  const sourceText = sources
     .filter(({ id }) => sourceIds.has(id))
     .map(({ citation }) => `来源：${citation}`)
     .join("\n");
@@ -56,17 +61,19 @@ function sourceNote(records: MilitaryStatistic[]) {
   return [sourceText || "来源条目待补", recordYears, notes].filter(Boolean).join("\n");
 }
 
-function MetricLabel({ metric, records }: {
+function MetricLabel({ metric, records, sources }: {
   metric: MilitaryStatisticMetric;
   records: MilitaryStatistic[];
+  sources: Source[];
 }) {
   return <span className="metric-label">
     <span>{metricLabels[metric]}</span>
-    <Footnote marker={metricMarkers[metric]} content={sourceNote(records)} />
+    <Footnote marker={metricMarkers[metric]} content={sourceNote(records, sources)} />
   </span>;
 }
 
 export function MilitaryStatistics({ records }: { records: MilitaryStatistic[] }) {
+  const { data: sources } = useSources();
   const metrics: MilitaryStatisticMetric[] = ["soldier-count", "tuntian-area", "tuntian-grain"];
   return <section className="scope-section">
     <p className="eyebrow">军额／屯田／屯粮</p>
@@ -79,7 +86,7 @@ export function MilitaryStatistics({ records }: { records: MilitaryStatistic[] }
         const sourceRecords = [record, tuntianArmy]
           .filter((candidate): candidate is MilitaryStatistic => Boolean(candidate));
         return <div key={metric}>
-          <dt><MetricLabel metric={metric} records={sourceRecords} /></dt>
+          <dt><MetricLabel metric={metric} records={sourceRecords} sources={sources} /></dt>
           <dd title={record ? `来源记录类型：${record.measureType}` : undefined}>
             {record ? formatValue(record) : "暂无完整总额"}
             {tuntianArmy && <><br /><span className="scope-secondary">其中屯军 {formatValue(tuntianArmy)}</span></>}

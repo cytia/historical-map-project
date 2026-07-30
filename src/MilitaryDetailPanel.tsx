@@ -7,6 +7,7 @@ import { militaryById, militaryRecords } from "./militaryData";
 import { useAppStore } from "./store";
 import { Scrollbar } from "./Scrollbar";
 import type { MilitaryRecord } from "./types";
+import { useSources } from "./useHistoricalData";
 
 function kindLabel(record: MilitaryRecord) {
   const kind = record.unit.militaryKind;
@@ -71,14 +72,14 @@ function relationSummary(record: MilitaryRecord, parent?: MilitaryRecord, childr
   return parts.length > 0 ? parts.join("；") : null;
 }
 
-export function MilitaryDetailPanel({ record }: { record?: MilitaryRecord }) {
+function MilitaryDetailPanelContent({ record }: { record: MilitaryRecord }) {
   const detailsOpen = useAppStore((state) => state.detailsOpen);
   const setDetailsOpen = useAppStore((state) => state.setDetailsOpen);
-  if (!record) return null;
+  const { data: sourceCatalog } = useSources();
   const parent = record.militaryParentId ? militaryById.get(record.militaryParentId) : undefined;
   const region = regions.find(({ id }) => id === record.administrativeRegionId);
   const children = militaryRecords.filter(({ militaryParentId }) => militaryParentId === record.unit.id);
-  const sources = getSources(record);
+  const sources = getSources(record, sourceCatalog);
   const relationText = relationSummary(record, parent, children);
   return (
     <aside className={`detail-panel ${detailsOpen ? "is-open" : ""}`}>
@@ -110,4 +111,8 @@ export function MilitaryDetailPanel({ record }: { record?: MilitaryRecord }) {
       </Scrollbar>
     </aside>
   );
+}
+
+export function MilitaryDetailPanel({ record }: { record?: MilitaryRecord }) {
+  return record ? <MilitaryDetailPanelContent record={record} /> : null;
 }

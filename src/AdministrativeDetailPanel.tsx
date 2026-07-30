@@ -2,29 +2,35 @@ import { Button } from "./components/Button";
 import { Disclosure } from "./components/Disclosure";
 import { Footnote } from "./components/Footnote";
 import { PanelCloseButton } from "./components/PanelCloseButton";
-import { counties, data, getSources, getStatistics, seats } from "./data";
+import { counties, getSources, seats } from "./data";
 import { useAppStore } from "./store";
 import { populationRegistrationNote } from "./statisticsNotes";
 import { TaxMetricLabel, type TaxMetric } from "./taxGlossary";
 import { Scrollbar } from "./Scrollbar";
 import { locationAccuracyLabel, locationConfidenceLabel } from "./locationLabels";
-import type { CountyRecord, SeatRecord, StatisticRecord } from "./types";
+import type { CountyRecord, SeatRecord, Source, StatisticRecord } from "./types";
+import { useRegionStatistics, useSources } from "./useHistoricalData";
 
 function levelLabel(seat: SeatRecord) {
   if (seat.unit.level === "prefecture") return "府";
   return seat.unit.parentId === seat.region.id ? "直隶州" : "州";
 }
 
-function sourceMarker(record: StatisticRecord, index = 1, note?: string) {
+function sourceMarker(
+  record: StatisticRecord,
+  sources: Source[],
+  index = 1,
+  note?: string,
+) {
   const sourceId = record.sources[0]?.sourceId;
-  const source = data.sources.find(({ id }) => id === sourceId);
+  const source = sources.find(({ id }) => id === sourceId);
   const sourceNote = `来源：${source?.title ?? sourceId}`;
   return <Footnote marker={index} content={note ? `${note}\n${sourceNote}` : sourceNote} />;
 }
 
-function taxSourceLabel(record: StatisticRecord) {
+function taxSourceLabel(record: StatisticRecord, sources: Source[]) {
   const sourceId = record.sources[0]?.sourceId;
-  const source = data.sources.find(({ id }) => id === sourceId);
+  const source = sources.find(({ id }) => id === sourceId);
   const title = source?.title ?? "赋税来源";
   const label = title.startsWith("大明会典") ? "《大明会典》" : title;
   if (record.recordedYear !== 1578) return label;
@@ -59,8 +65,10 @@ function formatTaxValue(record: StatisticRecord) {
   return prefix + parts.join(" ");
 }
 
-function PopulationMetric({ unitId }: { unitId: string }) {
-  const records = getStatistics(unitId);
+function PopulationMetric({ records, sources }: {
+  records: StatisticRecord[];
+  sources: Source[];
+}) {
   const population = records.find(({ metric }) => metric === "registered-population");
   const households = records.find(({ metric }) => metric === "households");
   return (
@@ -69,7 +77,7 @@ function PopulationMetric({ unitId }: { unitId: string }) {
       {population && households ? <>
         <div className="population-primary">
           <strong>{households.value.toLocaleString("zh-CN")} 户{sourceMarker(
-            households, 1, populationRegistrationNote(households.recordedYear),
+            households, sources, 1, populationRegistrationNote(households.recordedYear),
           )}</strong>
           <span>口数 {population.value.toLocaleString("zh-CN")} 口</span>
         </div>
@@ -79,8 +87,11 @@ function PopulationMetric({ unitId }: { unitId: string }) {
   );
 }
 
-function TaxMetric({ unitId }: { unitId: string }) {
-  const taxes = getStatistics(unitId).filter(({ category }) => category === "tax");
+function TaxMetric({ records, sources }: {
+  records: StatisticRecord[];
+  sources: Source[];
+}) {
+  const taxes = records.filter(({ category }) => category === "tax");
   const sourceRecord = taxes.find(({ recordedYear }) => recordedYear !== null) ?? taxes[0];
   const rows = [
     ["registered-land", taxes.find(({ metric }) => metric === "registered-land")],
@@ -91,7 +102,7 @@ function TaxMetric({ unitId }: { unitId: string }) {
   return (
     <section className="evidence-section tax-evidence">
       <div className="section-heading"><p className="eyebrow">赋税原额
-        {sourceRecord && sourceMarker(sourceRecord, 2, taxSourceLabel(sourceRecord))}
+        {sourceRecord && sourceMarker(sourceRecord, sources, 2, taxSourceLabel(sourceRecord, sources))}
       </p></div>
       {taxes.length ? <dl className="tax-ledger">
         {rows.map(([metric, tax]) => tax && (
@@ -158,7 +169,7 @@ function PeerCounties({ county }: { county: CountyRecord }) {
   );
 }
 
-export function AdministrativeDetailPanel({ seat, county }: {
+function AdministrativeDetailPanelContent({ seat, county }: {
   seat?: SeatRecord;
   county?: CountyRecord;
 }) {
@@ -166,10 +177,13 @@ export function AdministrativeDetailPanel({ seat, county }: {
   const selectUnit = useAppStore((state) => state.selectUnit);
   const setDetailsOpen = useAppStore((state) => state.setDetailsOpen);
   const hierarchyScope = useAppStore((state) => state.hierarchyScope);
-  const record = county ?? seat;
-  if (!record) return null;
-  const sources = getSources(record);
-  const taxRecords = getStatistics(record.unit.id).filter(({ category }) => category === "tax");
+  const record = (county ?? seat)!;
+  const { data: sourceCatalog } = useSources();
+  const { data: regionalStatistics } = useRegionStatistics(record.region.id);
+  const records = regionalStatistics.filter(({ administrativeUnitId }) =>
+    administrativeUnitId === record.unit.id);
+  const sources = getSources(record, sourceCatalog);
+  const taxRecords = records.filter(({ category }) => category === "tax");
   const parentSeat = seat && seat.unit.parentId !== seat.region.id
     ? seats.find(({ unit }) => unit.id === seat.unit.parentId)
     : undefined;
@@ -188,8 +202,8 @@ export function AdministrativeDetailPanel({ seat, county }: {
           <span aria-hidden="true">←</span> 返回{parentSeat.unit.name}
         </Button>}
 
-        <PopulationMetric unitId={record.unit.id} />
-        <TaxMetric unitId={record.unit.id} />
+        <PopulationMetric records={records} sources={sourceCatalog} />
+        <TaxMetric records={records} sources={sourceCatalog} />
         {county ? <PeerCounties county={county} /> :
           <Jurisdiction seat={seat!} disabled={hierarchyScope === "overview"} />}
 
@@ -216,4 +230,13 @@ export function AdministrativeDetailPanel({ seat, county }: {
       </Scrollbar>
     </aside>
   );
+}
+
+export function AdministrativeDetailPanel({ seat, county }: {
+  seat?: SeatRecord;
+  county?: CountyRecord;
+}) {
+  return seat || county
+    ? <AdministrativeDetailPanelContent seat={seat} county={county} />
+    : null;
 }

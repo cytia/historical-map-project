@@ -31,11 +31,12 @@ export interface AdministrativeUnit {
   domain?: UnitDomain;
   militaryKind?: MilitaryUnitKind;
   fiveArmyId?: "central" | "left" | "right" | "front" | "rear";
-  polityId: string;
+  polityId?: string;
   parentId?: string;
   seatPlaceId?: string;
-  confidence: Confidence;
-  sources: SourceLink[];
+  confidence?: Confidence;
+  sources?: SourceLink[];
+  sourceIds?: string[];
 }
 
 export interface MilitaryUnit {
@@ -43,12 +44,13 @@ export interface MilitaryUnit {
   name: string;
   formalName?: string;
   level: "military";
-  domain: "military";
+  domain?: "military";
   militaryKind: MilitaryUnitKind;
-  polityId: string;
+  polityId?: string;
   seatPlaceId?: string;
-  confidence: Confidence;
-  sources: SourceLink[];
+  confidence?: Confidence;
+  sources?: SourceLink[];
+  sourceIds?: string[];
 }
 
 export type HistoricalRelationType =
@@ -75,7 +77,8 @@ export interface Place {
   locationAccuracy: "exact" | "approximate" | "area_only" | "disputed" | "unknown";
   locationMethod?: string;
   confidence: Confidence;
-  sources: SourceLink[];
+  sources?: SourceLink[];
+  sourceIds?: string[];
 }
 
 export interface PlaceName {
@@ -92,6 +95,21 @@ export interface ProjectData {
   administrativeUnits: AdministrativeUnit[];
   militaryUnits: MilitaryUnit[];
   relations: HistoricalRelation[];
+  places: Place[];
+  placeNames: PlaceName[];
+}
+
+export type RuntimeRelation = Pick<
+  HistoricalRelation,
+  "id" | "relationType" | "subjectId" | "objectId"
+>;
+
+export interface RuntimeIndex {
+  schemaVersion: 1;
+  sourceCount: number;
+  administrativeUnits: AdministrativeUnit[];
+  militaryUnits: MilitaryUnit[];
+  relations: RuntimeRelation[];
   places: Place[];
   placeNames: PlaceName[];
 }

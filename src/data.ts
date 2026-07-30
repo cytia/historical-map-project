@@ -1,15 +1,40 @@
-import projectData from "../data/.generated/project-data.json";
-import type { CountyRecord, MilitaryRecord, ProjectData, SeatRecord } from "./types";
+import type {
+  CountyRecord,
+  MilitaryRecord,
+  RuntimeIndex,
+  SeatRecord,
+  Source,
+} from "./types";
 import { buildAdministrativeData, findTopLevelUnitId, summarizeRegion } from "./administrativeData";
 
-export const data = projectData as ProjectData;
+const emptyData: RuntimeIndex = {
+  schemaVersion: 1,
+  sourceCount: 0,
+  administrativeUnits: [],
+  militaryUnits: [],
+  relations: [],
+  places: [],
+  placeNames: [],
+};
 
-const administrativeData = buildAdministrativeData(data);
-export const regions = administrativeData.regionsWithSeats;
-export const seats: SeatRecord[] = administrativeData.seats;
-export const counties: CountyRecord[] = administrativeData.counties;
-export const administrativeAffiliationIds = regions.map(({ id }) => id);
-export const topLevelSeats = seats.filter(({ unit, region }) => unit.parentId === region.id);
+export let data = emptyData;
+let administrativeData = buildAdministrativeData(data);
+export let regions = administrativeData.regionsWithSeats;
+export let seats: SeatRecord[] = administrativeData.seats;
+export let counties: CountyRecord[] = administrativeData.counties;
+export let administrativeAffiliationIds = regions.map(({ id }) => id);
+export let topLevelSeats = seats.filter(({ unit, region }) => unit.parentId === region.id);
+
+export function initializeData(runtimeIndex: RuntimeIndex) {
+  data = runtimeIndex;
+  administrativeData = buildAdministrativeData(data);
+  regions = administrativeData.regionsWithSeats;
+  seats = administrativeData.seats;
+  counties = administrativeData.counties;
+  administrativeAffiliationIds = regions.map(({ id }) => id);
+  topLevelSeats = seats.filter(({ unit, region }) => unit.parentId === region.id);
+}
+
 export const getTopLevelUnitId = (unitId: string | null) =>
   findTopLevelUnitId(administrativeData.unitsById, unitId);
 export const getUnitRegionId = (unitId: string | null) =>
@@ -22,16 +47,19 @@ export const isDescendantOf = (unitId: string, ancestorId: string) => {
   }
   return false;
 };
-export const getStatistics = (unitId: string) =>
-  data.statistics.filter((record) => record.administrativeUnitId === unitId);
-export const getMilitaryStatistics = (militaryUnitId: string) =>
-  data.militaryStatistics.filter((record) => record.militaryUnitId === militaryUnitId);
 export const getRegionSummary = (regionId: string | null) => summarizeRegion(seats, regionId);
 
-export function getSources(record: SeatRecord | CountyRecord | MilitaryRecord): ProjectData["sources"] {
-  const ids = new Set([
-    ...record.unit.sources.map((source) => source.sourceId),
-    ...record.place.sources.map((source) => source.sourceId),
+export function getRecordSourceIds(record: SeatRecord | CountyRecord | MilitaryRecord) {
+  return new Set([
+    ...(record.unit.sourceIds ?? record.unit.sources?.map((source) => source.sourceId) ?? []),
+    ...(record.place.sourceIds ?? record.place.sources?.map((source) => source.sourceId) ?? []),
   ]);
-  return data.sources.filter((source) => ids.has(source.id));
+}
+
+export function getSources(
+  record: SeatRecord | CountyRecord | MilitaryRecord,
+  sources: Source[],
+) {
+  const ids = getRecordSourceIds(record);
+  return sources.filter((source) => ids.has(source.id));
 }

@@ -1,6 +1,6 @@
 import { Disclosure } from "./components/Disclosure";
 import { PanelCloseButton } from "./components/PanelCloseButton";
-import { getMilitaryStatistics, getSources } from "./data";
+import { getRecordSourceIds } from "./data";
 import { MilitaryDisplayGroupPanel } from "./MilitaryDisplayGroupPanel";
 import { MilitaryStatistics } from "./MilitaryStatistics";
 import {
@@ -15,6 +15,7 @@ import { ScopeUnitButtons } from "./ScopeUnitButtons";
 import { Scrollbar } from "./Scrollbar";
 import { useAppStore } from "./store";
 import type { MilitaryRecord } from "./types";
+import { useMilitaryStatistics as useMilitaryStatisticsData } from "./useHistoricalData";
 
 const fiveArmyLabels = {
   central: "中军都督府",
@@ -25,7 +26,7 @@ const fiveArmyLabels = {
 } as const;
 
 function sourceCount(records: MilitaryRecord[]) {
-  return new Set(records.flatMap((record) => getSources(record).map(({ id }) => id))).size;
+  return new Set(records.flatMap((record) => [...getRecordSourceIds(record)])).size;
 }
 
 function selectLabel(count: number, unit: string) {
@@ -36,6 +37,7 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
   const sidebarOpen = useAppStore((state) => state.sidebarOpen);
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
   const selectMilitaryUnit = useAppStore((state) => state.selectMilitaryUnit);
+  const { data: militaryStatistics } = useMilitaryStatisticsData();
   const command = getMilitaryCommandRecord(record.unit.id);
   const displayGroup = getMilitaryDisplayGroup(record.unit.id);
 
@@ -67,7 +69,8 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
   const systemRecords = [command, ...primary, ...secondary];
   const secondaryParents = primary.filter(({ unit }) =>
     secondary.some(({ militaryParentId }) => militaryParentId === unit.id));
-  const statistics = getMilitaryStatistics(command.unit.id);
+  const statistics = militaryStatistics.filter(({ militaryUnitId }) =>
+    militaryUnitId === command.unit.id);
   const unresolved = publishedMilitaryRecords.filter((candidate) =>
     candidate.administrativeRegionId === command.administrativeRegionId &&
     candidate.unit.id !== command.unit.id &&
