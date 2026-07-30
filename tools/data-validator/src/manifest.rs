@@ -9,10 +9,11 @@ use serde_json::{Map, Value};
 
 use crate::{model::ProjectData, validate};
 
-const COLLECTIONS: [&str; 9] = [
+const COLLECTIONS: [&str; 10] = [
     "sources",
     "scopeStatistics",
     "statistics",
+    "militaryStatistics",
     "polities",
     "administrativeUnits",
     "militaryUnits",
@@ -141,7 +142,12 @@ fn assemble_value(manifest_path: &Path) -> Result<Value, String> {
         }
         if matches!(
             fragment.collection.as_str(),
-            "administrativeUnits" | "militaryUnits" | "places" | "placeNames" | "statistics"
+            "administrativeUnits"
+                | "militaryUnits"
+                | "places"
+                | "placeNames"
+                | "statistics"
+                | "militaryStatistics"
         ) && (fragment.domain.is_none() && fragment.region.is_none())
         {
             return Err(format!(

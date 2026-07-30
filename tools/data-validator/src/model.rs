@@ -15,6 +15,8 @@ pub struct ProjectData {
     #[serde(default)]
     pub scope_statistics: Vec<ScopeStatistic>,
     pub statistics: Vec<Statistic>,
+    #[serde(default)]
+    pub military_statistics: Vec<MilitaryStatistic>,
     pub polities: Vec<Polity>,
     pub administrative_units: Vec<AdministrativeUnit>,
     pub military_units: Vec<MilitaryUnit>,
@@ -87,6 +89,43 @@ pub enum StatisticUnit {
 }
 
 #[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum MilitaryStatisticMetric {
+    SoldierCount,
+    TuntianArea,
+    TuntianGrain,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum MilitaryMeasureType {
+    FieldArmy,
+    TuntianArmy,
+    Establishment,
+    Registered,
+    Actual,
+    OriginalArea,
+    RegisteredArea,
+    CurrentArea,
+    CultivatedArea,
+    SummerTax,
+    AutumnGrain,
+    AnnualYield,
+    Allocated,
+    Stored,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum MilitaryStatisticUnit {
+    People,
+    Qing,
+    Mu,
+    Shi,
+    Dou,
+}
+
+#[derive(Debug, Deserialize)]
 #[serde(rename_all = "lowercase")]
 pub enum StatisticValueType {
     Recorded,
@@ -156,6 +195,24 @@ pub struct AdministrativeUnit {
     pub confidence: Confidence,
     pub sources: Vec<SourceLink>,
     pub audit: Audit,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase", deny_unknown_fields)]
+pub struct MilitaryStatistic {
+    pub id: String,
+    pub military_unit_id: String,
+    pub metric: MilitaryStatisticMetric,
+    pub measure_type: MilitaryMeasureType,
+    pub value: f64,
+    pub unit: MilitaryStatisticUnit,
+    pub original_text: Option<String>,
+    pub recorded_year: Option<i32>,
+    pub value_type: StatisticValueType,
+    pub confidence: Confidence,
+    pub sources: Vec<SourceLink>,
+    pub audit: Audit,
+    pub note: Option<String>,
 }
 
 #[derive(Debug, Deserialize)]

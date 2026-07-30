@@ -18,11 +18,23 @@ const administrativeContextById = new Map(
     .filter((relation) => relation.relationType === "administrative-context")
     .map((relation) => [relation.subjectId, relation.objectId]),
 );
-const fiveArmyByUnitId = new Map(
+const fiveArmyAffiliationByUnitId = new Map(
   data.relations
     .filter((relation) => relation.relationType === "five-army-affiliation")
     .map((relation) => [relation.subjectId, relation.objectId as MilitaryRecord["fiveArmyId"]]),
 );
+
+function resolveFiveArmyId(unitId: string) {
+  let currentId: string | undefined = unitId;
+  const visited = new Set<string>();
+  while (currentId && !visited.has(currentId)) {
+    visited.add(currentId);
+    const affiliation = fiveArmyAffiliationByUnitId.get(currentId);
+    if (affiliation) return affiliation;
+    currentId = militaryParentById.get(currentId);
+  }
+  return undefined;
+}
 
 function findAdministrativeContext(unit: MilitaryUnit) {
   let current = administrativeContextById.get(unit.id)
@@ -57,7 +69,7 @@ function createRecord(unit: MilitaryUnit): MilitaryRecord | null {
     administrativeRegionId: context.administrativeRegionId,
     administrativeUnitId: context.administrativeUnitId,
     militaryParentId: militaryParentById.get(unit.id) ?? null,
-    fiveArmyId: fiveArmyByUnitId.get(unit.id),
+    fiveArmyId: resolveFiveArmyId(unit.id),
   };
 }
 

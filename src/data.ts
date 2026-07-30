@@ -24,6 +24,8 @@ export const isDescendantOf = (unitId: string, ancestorId: string) => {
 };
 export const getStatistics = (unitId: string) =>
   data.statistics.filter((record) => record.administrativeUnitId === unitId);
+export const getMilitaryStatistics = (militaryUnitId: string) =>
+  data.militaryStatistics.filter((record) => record.militaryUnitId === militaryUnitId);
 export const getRegionSummary = (regionId: string | null) => summarizeRegion(seats, regionId);
 
 export function getSources(record: SeatRecord | CountyRecord | MilitaryRecord): ProjectData["sources"] {

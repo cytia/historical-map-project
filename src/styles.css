@@ -353,6 +353,14 @@ button { color: inherit; }
 .scope-tax div { display: grid; grid-template-columns: 42px 1fr; gap: 10px; padding: 6px 0; border-top: 1px solid var(--color-separator); }
 .scope-tax dt { color: var(--color-accent); font-size: 10px; font-weight: 600; }
 .scope-tax dd { margin: 0; font: 400 11px/1.5 "Noto Serif SC", SimSun, serif; }
+.military-stat-list { display: grid; gap: 8px; }
+.military-stat-card { padding: 9px 10px; border: 1px solid var(--color-separator); background: color-mix(in srgb, var(--color-surface) 82%, var(--color-accent)); }
+.military-stat-label { margin: 0 0 7px; color: var(--color-accent); font-size: 10px; font-weight: 600; }
+.military-stat-card dl { margin: 0; }
+.military-stat-card dl div { display: grid; grid-template-columns: 58px 1fr; gap: 2px 8px; padding: 5px 0; border-top: 1px solid var(--color-separator); }
+.military-stat-card dt { color: var(--color-text-muted); font-size: 9px; }
+.military-stat-card dd { margin: 0; font: 400 12px/1.4 "Noto Serif SC", SimSun, serif; font-variant-numeric: tabular-nums; }
+.military-stat-card small { grid-column: 1 / -1; color: var(--color-text-muted); font-size: 8px; }
 .scope-unit-list { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
 .scope-unit-list button { padding: 5px 7px; border: 1px solid var(--color-border); background: transparent; cursor: pointer; font-size: 9px; }
 .scope-unit-list button:hover { border-color: var(--color-accent); color: var(--color-accent); background: var(--color-accent-soft); }

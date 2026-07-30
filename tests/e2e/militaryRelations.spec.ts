@@ -138,6 +138,8 @@ test("reuses animated prefecture relations across the Dusi hierarchy", async ({ 
       secondaryRelationIds: data.secondaryRelations.features
         .map((feature) => feature.properties?.id),
       flowIds: data.flowRelations.features.map((feature) => feature.properties?.id),
+      inheritedFiveArmyId: data.records.find(({ unit }) => unit.id === "moni-chishui-military")
+        ?.fiveArmyId,
     };
   });
   const subordinateIds = [
@@ -150,6 +152,7 @@ test("reuses animated prefecture relations across the Dusi hierarchy", async ({ 
   expect(domainData.secondaryRelationIds).toEqual(expect.arrayContaining(subordinateIds));
   expect(domainData.flowIds).toEqual(expect.not.arrayContaining(subordinateIds));
   expect(domainData.flowIds).toContain("chishui-guizhou-military");
+  expect(domainData.inheritedFiveArmyId).toBe("right");
   await expectAnimatedMap(page);
 
   expect(consoleErrors).toEqual([]);

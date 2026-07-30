@@ -1,5 +1,6 @@
-import { getSources } from "./data";
+import { getMilitaryStatistics, getSources } from "./data";
 import { MilitaryDisplayGroupPanel } from "./MilitaryDisplayGroupPanel";
+import { MilitaryStatistics } from "./MilitaryStatistics";
 import {
   getMilitaryCommandRecord,
   isMilitaryDescendant,
@@ -66,6 +67,7 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
   const systemRecords = [command, ...primary, ...secondary];
   const secondaryParents = primary.filter(({ unit }) =>
     secondary.some(({ militaryParentId }) => militaryParentId === unit.id));
+  const statistics = getMilitaryStatistics(command.unit.id);
   const unresolved = publishedMilitaryRecords.filter((candidate) =>
     candidate.administrativeRegionId === command.administrativeRegionId &&
     candidate.unit.id !== command.unit.id &&
@@ -125,9 +127,11 @@ export function MilitaryScopePanel({ record }: { record: MilitaryRecord }) {
         <ScopeUnitButtons units={peers.map(({ unit }) => unit)} onSelect={chooseUnit} />
       </details>}
 
+      <MilitaryStatistics records={statistics} />
+
       <details className="scope-details">
         <summary>数据与统计说明</summary>
-        <p>当前尚无可直接展示的都司级军数、屯田和屯粮同口径记录，因此不生成空指标。</p>
+        <p>军数、屯田和屯粮按史料原文分项显示，不由下辖卫所合计或向都司反推；缺失项不以零代替。</p>
         {(unresolvedPrimary > 0 || unresolvedSecondary > 0) &&
           <p>本区域另有 {unresolvedPrimary} 个一级单位、{unresolvedSecondary} 个二级单位的都司隶属待考，未计入本系统规模。</p>}
         <p>系统规模只统计具有明确军事隶属关系的单位。</p>

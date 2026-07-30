@@ -67,6 +67,10 @@ export function militaryColorExpression(
   affiliationIds: readonly string[],
 ) {
   if (mode === "administrative") {
+    const commandBranches = Object.entries(mapColors.militaryCommandColors).flatMap(([id, color]) => [
+      id,
+      color,
+    ]);
     const variantBranches = affiliationIds.flatMap((id) => [
       id,
       mapColors.militaryAffiliationVariants[id as keyof typeof mapColors.militaryAffiliationVariants] ??
@@ -75,10 +79,13 @@ export function militaryColorExpression(
     const variantExpression = ["match", ["get", "regionId"], ...variantBranches,
       mapColors.affiliationNeutral] as unknown as ExpressionSpecification;
     const exactExpression = affiliationColorExpression("administrative", affiliationIds);
-    return ["match", ["get", "militaryKind"],
+    const fallbackExpression = ["match", ["get", "militaryKind"],
       "xing-dusi", variantExpression,
       "liushou-si", variantExpression,
       exactExpression,
+    ] as unknown as ExpressionSpecification;
+    return ["match", ["get", "commandId"], ...commandBranches,
+      fallbackExpression,
     ] as unknown as ExpressionSpecification;
   }
   return ["match", ["get", "fiveArmyId"],

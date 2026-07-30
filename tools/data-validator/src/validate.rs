@@ -1,8 +1,9 @@
 use std::collections::HashSet;
 
 use crate::model::{
-    AdministrativeUnit, LocationAccuracy, MilitaryUnit, Place, PlaceName, Polity, ProjectData,
-    Relation, RelationType, SourceLink, YearRange,
+    AdministrativeUnit, LocationAccuracy, MilitaryMeasureType, MilitaryStatistic,
+    MilitaryStatisticMetric, MilitaryStatisticUnit, MilitaryUnit, MilitaryUnitKind, Place,
+    PlaceName, Polity, ProjectData, Relation, RelationType, SourceLink, YearRange,
 };
 
 pub fn validate(data: &ProjectData) -> Vec<String> {
@@ -37,6 +38,17 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
         "military unit",
         &mut errors,
     );
+    let military_command_unit_ids = data
+        .military_units
+        .iter()
+        .filter(|unit| {
+            matches!(
+                &unit.military_kind,
+                MilitaryUnitKind::Dusi | MilitaryUnitKind::XingDusi | MilitaryUnitKind::LiushouSi
+            )
+        })
+        .map(|unit| unit.id.as_str())
+        .collect::<HashSet<_>>();
     let special_governance_unit_ids = data
         .administrative_units
         .iter()
@@ -58,7 +70,8 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
         data.statistics
             .iter()
             .map(|item| item.id.as_str())
-            .chain(data.scope_statistics.iter().map(|item| item.id.as_str())),
+            .chain(data.scope_statistics.iter().map(|item| item.id.as_str()))
+            .chain(data.military_statistics.iter().map(|item| item.id.as_str())),
         "statistic",
         &mut errors,
     );
@@ -150,6 +163,15 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
             &statistic.audit.reviewed_on,
             &statistic.audit.revision_note,
             &statistic.id,
+            &mut errors,
+        );
+    }
+
+    for statistic in &data.military_statistics {
+        validate_military_statistic(
+            statistic,
+            &source_ids,
+            &military_command_unit_ids,
             &mut errors,
         );
     }
@@ -260,6 +282,91 @@ fn validate_military_unit(
             "{} references missing seat place {}",
             unit.id, place_id
         ));
+    }
+}
+
+fn validate_military_statistic(
+    statistic: &MilitaryStatistic,
+    source_ids: &HashSet<&str>,
+    military_command_unit_ids: &HashSet<&str>,
+    errors: &mut Vec<String>,
+) {
+    validate_id(&statistic.id, "military statistic", errors);
+    if !military_command_unit_ids.contains(statistic.military_unit_id.as_str()) {
+        errors.push(format!(
+            "{} must reference a dusi, xing-dusi, or liushou-si military unit",
+            statistic.id
+        ));
+    }
+    if !statistic.value.is_finite() || statistic.value < 0.0 {
+        errors.push(format!(
+            "{} has an invalid non-negative value",
+            statistic.id
+        ));
+    }
+    if !military_measure_matches(&statistic.metric, &statistic.measure_type) {
+        errors.push(format!(
+            "{} has a measureType that does not match its metric",
+            statistic.id
+        ));
+    }
+    if !military_unit_matches(&statistic.metric, &statistic.unit) {
+        errors.push(format!(
+            "{} has a unit that does not match its metric",
+            statistic.id
+        ));
+    }
+    validate_source_links(&statistic.sources, &statistic.id, source_ids, errors);
+    validate_audit(
+        &statistic.audit.reviewed_on,
+        &statistic.audit.revision_note,
+        &statistic.id,
+        errors,
+    );
+}
+
+fn military_measure_matches(
+    metric: &MilitaryStatisticMetric,
+    measure_type: &MilitaryMeasureType,
+) -> bool {
+    match metric {
+        MilitaryStatisticMetric::SoldierCount => matches!(
+            measure_type,
+            MilitaryMeasureType::FieldArmy
+                | MilitaryMeasureType::TuntianArmy
+                | MilitaryMeasureType::Establishment
+                | MilitaryMeasureType::Registered
+                | MilitaryMeasureType::Actual
+        ),
+        MilitaryStatisticMetric::TuntianArea => matches!(
+            measure_type,
+            MilitaryMeasureType::OriginalArea
+                | MilitaryMeasureType::RegisteredArea
+                | MilitaryMeasureType::CurrentArea
+                | MilitaryMeasureType::CultivatedArea
+        ),
+        MilitaryStatisticMetric::TuntianGrain => matches!(
+            measure_type,
+            MilitaryMeasureType::SummerTax
+                | MilitaryMeasureType::AutumnGrain
+                | MilitaryMeasureType::AnnualYield
+                | MilitaryMeasureType::Allocated
+                | MilitaryMeasureType::Stored
+        ),
+    }
+}
+
+fn military_unit_matches(metric: &MilitaryStatisticMetric, unit: &MilitaryStatisticUnit) -> bool {
+    match metric {
+        MilitaryStatisticMetric::SoldierCount => matches!(unit, MilitaryStatisticUnit::People),
+        MilitaryStatisticMetric::TuntianArea => matches!(
+            unit,
+            MilitaryStatisticUnit::Qing | MilitaryStatisticUnit::Mu
+        ),
+        MilitaryStatisticMetric::TuntianGrain => matches!(
+            unit,
+            MilitaryStatisticUnit::Shi | MilitaryStatisticUnit::Dou
+        ),
     }
 }
 

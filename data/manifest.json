@@ -838,6 +838,12 @@
       "collection": "statistics",
       "region": "zhejiang",
       "path": "statistics/zhejiang.json"
+    },
+    {
+      "collection": "militaryStatistics",
+      "domain": "military",
+      "region": "top-level-commands",
+      "path": "statistics/military.json"
     }
   ]
 }

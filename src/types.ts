@@ -88,6 +88,7 @@ export interface ProjectData {
   sources: Source[];
   scopeStatistics: ScopeStatisticRecord[];
   statistics: StatisticRecord[];
+  militaryStatistics: MilitaryStatistic[];
   administrativeUnits: AdministrativeUnit[];
   militaryUnits: MilitaryUnit[];
   relations: HistoricalRelation[];
@@ -113,6 +114,43 @@ export interface StatisticRecord extends StatisticFields {
 }
 
 export type ScopeStatisticRecord = StatisticFields;
+
+export type MilitaryStatisticMetric = "soldier-count" | "tuntian-area" | "tuntian-grain";
+export type MilitaryMeasureType =
+  | "field-army"
+  | "tuntian-army"
+  | "establishment"
+  | "registered"
+  | "actual"
+  | "original-area"
+  | "registered-area"
+  | "current-area"
+  | "cultivated-area"
+  | "summer-tax"
+  | "autumn-grain"
+  | "annual-yield"
+  | "allocated"
+  | "stored";
+export type MilitaryStatisticUnit = "people" | "qing" | "mu" | "shi" | "dou";
+
+export interface MilitaryStatistic {
+  id: string;
+  militaryUnitId: string;
+  metric: MilitaryStatisticMetric;
+  measureType: MilitaryMeasureType;
+  value: number;
+  unit: MilitaryStatisticUnit;
+  originalText?: string;
+  recordedYear: number | null;
+  valueType: "recorded" | "estimated";
+  confidence: Confidence;
+  sources: SourceLink[];
+  audit: {
+    reviewedOn: string;
+    revisionNote: string;
+  };
+  note?: string;
+}
 
 export interface SeatRecord {
   unit: AdministrativeUnit;

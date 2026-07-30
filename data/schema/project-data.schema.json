@@ -9,6 +9,7 @@
     "sources",
     "scopeStatistics",
     "statistics",
+    "militaryStatistics",
     "polities",
     "administrativeUnits",
     "militaryUnits",
@@ -30,6 +31,10 @@
     "statistics": {
       "type": "array",
       "items": { "$ref": "#/$defs/statistic" }
+    },
+    "militaryStatistics": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/militaryStatistic" }
     },
     "polities": {
       "type": "array",
@@ -217,6 +222,26 @@
           "items": { "$ref": "#/$defs/sourceLink" }
         },
         "audit": { "$ref": "#/$defs/audit" }
+      }
+    },
+    "militaryStatistic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "militaryUnitId", "metric", "measureType", "value", "unit", "recordedYear", "valueType", "confidence", "sources", "audit"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "militaryUnitId": { "$ref": "#/$defs/id" },
+        "metric": { "enum": ["soldier-count", "tuntian-area", "tuntian-grain"] },
+        "measureType": { "enum": ["field-army", "tuntian-army", "establishment", "registered", "actual", "original-area", "registered-area", "current-area", "cultivated-area", "summer-tax", "autumn-grain", "annual-yield", "allocated", "stored"] },
+        "value": { "type": "number", "minimum": 0 },
+        "unit": { "enum": ["people", "qing", "mu", "shi", "dou"] },
+        "originalText": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "recordedYear": { "type": ["integer", "null"] },
+        "valueType": { "enum": ["recorded", "estimated"] },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sourceLink" } },
+        "audit": { "$ref": "#/$defs/audit" },
+        "note": { "type": "string", "maxLength": 500 }
       }
     },
     "militaryUnit": {

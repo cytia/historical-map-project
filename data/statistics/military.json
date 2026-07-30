@@ -1,0 +1,1799 @@
+[
+  {
+    "id": "yunnan-dusi-soldier-count-field-army-1574",
+    "militaryUnitId": "yunnan-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 27838,
+    "unit": "people",
+    "originalText": "三分马步旗军二万七千八百三十八名",
+    "recordedYear": 1574,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wanli-yunnan-gazetteer-military",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《万历云南通志》卷七将此项直接列于云南都指挥使司“军数”下；保留“三分马步旗军”原文性质。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded directly from the Yunnan military gazetteer; kept as the field-army component and not added to the tuntian-army component."
+    },
+    "note": "军数组成项：三分马步旗军；不等同于可即时出战兵力。"
+  },
+  {
+    "id": "yunnan-dusi-soldier-count-tuntian-army-1574",
+    "militaryUnitId": "yunnan-dusi",
+    "metric": "soldier-count",
+    "measureType": "tuntian-army",
+    "value": 34591,
+    "unit": "people",
+    "originalText": "七分屯军三万四千五百九十一名",
+    "recordedYear": 1574,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wanli-yunnan-gazetteer-military",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《万历云南通志》卷七将此项直接列于云南都指挥使司“军数”下；保留“七分屯军”原文性质。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded directly from the Yunnan military gazetteer; kept as the tuntian-army component and not added to the field-army component."
+    },
+    "note": "军数组成项：七分屯军；不等同于屯田面积或可即时出战兵力。"
+  },
+  {
+    "id": "yunnan-dusi-tuntian-area-1574",
+    "militaryUnitId": "yunnan-dusi",
+    "metric": "tuntian-area",
+    "measureType": "cultivated-area",
+    "value": 1107880.41396,
+    "unit": "mu",
+    "originalText": "一百一十万七千八百八十亩四分一厘三毫九丝六忽",
+    "recordedYear": 1574,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wanli-yunnan-gazetteer-military",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《万历云南通志》卷七将此项直接列于云南都指挥使司“屯田”下；保留亩、分、厘、毫、丝、忽的原文层级。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in mu with the source's sub-mu fractions represented as decimal mu; no modern-area conversion and no allocation to subordinate units."
+    },
+    "note": "屯田原额为亩、分、厘、毫、丝、忽；内部仅按十进子单位记录，未换算为现代面积。"
+  },
+  {
+    "id": "yunnan-dusi-tuntian-grain-summer-tax-1574",
+    "militaryUnitId": "yunnan-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "summer-tax",
+    "value": 47893,
+    "unit": "shi",
+    "originalText": "夏税四万七千八百九十三石",
+    "recordedYear": 1574,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wanli-yunnan-gazetteer-military",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《万历云南通志》卷七将此项直接列于云南都指挥使司“屯粮”下；保留“夏税”粮种和石制单位。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded directly as the summer-tax grain amount; no conversion to silver or modern mass units."
+    },
+    "note": "屯粮分项：夏税；不与秋粮自动合并。"
+  },
+  {
+    "id": "yunnan-dusi-tuntian-grain-autumn-grain-1574",
+    "militaryUnitId": "yunnan-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "autumn-grain",
+    "value": 239458.4735,
+    "unit": "shi",
+    "originalText": "秋粮二十三万九千四百五十八石四斗七升三合五勺",
+    "recordedYear": 1574,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wanli-yunnan-gazetteer-military",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《万历云南通志》卷七将此项直接列于云南都指挥使司“屯粮”下；保留“秋粮”粮种和石、斗、升、合、勺原文单位。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded as shi with the source's dou, sheng, he, and shao fractions normalized to decimal shi; no modern-mass conversion and no allocation to subordinate units."
+    },
+    "note": "屯粮分项：秋粮；石以下单位按十进层级记录，不与夏税自动合并。"
+  },
+  {
+    "id": "sichuan-dusi-soldier-count-source",
+    "militaryUnitId": "sichuan-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 63636,
+    "unit": "people",
+    "originalText": "四川都司所属二十一卫所，原额军士六万三千六百三十六名",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wanli-sichuan-gazetteer-military",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《万历四川总志》卷二十将此项直接列为四川都司所属二十一卫所的原额军士；此处只保留都司级合计，不拆录卫所。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded directly as the Sichuan dusi establishment total; the source does not state an independent statistic year, so recordedYear remains null."
+    },
+    "note": "原额军士；来源未明确单独统计年份，不视为1600年现有军数。"
+  },
+  {
+    "id": "sichuan-dusi-tuntian-grain-source",
+    "militaryUnitId": "sichuan-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 14874.7846,
+    "unit": "shi",
+    "originalText": "该粮一万四千八百七十四石七斗八升四合六勺",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wanli-sichuan-gazetteer-military",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《万历四川总志》卷二十将此粮额列于四川都司通共田地条下；原文未分夏税、秋粮。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in shi with dou, sheng, he, and shao represented as decimal shi; no modern-mass conversion and no allocation to subordinate units."
+    },
+    "note": "都司级该粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "sichuan-xing-dusi-tuntian-area-source",
+    "militaryUnitId": "sichuan-xing-dusi",
+    "metric": "tuntian-area",
+    "measureType": "registered-area",
+    "value": 3047.6615,
+    "unit": "qing",
+    "originalText": "行都司原额新增田地共三千四十七顷六十六亩一分五厘",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wanli-sichuan-gazetteer-military",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《万历四川总志》卷二十直接列出行都司原额新增田地；不含下属卫所逐项记录。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in qing with mu, fen, and li represented as decimal qing; no modern-area conversion and no allocation to subordinate units."
+    },
+    "note": "原额新增田地；顷、亩、分、厘按十进层级记录，来源未明确单独统计年份。"
+  },
+  {
+    "id": "sichuan-xing-dusi-tuntian-grain-source",
+    "militaryUnitId": "sichuan-xing-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 20509.3247,
+    "unit": "shi",
+    "originalText": "该粮二万五百九石三斗二升四合七勺",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wanli-sichuan-gazetteer-military",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《万历四川总志》卷二十将此粮额直接列于行都司原额新增田地条下；原文未分夏税、秋粮。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in shi with dou, sheng, he, and shao represented as decimal shi; no modern-mass conversion and no allocation to subordinate units."
+    },
+    "note": "行都司级该粮；新增仓基、花园税额不与，且原文未分夏税、秋粮。"
+  },
+  {
+    "id": "zhejiang-dusi-tuntian-original-area-source",
+    "militaryUnitId": "zhejiang-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 2274.196,
+    "unit": "qing",
+    "originalText": "浙江都司原额屯田二千二百七十四顷一十九亩六分",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《大明会典》卷十八直接列出浙江都司原额屯田；此处保留都司级数值，不拆录卫所。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in qing with mu and fen represented as decimal qing; no modern-area conversion and no allocation to subordinate units."
+    },
+    "note": "原额屯田；来源未明确单独统计年份。"
+  },
+  {
+    "id": "zhejiang-dusi-tuntian-current-area-source",
+    "militaryUnitId": "zhejiang-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 2390.6096,
+    "unit": "qing",
+    "originalText": "见额屯田并地、山、园、池、荡、兜、缕、潭、塘、滩沟共二千三百九十顷六十亩九分六厘零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《大明会典》卷十八直接列出浙江都司见额屯田及地、山、园、池、荡等项；不下摊至卫所。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in qing with mu, fen, and li represented as decimal qing; retained the source's combined land-category wording."
+    },
+    "note": "见额屯田及附列地类合计；来源未明确单独统计年份。"
+  },
+  {
+    "id": "zhejiang-dusi-tuntian-grain-source",
+    "militaryUnitId": "zhejiang-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 68296.3513,
+    "unit": "shi",
+    "originalText": "粮六万八千二百九十六石三斗五升一合三勺零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《大明会典》卷十八将此粮额列于浙江都司屯田条下；原文未分夏税、秋粮。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in shi with dou, sheng, he, and shao represented as decimal shi; no modern-mass conversion."
+    },
+    "note": "都司级该粮；原文未分夏税、秋粮，来源未明确单独统计年份。"
+  },
+  {
+    "id": "jiangxi-dusi-tuntian-original-area-source",
+    "militaryUnitId": "jiangxi-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 5623.4125,
+    "unit": "qing",
+    "originalText": "江西都司原额屯田地五千六百二十三顷四十一亩二分五厘",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《大明会典》卷十八直接列出江西都司原额屯田地；此处保留都司级数值，不拆录卫所。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in qing with mu, fen, and li represented as decimal qing; no modern-area conversion and no allocation to subordinate units."
+    },
+    "note": "原额屯田地；来源未明确单独统计年份。"
+  },
+  {
+    "id": "jiangxi-dusi-tuntian-current-area-source",
+    "militaryUnitId": "jiangxi-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 5471.3843,
+    "unit": "qing",
+    "originalText": "见额屯田地五千四百七十一顷三十八亩四分三厘零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《大明会典》卷十八直接列出江西都司见额屯田地；不下摊至卫所。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in qing with mu, fen, and li represented as decimal qing; no modern-area conversion."
+    },
+    "note": "见额屯田地；来源未明确单独统计年份。"
+  },
+  {
+    "id": "jiangxi-dusi-tuntian-grain-source",
+    "militaryUnitId": "jiangxi-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 21546.425,
+    "unit": "shi",
+    "originalText": "粮二万一千五百四十六石四斗二升五合",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《大明会典》卷十八将此粮额列于江西都司屯田条下；原文未分夏税、秋粮。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-29",
+      "revisionNote": "Recorded in shi with dou, sheng, and he represented as decimal shi; no modern-mass conversion."
+    },
+    "note": "都司级该粮；原文未分夏税、秋粮，来源未明确单独统计年份。"
+  },
+  {
+    "id": "henan-dusi-tuntian-original-area-source",
+    "militaryUnitId": "henan-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 36390.1732,
+    "unit": "qing",
+    "originalText": "河南都司原额屯田三万六千三百九十顷一十七亩三分二厘",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级原额屯田；河南都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "henan-dusi-tuntian-current-area-source",
+    "militaryUnitId": "henan-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 55598.2348,
+    "unit": "qing",
+    "originalText": "见额屯田五万五千五百九十八顷二十三亩四分八厘零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级见额屯田；河南都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "henan-dusi-tuntian-grain-source",
+    "militaryUnitId": "henan-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 333589.4098,
+    "unit": "shi",
+    "originalText": "粮三十三万三千五百八十九石四斗九合八勺",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级屯粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "guangdong-dusi-tuntian-original-area-source",
+    "militaryUnitId": "guangdong-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 72.3376,
+    "unit": "qing",
+    "originalText": "广东都司原额屯田七十二顷三十三亩七分六厘",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级原额屯田；广东都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "guangdong-dusi-tuntian-current-area-source",
+    "militaryUnitId": "guangdong-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 6338.7988,
+    "unit": "qing",
+    "originalText": "见额屯田六千三百三十八顷七十九亩八分八厘零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级见额屯田；广东都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "guangdong-dusi-tuntian-grain-source",
+    "militaryUnitId": "guangdong-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 150129.4784,
+    "unit": "shi",
+    "originalText": "粮一十五万一百二十九石四斗七升八合四勺零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级屯粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "guangxi-dusi-tuntian-original-area-source",
+    "militaryUnitId": "guangxi-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 513.4,
+    "unit": "qing",
+    "originalText": "广西都司原额屯田五百一十三顷四十亩",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级原额屯田；广西都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "guangxi-dusi-tuntian-current-area-source",
+    "militaryUnitId": "guangxi-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 4610.346,
+    "unit": "qing",
+    "originalText": "见额屯田四千六百一十顷三十四亩六分零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级见额屯田；广西都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "guangxi-dusi-tuntian-grain-source",
+    "militaryUnitId": "guangxi-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 55054.3494,
+    "unit": "shi",
+    "originalText": "粮五万五千五十四石三斗四升九合四勺",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级屯粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "shandong-dusi-tuntian-original-area-source",
+    "militaryUnitId": "shandong-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 2060,
+    "unit": "qing",
+    "originalText": "山东都司原额屯田二千六十顷",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级原额屯田；山东都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "shandong-dusi-tuntian-current-area-source",
+    "militaryUnitId": "shandong-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 18487.4922,
+    "unit": "qing",
+    "originalText": "见额屯田一万八千四百八十七顷四十九亩二分二厘零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级见额屯田；山东都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "shandong-dusi-tuntian-grain-source",
+    "militaryUnitId": "shandong-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 80348.46,
+    "unit": "shi",
+    "originalText": "粮八万三百四十八石四斗六升零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级屯粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "shanxi-dusi-tuntian-original-area-source",
+    "militaryUnitId": "shanxi-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 12963.0855,
+    "unit": "qing",
+    "originalText": "山西都司原额屯田一万二千九百六十三顷八亩五分五厘",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级原额屯田；山西都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "shanxi-dusi-tuntian-current-area-source",
+    "militaryUnitId": "shanxi-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 33714.887,
+    "unit": "qing",
+    "originalText": "见额山西镇屯田地三万三千七百一十四顷八百八十八亩七分零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级见额屯田；山西都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "shanxi-dusi-tuntian-grain-source",
+    "militaryUnitId": "shanxi-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 110098.161,
+    "unit": "shi",
+    "originalText": "种一十万一千九十八石一斗六升一合零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级屯粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "shanxi-xing-dusi-tuntian-original-area-source",
+    "militaryUnitId": "shanxi-xing-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 10118.205,
+    "unit": "qing",
+    "originalText": "山西行都司原额屯田一万一百一十八顷二十亩五分",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级原额屯田；山西行都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "shanxi-xing-dusi-tuntian-current-area-source",
+    "militaryUnitId": "shanxi-xing-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 28590.3445,
+    "unit": "qing",
+    "originalText": "见额大同镇屯田二万八千五百九十顷三十四亩四分五厘零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级见额屯田；山西行都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "shanxi-xing-dusi-tuntian-grain-source",
+    "militaryUnitId": "shanxi-xing-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 122438.1522,
+    "unit": "shi",
+    "originalText": "粮一十二万二千四百三十八石一斗五升二合二勺",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级屯粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "wanquan-dusi-tuntian-original-area-source",
+    "militaryUnitId": "wanquan-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 19065.726,
+    "unit": "qing",
+    "originalText": "万全都司原额屯田一万九千六十五顷七十二亩六分",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级原额屯田；万全都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "wanquan-dusi-tuntian-current-area-source",
+    "militaryUnitId": "wanquan-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 47892.47,
+    "unit": "qing",
+    "originalText": "见额宣府镇屯田四万七千八百九十二顷四十七亩零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级见额屯田；万全都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "wanquan-dusi-tuntian-grain-source",
+    "militaryUnitId": "wanquan-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 198061.6839,
+    "unit": "shi",
+    "originalText": "粮一十九万八千六十一石六斗八升三合九勺",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级屯粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "guizhou-dusi-tuntian-original-area-source",
+    "militaryUnitId": "guizhou-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 9339.293,
+    "unit": "qing",
+    "originalText": "贵州都司原额屯田九千三百三十九顷二十九亩三分",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级原额屯田；贵州都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "guizhou-dusi-tuntian-current-area-source",
+    "militaryUnitId": "guizhou-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 392111.61,
+    "unit": "mu",
+    "originalText": "见额屯田三十九万二千一百一十一亩六分一厘零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级见额屯田；保留原文亩、分、厘单位，不换算为顷。"
+  },
+  {
+    "id": "guizhou-dusi-tuntian-grain-source",
+    "militaryUnitId": "guizhou-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 93811.7436,
+    "unit": "shi",
+    "originalText": "粮九万三千八百一十一石七斗四升三合六勺",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级屯粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "liaodong-dusi-tuntian-original-area-source",
+    "militaryUnitId": "liaodong-dusi",
+    "metric": "tuntian-area",
+    "measureType": "original-area",
+    "value": 12386,
+    "unit": "qing",
+    "originalText": "辽东都司原额屯田一万二千三百八十六顷",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级原额屯田；辽东都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "liaodong-dusi-tuntian-current-area-source",
+    "militaryUnitId": "liaodong-dusi",
+    "metric": "tuntian-area",
+    "measureType": "current-area",
+    "value": 29158.661,
+    "unit": "qing",
+    "originalText": "见额屯田二万九千一百五十八顷六十六亩一分零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级见额屯田；辽东都司的都司级总额不下摊至卫所。"
+  },
+  {
+    "id": "liaodong-dusi-tuntian-grain-source",
+    "militaryUnitId": "liaodong-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 153201.03,
+    "unit": "shi",
+    "originalText": "粮一十五万三千二百一石三升零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-huidian-tuntian-18",
+        "claim": "existence",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded directly from the Wanli Daming Huidian; the source does not state an independent statistic year."
+    },
+    "note": "都司级屯粮；原文未分夏税、秋粮，石以下单位按十进层级记录。"
+  },
+  {
+    "id": "zhongdu-liushou-si-soldier-count-establishment-estimate",
+    "militaryUnitId": "zhongdu-liushou-si",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 45920,
+    "unit": "people",
+    "originalText": "中都留守司统卫八所一",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "来源列中都留守司统卫八、所一；估算按同条卫五千六百人、千户所一千一百二十人的定制计算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed establishment estimate from the source's subordinate-unit count and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：8 × 5600 + 1 × 1120；不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "xingdu-liushou-si-soldier-count-establishment-estimate",
+    "militaryUnitId": "xingdu-liushou-si",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 17920,
+    "unit": "people",
+    "originalText": "兴都留守司统卫三所一",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "来源列兴都留守司统卫三、所一；估算按同条卫五千六百人、千户所一千一百二十人的定制计算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed establishment estimate from the source's subordinate-unit count and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：3 × 5600 + 1 × 1120；不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "huguang-dusi-soldier-count-establishment-estimate",
+    "militaryUnitId": "huguang-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 174720,
+    "unit": "people",
+    "originalText": "湖广都司统卫二十五所三十一",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "来源列湖广都司统卫二十五、所三十一；估算按同条卫五千六百人、千户所一千一百二十人的定制计算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed establishment estimate from the source's subordinate-unit count and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：25 × 5600 + 31 × 1120；不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "huguang-xing-dusi-soldier-count-establishment-estimate",
+    "militaryUnitId": "huguang-xing-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 54880,
+    "unit": "people",
+    "originalText": "湖广行都司统卫八所九",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "来源列湖广行都司统卫八、所九；估算按同条卫五千六百人、千户所一千一百二十人的定制计算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed establishment estimate from the source's subordinate-unit count and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：8 × 5600 + 9 × 1120；不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "fujian-dusi-soldier-count-establishment-estimate",
+    "militaryUnitId": "fujian-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 79520,
+    "unit": "people",
+    "originalText": "福建都司统卫十一所十六",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "来源列福建都司统卫十一、所十六；估算按同条卫五千六百人、千户所一千一百二十人的定制计算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed establishment estimate from the source's subordinate-unit count and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：11 × 5600 + 16 × 1120；不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "fujian-xing-dusi-soldier-count-establishment-estimate",
+    "militaryUnitId": "fujian-xing-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 33600,
+    "unit": "people",
+    "originalText": "福建行都司统卫五所五",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "来源列福建行都司统卫五、所五；估算按同条卫五千六百人、千户所一千一百二十人的定制计算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed establishment estimate from the source's subordinate-unit count and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：5 × 5600 + 5 × 1120；不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "shaanxi-dusi-soldier-count-establishment-estimate",
+    "militaryUnitId": "shaanxi-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 173600,
+    "unit": "people",
+    "originalText": "陕西都司统卫二十七所二十",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "来源列陕西都司统卫二十七、所二十；估算按同条卫五千六百人、千户所一千一百二十人的定制计算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed establishment estimate from the source's subordinate-unit count and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：27 × 5600 + 20 × 1120；不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "shaanxi-xing-dusi-soldier-count-establishment-estimate",
+    "militaryUnitId": "shaanxi-xing-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 70560,
+    "unit": "people",
+    "originalText": "陕西行都司统卫十二所三",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "来源列陕西行都司统卫十二、所三；估算按同条卫五千六百人、千户所一千一百二十人的定制计算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed establishment estimate from the source's subordinate-unit count and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：12 × 5600 + 3 × 1120；不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "danning-dusi-soldier-count-establishment-estimate",
+    "militaryUnitId": "danning-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 62720,
+    "unit": "people",
+    "originalText": "大宁都司统卫十一所一",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "来源列大宁都司统卫十一、所一；估算按同条卫五千六百人、千户所一千一百二十人的定制计算。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed establishment estimate from the source's subordinate-unit count and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：11 × 5600 + 1 × 1120；不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "zhongdu-liushou-si-tuntian-area-recorded",
+    "militaryUnitId": "zhongdu-liushou-si",
+    "metric": "tuntian-area",
+    "measureType": "registered-area",
+    "value": 7953.78,
+    "unit": "qing",
+    "originalText": "中都留守司，并所属卫所，及皇陵卫屯田，共七千九百五十三顷七十八亩零",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "gujin-tushu-jicheng-tianzhi-049",
+        "claim": "existence",
+        "confidence": "medium"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded as the source's aggregate Zhongdu garrison-command field total; the source does not identify an independent statistic year or distinguish original from current area."
+    },
+    "note": "中都留守司及所属卫所、皇陵卫合计屯田；未分原额／见额，不拆至下属卫所。"
+  },
+  {
+    "id": "sichuan-xing-dusi-soldier-count-field-army-estimate",
+    "militaryUnitId": "sichuan-xing-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 9600,
+    "unit": "people",
+    "originalText": "四川行都司本都司所属马步官军九千六百余员名",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-military-stats",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文以“九千六百余”记马步官军；数值按下限九千六百录入，不视为精确总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Sichuan Xingdu si field-army statement as a lower-bound estimate because the source uses 余数 wording."
+    },
+    "note": "马步官军约九千六百以上；原文为余数，不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "zhejiang-dusi-soldier-count-field-army-estimate",
+    "militaryUnitId": "zhejiang-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 39900,
+    "unit": "people",
+    "originalText": "浙江都司所属马步官军三万九千九百余员名",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-military-stats",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文以“九百余”记数；数值按下限三万九千九百录入，不视为精确总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Zhejiang dusi field-army statement as a lower-bound estimate because the source uses 余数 wording."
+    },
+    "note": "马步官军约三万九千九百以上；原文为余数，不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "jiangxi-dusi-soldier-count-field-army-estimate",
+    "militaryUnitId": "jiangxi-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 12700,
+    "unit": "people",
+    "originalText": "江西都司所属马步官军一万二千七百余员名",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-military-stats",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文以“七百余”记数；数值按下限一万二千七百录入，不视为精确总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Jiangxi dusi field-army statement as a lower-bound estimate because the source uses 余数 wording."
+    },
+    "note": "马步官军约一万二千七百以上；原文为余数，不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "henan-dusi-soldier-count-field-army-estimate",
+    "militaryUnitId": "henan-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 15900,
+    "unit": "people",
+    "originalText": "河南都司除二班京操外马步官军一万五千九百余员名",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-military-stats",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文排除二班京操后记马步官军；数值按下限一万五千九百录入。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Henan dusi field-army statement as a lower-bound estimate and preserved the source's exclusion of two Beijing-service rotations."
+    },
+    "note": "除二班京操外，马步官军约一万五千九百以上；不等同于全额编制或可即时出战兵力。"
+  },
+  {
+    "id": "guangdong-dusi-soldier-count-field-army-estimate",
+    "militaryUnitId": "guangdong-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 39400,
+    "unit": "people",
+    "originalText": "广东都司所属马步官军三万九千四百余员名",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-military-stats",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文以“四百余”记数；数值按下限三万九千四百录入，不视为精确总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Guangdong dusi field-army statement as a lower-bound estimate because the source uses 余数 wording."
+    },
+    "note": "马步官军约三万九千四百以上；原文为余数，不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "guangxi-dusi-soldier-count-field-army-estimate",
+    "militaryUnitId": "guangxi-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 10200,
+    "unit": "people",
+    "originalText": "广西都司所属马步官军一万二百余员名",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-military-stats",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文以“二百余”记数；数值按下限一万二百录入，不视为精确总额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Guangxi dusi field-army statement as a lower-bound estimate because the source uses 余数 wording."
+    },
+    "note": "马步官军约一万二百以上；原文为余数，不等同于实在军数或可即时出战兵力。"
+  },
+  {
+    "id": "shandong-dusi-soldier-count-establishment-1598",
+    "militaryUnitId": "shandong-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 43631,
+    "unit": "people",
+    "originalText": "万历二十六年山东都司辖卫十八领所八又所十七官军额实四万三千六百三十一名",
+    "recordedYear": 1598,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "wubeizhi-shandong-196",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《武备志》明确标出万历二十六年，并以“官军额实”列山东都司军数。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the dated Shandong dusi establishment total directly from the source; no subordinate-unit allocation was performed."
+    },
+    "note": "万历二十六年官军额实；属于编额统计，不等同于同年实际在操兵力。"
+  },
+  {
+    "id": "shanxi-dusi-soldier-count-field-army-estimate",
+    "militaryUnitId": "shanxi-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 19500,
+    "unit": "people",
+    "originalText": "山西都指挥使司所属马步官军舍余夷人等一万九千五百余员名",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-military-stats",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文将马步官军、舍余、夷人等合列并以“余”记数；数值按下限一万九千五百录入。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Shanxi dusi military-personnel statement as a lower-bound estimate and preserved its combined personnel categories."
+    },
+    "note": "马步官军、舍余、夷人等约一万九千五百以上；不是单一兵种精确数。"
+  },
+  {
+    "id": "shanxi-xing-dusi-soldier-count-field-army-estimate",
+    "militaryUnitId": "shanxi-xing-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 40060,
+    "unit": "people",
+    "originalText": "山西行都司本司所属马步军四万六十余员名",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-military-stats",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文作“四万六十余”；按四万零六十的下限录入，保留原文表述以便复核。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the Shanxi Xingdu si field-army statement as a lower-bound estimate; the source wording is retained because the numeral may require textual rechecking."
+    },
+    "note": "原文作“四万六十余”，暂按四万零六十以上录入；需后续复核版本异文。"
+  },
+  {
+    "id": "wanquan-dusi-soldier-count-establishment-estimate",
+    "militaryUnitId": "wanquan-dusi",
+    "metric": "soldier-count",
+    "measureType": "establishment",
+    "value": 91840,
+    "unit": "people",
+    "originalText": "万全都司所属卫十五、守御千户所七",
+    "recordedYear": null,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "qinding-xu-wenxian-tongkao-military-128",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "按项目当前万全都司名录的十五卫、七守御千户所计算；采用同源卫五千六百人、千户所一千一百二十人的定制。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Computed a clearly labeled establishment estimate from the project's current Wanquan dusi roster and standard unit sizes; it is not a direct count of soldiers present."
+    },
+    "note": "编制估算：15 × 5600 + 7 × 1120；不等同于实在军数或宣府镇全镇军数。"
+  },
+  {
+    "id": "guizhou-dusi-soldier-count-field-army-recorded",
+    "militaryUnitId": "guizhou-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 37417,
+    "unit": "people",
+    "originalText": "贵州都司所属马步官军三万七千四百一十七员名",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-military-stats",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文给出贵州都司所属马步官军精确数值；不拆分至下属卫所。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Guizhou dusi field-army total without allocating it to subordinate units."
+    },
+    "note": "都司级马步官军原文数；不等同于可即时出战兵力。"
+  },
+  {
+    "id": "liaodong-dusi-soldier-count-field-army-recorded",
+    "militaryUnitId": "liaodong-dusi",
+    "metric": "soldier-count",
+    "measureType": "field-army",
+    "value": 99875,
+    "unit": "people",
+    "originalText": "辽东镇属卫二十五马步官军九万九千八百七十五员名",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-liaodong-44",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "原文列辽东镇属二十五卫的马步官军总数；项目将其作为辽东都司面板的都司级军数记录，未再向卫所分摊。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Liaodong military total and preserved its source scope as a twenty-five-wei aggregate."
+    },
+    "note": "辽东镇属二十五卫马步官军合计；作为都司级面板补录，范围与都司辖属卫合计需后续复核。"
+  },
+  {
+    "id": "danning-dusi-tuntian-area-registered",
+    "militaryUnitId": "danning-dusi",
+    "metric": "tuntian-area",
+    "measureType": "registered-area",
+    "value": 2126.76,
+    "unit": "qing",
+    "originalText": "大宁都司并所属卫所屯田共二千一百二十六顷七十六亩",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-tuntian-91",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《图书编》卷九十一直接列出大宁都司及所属卫所屯田合计；原文未区分原额、见额。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Danning dusi aggregate in qing; no allocation to subordinate units."
+    },
+    "note": "来源只给都司及所属卫所合计，未区分原额与见额。"
+  },
+  {
+    "id": "fujian-dusi-tuntian-area-registered",
+    "militaryUnitId": "fujian-dusi",
+    "metric": "tuntian-area",
+    "measureType": "registered-area",
+    "value": 3774,
+    "unit": "qing",
+    "originalText": "福建都司并所属卫所屯田共三千七百七十四顷",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-tuntian-91",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《图书编》卷九十一直接列出福建都司及所属卫所屯田合计；没有把福建都司与福建行都司的合计数混用。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Fujian dusi aggregate in qing; no allocation to subordinate units."
+    },
+    "note": "来源只给福建都司及所属卫所合计，未区分原额与见额。"
+  },
+  {
+    "id": "fujian-xing-dusi-tuntian-area-registered",
+    "militaryUnitId": "fujian-xing-dusi",
+    "metric": "tuntian-area",
+    "measureType": "registered-area",
+    "value": 9339.29,
+    "unit": "qing",
+    "originalText": "福建行都司并所属卫所屯田共九千三百三十九顷二十九亩",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-tuntian-91",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《图书编》卷九十一直接列出福建行都司及所属卫所屯田合计；没有把福建都司与福建行都司的合计数混用。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Fujian Xingdu si aggregate in qing; no allocation to subordinate units."
+    },
+    "note": "来源只给福建行都司及所属卫所合计，未区分原额与见额。"
+  },
+  {
+    "id": "shaanxi-dusi-tuntian-area-registered",
+    "militaryUnitId": "shaanxi-dusi",
+    "metric": "tuntian-area",
+    "measureType": "registered-area",
+    "value": 29444.22,
+    "unit": "qing",
+    "originalText": "陕西都司所属卫所屯田共二万九千四百四十四顷二十二亩",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-tuntian-91",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《图书编》卷九十一直接列出陕西都司所属卫所屯田合计；未把陕西行都司合计数并入。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Shaanxi dusi aggregate in qing; no allocation to subordinate units."
+    },
+    "note": "来源只给陕西都司所属卫所合计，未区分原额与见额。"
+  },
+  {
+    "id": "shaanxi-xing-dusi-tuntian-area-registered",
+    "militaryUnitId": "shaanxi-xing-dusi",
+    "metric": "tuntian-area",
+    "measureType": "registered-area",
+    "value": 13012.5,
+    "unit": "qing",
+    "originalText": "陕西行都并所属卫所屯田共一万三千一十二顷五十亩",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "tushu-bian-tuntian-91",
+        "claim": "existence",
+        "confidence": "high",
+        "note": "《图书编》卷九十一直接列出陕西行都司及所属卫所屯田合计；未与陕西都司合并。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Shaanxi Xingdu si aggregate in qing; no allocation to subordinate units."
+    },
+    "note": "来源只给陕西行都司及所属卫所合计，未区分原额与见额。"
+  },
+  {
+    "id": "shaanxi-dusi-tuntian-grain-annual-yield",
+    "militaryUnitId": "shaanxi-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 823204.6584,
+    "unit": "shi",
+    "originalText": "陕西都司原额四万二千四百五十六顷七十二亩三分五厘，见额十六万八千四百四顷四亩一分，粮八十二万三千二百四石六斗五升八合四勺",
+    "recordedYear": null,
+    "valueType": "recorded",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "wubeizhi-tuntian-135",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "《武备志》卷一百三十五在陕西都司条下直接列出屯粮；原文同时列原额、见额屯田，未提供项目统一的统计年份。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the direct Shaanxi dusi grain total in shi with dou, sheng, he, and shao represented as decimal shi."
+    },
+    "note": "都司级粮额；来源未将其分配给陕西行都司，也未提供与项目基准年完全一致的统计年份。"
+  },
+  {
+    "id": "huguang-dusi-tuntian-grain-annual-yield-estimate",
+    "militaryUnitId": "huguang-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 275000,
+    "unit": "shi",
+    "originalText": "省城都司所辖二十七万五千有奇",
+    "recordedYear": 1623,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shilu-huguang-tunliang",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "《明熹宗实录》卷三十一明确把全楚屯粮分列为省城都司、行都司、兴都留守司；“有奇”按下限录入。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the Tianqi third-year lower-bound Huguang dusi grain figure; it is later than the project's circa-1600 reference point."
+    },
+    "note": "天启三年二月奏疏所载；“二十七万五千有奇”按二十七万五千石下限显示，不能视为万历二十八年前后的精确数。"
+  },
+  {
+    "id": "huguang-xing-dusi-tuntian-grain-annual-yield-estimate",
+    "militaryUnitId": "huguang-xing-dusi",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 76900,
+    "unit": "shi",
+    "originalText": "行都司辖七万六千九百有奇",
+    "recordedYear": 1623,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shilu-huguang-tunliang",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "《明熹宗实录》卷三十一直接列出湖广行都司屯粮；“有奇”按下限录入。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the Tianqi third-year lower-bound Huguang Xingdu si grain figure; it is later than the project's circa-1600 reference point."
+    },
+    "note": "天启三年二月奏疏所载；“七万六千九百有奇”按七万六千九百石下限显示。"
+  },
+  {
+    "id": "xingdu-liushou-si-tuntian-grain-annual-yield-estimate",
+    "militaryUnitId": "xingdu-liushou-si",
+    "metric": "tuntian-grain",
+    "measureType": "annual-yield",
+    "value": 42000,
+    "unit": "shi",
+    "originalText": "兴都留守司辖四万二千有奇",
+    "recordedYear": 1623,
+    "valueType": "estimated",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shilu-huguang-tunliang",
+        "claim": "existence",
+        "confidence": "medium",
+        "note": "《明熹宗实录》卷三十一直接列出兴都留守司屯粮；“有奇”按下限录入。"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-30",
+      "revisionNote": "Recorded the Tianqi third-year lower-bound Xingdu Liushou si grain figure; it is later than the project's circa-1600 reference point."
+    },
+    "note": "天启三年二月奏疏所载；“四万二千有奇”按四万二千石下限显示。"
+  }
+]
