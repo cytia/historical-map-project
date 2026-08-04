@@ -10,11 +10,12 @@ interface TargetChoiceActions {
   selectCounty: (countyId: string, parentId: string, regionId: string) => void;
   selectUnit: (unitId: string) => void;
   selectMilitaryUnit: (unitId: string, regionId: string | null) => void;
+  selectJimiUnit: (unitId: string, regionId: string | null) => void;
   setActiveRegion: (regionId: string) => void;
 }
 
 export function useAdministrativeTargetChoice(actions: TargetChoiceActions) {
-  const { selectCounty, selectUnit, selectMilitaryUnit, setActiveRegion } = actions;
+  const { selectCounty, selectUnit, selectMilitaryUnit, selectJimiUnit, setActiveRegion } = actions;
   const [targetChoice, setTargetChoice] = useState<TargetChoice | null>(null);
   const closeTargetChoice = useCallback(() => setTargetChoice(null), []);
   const chooseTargets = useCallback((
@@ -27,13 +28,17 @@ export function useAdministrativeTargetChoice(actions: TargetChoiceActions) {
       selectMilitaryUnit(target.id, target.regionId);
       return;
     }
+    if (target.kind === "jimi") {
+      selectJimiUnit(target.id, target.regionId);
+      return;
+    }
     if (target.kind === "county") {
       selectCounty(target.id, target.parentId, target.regionId);
     } else {
       setActiveRegion(target.regionId);
       selectUnit(target.id);
     }
-  }, [selectCounty, selectUnit, selectMilitaryUnit, setActiveRegion, closeTargetChoice]);
+  }, [selectCounty, selectUnit, selectMilitaryUnit, selectJimiUnit, setActiveRegion, closeTargetChoice]);
 
   return { targetChoice, closeTargetChoice, chooseTargets, applyAdministrativeTarget };
 }

@@ -2850,5 +2850,395 @@
       "reviewedOn": "2026-07-15",
       "revisionNote": "1600 county-seat label"
     }
+  },
+  {
+    "id": "name-yongshun-xuanwei-military-seat",
+    "placeId": "yongshun-xuanwei-military-seat",
+    "name": "永顺军民宣慰使司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-laredong-yongshun-military-seat",
+    "placeId": "laredong-yongshun-military-seat",
+    "name": "腊惹洞长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-maizhuohuang-yongshun-military-seat",
+    "placeId": "maizhuohuang-yongshun-military-seat",
+    "name": "麦著黄洞长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high", "note": "Variant 麦芽黄洞 appears in some transcriptions." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-lvchidong-yongshun-military-seat",
+    "placeId": "lvchidong-yongshun-military-seat",
+    "name": "驴迟洞长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-shirongxi-yongshun-military-seat",
+    "placeId": "shirongxi-yongshun-military-seat",
+    "name": "施溶溪长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-baiyadong-yongshun-military-seat",
+    "placeId": "baiyadong-yongshun-military-seat",
+    "name": "白崖洞长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-tianjiadong-yongshun-military-seat",
+    "placeId": "tianjiadong-yongshun-military-seat",
+    "name": "田家洞长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-baojing-xuanwei-military-seat",
+    "placeId": "baojing-xuanwei-military-seat",
+    "name": "保靖州军民宣慰使司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-wuzhai-baojing-military-seat",
+    "placeId": "wuzhai-baojing-military-seat",
+    "name": "五寨长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-ganziping-baojing-military-seat",
+    "placeId": "ganziping-baojing-military-seat",
+    "name": "筸子坪长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high", "note": "Variants 篁子坪 and 竿子坪 are retained in the unit audit note." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-shinan-xuanfu-military-seat",
+    "placeId": "shinan-xuanfu-military-seat",
+    "name": "施南宣抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-dongxiang-wulu-shinan-military-seat",
+    "placeId": "dongxiang-wulu-shinan-military-seat",
+    "name": "东乡五路安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-yaobadong-dongxiang-shinan-military-seat",
+    "placeId": "yaobadong-dongxiang-shinan-military-seat",
+    "name": "摇把峒长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high", "note": "Variant 把摇峒 appears in the roster." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-shangaicha-dongxiang-shinan-military-seat",
+    "placeId": "shangaicha-dongxiang-shinan-military-seat",
+    "name": "上爱茶峒长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-xiaaicha-dongxiang-shinan-military-seat",
+    "placeId": "xiaaicha-dongxiang-shinan-military-seat",
+    "name": "下爱茶峒长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-zhenyuan-dongxiang-shinan-military-seat",
+    "placeId": "zhenyuan-dongxiang-shinan-military-seat",
+    "name": "镇远蛮夷长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-longfeng-dongxiang-shinan-military-seat",
+    "placeId": "longfeng-dongxiang-shinan-military-seat",
+    "name": "隆奉蛮夷长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-zhonglu-shinan-military-seat",
+    "placeId": "zhonglu-shinan-military-seat",
+    "name": "忠路安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-jiannan-zhonglu-shinan-military-seat",
+    "placeId": "jiannan-zhonglu-shinan-military-seat",
+    "name": "剑南长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-zhongxiao-shinan-military-seat",
+    "placeId": "zhongxiao-shinan-military-seat",
+    "name": "忠孝安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-jindong-shinan-military-seat",
+    "placeId": "jindong-shinan-military-seat",
+    "name": "金峒安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-xiping-jindong-shinan-military-seat",
+    "placeId": "xiping-jindong-shinan-military-seat",
+    "name": "西泙蛮夷长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high", "note": "Variant 西坪 appears in modern transcriptions." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-sanmao-xuanfu-military-seat",
+    "placeId": "sanmao-xuanfu-military-seat",
+    "name": "散毛宣抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-longtan-sanmao-military-seat",
+    "placeId": "longtan-sanmao-military-seat",
+    "name": "龙潭安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-dawang-sanmao-military-seat",
+    "placeId": "dawang-sanmao-military-seat",
+    "name": "大旺安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-dongliu-dawang-sanmao-military-seat",
+    "placeId": "dongliu-dawang-sanmao-military-seat",
+    "name": "东流蛮夷长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-labi-dawang-sanmao-military-seat",
+    "placeId": "labi-dawang-sanmao-military-seat",
+    "name": "腊璧洞蛮夷长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-zhongjian-xuanfu-military-seat",
+    "placeId": "zhongjian-xuanfu-military-seat",
+    "name": "忠建宣抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-zhongtong-zhongjian-military-seat",
+    "placeId": "zhongtong-zhongjian-military-seat",
+    "name": "忠峒安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-gaoluo-zhongjian-military-seat",
+    "placeId": "gaoluo-zhongjian-military-seat",
+    "name": "高罗安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-muse-gaoluo-zhongjian-military-seat",
+    "placeId": "muse-gaoluo-zhongjian-military-seat",
+    "name": "木册长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-rongmei-xuanfu-military-seat",
+    "placeId": "rongmei-xuanfu-military-seat",
+    "name": "容美宣抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-panshun-rongmei-military-seat",
+    "placeId": "panshun-rongmei-military-seat",
+    "name": "盘顺长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "medium", "note": "The geography record names Panshun as a Rongmei subordinate; the Wanli Huidian roster omits it." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 disputed native-office seat label." }
+  },
+  {
+    "id": "name-jiaoshan-manao-rongmei-military-seat",
+    "placeId": "jiaoshan-manao-rongmei-military-seat",
+    "name": "椒山玛瑙长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-wufeng-shibao-rongmei-military-seat",
+    "placeId": "wufeng-shibao-rongmei-military-seat",
+    "name": "五峰石宝长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-shiliang-xiadong-rongmei-military-seat",
+    "placeId": "shiliang-xiadong-rongmei-military-seat",
+    "name": "石梁下峒长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-shuijinyuan-tongtaping-rongmei-military-seat",
+    "placeId": "shuijinyuan-tongtaping-rongmei-military-seat",
+    "name": "水尽源通塔平长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high", "note": "Variant 水尽源通塔坪 appears in the roster." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-zhennan-shizhou-military-seat",
+    "placeId": "zhennan-shizhou-military-seat",
+    "name": "镇南长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
+  },
+  {
+    "id": "name-tangya-shizhou-military-seat",
+    "placeId": "tangya-shizhou-military-seat",
+    "name": "唐崖长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label." }
   }
 ]

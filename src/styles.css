@@ -363,6 +363,10 @@ button { color: inherit; }
 .ui-choice-button:hover, .ui-choice-button.is-current { border-color: var(--color-accent); color: var(--color-accent); background: var(--color-accent-soft); }
 .ui-choice-button:focus-visible { outline: 1px solid var(--color-accent-focus); outline-offset: 2px; }
 .scope-unit-group + .scope-unit-group { margin-top: 12px; }
+.jimi-tree-node { margin-top: 10px; }
+.jimi-tree-node .scope-secondary { line-height: 1.45; }
+.jimi-tree-children { margin: 8px 0 0 9px; padding-left: 9px; border-left: 1px solid var(--color-separator); }
+.jimi-unresolved { margin-top: 14px; padding-top: 10px; border-top: 1px dashed var(--color-border); }
 .scope-collapsible > summary { padding: 0; list-style: none; cursor: pointer; }
 .scope-collapsible > summary::-webkit-details-marker { display: none; }
 .scope-collapsible .eyebrow { margin: 0; }

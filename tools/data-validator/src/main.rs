@@ -1,3 +1,4 @@
+mod audit;
 mod manifest;
 mod model;
 mod runtime_index;
@@ -41,6 +42,31 @@ fn run() -> Result<(), String> {
         return Ok(());
     }
 
+    if first.as_os_str() == "commercial-audit" {
+        if arguments.next().is_some() {
+            return Err(usage().to_owned());
+        }
+
+        let path = PathBuf::from("data/manifest.json");
+        let data: ProjectData = manifest::load_project(&path)?;
+        let issues = audit::commercial(&data);
+
+        if issues.is_empty() {
+            println!("Commercial data audit passed: {}", path.display());
+            return Ok(());
+        }
+
+        let details = issues
+            .iter()
+            .map(|issue| format!("- {issue}"))
+            .collect::<Vec<_>>()
+            .join("\n");
+        return Err(format!(
+            "Commercial data audit found {} issue(s):\n{details}",
+            issues.len()
+        ));
+    }
+
     if arguments.next().is_some() {
         return Err(usage().to_owned());
     }
@@ -66,5 +92,5 @@ fn run() -> Result<(), String> {
 }
 
 fn usage() -> &'static str {
-    "Usage: data-validator <project-data.json|manifest.json> | data-validator prepare <manifest.json> <runtime-index.json>"
+    "Usage: data-validator <project-data.json|manifest.json> | data-validator commercial-audit | data-validator prepare <manifest.json> <runtime-index.json>"
 }

@@ -16,10 +16,12 @@ const colorOptions = [
 export function LayerBar() {
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const militaryVisible = useAppStore((state) => state.militaryVisible);
+  const jimiVisible = useAppStore((state) => state.jimiVisible);
   const mapDisplayMode = useAppStore((state) => state.mapDisplayMode);
   const militaryColorMode = useAppStore((state) => state.militaryColorMode);
   const setSeatsVisible = useAppStore((state) => state.setSeatsVisible);
   const setMilitaryVisible = useAppStore((state) => state.setMilitaryVisible);
+  const setJimiVisible = useAppStore((state) => state.setJimiVisible);
   const setMapDisplayMode = useAppStore((state) => state.setMapDisplayMode);
   const setMilitaryColorMode = useAppStore((state) => state.setMilitaryColorMode);
   const chooseMapDisplayMode = (mode: (typeof mapDisplayModes)[number]["id"]) => {
@@ -55,6 +57,15 @@ export function LayerBar() {
         onClick={() => setMilitaryVisible(!militaryVisible)}
       >
         都司
+      </TooltipButton>
+      <TooltipButton
+        variant="toolbar"
+        tooltip="羁縻军事机构与土司／土官衙门"
+        aria-label="羁縻关系"
+        aria-pressed={jimiVisible}
+        onClick={() => setJimiVisible(!jimiVisible)}
+      >
+        羁縻
       </TooltipButton>
       <TooltipButton
         variant="toolbar"

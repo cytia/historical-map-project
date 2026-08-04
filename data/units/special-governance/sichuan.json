@@ -2,9 +2,9 @@
   {
     "id": "pingyi-mahu-military",
     "name": "平夷长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "mahu-prefecture",
     "seatPlaceId": "pingyi-mahu-seat",
     "validity": {
       "from": 1600,
@@ -17,24 +17,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Active Mahu longguan-si in the 1600 time slice; 雷坡长官司 is excluded because Ming Shi records it was abolished in Hongwu 26"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "manyi-mahu-military",
     "name": "蛮夷长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "mahu-prefecture",
     "seatPlaceId": "manyi-mahu-seat",
     "validity": {
       "from": 1600,
@@ -47,24 +42,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Active Mahu longguan-si in the 1600 time slice"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "muchuan-mahu-military",
     "name": "沐川长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "mahu-prefecture",
     "seatPlaceId": "muchuan-mahu-seat",
     "validity": {
       "from": 1600,
@@ -77,24 +67,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Active Mahu longguan-si in the 1600 time slice"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "baishuijiang-zhenxiong-military",
     "name": "白水江肸酬长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "zhenxiong-prefecture",
     "seatPlaceId": "baishuijiang-zhenxiong-seat",
     "validity": {
       "from": 1600,
@@ -107,24 +92,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Ming Shi name retained verbatim; active Zhenxiong longguan-si in the 1600 time slice"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "huaide-zhenxiong-military",
     "name": "怀德长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "zhenxiong-prefecture",
     "seatPlaceId": "huaide-zhenxiong-seat",
     "validity": {
       "from": 1600,
@@ -137,24 +117,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Active Zhenxiong longguan-si in the 1600 time slice"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "weixin-zhenxiong-military",
     "name": "威信长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "zhenxiong-prefecture",
     "seatPlaceId": "weixin-zhenxiong-seat",
     "validity": {
       "from": 1600,
@@ -167,24 +142,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Active Zhenxiong longguan-si in the 1600 time slice"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "guihua-zhenxiong-military",
     "name": "归化长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "zhenxiong-prefecture",
     "seatPlaceId": "guihua-zhenxiong-seat",
     "validity": {
       "from": 1600,
@@ -197,24 +167,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Active Zhenxiong longguan-si in the 1600 time slice"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "anjing-zhenxiong-military",
     "name": "安静长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "zhenxiong-prefecture",
     "seatPlaceId": "anjing-zhenxiong-seat",
     "validity": {
       "from": 1600,
@@ -227,24 +192,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Active Zhenxiong longguan-si in the 1600 time slice"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "yongning-xuanfu-military",
     "name": "永宁宣抚司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "xuanfu-si",
     "polityId": "ming",
-    "parentId": "sichuan",
     "seatPlaceId": "yongning-xuanfu-seat",
     "validity": {
       "from": 1600,
@@ -257,24 +217,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Sichuan-direct Xuanfusi active in the 1600 time slice"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "jiuxing-yongning-military",
     "name": "九姓长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "yongning-xuanfu-military",
     "seatPlaceId": "jiuxing-yongning-seat",
     "validity": {
       "from": 1600,
@@ -287,24 +242,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Yongning Xuanfusi subordinate longguan-si in the 1600 time slice"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "taiping-yongning-military",
     "name": "太平长官司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
-    "parentId": "yongning-xuanfu-military",
     "seatPlaceId": "taiping-yongning-seat",
     "validity": {
       "from": 1600,
@@ -317,24 +267,19 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Yongning Xuanfusi subordinate longguan-si; CHGIS record hvd_96353 covers 1468-1643"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "tianquan-liufan-military",
     "name": "天全六番招讨司",
-    "level": "military",
+    "jimiKind": "native-office",
+    "officeKind": "zhaotao-si",
     "polityId": "ming",
-    "parentId": "sichuan",
     "seatPlaceId": "tianquan-liufan-seat",
     "validity": {
       "from": 1600,
@@ -347,91 +292,136 @@
         "sourceId": "ming-shi-geography-four",
         "claim": "existence",
         "confidence": "high"
-      },
-      {
-        "sourceId": "ming-shi-geography-four",
-        "claim": "parent",
-        "confidence": "high"
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-15",
-      "revisionNote": "Ming Shi records the unit under the Sichuan military-administrative system; CHGIS record hvd_96388 covers 1374-1729"
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
     }
   },
   {
     "id": "changzhou-sichuan-xing",
     "name": "昌州长官司",
-    "level": "military",
-    "domain": "special-governance",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
     "seatPlaceId": "changzhou-sichuan-xing-seat",
-    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
     "confidence": "high",
     "sources": [
-      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
-      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Jianchang Guard." }
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high"
+      }
     ],
-    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 longguan-si linked to the Jianchang Guard through a military-affiliation relation." }
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
+    }
   },
   {
     "id": "weilong-sichuan-xing",
     "name": "威龙长官司",
-    "level": "military",
-    "domain": "special-governance",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
     "seatPlaceId": "weilong-sichuan-xing-seat",
-    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
     "confidence": "high",
     "sources": [
-      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
-      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Jianchang Guard." }
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high"
+      }
     ],
-    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 longguan-si linked to the Jianchang Guard through a military-affiliation relation." }
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
+    }
   },
   {
     "id": "puji-sichuan-xing",
     "name": "普济长官司",
-    "level": "military",
-    "domain": "special-governance",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
     "seatPlaceId": "puji-sichuan-xing-seat",
-    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
     "confidence": "high",
     "sources": [
-      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
-      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Jianchang Guard." }
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high"
+      }
     ],
-    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 longguan-si linked to the Jianchang Guard through a military-affiliation relation." }
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
+    }
   },
   {
     "id": "mala-sichuan-xing",
     "name": "马剌长官司",
-    "level": "military",
-    "domain": "special-governance",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
     "seatPlaceId": "mala-sichuan-xing-seat",
-    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
     "confidence": "high",
     "sources": [
-      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
-      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Salt Well Guard; 马喇 is a later/common variant." }
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high"
+      }
     ],
-    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Primary-source spelling 马剌 retained; the later/common form 马喇 is recorded in the source note." }
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
+    }
   },
   {
     "id": "qiongbu-sichuan-xing",
     "name": "邛部长官司",
-    "level": "military",
-    "domain": "special-governance",
+    "jimiKind": "native-office",
+    "officeKind": "zhangguan-si",
     "polityId": "ming",
     "seatPlaceId": "qiongbu-sichuan-xing-seat",
-    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
     "confidence": "high",
     "sources": [
-      { "sourceId": "ming-shi-military-two", "claim": "existence", "confidence": "high" },
-      { "sourceId": "ming-shi-military-two", "claim": "parent", "confidence": "high", "note": "Listed under the Yuexi Guard." }
+      {
+        "sourceId": "ming-shi-military-two",
+        "claim": "existence",
+        "confidence": "high"
+      }
     ],
-    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Current 1600 longguan-si linked to the Yuexi Guard through a military-affiliation relation." }
+    "audit": {
+      "reviewedOn": "2026-07-27",
+      "revisionNote": "Migrated from special-governance fragments to the explicit jimi unit model."
+    }
   }
 ]

@@ -3337,29 +3337,29 @@
   },
   {
     "id": "puji-sichuan-xing-seat",
-    "longitude": 101.971714,
-    "latitude": 27.045652,
+    "longitude": 101.9694444,
+    "latitude": 27.0469444,
     "locationAccuracy": "approximate",
     "locationMethod": "Modern Puwei Town proxy for Puji Longguan-si; modern local-history sources identify Puwei as the historical Puji area.",
     "confidence": "medium",
     "sources": [
       { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" },
-      { "sourceId": "modern-puwei-coordinate-directory", "claim": "location", "confidence": "medium", "note": "Modern Puwei Town coordinate proxy." }
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q11089652 P625; modern Puwei Town proxy." }
     ],
-    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "The historical Puji identity is retained while the point uses the modern Puwei locality proxy." }
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Replaced the unknown-redistribution coordinate directory with Wikidata Q11089652; the historical Puji identity is retained while the point uses the modern Puwei locality proxy." }
   },
   {
     "id": "mala-sichuan-xing-seat",
-    "longitude": 101.4429993,
-    "latitude": 26.8295689,
+    "longitude": 101.443232,
+    "latitude": 26.829282,
     "locationAccuracy": "approximate",
     "locationMethod": "Modern Huimin Town proxy for Mala Longguan-si; the exact historical compound remains unresolved.",
     "confidence": "low",
     "sources": [
       { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "medium", "note": "The historical unit is also written 马喇 and is placed in the modern Yanbian area by local historical references." },
-      { "sourceId": "modern-huimin-coordinate-directory", "claim": "location", "confidence": "low", "note": "Modern Huimin Town coordinate proxy." }
+      { "sourceId": "geonames-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "GeoNames populated-place coordinate for Huimin, Yanbian County; modern locality proxy." }
     ],
-    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Low-confidence modern proxy; the historical 马剌/马喇 seat requires a more exact locality reconstruction." }
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Replaced the unknown-redistribution coordinate directory with GeoNames; this remains a low-confidence modern proxy and the historical 马剌/马喇 seat requires a more exact locality reconstruction." }
   },
   {
     "id": "qiongbu-sichuan-xing-seat",

@@ -30,6 +30,7 @@ export const militaryDisplayLayerIds = [
 export interface MilitaryDisplayLayerData {
   displayGroupRelations: GeoJSON.FeatureCollection<GeoJSON.LineString>;
   displayGroupAnchor: GeoJSON.FeatureCollection<GeoJSON.Point>;
+  animateRelations: boolean;
 }
 
 export function addMilitaryDisplayLayers(
@@ -40,6 +41,7 @@ export function addMilitaryDisplayLayers(
   displayRelationRenderer.add(map, {
     relations: data.displayGroupRelations,
     pulsePoint: data.displayGroupAnchor,
+    animate: data.animateRelations,
   });
   map.addLayer({
     id: displayAnchorLayerId,
@@ -81,6 +83,7 @@ export function setMilitaryDisplaySelection(map: Map, data: MilitaryDisplayLayer
   const updated = displayRelationRenderer.setData(map, {
     relations: data.displayGroupRelations,
     pulsePoint: data.displayGroupAnchor,
+    animate: data.animateRelations,
   });
   if (!updated) return;
   const flowVisible = map.getLayoutProperty(displayFlowLayerId, "visibility") !== "none";

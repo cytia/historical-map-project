@@ -1,5 +1,6 @@
 import type {
   CountyRecord,
+  JimiRecord,
   MilitaryRecord,
   RuntimeIndex,
   SeatRecord,
@@ -12,6 +13,7 @@ const emptyData: RuntimeIndex = {
   sourceCount: 0,
   administrativeUnits: [],
   militaryUnits: [],
+  jimiUnits: [],
   relations: [],
   places: [],
   placeNames: [],
@@ -49,7 +51,7 @@ export const isDescendantOf = (unitId: string, ancestorId: string) => {
 };
 export const getRegionSummary = (regionId: string | null) => summarizeRegion(seats, regionId);
 
-export function getRecordSourceIds(record: SeatRecord | CountyRecord | MilitaryRecord) {
+export function getRecordSourceIds(record: SeatRecord | CountyRecord | MilitaryRecord | JimiRecord) {
   return new Set([
     ...(record.unit.sourceIds ?? record.unit.sources?.map((source) => source.sourceId) ?? []),
     ...(record.place.sourceIds ?? record.place.sources?.map((source) => source.sourceId) ?? []),
@@ -57,7 +59,7 @@ export function getRecordSourceIds(record: SeatRecord | CountyRecord | MilitaryR
 }
 
 export function getSources(
-  record: SeatRecord | CountyRecord | MilitaryRecord,
+  record: SeatRecord | CountyRecord | MilitaryRecord | JimiRecord,
   sources: Source[],
 ) {
   const ids = getRecordSourceIds(record);

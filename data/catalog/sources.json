@@ -167,6 +167,7 @@
     "kind": "dataset",
     "license": "CC BY-NC 4.0",
     "redistribution": "restricted",
+    "coordinateProvider": true,
     "citation": "China Historical GIS Temporal Gazetteer, Harvard University and Fudan University."
   },
   {
@@ -178,29 +179,20 @@
     "kind": "dataset",
     "license": "CC0 1.0",
     "redistribution": "allowed",
+    "coordinateProvider": true,
     "citation": "Wikidata entities and P625 coordinates retrieved through the official Action API and Query Service; individual entity IDs are recorded with each place claim."
   },
   {
-    "id": "modern-lizhou-coordinate-directory",
-    "title": "现代地名坐标目录（礼州镇）",
-    "creator": "在线经纬度查询目录",
-    "url": "https://jingweidu.122cha.com/601319.html",
-    "accessedOn": "2026-07-27",
-    "kind": "reference",
-    "license": "Online coordinate directory; terms apply; used only as an approximate modern locality reference.",
-    "redistribution": "unknown",
-    "citation": "在线经纬度查询目录，四川凉山西昌礼州镇坐标记录。"
-  },
-  {
-    "id": "amap-modern-place-directory",
-    "title": "高德地图现代地点目录（兴文县建武村）",
-    "creator": "高德地图",
-    "url": "https://www.amap.com/place/B0IGDHACVU",
-    "accessedOn": "2026-07-27",
-    "kind": "reference",
-    "license": "Online map directory; terms apply; used only as a low-confidence modern locality reference.",
-    "redistribution": "unknown",
-    "citation": "高德地图，兴文县建武村长征国家文化公园地点记录。"
+    "id": "geonames-modern-place-coordinates",
+    "title": "GeoNames modern place coordinates",
+    "creator": "GeoNames contributors",
+    "url": "https://www.geonames.org/search.html?country=CN&q=Huimin",
+    "accessedOn": "2026-08-04",
+    "kind": "dataset",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "redistribution": "allowed",
+    "coordinateProvider": true,
+    "citation": "GeoNames populated-place coordinate for Huimin, Yanbian County, Sichuan; attribution required."
   },
   {
     "id": "ri-xia-old-hearings-geography",
@@ -213,17 +205,6 @@
     "license": "Public-domain historical text; Wikisource transcription available under CC BY-SA 4.0",
     "redistribution": "allowed",
     "citation": "《钦定日下旧闻考》卷一百二十一，京畿保定县条。"
-  },
-  {
-    "id": "openstreetmap-xinzhen-ercun",
-    "title": "OpenStreetMap Xinzhen Ercun coordinate",
-    "creator": "OpenStreetMap contributors",
-    "url": "https://www.openstreetmap.org/node/7834139035",
-    "accessedOn": "2026-07-19",
-    "kind": "dataset",
-    "license": "OpenStreetMap data © OpenStreetMap contributors, ODbL 1.0",
-    "redistribution": "allowed",
-    "citation": "OpenStreetMap node 7834139035, Xinzhen Ercun, Wen'an County, Hebei; coordinate retrieved 2026-07-19."
   },
   {
     "id": "noaa-etopo-2022-15s",
@@ -248,6 +229,18 @@
     "license": "Public-domain historical text; Wikisource transcription available under CC BY-SA 4.0",
     "redistribution": "allowed",
     "citation": "《明史》卷四十六，志第二十二，地理七。"
+  },
+  {
+    "id": "ming-shi-guizhou-tusi",
+    "title": "明史·列传第二百四·贵州土司",
+    "creator": "张廷玉等",
+    "locator": "卷三百十六",
+    "url": "https://zh.wikisource.org/zh-hans/明史_%28四庫全書本%29/卷316",
+    "accessedOn": "2026-08-03",
+    "kind": "primary",
+    "license": "Public-domain historical text; Wikisource transcription available under CC BY-SA 4.0",
+    "redistribution": "allowed",
+    "citation": "《明史》卷三百十六，列传第二百四，贵州土司。"
   },
   {
     "id": "shanxi-tongzhi-geography",
@@ -478,39 +471,6 @@
     "citation": "《银川简史》，银川市档案馆网站发布。"
   },
   {
-    "id": "modern-haitang-coordinate-directory",
-    "title": "现代地名坐标目录（甘洛县海棠镇）",
-    "creator": "在线经纬度查询目录",
-    "url": "https://jw.122cha.com/604844.html",
-    "accessedOn": "2026-07-27",
-    "kind": "reference",
-    "license": "Online coordinate directory; terms apply; used only as an approximate modern locality reference.",
-    "redistribution": "unknown",
-    "citation": "在线经纬度查询目录，四川凉山甘洛县海棠镇坐标记录。"
-  },
-  {
-    "id": "modern-puwei-coordinate-directory",
-    "title": "高德地图现代地点目录（米易县普威镇）",
-    "creator": "高德地图",
-    "url": "https://ditu.amap.com/place/B032C0M8V2",
-    "accessedOn": "2026-07-27",
-    "kind": "reference",
-    "license": "Online map directory; terms apply; used only as an approximate modern locality reference.",
-    "redistribution": "unknown",
-    "citation": "高德地图，攀枝花市米易县普威镇地点记录。"
-  },
-  {
-    "id": "modern-huimin-coordinate-directory",
-    "title": "现代地名坐标目录（盐边县惠民镇）",
-    "creator": "在线经纬度查询目录",
-    "url": "https://www.abcdtools.com/city-to-latlong/20747150",
-    "accessedOn": "2026-07-27",
-    "kind": "reference",
-    "license": "Online coordinate directory; terms apply; used only as an approximate modern locality reference.",
-    "redistribution": "unknown",
-    "citation": "在线经纬度查询目录，四川攀枝花盐边县惠民乡坐标记录。"
-  },
-  {
     "id": "tongguan-beizhili-study",
     "title": "明代潼关卫与北直隶关系考论",
     "creator": "张金奎",
@@ -533,5 +493,65 @@
     "license": "Official museum web page; redistribution status not stated",
     "redistribution": "unknown",
     "citation": "中国国家博物馆：《永乐十年五月十九日直隶潼关卫蒲州守御千户史义等启》。"
+  },
+  {
+    "id": "wanli-ming-huidian-native-offices",
+    "title": "万历《大明会典》·兵部·土官衙门",
+    "creator": "申时行等修，赵用贤等纂",
+    "locator": "卷一百二十四·兵部七·土官衙门",
+    "url": "https://ctext.org/wiki.pl?chapter=561869&if=en&remap=gb",
+    "accessedOn": "2026-08-03",
+    "kind": "primary",
+    "license": "Public-domain historical text; website transcription rights not asserted for redistribution",
+    "redistribution": "unknown",
+    "citation": "万历《大明会典》卷一百二十四，兵部七，土官衙门。"
+  },
+  {
+    "id": "ming-qing-yongshun-tusi-geography-study",
+    "title": "明清湖广永顺宣慰使司地理考释",
+    "creator": "姚雪丽、杨伟兵",
+    "locator": "驻地与辖属考释",
+    "url": "https://www.lsdlyj.com.cn/CN/abstract/article/2096-6822/72385",
+    "accessedOn": "2026-08-03",
+    "kind": "scholarly",
+    "license": "Copyrighted scholarly article; cite-only; no source file redistributed",
+    "redistribution": "restricted",
+    "citation": "姚雪丽、杨伟兵：《明清湖广永顺宣慰使司地理考释》。"
+  },
+  {
+    "id": "ming-shi-shizhou-tusi",
+    "title": "明史·湖广土司·施州",
+    "creator": "张廷玉等",
+    "locator": "列传第二百一·湖广土司·施州",
+    "url": "https://www.shidianguji.com/book/SK0735/chapter/1lc2aw059orv3",
+    "accessedOn": "2026-08-03",
+    "kind": "primary",
+    "license": "Public-domain historical text; website transcription rights not asserted for redistribution",
+    "redistribution": "unknown",
+    "citation": "《明史》湖广土司施州条。"
+  },
+  {
+    "id": "enshi-tusi-modern-place-identifications",
+    "title": "鄂西地区的“改土归流”",
+    "creator": "恩施日报",
+    "locator": "鄂西土司治所现代地名对应",
+    "url": "https://yangtze.silkroadinfo.org.cn/2022/0119/c1317a3989486/page.htm",
+    "accessedOn": "2026-08-03",
+    "kind": "reference",
+    "license": "Newspaper web article; used as a modern locality identification reference",
+    "redistribution": "unknown",
+    "citation": "《恩施日报》：鄂西地区的“改土归流”。"
+  },
+  {
+    "id": "hubei-tangya-tusi-city-site",
+    "title": "唐崖土司城遗址",
+    "creator": "湖北省文化和旅游厅",
+    "locator": "唐崖土司城遗址概况",
+    "url": "https://wlt.hubei.gov.cn/bmdt/ztzl/zshb/201912/t20191226_1799437.shtml",
+    "accessedOn": "2026-08-03",
+    "kind": "reference",
+    "license": "Official web page; redistribution status not stated",
+    "redistribution": "unknown",
+    "citation": "湖北省文化和旅游厅：唐崖土司城遗址。"
   }
 ]

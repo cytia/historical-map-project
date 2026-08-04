@@ -6,8 +6,13 @@ The fragment list is defined by `manifest.json`. Validate the complete dataset i
 
 ```text
 cargo run -p data-validator -- data/manifest.json
+cargo run -p data-validator -- commercial-audit
 cargo run -p data-validator -- prepare data/manifest.json data/.generated/runtime-index.json
 ```
+
+`commercial-audit` reports place records whose `location` claim cites a direct coordinate provider with `restricted` or `unknown` redistribution status. It is a separate eligibility check for a commercial coordinate package and does not change the ordinary historical-data validation rules or the handling of citation-only sources. The commercial package policy also excludes OSM/ODbL coordinates even though ODbL permits redistribution with conditions.
+
+Sources that directly provide a place coordinate must set `coordinateProvider: true`. Historical texts, research articles, and other sources used only to support historical identity or location reasoning should leave it unset or set it to `false`.
 
 `npm run dev` and `npm run build` validate the fragments and regenerate the compact runtime index automatically. They do not create a complete aggregate copy.
 
@@ -18,7 +23,7 @@ Directory responsibilities:
 - `catalog/`: shared source and polity metadata.
 - `units/administrative/`: civil administrative units grouped by region.
 - `units/military/`: military command and garrison unit facts grouped by the unit's seat or location region; the file region is an editing index, not an administrative parent.
-- `units/special-governance/`: current tusi and related special-governance records pending source-level classification.
+- `units/special-governance/`: jimi units grouped by seat or location region, including jimi military institutions and native-official offices.
 - `places/`: shared physical places grouped by the administrative region that references them.
 - `place-names/`: time-valid names attached to stable places.
 - `statistics/`: unit statistics grouped by region, with national scope statistics kept separately.
@@ -32,6 +37,7 @@ Rules:
 - Use stable IDs; names and periods may change without changing identity.
 - Keep physical places separate from the institutions that use them as seats.
 - Keep `militaryUnits` separate from `administrativeUnits`; store military subordination and administrative context in `relations` rather than in an administrative `parentId`.
+- Keep `jimiUnits` separate from both military and civil units; store jimi subordination and administrative context in `relations` rather than in a unit `parentId`.
 - Do not edit generated GeoJSON, tile artifacts, or `.generated/runtime-index.json` directly. Treat the manifest and its fragments as the only editable data source.
 - Run runtime preparation and the Rust validator before accepting data changes.
 

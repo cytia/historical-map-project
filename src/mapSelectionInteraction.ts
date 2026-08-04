@@ -8,7 +8,8 @@ export type AdministrativeTarget =
   | { kind: "county"; id: string; parentId: string; regionId: string }
   | { kind: "seat"; id: string; regionId: string };
 export type MilitaryTarget = { kind: "military"; id: string; regionId: string | null };
-export type MapTarget = AdministrativeTarget | MilitaryTarget;
+export type JimiTarget = { kind: "jimi"; id: string; regionId: string | null };
+export type MapTarget = AdministrativeTarget | MilitaryTarget | JimiTarget;
 
 function pointCoordinates(point: PointLike) {
   return Array.isArray(point) ? point : [point.x, point.y];
@@ -58,14 +59,25 @@ function targetFromMilitaryProperties(properties: GeoJSON.GeoJsonProperties): Mi
   return { kind: "military", id, regionId };
 }
 
+function targetFromJimiProperties(properties: GeoJSON.GeoJsonProperties): JimiTarget | null {
+  const id = properties?.id;
+  if (typeof id !== "string") return null;
+  const regionId = typeof properties?.regionId === "string" ? properties.regionId : null;
+  return { kind: "jimi", id, regionId };
+}
+
 export function queryMapTargets(map: Map, point: PointLike, selectionDomain: SelectionDomain) {
   const layers = [
-    ...(selectionDomain === "military"
-      ? ["military-labels", "military-points"]
-      : ["county-labels", "county-points", "seat-labels", "seat-points"]),
-    ...(selectionDomain === "military"
-      ? ["county-labels", "county-points", "seat-labels", "seat-points"]
-      : ["military-labels", "military-points"]),
+    ...(selectionDomain === "jimi"
+      ? ["jimi-labels", "jimi-points"]
+      : selectionDomain === "military"
+        ? ["military-labels", "military-points"]
+        : ["county-labels", "county-points", "seat-labels", "seat-points"]),
+    ...(selectionDomain === "jimi"
+      ? ["military-labels", "military-points", "county-labels", "county-points", "seat-labels", "seat-points"]
+      : selectionDomain === "military"
+        ? ["jimi-labels", "jimi-points", "county-labels", "county-points", "seat-labels", "seat-points"]
+        : ["jimi-labels", "jimi-points", "military-labels", "military-points"]),
   ].filter((layerId) => map.getLayer(layerId));
   try {
     const [x, y] = pointCoordinates(point);
@@ -76,6 +88,11 @@ export function queryMapTargets(map: Map, point: PointLike, selectionDomain: Sel
     const targets = features.reduce<MapTarget[]>((result, { properties }) => {
       if (properties?.kind === "military") {
         const target = targetFromMilitaryProperties(properties);
+        if (target) result.push(target);
+        return result;
+      }
+      if (properties?.kind === "jimi") {
+        const target = targetFromJimiProperties(properties);
         if (target) result.push(target);
         return result;
       }

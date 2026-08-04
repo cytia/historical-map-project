@@ -4,9 +4,12 @@ import { Button } from "./components/Button";
 import { TextInput } from "./components/TextInput";
 import { MilitaryDetailPanel } from "./MilitaryDetailPanel";
 import { MilitaryScopePanel } from "./MilitaryScopePanel";
+import { JimiDetailPanel } from "./JimiDetailPanel";
+import { JimiScopePanel } from "./JimiScopePanel";
 import { HierarchyToolbar } from "./AdministrativeScopeToolbar";
 import { counties, regions, seats } from "./data";
 import { militaryById, publishedMilitaryRecords } from "./militaryData";
+import { jimiById, jimiRecords } from "./jimiData";
 import { LayerBar } from "./LayerBar";
 import { ProjectActions } from "./ProjectActions";
 import { ProjectPanel } from "./ProjectPanel";
@@ -22,13 +25,16 @@ export default function App() {
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
   const selectedCountyId = useAppStore((state) => state.selectedCountyId);
   const selectedMilitaryUnitId = useAppStore((state) => state.selectedMilitaryUnitId);
+  const selectedJimiUnitId = useAppStore((state) => state.selectedJimiUnitId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const hoveredRegionId = useAppStore((state) => state.hoveredRegionId);
   const hoveredMilitaryUnitId = useAppStore((state) => state.hoveredMilitaryUnitId);
+  const hoveredJimiUnitId = useAppStore((state) => state.hoveredJimiUnitId);
   const searchQuery = useAppStore((state) => state.searchQuery);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const selectCounty = useAppStore((state) => state.selectCounty);
   const selectMilitaryUnit = useAppStore((state) => state.selectMilitaryUnit);
+  const selectJimiUnit = useAppStore((state) => state.selectJimiUnit);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const setSearchQuery = useAppStore((state) => state.setSearchQuery);
   const setSidebarOpen = useAppStore((state) => state.setSidebarOpen);
@@ -36,6 +42,10 @@ export default function App() {
   const selected = seats.find((record) => record.unit.id === selectedUnitId);
   const selectedCounty = counties.find((record) => record.unit.id === selectedCountyId);
   const selectedMilitary = publishedMilitaryRecords.find((record) => record.unit.id === selectedMilitaryUnitId);
+  const selectedJimi = jimiRecords.find((record) => record.unit.id === selectedJimiUnitId);
+  const jimiPanelRecord = hoveredRegionId
+    ? undefined
+    : jimiById.get(hoveredJimiUnitId ?? selectedJimiUnitId ?? "");
   const militaryPanelRecord = hoveredRegionId
     ? undefined
     : militaryById.get(hoveredMilitaryUnitId ?? selectedMilitaryUnitId ?? "");
@@ -58,7 +68,10 @@ export default function App() {
     const militaryResults = publishedMilitaryRecords.filter(({ unit, name }) =>
       unit.name.includes(query) || unit.formalName?.includes(query) || name.includes(query),
     ).map((record) => ({ kind: "military" as const, record }));
-    return [...seatResults, ...countyResults, ...militaryResults].slice(0, 6);
+    const jimiResults = jimiRecords.filter(({ unit, name }) =>
+      unit.name.includes(query) || unit.formalName?.includes(query) || name.includes(query),
+    ).map((record) => ({ kind: "jimi" as const, record }));
+    return [...seatResults, ...countyResults, ...militaryResults, ...jimiResults].slice(0, 6);
   }, [searchQuery]);
 
   return (
@@ -82,7 +95,7 @@ export default function App() {
             id="place-search"
             value={searchQuery}
             onChange={(event) => setSearchQuery(event.target.value)}
-            placeholder="搜索府、州、县、都司或卫所"
+            placeholder="搜索府、州、县、都司、卫所或羁縻机构"
           />
           {results.length > 0 && (
             <div className="search-results">
@@ -93,6 +106,8 @@ export default function App() {
                   onClick={() => {
                     if (kind === "military") {
                       selectMilitaryUnit(record.unit.id, record.administrativeRegionId);
+                    } else if (kind === "jimi") {
+                      selectJimiUnit(record.unit.id, record.administrativeRegionId);
                     } else if (kind === "county") {
                       selectCounty(record.unit.id, record.parent.id, record.region.id);
                     } else {
@@ -104,6 +119,7 @@ export default function App() {
                 >
                   <span>{record.unit.name}</span>
                   <small>{kind === "military" ? `军事 · ${record.name}` :
+                    kind === "jimi" ? `羁縻 · ${record.name}` :
                     kind === "county" ? `${record.parent.name} · ${record.name}` : record.name}</small>
                 </Button>
               ))}
@@ -119,7 +135,7 @@ export default function App() {
 
         <div className="mobile-header-actions">
           <Button variant="outline" className="mobile-control" onClick={() => setSidebarOpen(true)}>
-            {militaryPanelRecord ? "都司系统资料" : "全国与省级资料"}
+            {jimiPanelRecord ? "羁縻关系资料" : militaryPanelRecord ? "都司系统资料" : "全国与省级资料"}
           </Button>
           <Button variant="outline" className="mobile-project-control"
             onClick={() => setProjectPanelOpen(true)}>
@@ -128,7 +144,9 @@ export default function App() {
         </div>
       </header>
 
-      {militaryPanelRecord
+      {jimiPanelRecord
+        ? <JimiScopePanel record={jimiPanelRecord} />
+        : militaryPanelRecord
         ? <MilitaryScopePanel record={militaryPanelRecord} />
         : <ScopePanel region={panelRegion} />}
       <HierarchyToolbar />
@@ -136,6 +154,7 @@ export default function App() {
 
       <AdministrativeDetailPanel seat={selected} county={selectedCounty} />
       <MilitaryDetailPanel record={selectedMilitary} />
+      <JimiDetailPanel record={selectedJimi} />
 
       <footer className="timeline" aria-label="代表性时间节点">
         <div className="timeline-track">

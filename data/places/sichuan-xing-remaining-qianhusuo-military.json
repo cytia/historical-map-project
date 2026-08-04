@@ -14,16 +14,16 @@
   },
   {
     "id": "zhenxi-hou-qianhusuo-sichuan-xing-seat",
-    "longitude": 102.55584,
-    "latitude": 29.03502,
+    "longitude": 102.55507,
+    "latitude": 29.03882,
     "locationAccuracy": "approximate",
     "locationMethod": "Modern Haitang Town proxy for the Zhenxi Rear Qianhusuo; the exact Ming compound remains unresolved.",
     "confidence": "medium",
     "sources": [
       { "sourceId": "ming-shi-geography-four", "claim": "location", "confidence": "high" },
-      { "sourceId": "modern-haitang-coordinate-directory", "claim": "location", "confidence": "medium", "note": "Modern Haitang Town coordinate proxy." }
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q11150896 P625; modern Haitang Town proxy in Ganluo County." }
     ],
-    "audit": { "reviewedOn": "2026-07-27", "revisionNote": "Modern Haitang Town is the documented locality correspondence; the historical compound remains unresolved." }
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Replaced the unknown-redistribution coordinate directory with Wikidata Q11150896; modern Haitang Town is the documented locality correspondence, while the historical compound remains unresolved." }
   },
   {
     "id": "dachonghe-zhongzuo-qianhusuo-sichuan-xing-seat",

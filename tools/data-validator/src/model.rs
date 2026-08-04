@@ -20,6 +20,7 @@ pub struct ProjectData {
     pub polities: Vec<Polity>,
     pub administrative_units: Vec<AdministrativeUnit>,
     pub military_units: Vec<MilitaryUnit>,
+    pub jimi_units: Vec<JimiUnit>,
     pub relations: Vec<Relation>,
     pub places: Vec<Place>,
     pub place_names: Vec<PlaceName>,
@@ -140,6 +141,8 @@ pub struct Source {
     pub kind: SourceKind,
     pub license: String,
     pub redistribution: Redistribution,
+    #[serde(default)]
+    pub coordinate_provider: bool,
     pub citation: String,
     pub creator: Option<String>,
     pub edition: Option<String>,
@@ -148,7 +151,7 @@ pub struct Source {
     pub accessed_on: Option<String>,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, PartialEq)]
 #[serde(rename_all = "kebab-case")]
 pub enum SourceKind {
     Primary,
@@ -234,6 +237,22 @@ pub struct MilitaryUnit {
 
 #[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase", deny_unknown_fields)]
+pub struct JimiUnit {
+    pub id: String,
+    pub name: String,
+    pub formal_name: Option<String>,
+    pub jimi_kind: JimiKind,
+    pub office_kind: JimiOfficeKind,
+    pub polity_id: String,
+    pub seat_place_id: Option<String>,
+    pub validity: YearRange,
+    pub confidence: Confidence,
+    pub sources: Vec<SourceLink>,
+    pub audit: Audit,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase", deny_unknown_fields)]
 pub struct Relation {
     pub id: String,
     pub relation_type: RelationType,
@@ -252,6 +271,28 @@ pub enum UnitDomain {
     Administrative,
     Military,
     SpecialGovernance,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum JimiKind {
+    MilitaryInstitution,
+    NativeOffice,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum JimiOfficeKind {
+    Dusi,
+    XingDusi,
+    Wei,
+    Suo,
+    XuanweiSi,
+    XuanfuSi,
+    ZhaotaoSi,
+    AnfuSi,
+    ZhangguanSi,
+    TusiXunjianSi,
 }
 
 #[derive(Debug, Deserialize)]
@@ -283,6 +324,8 @@ pub enum RelationType {
     FiveArmyAffiliation,
     AdministrativeContext,
     CoLocation,
+    JimiSubordination,
+    JimiAdministrativeContext,
 }
 
 #[derive(Debug, Deserialize)]

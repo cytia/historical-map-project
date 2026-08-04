@@ -1,9 +1,10 @@
 use std::collections::HashSet;
 
 use crate::model::{
-    AdministrativeUnit, LocationAccuracy, MilitaryMeasureType, MilitaryStatistic,
-    MilitaryStatisticMetric, MilitaryStatisticUnit, MilitaryUnit, MilitaryUnitKind, Place,
-    PlaceName, Polity, ProjectData, Relation, RelationType, SourceLink, YearRange,
+    AdministrativeUnit, JimiKind, JimiOfficeKind, JimiUnit, LocationAccuracy,
+    MilitaryMeasureType, MilitaryStatistic, MilitaryStatisticMetric, MilitaryStatisticUnit,
+    MilitaryUnit, MilitaryUnitKind, Place, PlaceName, Polity, ProjectData, Relation,
+    RelationType, SourceLink, YearRange,
 };
 
 pub fn validate(data: &ProjectData) -> Vec<String> {
@@ -38,6 +39,11 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
         "military unit",
         &mut errors,
     );
+    let jimi_unit_ids = collect_unique_ids(
+        data.jimi_units.iter().map(|item| item.id.as_str()),
+        "jimi unit",
+        &mut errors,
+    );
     let military_command_unit_ids = data
         .military_units
         .iter()
@@ -62,6 +68,11 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
         .collect::<HashSet<_>>();
     let mut unit_ids = administrative_unit_ids.clone();
     for id in &military_unit_ids {
+        if !unit_ids.insert(id) {
+            errors.push(format!("duplicate historical unit id: {id}"));
+        }
+    }
+    for id in &jimi_unit_ids {
         if !unit_ids.insert(id) {
             errors.push(format!("duplicate historical unit id: {id}"));
         }
@@ -115,12 +126,17 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
         validate_military_unit(unit, &source_ids, &polity_ids, &place_ids, &mut errors);
     }
 
+    for unit in &data.jimi_units {
+        validate_jimi_unit(unit, &source_ids, &polity_ids, &place_ids, &mut errors);
+    }
+
     for relation in &data.relations {
         validate_relation(
             relation,
             &source_ids,
             &administrative_unit_ids,
             &military_unit_ids,
+            &jimi_unit_ids,
             &special_governance_unit_ids,
             &place_ids,
             &mut errors,
@@ -285,6 +301,65 @@ fn validate_military_unit(
     }
 }
 
+fn validate_jimi_unit(
+    unit: &JimiUnit,
+    source_ids: &HashSet<&str>,
+    polity_ids: &HashSet<&str>,
+    place_ids: &HashSet<&str>,
+    errors: &mut Vec<String>,
+) {
+    validate_id(&unit.id, "jimi unit", errors);
+    require_text(&unit.name, &unit.id, "name", errors);
+    validate_year_range(&unit.validity, &unit.id, errors);
+    validate_source_links(&unit.sources, &unit.id, source_ids, errors);
+    validate_audit(
+        &unit.audit.reviewed_on,
+        &unit.audit.revision_note,
+        &unit.id,
+        errors,
+    );
+
+    if !polity_ids.contains(unit.polity_id.as_str()) {
+        errors.push(format!(
+            "{} references missing polity {}",
+            unit.id, unit.polity_id
+        ));
+    }
+    if let Some(place_id) = &unit.seat_place_id
+        && !place_ids.contains(place_id.as_str())
+    {
+        errors.push(format!(
+            "{} references missing seat place {}",
+            unit.id, place_id
+        ));
+    }
+
+    let military_office = matches!(
+        unit.office_kind,
+        JimiOfficeKind::Dusi
+            | JimiOfficeKind::XingDusi
+            | JimiOfficeKind::Wei
+            | JimiOfficeKind::Suo
+    );
+    let native_office = matches!(
+        unit.office_kind,
+        JimiOfficeKind::XuanweiSi
+            | JimiOfficeKind::XuanfuSi
+            | JimiOfficeKind::ZhaotaoSi
+            | JimiOfficeKind::AnfuSi
+            | JimiOfficeKind::ZhangguanSi
+            | JimiOfficeKind::TusiXunjianSi
+    );
+    if (!matches!(unit.jimi_kind, JimiKind::MilitaryInstitution) || !military_office)
+        && (!matches!(unit.jimi_kind, JimiKind::NativeOffice) || !native_office)
+    {
+        errors.push(format!(
+            "{} has an incompatible jimiKind and officeKind",
+            unit.id
+        ));
+    }
+}
+
 fn validate_military_statistic(
     statistic: &MilitaryStatistic,
     source_ids: &HashSet<&str>,
@@ -375,6 +450,7 @@ fn validate_relation(
     source_ids: &HashSet<&str>,
     administrative_unit_ids: &HashSet<&str>,
     military_unit_ids: &HashSet<&str>,
+    jimi_unit_ids: &HashSet<&str>,
     special_governance_unit_ids: &HashSet<&str>,
     place_ids: &HashSet<&str>,
     errors: &mut Vec<String>,
@@ -391,6 +467,8 @@ fn validate_relation(
 
     let subject_is_military = military_unit_ids.contains(relation.subject_id.as_str());
     let object_is_military = military_unit_ids.contains(relation.object_id.as_str());
+    let subject_is_jimi = jimi_unit_ids.contains(relation.subject_id.as_str());
+    let object_is_jimi = jimi_unit_ids.contains(relation.object_id.as_str());
     let subject_is_special_governance =
         special_governance_unit_ids.contains(relation.subject_id.as_str());
     let subject_is_administrative = administrative_unit_ids.contains(relation.subject_id.as_str());
@@ -416,9 +494,9 @@ fn validate_relation(
         }
         RelationType::MilitaryAffiliation => {
             require_relation_endpoint(
-                subject_is_military || subject_is_special_governance,
+                subject_is_military || subject_is_special_governance || subject_is_jimi,
                 &relation.subject_id,
-                "military or special-governance unit",
+                "military or jimi unit",
                 &relation.id,
                 errors,
             );
@@ -466,6 +544,38 @@ fn validate_relation(
                 errors,
             );
         }
+        RelationType::JimiSubordination => {
+            require_relation_endpoint(
+                subject_is_jimi,
+                &relation.subject_id,
+                "jimi unit",
+                &relation.id,
+                errors,
+            );
+            require_relation_endpoint(
+                object_is_jimi,
+                &relation.object_id,
+                "jimi unit",
+                &relation.id,
+                errors,
+            );
+        }
+        RelationType::JimiAdministrativeContext => {
+            require_relation_endpoint(
+                subject_is_jimi,
+                &relation.subject_id,
+                "jimi unit",
+                &relation.id,
+                errors,
+            );
+            require_relation_endpoint(
+                object_is_administrative,
+                &relation.object_id,
+                "administrative unit",
+                &relation.id,
+                errors,
+            );
+        }
     }
 
     if relation.subject_id == relation.object_id {
@@ -473,6 +583,7 @@ fn validate_relation(
     }
     if !subject_is_military
         && !subject_is_administrative
+        && !subject_is_jimi
         && !place_ids.contains(relation.subject_id.as_str())
     {
         errors.push(format!(
@@ -482,6 +593,7 @@ fn validate_relation(
     }
     if !object_is_military
         && !object_is_administrative
+        && !object_is_jimi
         && !object_is_place
         && !matches!(&relation.relation_type, RelationType::FiveArmyAffiliation)
     {
@@ -668,6 +780,7 @@ mod tests {
                 "polities": [],
                 "administrativeUnits": [],
                 "militaryUnits": [],
+                "jimiUnits": [],
                 "relations": [],
                 "places": [],
                 "placeNames": []
@@ -688,6 +801,7 @@ mod tests {
                 "polities": [],
                 "administrativeUnits": [],
                 "militaryUnits": [],
+                "jimiUnits": [],
                 "relations": [],
                 "places": [{
                     "id": "sample-place",

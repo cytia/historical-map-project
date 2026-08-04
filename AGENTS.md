@@ -21,6 +21,7 @@
 - 一个改动保持可运行、可验证、可回滚。
 - 不顺手重构，不静默修改版本号。
 - Git 以 `main` 为唯一长期分支；GitHub 更新按 `.private-docs/engineering.md` 的发布流程执行。
+- 腾讯云静态站点发布使用 `tools/publish-tencent-cloud.ps1`；默认通过 `pwsh -File .\tools\publish-tencent-cloud.ps1` 发布到生产站点。
 - 代码、标识符和代码注释使用英文；文档与用户界面可使用中文。
 - 注释解释原因，不复述代码行为。
 - 优先复用现有模块；同一概念全项目使用同一术语。

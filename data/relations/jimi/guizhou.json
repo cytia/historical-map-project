@@ -1,0 +1,1606 @@
+[
+  {
+    "id": "bozhou-xuanwei-military-sichuan-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "bozhou-xuanwei-military",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "medium", "note": "1600 pre-reform political and administrative context at the Sichuan-Guizhou border; not a jimi-subordination relation." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Recorded Sichuan as administrative context only; Bozhou remains an independent jimi root." }
+  },
+  {
+    "id": "caotang-bozhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "caotang-bozhou-military",
+    "objectId": "bozhou-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Bozhou Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "huangping-bozhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "huangping-bozhou-military",
+    "objectId": "bozhou-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate; the office title is recorded as 安抚司 with a narrative 宣抚司 variant." }
+  },
+  {
+    "id": "zhenzhou-bozhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "zhenzhou-bozhou-military",
+    "objectId": "bozhou-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Bozhou Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "bozhou-zhangguan-bozhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "bozhou-zhangguan-bozhou-military",
+    "objectId": "bozhou-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as the attached Bozhou Zhangguan Office subordinate in the 1600 roster." }
+  },
+  {
+    "id": "yuqing-bozhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "yuqing-bozhou-military",
+    "objectId": "bozhou-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Bozhou Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "baini-bozhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "baini-bozhou-military",
+    "objectId": "bozhou-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Bozhou Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "rongshan-bozhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "rongshan-bozhou-military",
+    "objectId": "bozhou-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Bozhou Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "chongan-bozhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "chongan-bozhou-military",
+    "objectId": "bozhou-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Bozhou Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "guizhou-xuanwei-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "guizhou-xuanwei-military",
+    "objectId": "guizhou",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shuidong-guizhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "shuidong-guizhou-military",
+    "objectId": "guizhou-xuanwei-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Verified as a direct subordinate of Guizhou Xuanwei for the 1600 slice"
+    }
+  },
+  {
+    "id": "zhongcao-guizhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "zhongcao-guizhou-military",
+    "objectId": "guizhou-xuanwei-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Verified as a direct subordinate of Guizhou Xuanwei for the 1600 slice"
+    }
+  },
+  {
+    "id": "longli-guizhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "longli-guizhou-military",
+    "objectId": "guizhou-xuanwei-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Verified as a direct subordinate of Guizhou Xuanwei for the 1600 slice"
+    }
+  },
+  {
+    "id": "baina-guizhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "baina-guizhou-military",
+    "objectId": "guizhou-xuanwei-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Verified as a direct subordinate of Guizhou Xuanwei for the 1600 slice"
+    }
+  },
+  {
+    "id": "dizhai-guizhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "dizhai-guizhou-military",
+    "objectId": "guizhou-xuanwei-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Verified as a direct subordinate of Guizhou Xuanwei for the 1600 slice"
+    }
+  },
+  {
+    "id": "guaixi-guizhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "guaixi-guizhou-military",
+    "objectId": "guizhou-xuanwei-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Verified as a direct subordinate of Guizhou Xuanwei for the 1600 slice"
+    }
+  },
+  {
+    "id": "yanglongkeng-guizhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "yanglongkeng-guizhou-military",
+    "objectId": "guizhou-xuanwei-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Verified as a direct subordinate of Guizhou Xuanwei for the 1600 slice"
+    }
+  },
+  {
+    "id": "qingshan-guizhou-xuanwei-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "qingshan-guizhou-military",
+    "objectId": "guizhou-xuanwei-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Verified as a direct subordinate of Guizhou Xuanwei for the 1600 slice"
+    }
+  },
+  {
+    "id": "zhazuo-guizhou-xuanwei-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "zhazuo-guizhou-military",
+    "objectId": "guizhou-xuanwei-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Verified as a direct subordinate of Guizhou Xuanwei for the 1600 slice"
+    }
+  },
+  {
+    "id": "jinzhu-guizhou-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "jinzhu-guizhou-military",
+    "objectId": "dingfan-guiyang-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Verified that Jinzhu Anfu Office belonged to Dingfan State in the 1600 slice; retained as an administrative context rather than a native-office parent."
+    }
+  },
+  {
+    "id": "ningguzhai-anshun-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "ningguzhai-anshun-military",
+    "objectId": "anshun-direct-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "xibao-anshun-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "xibao-anshun-military",
+    "objectId": "anshun-direct-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shiying-zhenning-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shiying-zhenning-military",
+    "objectId": "zhenning-guizhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "kangzuo-zhenning-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "kangzuo-zhenning-military",
+    "objectId": "zhenning-guizhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "muyi-yongning-guizhou-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "muyi-yongning-guizhou-military",
+    "objectId": "yongning-guizhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "dingying-yongning-guizhou-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "dingying-yongning-guizhou-military",
+    "objectId": "yongning-guizhou-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "duyun-duyun-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "duyun-duyun-military",
+    "objectId": "duyun-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "bangshui-duyun-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "bangshui-duyun-military",
+    "objectId": "duyun-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "pinglang-duyun-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "pinglang-duyun-military",
+    "objectId": "duyun-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "pingzhou-duyun-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "pingzhou-duyun-military",
+    "objectId": "duyun-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "leping-maha-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "leping-maha-military",
+    "objectId": "maha-duyun-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "pingding-maha-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "pingding-maha-military",
+    "objectId": "maha-duyun-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "hejiuzhou-dushan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "hejiuzhou-dushan-military",
+    "objectId": "dushan-duyun-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "fengning-dushan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "fengning-dushan-military",
+    "objectId": "dushan-duyun-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "tanxi-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "tanxi-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "bazhou-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "bazhou-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "hongzhou-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "hongzhou-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "caodidong-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "caodidong-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "guzhou-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "guzhou-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "xishanyang-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "xishanyang-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "xinhua-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "xinhua-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "huer-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "huer-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "liangzhai-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "liangzhai-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "ouyang-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "ouyang-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "zhonglin-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "zhonglin-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "chixi-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "chixi-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "longli-liping-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "longli-liping-military",
+    "objectId": "liping-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shuidejiang-sinan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shuidejiang-sinan-military",
+    "objectId": "sinan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "manyi-sinan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "manyi-sinan-military",
+    "objectId": "sinan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "yanhe-sinan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "yanhe-sinan-military",
+    "objectId": "sinan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "langxi-sinan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "langxi-sinan-military",
+    "objectId": "sinan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "duping-sizhou-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "duping-sizhou-military",
+    "objectId": "sizhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "dusu-sizhou-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "dusu-sizhou-military",
+    "objectId": "sizhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shixi-sizhou-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shixi-sizhou-military",
+    "objectId": "sizhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "huangdaoxi-sizhou-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "huangdaoxi-sizhou-military",
+    "objectId": "sizhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "pianqiao-zhenyuan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "pianqiao-zhenyuan-military",
+    "objectId": "zhenyuan-guizhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "qiongshui-zhenyuan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "qiongshui-zhenyuan-military",
+    "objectId": "zhenyuan-guizhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "zhenpou-zhenyuan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "zhenpou-zhenyuan-military",
+    "objectId": "zhenyuan-guizhou-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shengxi-tongren-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shengxi-tongren-military",
+    "objectId": "tongren-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "tixi-tongren-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "tixi-tongren-military",
+    "objectId": "tongren-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "dawanshan-tongren-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "dawanshan-tongren-military",
+    "objectId": "tongren-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "wuluo-tongren-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "wuluo-tongren-military",
+    "objectId": "tongren-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "pingtouzhuoke-tongren-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "pingtouzhuoke-tongren-military",
+    "objectId": "tongren-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shiqian-shiqian-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shiqian-shiqian-military",
+    "objectId": "shiqian-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "longquanping-shiqian-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "longquanping-shiqian-military",
+    "objectId": "shiqian-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "miaomin-shiqian-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "miaomin-shiqian-military",
+    "objectId": "shiqian-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "gezhanggeshang-shiqian-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "gezhanggeshang-shiqian-military",
+    "objectId": "shiqian-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "chengfan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "chengfan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "xiaochengfan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "xiaochengfan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "shangmaqiao-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "shangmaqiao-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "lufan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "lufan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "weifan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "weifan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "fangfan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "fangfan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "hongfan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "hongfan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "wolongfan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "wolongfan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "xiaolongfan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "xiaolongfan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "dalongfan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "dalongfan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "jinshifan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "jinshifan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "luofan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "luofan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "lushan-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "lushan-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "mugua-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "mugua-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "maxiang-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "maxiang-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "dahua-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "dahua-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate in the sixteen-office Jinzhu roster." }
+  },
+  {
+    "id": "guizhu-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "guizhu-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Roster-disputed subordinate retained from the eighteen-office native-office biography; the geographic record lists sixteen and omits 贵竹." }
+  },
+  {
+    "id": "pingfa-jinzhu-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "pingfa-jinzhu-military",
+    "objectId": "jinzhu-guizhou-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Roster-disputed subordinate retained from the eighteen-office native-office biography; the geographic record lists sixteen and omits 平伐." }
+  }
+]

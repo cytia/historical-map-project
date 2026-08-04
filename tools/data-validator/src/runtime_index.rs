@@ -22,6 +22,10 @@ pub fn write(manifest_path: &Path, output_path: &Path) -> Result<PathBuf, String
         "militaryUnits": project_collection(root, "militaryUnits", &[
             "id", "name", "formalName", "level", "militaryKind", "seatPlaceId",
         ], true)?,
+        "jimiUnits": project_collection(root, "jimiUnits", &[
+            "id", "name", "formalName", "jimiKind", "officeKind", "seatPlaceId",
+            "validity", "confidence",
+        ], true)?,
         "relations": project_collection(root, "relations", &[
             "id", "relationType", "subjectId", "objectId",
         ], false)?,

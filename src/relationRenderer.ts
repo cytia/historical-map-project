@@ -23,6 +23,7 @@ export interface RelationRendererData {
   relations: LineData;
   flowRelations?: LineData;
   pulsePoint?: PointData;
+  animate?: boolean;
 }
 
 const emptyLines = (): LineData => ({ type: "FeatureCollection", features: [] });
@@ -30,6 +31,7 @@ const emptyPoints = (): PointData => ({ type: "FeatureCollection", features: [] 
 
 export function createRelationRenderer(ids: RelationRendererIds) {
   const hasPulse = Boolean(ids.pulseSourceId && ids.pulseLayerId);
+  const animationEnabledByMap = new WeakMap<Map, boolean>();
   const resetPulse = (map: Map) => {
     if (!ids.pulseLayerId || !map.getLayer(ids.pulseLayerId)) return;
     map.setPaintProperty(ids.pulseLayerId, "circle-radius", 0);
@@ -76,7 +78,20 @@ export function createRelationRenderer(ids: RelationRendererIds) {
         },
       });
     }
-    animation.setRelations(map, data.flowRelations ?? data.relations);
+    setAnimationData(map, data);
+  };
+
+  const setAnimationData = (map: Map, data: RelationRendererData) => {
+    const enabled = data.animate !== false;
+    animationEnabledByMap.set(map, enabled);
+    animation.stop(map);
+    if (enabled) {
+      animation.setRelations(map, data.flowRelations ?? data.relations);
+      return;
+    }
+    const flow = map.getSource(ids.flowSourceId) as GeoJSONSource | undefined;
+    flow?.setData(emptyLines());
+    resetPulse(map);
   };
 
   const setData = (map: Map, data: RelationRendererData) => {
@@ -88,18 +103,19 @@ export function createRelationRenderer(ids: RelationRendererIds) {
       const pulse = map.getSource(ids.pulseSourceId) as GeoJSONSource | undefined;
       pulse?.setData(data.pulsePoint ?? emptyPoints());
     }
-    animation.stop(map);
-    animation.setRelations(map, data.flowRelations ?? data.relations);
+    setAnimationData(map, data);
     resetPulse(map);
     return true;
   };
 
   const start = (map: Map) => {
+    if (animationEnabledByMap.get(map) === false) return;
     resetPulse(map);
     animation.start(map);
   };
   const stop = (map: Map) => {
     animation.stop(map);
+    animationEnabledByMap.set(map, false);
     resetPulse(map);
   };
   const layerIds = [

@@ -4,8 +4,20 @@ export type HierarchyScope = "overview" | "unit" | "domain";
 export type AdministrativeDisplayScope = HierarchyScope;
 export type MapDisplayMode = "administrative" | "jurisdiction" | "control";
 export type MilitaryColorMode = "administrative" | "military";
-export type SelectionDomain = "administrative" | "military";
+export type SelectionDomain = "administrative" | "military" | "jimi";
 export type MilitaryUnitKind = "dusi" | "xing-dusi" | "liushou-si" | "wei" | "qianhu-suo" | "suo";
+export type JimiKind = "military-institution" | "native-office";
+export type JimiOfficeKind =
+  | "dusi"
+  | "xing-dusi"
+  | "wei"
+  | "suo"
+  | "xuanwei-si"
+  | "xuanfu-si"
+  | "zhaotao-si"
+  | "anfu-si"
+  | "zhangguan-si"
+  | "tusi-xunjian-si";
 
 export interface SourceLink {
   sourceId: string;
@@ -53,12 +65,32 @@ export interface MilitaryUnit {
   sourceIds?: string[];
 }
 
+export interface JimiUnit {
+  id: string;
+  name: string;
+  formalName?: string;
+  jimiKind: JimiKind;
+  officeKind: JimiOfficeKind;
+  polityId?: string;
+  seatPlaceId?: string;
+  validity: {
+    from: number | null;
+    to: number | null;
+    precision: "exact" | "circa" | "range" | "unknown";
+  };
+  confidence?: Confidence;
+  sources?: SourceLink[];
+  sourceIds?: string[];
+}
+
 export type HistoricalRelationType =
   | "military-subordination"
   | "military-affiliation"
   | "five-army-affiliation"
   | "administrative-context"
-  | "co-location";
+  | "co-location"
+  | "jimi-subordination"
+  | "jimi-administrative-context";
 
 export interface HistoricalRelation {
   id: string;
@@ -94,6 +126,7 @@ export interface ProjectData {
   militaryStatistics: MilitaryStatistic[];
   administrativeUnits: AdministrativeUnit[];
   militaryUnits: MilitaryUnit[];
+  jimiUnits: JimiUnit[];
   relations: HistoricalRelation[];
   places: Place[];
   placeNames: PlaceName[];
@@ -109,6 +142,7 @@ export interface RuntimeIndex {
   sourceCount: number;
   administrativeUnits: AdministrativeUnit[];
   militaryUnits: MilitaryUnit[];
+  jimiUnits: JimiUnit[];
   relations: RuntimeRelation[];
   places: Place[];
   placeNames: PlaceName[];
@@ -193,6 +227,17 @@ export interface MilitaryRecord {
   administrativeUnitId: string | null;
   militaryParentId: string | null;
   fiveArmyId?: "central" | "left" | "right" | "front" | "rear";
+}
+
+export interface JimiRecord {
+  unit: JimiUnit;
+  place: Place;
+  name: string;
+  administrativeUnitId: string | null;
+  administrativeRegionId: string | null;
+  jimiParentId: string | null;
+  jimiRootId: string;
+  jimiDepth: number;
 }
 
 export interface MilitaryDisplayAnchor {

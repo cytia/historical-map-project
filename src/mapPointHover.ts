@@ -8,13 +8,15 @@ interface HoverRef {
 interface PointHoverOptions {
   hoveredRegionRef: HoverRef;
   hoveredMilitaryRef: HoverRef;
+  hoveredJimiRef: HoverRef;
   setHoveredRegion: (id: string | null) => void;
   setHoveredMilitaryUnit: (id: string | null) => void;
+  setHoveredJimiUnit: (id: string | null) => void;
 }
 
 export function registerPointHoverHandlers(map: Map, options: PointHoverOptions) {
   const { hoveredRegionRef, hoveredMilitaryRef,
-    setHoveredRegion, setHoveredMilitaryUnit } = options;
+    hoveredJimiRef, setHoveredRegion, setHoveredMilitaryUnit, setHoveredJimiUnit } = options;
   const clearRegion = () => {
     if (hoveredRegionRef.current === null) return;
     hoveredRegionRef.current = null;
@@ -25,8 +27,14 @@ export function registerPointHoverHandlers(map: Map, options: PointHoverOptions)
     hoveredMilitaryRef.current = null;
     setHoveredMilitaryUnit(null);
   };
+  const clearJimi = () => {
+    if (hoveredJimiRef.current === null) return;
+    hoveredJimiRef.current = null;
+    setHoveredJimiUnit(null);
+  };
   const hoverSeat = (event: MapLayerMouseEvent) => {
     clearMilitary();
+    clearJimi();
     const regionId = event.features?.[0]?.properties?.regionId;
     const nextRegionId = typeof regionId === "string" ? regionId : null;
     if (hoveredRegionRef.current === nextRegionId) return;
@@ -34,6 +42,7 @@ export function registerPointHoverHandlers(map: Map, options: PointHoverOptions)
     setHoveredRegion(nextRegionId);
   };
   const hoverMilitary = (event: MapLayerMouseEvent) => {
+    clearJimi();
     const administrativeTarget = queryAdministrativeTargets(map, event.point)[0];
     if (administrativeTarget) {
       clearMilitary();
@@ -49,6 +58,15 @@ export function registerPointHoverHandlers(map: Map, options: PointHoverOptions)
     hoveredMilitaryRef.current = nextMilitaryId;
     setHoveredMilitaryUnit(nextMilitaryId);
   };
+  const hoverJimi = (event: MapLayerMouseEvent) => {
+    clearRegion();
+    clearMilitary();
+    const id = event.features?.[0]?.properties?.id;
+    const nextJimiId = typeof id === "string" ? id : null;
+    if (hoveredJimiRef.current === nextJimiId) return;
+    hoveredJimiRef.current = nextJimiId;
+    setHoveredJimiUnit(nextJimiId);
+  };
   const showPointer = () => {
     map.getCanvas().style.cursor = "pointer";
   };
@@ -59,6 +77,13 @@ export function registerPointHoverHandlers(map: Map, options: PointHoverOptions)
     clearPointer();
     clearMilitary();
     clearRegion();
+    clearJimi();
+  };
+  const leaveJimi = () => {
+    clearPointer();
+    clearJimi();
+    clearRegion();
+    clearMilitary();
   };
   const leaveSeat = () => {
     clearPointer();
@@ -71,6 +96,9 @@ export function registerPointHoverHandlers(map: Map, options: PointHoverOptions)
   map.on("mousemove", "military-points", hoverMilitary);
   map.on("mouseenter", "military-points", showPointer);
   map.on("mouseleave", "military-points", leaveMilitary);
+  map.on("mousemove", "jimi-points", hoverJimi);
+  map.on("mouseenter", "jimi-points", showPointer);
+  map.on("mouseleave", "jimi-points", leaveJimi);
   map.on("mouseenter", "county-points", showPointer);
   map.on("mouseleave", "county-points", clearPointer);
 
@@ -81,6 +109,9 @@ export function registerPointHoverHandlers(map: Map, options: PointHoverOptions)
     map.off("mousemove", "military-points", hoverMilitary);
     map.off("mouseenter", "military-points", showPointer);
     map.off("mouseleave", "military-points", leaveMilitary);
+    map.off("mousemove", "jimi-points", hoverJimi);
+    map.off("mouseenter", "jimi-points", showPointer);
+    map.off("mouseleave", "jimi-points", leaveJimi);
     map.off("mouseenter", "county-points", showPointer);
     map.off("mouseleave", "county-points", clearPointer);
   };

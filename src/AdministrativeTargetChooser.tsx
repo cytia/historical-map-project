@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Button } from "./components/Button";
 import { counties, seats } from "./data";
+import { jimiById } from "./jimiData";
 import { militaryById } from "./militaryData";
 import type { MapTarget } from "./mapSelectionInteraction";
 import { Scrollbar } from "./Scrollbar";
@@ -19,6 +20,10 @@ function targetDetails(target: MapTarget) {
   if (target.kind === "military") {
     const military = militaryById.get(target.id);
     return { name: military?.unit.name ?? target.id, context: "军事单位" };
+  }
+  if (target.kind === "jimi") {
+    const jimi = jimiById.get(target.id);
+    return { name: jimi?.unit.name ?? target.id, context: "羁縻关系" };
   }
   if (target.kind === "county") {
     const county = counties.find(({ unit }) => unit.id === target.id);

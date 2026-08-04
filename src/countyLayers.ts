@@ -6,6 +6,7 @@ import {
   isDescendantOf,
   seats,
 } from "./data";
+import { getHierarchyDisplayState } from "./hierarchyDisplay";
 import { affiliationColorExpression } from "./mapDisplay";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { addSubordinateRelationLayer, curvedCoordinates } from "./relationRendering";
@@ -48,7 +49,8 @@ function selectedTopLevelId(selection: CountyLayerSelection) {
 
 function displayRootId(selection: CountyLayerSelection) {
   const topLevelId = selectedTopLevelId(selection);
-  if (!topLevelId || selection.scope === "overview") return null;
+  const display = getHierarchyDisplayState(selection.scope, topLevelId !== null);
+  if (!topLevelId || !display.showDescendants) return null;
   return selection.scope === "domain" ? selection.regionId ?? topLevelId : topLevelId;
 }
 
@@ -134,24 +136,25 @@ export function addCountyLayers(
 ) {
   const duration = fadeDuration();
   const data = layerData(selection);
+  const display = getHierarchyDisplayState(selection.scope, selection.selectedUnitId !== null);
   map.addSource(sourceId, { type: "geojson", data: data.points });
   map.addSource(relationSourceId, { type: "geojson", data: data.relations });
   addSubordinateRelationLayer(map, {
     sourceId: relationSourceId,
     layerId: layerIds[0],
-    opacity: selection.selectedUnitId ? 0.78 : 0,
+    opacity: display.showRelations ? 0.78 : 0,
     transitionDuration: duration,
   });
   map.addLayer({ id: layerIds[1], type: "circle", source: sourceId,
     paint: { "circle-radius": radius(selection.selectedUnitId, selection.selectedCountyId),
       "circle-color": pointColor(selection),
       "circle-stroke-width": 1.5, "circle-stroke-color": tokens.seatRing,
-      "circle-opacity": selection.selectedUnitId ? 1 : 0, "circle-opacity-transition": { duration } } });
+      "circle-opacity": display.showDescendants ? 1 : 0, "circle-opacity-transition": { duration } } });
   map.addLayer({ id: layerIds[2], type: "symbol", source: sourceId,
     layout: { "text-field": ["get", "name"], "text-font": ["Open Sans Regular"],
       "text-size": 11, "text-offset": [0, 1], "text-anchor": "top", "text-allow-overlap": false },
     paint: { "text-color": tokens.countyLabel, "text-halo-color": tokens.land,
-      "text-halo-width": 1.2, "text-opacity": selection.selectedUnitId ? 1 : 0,
+      "text-halo-width": 1.2, "text-opacity": display.showDescendants ? 1 : 0,
       "text-opacity-transition": { duration } } });
   setLayerVisibility(map, layerIds, visible);
 }
@@ -160,6 +163,7 @@ export function setCountySelection(map: Map, selection: CountyLayerSelection) {
   const countySource = map.getSource(sourceId) as GeoJSONSource | undefined;
   const relationSource = map.getSource(relationSourceId) as GeoJSONSource | undefined;
   if (!countySource || !relationSource) return;
+  const display = getHierarchyDisplayState(selection.scope, selection.selectedUnitId !== null);
   const previousTimer = clearTimers.get(map);
   if (previousTimer !== undefined) window.clearTimeout(previousTimer);
   const updateData = () => {
@@ -168,7 +172,7 @@ export function setCountySelection(map: Map, selection: CountyLayerSelection) {
     relationSource.setData(data.relations);
   };
   setOpacity(map, false);
-  if (!selection.selectedUnitId) {
+  if (!display.showDescendants) {
     const timer = window.setTimeout(() => {
       updateData();
       clearTimers.delete(map);

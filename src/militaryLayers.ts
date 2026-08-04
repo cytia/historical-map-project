@@ -117,6 +117,7 @@ export function addMilitaryLayers(map: Map, selection: MilitaryLayerSelection, v
   militaryRelationRenderer.add(map, {
     relations: data.primaryRelations,
     flowRelations: data.flowRelations,
+    animate: data.animateRelations,
   });
   addSubordinateRelationLayer(map, {
     sourceId: subordinateRelationSourceId,
@@ -156,6 +157,7 @@ export function setMilitarySelection(map: Map, selection: MilitaryLayerSelection
   militaryRelationRenderer.setData(map, {
     relations: data.primaryRelations,
     flowRelations: data.flowRelations,
+    animate: data.animateRelations,
   });
   setMilitaryDisplaySelection(map, data);
   if (map.getLayer(pointOutlineLayerId)) {

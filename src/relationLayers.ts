@@ -1,8 +1,10 @@
 import type { Map } from "maplibre-gl";
 import { getTopLevelUnitId, seats, topLevelSeats } from "./data";
 import { setLayerVisibility } from "./mapLayerVisibility";
+import { getHierarchyDisplayState } from "./hierarchyDisplay";
 import { curvedCoordinates } from "./relationRendering";
 import { createRelationRenderer } from "./relationRenderer";
+import type { HierarchyScope } from "./types";
 
 const sourceId = "seat-relations";
 const flowSourceId = "seat-relation-flow-segments";
@@ -61,24 +63,36 @@ export function stopRelationAnimation(map: Map) {
   relationRenderer.stop(map);
 }
 
-export function addRelationLayers(map: Map, selectedUnitId: string | null, visible: boolean) {
+export function addRelationLayers(
+  map: Map,
+  selectedUnitId: string | null,
+  scope: HierarchyScope,
+  visible: boolean,
+) {
+  const display = getHierarchyDisplayState(scope, selectedUnitId !== null);
   const context = relationContext(selectedUnitId);
-  const relations = relationData(context);
+  const relations = display.showRelations ? relationData(context) : { type: "FeatureCollection" as const, features: [] };
   relationRenderer.add(map, {
     relations,
     pulsePoint: capitalData(context),
+    animate: display.animateRelations,
   });
   setLayerVisibility(map, layerIds, visible);
 }
 
-export function setRelationSelection(map: Map, selectedUnitId: string | null) {
+export function setRelationSelection(
+  map: Map,
+  selectedUnitId: string | null,
+  scope: HierarchyScope,
+) {
+  const display = getHierarchyDisplayState(scope, selectedUnitId !== null);
   const context = relationContext(selectedUnitId);
-  const relations = relationData(context);
+  const relations = display.showRelations ? relationData(context) : { type: "FeatureCollection" as const, features: [] };
   const updated = relationRenderer.setData(map, {
     relations,
     pulsePoint: capitalData(context),
+    animate: display.animateRelations,
   });
-  if (!updated) return;
-  if (!context.selected?.region.seatPlaceId) return;
+  if (!updated || !display.animateRelations) return;
   relationRenderer.start(map);
 }

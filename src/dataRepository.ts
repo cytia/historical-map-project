@@ -3,6 +3,7 @@ import militaryStatisticsUrl from "../data/statistics/military.json?url";
 import scopeStatisticsUrl from "../data/statistics/scope.json?url";
 import sourcesUrl from "../data/catalog/sources.json?url";
 import type {
+  JimiUnit,
   MilitaryStatistic,
   RuntimeIndex,
   ScopeStatisticRecord,
@@ -56,6 +57,14 @@ function isMilitaryStatistic(value: unknown): value is MilitaryStatistic {
     typeof value.measureType === "string";
 }
 
+function isJimiUnit(value: unknown): value is JimiUnit {
+  return isRecord(value) &&
+    typeof value.id === "string" &&
+    typeof value.name === "string" &&
+    typeof value.jimiKind === "string" &&
+    typeof value.officeKind === "string";
+}
+
 function hasStrings(value: unknown, fields: string[]) {
   return isRecord(value) && fields.every((field) => typeof value[field] === "string");
 }
@@ -89,11 +98,13 @@ export async function loadRuntimeIndex(): Promise<RuntimeIndex> {
     typeof value.sourceCount !== "number" ||
     !Array.isArray(value.administrativeUnits) ||
     !Array.isArray(value.militaryUnits) ||
+    !Array.isArray(value.jimiUnits) ||
     !Array.isArray(value.relations) ||
     !Array.isArray(value.places) ||
     !Array.isArray(value.placeNames) ||
     !value.administrativeUnits.every((item) => hasStrings(item, ["id", "name", "level"])) ||
     !value.militaryUnits.every((item) => hasStrings(item, ["id", "name", "militaryKind"])) ||
+    !value.jimiUnits.every(isJimiUnit) ||
     !value.relations.every((item) =>
       hasStrings(item, ["id", "relationType", "subjectId", "objectId"])) ||
     !value.places.every((item) => hasStrings(item, ["id", "locationAccuracy", "confidence"])) ||

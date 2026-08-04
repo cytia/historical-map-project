@@ -19,6 +19,8 @@ import {
 } from "./relationLayers";
 import { addSeatLayers } from "./seatLayers";
 import { addMilitaryLayers, stopMilitaryRelationAnimation } from "./militaryLayers";
+import { addJimiLayers } from "./jimiLayers";
+import { stopJimiAnimation } from "./jimiLayers";
 import { useAppStore } from "./store";
 import { addTerrainStyle, ensureTerrainProtocol } from "./terrain";
 import { useAdministrativeTargetChoice } from "./useAdministrativeTargetChoice";
@@ -29,29 +31,35 @@ export function MapView() {
   const mapRef = useRef<maplibregl.Map | null>(null);
   const hoveredRegionRef = useRef<string | null>(null);
   const hoveredMilitaryRef = useRef<string | null>(null);
+  const hoveredJimiRef = useRef<string | null>(null);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const selectMilitaryUnit = useAppStore((state) => state.selectMilitaryUnit);
+  const selectJimiUnit = useAppStore((state) => state.selectJimiUnit);
   const selectCounty = useAppStore((state) => state.selectCounty);
   const resetSelection = useAppStore((state) => state.resetSelection);
   const setActiveRegion = useAppStore((state) => state.setActiveRegion);
   const setHoveredRegion = useAppStore((state) => state.setHoveredRegion);
   const setHoveredMilitaryUnit = useAppStore((state) => state.setHoveredMilitaryUnit);
+  const setHoveredJimiUnit = useAppStore((state) => state.setHoveredJimiUnit);
   const selectedUnitId = useAppStore((state) => state.selectedUnitId);
   const selectedMilitaryUnitId = useAppStore((state) => state.selectedMilitaryUnitId);
+  const selectedJimiUnitId = useAppStore((state) => state.selectedJimiUnitId);
   const selectedCountyId = useAppStore((state) => state.selectedCountyId);
   const activeRegionId = useAppStore((state) => state.activeRegionId);
   const hoveredRegionId = useAppStore((state) => state.hoveredRegionId);
   const hoveredMilitaryUnitId = useAppStore((state) => state.hoveredMilitaryUnitId);
+  const hoveredJimiUnitId = useAppStore((state) => state.hoveredJimiUnitId);
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const militaryVisible = useAppStore((state) => state.militaryVisible);
+  const jimiVisible = useAppStore((state) => state.jimiVisible);
   const hierarchyScope = useAppStore((state) => state.hierarchyScope);
   const mapDisplayMode = useAppStore((state) => state.mapDisplayMode);
   const militaryColorMode = useAppStore((state) => state.militaryColorMode);
   const { targetChoice, closeTargetChoice, chooseTargets, applyAdministrativeTarget } =
-    useAdministrativeTargetChoice({ selectCounty, selectUnit, selectMilitaryUnit, setActiveRegion });
-  useMapSelectionSync({ mapRef, selectedUnitId, selectedMilitaryUnitId,
-    selectedCountyId, activeRegionId, hoveredRegionId, hoveredMilitaryUnitId, hierarchyScope,
-    mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible });
+    useAdministrativeTargetChoice({ selectCounty, selectUnit, selectMilitaryUnit, selectJimiUnit, setActiveRegion });
+  useMapSelectionSync({ mapRef, selectedUnitId, selectedMilitaryUnitId, selectedJimiUnitId,
+    selectedCountyId, activeRegionId, hoveredRegionId, hoveredMilitaryUnitId, hoveredJimiUnitId,
+    hierarchyScope, mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible });
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -73,7 +81,7 @@ export function MapView() {
     map.on("style.load", () => {
       const state = useAppStore.getState();
       const selectedRegionId = getUnitRegionId(state.selectedUnitId) ?? state.activeRegionId;
-      addRelationLayers(map, state.selectedUnitId, true);
+      addRelationLayers(map, state.selectedUnitId, state.hierarchyScope, true);
       addMilitaryLayers(map, {
         selectedMilitaryId: state.selectedMilitaryUnitId,
         selectedAdministrativeId: state.selectedUnitId,
@@ -81,6 +89,7 @@ export function MapView() {
         scope: state.hierarchyScope,
         colorMode: state.militaryColorMode,
       }, state.militaryVisible);
+      addJimiLayers(map, { selectedJimiId: state.selectedJimiUnitId, scope: state.hierarchyScope }, state.jimiVisible);
       addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId,
         state.seatsVisible, state.mapDisplayMode);
       addCountyLayers(map, {
@@ -90,12 +99,14 @@ export function MapView() {
         scope: state.hierarchyScope,
         displayMode: state.mapDisplayMode,
       }, true);
-      setRelationSelection(map, state.selectedUnitId);
+      setRelationSelection(map, state.selectedUnitId, state.hierarchyScope);
       applyMapPointFocus(map, {
         selectedUnitId: state.selectedUnitId,
         selectedMilitaryUnitId: state.selectedMilitaryUnitId,
+        selectedJimiUnitId: state.selectedJimiUnitId,
         hoveredRegionId: state.hoveredRegionId,
         hoveredMilitaryUnitId: state.hoveredMilitaryUnitId,
+        hoveredJimiUnitId: state.hoveredJimiUnitId,
         activeRegionId: state.activeRegionId,
       });
     });
@@ -113,10 +124,12 @@ export function MapView() {
       () => useAppStore.getState().selectionDomain,
     );
     const stopPointHoverHandlers = registerPointHoverHandlers(map, {
-      hoveredRegionRef,
-      hoveredMilitaryRef,
-      setHoveredRegion,
-      setHoveredMilitaryUnit,
+        hoveredRegionRef,
+        hoveredMilitaryRef,
+        hoveredJimiRef,
+        setHoveredRegion,
+        setHoveredMilitaryUnit,
+        setHoveredJimiUnit,
     });
 
     mapRef.current = map;
@@ -125,11 +138,12 @@ export function MapView() {
       stopPointHoverHandlers();
       stopRelationAnimation(map);
       stopMilitaryRelationAnimation(map);
+      stopJimiAnimation(map);
       map.remove();
       mapRef.current = null;
     };
   }, [applyAdministrativeTarget, chooseTargets, closeTargetChoice, selectMilitaryUnit,
-    resetSelection, setHoveredMilitaryUnit, setHoveredRegion]);
+    selectJimiUnit, resetSelection, setHoveredJimiUnit, setHoveredMilitaryUnit, setHoveredRegion]);
 
   useEffect(closeTargetChoice, [hierarchyScope, selectedCountyId,
     selectedMilitaryUnitId, selectedUnitId, closeTargetChoice]);

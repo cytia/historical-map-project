@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "luzhai-zhenyuan-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "luzhai-zhenyuan-yunnan-military",
+    "objectId": "zhenyuan-yunnan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "lacihe-yongning-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "lacihe-yongning-yunnan-military",
+    "objectId": "yongning-yunnan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "gedian-yongning-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "gedian-yongning-yunnan-military",
+    "objectId": "yongning-yunnan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "xiangluodian-yongning-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "xiangluodian-yongning-yunnan-military",
+    "objectId": "yongning-yunnan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "walu-yongning-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "walu-yongning-yunnan-military",
+    "objectId": "yongning-yunnan-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "lujiang-yongchang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "lujiang-yongchang-yunnan-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "zhendao-yongchang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "zhendao-yongchang-yunnan-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "yangtang-yongchang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "yangtang-yongchang-yunnan-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "wadian-yongchang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "wadian-yongchang-yunnan-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "fengxi-yongchang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "fengxi-yongchang-yunnan-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shidian-yongchang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shidian-yongchang-yunnan-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "chashan-yongchang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "chashan-yongchang-yunnan-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "mengmian-yunzhou-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "mengmian-yunzhou-military",
+    "objectId": "yunzhou-direct-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "mengyang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "mengyang-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "nandian-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "nandian-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shiya-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shiya-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "longchuan-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "longchuan-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "cheli-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "cheli-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "miandian-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "miandian-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "mubang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "mubang-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "babaidian-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "babaidian-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "laowo-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "laowo-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "dongtang-miandian-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "dongtang-miandian-military",
+    "objectId": "miandian-yunnan-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "mengmi-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "mengmi-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "manmo-yunnan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "manmo-yunnan-military",
+    "objectId": "mengmi-yunnan-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "zhele-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "zhele-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "niuwu-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "niuwu-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "mangshi-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "mangshi-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "menglian-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "menglian-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "dagula-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "dagula-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "dimas-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "dimas-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "xiaogula-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "xiaogula-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "chashan-remote-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "chashan-remote-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "dibang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "dibang-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "menglun-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "menglun-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "bajiata-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "bajiata-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "cihezhuang-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "cihezhuang-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "cuowa-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "cuowa-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "sanjin-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "sanjin-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "lima-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "lima-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "bazhai-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "bazhai-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "diwuci-yunnan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "diwuci-yunnan-military",
+    "objectId": "yunnan",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "gengma-mengding-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "gengma-mengding-military",
+    "objectId": "mengding-imperial-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "beisheng-ningfan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "beisheng-ningfan-military",
+    "objectId": "beisheng-direct-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "beixi-menghua-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "beixi-menghua-military",
+    "objectId": "menghua-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "dadian-dali-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "dadian-dali-military",
+    "objectId": "dali-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shierguan-dali-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shierguan-dali-military",
+    "objectId": "yunlong-dali-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "nage-linan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "nage-linan-military",
+    "objectId": "jianshui-linan-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "dongshankou-linan-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "dongshankou-linan-military",
+    "objectId": "ami-linan-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "huideng-chuxiong-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "huideng-chuxiong-military",
+    "objectId": "guangtong-chuxiong-county",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "zhenan-wuding-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "zhenan-wuding-military",
+    "objectId": "hequ-wuding-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "longjie-wuding-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "longjie-wuding-military",
+    "objectId": "hequ-wuding-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "zhennan-wuding-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "zhennan-wuding-military",
+    "objectId": "zhennan-chuxiong-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "yingwu-wuding-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "yingwu-wuding-military",
+    "objectId": "zhennan-chuxiong-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "axiong-wuding-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "axiong-wuding-military",
+    "objectId": "zhennan-chuxiong-department",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "diantou-yongchang-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "diantou-yongchang-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "shuiyan-yongchang-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shuiyan-yongchang-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "daniu-yongchang-military-jimi-parent",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "daniu-yongchang-military",
+    "objectId": "yongchang-military-prefecture",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "damengma-yunzhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "damengma-yunzhou-military",
+    "objectId": "mengmian-yunzhou-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  },
+  {
+    "id": "mengsa-yunzhou-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "mengsa-yunzhou-military",
+    "objectId": "mengmian-yunzhou-military",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "parent",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-07-15",
+      "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
+    }
+  }
+]

@@ -440,6 +440,139 @@
     }
   },
   {
+    "id": "bozhou-xuanwei-military-seat",
+    "longitude": 106.93361,
+    "latitude": 27.705,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zunyi city proxy independently located from Wikidata Q28994, guided by the Ming History description of the Bozhou native-office seat at Mu Jiachuan; the exact historical office compound remains unresolved",
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "medium", "note": "The late Bozhou native-office seat is associated with Mu Jiachuan in the present Zunyi old-city area." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q28994 P625 coordinates for the modern Zunyi city proxy; the historical office compound remains unresolved." }
+    ],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible approximate proxy for the 1600 Bozhou Xuanwei seat; Hailongtun is retained as a separate fortress reference rather than used as the administrative seat." }
+  },
+  {
+    "id": "caotang-bozhou-military-seat",
+    "longitude": 107.50511,
+    "latitude": 27.155276,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Caotang locality proxy for the Caotang Anfu Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "medium", "note": "The 1600 roster identifies Caotang Anfu Office; the point uses the modern Caotang locality as a reversible seat proxy." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a modern locality proxy for the 1600 Caotang Anfu Office." }
+  },
+  {
+    "id": "huangping-bozhou-military-seat",
+    "longitude": 107.775556,
+    "latitude": 26.991667,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jiuzhou locality proxy for the Huangping Anfu Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "medium", "note": "The historical Huangping Anfu Office is associated with the former Huangping seat at modern Jiuzhou; the point is a reversible locality proxy." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a modern Jiuzhou proxy for the 1600 Huangping Anfu Office." }
+  },
+  {
+    "id": "zhenzhou-bozhou-military-seat",
+    "longitude": 107.67694,
+    "latitude": 28.74083,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jiucheng locality proxy for the Zhenzhou Zhangguan Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "medium", "note": "The Zhenzhou Zhangguan Office is identified with the former Zhenzhou site at modern Jiucheng; the point is a reversible locality proxy." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a modern Jiucheng proxy for the 1600 Zhenzhou Zhangguan Office." }
+  },
+  {
+    "id": "bozhou-zhangguan-bozhou-military-seat",
+    "longitude": 106.93361,
+    "latitude": 27.705,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Co-located modern Zunyi proxy for the attached Bozhou Zhangguan Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "medium", "note": "Bozhou Zhangguan Office was the attached office at the Bozhou seat; the point shares the modern Zunyi proxy with the Bozhou Xuanwei seat." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added the attached-office point using the same reversible Zunyi proxy as the Bozhou Xuanwei seat." }
+  },
+  {
+    "id": "yuqing-bozhou-military-seat",
+    "longitude": 107.617633,
+    "latitude": 27.525524,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Aoxi locality proxy for the Yuqing Zhangguan Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "medium", "note": "The Yuqing Zhangguan Office is identified with modern Aoxi; the point is a reversible locality proxy." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a modern Aoxi proxy for the 1600 Yuqing Zhangguan Office." }
+  },
+  {
+    "id": "baini-bozhou-military-seat",
+    "longitude": 107.88677,
+    "latitude": 27.226397,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Baini locality proxy for the Baini Zhangguan Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "medium", "note": "The Baini Zhangguan Office is identified with modern Baini in Yuqing; the point is a reversible locality proxy." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a modern Baini proxy for the 1600 Baini Zhangguan Office." }
+  },
+  {
+    "id": "rongshan-bozhou-military-seat",
+    "longitude": 107.429375,
+    "latitude": 27.74838,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Guanyan locality proxy in Huangjiaba for the Rongshan Zhangguan Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "medium", "note": "The Rongshan Zhangguan Office is identified with modern Huangjiaba Guanyan in Meitan; the point is a reversible locality proxy." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a modern Huangjiaba proxy for the 1600 Rongshan Zhangguan Office." }
+  },
+  {
+    "id": "chongan-bozhou-military-seat",
+    "longitude": 107.896668,
+    "latitude": 26.766769,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Chongan locality proxy for the Chongan Zhangguan Office; exact Ming compound remains unresolved",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "medium", "note": "The Ming record places Chongan Zhangguan Office in the Huangping-area Chongan region; the point is a reversible modern locality proxy." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a modern Chongan proxy for the 1600 Chongan Zhangguan Office." }
+  },
+  {
+    "id": "qingshan-guizhou-military-seat",
+    "longitude": 106.65,
+    "latitude": 27.0433,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Qingshan area proxy guided by the historical office description; exact Ming seat unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate modern area proxy; exact historical seat requires independent review"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Reversible low-confidence proxy for the 1600 Qing Shan native office"
+    }
+  },
+  {
+    "id": "zhazuo-guizhou-military-seat",
+    "longitude": 106.71819,
+    "latitude": 26.85946,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhazuo settlement proxy guided by the historical office description; exact Ming seat unresolved",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Approximate modern settlement proxy; exact historical seat requires independent review"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Reversible low-confidence proxy for the 1600 Zha Zuo native office"
+    }
+  },
+  {
     "id": "jinzhu-guizhou-military-seat",
     "longitude": 106.5,
     "latitude": 26.3,
@@ -2331,5 +2464,185 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "Added a reversible area proxy pending independent pass-site verification"
     }
+  },
+  {
+    "id": "chengfan-jinzhu-military-seat",
+    "longitude": 106.66,
+    "latitude": 26.13,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "xiaochengfan-jinzhu-military-seat",
+    "longitude": 106.64,
+    "latitude": 26.17,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "shangmaqiao-jinzhu-military-seat",
+    "longitude": 106.54,
+    "latitude": 26.26,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "lufan-jinzhu-military-seat",
+    "longitude": 106.73,
+    "latitude": 26.15,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "weifan-jinzhu-military-seat",
+    "longitude": 106.70,
+    "latitude": 26.10,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "fangfan-jinzhu-military-seat",
+    "longitude": 106.60,
+    "latitude": 26.06,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "hongfan-jinzhu-military-seat",
+    "longitude": 106.56,
+    "latitude": 26.08,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "wolongfan-jinzhu-military-seat",
+    "longitude": 106.50,
+    "latitude": 26.12,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "xiaolongfan-jinzhu-military-seat",
+    "longitude": 106.55,
+    "latitude": 26.14,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "dalongfan-jinzhu-military-seat",
+    "longitude": 106.53,
+    "latitude": 26.17,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "jinshifan-jinzhu-military-seat",
+    "longitude": 106.62,
+    "latitude": 26.12,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "luofan-jinzhu-military-seat",
+    "longitude": 106.69,
+    "latitude": 26.19,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "lushan-jinzhu-military-seat",
+    "longitude": 106.77,
+    "latitude": 26.14,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "mugua-jinzhu-military-seat",
+    "longitude": 106.80,
+    "latitude": 26.20,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Guiyang-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "maxiang-jinzhu-military-seat",
+    "longitude": 106.73,
+    "latitude": 26.24,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Guiyang-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "dahua-jinzhu-military-seat",
+    "longitude": 106.58,
+    "latitude": 26.20,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Huishui-area proxy for the historical Jinzhu longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "location", "confidence": "low", "note": "Regional proxy inferred from the Chengfan/Dingfan geographic context" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible regional proxy pending independent historical-location review" }
+  },
+  {
+    "id": "guizhu-jinzhu-military-seat",
+    "longitude": 106.72,
+    "latitude": 26.46,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Guiyang-area proxy for the disputed 贵竹 longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "low", "note": "Regional proxy only; the native-office biography and geographic record disagree on roster membership" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible low-confidence proxy for a roster-disputed office" }
+  },
+  {
+    "id": "pingfa-jinzhu-military-seat",
+    "longitude": 106.85,
+    "latitude": 26.32,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Approximate Guiyang-area proxy for the disputed 平伐 longguan office; exact seat remains unresolved",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "location", "confidence": "low", "note": "Regional proxy only; the native-office biography and geographic record disagree on roster membership" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Added a reversible low-confidence proxy for a roster-disputed office" }
   }
 ]

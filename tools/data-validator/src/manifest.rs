@@ -5,7 +5,7 @@ use serde_json::{Map, Value};
 
 use crate::{model::ProjectData, validate};
 
-const COLLECTIONS: [&str; 10] = [
+const COLLECTIONS: [&str; 11] = [
     "sources",
     "scopeStatistics",
     "statistics",
@@ -13,6 +13,7 @@ const COLLECTIONS: [&str; 10] = [
     "polities",
     "administrativeUnits",
     "militaryUnits",
+    "jimiUnits",
     "relations",
     "places",
     "placeNames",
@@ -112,6 +113,7 @@ fn assemble_value(manifest_path: &Path) -> Result<Value, String> {
             fragment.collection.as_str(),
             "administrativeUnits"
                 | "militaryUnits"
+                | "jimiUnits"
                 | "places"
                 | "placeNames"
                 | "statistics"

@@ -506,6 +506,142 @@
     }
   },
   {
+    "id": "name-bozhou-xuanwei-military-seat",
+    "placeId": "bozhou-xuanwei-military-seat",
+    "name": "播州宣慰使司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 native-office seat label" }
+  },
+  {
+    "id": "name-caotang-bozhou-military-seat",
+    "placeId": "caotang-bozhou-military-seat",
+    "name": "草塘安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 direct subordinate seat label" }
+  },
+  {
+    "id": "name-huangping-bozhou-military-seat",
+    "placeId": "huangping-bozhou-military-seat",
+    "name": "黄平安抚司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 roster label; the narrative also preserves a 宣抚司 title variant" }
+  },
+  {
+    "id": "name-zhenzhou-bozhou-military-seat",
+    "placeId": "zhenzhou-bozhou-military-seat",
+    "name": "真州长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 direct subordinate seat label" }
+  },
+  {
+    "id": "name-bozhou-zhangguan-bozhou-military-seat",
+    "placeId": "bozhou-zhangguan-bozhou-military-seat",
+    "name": "播州长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 direct subordinate attached-office seat label" }
+  },
+  {
+    "id": "name-yuqing-bozhou-military-seat",
+    "placeId": "yuqing-bozhou-military-seat",
+    "name": "余庆长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 direct subordinate seat label" }
+  },
+  {
+    "id": "name-baini-bozhou-military-seat",
+    "placeId": "baini-bozhou-military-seat",
+    "name": "白泥长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 direct subordinate seat label" }
+  },
+  {
+    "id": "name-rongshan-bozhou-military-seat",
+    "placeId": "rongshan-bozhou-military-seat",
+    "name": "容山长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 direct subordinate seat label" }
+  },
+  {
+    "id": "name-chongan-bozhou-military-seat",
+    "placeId": "chongan-bozhou-military-seat",
+    "name": "重安长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 direct subordinate seat label" }
+  },
+  {
+    "id": "name-qingshan-guizhou-military-seat",
+    "placeId": "qingshan-guizhou-military-seat",
+    "name": "青山长官司",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "1600 direct subordinate office name"
+    }
+  },
+  {
+    "id": "name-zhazuo-guizhou-military-seat",
+    "placeId": "zhazuo-guizhou-military-seat",
+    "name": "札佐长官司",
+    "script": "historical",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-guizhou-tusi",
+        "claim": "name",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "1600 direct subordinate office name"
+    }
+  },
+  {
     "id": "name-jinzhu-guizhou-military-seat",
     "placeId": "jinzhu-guizhou-military-seat",
     "name": "金筑安抚司",
@@ -2574,5 +2710,185 @@
       "reviewedOn": "2026-07-24",
       "revisionNote": "1600 military seat label"
     }
+  },
+  {
+    "id": "name-chengfan-jinzhu-military-seat",
+    "placeId": "chengfan-jinzhu-military-seat",
+    "name": "程番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-xiaochengfan-jinzhu-military-seat",
+    "placeId": "xiaochengfan-jinzhu-military-seat",
+    "name": "小程番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-shangmaqiao-jinzhu-military-seat",
+    "placeId": "shangmaqiao-jinzhu-military-seat",
+    "name": "上马桥长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-lufan-jinzhu-military-seat",
+    "placeId": "lufan-jinzhu-military-seat",
+    "name": "卢番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-weifan-jinzhu-military-seat",
+    "placeId": "weifan-jinzhu-military-seat",
+    "name": "韦番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-fangfan-jinzhu-military-seat",
+    "placeId": "fangfan-jinzhu-military-seat",
+    "name": "方番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-hongfan-jinzhu-military-seat",
+    "placeId": "hongfan-jinzhu-military-seat",
+    "name": "洪番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-wolongfan-jinzhu-military-seat",
+    "placeId": "wolongfan-jinzhu-military-seat",
+    "name": "卧龙番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-xiaolongfan-jinzhu-military-seat",
+    "placeId": "xiaolongfan-jinzhu-military-seat",
+    "name": "小龙番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-dalongfan-jinzhu-military-seat",
+    "placeId": "dalongfan-jinzhu-military-seat",
+    "name": "大龙番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-jinshifan-jinzhu-military-seat",
+    "placeId": "jinshifan-jinzhu-military-seat",
+    "name": "金石番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-luofan-jinzhu-military-seat",
+    "placeId": "luofan-jinzhu-military-seat",
+    "name": "罗番长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-lushan-jinzhu-military-seat",
+    "placeId": "lushan-jinzhu-military-seat",
+    "name": "卢山长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-mugua-jinzhu-military-seat",
+    "placeId": "mugua-jinzhu-military-seat",
+    "name": "木瓜长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-maxiang-jinzhu-military-seat",
+    "placeId": "maxiang-jinzhu-military-seat",
+    "name": "麻响长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Normalized to the geographic record's 麻响 spelling" }
+  },
+  {
+    "id": "name-dahua-jinzhu-military-seat",
+    "placeId": "dahua-jinzhu-military-seat",
+    "name": "大华长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "1600 historical office-seat label" }
+  },
+  {
+    "id": "name-guizhu-jinzhu-military-seat",
+    "placeId": "guizhu-jinzhu-military-seat",
+    "name": "贵竹长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Retained from the eighteen-office roster; roster membership conflicts with the geographic record" }
+  },
+  {
+    "id": "name-pingfa-jinzhu-military-seat",
+    "placeId": "pingfa-jinzhu-military-seat",
+    "name": "平伐长官司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "name", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Retained from the eighteen-office roster; roster membership conflicts with the geographic record" }
   }
 ]

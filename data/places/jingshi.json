@@ -559,10 +559,10 @@
   },
   {
     "id": "baoding-county-seat",
-    "longitude": 116.35959,
-    "latitude": 38.99824,
+    "longitude": 116.35743,
+    "latitude": 39.00316,
     "locationAccuracy": "approximate",
-    "locationMethod": "Approximate modern proxy at Xinzhen Ercun in present-day Wen'an County, independently located from OpenStreetMap node 7834139035 and guided by the historical geographic account that Baoding County was the former Xinzhen and belonged to Bazhou in the Ming; exact Ming county seat compound remains unresolved",
+    "locationMethod": "Approximate modern proxy at Xinzhen Town in present-day Wen'an County, independently reconstructed from the named modern locality and guided by the historical geographic account that Baoding County was the former Xinzhen and belonged to Bazhou in the Ming; exact Ming county seat compound remains unresolved",
     "confidence": "low",
     "sources": [
       {
@@ -575,17 +575,11 @@
         "claim": "location",
         "confidence": "high",
         "note": "The compilation identifies Baoding County as the former Xinzhen and records it as belonging to Bazhou in the Ming; it also gives distances toward Wen'an and Bazhou."
-      },
-      {
-        "sourceId": "openstreetmap-xinzhen-ercun",
-        "claim": "location",
-        "confidence": "low",
-        "note": "OpenStreetMap node 7834139035; Xinzhen Ercun proxy in present-day Wen'an County, used for approximate settlement location rather than the exact Ming county seat compound."
       }
     ],
     "audit": {
       "reviewedOn": "2026-07-19",
-      "revisionNote": "Coordinate correction: replaced the erroneous modern Baoding City proxy (Wikidata Q58584) with an OpenStreetMap Xinzhen Ercun proxy in present-day Wen'an County; the historical identity remains under Bazhou, and the exact Ming county seat compound remains unresolved."
+      "revisionNote": "Replaced the erroneous modern Baoding City proxy and removed the OSM coordinate dependency; the point is an independently reconstructed Xinzhen Town proxy in present-day Wen'an County, guided by the historical identity under Bazhou, and the exact Ming county seat compound remains unresolved."
     }
   },
   {

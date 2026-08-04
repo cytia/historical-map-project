@@ -380,26 +380,57 @@
       "path": "relations/military/sichuan-xing-remaining.json"
     },
     {
-      "collection": "administrativeUnits",
-      "domain": "special-governance",
+      "collection": "relations",
+      "domain": "jimi",
+      "region": "guangxi",
+      "path": "relations/jimi/guangxi.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "jimi",
+      "region": "guizhou",
+      "path": "relations/jimi/guizhou.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "jimi",
+      "region": "huguang",
+      "path": "relations/jimi/huguang.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "jimi",
+      "region": "sichuan",
+      "path": "relations/jimi/sichuan.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "jimi",
+      "region": "yunnan",
+      "path": "relations/jimi/yunnan.json"
+    },
+    {
+      "collection": "jimiUnits",
       "region": "guangxi",
       "path": "units/special-governance/guangxi.json"
     },
     {
-      "collection": "administrativeUnits",
-      "domain": "special-governance",
+      "collection": "jimiUnits",
       "region": "guizhou",
       "path": "units/special-governance/guizhou.json"
     },
     {
-      "collection": "administrativeUnits",
-      "domain": "special-governance",
+      "collection": "jimiUnits",
+      "region": "huguang",
+      "path": "units/special-governance/huguang.json"
+    },
+    {
+      "collection": "jimiUnits",
       "region": "sichuan",
       "path": "units/special-governance/sichuan.json"
     },
     {
-      "collection": "administrativeUnits",
-      "domain": "special-governance",
+      "collection": "jimiUnits",
       "region": "yunnan",
       "path": "units/special-governance/yunnan.json"
     },

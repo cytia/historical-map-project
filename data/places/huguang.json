@@ -3013,5 +3013,507 @@
       "reviewedOn": "2026-07-17",
       "revisionNote": "Replaced the restricted CHGIS location claim with an independently sourced Wikidata proxy for the second Huguang batch; modern administrative proxy; exact old administrative compound remains unresolved"
     }
+  },
+  {
+    "id": "yongshun-xuanwei-military-seat",
+    "longitude": 109.9352711,
+    "latitude": 29.015765,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern archaeological-site coordinate used as a proxy for the Ming Yongshun Xuanwei seat at Laosicheng.",
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-qing-yongshun-tusi-geography-study",
+        "claim": "location",
+        "confidence": "high",
+        "note": "The historical seat is identified with Laosicheng in modern Yongshun County."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "high",
+        "note": "Wikidata Q20687839 P625; modern Laosicheng archaeological-site proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Replaced the restricted map-directory coordinate with Wikidata Q20687839; the point is a modern Laosicheng archaeological-site proxy, not a reconstructed Ming boundary coordinate."
+    }
+  },
+  {
+    "id": "laredong-yongshun-military-seat",
+    "longitude": 109.950833,
+    "latitude": 28.816611,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern locality proxy guided by the historical-geography study for the former Laredong seat.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-qing-yongshun-tusi-geography-study",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern correspondence identified near Rainlong Village in Furong Town."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Reversible approximate proxy pending archaeological confirmation."
+    }
+  },
+  {
+    "id": "maizhuohuang-yongshun-military-seat",
+    "longitude": 109.862389,
+    "latitude": 28.764889,
+    "locationAccuracy": "disputed",
+    "locationMethod": "Tentative modern locality proxy for the former Maizhuohuang seat.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-qing-yongshun-tusi-geography-study",
+        "claim": "location",
+        "confidence": "low",
+        "note": "The study treats the modern Laosi Rock locality in Huagu Town as a probable rather than certain correspondence; coordinate 28.764889, 109.862389."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Disputed modern correspondence; retain as a reversible map proxy."
+    }
+  },
+  {
+    "id": "lvchidong-yongshun-military-seat",
+    "longitude": 110.010111,
+    "latitude": 28.803889,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern locality proxy guided by the historical-geography study for the former Lvchidong seat.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-qing-yongshun-tusi-geography-study",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern correspondence identified near Dalong Village in Baoping Township."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Reversible approximate proxy pending archaeological confirmation."
+    }
+  },
+  {
+    "id": "shirongxi-yongshun-military-seat",
+    "longitude": 110.0936,
+    "latitude": 28.7497,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern village-area proxy for the former Shirongxi seat near Changguanzhai; the historical site is partly submerged.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-qing-yongshun-tusi-geography-study",
+        "claim": "location",
+        "confidence": "low",
+        "note": "The study identifies Changguanzhai in modern Xiaoxi Town, but notes that the area is partly submerged and lacks a precise archaeological coordinate."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Area-only proxy; exact former seat remains unresolved."
+    }
+  },
+  {
+    "id": "baiyadong-yongshun-military-seat",
+    "longitude": 109.549722,
+    "latitude": 29.4765,
+    "locationAccuracy": "disputed",
+    "locationMethod": "Tentative modern locality proxy for the former Baiyadong seat.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-qing-yongshun-tusi-geography-study",
+        "claim": "location",
+        "confidence": "low",
+        "note": "Modern Baiyan Cave locality in Longshan County is retained as a disputed correspondence; coordinate 29.476500, 109.549722."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Disputed modern correspondence; retain as a reversible map proxy."
+    }
+  },
+  {
+    "id": "tianjiadong-yongshun-military-seat",
+    "longitude": 109.816778,
+    "latitude": 28.679333,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern locality proxy guided by the historical-geography study for the former Tianjiadong seat.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-qing-yongshun-tusi-geography-study",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Modern correspondence identified near Tianjiadong Village in Duanlongshan Town."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Reversible approximate proxy pending archaeological confirmation."
+    }
+  },
+  {
+    "id": "baojing-xuanwei-military-seat",
+    "longitude": 109.647778,
+    "latitude": 28.711389,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Baojing County coordinate used as a proxy for the Ming Baojingzhou Xuanwei seat.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q807070 P625; modern Baojing County proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Modern county proxy used for the historical Xuanwei seat; exact Ming seat compound remains unresolved."
+    }
+  },
+  {
+    "id": "wuzhai-baojing-military-seat",
+    "longitude": 109.5,
+    "latitude": 27.9,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Southwestern Fenghuang County area proxy guided by the Ming geographic description for the former Wuzhai seat.",
+    "confidence": "low",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "low",
+        "note": "The historical location is described as southwest of modern Fenghuang County; the exact seat is not yet resolved."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Area-only proxy pending independent historical-location review."
+    }
+  },
+  {
+    "id": "ganziping-baojing-military-seat",
+    "longitude": 109.65354,
+    "latitude": 28.19561,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Ganziping locality proxy guided by the historical geographic description.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-seven",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "The historical seat is identified northeast of modern Fenghuang County in the Ganziping area."
+      },
+      {
+        "sourceId": "wikidata-modern-place-coordinates",
+        "claim": "location",
+        "confidence": "medium",
+        "note": "Wikidata Q14308297 P625; modern Ganziping town proxy."
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-03",
+      "revisionNote": "Replaced the restricted map-directory coordinate with Wikidata Q14308297; the point remains a modern Ganziping proxy guided by the historical geographic description."
+    }
+  },
+  {
+    "id": "shinan-xuanfu-military-seat",
+    "longitude": 109.491,
+    "latitude": 29.987,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Xuan'en locality proxy for the Ming Shinan Xuanfu seat.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Xuan'en County; exact Ming seat is represented by a county-area proxy." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Reversible modern locality proxy; historical seat compound requires a separate archaeological review." }
+  },
+  {
+    "id": "dongxiang-wulu-shinan-military-seat",
+    "longitude": 109.63,
+    "latitude": 30.05,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern eastern Xuan'en area proxy for Dongxiang Wulu Anfu.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Modern identification places Dongxiang in the eastern Xuan'en area; exact seat remains unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "yaobadong-dongxiang-shinan-military-seat",
+    "longitude": 109.58,
+    "latitude": 30.02,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern eastern Xuan'en area proxy for Yaobadong Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Retained within the Dongxiang cluster; exact modern correspondence is unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "shangaicha-dongxiang-shinan-military-seat",
+    "longitude": 109.68,
+    "latitude": 30.02,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern eastern Xuan'en area proxy for Shangaicha Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Retained within the Dongxiang cluster; exact modern correspondence is unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "xiaaicha-dongxiang-shinan-military-seat",
+    "longitude": 109.68,
+    "latitude": 29.94,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern eastern Xuan'en area proxy for Xiaaicha Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Retained within the Dongxiang cluster; exact modern correspondence is unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "zhenyuan-dongxiang-shinan-military-seat",
+    "longitude": 109.54,
+    "latitude": 30.03,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern eastern Xuan'en area proxy for Zhenyuan Man-Yi Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Retained within the Dongxiang cluster; exact modern correspondence is unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "longfeng-dongxiang-shinan-military-seat",
+    "longitude": 109.72,
+    "latitude": 30.05,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern eastern Xuan'en area proxy for Longfeng Man-Yi Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Retained within the Dongxiang cluster; exact modern correspondence is unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "zhonglu-shinan-military-seat",
+    "longitude": 108.94,
+    "latitude": 30.16,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Zhonglu Town coordinate proxy for Zhonglu Anfu.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Lichuan's Zhonglu Town." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern town proxy; exact Ming seat compound remains unresolved." }
+  },
+  {
+    "id": "jiannan-zhonglu-shinan-military-seat",
+    "longitude": 109.0,
+    "latitude": 30.03,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Lichuan-area proxy for Jiannan Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Modern locality correspondence is within the Zhonglu-Lichuan cluster; exact seat remains unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "zhongxiao-shinan-military-seat",
+    "longitude": 108.98,
+    "latitude": 30.33,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Yuanbao Township coordinate proxy for Zhongxiao Anfu.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Lichuan's Yuanbao Township." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern township proxy; exact Ming seat compound remains unresolved." }
+  },
+  {
+    "id": "jindong-shinan-military-seat",
+    "longitude": 109.19,
+    "latitude": 29.58,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Huangjindong Township coordinate proxy for Jindong Anfu.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Xianfeng's Huangjindong area." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern township proxy; exact Ming seat compound remains unresolved." }
+  },
+  {
+    "id": "xiping-jindong-shinan-military-seat",
+    "longitude": 109.2,
+    "latitude": 29.6,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Huangjindong area proxy for Xiping Man-Yi Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Retained within the Jindong cluster; exact modern correspondence is unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "sanmao-xuanfu-military-seat",
+    "longitude": 109.425,
+    "latitude": 29.5,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Sanhu Township locality proxy for the Ming Sanmao Xuanfu seat.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Laifeng County's Sanhu area." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern locality proxy; exact Ming seat compound remains unresolved." }
+  },
+  {
+    "id": "longtan-sanmao-military-seat",
+    "longitude": 109.28,
+    "latitude": 29.68,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Longtanhe locality proxy for Longtan Anfu.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Xianfeng's Longtanhe area." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern locality proxy; exact Ming seat compound remains unresolved." }
+  },
+  {
+    "id": "dawang-sanmao-military-seat",
+    "longitude": 109.5,
+    "latitude": 29.53,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Jiusi Township area proxy for Dawang Anfu.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Laifeng County's Jiusi area." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern locality proxy; exact Ming seat compound remains unresolved." }
+  },
+  {
+    "id": "dongliu-dawang-sanmao-military-seat",
+    "longitude": 109.52,
+    "latitude": 29.5,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Dongliushui area proxy for Dongliu Man-Yi Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Modern correspondence is in the Laifeng Dongliushui area." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "labi-dawang-sanmao-military-seat",
+    "longitude": 109.48,
+    "latitude": 29.55,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Labi Village area proxy for Labi Cave Man-Yi Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Modern correspondence is in Laifeng's Jiusi area." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "zhongjian-xuanfu-military-seat",
+    "longitude": 109.48,
+    "latitude": 29.71,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Lijiahe Town coordinate proxy for the Ming Zhongjian Xuanfu seat.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Xuan'en County's Lijiahe Town." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern town proxy; exact Ming seat compound remains unresolved." }
+  },
+  {
+    "id": "zhongtong-zhongjian-military-seat",
+    "longitude": 109.42,
+    "latitude": 29.82,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Shadaogou Town coordinate proxy for Zhongtong Anfu.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Xuan'en County's Shadaogou Town." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern town proxy; exact Ming seat compound remains unresolved." }
+  },
+  {
+    "id": "gaoluo-zhongjian-military-seat",
+    "longitude": 109.56,
+    "latitude": 29.93,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Gaoluo Township coordinate proxy for Gaoluo Anfu.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "medium", "note": "Modern correspondence is in Xuan'en County's Gaoluo Township." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern township proxy; exact Ming seat compound remains unresolved." }
+  },
+  {
+    "id": "muse-gaoluo-zhongjian-military-seat",
+    "longitude": 109.58,
+    "latitude": 29.9,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Banliyuan Village area proxy for Muse Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Modern correspondence is in Xuan'en's Banliyuan area." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "rongmei-xuanfu-military-seat",
+    "longitude": 110.0335,
+    "latitude": 29.8826,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Rongmei Town coordinate proxy for the Ming Rongmei Xuanfu seat.",
+    "confidence": "high",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "high", "note": "Modern correspondence is in Hefeng County's Rongmei Town." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern Rongmei locality proxy; the historical seat identification is strong but the displayed coordinate is not a reconstructed Ming compound." }
+  },
+  {
+    "id": "panshun-rongmei-military-seat",
+    "longitude": 109.38,
+    "latitude": 29.3,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Baifusi-Maodong area proxy for the historical Panshun seat.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Modern locality references place the Panshun/Maodong area around Baifusi in southern Laifeng; the historical seat is not reconstructed." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only reversible proxy attached to the disputed Rongmei subordinate record." }
+  },
+  {
+    "id": "jiaoshan-manao-rongmei-military-seat",
+    "longitude": 110.1,
+    "latitude": 29.86,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Hefeng area proxy for Jiaoshan Manao Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Retained within the Rongmei-Hefeng cluster; exact modern correspondence is unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "wufeng-shibao-rongmei-military-seat",
+    "longitude": 110.52,
+    "latitude": 30.2,
+    "locationAccuracy": "disputed",
+    "locationMethod": "Tentative modern Wufeng-Hefeng border-area proxy for Wufeng Shibao Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "The modern correspondence remains uncertain; the point is retained as a reversible regional proxy." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Disputed modern correspondence; separate archaeological review required." }
+  },
+  {
+    "id": "shiliang-xiadong-rongmei-military-seat",
+    "longitude": 110.15,
+    "latitude": 29.95,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Hefeng area proxy for Shiliang Xiadong Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Retained within the Rongmei-Hefeng cluster; exact modern correspondence is unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "shuijinyuan-tongtaping-rongmei-military-seat",
+    "longitude": 110.2,
+    "latitude": 29.9,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Hefeng area proxy for Shuijinyuan Tongtaping Zhangguan.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "enshi-tusi-modern-place-identifications", "claim": "location", "confidence": "low", "note": "Retained within the Rongmei-Hefeng cluster; exact modern correspondence is unresolved." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only proxy pending independent historical-location review." }
+  },
+  {
+    "id": "zhennan-shizhou-military-seat",
+    "longitude": 109.3,
+    "latitude": 29.65,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Historical Shizhou Wei south-area proxy for Zhennan Zhangguan; exact modern seat correspondence is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-shizhou-tusi", "claim": "location", "confidence": "low", "note": "The historical source places Zhennan among Shizhou Wei's direct native offices; the point marks only the surrounding historical area." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Area-only reversible proxy; exact modern seat identification remains open." }
+  },
+  {
+    "id": "tangya-shizhou-military-seat",
+    "longitude": 109.04,
+    "latitude": 29.78,
+    "locationAccuracy": "approximate",
+    "locationMethod": "Modern Tangya Tusi City locality proxy in Xianfeng County.",
+    "confidence": "medium",
+    "sources": [{ "sourceId": "hubei-tangya-tusi-city-site", "claim": "location", "confidence": "medium", "note": "The official site identifies Tangya Tusi City in the Tangya locality; the displayed coordinate is an approximate locality point, not a reconstructed Ming compound." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Modern Tangya locality proxy; archaeological site coordinate requires later independent GIS verification." }
   }
 ]

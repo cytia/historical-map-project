@@ -1,0 +1,392 @@
+[
+  {
+    "id": "yongshun-xuanwei-military-huguang-dusi-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "yongshun-xuanwei-military",
+    "objectId": "huguang",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high", "note": "The 1600 source places Yongshun under Huguang Dusi; the relation endpoint uses the Huguang administrative unit because this context relation cannot target a military unit." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Recorded Huguang as the validated administrative context for the Huguang Dusi affiliation; Yongshun remains an independent jimi root." }
+  },
+  {
+    "id": "laredong-yongshun-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "laredong-yongshun-military",
+    "objectId": "yongshun-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Yongshun Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "maizhuohuang-yongshun-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "maizhuohuang-yongshun-military",
+    "objectId": "yongshun-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Yongshun Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "lvchidong-yongshun-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "lvchidong-yongshun-military",
+    "objectId": "yongshun-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Yongshun Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "shirongxi-yongshun-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "shirongxi-yongshun-military",
+    "objectId": "yongshun-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Yongshun Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "baiyadong-yongshun-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "baiyadong-yongshun-military",
+    "objectId": "yongshun-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Yongshun Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "tianjiadong-yongshun-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "tianjiadong-yongshun-military",
+    "objectId": "yongshun-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Yongshun Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "baojing-xuanwei-military-huguang-dusi-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "baojing-xuanwei-military",
+    "objectId": "huguang",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high", "note": "The 1600 source places Baojingzhou under Huguang Dusi; the relation endpoint uses the Huguang administrative unit because this context relation cannot target a military unit." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Recorded Huguang as the validated administrative context for the Huguang Dusi affiliation; Baojingzhou remains an independent jimi root parallel to Yongshun." }
+  },
+  {
+    "id": "wuzhai-baojing-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "wuzhai-baojing-military",
+    "objectId": "baojing-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Baojingzhou Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "ganziping-baojing-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "ganziping-baojing-military",
+    "objectId": "baojing-xuanwei-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Verified as a direct subordinate of Baojingzhou Xuanwei in the 1600 roster." }
+  },
+  {
+    "id": "shinan-xuanfu-military-huguang-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "shinan-xuanfu-military",
+    "objectId": "huguang",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-shizhou-tusi", "claim": "parent", "confidence": "high", "note": "The source places Shinan under Shizhou Wei, which belongs to Huguang Dusi; the validated context endpoint is Huguang." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Independent Shinan root with Huguang administrative context." }
+  },
+  {
+    "id": "dongxiang-wulu-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "dongxiang-wulu-shinan-military",
+    "objectId": "shinan-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "yaobadong-dongxiang-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "yaobadong-dongxiang-shinan-military",
+    "objectId": "dongxiang-wulu-shinan-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "shangaicha-dongxiang-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "shangaicha-dongxiang-shinan-military",
+    "objectId": "dongxiang-wulu-shinan-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "xiaaicha-dongxiang-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "xiaaicha-dongxiang-shinan-military",
+    "objectId": "dongxiang-wulu-shinan-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "zhenyuan-dongxiang-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "zhenyuan-dongxiang-shinan-military",
+    "objectId": "dongxiang-wulu-shinan-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "longfeng-dongxiang-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "longfeng-dongxiang-shinan-military",
+    "objectId": "dongxiang-wulu-shinan-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "zhonglu-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "zhonglu-shinan-military",
+    "objectId": "shinan-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "jiannan-zhonglu-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "jiannan-zhonglu-shinan-military",
+    "objectId": "zhonglu-shinan-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "zhongxiao-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "zhongxiao-shinan-military",
+    "objectId": "shinan-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "jindong-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "jindong-shinan-military",
+    "objectId": "shinan-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "xiping-jindong-shinan-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "xiping-jindong-shinan-military",
+    "objectId": "jindong-shinan-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "sanmao-xuanfu-military-huguang-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "sanmao-xuanfu-military",
+    "objectId": "huguang",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-shizhou-tusi", "claim": "parent", "confidence": "high", "note": "The source places Sanmao under Shizhou Wei, which belongs to Huguang Dusi; the validated context endpoint is Huguang." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Independent Sanmao root with Huguang administrative context." }
+  },
+  {
+    "id": "longtan-sanmao-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "longtan-sanmao-military",
+    "objectId": "sanmao-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "dawang-sanmao-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "dawang-sanmao-military",
+    "objectId": "sanmao-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "dongliu-dawang-sanmao-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "dongliu-dawang-sanmao-military",
+    "objectId": "dawang-sanmao-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "labi-dawang-sanmao-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "labi-dawang-sanmao-military",
+    "objectId": "dawang-sanmao-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "zhongjian-xuanfu-military-huguang-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "zhongjian-xuanfu-military",
+    "objectId": "huguang",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-shizhou-tusi", "claim": "parent", "confidence": "high", "note": "The source places Zhongjian under Shizhou Wei, which belongs to Huguang Dusi; the validated context endpoint is Huguang." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Independent Zhongjian root with Huguang administrative context." }
+  },
+  {
+    "id": "zhongtong-zhongjian-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "zhongtong-zhongjian-military",
+    "objectId": "zhongjian-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "gaoluo-zhongjian-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "gaoluo-zhongjian-military",
+    "objectId": "zhongjian-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "muse-gaoluo-zhongjian-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "muse-gaoluo-zhongjian-military",
+    "objectId": "gaoluo-zhongjian-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "rongmei-xuanfu-military-huguang-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "rongmei-xuanfu-military",
+    "objectId": "huguang",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-shizhou-tusi", "claim": "parent", "confidence": "high", "note": "The source places Rongmei in the Shizhou Wei area, which belongs to Huguang Dusi; the validated context endpoint is Huguang." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Independent Rongmei root with Huguang administrative context." }
+  },
+  {
+    "id": "panshun-rongmei-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "panshun-rongmei-military",
+    "objectId": "rongmei-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "medium", "note": "The geography record lists Panshun among Rongmei's five subordinate offices; the Wanli Huidian roster omits it." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Disputed Rongmei subordinate relation; deliberately not connected to Zhennan or Tangya." }
+  },
+  {
+    "id": "jiaoshan-manao-rongmei-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "jiaoshan-manao-rongmei-military",
+    "objectId": "rongmei-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "wufeng-shibao-rongmei-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "wufeng-shibao-rongmei-military",
+    "objectId": "rongmei-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "shiliang-xiadong-rongmei-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "shiliang-xiadong-rongmei-military",
+    "objectId": "rongmei-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "shuijinyuan-tongtaping-rongmei-military-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "shuijinyuan-tongtaping-rongmei-military",
+    "objectId": "rongmei-xuanfu-military",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct subordinate relation in the 1600 roster." }
+  },
+  {
+    "id": "zhennan-shizhou-military-huguang-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "zhennan-shizhou-military",
+    "objectId": "huguang",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high", "note": "The 1600 roster places Zhennan directly under Shizhou Wei; the validated context endpoint is Huguang." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct Shizhou Wei context; independent root-level native office." }
+  },
+  {
+    "id": "tangya-shizhou-military-huguang-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "tangya-shizhou-military",
+    "objectId": "huguang",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-native-offices", "claim": "parent", "confidence": "high", "note": "The 1600 roster places Tangya directly under Shizhou Wei; the validated context endpoint is Huguang." }],
+    "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Direct Shizhou Wei context; independent root-level native office." }
+  }
+]

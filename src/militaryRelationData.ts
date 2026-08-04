@@ -5,6 +5,7 @@ import {
   militaryById,
 } from "./militaryData";
 import { getMilitaryDisplayGroup } from "./militaryDisplayGroups";
+import { getHierarchyDisplayState } from "./hierarchyDisplay";
 import { curvedCoordinates } from "./relationRendering";
 import type { HierarchyScope, MilitaryRecord } from "./types";
 
@@ -133,6 +134,7 @@ export function militaryHierarchyData(
   selectedMilitaryId: string | null,
   scope: HierarchyScope,
 ) {
+  const display = getHierarchyDisplayState(scope, selectedMilitaryId !== null);
   const command = getMilitaryCommandRecord(selectedMilitaryId);
   const secondary = secondaryRecords(records, selectedMilitaryId, scope);
   const displayGroupSecondary = displayGroupRecords(records, selectedMilitaryId, scope)
@@ -146,13 +148,18 @@ export function militaryHierarchyData(
     ? records.filter((record) =>
       isMilitaryPrimaryUnit(record.unit) && record.militaryParentId === command.unit.id)
     : [];
-  const primaryRelations = lineData(primary, selectedMilitaryId);
+  const primaryRelations = display.showRelations
+    ? lineData(primary, selectedMilitaryId)
+    : { type: "FeatureCollection" as const, features: [] };
   return {
     records: visibleRecords,
     primaryRelations,
     flowRelations: primaryRelations,
     secondaryRelations: lineData(secondary, selectedMilitaryId),
-    displayGroupRelations: displayGroupLineData(records, selectedMilitaryId, scope),
+    displayGroupRelations: display.showRelations
+      ? displayGroupLineData(records, selectedMilitaryId, scope)
+      : { type: "FeatureCollection" as const, features: [] },
     displayGroupAnchor: displayGroupAnchorData(selectedMilitaryId),
+    animateRelations: display.animateRelations,
   };
 }

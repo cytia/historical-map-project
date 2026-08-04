@@ -13,6 +13,7 @@
     "polities",
     "administrativeUnits",
     "militaryUnits",
+    "jimiUnits",
     "relations",
     "places",
     "placeNames"
@@ -47,6 +48,10 @@
     "militaryUnits": {
       "type": "array",
       "items": { "$ref": "#/$defs/militaryUnit" }
+    },
+    "jimiUnits": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/jimiUnit" }
     },
     "relations": {
       "type": "array",
@@ -130,6 +135,11 @@
         "license": { "type": "string", "minLength": 1 },
         "redistribution": {
           "enum": ["allowed", "restricted", "unknown"]
+        },
+        "coordinateProvider": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether this source directly supplies coordinates used by place location claims."
         },
         "citation": { "type": "string", "minLength": 1 }
       }
@@ -271,6 +281,35 @@
         "audit": { "$ref": "#/$defs/audit" }
       }
     },
+    "jimiUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "name", "jimiKind", "officeKind", "polityId", "validity", "confidence", "sources", "audit"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "formalName": { "type": "string", "minLength": 1 },
+        "jimiKind": { "enum": ["military-institution", "native-office"] },
+        "officeKind": {
+          "enum": [
+            "dusi", "xing-dusi", "wei", "suo", "xuanwei-si", "xuanfu-si",
+            "zhaotao-si", "anfu-si", "zhangguan-si", "tusi-xunjian-si"
+          ]
+        },
+        "polityId": { "$ref": "#/$defs/id" },
+        "seatPlaceId": { "$ref": "#/$defs/id" },
+        "validity": { "$ref": "#/$defs/yearRange" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceLink" }
+        },
+        "audit": { "$ref": "#/$defs/audit" }
+      }
+    },
     "relation": {
       "type": "object",
       "additionalProperties": false,
@@ -285,7 +324,9 @@
             "military-affiliation",
             "five-army-affiliation",
             "administrative-context",
-            "co-location"
+            "co-location",
+            "jimi-subordination",
+            "jimi-administrative-context"
           ]
         },
         "subjectId": { "$ref": "#/$defs/id" },
