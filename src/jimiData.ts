@@ -1,4 +1,4 @@
-import { data, getTopLevelUnitId } from "./data";
+import { data, getAdministrativeRegionId } from "./data";
 import type { JimiRecord, JimiUnit } from "./types";
 
 const placesById = new Map(data.places.map((place) => [place.id, place]));
@@ -16,27 +16,50 @@ const administrativeContextById = new Map(
 const rootOfficeKinds = new Set<JimiUnit["officeKind"]>([
   "dusi",
   "xing-dusi",
+  "liushou-si",
+  "yuanshuai-fu",
+  "wanhu-fu",
   "xuanwei-si",
   "xuanfu-si",
   "zhaotao-si",
   "anfu-si",
 ]);
+const primaryMilitaryOfficeKinds = new Set<JimiUnit["officeKind"]>([
+  "dusi",
+  "xing-dusi",
+  "liushou-si",
+  "wei",
+  "yuanshuai-fu",
+  "wanhu-fu",
+]);
 
-function createRecord(unit: JimiUnit): Omit<JimiRecord, "jimiRootId" | "jimiDepth"> | null {
+function resolveAdministrativeContextId(unitId: string) {
+  const visited = new Set<string>();
+  let currentId: string | undefined = unitId;
+  while (currentId && !visited.has(currentId)) {
+    visited.add(currentId);
+    const contextId = administrativeContextById.get(currentId);
+    if (contextId) return contextId;
+    currentId = jimiParentById.get(currentId);
+  }
+  return null;
+}
+
+function createRecord(unit: JimiUnit): Omit<JimiRecord, "jimiRootId" | "jimiDepth" | "jimiDisplayLevel"> | null {
   if (!unit.seatPlaceId) return null;
   const place = placesById.get(unit.seatPlaceId);
   const placeName = namesByPlaceId.get(unit.seatPlaceId);
   if (!place || !placeName || place.longitude === undefined || place.latitude === undefined) {
     return null;
   }
-  const administrativeUnitId = administrativeContextById.get(unit.id) ?? null;
+  const administrativeUnitId = resolveAdministrativeContextId(unit.id);
   return {
     unit,
     place,
     name: placeName.name,
     administrativeUnitId,
     administrativeRegionId: administrativeUnitId
-      ? getTopLevelUnitId(administrativeUnitId)
+      ? getAdministrativeRegionId(administrativeUnitId)
       : null,
     jimiParentId: jimiParentById.get(unit.id) ?? null,
   };
@@ -44,7 +67,7 @@ function createRecord(unit: JimiUnit): Omit<JimiRecord, "jimiRootId" | "jimiDept
 
 const baseJimiRecords = data.jimiUnits
   .map(createRecord)
-  .filter((record): record is Omit<JimiRecord, "jimiRootId" | "jimiDepth"> => record !== null);
+  .filter((record): record is Omit<JimiRecord, "jimiRootId" | "jimiDepth" | "jimiDisplayLevel"> => record !== null);
 
 function resolveHierarchy(unitId: string) {
   const visited = new Set<string>();
@@ -58,10 +81,16 @@ function resolveHierarchy(unitId: string) {
   return { jimiRootId: currentId, jimiDepth: depth };
 }
 
-export const jimiRecords: JimiRecord[] = baseJimiRecords.map((record) => ({
-  ...record,
-  ...resolveHierarchy(record.unit.id),
-}));
+export const jimiRecords: JimiRecord[] = baseJimiRecords.map((record) => {
+  const hierarchy = resolveHierarchy(record.unit.id);
+  return {
+    ...record,
+    ...hierarchy,
+    jimiDisplayLevel: record.unit.jimiKind === "military-institution"
+      ? primaryMilitaryOfficeKinds.has(record.unit.officeKind) ? 1 : 2
+      : hierarchy.jimiDepth,
+  };
+});
 
 export const jimiById = new Map(jimiRecords.map((record) => [record.unit.id, record]));
 
@@ -69,6 +98,15 @@ export function isJimiRoot(record: JimiRecord) {
   if (record.jimiParentId !== null) return false;
   // A direct Shizhou Wei office can be a root even when its title is a lower office kind.
   return rootOfficeKinds.has(record.unit.officeKind) || administrativeContextById.has(record.unit.id);
+}
+
+export function isJimiMilitaryPrimary(record: JimiRecord) {
+  return record.unit.jimiKind === "military-institution" &&
+    primaryMilitaryOfficeKinds.has(record.unit.officeKind);
+}
+
+export function isJimiPrimary(record: JimiRecord) {
+  return isJimiMilitaryPrimary(record) || isJimiRoot(record);
 }
 
 export function getJimiChildren(unitId: string, records = jimiRecords) {
@@ -114,8 +152,11 @@ export function jimiOfficeLabel(kind: JimiUnit["officeKind"]) {
   const labels: Record<JimiUnit["officeKind"], string> = {
     dusi: "都司",
     "xing-dusi": "行都司",
+    "liushou-si": "留守司",
     wei: "卫",
     suo: "所",
+    "yuanshuai-fu": "元帅府",
+    "wanhu-fu": "万户府",
     "xuanwei-si": "宣慰司",
     "xuanfu-si": "宣抚司",
     "zhaotao-si": "招讨司",

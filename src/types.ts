@@ -10,8 +10,11 @@ export type JimiKind = "military-institution" | "native-office";
 export type JimiOfficeKind =
   | "dusi"
   | "xing-dusi"
+  | "liushou-si"
   | "wei"
   | "suo"
+  | "yuanshuai-fu"
+  | "wanhu-fu"
   | "xuanwei-si"
   | "xuanfu-si"
   | "zhaotao-si"
@@ -238,6 +241,7 @@ export interface JimiRecord {
   jimiParentId: string | null;
   jimiRootId: string;
   jimiDepth: number;
+  jimiDisplayLevel: number;
 }
 
 export interface MilitaryDisplayAnchor {

@@ -27,25 +27,39 @@ export interface HierarchyRecordAccess<T> {
   isRoot?: (record: T) => boolean;
 }
 
+export interface HierarchySelection<T> {
+  records: T[];
+  state: HierarchyDisplayState;
+  selected: T | undefined;
+  expandedRoot: T | undefined;
+}
+
 export function selectHierarchyRecords<T>(
   records: T[],
   selectedId: string | null,
   scope: HierarchyScope,
   access: HierarchyRecordAccess<T>,
-) {
+): HierarchySelection<T> {
   const byId = new Map(records.map((record) => [access.getId(record), record]));
   const selected = selectedId ? byId.get(selectedId) : undefined;
   const roots = records.filter((record) => access.isRoot?.(record) ??
     access.getParentId(record) === null);
   const state = getHierarchyDisplayState(scope, Boolean(selected));
-  if (!state.showDescendants || !selected) return { records: roots, state };
+  if (!state.showDescendants || !selected) {
+    return { records: roots, state, selected, expandedRoot: undefined };
+  }
 
-  const root = byId.get(access.getRootId(selected)) ?? selected;
-  const rootRecords = records.filter((record) => access.getRootId(record) === access.getId(root));
+  const expandedRoot = byId.get(access.getRootId(selected)) ?? selected;
+  const expandedRootId = access.getId(expandedRoot);
   if (scope === "domain") {
     return {
-      records: [...new Map([...roots, ...rootRecords].map((record) => [access.getId(record), record])).values()],
+      records: [...new Map([
+        ...roots,
+        ...records.filter((record) => access.getRootId(record) === expandedRootId),
+      ].map((record) => [access.getId(record), record])).values()],
       state,
+      selected,
+      expandedRoot,
     };
   }
 
@@ -53,11 +67,8 @@ export function selectHierarchyRecords<T>(
   const add = (record: T | undefined) => {
     if (record) visible.set(access.getId(record), record);
   };
-  add(root);
-  records.filter((record) => access.getParentId(record) === access.getId(root))
+  add(expandedRoot);
+  records.filter((record) => access.getParentId(record) === expandedRootId)
     .forEach(add);
-  add(selected);
-  records.filter((record) => access.getParentId(record) === access.getId(selected))
-    .forEach(add);
-  return { records: [...visible.values()], state };
+  return { records: [...visible.values()], state, selected, expandedRoot };
 }

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "anbuluo-ust-tibet-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "anbuluo-xing-dusi-jimi",
+    "objectId": "wusizang-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "parent", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "medium" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Direct Ust Dusi jimi subordination for the 1600 pilot; this is not an ordinary military command relation."
+    }
+  },
+  {
+    "id": "shangqiongbu-ust-tibet-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "shangqiongbu-wei-jimi",
+    "objectId": "wusizang-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "parent", "confidence": "low", "note": "The combined Western Regions narrative places Shangqiongbu Wei immediately with the Ust-related offices; it does not separately formalize the direct parent." },
+      { "sourceId": "ming-shilu-ust-tibet-upper-qiongbu-wei", "claim": "existence", "confidence": "high", "note": "The contemporary record confirms the office, but does not state its superior in this entry." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Recorded as a low-confidence direct Ust Dusi relation because the institutional context is explicit but the surviving appointment entry does not repeat the parent chain."
+    }
+  },
+  {
+    "id": "niuerzongzhai-ust-tibet-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "niuerzongzhai-xing-dusi-jimi",
+    "objectId": "wusizang-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "parent", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "medium" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Direct Ust Dusi jimi subordination for the 1600 pilot; this is not an ordinary military command relation."
+    }
+  },
+  {
+    "id": "lingsiben-ust-tibet-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "lingsiben-xing-dusi-jimi",
+    "objectId": "wusizang-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "parent", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "medium" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Direct Ust Dusi jimi subordination for the 1600 pilot; this is not an ordinary military command relation."
+    }
+  },
+  {
+    "id": "dalong-ust-tibet-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "dalong-qianhusuo-jimi",
+    "objectId": "wusizang-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "parent", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "medium" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Direct Ust Dusi jimi subordination for the 1600 pilot; this is not an ordinary military command relation."
+    }
+  },
+  {
+    "id": "gelatang-ust-tibet-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "gelatang-qianhusuo-jimi",
+    "objectId": "wusizang-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "parent", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "medium" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Direct Ust Dusi jimi subordination for the 1600 pilot; this is not an ordinary military command relation."
+    }
+  }
+]

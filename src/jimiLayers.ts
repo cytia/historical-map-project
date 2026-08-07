@@ -1,15 +1,16 @@
 import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
 import { jimiRecords } from "./jimiData";
 import { jimiHierarchyData } from "./jimiHierarchyData";
+import { affiliationColorExpression } from "./mapDisplay";
 import {
   ensureJimiSymbolImages,
-  jimiMilitarySymbolImageId,
   jimiNativeOfficeSymbolImageId,
   jimiPointIconSizes,
 } from "./jimiMarker";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { createRelationRenderer } from "./relationRenderer";
 import { defaultTheme } from "./theme";
+import { administrativeAffiliationIds } from "./data";
 import type { HierarchyScope } from "./types";
 
 const tokens = defaultTheme.map;
@@ -21,6 +22,7 @@ const flowLayerId = "jimi-relation-flow";
 const pointOutlineLayerId = "jimi-point-outline";
 const pointLayerId = "jimi-points";
 const labelLayerId = "jimi-labels";
+const jimiAffiliationColor = affiliationColorExpression("administrative", administrativeAffiliationIds);
 const jimiRelationRenderer = createRelationRenderer({
   relationSourceId,
   flowSourceId,
@@ -41,10 +43,7 @@ export interface JimiLayerSelection {
 }
 
 function iconImageExpression(): ExpressionSpecification {
-  return ["match", ["get", "jimiKind"],
-    "military-institution", jimiMilitarySymbolImageId,
-    jimiNativeOfficeSymbolImageId,
-  ] as unknown as ExpressionSpecification;
+  return jimiNativeOfficeSymbolImageId as unknown as ExpressionSpecification;
 }
 
 function featureData(selection: JimiLayerSelection) {
@@ -52,7 +51,7 @@ function featureData(selection: JimiLayerSelection) {
   return {
     points: {
       type: "FeatureCollection" as const,
-      features: hierarchy.records.map(({ unit, place, administrativeRegionId, jimiRootId, jimiDepth }) => ({
+      features: hierarchy.records.map(({ unit, place, administrativeRegionId, jimiRootId, jimiDepth, jimiDisplayLevel }) => ({
         type: "Feature" as const,
         geometry: { type: "Point" as const, coordinates: [place.longitude!, place.latitude!] },
         properties: {
@@ -65,6 +64,7 @@ function featureData(selection: JimiLayerSelection) {
           regionId: administrativeRegionId ?? "",
           jimiRootId,
           jimiDepth,
+          jimiDisplayLevel,
         },
       })),
     },
@@ -93,7 +93,7 @@ export function addJimiLayers(map: Map, selection: JimiLayerSelection, visible: 
   map.addLayer({ id: pointLayerId, type: "symbol", source: pointSourceId,
     layout: { "icon-image": iconImage, "icon-size": iconSizes.fill,
       "icon-allow-overlap": true },
-    paint: { "icon-color": tokens.affiliationNeutral,
+    paint: { "icon-color": jimiAffiliationColor,
       "icon-opacity": 1 } });
   map.addLayer({ id: labelLayerId, type: "symbol", source: pointSourceId,
     minzoom: 5.4,

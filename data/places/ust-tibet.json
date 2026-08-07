@@ -1,0 +1,212 @@
+[
+  {
+    "id": "wusizang-region-point",
+    "longitude": 91.14082,
+    "latitude": 29.64576,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Lhasa, independently located from Wikidata Q5869 P625; the Ming History describes Wusizang as having no city walls, so this point is not an identified Ming Dusi seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "high", "note": "The historical source identifies Wusizang as a broad region and does not identify a walled seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q5869 P625; modern Lhasa coordinate used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Area-level pilot point only; it must not be interpreted as the exact historical seat of Wusizang Dusi."
+    }
+  },
+  {
+    "id": "shangqiongbu-wei-jimi-seat",
+    "longitude": 95.595833,
+    "latitude": 31.413889,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Dingqing County seat, using the historical Qiongbu name correspondence as a low-confidence clue; the exact Ming Wei seat is not identified.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "low", "note": "The historical source names Shangqiongbu Wei in the Ust-related narrative but gives no modern coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "low", "note": "Wikidata Q731985 P625 for modern Dingqing County; used only as a reversible regional proxy, not as the identified Ming seat." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Regional proxy added so the verified primary Wei is visible on the map; the point must not be read as an exact historical seat."
+    }
+  },
+  {
+    "id": "anbuluo-xing-dusi-jimi-seat",
+    "longitude": 90.4,
+    "latitude": 28.973056,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Nagarzê town, independently located from Wikidata Q3335065 P625; the historical office seat is not identified at town-level precision.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "high", "note": "The historical source identifies 俺不罗 as an Ust-related office but does not provide a modern coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q3335065 P625; modern Nagarzê town used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Area-level proxy for the 俺不罗 office; not an identified Ming seat."
+    }
+  },
+  {
+    "id": "niuerzongzhai-xing-dusi-jimi-seat",
+    "longitude": 91.010556,
+    "latitude": 29.645556,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Doilungdêqên District, independently located from Wikidata Q1012430 P625; the historical office seat is not identified at town-level precision.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "high", "note": "The historical source identifies 牛儿宗寨 but does not provide a modern coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1012430 P625; modern Doilungdêqên District used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Area-level proxy for the 牛儿宗寨 office; not an identified Ming seat."
+    }
+  },
+  {
+    "id": "lingsiben-xing-dusi-jimi-seat",
+    "longitude": 89.841667,
+    "latitude": 29.2325,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Rinbung County, independently located from Wikidata Q659837 P625; the historical office seat is not identified at town-level precision.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "high", "note": "The historical source identifies 领思奔寨 but does not provide a modern coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q659837 P625; modern Rinbung County used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Area-level proxy for the 领思奔寨 office; the variant 领司奔寨 is retained in source notes, not used as the canonical label."
+    }
+  },
+  {
+    "id": "dalong-qianhusuo-jimi-seat",
+    "longitude": 91.261111,
+    "latitude": 29.897222,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Lhünzhub County, independently located from Wikidata Q387586 P625; historical 答笼/达隆 locality identification is not precise enough for an exact seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "high", "note": "The historical source records 答笼 as an Ust-related qianhu office; it does not provide a modern coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q387586 P625; modern Lhünzhub County used only as a reversible regional proxy for the historical 达隆/答笼 area." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Area-level proxy for 答笼千户所; the historical locality is associated with the 达隆/答笼 area, not the modern 打隆镇 label."
+    }
+  },
+  {
+    "id": "gelatang-qianhusuo-jimi-seat",
+    "longitude": 91.336389,
+    "latitude": 29.253056,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Zhanang County, independently located from Wikidata Q197143 P625; the historical office seat is not identified at town-level precision.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "high", "note": "The historical source records 葛剌汤 as an Ust-related qianhu office; it does not provide a modern coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q197143 P625; modern Zhanang County used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Area-level proxy for 葛剌汤千户所; not an identified Ming seat."
+    }
+  },
+  {
+    "id": "elis-yuanshuai-fu-jimi-seat",
+    "longitude": 80.105,
+    "latitude": 32.5,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Shiquanhe in Ngari; the historical 俄力思 seat is not identified at town-level precision.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "medium" },
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "location", "confidence": "low" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible map proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Area-level proxy for 俄力思军民元帅府; not an identified Ming seat."
+    }
+  },
+  {
+    "id": "biligongwa-wanhu-fu-jimi-seat",
+    "longitude": 91.73,
+    "latitude": 29.84,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Mozhugongka County, associated with the Drigung area; the historical 必力工瓦 seat is unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "location", "confidence": "low" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern county coordinate used only as a reversible map proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Area-level proxy for 必力工瓦万户府; not an identified Ming seat."
+    }
+  },
+  {
+    "id": "pamu-zhu-ba-wanhu-fu-jimi-seat",
+    "longitude": 91.78,
+    "latitude": 29.22,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Nêdong/Zetang; the historical 帕木竹巴 seat is not identified at town-level precision.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "medium" },
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "location", "confidence": "low" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Nêdong regional coordinate used only as a reversible map proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Area-level proxy for 帕木竹巴万户府; later fief history is not represented by this point."
+    }
+  },
+  {
+    "id": "yangsiduo-wanhu-fu-jimi-seat",
+    "longitude": 89.6,
+    "latitude": 28.95,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Gyantse; the historical 仰思多 seat is not identified at town-level precision.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1999606 P625; modern Gyantse coordinate used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Area-level proxy for 仰思多万户府; not an identified Ming seat."
+    }
+  },
+  {
+    "id": "shalu-wanhu-fu-jimi-seat",
+    "longitude": 88.993076,
+    "latitude": 29.127321,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Shalu near Shigatse; the historical 沙鲁 seat is not identified at monastery-level precision.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wusizang-dusi-roster-reference", "claim": "location", "confidence": "low" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q25681 P625; modern Shalu coordinate used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Area-level proxy for 沙鲁万户府; not an identified Ming seat."
+    }
+  },
+  {
+    "id": "zhuoyou-wanhu-fu-jimi-seat",
+    "longitude": 92.46,
+    "latitude": 28.42,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Lhünzê/Longzi County; the historical 着由 seat is unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "location", "confidence": "low" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern county coordinate used only as a reversible map proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Area-level proxy for 着由万户府; not an identified Ming seat."
+    }
+  }
+]

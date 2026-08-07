@@ -60,6 +60,18 @@ export function findTopLevelUnitId(
   return current?.id ?? null;
 }
 
+export function findAdministrativeRegionId(
+  unitsById: Map<string, AdministrativeUnit>,
+  unitId: string | null,
+) {
+  let current = unitId ? unitsById.get(unitId) : undefined;
+  while (current) {
+    if (regionLevels.has(current.level)) return current.id;
+    current = current.parentId ? unitsById.get(current.parentId) : undefined;
+  }
+  return null;
+}
+
 export function summarizeRegion(seats: SeatRecord[], regionId: string | null) {
   const regional = regionId ? seats.filter((record) => record.region.id === regionId) : seats;
   return {

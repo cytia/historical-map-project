@@ -1,0 +1,328 @@
+[
+  {
+    "id": "dugan-xing-dusi-jimi-seat",
+    "longitude": 97.18,
+    "latitude": 31.14,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Qamdo; the historical Dugan Xing Dusi seat is not identified at town-level precision.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "medium" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Qamdo regional coordinate used only as a reversible proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "longda-wei-jimi-seat",
+    "longitude": 97.5,
+    "latitude": 31.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in the eastern Dugan/Qamdo area; the historical Longda Wei seat is unresolved.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "low" },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "dugansi-xuanwei-jimi-seat",
+    "longitude": 97.18,
+    "latitude": 31.14,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Qamdo for the Dugan Si Xuanwei office; the historical seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Qamdo regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "dongbu-hanhu-xuanwei-jimi-seat",
+    "longitude": 98.27,
+    "latitude": 30.86,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Gongjue; the historical Dongbu Hanhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Gongjue regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "changhexi-yutong-ningyuan-xuanwei-jimi-seat",
+    "longitude": 101.96,
+    "latitude": 30.05,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Kangding; the historical Long River West, Yutong and Ningyuan seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "ming-shi-ust-tibet", "claim": "location", "confidence": "medium" }, { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Kangding regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "dugansi-zhaotao-jimi-seat",
+    "longitude": 97.18,
+    "latitude": 31.14,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Qamdo; the historical Dugan Si Zhaotao seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Qamdo regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "dugan-longda-zhaotao-jimi-seat",
+    "longitude": 97.5,
+    "latitude": 31.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in the eastern Dugan/Qamdo area; the historical Longda Zhaotao seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "dugan-dan-zhaotao-jimi-seat",
+    "longitude": 98.0,
+    "latitude": 31.5,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in the central Dugan/Qamdo area; the historical Dugan Dan Zhaotao seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "dugan-cangtang-zhaotao-jimi-seat",
+    "longitude": 96.8,
+    "latitude": 30.8,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in the western Dugan/Qamdo area; the historical Cangtang Zhaotao seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "dugan-chuan-zhaotao-jimi-seat",
+    "longitude": 100.0,
+    "latitude": 31.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in western Sichuan/Ganzi; the historical Dugan Chuan Zhaotao seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Ganzi regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "moerkan-zhaotao-jimi-seat",
+    "longitude": 99.5,
+    "latitude": 31.5,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in the Dugan/Ganzi area; the historical Moerkan Zhaotao seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "shaerke-wanhu-fu-jimi-seat",
+    "longitude": 100.31,
+    "latitude": 31.21,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Xinlong; the historical Shaerke Wanhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Xinlong regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "naizhu-wanhu-fu-jimi-seat",
+    "longitude": 98.27,
+    "latitude": 30.86,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Gongjue; the historical Naizhu Wanhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Gongjue regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "luosiduan-wanhu-fu-jimi-seat",
+    "longitude": 99.5,
+    "latitude": 30.5,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in the eastern Dugan/Ganzi area; the historical Luosiduan Wanhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "biesima-wanhu-fu-jimi-seat",
+    "longitude": 97.0,
+    "latitude": 33.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in eastern Qinghai/upper Dugan; the historical Biesima Wanhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "dugansi-qianhusuo-jimi-seat",
+    "longitude": 97.18,
+    "latitude": 31.14,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Qamdo; the historical Dugan Si qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Qamdo regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "lazong-qianhusuo-jimi-seat",
+    "longitude": 98.0,
+    "latitude": 31.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in the eastern Dugan/Qamdo area; the historical Lazong qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "bolijia-qianhusuo-jimi-seat",
+    "longitude": 99.0,
+    "latitude": 31.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in the central Dugan/Ganzi area; the historical Bolijia qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "changhexi-qianhusuo-jimi-seat",
+    "longitude": 101.96,
+    "latitude": 30.05,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Kangding; the historical Changhexi qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Kangding regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "duobasansun-qianhusuo-jimi-seat",
+    "longitude": 98.5,
+    "latitude": 31.5,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in central Dugan; the historical Duobasansun qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "jiaba-qianhusuo-jimi-seat",
+    "longitude": 99.5,
+    "latitude": 30.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in western Sichuan; the historical Jiaba qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "zhaori-qianhusuo-jimi-seat",
+    "longitude": 97.8,
+    "latitude": 32.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in northern Dugan; the historical Zhaori qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "nazhu-qianhusuo-jimi-seat",
+    "longitude": 98.27,
+    "latitude": 30.86,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Gongjue; the historical Nazhu qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Gongjue regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "lunda-qianhusuo-jimi-seat",
+    "longitude": 97.5,
+    "latitude": 31.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in the eastern Dugan/Qamdo area; the historical Lunda qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "guoyou-qianhusuo-jimi-seat",
+    "longitude": 98.0,
+    "latitude": 30.5,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in central Dugan; the historical Guoyou qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "shalikehuhudi-qianhusuo-jimi-seat",
+    "longitude": 100.31,
+    "latitude": 31.21,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy at modern Xinlong; the historical Shalikehuhudi qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern Xinlong regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "bolijiasi-qianhusuo-jimi-seat",
+    "longitude": 99.0,
+    "latitude": 31.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in central Dugan; the historical Bolijiasi qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "salituer-qianhusuo-jimi-seat",
+    "longitude": 99.5,
+    "latitude": 31.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in central Dugan; the historical Salituer qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "canbulang-qianhusuo-jimi-seat",
+    "longitude": 98.5,
+    "latitude": 32.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in northern Dugan; the historical Canbulang qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "lacuoya-qianhusuo-jimi-seat",
+    "longitude": 100.0,
+    "latitude": 32.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in western Dugan; the historical Lacuoya qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "xieliba-qianhusuo-jimi-seat",
+    "longitude": 99.0,
+    "latitude": 30.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in western Dugan/Ganzi; the historical Xieliba qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; not an identified Ming seat." }
+  },
+  {
+    "id": "runzelusun-qianhusuo-jimi-seat",
+    "longitude": 98.0,
+    "latitude": 31.0,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Regional proxy in central Dugan; the historical Runzelusun qianhu seat is unresolved.",
+    "confidence": "low",
+    "sources": [{ "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Modern regional coordinate used only as a reversible proxy." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Area-level proxy; 阔则鲁孙 is retained as a variant name." }
+  }
+]

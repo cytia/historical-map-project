@@ -19,8 +19,8 @@ function sourceCount(records: JimiRecord[]) {
   return new Set(records.flatMap((record) => [...getRecordSourceIds(record)])).size;
 }
 
-function levelLabel(depth: number) {
-  return `${depth}级`;
+function levelLabel(record: JimiRecord) {
+  return `${record.jimiDisplayLevel}级`;
 }
 
 function HierarchyNode({ record, onSelect }: {
@@ -29,12 +29,12 @@ function HierarchyNode({ record, onSelect }: {
 }) {
   const children = getJimiChildren(record.unit.id);
   const heading = <>
-    <span className="scope-secondary">{levelLabel(record.jimiDepth)} · {jimiOfficeLabel(record.unit.officeKind)} · {record.unit.name}</span>
+    <span className="scope-secondary">{levelLabel(record)} · {jimiOfficeLabel(record.unit.officeKind)} · {record.unit.name}</span>
     {children.length > 0 && <span className="scope-peer-count">{children.length}处</span>}
   </>;
   if (children.length === 0) {
     return <div className="jimi-tree-node">
-      <p className="scope-secondary">{levelLabel(record.jimiDepth)} · {jimiOfficeLabel(record.unit.officeKind)}</p>
+      <p className="scope-secondary">{levelLabel(record)} · {jimiOfficeLabel(record.unit.officeKind)}</p>
       <ScopeUnitButtons units={[record.unit]} onSelect={() => onSelect(record)} />
     </div>;
   }
@@ -91,7 +91,8 @@ export function JimiScopePanel({ record }: { record: JimiRecord }) {
       </Disclosure>
 
       <Disclosure className="scope-details" summary="数据与层级说明">
-        <p>一级、二级、三级按已核验的羁縻隶属关系计算；行政所在只作为地理上下文，不作为羁縻上级。</p>
+        <p>羁縻军事机构按机构类型区分层级：都司、行都司、留守司、卫、元帅府、万户府为一级，所为二级；土司／土官按已核验隶属关系计算。</p>
+        <p>行政所在只作为地理上下文，不作为羁縻上级。</p>
         <p>本面板只展开当前羁縻体系，未建立直属关系的点位不会被自动并入本体系。</p>
         <small>本体系资料记录：{sourceCount(systemRecords)} 种来源</small>
       </Disclosure>

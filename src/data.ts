@@ -6,7 +6,12 @@ import type {
   SeatRecord,
   Source,
 } from "./types";
-import { buildAdministrativeData, findTopLevelUnitId, summarizeRegion } from "./administrativeData";
+import {
+  buildAdministrativeData,
+  findAdministrativeRegionId,
+  findTopLevelUnitId,
+  summarizeRegion,
+} from "./administrativeData";
 
 const emptyData: RuntimeIndex = {
   schemaVersion: 1,
@@ -39,6 +44,8 @@ export function initializeData(runtimeIndex: RuntimeIndex) {
 
 export const getTopLevelUnitId = (unitId: string | null) =>
   findTopLevelUnitId(administrativeData.unitsById, unitId);
+export const getAdministrativeRegionId = (unitId: string | null) =>
+  findAdministrativeRegionId(administrativeData.unitsById, unitId);
 export const getUnitRegionId = (unitId: string | null) =>
   seats.find(({ unit }) => unit.id === unitId)?.region.id ?? null;
 export const isDescendantOf = (unitId: string, ancestorId: string) => {

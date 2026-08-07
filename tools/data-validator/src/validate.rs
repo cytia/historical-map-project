@@ -1,4 +1,4 @@
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
 
 use crate::model::{
     AdministrativeUnit, JimiKind, JimiOfficeKind, JimiUnit, LocationAccuracy,
@@ -142,6 +142,7 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
             &mut errors,
         );
     }
+    validate_jimi_graph(&data.jimi_units, &data.relations, &mut errors);
 
     for statistic in &data.statistics {
         validate_id(&statistic.id, "statistic", &mut errors);
@@ -201,6 +202,69 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
     }
 
     errors
+}
+
+fn validate_jimi_graph(units: &[JimiUnit], relations: &[Relation], errors: &mut Vec<String>) {
+    let units_by_id: HashMap<&str, &JimiUnit> =
+        units.iter().map(|unit| (unit.id.as_str(), unit)).collect();
+    let mut parent_by_id: HashMap<&str, &str> = HashMap::new();
+    let mut context_by_id: HashMap<&str, &str> = HashMap::new();
+
+    for relation in relations {
+        match &relation.relation_type {
+            RelationType::JimiSubordination => {
+                let subject = units_by_id.get(relation.subject_id.as_str());
+                let object = units_by_id.get(relation.object_id.as_str());
+                if let (Some(subject), Some(object)) = (subject, object) {
+                    if std::mem::discriminant(&subject.jimi_kind)
+                        != std::mem::discriminant(&object.jimi_kind)
+                    {
+                        errors.push(format!(
+                            "{} crosses jimi kinds; subordination must stay within one domain",
+                            relation.id
+                        ));
+                    }
+                }
+                if let Some(previous) = parent_by_id.insert(
+                    relation.subject_id.as_str(),
+                    relation.object_id.as_str(),
+                ) {
+                    if previous != relation.object_id {
+                        errors.push(format!(
+                            "{} assigns multiple jimi parents to {}",
+                            relation.id, relation.subject_id
+                        ));
+                    }
+                }
+            }
+            RelationType::JimiAdministrativeContext => {
+                if let Some(previous) = context_by_id.insert(
+                    relation.subject_id.as_str(),
+                    relation.object_id.as_str(),
+                ) {
+                    if previous != relation.object_id {
+                        errors.push(format!(
+                            "{} assigns multiple administrative contexts to {}",
+                            relation.id, relation.subject_id
+                        ));
+                    }
+                }
+            }
+            _ => {}
+        }
+    }
+
+    for unit in units {
+        let mut current = unit.id.as_str();
+        let mut visited = HashSet::new();
+        while let Some(parent) = parent_by_id.get(current) {
+            if !visited.insert(current) {
+                errors.push(format!("jimi hierarchy contains a cycle at {}", unit.id));
+                break;
+            }
+            current = parent;
+        }
+    }
 }
 
 fn validate_polity(polity: &Polity, source_ids: &HashSet<&str>, errors: &mut Vec<String>) {
@@ -338,8 +402,11 @@ fn validate_jimi_unit(
         unit.office_kind,
         JimiOfficeKind::Dusi
             | JimiOfficeKind::XingDusi
+            | JimiOfficeKind::LiushouSi
             | JimiOfficeKind::Wei
             | JimiOfficeKind::Suo
+            | JimiOfficeKind::YuanshuaiFu
+            | JimiOfficeKind::WanhuFu
     );
     let native_office = matches!(
         unit.office_kind,

@@ -285,8 +285,11 @@ pub enum JimiKind {
 pub enum JimiOfficeKind {
     Dusi,
     XingDusi,
+    LiushouSi,
     Wei,
     Suo,
+    YuanshuaiFu,
+    WanhuFu,
     XuanweiSi,
     XuanfuSi,
     ZhaotaoSi,
@@ -316,7 +319,7 @@ pub enum FiveArmyId {
     Rear,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, PartialEq)]
 #[serde(rename_all = "kebab-case")]
 pub enum RelationType {
     MilitarySubordination,

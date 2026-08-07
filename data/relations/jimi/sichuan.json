@@ -274,5 +274,55 @@
       "reviewedOn": "2026-07-15",
       "revisionNote": "Migrated from the former special-governance parent link to an explicit jimi relation."
     }
+  },
+  {
+    "id": "changzhou-sichuan-xing-guangyuan-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "changzhou-sichuan-xing",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-four", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; no administrative-unit line is drawn from this context relation." }
+  },
+  {
+    "id": "weilong-sichuan-xing-sichuan-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "weilong-sichuan-xing",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-four", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; no administrative-unit line is drawn from this context relation." }
+  },
+  {
+    "id": "puji-sichuan-xing-sichuan-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "puji-sichuan-xing",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-four", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; no administrative-unit line is drawn from this context relation." }
+  },
+  {
+    "id": "mala-sichuan-xing-sichuan-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "mala-sichuan-xing",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-four", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; no administrative-unit line is drawn from this context relation." }
+  },
+  {
+    "id": "qiongbu-sichuan-xing-sichuan-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "qiongbu-sichuan-xing",
+    "objectId": "sichuan",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-four", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; no administrative-unit line is drawn from this context relation." }
   }
 ]

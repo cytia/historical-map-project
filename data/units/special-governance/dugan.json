@@ -1,0 +1,503 @@
+[
+  {
+    "id": "dugan-xing-dusi-jimi",
+    "name": "朵甘行都司",
+    "formalName": "朵甘卫都指挥使司",
+    "jimiKind": "military-institution",
+    "officeKind": "xing-dusi",
+    "polityId": "ming",
+    "seatPlaceId": "dugan-xing-dusi-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Regional root for the 1600 Dugan military-jimi roster; the public label uses 朵甘行都司 while the formal institutional name follows the Wanli roster." }
+  },
+  {
+    "id": "longda-wei-jimi",
+    "name": "陇答卫",
+    "formalName": "陇答卫指挥使司",
+    "jimiKind": "military-institution",
+    "officeKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "longda-wei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Recorded as the primary Wei-level point in the Dugan roster; its relation to the Dugan Xing Dusi is a roster-level military-jimi relation." }
+  },
+  {
+    "id": "dugansi-xuanwei-jimi",
+    "name": "朵甘宣慰使司",
+    "formalName": "朵甘思宣慰使司",
+    "jimiKind": "native-office",
+    "officeKind": "xuanwei-si",
+    "polityId": "ming",
+    "seatPlaceId": "dugansi-xuanwei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level native office in the Dugan regional roster; no cross-kind parent line to the military root is inferred." }
+  },
+  {
+    "id": "dongbu-hanhu-xuanwei-jimi",
+    "name": "董卜韩胡宣慰使司",
+    "formalName": "董卜韩胡宣慰使司",
+    "jimiKind": "native-office",
+    "officeKind": "xuanwei-si",
+    "polityId": "ming",
+    "seatPlaceId": "dongbu-hanhu-xuanwei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level native office in the Dugan regional roster; the office is not forced into the military-jimi parent chain." }
+  },
+  {
+    "id": "changhexi-yutong-ningyuan-xuanwei-jimi",
+    "name": "长河西鱼通宁远宣慰使司",
+    "formalName": "长河西鱼通宁远宣慰使司",
+    "jimiKind": "native-office",
+    "officeKind": "xuanwei-si",
+    "polityId": "ming",
+    "seatPlaceId": "changhexi-yutong-ningyuan-xuanwei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level native office in the Dugan regional roster; its western Sichuan location remains an area-level proxy." }
+  },
+  {
+    "id": "dugansi-zhaotao-jimi",
+    "name": "朵甘思招讨司",
+    "formalName": "朵甘思招讨司",
+    "jimiKind": "native-office",
+    "officeKind": "zhaotao-si",
+    "polityId": "ming",
+    "seatPlaceId": "dugansi-zhaotao-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level native office in the Dugan regional roster; no direct cross-kind parent relation is asserted." }
+  },
+  {
+    "id": "dugan-longda-zhaotao-jimi",
+    "name": "朵甘陇答招讨司",
+    "formalName": "朵甘陇答招讨司",
+    "jimiKind": "native-office",
+    "officeKind": "zhaotao-si",
+    "polityId": "ming",
+    "seatPlaceId": "dugan-longda-zhaotao-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level native office in the Dugan regional roster; the shared 陇答 name does not establish direct office-to-office subordination." }
+  },
+  {
+    "id": "dugan-dan-zhaotao-jimi",
+    "name": "朵甘丹招讨司",
+    "formalName": "朵甘丹招讨司",
+    "jimiKind": "native-office",
+    "officeKind": "zhaotao-si",
+    "polityId": "ming",
+    "seatPlaceId": "dugan-dan-zhaotao-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level native office in the Dugan regional roster; no direct cross-kind parent relation is asserted." }
+  },
+  {
+    "id": "dugan-cangtang-zhaotao-jimi",
+    "name": "朵甘仓溏招讨司",
+    "formalName": "朵甘仓溏招讨司",
+    "jimiKind": "native-office",
+    "officeKind": "zhaotao-si",
+    "polityId": "ming",
+    "seatPlaceId": "dugan-cangtang-zhaotao-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level native office in the Dugan regional roster; the historical seat is unresolved." }
+  },
+  {
+    "id": "dugan-chuan-zhaotao-jimi",
+    "name": "朵甘川招讨司",
+    "formalName": "朵甘川招讨司",
+    "jimiKind": "native-office",
+    "officeKind": "zhaotao-si",
+    "polityId": "ming",
+    "seatPlaceId": "dugan-chuan-zhaotao-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "medium" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Low-confidence first-level roster point; the name is present in the six-office list but its late-Ming seat is unresolved." }
+  },
+  {
+    "id": "moerkan-zhaotao-jimi",
+    "name": "磨儿勘招讨司",
+    "formalName": "磨儿勘招讨司",
+    "jimiKind": "native-office",
+    "officeKind": "zhaotao-si",
+    "polityId": "ming",
+    "seatPlaceId": "moerkan-zhaotao-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "medium" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Low-confidence first-level roster point; the historical seat is unresolved." }
+  },
+  {
+    "id": "shaerke-wanhu-fu-jimi",
+    "name": "沙儿可万户府",
+    "formalName": "沙儿可万户府",
+    "jimiKind": "military-institution",
+    "officeKind": "wanhu-fu",
+    "polityId": "ming",
+    "seatPlaceId": "shaerke-wanhu-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level military-jimi point in the Dugan roster; no direct parent line to the Dugan Xing Dusi is inferred." }
+  },
+  {
+    "id": "naizhu-wanhu-fu-jimi",
+    "name": "乃竹万户府",
+    "formalName": "乃竹万户府",
+    "jimiKind": "military-institution",
+    "officeKind": "wanhu-fu",
+    "polityId": "ming",
+    "seatPlaceId": "naizhu-wanhu-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level military-jimi point in the Dugan roster; no direct parent line to the Dugan Xing Dusi is inferred." }
+  },
+  {
+    "id": "luosiduan-wanhu-fu-jimi",
+    "name": "罗思端万户府",
+    "formalName": "罗思端万户府",
+    "jimiKind": "military-institution",
+    "officeKind": "wanhu-fu",
+    "polityId": "ming",
+    "seatPlaceId": "luosiduan-wanhu-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level military-jimi point in the Dugan roster; the historical seat remains unresolved." }
+  },
+  {
+    "id": "biesima-wanhu-fu-jimi",
+    "name": "别思麻万户府",
+    "formalName": "别思麻万户府",
+    "jimiKind": "military-institution",
+    "officeKind": "wanhu-fu",
+    "polityId": "ming",
+    "seatPlaceId": "biesima-wanhu-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "medium", "note": "The Ming History text has the variant 列思麻." },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Independent first-level military-jimi point; 别思麻 is the Wanli roster form and 列思麻 is retained as a historical variant." }
+  },
+  {
+    "id": "dugansi-qianhusuo-jimi",
+    "name": "朵甘思千户所",
+    "formalName": "朵甘思千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "dugansi-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium" },
+      { "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "low", "note": "The combined Huidian extraction records the total of seventeen but the rendered list omits this first group of names." }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the Dugan roster; 朵儿干思 is retained as a textual variant." }
+  },
+  {
+    "id": "lazong-qianhusuo-jimi",
+    "name": "剌宗千户所",
+    "formalName": "剌宗千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "lazong-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium" },
+      { "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point; the historical seat is unresolved." }
+  },
+  {
+    "id": "bolijia-qianhusuo-jimi",
+    "name": "孛里加千户所",
+    "formalName": "孛里加千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "bolijia-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium" },
+      { "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point; 孛里加思 is a separate roster name and is not merged with this point." }
+  },
+  {
+    "id": "changhexi-qianhusuo-jimi",
+    "name": "长河西千户所",
+    "formalName": "长河西千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "changhexi-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium" },
+      { "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point; its name overlaps with the Long River West regional office but is not treated as the same institution." }
+  },
+  {
+    "id": "duobasansun-qianhusuo-jimi",
+    "name": "多八三孙千户所",
+    "formalName": "多八三孙千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "duobasansun-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "medium", "note": "多八参孙 is retained as a variant." }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "jiaba-qianhusuo-jimi",
+    "name": "加八千户所",
+    "formalName": "加八千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "jiaba-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "zhaori-qianhusuo-jimi",
+    "name": "兆日千户所",
+    "formalName": "兆日千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "zhaori-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "nazhu-qianhusuo-jimi",
+    "name": "纳竹千户所",
+    "formalName": "纳竹千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "nazhu-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster; not merged with 乃竹万户府." }
+  },
+  {
+    "id": "lunda-qianhusuo-jimi",
+    "name": "伦答千户所",
+    "formalName": "伦答千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "lunda-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "guoyou-qianhusuo-jimi",
+    "name": "果由千户所",
+    "formalName": "果由千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "guoyou-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "shalikehuhudi-qianhusuo-jimi",
+    "name": "沙里可哈忽的千户所",
+    "formalName": "沙里可哈忽的千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "shalikehuhudi-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "bolijiasi-qianhusuo-jimi",
+    "name": "孛里加思千户所",
+    "formalName": "孛里加思千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "bolijiasi-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point; not merged with 孛里加千户所." }
+  },
+  {
+    "id": "salituer-qianhusuo-jimi",
+    "name": "撒里土儿千户所",
+    "formalName": "撒里土儿千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "salituer-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "canbulang-qianhusuo-jimi",
+    "name": "参卜郎千户所",
+    "formalName": "参卜郎千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "canbulang-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "lacuoya-qianhusuo-jimi",
+    "name": "剌错牙千户所",
+    "formalName": "剌错牙千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "lacuoya-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "xieliba-qianhusuo-jimi",
+    "name": "泄里坝千户所",
+    "formalName": "泄里坝千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "xieliba-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point in the late-Ming Dugan roster." }
+  },
+  {
+    "id": "runzelusun-qianhusuo-jimi",
+    "name": "润则鲁孙千户所",
+    "formalName": "润则鲁孙千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "runzelusun-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium", "note": "The combined roster renders a variant 阔则鲁孙." },
+      { "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Second-level qianhu point; 阔则鲁孙 and 润则鲁孙 are retained as variant forms of one roster entry." }
+  }
+]

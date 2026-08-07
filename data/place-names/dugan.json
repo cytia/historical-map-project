@@ -1,0 +1,322 @@
+[
+  {
+    "id": "name-dugan-xing-dusi-jimi-seat",
+    "placeId": "dugan-xing-dusi-jimi-seat",
+    "name": "朵甘行都司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" }, { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Public map label; formal name is 朵甘卫都指挥使司." }
+  },
+  {
+    "id": "name-longda-wei-jimi-seat",
+    "placeId": "longda-wei-jimi-seat",
+    "name": "陇答卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" }, { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical label; the seat coordinate is only a regional proxy." }
+  },
+  {
+    "id": "name-dugansi-xuanwei-jimi-seat",
+    "placeId": "dugansi-xuanwei-jimi-seat",
+    "name": "朵甘宣慰使司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-dongbu-hanhu-xuanwei-jimi-seat",
+    "placeId": "dongbu-hanhu-xuanwei-jimi-seat",
+    "name": "董卜韩胡宣慰使司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-changhexi-yutong-ningyuan-xuanwei-jimi-seat",
+    "placeId": "changhexi-yutong-ningyuan-xuanwei-jimi-seat",
+    "name": "长河西鱼通宁远宣慰使司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-dugansi-zhaotao-jimi-seat",
+    "placeId": "dugansi-zhaotao-jimi-seat",
+    "name": "朵甘思招讨司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-dugan-longda-zhaotao-jimi-seat",
+    "placeId": "dugan-longda-zhaotao-jimi-seat",
+    "name": "朵甘陇答招讨司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-dugan-dan-zhaotao-jimi-seat",
+    "placeId": "dugan-dan-zhaotao-jimi-seat",
+    "name": "朵甘丹招讨司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-dugan-cangtang-zhaotao-jimi-seat",
+    "placeId": "dugan-cangtang-zhaotao-jimi-seat",
+    "name": "朵甘仓溏招讨司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-dugan-chuan-zhaotao-jimi-seat",
+    "placeId": "dugan-chuan-zhaotao-jimi-seat",
+    "name": "朵甘川招讨司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster label; the office's late-Ming seat is unresolved." }
+  },
+  {
+    "id": "name-moerkan-zhaotao-jimi-seat",
+    "placeId": "moerkan-zhaotao-jimi-seat",
+    "name": "磨儿勘招讨司",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster label; the office's late-Ming seat is unresolved." }
+  },
+  {
+    "id": "name-shaerke-wanhu-fu-jimi-seat",
+    "placeId": "shaerke-wanhu-fu-jimi-seat",
+    "name": "沙儿可万户府",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-naizhu-wanhu-fu-jimi-seat",
+    "placeId": "naizhu-wanhu-fu-jimi-seat",
+    "name": "乃竹万户府",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-luosiduan-wanhu-fu-jimi-seat",
+    "placeId": "luosiduan-wanhu-fu-jimi-seat",
+    "name": "罗思端万户府",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Canonical late-Ming roster label." }
+  },
+  {
+    "id": "name-biesima-wanhu-fu-jimi-seat",
+    "placeId": "biesima-wanhu-fu-jimi-seat",
+    "name": "别思麻万户府",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }, { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "medium", "note": "The Ming History text has the variant 列思麻." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "别思麻 is the Wanli roster form; 列思麻 is retained as a variant." }
+  },
+  {
+    "id": "name-dugansi-qianhusuo-jimi-seat",
+    "placeId": "dugansi-qianhusuo-jimi-seat",
+    "name": "朵甘思",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "朵儿干思 is retained as a textual variant." }
+  },
+  {
+    "id": "name-lazong-qianhusuo-jimi-seat",
+    "placeId": "lazong-qianhusuo-jimi-seat",
+    "name": "剌宗",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label; the seat is unresolved." }
+  },
+  {
+    "id": "name-bolijia-qianhusuo-jimi-seat",
+    "placeId": "bolijia-qianhusuo-jimi-seat",
+    "name": "孛里加",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label; 孛里加思 is retained as a separate entry." }
+  },
+  {
+    "id": "name-changhexi-qianhusuo-jimi-seat",
+    "placeId": "changhexi-qianhusuo-jimi-seat",
+    "name": "长河西",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "medium" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label; not merged with the Long River West Xuanwei office." }
+  },
+  {
+    "id": "name-duobasansun-qianhusuo-jimi-seat",
+    "placeId": "duobasansun-qianhusuo-jimi-seat",
+    "name": "多八三孙",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "多八参孙 is retained as a variant." }
+  },
+  {
+    "id": "name-jiaba-qianhusuo-jimi-seat",
+    "placeId": "jiaba-qianhusuo-jimi-seat",
+    "name": "加八",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label." }
+  },
+  {
+    "id": "name-zhaori-qianhusuo-jimi-seat",
+    "placeId": "zhaori-qianhusuo-jimi-seat",
+    "name": "兆日",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label." }
+  },
+  {
+    "id": "name-nazhu-qianhusuo-jimi-seat",
+    "placeId": "nazhu-qianhusuo-jimi-seat",
+    "name": "纳竹",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label; not merged with the 乃竹 Wanhu office." }
+  },
+  {
+    "id": "name-lunda-qianhusuo-jimi-seat",
+    "placeId": "lunda-qianhusuo-jimi-seat",
+    "name": "伦答",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label." }
+  },
+  {
+    "id": "name-guoyou-qianhusuo-jimi-seat",
+    "placeId": "guoyou-qianhusuo-jimi-seat",
+    "name": "果由",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label." }
+  },
+  {
+    "id": "name-shalikehuhudi-qianhusuo-jimi-seat",
+    "placeId": "shalikehuhudi-qianhusuo-jimi-seat",
+    "name": "沙里可哈忽的",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label." }
+  },
+  {
+    "id": "name-bolijiasi-qianhusuo-jimi-seat",
+    "placeId": "bolijiasi-qianhusuo-jimi-seat",
+    "name": "孛里加思",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label; not merged with 孛里加千户所." }
+  },
+  {
+    "id": "name-salituer-qianhusuo-jimi-seat",
+    "placeId": "salituer-qianhusuo-jimi-seat",
+    "name": "撒里土儿",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label." }
+  },
+  {
+    "id": "name-canbulang-qianhusuo-jimi-seat",
+    "placeId": "canbulang-qianhusuo-jimi-seat",
+    "name": "参卜郎",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label." }
+  },
+  {
+    "id": "name-lacuoya-qianhusuo-jimi-seat",
+    "placeId": "lacuoya-qianhusuo-jimi-seat",
+    "name": "剌错牙",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label." }
+  },
+  {
+    "id": "name-xieliba-qianhusuo-jimi-seat",
+    "placeId": "xieliba-qianhusuo-jimi-seat",
+    "name": "泄里坝",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Historical roster label." }
+  },
+  {
+    "id": "name-runzelusun-qianhusuo-jimi-seat",
+    "placeId": "runzelusun-qianhusuo-jimi-seat",
+    "name": "润则鲁孙",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "dugan-roster-reference", "claim": "name", "confidence": "medium" }, { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "name", "confidence": "medium", "note": "The rendered Huidian text uses 阔则鲁孙." }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "润则鲁孙 is the canonical data label; 阔则鲁孙 is retained as a variant." }
+  }
+]

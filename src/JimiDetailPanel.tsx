@@ -35,7 +35,7 @@ function JimiRelations({ record }: { record: JimiRecord }) {
   return <section className="jurisdiction">
     <div className="section-heading"><p className="eyebrow">羁縻关系</p>
       <span>{children.length > 0 ? `${children.length}个下属点位` : ""}</span></div>
-    <p className="administrative-path">归属层级 · {record.jimiDepth}级</p>
+    <p className="administrative-path">归属层级 · {record.jimiDisplayLevel}级</p>
     {ancestors.length > 0 && <>
       <p className="administrative-path">羁縻归属路径</p>
       <div className="county-list">{ancestors.map((ancestor) =>

@@ -1,0 +1,203 @@
+[
+  {
+    "id": "name-wusizang-region-point",
+    "placeId": "wusizang-region-point",
+    "name": "乌思藏",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Regional historical label for the area-level pilot point; not a claim that the point is a named Dusi seat."
+    }
+  },
+  {
+    "id": "name-shangqiongbu-wei-jimi-seat",
+    "placeId": "shangqiongbu-wei-jimi-seat",
+    "name": "上邛部",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shilu-ust-tibet-upper-qiongbu-wei", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Historical seat label for Shangqiongbu Wei; the map coordinate remains an area-level modern proxy."
+    }
+  },
+  {
+    "id": "name-anbuluo-xing-dusi-jimi-seat",
+    "placeId": "anbuluo-xing-dusi-jimi-seat",
+    "name": "俺不罗",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Historical name for the 俺不罗 office; the map point is an area-level modern proxy."
+    }
+  },
+  {
+    "id": "name-niuerzongzhai-xing-dusi-jimi-seat",
+    "placeId": "niuerzongzhai-xing-dusi-jimi-seat",
+    "name": "牛儿宗寨",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Historical name for the 牛儿宗寨 office; the map point is an area-level modern proxy."
+    }
+  },
+  {
+    "id": "name-lingsiben-xing-dusi-jimi-seat",
+    "placeId": "lingsiben-xing-dusi-jimi-seat",
+    "name": "领思奔寨",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Canonical historical label; 领司奔寨 is recorded as a textual variant in the place audit."
+    }
+  },
+  {
+    "id": "name-dalong-qianhusuo-jimi-seat",
+    "placeId": "dalong-qianhusuo-jimi-seat",
+    "name": "答笼",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Historical label for the qianhu office; 达隆 and 打隆 are modern or variant toponyms and are not substituted as the canonical name."
+    }
+  },
+  {
+    "id": "name-gelatang-qianhusuo-jimi-seat",
+    "placeId": "gelatang-qianhusuo-jimi-seat",
+    "name": "葛剌汤",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Historical name for the qianhu office; the map point is an area-level modern proxy."
+    }
+  },
+  {
+    "id": "name-elis-yuanshuai-fu-jimi-seat",
+    "placeId": "elis-yuanshuai-fu-jimi-seat",
+    "name": "俄力思",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shilu-ust-tibet-yuan-shuai-wanhu", "claim": "name", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Historical label for the 俄力思 military marshal office; the coordinate is only a regional proxy."
+    }
+  },
+  {
+    "id": "name-biligongwa-wanhu-fu-jimi-seat",
+    "placeId": "biligongwa-wanhu-fu-jimi-seat",
+    "name": "必力工瓦",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "name", "confidence": "medium" },
+      { "sourceId": "wusizang-dusi-roster-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Historical label for the 必力工瓦 office; the coordinate is only a regional proxy."
+    }
+  },
+  {
+    "id": "name-pamu-zhu-ba-wanhu-fu-jimi-seat",
+    "placeId": "pamu-zhu-ba-wanhu-fu-jimi-seat",
+    "name": "帕木竹巴",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shilu-ust-tibet-yuan-shuai-wanhu", "claim": "name", "confidence": "high" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Historical label for the 帕木竹巴 office; later fief history is not represented by this name record."
+    }
+  },
+  {
+    "id": "name-yangsiduo-wanhu-fu-jimi-seat",
+    "placeId": "yangsiduo-wanhu-fu-jimi-seat",
+    "name": "仰思多",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "name", "confidence": "medium" },
+      { "sourceId": "wusizang-dusi-roster-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Historical label for the 仰思多 office; the coordinate is only a regional proxy."
+    }
+  },
+  {
+    "id": "name-shalu-wanhu-fu-jimi-seat",
+    "placeId": "shalu-wanhu-fu-jimi-seat",
+    "name": "沙鲁",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wusizang-dusi-roster-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Low-confidence historical roster label; the coordinate is only a regional proxy."
+    }
+  },
+  {
+    "id": "name-zhuoyou-wanhu-fu-jimi-seat",
+    "placeId": "zhuoyou-wanhu-fu-jimi-seat",
+    "name": "着由",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "name", "confidence": "medium" },
+      { "sourceId": "wusizang-dusi-roster-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Historical label for the 着由 office; the coordinate is only a regional proxy."
+    }
+  }
+]

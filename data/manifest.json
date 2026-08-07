@@ -410,6 +410,18 @@
       "path": "relations/jimi/yunnan.json"
     },
     {
+      "collection": "relations",
+      "domain": "jimi",
+      "region": "ust-tibet",
+      "path": "relations/jimi/ust-tibet.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "jimi",
+      "region": "dugan",
+      "path": "relations/jimi/dugan.json"
+    },
+    {
       "collection": "jimiUnits",
       "region": "guangxi",
       "path": "units/special-governance/guangxi.json"
@@ -433,6 +445,16 @@
       "collection": "jimiUnits",
       "region": "yunnan",
       "path": "units/special-governance/yunnan.json"
+    },
+    {
+      "collection": "jimiUnits",
+      "region": "ust-tibet",
+      "path": "units/special-governance/ust-tibet.json"
+    },
+    {
+      "collection": "jimiUnits",
+      "region": "dugan",
+      "path": "units/special-governance/dugan.json"
     },
     {
       "collection": "places",
@@ -615,6 +637,16 @@
       "path": "places/zhejiang.json"
     },
     {
+      "collection": "places",
+      "region": "ust-tibet",
+      "path": "places/ust-tibet.json"
+    },
+    {
+      "collection": "places",
+      "region": "dugan",
+      "path": "places/dugan.json"
+    },
+    {
       "collection": "placeNames",
       "region": "central-front",
       "path": "place-names/central-front-dusi.json"
@@ -793,6 +825,16 @@
       "collection": "placeNames",
       "region": "zhejiang",
       "path": "place-names/zhejiang.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "ust-tibet",
+      "path": "place-names/ust-tibet.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "dugan",
+      "path": "place-names/dugan.json"
     },
     {
       "collection": "statistics",

@@ -2,6 +2,7 @@ mod audit;
 mod manifest;
 mod model;
 mod runtime_index;
+mod tuguan_audit;
 mod validate;
 
 use std::{env, path::PathBuf, process::ExitCode};
@@ -67,6 +68,16 @@ fn run() -> Result<(), String> {
         ));
     }
 
+    if first.as_os_str() == "tuguan-audit" {
+        if arguments.next().is_some() {
+            return Err(usage().to_owned());
+        }
+        let path = PathBuf::from("data/manifest.json");
+        let data: ProjectData = manifest::load_project(&path)?;
+        print!("{}", tuguan_audit::render(&data));
+        return Ok(());
+    }
+
     if arguments.next().is_some() {
         return Err(usage().to_owned());
     }
@@ -92,5 +103,5 @@ fn run() -> Result<(), String> {
 }
 
 fn usage() -> &'static str {
-    "Usage: data-validator <project-data.json|manifest.json> | data-validator commercial-audit | data-validator prepare <manifest.json> <runtime-index.json>"
+    "Usage: data-validator <project-data.json|manifest.json> | data-validator commercial-audit | data-validator tuguan-audit | data-validator prepare <manifest.json> <runtime-index.json>"
 }

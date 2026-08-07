@@ -1,0 +1,251 @@
+[
+  {
+    "id": "wusizang-dusi-jimi",
+    "name": "乌思藏都司",
+    "formalName": "乌思藏都指挥使司",
+    "jimiKind": "military-institution",
+    "officeKind": "dusi",
+    "polityId": "ming",
+    "seatPlaceId": "wusizang-region-point",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high", "note": "The Ming History records the earlier change to a xing-dusi and later identifies the institution as 乌斯藏都指挥使司." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "First military-jimi pilot. The Wanli roster records Wusizang as a dusi-level institution; the verified subordinate offices are recorded in the same 1600 pilot scope."
+    }
+  },
+  {
+    "id": "anbuluo-xing-dusi-jimi",
+    "name": "俺不罗行都司",
+    "formalName": "俺不罗行都指挥使司",
+    "jimiKind": "military-institution",
+    "officeKind": "xing-dusi",
+    "polityId": "ming",
+    "seatPlaceId": "anbuluo-xing-dusi-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium", "note": "The late-Ming western Xifan roster is used as a continuity check for the Ust-related institutional grouping." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Recorded as a direct Ust Dusi jimi subordinate for the 1600 pilot; it is not placed in the ordinary military command system."
+    }
+  },
+  {
+    "id": "shangqiongbu-wei-jimi",
+    "name": "上邛部卫",
+    "formalName": "上邛部卫",
+    "jimiKind": "military-institution",
+    "officeKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "shangqiongbu-wei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shilu-ust-tibet-upper-qiongbu-wei", "claim": "existence", "confidence": "high", "note": "The Yongle 13 record establishes Shangqiongbu Wei and appoints its local head as commander." },
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high", "note": "The Western Regions narrative records Shangqiongbu Wei with the Ust-related military institutions." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Added after the 1600 Ust Dusi point audit. Shangqiongbu Wei is a primary display point; the historical seat is only regionally identified."
+    }
+  },
+  {
+    "id": "niuerzongzhai-xing-dusi-jimi",
+    "name": "牛儿宗寨行都司",
+    "formalName": "牛儿宗寨行都指挥使司",
+    "jimiKind": "military-institution",
+    "officeKind": "xing-dusi",
+    "polityId": "ming",
+    "seatPlaceId": "niuerzongzhai-xing-dusi-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium", "note": "The late-Ming western Xifan roster is used as a continuity check for the Ust-related institutional grouping." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Recorded as a direct Ust Dusi jimi subordinate for the 1600 pilot; it is not placed in the ordinary military command system."
+    }
+  },
+  {
+    "id": "lingsiben-xing-dusi-jimi",
+    "name": "领思奔寨行都司",
+    "formalName": "领思奔寨行都指挥使司",
+    "jimiKind": "military-institution",
+    "officeKind": "xing-dusi",
+    "polityId": "ming",
+    "seatPlaceId": "lingsiben-xing-dusi-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high", "note": "The source tradition uses both 领思奔寨 and 领司奔寨 variants; 领思奔寨 is the canonical data label." },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium", "note": "The late-Ming western Xifan roster is used as a continuity check for the Ust-related institutional grouping." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Recorded as a direct Ust Dusi jimi subordinate for the 1600 pilot; it is not placed in the ordinary military command system."
+    }
+  },
+  {
+    "id": "dalong-qianhusuo-jimi",
+    "name": "答笼千户所",
+    "formalName": "答笼千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "dalong-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium", "note": "The late-Ming western Xifan roster is used as a continuity check for the Ust-related institutional grouping." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Recorded as a direct Ust Dusi jimi subordinate for the 1600 pilot; the exact modern seat remains unresolved."
+    }
+  },
+  {
+    "id": "gelatang-qianhusuo-jimi",
+    "name": "葛剌汤千户所",
+    "formalName": "葛剌汤千户所",
+    "jimiKind": "military-institution",
+    "officeKind": "suo",
+    "polityId": "ming",
+    "seatPlaceId": "gelatang-qianhusuo-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "existence", "confidence": "medium", "note": "The late-Ming western Xifan roster is used as a continuity check for the Ust-related institutional grouping." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-04",
+      "revisionNote": "Recorded as a direct Ust Dusi jimi subordinate for the 1600 pilot; the exact modern seat remains unresolved."
+    }
+  },
+  {
+    "id": "elis-yuanshuai-fu-jimi",
+    "name": "俄力思军民元帅府",
+    "formalName": "俄力思军民元帅府",
+    "jimiKind": "military-institution",
+    "officeKind": "yuanshuai-fu",
+    "polityId": "ming",
+    "seatPlaceId": "elis-yuanshuai-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shilu-ust-tibet-yuan-shuai-wanhu", "claim": "existence", "confidence": "high" },
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "existence", "confidence": "low", "note": "The direct relationship to Ust Dusi is disputed in modern scholarship." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Recorded as an independent first-level military-jimi point for the 1600 pilot. The historical sources establish the office but do not prove direct subordination to Ust Dusi; no fief relation is inferred."
+    }
+  },
+  {
+    "id": "biligongwa-wanhu-fu-jimi",
+    "name": "必力工瓦万户府",
+    "formalName": "必力工瓦万户府",
+    "jimiKind": "military-institution",
+    "officeKind": "wanhu-fu",
+    "polityId": "ming",
+    "seatPlaceId": "biligongwa-wanhu-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "existence", "confidence": "medium" },
+      { "sourceId": "wusizang-dusi-roster-reference", "claim": "existence", "confidence": "low", "note": "Used as a regional roster reference, not as proof of direct parentage." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Recorded as an independent first-level military-jimi point. The regional roster supports inclusion, but a direct parent relation to Ust Dusi is not asserted."
+    }
+  },
+  {
+    "id": "pamu-zhu-ba-wanhu-fu-jimi",
+    "name": "帕木竹巴万户府",
+    "formalName": "帕木竹巴万户府",
+    "jimiKind": "military-institution",
+    "officeKind": "wanhu-fu",
+    "polityId": "ming",
+    "seatPlaceId": "pamu-zhu-ba-wanhu-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shilu-ust-tibet-yuan-shuai-wanhu", "claim": "existence", "confidence": "high" },
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "existence", "confidence": "medium" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Recorded as an independent first-level military-jimi point. The later political history of Pamu Zhuba is not converted into a fief point."
+    }
+  },
+  {
+    "id": "yangsiduo-wanhu-fu-jimi",
+    "name": "仰思多万户府",
+    "formalName": "仰思多万户府",
+    "jimiKind": "military-institution",
+    "officeKind": "wanhu-fu",
+    "polityId": "ming",
+    "seatPlaceId": "yangsiduo-wanhu-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "existence", "confidence": "medium" },
+      { "sourceId": "wusizang-dusi-roster-reference", "claim": "existence", "confidence": "low", "note": "Used as a regional roster reference, not as proof of direct parentage." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Recorded as an independent first-level military-jimi point with a regional proxy seat. Direct subordination to Ust Dusi is not asserted."
+    }
+  },
+  {
+    "id": "shalu-wanhu-fu-jimi",
+    "name": "沙鲁万户府",
+    "formalName": "沙鲁万户府",
+    "jimiKind": "military-institution",
+    "officeKind": "wanhu-fu",
+    "polityId": "ming",
+    "seatPlaceId": "shalu-wanhu-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wusizang-dusi-roster-reference", "claim": "existence", "confidence": "low", "note": "Used as a regional roster reference, not as proof of direct parentage." },
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "existence", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Recorded as an independent first-level military-jimi point. The name is retained as a low-confidence roster entry and is not expanded into a fief."
+    }
+  },
+  {
+    "id": "zhuoyou-wanhu-fu-jimi",
+    "name": "着由万户府",
+    "formalName": "着由万户府",
+    "jimiKind": "military-institution",
+    "officeKind": "wanhu-fu",
+    "polityId": "ming",
+    "seatPlaceId": "zhuoyou-wanhu-fu-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "chen-nan-ming-tibet-official-system", "claim": "existence", "confidence": "medium" },
+      { "sourceId": "wusizang-dusi-roster-reference", "claim": "existence", "confidence": "low", "note": "Used as a regional roster reference, not as proof of direct parentage." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-05",
+      "revisionNote": "Recorded as an independent first-level military-jimi point. The surviving appointment evidence is not sufficient to assert direct subordination to Ust Dusi."
+    }
+  }
+]

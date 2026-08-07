@@ -1,0 +1,192 @@
+[
+  {
+    "id": "longda-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "longda-wei-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "note": "Roster-level military-jimi relation; the source establishes the Wei in the Dugan grouping but does not describe a modern command chain.",
+    "sources": [
+      { "sourceId": "ming-shi-ust-tibet", "claim": "parent", "confidence": "medium" },
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "medium" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Recorded so the Wei appears as a primary point within the Dugan military roster." }
+  },
+  {
+    "id": "dugansi-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "dugansi-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "medium" },
+      { "sourceId": "dugan-roster-reference", "claim": "parent", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "lazong-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "lazong-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [{ "sourceId": "dugan-roster-reference", "claim": "parent", "confidence": "low" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; the historical seat is unresolved." }
+  },
+  {
+    "id": "bolijia-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "bolijia-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [{ "sourceId": "dugan-roster-reference", "claim": "parent", "confidence": "low" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; the historical seat is unresolved." }
+  },
+  {
+    "id": "changhexi-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "changhexi-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [{ "sourceId": "dugan-roster-reference", "claim": "parent", "confidence": "low" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not merged with the Long River West Xuanwei office." }
+  },
+  {
+    "id": "duobasansun-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "duobasansun-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "jiaba-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "jiaba-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "zhaori-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "zhaori-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "nazhu-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "nazhu-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not merged with the 乃竹 Wanhu office." }
+  },
+  {
+    "id": "lunda-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "lunda-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "guoyou-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "guoyou-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "shalikehuhudi-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "shalikehuhudi-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "bolijiasi-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "bolijiasi-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not merged with 孛里加千户所." }
+  },
+  {
+    "id": "salituer-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "salituer-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "canbulang-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "canbulang-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "lacuoya-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "lacuoya-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "xieliba-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "xieliba-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "sources": [{ "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; not an assertion of ordinary military command." }
+  },
+  {
+    "id": "runzelusun-qianhusuo-dugan-jimi-parent",
+    "relationType": "jimi-subordination",
+    "subjectId": "runzelusun-qianhusuo-jimi",
+    "objectId": "dugan-xing-dusi-jimi",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-ust-tibet", "claim": "parent", "confidence": "medium" },
+      { "sourceId": "dugan-roster-reference", "claim": "parent", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-05", "revisionNote": "Roster-level secondary relation; the rendered Huidian text uses the variant 阔则鲁孙." }
+  }
+]

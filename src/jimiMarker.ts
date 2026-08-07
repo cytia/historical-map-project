@@ -1,24 +1,44 @@
 import type { ExpressionSpecification, Map } from "maplibre-gl";
 
-export const jimiMilitarySymbolImageId = "jimi-military-triangle";
 export const jimiNativeOfficeSymbolImageId = "jimi-native-office-diamond";
 
-function pointIconSize(selectedJimiId: string | null, normal: number, selected: number) {
+interface IconSizeProfile {
+  normal: number;
+  selected: number;
+}
+
+function pointIconSize(
+  selectedJimiId: string | null,
+  nativeOffice: IconSizeProfile,
+  militaryInstitution: IconSizeProfile,
+) {
   const isSelected = ["==", ["get", "id"], selectedJimiId ?? ""];
   return ["interpolate", ["linear"], ["zoom"],
-    4, ["case", isSelected, selected, normal * 0.82],
-    8, ["case", isSelected, selected * 1.28, normal],
+    4, ["case",
+      ["==", ["get", "jimiKind"], "military-institution"],
+      ["case", isSelected, militaryInstitution.selected, militaryInstitution.normal * 0.82],
+      ["case", isSelected, nativeOffice.selected, nativeOffice.normal * 0.82],
+    ],
+    8, ["case",
+      ["==", ["get", "jimiKind"], "military-institution"],
+      ["case", isSelected, militaryInstitution.selected * 1.28, militaryInstitution.normal],
+      ["case", isSelected, nativeOffice.selected * 1.28, nativeOffice.normal],
+    ],
   ] as unknown as ExpressionSpecification;
 }
 
 export function jimiPointIconSizes(selectedJimiId: string | null) {
   return {
-    outline: pointIconSize(selectedJimiId, 0.34, 0.44),
-    fill: pointIconSize(selectedJimiId, 0.25, 0.34),
+    outline: pointIconSize(selectedJimiId,
+      { normal: 0.34, selected: 0.44 },
+      { normal: 0.42, selected: 0.54 }),
+    fill: pointIconSize(selectedJimiId,
+      { normal: 0.25, selected: 0.34 },
+      { normal: 0.31, selected: 0.42 }),
   };
 }
 
-function createShapeImage(shape: "triangle" | "diamond") {
+function createShapeImage() {
   const size = 32;
   const inset = 3;
   const center = size / 2;
@@ -28,16 +48,10 @@ function createShapeImage(shape: "triangle" | "diamond") {
   context.canvas.height = size;
   context.fillStyle = "#fff";
   context.beginPath();
-  if (shape === "triangle") {
-    context.moveTo(center, inset);
-    context.lineTo(size - inset, size - inset);
-    context.lineTo(inset, size - inset);
-  } else {
-    context.moveTo(center, inset);
-    context.lineTo(size - inset, center);
-    context.lineTo(center, size - inset);
-    context.lineTo(inset, center);
-  }
+  context.moveTo(center, inset);
+  context.lineTo(size - inset, center);
+  context.lineTo(center, size - inset);
+  context.lineTo(inset, center);
   context.closePath();
   context.fill();
   const imageData = context.getImageData(0, 0, size, size);
@@ -45,10 +59,7 @@ function createShapeImage(shape: "triangle" | "diamond") {
 }
 
 export function ensureJimiSymbolImages(map: Map) {
-  if (!map.hasImage(jimiMilitarySymbolImageId)) {
-    map.addImage(jimiMilitarySymbolImageId, createShapeImage("triangle"), { sdf: true });
-  }
   if (!map.hasImage(jimiNativeOfficeSymbolImageId)) {
-    map.addImage(jimiNativeOfficeSymbolImageId, createShapeImage("diamond"), { sdf: true });
+    map.addImage(jimiNativeOfficeSymbolImageId, createShapeImage(), { sdf: true });
   }
 }

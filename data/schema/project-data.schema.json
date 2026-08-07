@@ -294,7 +294,7 @@
         "jimiKind": { "enum": ["military-institution", "native-office"] },
         "officeKind": {
           "enum": [
-            "dusi", "xing-dusi", "wei", "suo", "xuanwei-si", "xuanfu-si",
+            "dusi", "xing-dusi", "liushou-si", "wei", "suo", "yuanshuai-fu", "wanhu-fu", "xuanwei-si", "xuanfu-si",
             "zhaotao-si", "anfu-si", "zhangguan-si", "tusi-xunjian-si"
           ]
         },

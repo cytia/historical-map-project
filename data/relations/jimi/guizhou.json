@@ -1602,5 +1602,65 @@
     "confidence": "medium",
     "sources": [{ "sourceId": "ming-shi-guizhou-tusi", "claim": "parent", "confidence": "medium" }],
     "audit": { "reviewedOn": "2026-08-03", "revisionNote": "Roster-disputed subordinate retained from the eighteen-office native-office biography; the geographic record lists sixteen and omits 平伐." }
+  },
+  {
+    "id": "dapingfa-longliwei-military-guizhou-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "dapingfa-longliwei-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; the associated military-seat identifier is not used as a visual endpoint." }
+  },
+  {
+    "id": "xintian-xintianwei-military-guizhou-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "xintian-xintianwei-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; the associated military-seat identifier is not used as a visual endpoint." }
+  },
+  {
+    "id": "xiaopingfa-xintianwei-military-guizhou-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "xiaopingfa-xintianwei-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; the associated military-seat identifier is not used as a visual endpoint." }
+  },
+  {
+    "id": "bapingzhai-xintianwei-military-guizhou-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "bapingzhai-xintianwei-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; the associated military-seat identifier is not used as a visual endpoint." }
+  },
+  {
+    "id": "danping-xintianwei-military-guizhou-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "danping-xintianwei-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; the associated military-seat identifier is not used as a visual endpoint." }
+  },
+  {
+    "id": "danxing-xintianwei-military-guizhou-context",
+    "relationType": "jimi-administrative-context",
+    "subjectId": "danxing-xintianwei-military",
+    "objectId": "guizhou",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [{ "sourceId": "ming-shi-geography-seven", "claim": "parent", "confidence": "high" }],
+    "audit": { "reviewedOn": "2026-08-04", "revisionNote": "Added the missing provincial context for a root native office; the associated military-seat identifier is not used as a visual endpoint." }
   }
 ]
