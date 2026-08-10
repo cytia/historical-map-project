@@ -1,0 +1,93 @@
+[
+  {
+    "id": "name-hami-wei-jimi-seat",
+    "placeId": "hami-wei-jimi-seat",
+    "name": "哈密卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shi-hami", "claim": "name", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "1600年关西七卫地图标签。" }
+  },
+  {
+    "id": "name-anding-wei-jimi-seat",
+    "placeId": "anding-wei-jimi-seat",
+    "name": "安定卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "name", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "1600年关西七卫地图标签。" }
+  },
+  {
+    "id": "name-aduan-wei-jimi-seat",
+    "placeId": "aduan-wei-jimi-seat",
+    "name": "阿端卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "name", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "1600年关西七卫地图标签。" }
+  },
+  {
+    "id": "name-chijin-mongol-wei-jimi-seat",
+    "placeId": "chijin-mongol-wei-jimi-seat",
+    "name": "赤斤蒙古卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "name", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "1600年关西七卫地图标签。" }
+  },
+  {
+    "id": "name-quxian-wei-jimi-seat",
+    "placeId": "quxian-wei-jimi-seat",
+    "name": "曲先卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "name", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "1600年关西七卫地图标签。" }
+  },
+  {
+    "id": "name-handong-wei-jimi-seat",
+    "placeId": "handong-wei-jimi-seat",
+    "name": "罕东卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "name", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "1600年关西七卫地图标签。" }
+  },
+  {
+    "id": "name-handong-left-wei-jimi-seat",
+    "placeId": "handong-left-wei-jimi-seat",
+    "name": "罕东左卫",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "name", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "name", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "1600年关西七卫地图标签。" }
+  }
+]

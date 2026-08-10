@@ -1,0 +1,121 @@
+[
+  {
+    "id": "hami-wei-jimi",
+    "name": "哈密卫",
+    "formalName": "哈密卫",
+    "jimiKind": "military-institution",
+    "officeKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "hami-wei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "note": "按晚明西域七卫名录录入为独立一级羁縻卫点；点位表示历史机构及区域代理，不表示1600年仍有稳定常驻或有效控制。",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-hami", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "录入关西七卫独立一级点位；不创建关西七卫实体根点，也不建立卫与卫之间的羁縻归属关系。" }
+  },
+  {
+    "id": "anding-wei-jimi",
+    "name": "安定卫",
+    "formalName": "安定卫",
+    "jimiKind": "military-institution",
+    "officeKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "anding-wei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "note": "按晚明西域七卫名录录入为独立一级羁縻卫点；点位表示历史机构及区域代理，不表示1600年仍有稳定常驻或有效控制。",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "录入关西七卫独立一级点位；不创建关西七卫实体根点，也不建立卫与卫之间的羁縻归属关系。" }
+  },
+  {
+    "id": "aduan-wei-jimi",
+    "name": "阿端卫",
+    "formalName": "阿端卫",
+    "jimiKind": "military-institution",
+    "officeKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "aduan-wei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "note": "按晚明西域七卫名录录入为独立一级羁縻卫点；点位表示历史机构及区域代理，不表示1600年仍有稳定常驻或有效控制。",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "录入关西七卫独立一级点位；不创建关西七卫实体根点，也不建立卫与卫之间的羁縻归属关系。" }
+  },
+  {
+    "id": "chijin-mongol-wei-jimi",
+    "name": "赤斤蒙古卫",
+    "formalName": "赤斤蒙古卫",
+    "jimiKind": "military-institution",
+    "officeKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "chijin-mongol-wei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "note": "按晚明西域七卫名录录入为独立一级羁縻卫点；赤斤蒙古千户所是历史前身，不作为1600年二级子点。",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "录入关西七卫独立一级点位；不创建关西七卫实体根点，也不建立卫与卫之间的羁縻归属关系。" }
+  },
+  {
+    "id": "quxian-wei-jimi",
+    "name": "曲先卫",
+    "formalName": "曲先卫",
+    "jimiKind": "military-institution",
+    "officeKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "quxian-wei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "note": "按晚明西域七卫名录录入为独立一级羁縻卫点；点位表示历史机构及区域代理，不表示1600年仍有稳定常驻或有效控制。",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "录入关西七卫独立一级点位；不创建关西七卫实体根点，也不建立卫与卫之间的羁縻归属关系。" }
+  },
+  {
+    "id": "handong-wei-jimi",
+    "name": "罕东卫",
+    "formalName": "罕东卫",
+    "jimiKind": "military-institution",
+    "officeKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "handong-wei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "note": "按晚明西域七卫名录录入为独立一级羁縻卫点；点位表示历史机构及区域代理，不表示1600年仍有稳定常驻或有效控制。",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "录入关西七卫独立一级点位；不创建关西七卫实体根点，也不建立卫与卫之间的羁縻归属关系。" }
+  },
+  {
+    "id": "handong-left-wei-jimi",
+    "name": "罕东左卫",
+    "formalName": "罕东左卫",
+    "jimiKind": "military-institution",
+    "officeKind": "wei",
+    "polityId": "ming",
+    "seatPlaceId": "handong-left-wei-jimi-seat",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "medium",
+    "note": "按晚明西域七卫名录录入为独立一级羁縻卫点；其与罕东部众有历史渊源，但不转化为1600年卫—卫隶属关系。",
+    "sources": [
+      { "sourceId": "wanli-ming-huidian-guanxi-seven-wei", "claim": "existence", "confidence": "high" },
+      { "sourceId": "ming-shi-western-regions", "claim": "existence", "confidence": "high" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "录入关西七卫独立一级点位；不创建关西七卫实体根点，也不建立卫与卫之间的羁縻归属关系。" }
+  }
+]

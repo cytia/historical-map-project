@@ -418,6 +418,12 @@
     {
       "collection": "relations",
       "domain": "jimi",
+      "region": "nurgan",
+      "path": "relations/jimi/nurgan.json"
+    },
+    {
+      "collection": "relations",
+      "domain": "jimi",
       "region": "dugan",
       "path": "relations/jimi/dugan.json"
     },
@@ -453,8 +459,18 @@
     },
     {
       "collection": "jimiUnits",
+      "region": "nurgan",
+      "path": "units/special-governance/nurgan.json"
+    },
+    {
+      "collection": "jimiUnits",
       "region": "dugan",
       "path": "units/special-governance/dugan.json"
+    },
+    {
+      "collection": "jimiUnits",
+      "region": "guanxi-seven-wei",
+      "path": "units/special-governance/guanxi-seven-wei.json"
     },
     {
       "collection": "places",
@@ -643,8 +659,18 @@
     },
     {
       "collection": "places",
+      "region": "nurgan",
+      "path": "places/nurgan.json"
+    },
+    {
+      "collection": "places",
       "region": "dugan",
       "path": "places/dugan.json"
+    },
+    {
+      "collection": "places",
+      "region": "guanxi-seven-wei",
+      "path": "places/guanxi-seven-wei.json"
     },
     {
       "collection": "placeNames",
@@ -833,8 +859,18 @@
     },
     {
       "collection": "placeNames",
+      "region": "nurgan",
+      "path": "place-names/nurgan.json"
+    },
+    {
+      "collection": "placeNames",
       "region": "dugan",
       "path": "place-names/dugan.json"
+    },
+    {
+      "collection": "placeNames",
+      "region": "guanxi-seven-wei",
+      "path": "place-names/guanxi-seven-wei.json"
     },
     {
       "collection": "statistics",

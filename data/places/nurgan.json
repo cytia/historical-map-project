@@ -1,0 +1,610 @@
+[
+  {
+    "id": "nurgan-dusi-region-point",
+    "longitude": 139.76667,
+    "latitude": 52.93333,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Tyr (特林), near the historical Nurgan city/site; the modern coordinate is from Wikidata Q4467096 and is not an identified Ming Dusi seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-site-location-reference", "claim": "location", "confidence": "medium", "note": "The historical Nurgan city is identified with the Tyr/特林 area in the lower Amur region; this does not establish an exact Ming seat coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q4467096, 52°56′N 139°46′E; used only as a reversible modern regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Area-level proxy for the Nurgan Dusi point. Wei regional proxies are now recorded separately; no Suo coordinate is added until an independent historical location process identifies it."
+    }
+  },
+  {
+    "id": "nurgan-wei-001-regional-point",
+    "longitude": 122.73639,
+    "latitude": 48.00333,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Zalantun (扎兰屯), near the upper Chuo'er/Tao'er river region associated with Doyan; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-three-wei-location-reference", "claim": "location", "confidence": "low", "note": "The historical reference places Doyan in the upper Chuo'er/Tao'er and Greater Khingan region but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q145015, 48°0′12″N 122°44′11″E; used only as a reversible modern regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "First Wei coordinate candidate. The point makes the documented regional association visible while preserving the unresolved historical seat."
+    }
+  },
+  {
+    "id": "nurgan-wei-002-regional-point",
+    "longitude": 122.80369,
+    "latitude": 45.33835,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Taonan (洮南), on the Tao'er River region associated with Taining; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-three-wei-location-reference", "claim": "location", "confidence": "low", "note": "The historical reference records Taining among the Wuliangha three guards and describes later movement; it does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q11147381, 45°20′18.056″N 122°48′13.280″E; modern Taonan railway station used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Regional proxy for the Taining Wei. It is not a claim that the modern railway station marks the Ming seat."
+    }
+  },
+  {
+    "id": "nurgan-wei-003-regional-point",
+    "longitude": 131.11861,
+    "latitude": 44.06083,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Dongning (东宁), near the Dacengzi ancient-city area associated with the historical Jianzhou name; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-jianzhou-location-reference", "claim": "location", "confidence": "low", "note": "The Dongning government reference associates the Dacengzi site with Bohai Jianzhou and the later Jianzhou tradition; this does not resolve the Ming Wei's changing locations." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1241426, 44°3′39″N 131°7′7″E; modern Dongning coordinate used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Regional proxy for Jianzhou Wei. The institution had a documented history of movement, so the point must not be read as a fixed 1600 seat."
+    }
+  },
+  {
+    "id": "nurgan-wei-005-regional-point",
+    "longitude": 124.45944,
+    "latitude": 47.81194,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Fuyu Town (富裕镇), near the lower Nen River region associated with Fuyu; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-three-wei-location-reference", "claim": "location", "confidence": "low", "note": "The historical reference records Fuyu among the Wuliangha three guards and describes later movement; it does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1475676, 47°48′43″N 124°27′34″E; modern Fuyu Town coordinate used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Regional proxy for the Fuyu Wei roster entry. The point does not establish continuity of the Wei seat at this modern town."
+    }
+  },
+  {
+    "id": "nurgan-wei-013-regional-point",
+    "longitude": 130.35833,
+    "latitude": 42.86778,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Hunchun (珲春), near the Gaya River and lower Tumen River region associated with Maolian; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-maolian-location-reference", "claim": "location", "confidence": "low", "note": "The historical study places Maolian around the Gaya River and north of the lower Tumen region, while also describing later movement; it does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q128674, 42°52′4″N 130°21′30″E; modern Hunchun coordinate used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Regional proxy for Maolian Wei. The point preserves the documented area association without asserting an exact seat."
+    }
+  },
+  {
+    "id": "nurgan-jianzhou-three-wei-region-point",
+    "longitude": 124.85806,
+    "latitude": 41.70194,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy in the upper Suzi River region near modern Hetu Ala (赫图阿拉); shared by Jianzhou Left and Right Wei as a regional reference, not an identified 1600 seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-jianzhou-three-wei-reference", "claim": "location", "confidence": "low", "note": "The historical reference records repeated movement of the Jianzhou three Wei and their later concentration in the upper Suzi River region; it does not identify separate 1600 coordinates for the Left and Right Wei." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q842950, 41°42′7″N 124°51′29″E; modern Hetu Ala coordinate used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Shared area proxy for the Jianzhou Left and Right Wei. It is intentionally not split into fabricated separate seats."
+    }
+  },
+  {
+    "id": "nurgan-wei-028-regional-point",
+    "longitude": 130.25583,
+    "latitude": 44.52417,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Muling Town (穆棱镇), within the Muling River region associated with Mailan; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The reference associates Mailan River Wei with the modern Muling River basin, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q13976586, 44°31′27″N 130°15′21″E; modern Muling Town used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Muling River regional proxy for Mailan Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-030-regional-point",
+    "longitude": 131.95,
+    "latitude": 43.8,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Ussuriysk (双城子), associated with the historical Shuangcheng Wei name; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies Shuangcheng Wei with the Ussuriysk area; it does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q196934, 43°48′N 131°57′E; modern Ussuriysk used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Ussuriysk regional proxy for Shuangcheng Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-034-regional-point",
+    "longitude": 135.06667,
+    "latitude": 48.48333,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Khabarovsk, near the lower Amur region associated with Yierguli; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference places Yierguli in the Khabarovsk-northeastern lower-Amur area and does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q4454, 48°29′N 135°4′E; modern Khabarovsk used only as a reversible lower-Amur regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a deliberately broad lower-Amur proxy for Yierguli Wei; a more precise Elabuga-area coordinate requires a separate review."
+    }
+  },
+  {
+    "id": "nurgan-wei-035-regional-point",
+    "longitude": 127.88731,
+    "latitude": 51.01864,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at the modern Tom River mouth, a tributary of the Zeya associated with Tuomu River Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies Tuomu River Wei with the Tom River tributary of the Zeya, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q2332834, Tom River mouth 51°1′7.10″N 127°53′14.30″E; used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Tom River regional proxy for Tuomu River Wei; the separate Buludan River Wei is not co-located without a distinct coordinate source."
+    }
+  },
+  {
+    "id": "nurgan-wei-041-regional-point",
+    "longitude": 129.46167,
+    "latitude": 44.34333,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Ning'an (宁安), following the regional identification of Asu River Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies Asu River Wei with the Ning'an area; other modern identifications associate Asu River with the Ussuri, so this remains contested." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1321612, 44°20′36″N 129°27′42″E; modern Ning'an used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a contested, low-confidence Ning'an regional proxy for Asu River Wei; the alternative Ussuri identification remains recorded in the note."
+    }
+  },
+  {
+    "id": "nurgan-wei-042-regional-point",
+    "longitude": 131.16111,
+    "latitude": 44.39444,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Suifenhe (绥芬河), within the Suifen River region associated with Supingjiang Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies Supingjiang Wei with the Suifen River area, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1024736, 44°23′40″N 131°9′23″E; modern Suifenhe used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Suifenhe regional proxy for Supingjiang Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-063-regional-point",
+    "longitude": 130.83586,
+    "latitude": 54.16931,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at the modern Uda River source region, associated with Wudi River Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies Wudi River Wei with the Uda River basin, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1474782, Uda River source 54°10′9.5″N 130°50′39.1″E; used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Uda River regional proxy for Wudi River Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-073-regional-point",
+    "longitude": 134.42486,
+    "latitude": 43.73394,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at the Ussuri River source region, associated with Yisuli River Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies Yisuli River Wei with the Ussuri River area, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q207777, Ussuri River source 48°16′25.8″N 134°43′13.9″E; used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Ussuri River regional proxy for Yisuli River Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-117-regional-point",
+    "longitude": 131.86667,
+    "latitude": 45.54194,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Mishan (密山), on the southwest Xingkai Lake region associated with Mowen River Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference places Mowen River Wei southwest of Xingkai Lake, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q203738, 45°32′31″N 131°52′0″E; modern Mishan used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Mishan regional proxy for Mowen River Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-119-regional-point",
+    "longitude": 140.43579,
+    "latitude": 52.37397,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Bogorodskoye (博戈罗茨科耶), associated with Buluowu Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference associates Buluowu Wei with modern Bogorodskoye, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q4089737, 52°22′26.29″N 140°26′8.84″E; modern Bogorodskoye used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence lower-Amur proxy for Buluowu Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-126-regional-point",
+    "longitude": 129.55639,
+    "latitude": 46.315,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Yilan (依兰), associated with Hu'erhai Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies Hu'erhai Wei with the Yilan area, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1027304, 46°18′54″N 129°33′23″E; modern Yilan County used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Yilan regional proxy for Hu'erhai Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-133-regional-point",
+    "longitude": 123.95111,
+    "latitude": 47.33972,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy in modern Qiqihar (齐齐哈尔), associated with the Arlon River basin northwest of the city; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference places Arlon Wei in the Arlon River basin northwest of modern Qiqihar, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q205922, 47°20′23″N 123°57′4″E; modern Qiqihar used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Qiqihar-area proxy for Arlon Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-134-regional-point",
+    "longitude": 127.45686,
+    "latitude": 53.98356,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at the source region of the Gilyuy (古柳伊) River, associated with Guli River Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference associates Guli River Wei with the Gilyuy River source region, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1524376, 53°59′0.8″N 127°27′24.7″E; Gilyuy source coordinate used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Gilyuy source-region proxy for Guli River Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-136-regional-point",
+    "longitude": 127.9557,
+    "latitude": 45.2063,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Shangzhi (尚志), within the Ant River basin associated with Muxing River Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference associates Muxing River Wei with the Ant River basin, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q11039471, 45°12′22.680″N 127°57′20.520″E; modern Shangzhi Railway Station used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Ant River basin proxy for Muxing River Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-138-regional-point",
+    "longitude": 129.56385,
+    "latitude": 48.45255,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Tangwang County (汤旺县), associated with the Muxun River basin, a tributary of the Tangwang River; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies the Muxun River as a tributary of the Tangwang River and associates it with Zuomushu River Wei, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q68462196, 48°27′9.1768″N 129°33′49.8578″E; modern Tangwang County used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Tangwang-area proxy for Zuomushu River Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-139-regional-point",
+    "longitude": 134.72053,
+    "latitude": 48.27383,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at the modern Ussuri River mouth near the Heilongjiang confluence, associated with Xishen Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference places Xishen Wei near the Heilongjiang–Ussuri confluence, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q207777, modern Ussuri River mouth coordinate 48°16′25.8″N 134°43′13.9″E; used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Heilongjiang–Ussuri confluence proxy for Xishen Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-142-regional-point",
+    "longitude": 133.67449,
+    "latitude": 45.97329,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at the mouth of the Bolshaya Ussurka (伊曼) River, associated with Yima River Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies Yima River Wei with the Yiman River mouth and Yiman settlement, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q891573, Bolshaya Ussurka mouth 45°58′23.855″N 133°40′28.171″E; used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Yiman River mouth proxy for Yima River Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-144-regional-point",
+    "longitude": 130.26222,
+    "latitude": 45.28556,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Linkou County (林口县), associated with the Wuhulin River area, a Mudanjiang tributary; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference places Fayin River Wei in the Wuhulin River area, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1334083, 45°17′8″N 130°15′44″E; modern Linkou County used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Wuhulin-area proxy for Fayin River Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-151-regional-point",
+    "longitude": 132.50306,
+    "latitude": 47.65028,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Tongjiang (同江), near the Heilongjiang–Songhua confluence associated with Wula Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference places Wula Wei on the north bank of the Heilongjiang–Songhua confluence, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1022983, 47°39′1″N 132°30′11″E; modern Tongjiang used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Tongjiang-area proxy for Wula Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-167-regional-point",
+    "longitude": 132.13135,
+    "latitude": 47.2887,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Fujin (富锦), associated with Xuancheng Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference identifies Xuancheng Wei with the modern Fujin area, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q10929330, 47°17′19.320″N 132°7′52.849″E; modern Fujin Town used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Fujin-area proxy for Xuancheng Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-226-regional-point",
+    "longitude": 128.66667,
+    "latitude": 47.16667,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at the source region of the Hulan River, associated with Nalaki Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference associates Nalaki Wei with the Nalaki River, a tributary of the Hulan River, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1636246, Hulan River source coordinate 47°10′0″N 128°40′0″E; used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Hulan source-region proxy for Nalaki Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-241-regional-point",
+    "longitude": 134.28861,
+    "latitude": 48.36444,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Fuyuan (抚远), associated with the Xilulin ancient-city area; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "location", "confidence": "low", "note": "The regional reference associates Qilieni Wei with the Xilulin ancient-city area in modern Fuyuan County, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q737131, 48°21′52″N 134°17′19″E; modern Fuyuan Town used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Fuyuan-area proxy for Qilieni Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-271-regional-point",
+    "longitude": 129.55639,
+    "latitude": 46.315,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy in modern Yilan (依兰), used for the Madai Tun area associated with Wodoli Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "nurgan-wodoli-madai-reference", "claim": "location", "confidence": "low", "note": "The reference identifies Wodoli Wei with Madai Tun in the Yilan area, but does not establish a fixed 1600 seat or an independently licensed Madai Tun coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1027304, 46°18′54″N 129°33′23″E; modern Yilan County used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Yilan-area proxy for Wodoli Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-301-regional-point",
+    "longitude": 122.53083,
+    "latitude": 52.96833,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Mohe (漠河), used for the Muhe Wei region; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "mohe-muhe-wei-history-reference", "claim": "location", "confidence": "low", "note": "The official local history identifies Muhe Wei with the Ming-era Mohe area, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q163094, 52°58′8″N 122°31′51″E; modern Mohe City used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Mohe-area proxy for Muhe Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-316-regional-point",
+    "longitude": 126.56167,
+    "latitude": 43.84611,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy in the modern Jilin (吉林) area, used for the Laxin River correction associated with Na-su Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "qinding-manzhou-yuanliu-kao", "claim": "location", "confidence": "low", "note": "The source corrects old Na-su to Laxin River and places the river southwest of Jilin, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q92277, 43°50′46″N 126°33′42″E; modern Jilin City used only as a reversible broad-area proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Jilin-area proxy for Na-su Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-319-regional-point",
+    "longitude": 126.56167,
+    "latitude": 43.84611,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy in the modern Jilin (吉林) area, used for the Huru River correction associated with Wulu Wei; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "qinding-manzhou-yuanliu-kao", "claim": "location", "confidence": "low", "note": "The source corrects old Wulu to Huru River and places the river southwest of Jilin, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q92277, 43°50′46″N 126°33′42″E; modern Jilin City used only as a reversible broad-area proxy; sharing this proxy with another Wei does not imply a Wei-to-Wei relation." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Jilin-area proxy for Wulu Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-330-regional-point",
+    "longitude": 124.70222,
+    "latitude": 52.33306,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Tahe (塔河), used for the Taha Wei and Taha River region; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "huma-taha-wei-history-reference", "claim": "location", "confidence": "low", "note": "The official local history places Taha Wei in the present Tahe County area and associates it with the Taha River, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q582413, 52°19′59″N 124°42′8″E; modern Tahe County used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Tahe-area proxy for Taha Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-wei-362-regional-point",
+    "longitude": 126.94278,
+    "latitude": 44.40778,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Shulan (舒兰), used for the Arlin Wei region; not an identified 1600 Wei seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "qing-shi-gao-jilin-shulan-reference", "claim": "location", "confidence": "low", "note": "The source records the present Shulan area as Arlin Wei land, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1205127, 44°24′28″N 126°56′34″E; modern Shulan used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Shulan-area proxy for Arlin Wei; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-suo-01-regional-point",
+    "longitude": 129.56385,
+    "latitude": 48.45255,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Tangwang County (汤旺县), used for the Tangwang River basin associated with Wuzhe Tuowen Suo; not an identified 1600 Suo seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "northeast-history-atlas-data-compilation", "claim": "location", "confidence": "low", "note": "The atlas places Wuzhe Tuowen Suo in the modern Tangwang River basin, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q68462196, 48°27′9.1768″N 129°33′49.8578″E; modern Tangwang County used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Tangwang River basin proxy for Wuzhe Tuowen Suo; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-suo-03-regional-point",
+    "longitude": 134.2875,
+    "latitude": 48.36139,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Fuyuan (抚远), used for the Wuzhe Kuiyemu Suo region; not an identified 1600 Suo seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "northeast-history-atlas-data-compilation", "claim": "location", "confidence": "low", "note": "The atlas places Wuzhe Kuiyemu Suo in the modern Fuyuan area, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1333360, 48°21′41″N 134°17′15″E; modern Fuyuan used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Fuyuan-area proxy for Wuzhe Kuiyemu Suo; the historical seat remains unresolved."
+    }
+  },
+  {
+    "id": "nurgan-suo-13-regional-point",
+    "longitude": 128.74222,
+    "latitude": 45.97361,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Area-level proxy at modern Tonghe County (通河县), used for the Hasa(n) Suo region; not an identified 1600 Suo seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "northeast-history-atlas-data-compilation", "claim": "location", "confidence": "low", "note": "The atlas places Hasa(n) Suo near modern Tonghe, but does not establish a fixed 1600 seat." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1027307, 45°58′25″N 128°44′32″E; modern Tonghe County used only as a reversible regional proxy." }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Added a low-confidence Tonghe-area proxy for Hasa(n) Suo; the historical seat remains unresolved."
+    }
+  }
+]

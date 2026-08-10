@@ -48,6 +48,12 @@ const affiliationProperty: Record<MapDisplayMode, string> = {
   control: "controllingActorId",
 };
 
+const jimiRootAffiliations = {
+  "nurgan-dusi-jimi": "nurgan",
+  "dugan-xing-dusi-jimi": "dugan",
+  "wusizang-dusi-jimi": "ust-tibet",
+} as const;
+
 export function affiliationColorExpression(
   mode: MapDisplayMode,
   affiliationIds: readonly string[],
@@ -60,6 +66,22 @@ export function affiliationColorExpression(
   ]);
   return ["match", ["get", affiliationProperty[mode]], ...branches,
     mapColors.affiliationNeutral] as unknown as ExpressionSpecification;
+}
+
+export function jimiColorExpression(): string | ExpressionSpecification {
+  const rootBranches = Object.entries(jimiRootAffiliations).flatMap(([rootId, affiliationId]) => [
+    rootId,
+    mapColors.jimiAffiliationColors[affiliationId],
+  ]);
+  const administrativeBranches = Object.entries(mapColors.affiliationColors).flatMap(([id, color]) => [
+    id,
+    color,
+  ]);
+  return ["match", ["get", "jimiRootId"], ...rootBranches,
+    ["match", ["get", "regionId"], ...administrativeBranches,
+      mapColors.affiliationNeutral,
+    ],
+  ] as unknown as ExpressionSpecification;
 }
 
 export function militaryColorExpression(

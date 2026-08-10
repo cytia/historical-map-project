@@ -1,7 +1,7 @@
 import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
 import { jimiRecords } from "./jimiData";
 import { jimiHierarchyData } from "./jimiHierarchyData";
-import { affiliationColorExpression } from "./mapDisplay";
+import { jimiColorExpression } from "./mapDisplay";
 import {
   ensureJimiSymbolImages,
   jimiNativeOfficeSymbolImageId,
@@ -10,7 +10,6 @@ import {
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { createRelationRenderer } from "./relationRenderer";
 import { defaultTheme } from "./theme";
-import { administrativeAffiliationIds } from "./data";
 import type { HierarchyScope } from "./types";
 
 const tokens = defaultTheme.map;
@@ -22,7 +21,7 @@ const flowLayerId = "jimi-relation-flow";
 const pointOutlineLayerId = "jimi-point-outline";
 const pointLayerId = "jimi-points";
 const labelLayerId = "jimi-labels";
-const jimiAffiliationColor = affiliationColorExpression("administrative", administrativeAffiliationIds);
+const jimiAffiliationColor = jimiColorExpression();
 const jimiRelationRenderer = createRelationRenderer({
   relationSourceId,
   flowSourceId,

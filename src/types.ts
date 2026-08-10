@@ -82,6 +82,7 @@ export interface JimiUnit {
     precision: "exact" | "circa" | "range" | "unknown";
   };
   confidence?: Confidence;
+  note?: string;
   sources?: SourceLink[];
   sourceIds?: string[];
 }

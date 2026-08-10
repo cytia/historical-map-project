@@ -87,6 +87,7 @@ function JimiDetailPanelContent({ record }: { record: JimiRecord }) {
           <div><dt>机构类别</dt><dd>{jimiOfficeLabel(record.unit.officeKind)}</dd></div>
           <div><dt>坐标</dt><dd>{record.place.longitude?.toFixed(5)}, {record.place.latitude?.toFixed(5)}</dd></div>
           {record.place.locationMethod && <div><dt>定位方法</dt><dd>{record.place.locationMethod}</dd></div>}
+          {record.unit.note && <div><dt>资料说明</dt><dd>{record.unit.note}</dd></div>}
           <div><dt>来源数</dt><dd>{sources.length}</dd></div>
         </dl>
         {sources.map((source) => <article className="source" key={source.id}>

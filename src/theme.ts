@@ -65,6 +65,11 @@ export const defaultTheme = {
       guangdong: "#C38459",
       guangxi: "#95616E",
     },
+    jimiAffiliationColors: {
+      nurgan: "#4F7785",
+      dugan: "#B1844D",
+      "ust-tibet": "#925B69",
+    },
     militaryAffiliationVariants: {
       jingshi: "#9A6A63",
       henan: "#A98152",

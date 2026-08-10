@@ -1,0 +1,517 @@
+[
+  {
+    "id": "name-nurgan-dusi-region-point",
+    "placeId": "nurgan-dusi-region-point",
+    "name": "奴儿干",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "high",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-site-location-reference", "claim": "name", "confidence": "medium" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Historical regional label for the Nurgan Dusi proxy; it is not a claim that the point is an exact identified seat."
+    }
+  },
+  {
+    "id": "name-nurgan-wei-001-regional-point",
+    "placeId": "nurgan-wei-001-regional-point",
+    "name": "朵颜卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-three-wei-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name."
+    }
+  },
+  {
+    "id": "name-nurgan-wei-002-regional-point",
+    "placeId": "nurgan-wei-002-regional-point",
+    "name": "泰甯卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-three-wei-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name."
+    }
+  },
+  {
+    "id": "name-nurgan-wei-003-regional-point",
+    "placeId": "nurgan-wei-003-regional-point",
+    "name": "建州卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-jianzhou-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name."
+    }
+  },
+  {
+    "id": "name-nurgan-wei-005-regional-point",
+    "placeId": "nurgan-wei-005-regional-point",
+    "name": "作兀里福馀卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-three-wei-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name."
+    }
+  },
+  {
+    "id": "name-nurgan-wei-013-regional-point",
+    "placeId": "nurgan-wei-013-regional-point",
+    "name": "毛怜卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-maolian-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name."
+    }
+  },
+  {
+    "id": "name-nurgan-jianzhou-three-wei-region-point",
+    "placeId": "nurgan-jianzhou-three-wei-region-point",
+    "name": "建州三卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-jianzhou-three-wei-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-10",
+      "revisionNote": "Shared regional label for the Jianzhou Left and Right Wei; not an exact Ming seat name."
+    }
+  },
+  {
+    "id": "name-nurgan-wei-028-regional-point",
+    "placeId": "nurgan-wei-028-regional-point",
+    "name": "麦兰河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-030-regional-point",
+    "placeId": "nurgan-wei-030-regional-point",
+    "name": "双城卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-034-regional-point",
+    "placeId": "nurgan-wei-034-regional-point",
+    "name": "亦儿古里卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a deliberately broad lower-Amur proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-035-regional-point",
+    "placeId": "nurgan-wei-035-regional-point",
+    "name": "脱木河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-041-regional-point",
+    "placeId": "nurgan-wei-041-regional-point",
+    "name": "阿速江卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a contested low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-042-regional-point",
+    "placeId": "nurgan-wei-042-regional-point",
+    "name": "速平江卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-063-regional-point",
+    "placeId": "nurgan-wei-063-regional-point",
+    "name": "兀的河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-073-regional-point",
+    "placeId": "nurgan-wei-073-regional-point",
+    "name": "亦速里河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-117-regional-point",
+    "placeId": "nurgan-wei-117-regional-point",
+    "name": "莫温河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-119-regional-point",
+    "placeId": "nurgan-wei-119-regional-point",
+    "name": "卜鲁兀卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-126-regional-point",
+    "placeId": "nurgan-wei-126-regional-point",
+    "name": "忽儿海卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-133-regional-point",
+    "placeId": "nurgan-wei-133-regional-point",
+    "name": "阿伦卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-134-regional-point",
+    "placeId": "nurgan-wei-134-regional-point",
+    "name": "古里河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-136-regional-point",
+    "placeId": "nurgan-wei-136-regional-point",
+    "name": "木兴河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-138-regional-point",
+    "placeId": "nurgan-wei-138-regional-point",
+    "name": "作木束河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-139-regional-point",
+    "placeId": "nurgan-wei-139-regional-point",
+    "name": "喜申卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-142-regional-point",
+    "placeId": "nurgan-wei-142-regional-point",
+    "name": "亦麻河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-144-regional-point",
+    "placeId": "nurgan-wei-144-regional-point",
+    "name": "法因河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-151-regional-point",
+    "placeId": "nurgan-wei-151-regional-point",
+    "name": "兀剌卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-167-regional-point",
+    "placeId": "nurgan-wei-167-regional-point",
+    "name": "玄城卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-226-regional-point",
+    "placeId": "nurgan-wei-226-regional-point",
+    "name": "纳剌吉卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-241-regional-point",
+    "placeId": "nurgan-wei-241-regional-point",
+    "name": "乞列尼卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-heilongjiang-rivers-location-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-271-regional-point",
+    "placeId": "nurgan-wei-271-regional-point",
+    "name": "斡朵里卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "nurgan-wodoli-madai-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-301-regional-point",
+    "placeId": "nurgan-wei-301-regional-point",
+    "name": "木河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "mohe-muhe-wei-history-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-316-regional-point",
+    "placeId": "nurgan-wei-316-regional-point",
+    "name": "纳速河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "qinding-manzhou-yuanliu-kao", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-319-regional-point",
+    "placeId": "nurgan-wei-319-regional-point",
+    "name": "兀鲁河卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "qinding-manzhou-yuanliu-kao", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-330-regional-point",
+    "placeId": "nurgan-wei-330-regional-point",
+    "name": "塔哈卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "huma-taha-wei-history-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-wei-362-regional-point",
+    "placeId": "nurgan-wei-362-regional-point",
+    "name": "阿林卫区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "qing-shi-gao-jilin-shulan-reference", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-suo-01-regional-point",
+    "placeId": "nurgan-suo-01-regional-point",
+    "name": "兀者托温千户所区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "northeast-history-atlas-data-compilation", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-suo-03-regional-point",
+    "placeId": "nurgan-suo-03-regional-point",
+    "name": "兀者揆野木千户所区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "northeast-history-atlas-data-compilation", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  },
+  {
+    "id": "name-nurgan-suo-13-regional-point",
+    "placeId": "nurgan-suo-13-regional-point",
+    "name": "哈三千户所区域",
+    "script": "historical",
+    "validity": { "from": 1600, "to": 1600, "precision": "exact" },
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-military-two", "claim": "name", "confidence": "high" },
+      { "sourceId": "northeast-history-atlas-data-compilation", "claim": "name", "confidence": "low" }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "Regional label for a low-confidence proxy; not an exact Ming seat name." }
+  }
+]

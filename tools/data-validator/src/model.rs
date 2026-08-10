@@ -247,6 +247,7 @@ pub struct JimiUnit {
     pub seat_place_id: Option<String>,
     pub validity: YearRange,
     pub confidence: Confidence,
+    pub note: Option<String>,
     pub sources: Vec<SourceLink>,
     pub audit: Audit,
 }

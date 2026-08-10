@@ -67,8 +67,8 @@ export function MapView() {
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      center: [117.9, 32.05],
-      zoom: 5.1,
+      center: [123.5, 36.5],
+      zoom: 4.0,
       minZoom: 4,
       maxZoom: 10,
       clickTolerance: selectionClickTolerance,

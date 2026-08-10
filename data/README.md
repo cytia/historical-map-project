@@ -41,6 +41,7 @@ Rules:
 - Keep physical places separate from the institutions that use them as seats.
 - Keep `militaryUnits` separate from `administrativeUnits`; store military subordination and administrative context in `relations` rather than in an administrative `parentId`.
 - Keep `jimiUnits` separate from both military and civil units; store jimi subordination and administrative context in `relations` rather than in a unit `parentId`.
+- Use the optional `jimiUnit.note` field for unit-level historical qualifications that must be visible in the detailed panel; keep relation-specific caveats in `relation.note`.
 - Keep native-office and military-institution hierarchies separate; a `jimi-subordination` relation must not cross jimi kinds or target an administrative unit.
 - Do not edit generated GeoJSON, tile artifacts, or `.generated/runtime-index.json` directly. Treat the manifest and its fragments as the only editable data source.
 - Run runtime preparation and the Rust validator before accepting data changes.

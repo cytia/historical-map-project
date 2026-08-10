@@ -302,6 +302,7 @@
         "seatPlaceId": { "$ref": "#/$defs/id" },
         "validity": { "$ref": "#/$defs/yearRange" },
         "confidence": { "$ref": "#/$defs/confidence" },
+        "note": { "type": "string", "maxLength": 500 },
         "sources": {
           "type": "array",
           "minItems": 1,

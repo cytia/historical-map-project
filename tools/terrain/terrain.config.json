@@ -30,7 +30,7 @@
       "output": "public/terrain/southeast-coast-terrain.pmtiles"
     },
     "china": {
-      "bounds": [70, 15, 140, 55],
+      "bounds": [70, 15, 150, 55],
       "minZoom": 3,
       "maxZoom": 8,
       "output": "public/terrain/china-terrain.pmtiles"

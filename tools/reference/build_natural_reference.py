@@ -9,7 +9,7 @@ from shapely.geometry import box, mapping, shape
 from shapely.ops import unary_union
 
 
-VIEWPORT = (70.0, 15.0, 140.0, 55.0)
+VIEWPORT = (70.0, 15.0, 150.0, 55.0)
 LAYERS = (
     ("land", "ne_10m_land.zip", 0.005),
     ("lake", "ne_10m_lakes.zip", 0.0001),

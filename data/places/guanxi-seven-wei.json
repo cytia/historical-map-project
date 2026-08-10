@@ -1,0 +1,93 @@
+[
+  {
+    "id": "hami-wei-jimi-seat",
+    "longitude": 93.51556,
+    "latitude": 42.83222,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Hami city regional proxy; the historical Hami Wei seat and its late-Ming effective status are not treated as precisely identified.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-hami", "claim": "location", "confidence": "medium", "note": "The historical source records Hami Wei's changing seat and political condition; it does not supply a modern coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q989892, 42°49′56″N 93°30′56″E; modern Hami proxy only." }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "区域代理点，不等同于1600年哈密卫精确治所。" }
+  },
+  {
+    "id": "anding-wei-jimi-seat",
+    "longitude": 93.8905,
+    "latitude": 38.8675,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Sugan Lake regional proxy for the western Qinghai-Gansu borderlands; the historical An'ding Wei seat is not resolved to a fixed 1600 coordinate.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-western-regions", "claim": "location", "confidence": "medium", "note": "The historical source records An'ding Wei's remote location and movements without an exact modern coordinate." },
+      { "sourceId": "dahiti-sugan-lake-coordinates", "claim": "location", "confidence": "medium", "note": "DAHITI-ID 11005, 38.8675°N 93.8905°E; Sugan Lake used as a reversible area proxy." }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "区域代理点，不等同于1600年安定卫精确治所。" }
+  },
+  {
+    "id": "aduan-wei-jimi-seat",
+    "longitude": 91.6,
+    "latitude": 37.98333,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Mangnai/Mangya regional proxy for the western Qaidam area; the historical A-duan Wei seat is not resolved to a fixed coordinate.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-western-regions", "claim": "location", "confidence": "medium", "note": "The historical source records the western Qaidam setting and relocations without an exact modern coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1201941, 37°59′N 91°36′E; modern Mangnai/Mangya regional proxy only." }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "区域代理点，不等同于1600年阿端卫精确治所。" }
+  },
+  {
+    "id": "chijin-mongol-wei-jimi-seat",
+    "longitude": 97.42592,
+    "latitude": 40.01428,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Chijin Town regional proxy near the historical Chijin Mongol Wei area; the Ming guard city is not assigned this coordinate as an exact seat.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-western-regions", "claim": "location", "confidence": "medium", "note": "The historical source records the guard and its later movement without a coordinate-grade seat identification." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q13924748, 40°00′51″N 97°25′33″E; modern Chijin Town proxy only." }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "区域代理点，不等同于1600年赤斤蒙古卫精确治所。" }
+  },
+  {
+    "id": "quxian-wei-jimi-seat",
+    "longitude": 91.6,
+    "latitude": 37.98333,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Mangnai/Mangya regional proxy for the historical Yaowangtan-Oil Spring area; the historical Quxian Wei seat is not resolved to a fixed coordinate.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-western-regions", "claim": "location", "confidence": "medium", "note": "The historical location is associated with the western Qaidam area; Yaowangtan/Oil Spring is not mapped to a coordinate-grade historical seat here." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q1201941, 37°59′N 91°36′E; modern Mangnai/Mangya regional proxy only." }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "区域代理点，不等同于1600年曲先卫精确治所。" }
+  },
+  {
+    "id": "handong-wei-jimi-seat",
+    "longitude": 94.66389,
+    "latitude": 40.14167,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Modern Dunhuang regional proxy for the historical Shazhou-Dunhuang area; later movements prevent a fixed 1600 seat claim.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-western-regions", "claim": "location", "confidence": "medium", "note": "The historical source records Handong Wei and later movement without a coordinate-grade seat identification." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q319114, 40°8′28″N 94°39′50″E; modern Dunhuang regional proxy only." }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "区域代理点，不等同于1600年罕东卫精确治所。" }
+  },
+  {
+    "id": "handong-left-wei-jimi-seat",
+    "longitude": 94.66389,
+    "latitude": 40.14167,
+    "locationAccuracy": "area_only",
+    "locationMethod": "Shared modern Dunhuang regional proxy for the historical Shazhou seat of Handong Left Wei; no within-city offset is inferred.",
+    "confidence": "low",
+    "sources": [
+      { "sourceId": "ming-shi-western-regions", "claim": "location", "confidence": "medium", "note": "The historical source associates Handong Left Wei with the former Shazhou area but does not establish an exact coordinate." },
+      { "sourceId": "wikidata-modern-place-coordinates", "claim": "location", "confidence": "medium", "note": "Wikidata Q319114, 40°8′28″N 94°39′50″E; shared modern Dunhuang regional proxy only." }
+    ],
+    "audit": { "reviewedOn": "2026-08-10", "revisionNote": "与罕东卫共享区域代理点；不人为制造视觉偏移，也不表示二者存在卫级隶属关系。" }
+  }
+]
