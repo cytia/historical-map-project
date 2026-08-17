@@ -78,6 +78,8 @@ export function queryMapTargets(map: Map, point: PointLike, selectionDomain: Sel
       : selectionDomain === "military"
         ? ["jimi-labels", "jimi-points", "county-labels", "county-points", "seat-labels", "seat-points"]
         : ["jimi-labels", "jimi-points", "military-labels", "military-points"]),
+    // Ranked last so a click that lands on a point inside a province still picks the point.
+    "province-boundary-fill",
   ].filter((layerId) => map.getLayer(layerId));
   try {
     const [x, y] = pointCoordinates(point);
@@ -86,6 +88,10 @@ export function queryMapTargets(map: Map, point: PointLike, selectionDomain: Sel
       [x + selectionHitRadius, y + selectionHitRadius],
     ], { layers });
     const targets = features.reduce<MapTarget[]>((result, { properties }) => {
+      if (typeof properties?.unitId === "string") {
+        result.push({ kind: "seat", id: properties.unitId, regionId: properties.unitId });
+        return result;
+      }
       if (properties?.kind === "military") {
         const target = targetFromMilitaryProperties(properties);
         if (target) result.push(target);

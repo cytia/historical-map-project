@@ -22,6 +22,7 @@ interface AppState {
   seatsVisible: boolean;
   militaryVisible: boolean;
   jimiVisible: boolean;
+  boundariesVisible: boolean;
   hierarchyScope: HierarchyScope;
   mapDisplayMode: MapDisplayMode;
   militaryColorMode: MilitaryColorMode;
@@ -40,6 +41,7 @@ interface AppState {
   setSeatsVisible: (visible: boolean) => void;
   setMilitaryVisible: (visible: boolean) => void;
   setJimiVisible: (visible: boolean) => void;
+  setBoundariesVisible: (visible: boolean) => void;
   setHierarchyScope: (scope: HierarchyScope) => void;
   setMapDisplayMode: (mode: MapDisplayMode) => void;
   setMilitaryColorMode: (mode: MilitaryColorMode) => void;
@@ -61,6 +63,7 @@ export const useAppStore = create<AppState>((set) => ({
   seatsVisible: true,
   militaryVisible: false,
   jimiVisible: false,
+  boundariesVisible: true,
   hierarchyScope: "unit",
   mapDisplayMode: "administrative",
   militaryColorMode: "administrative",
@@ -115,6 +118,7 @@ export const useAppStore = create<AppState>((set) => ({
   setSeatsVisible: (seatsVisible) => set({ seatsVisible }),
   setMilitaryVisible: (militaryVisible) => set({ militaryVisible }),
   setJimiVisible: (jimiVisible) => set({ jimiVisible }),
+  setBoundariesVisible: (boundariesVisible) => set({ boundariesVisible }),
   setHierarchyScope: (hierarchyScope) => set((state) => ({
     hierarchyScope,
     selectedCountyId: hierarchyScope === "overview" ? null : state.selectedCountyId,

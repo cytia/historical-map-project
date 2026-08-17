@@ -19,6 +19,7 @@ import {
 } from "./relationLayers";
 import { addSeatLayers } from "./seatLayers";
 import { addMilitaryLayers, stopMilitaryRelationAnimation } from "./militaryLayers";
+import { addBoundaryLayers, registerBoundaryHover } from "./boundaryLayers";
 import { addJimiLayers } from "./jimiLayers";
 import { stopJimiAnimation } from "./jimiLayers";
 import { useAppStore } from "./store";
@@ -32,6 +33,7 @@ export function MapView() {
   const hoveredRegionRef = useRef<string | null>(null);
   const hoveredMilitaryRef = useRef<string | null>(null);
   const hoveredJimiRef = useRef<string | null>(null);
+  const stopBoundaryHoverRef = useRef<(() => void) | null>(null);
   const selectUnit = useAppStore((state) => state.selectUnit);
   const selectMilitaryUnit = useAppStore((state) => state.selectMilitaryUnit);
   const selectJimiUnit = useAppStore((state) => state.selectJimiUnit);
@@ -52,6 +54,7 @@ export function MapView() {
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const militaryVisible = useAppStore((state) => state.militaryVisible);
   const jimiVisible = useAppStore((state) => state.jimiVisible);
+  const boundariesVisible = useAppStore((state) => state.boundariesVisible);
   const hierarchyScope = useAppStore((state) => state.hierarchyScope);
   const mapDisplayMode = useAppStore((state) => state.mapDisplayMode);
   const militaryColorMode = useAppStore((state) => state.militaryColorMode);
@@ -59,7 +62,8 @@ export function MapView() {
     useAdministrativeTargetChoice({ selectCounty, selectUnit, selectMilitaryUnit, selectJimiUnit, setActiveRegion });
   useMapSelectionSync({ mapRef, selectedUnitId, selectedMilitaryUnitId, selectedJimiUnitId,
     selectedCountyId, activeRegionId, hoveredRegionId, hoveredMilitaryUnitId, hoveredJimiUnitId,
-    hierarchyScope, mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible });
+    hierarchyScope, mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible,
+    boundariesVisible });
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -81,6 +85,7 @@ export function MapView() {
     map.on("style.load", () => {
       const state = useAppStore.getState();
       const selectedRegionId = getUnitRegionId(state.selectedUnitId) ?? state.activeRegionId;
+      addBoundaryLayers(map, getTopLevelUnitId(state.selectedUnitId), state.boundariesVisible);
       addRelationLayers(map, state.selectedUnitId, state.hierarchyScope, true);
       addMilitaryLayers(map, {
         selectedMilitaryId: state.selectedMilitaryUnitId,
@@ -99,6 +104,8 @@ export function MapView() {
         scope: state.hierarchyScope,
         displayMode: state.mapDisplayMode,
       }, true);
+      stopBoundaryHoverRef.current?.();
+      stopBoundaryHoverRef.current = registerBoundaryHover(map);
       setRelationSelection(map, state.selectedUnitId, state.hierarchyScope);
       applyMapPointFocus(map, {
         selectedUnitId: state.selectedUnitId,
@@ -136,6 +143,8 @@ export function MapView() {
     return () => {
       stopSelectionPointerController();
       stopPointHoverHandlers();
+      stopBoundaryHoverRef.current?.();
+      stopBoundaryHoverRef.current = null;
       stopRelationAnimation(map);
       stopMilitaryRelationAnimation(map);
       stopJimiAnimation(map);

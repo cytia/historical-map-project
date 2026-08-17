@@ -1,6 +1,7 @@
 import { useEffect, type RefObject } from "react";
 import type { Map } from "maplibre-gl";
-import { getUnitRegionId } from "./data";
+import { getTopLevelUnitId, getUnitRegionId } from "./data";
+import { setBoundarySelection, setBoundaryVisibility } from "./boundaryLayers";
 import {
   focusMapSelection,
   updateMapCountySelection,
@@ -29,12 +30,14 @@ interface MapSelectionSyncOptions {
   seatsVisible: boolean;
   militaryVisible: boolean;
   jimiVisible: boolean;
+  boundariesVisible: boolean;
 }
 
 export function useMapSelectionSync(options: MapSelectionSyncOptions) {
   const { mapRef, selectedUnitId, selectedMilitaryUnitId, selectedJimiUnitId, selectedCountyId,
     activeRegionId, hoveredRegionId, hoveredMilitaryUnitId, hoveredJimiUnitId,
-    hierarchyScope, mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible } = options;
+    hierarchyScope, mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible,
+    boundariesVisible } = options;
   const selectedRegionId = getUnitRegionId(selectedUnitId);
   const militaryRegionId = selectedRegionId ?? activeRegionId;
 
@@ -115,4 +118,14 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
     const map = mapRef.current;
     if (map) setJimiVisibility(map, jimiVisible);
   }, [mapRef, jimiVisible]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (map) setBoundaryVisibility(map, boundariesVisible);
+  }, [mapRef, boundariesVisible]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (map) setBoundarySelection(map, getTopLevelUnitId(selectedUnitId));
+  }, [mapRef, selectedUnitId]);
 }

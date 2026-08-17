@@ -17,11 +17,13 @@ export function LayerBar() {
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const militaryVisible = useAppStore((state) => state.militaryVisible);
   const jimiVisible = useAppStore((state) => state.jimiVisible);
+  const boundariesVisible = useAppStore((state) => state.boundariesVisible);
   const mapDisplayMode = useAppStore((state) => state.mapDisplayMode);
   const militaryColorMode = useAppStore((state) => state.militaryColorMode);
   const setSeatsVisible = useAppStore((state) => state.setSeatsVisible);
   const setMilitaryVisible = useAppStore((state) => state.setMilitaryVisible);
   const setJimiVisible = useAppStore((state) => state.setJimiVisible);
+  const setBoundariesVisible = useAppStore((state) => state.setBoundariesVisible);
   const setMapDisplayMode = useAppStore((state) => state.setMapDisplayMode);
   const setMilitaryColorMode = useAppStore((state) => state.setMilitaryColorMode);
   const chooseMapDisplayMode = (mode: (typeof mapDisplayModes)[number]["id"]) => {
@@ -69,9 +71,10 @@ export function LayerBar() {
       </TooltipButton>
       <TooltipButton
         variant="toolbar"
-        tooltip="行政边界数据尚未接入"
+        tooltip="省级行政疆界（基于现代省界的未修正基线）"
         aria-label="行政边界"
-        disabled
+        aria-pressed={boundariesVisible}
+        onClick={() => setBoundariesVisible(!boundariesVisible)}
       >
         边界
       </TooltipButton>
