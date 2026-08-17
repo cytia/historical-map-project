@@ -5,7 +5,7 @@ use serde_json::{Map, Value};
 
 use crate::{model::ProjectData, validate};
 
-const COLLECTIONS: [&str; 11] = [
+const COLLECTIONS: [&str; 12] = [
     "sources",
     "scopeStatistics",
     "statistics",
@@ -17,6 +17,7 @@ const COLLECTIONS: [&str; 11] = [
     "relations",
     "places",
     "placeNames",
+    "geometries",
 ];
 
 #[derive(Debug, Deserialize)]
@@ -118,6 +119,7 @@ fn assemble_value(manifest_path: &Path) -> Result<Value, String> {
                 | "placeNames"
                 | "statistics"
                 | "militaryStatistics"
+                | "geometries"
         ) && (fragment.domain.is_none() && fragment.region.is_none())
         {
             return Err(format!(

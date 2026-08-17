@@ -16,7 +16,8 @@
     "jimiUnits",
     "relations",
     "places",
-    "placeNames"
+    "placeNames",
+    "geometries"
   ],
   "properties": {
     "$schema": { "type": "string" },
@@ -64,6 +65,10 @@
     "placeNames": {
       "type": "array",
       "items": { "$ref": "#/$defs/placeName" }
+    },
+    "geometries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/geometry" }
     }
   },
   "$defs": {
@@ -332,6 +337,41 @@
         },
         "subjectId": { "$ref": "#/$defs/id" },
         "objectId": { "$ref": "#/$defs/id" },
+        "validity": { "$ref": "#/$defs/yearRange" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "note": { "type": "string", "maxLength": 500 },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceLink" }
+        },
+        "audit": { "$ref": "#/$defs/audit" }
+      }
+    },
+    "geometry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "unitId", "system", "topology", "targetYear", "boundaryAccuracy",
+        "validity", "confidence", "sources", "audit"
+      ],
+      "oneOf": [
+        { "required": ["geometryPath"], "not": { "required": ["coextensiveWith"] } },
+        { "required": ["coextensiveWith"], "not": { "required": ["geometryPath"] } }
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "unitId": { "$ref": "#/$defs/id" },
+        "system": { "enum": ["civil", "military", "jimi"] },
+        "topology": { "enum": ["exclusive", "overlapping"] },
+        "targetYear": { "type": "integer" },
+        "crs": { "const": "EPSG:4326" },
+        "boundaryAccuracy": {
+          "enum": ["documented", "reconstructed", "schematic", "disputed"]
+        },
+        "reconstructionMethod": { "type": "string", "maxLength": 500 },
+        "geometryPath": { "type": "string", "minLength": 1 },
+        "coextensiveWith": { "$ref": "#/$defs/id" },
         "validity": { "$ref": "#/$defs/yearRange" },
         "confidence": { "$ref": "#/$defs/confidence" },
         "note": { "type": "string", "maxLength": 500 },

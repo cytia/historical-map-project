@@ -159,16 +159,40 @@
     "citation": "Chen, Zushou. Huang Ming zhi fang di tu. 1636. Library of Congress."
   },
   {
+    "id": "geoboundaries-chn-adm2",
+    "title": "geoBoundaries China ADM2 (county level), 2017 divisions",
+    "creator": "William & Mary geoLab",
+    "url": "https://www.geoboundaries.org/",
+    "accessedOn": "2026-08-14",
+    "kind": "dataset",
+    "license": "Open Data Commons Public Domain Dedication and License (PDDL) v1.0. Verified against the metadata bundled with the ADM2 release and the geoBoundaries API record on 2026-08-14. The separate ADM3 release is ODbL 1.0 and is excluded by project policy; the two must not be mixed.",
+    "redistribution": "allowed",
+    "coordinateProvider": true,
+    "citation": "Runfola, D. et al. (2020) geoBoundaries: A global database of political administrative boundaries. PLoS ONE 15(4): e0231866. Administrative boundaries courtesy of geoBoundaries.org. Upstream source: National Administration of Surveying, Mapping and Geoinformation of China."
+  },
+  {
+    "id": "nasa-srtm-gl1",
+    "title": "NASA Shuttle Radar Topography Mission Global 1 arc-second (SRTMGL1) v003",
+    "creator": "NASA JPL and USGS",
+    "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl1-003",
+    "accessedOn": "2026-08-14",
+    "kind": "dataset",
+    "license": "Public domain as a work of the US Government. LP DAAC distributes the product at no charge with no restriction on reuse or redistribution.",
+    "redistribution": "allowed",
+    "coordinateProvider": true,
+    "citation": "NASA JPL. NASA Shuttle Radar Topography Mission Global 1 arc second V003. NASA EOSDIS Land Processes DAAC."
+  },
+  {
     "id": "chgis-temporal-gazetteer",
     "title": "China Historical GIS Temporal Gazetteer",
     "creator": "Harvard University and Fudan University",
     "url": "https://tgaz.fudan.edu.cn/tgaz/indexAPI.html",
     "accessedOn": "2026-07-11",
     "kind": "dataset",
-    "license": "CC BY-NC 4.0",
+    "license": "Proprietary. The CHGIS V6 distribution page states: \"License: free for academic research, no commercial use, resale, or redistribution permitted.\" The Temporal Gazetteer API page carries only \"© 2014 Lex Berman and Bill Hays, 党荧\" and grants no licence, so all rights are reserved by default. Not a Creative Commons licence; an earlier record of \"CC BY-NC 4.0\" was wrong in both directions, since CHGIS bars redistribution and derivative works that CC BY-NC would permit. Licence text verified against https://chgis.fas.harvard.edu/data/chgis/v6/ on 2026-08-14.",
     "redistribution": "restricted",
     "coordinateProvider": true,
-    "citation": "China Historical GIS Temporal Gazetteer, Harvard University and Fudan University."
+    "citation": "CHGIS, Version: 6. (c) Fairbank Center for Chinese Studies of Harvard University and the Center for Historical Geographical Studies at Fudan University, 2016."
   },
   {
     "id": "wikidata-modern-place-coordinates",
@@ -859,5 +883,18 @@
     "license": "Commercial book listing and preview page; cite-only for this project, no source file redistributed",
     "redistribution": "restricted",
     "citation": "中国历史地图集中央民族学院编辑组：《中国历史地图集》东北地区资料汇编，1979年。"
+  },
+  {
+    "id": "dushi-fangyu-jiyao-sixty",
+    "title": "读史方舆纪要·卷六十·陕西九",
+    "creator": "顾祖禹",
+    "locator": "卷六十·陕西九",
+    "url": "https://zh.wikisource.org/zh-hans/讀史方輿紀要/卷六十",
+    "accessedOn": "2026-08-12",
+    "kind": "gazetteer",
+    "license": "Public-domain historical text; Wikisource transcription available under CC BY-SA 4.0",
+    "redistribution": "allowed",
+    "coordinateProvider": false,
+    "citation": "顾祖禹《读史方舆纪要》卷六十，陕西九。"
   }
 ]

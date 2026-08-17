@@ -31,7 +31,7 @@ Directory responsibilities:
 - `place-names/`: time-valid names attached to stable places.
 - `statistics/`: unit statistics grouped by region, with national scope statistics kept separately.
 - `relations/`: formal subordination, jurisdiction, cross-system context, co-location, and political-control relations. Military relations are grouped under `relations/military/`.
-- `geometries/`: reserved for historical boundaries, routes, and control areas.
+- `geometries/`: historical boundaries, routes, and control areas. Record metadata is grouped by system; the GeoJSON coordinates it references are grouped by target year. See `geometries/README.md`.
 
 Rules:
 

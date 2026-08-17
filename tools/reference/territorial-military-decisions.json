@@ -1,0 +1,100 @@
+{
+  "description": "Per-zone 實土 judgments for military units, plus unit-level exceptions. 實土 units hold administrative territory and enter the single seamless mosaic alongside the provinces; 非實土 units governed soldiers inside existing counties and carry no polygon, only their seat. Institution type does not decide this: 貴州都司 and 陝西行都司 are both dusi. Evidence is in territorial-military-evidence.md.",
+  "decidedOn": "2026-08-17",
+  "status": "draft-pending-review",
+  "criterion": "设于不设州县处者为实土，寄治于有州县处者为非实土。判定以「最近州县治所距离」度量：该距离直接对应文献所载标准，且来自源数据而非拼装马赛克。已决四区回测全部一致——河西走廊中位数 436 km、辽东 287 km（均判实土，州县带内 0 个）；东南沿海 37 km（判非实土，9 个中 6 个在带内）；贵州 41 km（8/17 在带内，与该区须逐卫核定的既有结论一致）。含一个反向案例。",
+  "zones": [
+    {
+      "zone": "河西走廊 / 甘肃",
+      "holdsTerritory": true,
+      "candidateCount": 18,
+      "reason": "陕西行都司辖河西走廊，卫所境内均无州县，是明代实土卫所最典型的一例。谭其骧 1935 年已强调其政区属性。该区整体进入无缝底图，与陕西布政使司并列，二者共享边即陕西西界。",
+      "sourceIds": ["ming-shi-geography-three"]
+    },
+    {
+      "zone": "辽东",
+      "holdsTerritory": true,
+      "candidateCount": 38,
+      "reason": "辽东都司辖境明代不设府州县，由都司领卫所直接管理军民土地，属实土。山东布政使司名义遥领而不设民政机构，故不并入山东几何。",
+      "sourceIds": ["ming-shi-geography-two"]
+    },
+    {
+      "zone": "宁夏 / 陕北",
+      "holdsTerritory": true,
+      "candidateCount": 6,
+      "reason": "含洮州卫、岷州卫，《明史·地理三》记二者洪武年间升军民指挥使司，兼理军民，具备政区属性；西固城守御军民千户所属岷州卫，同为军民建置。宁夏诸卫所在地明代亦无州县。河州因成化九年置州属临洮府，1600 年为民政单位，不在此列。",
+      "sourceIds": ["ming-shi-geography-three"]
+    },
+    {
+      "zone": "川滇西南",
+      "holdsTerritory": true,
+      "candidateCount": 16,
+      "reason": "四川行都司辖建昌、宁番、越巂、盐井、会川五卫，数据中五者 formalName 均为军民指挥使司，兼理军民。松潘卫同为军民指挥使司。该区卫所辖境与土司交错，实土范围须与羁縻几何分别处理，不得重复计算。",
+      "sourceIds": ["ming-shi-geography-four"]
+    },
+    {
+      "zone": "贵州及西南内地",
+      "holdsTerritory": true,
+      "candidateCount": 17,
+      "reason": "龙里卫、新添卫、平越卫 formalName 均为军民指挥使司。贵州明代卫所与府州县犬牙相入，部分卫所确有辖地，不能整区按非实土处理。本区须逐卫核定，先按实土候选保留。",
+      "sourceIds": ["ming-shi-geography-seven"]
+    },
+    {
+      "zone": "长城北线（宣府、大同、蓟镇）",
+      "holdsTerritory": false,
+      "candidateCount": 28,
+      "reason": "非实土。判据为「设于不设州县处者实土，寄治于有州县处者非实土」。该区州县密布：大同府、蔚州、应州、浑源州、灵丘、广灵、怀仁、山阴俱在其中；延庆州、保安州为直隶州直属六部，属民政系统而非万全都司。28 个候选距最近州县治所中位数仅 50 km，9 个不足 40 km，其中宣府诸卫、万全都司距保安州 27 km，怀来卫、延庆右卫距保安州 25 km——皆在州县辖境之内。卫所与州县并存即非实土，故本区只保留治所点，不生成多边形。京师、山西北界仍应沿长城，但长城以北不作为独立实土地块表达。",
+      "decidedBy": "nearest-civil-seat",
+      "sourceIds": ["ming-shi-geography-one"],
+      "caveat": "《明史·地理志》将山西行都司记为实土，傅林祥指出该志「以清代的观念记载明代事物」，系受康熙《山西通志》影响，不足为 1600 年实土的证据。本项判定据州县分布而非该志。"
+    },
+    {
+      "zone": "东南沿海 / 岭南",
+      "holdsTerritory": false,
+      "candidateCount": 9,
+      "reason": "沿海卫所设于府州县境内，管军户不领土地，属非实土。治所落在拼装马赛克之外，是因为省级边界草稿在海岸线一带尚不精确，不构成实土证据。只保留治所点，不生成多边形。",
+      "sourceIds": ["ming-shi-geography-six"]
+    },
+    {
+      "zone": "其他",
+      "holdsTerritory": null,
+      "holdsTerritoryNote": "null 表示本区无统一答案（四个子区结论不同），非表示未裁决。子区已全部裁决，见 subZones。",
+      "candidateCount": 28,
+      "reason": "本区不是边疆区域，而是筛选脚本的残余分组——内含上海沿海千户所、天津卫、潼关卫与松潘卫、宁夏诸卫，地理上不相邻，治理形态不同，**不能整区判定**。已按最近州县治所拆为四组分别裁决，见 subZones。",
+      "decidedBy": "nearest-civil-seat",
+      "sourceIds": [],
+      "subZones": [
+        {
+          "name": "宁夏",
+          "holdsTerritory": true,
+          "count": 10,
+          "reason": "宁夏诸卫（卫、中护卫、前卫、中屯卫、左右屯卫）距最近州县灵州 42 km，兴武营、平虏、安边、宁夏后卫远至 59–100 km。明代宁夏不设府州县，由卫所领军民土地，与河西走廊同制。应并入「宁夏 / 陕北」区按实土处理。"
+        },
+        {
+          "name": "内地关隘与近畿",
+          "holdsTerritory": false,
+          "count": 9,
+          "reason": "潼关卫距华阴县 15 km、天津三卫距武清县 31 km、偏头关距河曲县 32 km、宁武距马邑县 37 km、兴州左屯卫距丰润县 39 km、青川千户所距龙安府 30 km。皆设于州县境内，管军户不领土地，属非实土。"
+        },
+        {
+          "name": "东南沿海",
+          "holdsTerritory": false,
+          "count": 5,
+          "reason": "宝山、金山、青村中前、南汇嘴中后诸所在松江、上海、平湖县境，梁城千户所在宝坻县境。与「东南沿海 / 岭南」区同制，属非实土。"
+        },
+        {
+          "name": "其他边地",
+          "holdsTerritory": true,
+          "count": 4,
+          "reason": "松潘卫距龙安府 91 km，formalName 为军民指挥使司；榆林卫距米脂县 70 km，为延绥镇治所；西固城千户所距阶州 68 km，属岷州卫军民建置；宽河千户所距遵化县 65 km。四者均在州县带外，按实土候选保留，其中松潘、西固城已有军民指挥使司佐证。"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "formalName 中的「军民指挥使司」是实土的强证据，但不是充分必要条件：数据中洮州卫、岷州卫、河州卫的 formalName 仅记为「卫」，而《明史·地理三》明确记载三者为军民指挥使司。因此不能仅凭该字段筛选，须回到地理志。",
+    "候选筛选依据治所相对民政马赛克的位置，而该马赛克本身是草稿，其边缘误差会直接影响筛选结果。距离马赛克很近的条目不可只凭位置判定。",
+    "验证：洮州卫（59 km 外）、岷州卫（25 km 外）、庄浪卫（43 km 外）均被正确筛出；河州卫落在马赛克内，与其 1600 年已为民政单位的结论一致。筛选方法在已知案例上表现正确。",
+    "实土单位进入无缝底图后参与互斥性校验，不得与民政省份重叠。羁縻单位另行处理，不在本文件范围。"
+  ]
+}

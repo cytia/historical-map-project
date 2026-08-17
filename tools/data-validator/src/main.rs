@@ -1,4 +1,5 @@
 mod audit;
+mod geometry;
 mod manifest;
 mod model;
 mod runtime_index;
@@ -84,7 +85,7 @@ fn run() -> Result<(), String> {
 
     let path = first;
     let data: ProjectData = manifest::load_project(&path)?;
-    let errors = validate::validate(&data);
+    let errors = validate::validate_in(&data, path.parent());
 
     if errors.is_empty() {
         println!("Valid historical data: {}", path.display());

@@ -1,5 +1,9 @@
-use std::collections::{HashMap, HashSet};
+use std::{
+    collections::{HashMap, HashSet},
+    path::Path,
+};
 
+use crate::geometry;
 use crate::model::{
     AdministrativeUnit, JimiKind, JimiOfficeKind, JimiUnit, LocationAccuracy,
     MilitaryMeasureType, MilitaryStatistic, MilitaryStatisticMetric, MilitaryStatisticUnit,
@@ -8,6 +12,12 @@ use crate::model::{
 };
 
 pub fn validate(data: &ProjectData) -> Vec<String> {
+    validate_in(data, None)
+}
+
+/// `data_root` is the manifest's directory. Supplying it enables the geometry file checks,
+/// which have to read the GeoJSON files the records point at.
+pub fn validate_in(data: &ProjectData, data_root: Option<&Path>) -> Vec<String> {
     let mut errors = Vec::new();
 
     if data.schema_version != 1 {
@@ -143,6 +153,8 @@ pub fn validate(data: &ProjectData) -> Vec<String> {
         );
     }
     validate_jimi_graph(&data.jimi_units, &data.relations, &mut errors);
+
+    geometry::validate(data, data_root, &unit_ids, &source_ids, &mut errors);
 
     for statistic in &data.statistics {
         validate_id(&statistic.id, "statistic", &mut errors);

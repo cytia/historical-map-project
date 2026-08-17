@@ -1,0 +1,60 @@
+{
+  "description": "Manual adjudications overriding seat-based county assignment. A seat falling inside a modern county normally assigns that county to the unit, but where several units' seats land in one county the rule cannot decide. Each entry names the unit that takes the county and records why. Evidence is in cross-province-adjudication.md.",
+  "coordinateReferenceSystem": "EPSG:4326",
+  "adjudicatedOn": "2026-08-14",
+  "overrides": [
+    {
+      "modernCountyId": "17275852B48866302661843",
+      "modernCounty": "临县",
+      "assignTo": "shanxi-linxian-county",
+      "assignToName": "临县",
+      "province": "山西",
+      "displaced": [
+        "jiazou-yanan-department"
+      ],
+      "reason": "临县治所距该县边界 20.28 km，位于县域主体；葭州治所距边界 2.43 km，为越界溢出。葭州辖境由黄河西岸陕西侧现代县承担。",
+      "tier": "cross-province",
+      "modernCountyShapeName": "Linxian"
+    },
+    {
+      "modernCountyId": "17275852B92543718728466",
+      "modernCounty": "府谷县",
+      "assignTo": "fugu-county",
+      "assignToName": "府谷县",
+      "province": "陕西",
+      "displaced": [
+        "baode-department"
+      ],
+      "reason": "保德州治所距该县边界仅 0.27 km，为越界溢出；府谷县属陕西葭州，辖境在黄河西岸。保德州辖境归山西侧现代县。",
+      "tier": "cross-province",
+      "modernCountyShapeName": "Fuguxian"
+    },
+    {
+      "modernCountyId": "17275852B70952185801457",
+      "modernCounty": "郧西县",
+      "assignTo": "yunxi-county",
+      "assignToName": "郧西县",
+      "province": "湖广",
+      "displaced": [
+        "baihe-county"
+      ],
+      "reason": "郧西县治所距该县边界 17.98 km，位于县域主体；白河县属陕西兴安州，治所距边界 0.37 km，为越界溢出。上津县与郧西县同属郧阳府，其分界不跨省，留待府级阶段。",
+      "tier": "cross-province",
+      "modernCountyShapeName": "Yunxixian"
+    },
+    {
+      "modernCountyId": "17275852B33652089915736",
+      "modernCounty": "黄梅县",
+      "assignTo": "huangmei-county",
+      "assignToName": "黄梅县",
+      "province": "湖广",
+      "displaced": [
+        "jiangxi-dehua-county",
+        "jiujiang-prefecture"
+      ],
+      "reason": "黄梅县治所距该县边界 11.58 km，位于县域主体；德化县为九江府附郭，治所距边界 0.67 km，为越界溢出，其辖境在长江以南江西一侧。江西德化县与福建泉州府德化县同名，此处指 jiangxi-dehua-county。",
+      "tier": "cross-province",
+      "modernCountyShapeName": "Huangmeixian"
+    }
+  ]
+}

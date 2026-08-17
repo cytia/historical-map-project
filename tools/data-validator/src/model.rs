@@ -24,6 +24,64 @@ pub struct ProjectData {
     pub relations: Vec<Relation>,
     pub places: Vec<Place>,
     pub place_names: Vec<PlaceName>,
+    #[serde(default)]
+    pub geometries: Vec<Geometry>,
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase", deny_unknown_fields)]
+pub struct Geometry {
+    pub id: String,
+    pub unit_id: String,
+    pub system: GeometrySystem,
+    pub topology: GeometryTopology,
+    pub target_year: i32,
+    pub crs: Option<String>,
+    pub boundary_accuracy: BoundaryAccuracy,
+    pub reconstruction_method: Option<String>,
+    /// Either this or `coextensive_with` is set; the schema enforces the exclusive choice.
+    pub geometry_path: Option<String>,
+    /// Records a unit whose extent is asserted to match another geometry without
+    /// duplicating its coordinates, so the two cannot drift apart.
+    pub coextensive_with: Option<String>,
+    pub validity: YearRange,
+    pub confidence: Confidence,
+    pub note: Option<String>,
+    pub sources: Vec<SourceLink>,
+    pub audit: Audit,
+}
+
+/// Which institution holds the ground. This records the kind of authority, not whether the
+/// unit has territory at all — that is `topology`.
+#[derive(Debug, Deserialize, Clone, Copy, PartialEq, Eq, Hash)]
+#[serde(rename_all = "kebab-case")]
+pub enum GeometrySystem {
+    Civil,
+    Military,
+    Jimi,
+}
+
+#[derive(Debug, Deserialize, Clone, Copy, PartialEq)]
+#[serde(rename_all = "kebab-case")]
+pub enum GeometryTopology {
+    /// A 实土 unit: it holds administrative territory, so it takes its place in the single
+    /// seamless mosaic alongside prefectures and counties and may not overlap its neighbours.
+    /// Frontier garrisons whose territory contains no civil unit belong here, whatever
+    /// institution commands them.
+    Exclusive,
+    /// A zone that is not an administrative division: a garrison's defence or colony area
+    /// sitting inside civil territory, or a jimi sphere of influence. It may cover ground the
+    /// mosaic already assigns to someone else, so area rules do not apply.
+    Overlapping,
+}
+
+#[derive(Debug, Deserialize, Clone, Copy, PartialEq)]
+#[serde(rename_all = "kebab-case")]
+pub enum BoundaryAccuracy {
+    Documented,
+    Reconstructed,
+    Schematic,
+    Disputed,
 }
 
 #[derive(Debug, Deserialize)]

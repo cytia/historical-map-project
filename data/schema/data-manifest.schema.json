@@ -32,7 +32,8 @@
             "jimiUnits",
             "relations",
             "places",
-            "placeNames"
+            "placeNames",
+            "geometries"
           ]
         },
         "domain": { "type": "string", "minLength": 1 },
