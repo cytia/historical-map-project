@@ -7,7 +7,11 @@
 /playwright-report/
 /test-results/
 /public/terrain/
-/public/reference/province-baseline.geojson
+/public/reference/province-baseline*.geojson
+
+# Boundary geometry metadata. The coordinates live in the Map-Boundary repository
+# and are referenced through geometryPath; neither they nor these records are published.
+/data/geometries/*.json
 /.terrain-work/
 /.terrain-venv/
 /.reference-work/
