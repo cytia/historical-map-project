@@ -1,10 +1,5 @@
 import { create } from "zustand";
-import type {
-  HierarchyScope,
-  MapDisplayMode,
-  MilitaryColorMode,
-  SelectionDomain,
-} from "./types";
+import type { MapDisplayMode, MilitaryColorMode, SelectionDomain } from "./types";
 
 interface AppState {
   selectedUnitId: string | null;
@@ -23,7 +18,6 @@ interface AppState {
   militaryVisible: boolean;
   jimiVisible: boolean;
   boundariesVisible: boolean;
-  hierarchyScope: HierarchyScope;
   mapDisplayMode: MapDisplayMode;
   militaryColorMode: MilitaryColorMode;
   selectUnit: (id: string | null) => void;
@@ -42,7 +36,6 @@ interface AppState {
   setMilitaryVisible: (visible: boolean) => void;
   setJimiVisible: (visible: boolean) => void;
   setBoundariesVisible: (visible: boolean) => void;
-  setHierarchyScope: (scope: HierarchyScope) => void;
   setMapDisplayMode: (mode: MapDisplayMode) => void;
   setMilitaryColorMode: (mode: MilitaryColorMode) => void;
 }
@@ -64,7 +57,6 @@ export const useAppStore = create<AppState>((set) => ({
   militaryVisible: false,
   jimiVisible: false,
   boundariesVisible: true,
-  hierarchyScope: "unit",
   mapDisplayMode: "administrative",
   militaryColorMode: "administrative",
   selectUnit: (selectedUnitId) =>
@@ -119,10 +111,6 @@ export const useAppStore = create<AppState>((set) => ({
   setMilitaryVisible: (militaryVisible) => set({ militaryVisible }),
   setJimiVisible: (jimiVisible) => set({ jimiVisible }),
   setBoundariesVisible: (boundariesVisible) => set({ boundariesVisible }),
-  setHierarchyScope: (hierarchyScope) => set((state) => ({
-    hierarchyScope,
-    selectedCountyId: hierarchyScope === "overview" ? null : state.selectedCountyId,
-  })),
   setMapDisplayMode: (mapDisplayMode) => set({ mapDisplayMode }),
   setMilitaryColorMode: (militaryColorMode) => set({ militaryColorMode }),
 }));

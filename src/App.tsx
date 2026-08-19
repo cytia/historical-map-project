@@ -6,7 +6,6 @@ import { MilitaryDetailPanel } from "./MilitaryDetailPanel";
 import { MilitaryScopePanel } from "./MilitaryScopePanel";
 import { JimiDetailPanel } from "./JimiDetailPanel";
 import { JimiScopePanel } from "./JimiScopePanel";
-import { HierarchyToolbar } from "./AdministrativeScopeToolbar";
 import { counties, regions, seats } from "./data";
 import { militaryById, publishedMilitaryRecords } from "./militaryData";
 import { jimiById, jimiRecords } from "./jimiData";
@@ -149,7 +148,6 @@ export default function App() {
         : militaryPanelRecord
         ? <MilitaryScopePanel record={militaryPanelRecord} />
         : <ScopePanel region={panelRegion} />}
-      <HierarchyToolbar />
       <ProjectPanel isOpen={projectPanelOpen} onClose={() => setProjectPanelOpen(false)} />
 
       <AdministrativeDetailPanel seat={selected} county={selectedCounty} />

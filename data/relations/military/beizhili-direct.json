@@ -1232,5 +1232,1377 @@
       "reviewedOn": "2026-07-28",
       "revisionNote": "Inherited Central Army Commandery affiliation through Tongguan Guard; the Wanli direct-Zhili list is not used as the military parent."
     }
+  },
+  {
+    "id": "jizhou-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "jizhou-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "zunhua-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zunhua-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "miyun-middle-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "miyun-middle-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "miyun-rear-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "miyun-rear-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "zhenshuo-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhenshuo-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "dongsheng-right-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dongsheng-right-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "xingzhou-left-tunwei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xingzhou-left-tunwei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "xingzhou-middle-tunwei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xingzhou-middle-tunwei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "xingzhou-front-tunwei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xingzhou-front-tunwei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "xingzhou-rear-tunwei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xingzhou-rear-tunwei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "zhongyi-middle-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhongyi-middle-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "tongzhou-left-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tongzhou-left-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "tongzhou-right-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tongzhou-right-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "shenwu-middle-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shenwu-middle-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "dingbian-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dingbian-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "wuqing-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuqing-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "zhuolu-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhuolu-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "zhuolu-left-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhuolu-left-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "zhuolu-middle-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhuolu-middle-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "yongping-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yongping-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "shanhai-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shanhai-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "lulong-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "lulong-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "kaiping-middle-tunwei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "kaiping-middle-tunwei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "xingzhou-right-tunwei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "xingzhou-right-tunwei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "dongsheng-left-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dongsheng-left-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "funing-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "funing-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "yanqing-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "yanqing-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "hejian-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "hejian-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "datong-middle-tunwei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "datong-middle-tunwei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "shenyang-middle-tunwei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shenyang-middle-tunwei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "tianjin-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tianjin-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "tianjin-left-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tianjin-left-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "tianjin-right-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "tianjin-right-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "zhending-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhending-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "shenwu-right-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shenwu-right-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "dingzhou-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dingzhou-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "dezhou-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dezhou-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "dezhou-left-wei-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "dezhou-left-wei-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "liangcheng-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "liangcheng-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "chaohe-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "chaohe-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "baiyangkou-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "baiyangkou-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "bohai-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "bohai-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "kuanghe-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "kuanghe-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "zhenbiancheng-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "zhenbiancheng-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "cangzhou-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "cangzhou-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "daomaguan-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "daomaguan-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "shunde-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "shunde-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "wuding-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "wuding-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
+  },
+  {
+    "id": "pingding-qianhusuo-beizhili-jingshi-administrative-context",
+    "relationType": "administrative-context",
+    "subjectId": "pingding-qianhusuo-beizhili",
+    "objectId": "jingshi",
+    "validity": {
+      "from": 1600,
+      "to": 1600,
+      "precision": "exact"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "sourceId": "ming-shi-geography-one",
+        "claim": "location",
+        "confidence": "high"
+      },
+      {
+        "sourceId": "ming-huidian-military-124",
+        "claim": "location",
+        "confidence": "high"
+      }
+    ],
+    "audit": {
+      "reviewedOn": "2026-08-19",
+      "revisionNote": "Recorded Northern Zhili administrative context separately from Five Army affiliation, matching the Southern Zhili and Beijing garrison records. Guards seated outside Beizhili are excluded and keep their own context."
+    }
   }
 ]

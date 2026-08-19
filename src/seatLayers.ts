@@ -1,5 +1,6 @@
 import type { ExpressionSpecification, Map } from "maplibre-gl";
 import { administrativeAffiliationIds, topLevelSeats } from "./data";
+import { administrativeTier, tierOpacityExpression, tierProperty } from "./displayTier";
 import { affiliationColorExpression } from "./mapDisplay";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { defaultTheme } from "./theme";
@@ -22,20 +23,26 @@ const seatGeoJson: GeoJSON.FeatureCollection<GeoJSON.Point> = {
       name: unit.name,
       seatName: name,
       level: unit.level,
+      [tierProperty]: administrativeTier(undefined),
       regionId: region.id,
     },
   })),
 };
 
-function regionOpacity(
-  regionId: string | null,
+/// Seats obey the same "province first, then zoom" rule as garrisons and jimi offices;
+/// `regionId` restricts the layer to the province in view.
+function seatOpacity(
+  focusRegionId: string | null,
   active: number,
-  inactive: number,
   dimAll = false,
-): number | ExpressionSpecification {
-  if (dimAll) return inactive;
-  if (!regionId) return active;
-  return ["case", ["==", ["get", "regionId"], regionId], active, inactive];
+  label = false,
+) {
+  return tierOpacityExpression({
+    visible: focusRegionId !== null && !dimAll,
+    maximumOpacity: active,
+    regionId: focusRegionId,
+    label,
+  });
 }
 
 function pointRadius(selectedUnitId: string | null): ExpressionSpecification {
@@ -63,7 +70,10 @@ export function addSeatLayers(
       "circle-color": mapColors.seatHalo,
       "circle-stroke-width": 1,
       "circle-stroke-color": mapColors.seatHaloStroke,
-      "circle-opacity": regionOpacity(focusRegionId, 1, 0.2),
+      "circle-opacity": seatOpacity(focusRegionId, 1),
+      // A circle's stroke has its own opacity and keeps drawing at full strength when the
+      // fill is hidden, which would leave a ring behind for every hidden point.
+      "circle-stroke-opacity": seatOpacity(focusRegionId, 1),
     },
   });
   map.addLayer({
@@ -73,9 +83,10 @@ export function addSeatLayers(
     paint: {
       "circle-radius": pointRadius(selectedUnitId),
       "circle-color": pointColor(displayMode),
-      "circle-opacity": regionOpacity(focusRegionId, 1, 0.28),
+      "circle-opacity": seatOpacity(focusRegionId, 1),
       "circle-stroke-width": 2,
       "circle-stroke-color": mapColors.seatRing,
+      "circle-stroke-opacity": seatOpacity(focusRegionId, 1),
     },
   });
   map.addLayer({
@@ -93,7 +104,7 @@ export function addSeatLayers(
     },
     paint: {
       "text-color": mapColors.seatLabel,
-      "text-opacity": regionOpacity(focusRegionId, 1, 0.2),
+      "text-opacity": seatOpacity(focusRegionId, 1, false, true),
       "text-halo-color": mapColors.land,
       "text-halo-width": 1.5,
     },
@@ -114,9 +125,13 @@ export function setSeatSelection(map: Map, selectedUnitId: string | null) {
 export function setSeatFocus(map: Map, focusRegionId: string | null, dimAll = false) {
   if (!map.getLayer("seat-points")) return;
   map.setPaintProperty("seat-points", "circle-opacity",
-    regionOpacity(focusRegionId, 1, 0.28, dimAll));
+    seatOpacity(focusRegionId, 1, dimAll));
+  map.setPaintProperty("seat-points", "circle-stroke-opacity",
+    seatOpacity(focusRegionId, 1, dimAll));
   map.setPaintProperty("seat-labels", "text-opacity",
-    regionOpacity(focusRegionId, 1, 0.2, dimAll));
+    seatOpacity(focusRegionId, 1, dimAll, true));
   map.setPaintProperty("seat-halo", "circle-opacity",
-    regionOpacity(focusRegionId, 1, 0.2, dimAll));
+    seatOpacity(focusRegionId, 1, dimAll));
+  map.setPaintProperty("seat-halo", "circle-stroke-opacity",
+    seatOpacity(focusRegionId, 1, dimAll));
 }

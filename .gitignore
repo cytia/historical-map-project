@@ -5,9 +5,11 @@
 /data/project.json
 /data/.generated/
 /playwright-report/
+/.playwright-mcp/
 /test-results/
 /public/terrain/
 /public/reference/province-baseline*.geojson
+/public/reference/national-outline-*.geojson
 
 # Boundary geometry metadata. The coordinates live in the Map-Boundary repository
 # and are referenced through geometryPath; neither they nor these records are published.

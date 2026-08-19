@@ -1,4 +1,5 @@
 import type { ExpressionSpecification, GeoJSONSource, Map } from "maplibre-gl";
+import { tierOpacityExpression } from "./displayTier";
 import { defaultTheme } from "./theme";
 
 const tokens = defaultTheme.map;
@@ -73,10 +74,12 @@ export function flowData(
   };
 }
 
-export function relationLineOpacity(): ExpressionSpecification {
-  const selectedOpacity: ExpressionSpecification = ["case", ["get", "selected"], 1, 0];
-  return ["interpolate", ["linear"], ["zoom"], tokens.relationFullNetworkMinZoom - 0.01,
-    selectedOpacity, tokens.relationFullNetworkMinZoom, 1];
+/// A connection reaches only as far as the points it joins. Its far end carries a tier, and
+/// the same thresholds that decide whether that point is drawn decide whether the line to
+/// it is: zooming out removes a county before the line reaching it, which would otherwise
+/// be left hanging in empty ground.
+export function relationLineOpacity(): ExpressionSpecification | number {
+  return tierOpacityExpression({ visible: true }) as ExpressionSpecification;
 }
 
 interface RelationLayerIds {
@@ -101,7 +104,7 @@ export function addRelationLineLayers(map: Map, ids: RelationLayerIds) {
 interface SubordinateRelationLayerOptions {
   sourceId: string;
   layerId: string;
-  opacity: number;
+  opacity: number | ExpressionSpecification;
   transitionDuration?: number;
 }
 

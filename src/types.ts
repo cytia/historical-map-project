@@ -1,7 +1,5 @@
 export type Confidence = "high" | "medium" | "low";
 export type UnitDomain = "administrative" | "military" | "special-governance";
-export type HierarchyScope = "overview" | "unit" | "domain";
-export type AdministrativeDisplayScope = HierarchyScope;
 export type MapDisplayMode = "administrative" | "jurisdiction" | "control";
 export type MilitaryColorMode = "administrative" | "military";
 export type SelectionDomain = "administrative" | "military" | "jimi";
@@ -229,6 +227,11 @@ export interface MilitaryRecord {
   name: string;
   administrativeRegionId: string | null;
   administrativeUnitId: string | null;
+  /// Which clickable extent draws this unit. Separate from `administrativeRegionId`, which
+  /// is a sourced historical claim about where the unit was administratively placed: a
+  /// Hexi guard belongs to Shaanxi's historical geography and to the 陝西行都司 extent at
+  /// the same time, and the map needs the latter without overwriting the former.
+  mapRegionId: string | null;
   militaryParentId: string | null;
   fiveArmyId?: "central" | "left" | "right" | "front" | "rear";
 }
@@ -245,14 +248,6 @@ export interface JimiRecord {
   jimiDisplayLevel: number;
 }
 
-export interface MilitaryDisplayAnchor {
-  id: string;
-  label: string;
-  description: string;
-  longitude: number;
-  latitude: number;
-}
-
 export interface MilitaryDisplayGroup {
   id: string;
   name: string;
@@ -260,5 +255,4 @@ export interface MilitaryDisplayGroup {
   fiveArmyId?: "central" | "left" | "right" | "front" | "rear";
   administrativePath?: string;
   memberIds: readonly string[];
-  anchor: MilitaryDisplayAnchor;
 }

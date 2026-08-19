@@ -1,38 +1,17 @@
 import {
   getMilitaryCommandRecord,
-  isMilitaryDescendant,
   isMilitaryPrimaryUnit,
   militaryById,
 } from "./militaryData";
-import { getMilitaryDisplayGroup } from "./militaryDisplayGroups";
-import { getHierarchyDisplayState } from "./hierarchyDisplay";
+import { militaryTier, tierProperty } from "./displayTier";
 import { curvedCoordinates } from "./relationRendering";
-import type { HierarchyScope, MilitaryRecord } from "./types";
+import type { MilitaryRecord } from "./types";
 
-function selectedPrimaryUnit(selectedMilitaryId: string | null) {
-  const selected = selectedMilitaryId ? militaryById.get(selectedMilitaryId) : undefined;
-  if (!selected || isMilitaryPrimaryUnit(selected.unit)) return selected;
-  return selected.militaryParentId ? militaryById.get(selected.militaryParentId) : undefined;
-}
-
-function secondaryRecords(
-  records: MilitaryRecord[],
-  selectedMilitaryId: string | null,
-  scope: HierarchyScope,
-) {
-  if (scope === "overview") return [];
-  const command = getMilitaryCommandRecord(selectedMilitaryId);
-  const primary = selectedPrimaryUnit(selectedMilitaryId);
-  const hierarchyRoot = command ?? (
-    primary?.unit.militaryKind === "wei" ? primary : undefined
-  );
-  if (!hierarchyRoot || !primary) return [];
-  return records.filter((record) => {
-    if (isMilitaryPrimaryUnit(record.unit)) return false;
-    return scope === "domain"
-      ? isMilitaryDescendant(record.unit.id, hierarchyRoot.unit.id)
-      : record.militaryParentId === primary.unit.id;
-  });
+/// Second-tier units — 所 — are no longer gated on which unit is selected. Zoom decides
+/// whether they are drawn, the same way it does for counties, so they all belong to the
+/// source and the tier expression reveals them.
+function secondaryRecords(records: MilitaryRecord[]) {
+  return records.filter((record) => !isMilitaryPrimaryUnit(record.unit));
 }
 
 function lineData(
@@ -56,110 +35,43 @@ function lineData(
         properties: {
           id: record.unit.id,
           selected: record.unit.id === selectedMilitaryId,
+          // The line belongs to the tier of the unit it leads to, so it fades in with it.
+          [tierProperty]: militaryTier(record.unit.militaryKind),
         },
       }];
     }),
   };
 }
 
-function displayGroupLineData(
-  records: MilitaryRecord[],
-  selectedMilitaryId: string | null,
-  scope: HierarchyScope,
-): GeoJSON.FeatureCollection<GeoJSON.LineString> {
-  const group = getMilitaryDisplayGroup(selectedMilitaryId);
-  if (!group) return { type: "FeatureCollection", features: [] };
-  const anchor = [group.anchor.longitude, group.anchor.latitude] as [number, number];
-  return {
-    type: "FeatureCollection",
-    features: displayGroupRecords(records, selectedMilitaryId, scope)
-      .map((record) => ({
-        type: "Feature" as const,
-        geometry: {
-          type: "LineString" as const,
-          coordinates: curvedCoordinates(
-            [record.place.longitude!, record.place.latitude!],
-            anchor,
-          ),
-        },
-        properties: {
-          id: record.unit.id,
-          selected: record.unit.id === selectedMilitaryId,
-        },
-      })),
-  };
-}
-
-function displayGroupRecords(
-  records: MilitaryRecord[],
-  selectedMilitaryId: string | null,
-  scope: HierarchyScope,
-) {
-  const group = getMilitaryDisplayGroup(selectedMilitaryId);
-  if (!group) return [];
-  const groupRecords = records.filter(({ unit }) => group.memberIds.includes(unit.id));
-  if (scope === "domain") return groupRecords;
-  const primaryRecords = groupRecords.filter(({ unit }) => isMilitaryPrimaryUnit(unit));
-  if (scope === "overview") return primaryRecords;
-  const selected = groupRecords.find(({ unit }) => unit.id === selectedMilitaryId);
-  return selected && !isMilitaryPrimaryUnit(selected.unit)
-    ? [...primaryRecords, selected]
-    : primaryRecords;
-}
-
-function displayGroupAnchorData(
-  selectedMilitaryId: string | null,
-): GeoJSON.FeatureCollection<GeoJSON.Point> {
-  const group = getMilitaryDisplayGroup(selectedMilitaryId);
-  if (!group) return { type: "FeatureCollection", features: [] };
-  return {
-    type: "FeatureCollection",
-    features: [{
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [group.anchor.longitude, group.anchor.latitude],
-      },
-      properties: {
-        id: group.anchor.id,
-        label: group.anchor.label,
-        description: group.anchor.description,
-      },
-    }],
-  };
-}
-
+/// Every published record is in the source; the tier expression decides what is drawn.
+/// Relation lines are drawn only for the selected unit, so an unselected map carries no
+/// connections at all.
 export function militaryHierarchyData(
   records: MilitaryRecord[],
   selectedMilitaryId: string | null,
-  scope: HierarchyScope,
 ) {
-  const display = getHierarchyDisplayState(scope, selectedMilitaryId !== null);
+  const hasSelection = selectedMilitaryId !== null;
   const command = getMilitaryCommandRecord(selectedMilitaryId);
-  const secondary = secondaryRecords(records, selectedMilitaryId, scope);
-  const displayGroupSecondary = displayGroupRecords(records, selectedMilitaryId, scope)
-    .filter(({ unit }) => !isMilitaryPrimaryUnit(unit));
-  const visibleRecords = [
-    ...records.filter(({ unit }) => isMilitaryPrimaryUnit(unit)),
-    ...secondary,
-    ...displayGroupSecondary,
-  ];
+  const secondary = secondaryRecords(records);
+  // Only the selected unit's own links: its segment up to its 都司, and its segments down
+  // to subordinate units. Sibling 衛 under the same 都司 are not part of the answer.
   const primary = command
     ? records.filter((record) =>
-      isMilitaryPrimaryUnit(record.unit) && record.militaryParentId === command.unit.id)
+      isMilitaryPrimaryUnit(record.unit) &&
+      record.militaryParentId === command.unit.id &&
+      (record.unit.id === selectedMilitaryId || command.unit.id === selectedMilitaryId))
     : [];
-  const primaryRelations = display.showRelations
+  const primaryRelations = hasSelection
     ? lineData(primary, selectedMilitaryId)
     : { type: "FeatureCollection" as const, features: [] };
+  const selectedSubordinates = hasSelection
+    ? secondary.filter((record) => record.militaryParentId === selectedMilitaryId)
+    : [];
   return {
-    records: visibleRecords,
+    records: [...records.filter(({ unit }) => isMilitaryPrimaryUnit(unit)), ...secondary],
     primaryRelations,
     flowRelations: primaryRelations,
-    secondaryRelations: lineData(secondary, selectedMilitaryId),
-    displayGroupRelations: display.showRelations
-      ? displayGroupLineData(records, selectedMilitaryId, scope)
-      : { type: "FeatureCollection" as const, features: [] },
-    displayGroupAnchor: displayGroupAnchorData(selectedMilitaryId),
-    animateRelations: display.animateRelations,
+    secondaryRelations: lineData(selectedSubordinates, selectedMilitaryId),
+    animateRelations: hasSelection,
   };
 }

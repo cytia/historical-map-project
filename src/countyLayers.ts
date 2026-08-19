@@ -6,25 +6,23 @@ import {
   isDescendantOf,
   seats,
 } from "./data";
-import { getHierarchyDisplayState } from "./hierarchyDisplay";
+import { administrativeTier, tierOpacityExpression, tierProperty } from "./displayTier";
 import { affiliationColorExpression } from "./mapDisplay";
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { addSubordinateRelationLayer, curvedCoordinates } from "./relationRendering";
 import { defaultTheme } from "./theme";
-import type { HierarchyScope, MapDisplayMode } from "./types";
+import type { MapDisplayMode } from "./types";
 
 const tokens = defaultTheme.map;
 const sourceId = "counties";
 const relationSourceId = "county-relations";
 const layerIds = ["county-relations", "county-points", "county-labels"] as const;
-const clearTimers = new WeakMap<Map, number>();
 const coLocatedCountyIds = new Set(["shangyuan-county", "jiangning-county"]);
 
 export interface CountyLayerSelection {
   selectedUnitId: string | null;
   selectedCountyId: string | null;
   regionId: string | null;
-  scope: HierarchyScope;
   displayMode: MapDisplayMode;
 }
 
@@ -47,20 +45,11 @@ function selectedTopLevelId(selection: CountyLayerSelection) {
   return getTopLevelUnitId(selection.selectedUnitId);
 }
 
+/// Which province's subordinate points are loaded. Zoom decides whether a tier is drawn,
+/// but not which ground it covers: the map still shows one province at a time, so the
+/// source carries the active province and the zoom expression reveals it.
 function displayRootId(selection: CountyLayerSelection) {
-  const topLevelId = selectedTopLevelId(selection);
-  const display = getHierarchyDisplayState(selection.scope, topLevelId !== null);
-  if (!topLevelId || !display.showDescendants) return null;
-  return selection.scope === "domain" ? selection.regionId ?? topLevelId : topLevelId;
-}
-
-function setOpacity(map: Map, visible: boolean) {
-  const lineOpacity = visible ? 0.78 : 0;
-  const circleOpacity = visible ? 1 : 0;
-  const textOpacity = visible ? 1 : 0;
-  if (map.getLayer(layerIds[0])) map.setPaintProperty(layerIds[0], "line-opacity", lineOpacity);
-  if (map.getLayer(layerIds[1])) map.setPaintProperty(layerIds[1], "circle-opacity", circleOpacity);
-  if (map.getLayer(layerIds[2])) map.setPaintProperty(layerIds[2], "text-opacity", textOpacity);
+  return selection.regionId ?? selectedTopLevelId(selection);
 }
 
 function layerData(selection: CountyLayerSelection) {
@@ -76,21 +65,30 @@ function layerData(selection: CountyLayerSelection) {
         type: "Feature" as const,
         geometry: { type: "Point" as const, coordinates: visualCoordinates({ unit, place, name: unit.name, region }) },
         properties: { id: unit.id, name: unit.name, kind: "department",
+          [tierProperty]: administrativeTier("department"),
           parentId: unit.parentId, regionId: region.id },
       })),
       ...childCounties.map(({ unit, place, parent, region }) => ({
         type: "Feature" as const,
         geometry: { type: "Point" as const, coordinates: visualCoordinates({ unit, place, parent, name: unit.name, region }) },
         properties: { id: unit.id, name: unit.name, kind: "county",
+          [tierProperty]: administrativeTier("county"),
           parentId: parent.id, regionId: region.id },
       })),
     ],
   };
-  const records = [...childStates, ...childCounties];
+  const records = [
+    ...childStates.map((record) => ({ record, tier: administrativeTier("department") })),
+    ...childCounties.map((record) => ({ record, tier: administrativeTier("county") })),
+  ];
+  // Connections belong to a chosen unit: with the province merely open the map shows its
+  // points and no lines, and clicking one draws the links to its parent and children.
+  const connected = selection.selectedCountyId ?? selection.selectedUnitId;
   const relations = {
     type: "FeatureCollection" as const,
-    features: records.flatMap((record) => {
+    features: (connected ? records : []).flatMap(({ record, tier }) => {
       const { unit } = record;
+      if (unit.id !== connected && unit.parentId !== connected) return [];
       const parent = seats.find(({ unit: parentUnit }) => parentUnit.id === unit.parentId);
       if (!parent) return [];
       const from = visualCoordinates(record);
@@ -102,7 +100,8 @@ function layerData(selection: CountyLayerSelection) {
           type: "LineString" as const,
           coordinates: curvedCoordinates(from, to),
         },
-        properties: { id: unit.id },
+        // The line belongs to the tier of the point it leads to, so it fades in with it.
+        properties: { id: unit.id, [tierProperty]: tier },
       }];
     }),
   };
@@ -136,25 +135,27 @@ export function addCountyLayers(
 ) {
   const duration = fadeDuration();
   const data = layerData(selection);
-  const display = getHierarchyDisplayState(selection.scope, selection.selectedUnitId !== null);
+  const gated = displayRootId(selection) !== null;
   map.addSource(sourceId, { type: "geojson", data: data.points });
   map.addSource(relationSourceId, { type: "geojson", data: data.relations });
   addSubordinateRelationLayer(map, {
     sourceId: relationSourceId,
     layerId: layerIds[0],
-    opacity: display.showRelations ? 0.78 : 0,
+    opacity: tierOpacityExpression({ visible: gated, maximumOpacity: 0.78 }),
     transitionDuration: duration,
   });
   map.addLayer({ id: layerIds[1], type: "circle", source: sourceId,
     paint: { "circle-radius": radius(selection.selectedUnitId, selection.selectedCountyId),
       "circle-color": pointColor(selection),
       "circle-stroke-width": 1.5, "circle-stroke-color": tokens.seatRing,
-      "circle-opacity": display.showDescendants ? 1 : 0, "circle-opacity-transition": { duration } } });
+      // The stroke has its own opacity; without it a hidden point still draws its ring.
+      "circle-stroke-opacity": tierOpacityExpression({ visible: gated }),
+      "circle-opacity": tierOpacityExpression({ visible: gated }), "circle-opacity-transition": { duration } } });
   map.addLayer({ id: layerIds[2], type: "symbol", source: sourceId,
     layout: { "text-field": ["get", "name"], "text-font": ["Open Sans Regular"],
       "text-size": 11, "text-offset": [0, 1], "text-anchor": "top", "text-allow-overlap": false },
     paint: { "text-color": tokens.countyLabel, "text-halo-color": tokens.land,
-      "text-halo-width": 1.2, "text-opacity": display.showDescendants ? 1 : 0,
+      "text-halo-width": 1.2, "text-opacity": tierOpacityExpression({ visible: gated, label: true }),
       "text-opacity-transition": { duration } } });
   setLayerVisibility(map, layerIds, visible);
 }
@@ -163,26 +164,21 @@ export function setCountySelection(map: Map, selection: CountyLayerSelection) {
   const countySource = map.getSource(sourceId) as GeoJSONSource | undefined;
   const relationSource = map.getSource(relationSourceId) as GeoJSONSource | undefined;
   if (!countySource || !relationSource) return;
-  const display = getHierarchyDisplayState(selection.scope, selection.selectedUnitId !== null);
-  const previousTimer = clearTimers.get(map);
-  if (previousTimer !== undefined) window.clearTimeout(previousTimer);
-  const updateData = () => {
-    const data = layerData(selection);
-    countySource.setData(data.points);
-    relationSource.setData(data.relations);
-  };
-  setOpacity(map, false);
-  if (!display.showDescendants) {
-    const timer = window.setTimeout(() => {
-      updateData();
-      clearTimers.delete(map);
-    }, fadeDuration());
-    clearTimers.set(map, timer);
-    return;
+  // Zoom governs which tiers are drawn, so changing province is a data swap plus the
+  // province gate: leaving the province view has to blank the layer, not just reload it.
+  const data = layerData(selection);
+  const gated = displayRootId(selection) !== null;
+  countySource.setData(data.points);
+  relationSource.setData(data.relations);
+  if (map.getLayer(layerIds[0])) {
+    map.setPaintProperty(layerIds[0], "line-opacity",
+      tierOpacityExpression({ visible: gated, maximumOpacity: 0.78 }));
   }
-  updateData();
-  requestAnimationFrame(() => setOpacity(map, true));
   if (!map.getLayer(layerIds[1])) return;
+  map.setPaintProperty(layerIds[1], "circle-opacity", tierOpacityExpression({ visible: gated }));
+  map.setPaintProperty(layerIds[1], "circle-stroke-opacity", tierOpacityExpression({ visible: gated }));
+  map.setPaintProperty(layerIds[2], "text-opacity",
+    tierOpacityExpression({ visible: gated, label: true }));
   map.setPaintProperty(layerIds[1], "circle-radius", radius(selection.selectedUnitId, selection.selectedCountyId));
   map.setPaintProperty(layerIds[1], "circle-color", pointColor(selection));
 }

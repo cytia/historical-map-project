@@ -9,7 +9,12 @@ export type AdministrativeTarget =
   | { kind: "seat"; id: string; regionId: string };
 export type MilitaryTarget = { kind: "military"; id: string; regionId: string | null };
 export type JimiTarget = { kind: "jimi"; id: string; regionId: string | null };
-export type MapTarget = AdministrativeTarget | MilitaryTarget | JimiTarget;
+/// A province face is ground, not a unit. Clicking it opens the province; it never joins a
+/// co-located list, because the points inside it are what a list is choosing between.
+export type ProvinceTarget = { kind: "province"; regionId: string };
+export type MapTarget = AdministrativeTarget | MilitaryTarget | JimiTarget | ProvinceTarget;
+/// Everything a co-located list can offer: the units standing on the ground, not the ground.
+export type ChoosableTarget = Exclude<MapTarget, ProvinceTarget>;
 
 function pointCoordinates(point: PointLike) {
   return Array.isArray(point) ? point : [point.x, point.y];
@@ -89,7 +94,7 @@ export function queryMapTargets(map: Map, point: PointLike, selectionDomain: Sel
     ], { layers });
     const targets = features.reduce<MapTarget[]>((result, { properties }) => {
       if (typeof properties?.unitId === "string") {
-        result.push({ kind: "seat", id: properties.unitId, regionId: properties.unitId });
+        result.push({ kind: "province", regionId: properties.unitId });
         return result;
       }
       if (properties?.kind === "military") {
@@ -107,13 +112,20 @@ export function queryMapTargets(map: Map, point: PointLike, selectionDomain: Sel
       return result;
     }, []);
     const unique = [...new globalThis.Map<string, MapTarget>(targets.map((target) => [
-      `${target.kind}-${target.id}`, target,
+      `${target.kind}-${target.kind === "province" ? target.regionId : target.id}`, target,
     ])).values()];
-    return unique.sort((left, right) => {
-      const leftPriority = left.kind === selectionDomain ? 0 : 1;
-      const rightPriority = right.kind === selectionDomain ? 0 : 1;
-      return leftPriority - rightPriority;
-    });
+    // The province under the pointer is a fallback, not a candidate: whenever the click
+    // also caught a point, that point is what was aimed at, and a list of co-located units
+    // should not offer the ground they all stand on.
+    const points = unique.filter((target) => target.kind !== "province");
+    if (points.length) {
+      return points.sort((left, right) => {
+        const leftPriority = left.kind === selectionDomain ? 0 : 1;
+        const rightPriority = right.kind === selectionDomain ? 0 : 1;
+        return leftPriority - rightPriority;
+      });
+    }
+    return unique;
   } catch {
     return [];
   }
@@ -123,7 +135,7 @@ export function createSelectionPointerController(
   map: Map,
   clearSelection: () => void,
   selectTarget: (target: MapTarget) => void,
-  chooseTarget: (targets: MapTarget[], anchor: { x: number; y: number }) => void,
+  chooseTarget: (targets: ChoosableTarget[], anchor: { x: number; y: number }) => void,
   getSelectionDomain: () => SelectionDomain = () => "administrative",
 ) {
   const container = map.getCanvasContainer();
@@ -160,7 +172,8 @@ export function createSelectionPointerController(
     if (completed.maxDistance > selectionClickTolerance) return;
     if (completed.targets.length === 1) selectTarget(completed.targets[0]);
     else if (completed.targets.length > 1) {
-      chooseTarget(completed.targets, { x: completed.x, y: completed.y });
+      // queryMapTargets only returns several targets when they are all points.
+      chooseTarget(completed.targets as ChoosableTarget[], { x: completed.x, y: completed.y });
     } else clearSelection();
   };
   const handlePointerDown = (event: PointerEvent) => {

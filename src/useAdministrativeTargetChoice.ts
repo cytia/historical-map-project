@@ -1,9 +1,9 @@
 import { useCallback, useState } from "react";
-import type { MapTarget } from "./mapSelectionInteraction";
+import type { ChoosableTarget, MapTarget } from "./mapSelectionInteraction";
 
 interface TargetChoice {
   anchor: { x: number; y: number };
-  targets: MapTarget[];
+  targets: ChoosableTarget[];
 }
 
 interface TargetChoiceActions {
@@ -19,11 +19,15 @@ export function useAdministrativeTargetChoice(actions: TargetChoiceActions) {
   const [targetChoice, setTargetChoice] = useState<TargetChoice | null>(null);
   const closeTargetChoice = useCallback(() => setTargetChoice(null), []);
   const chooseTargets = useCallback((
-    targets: MapTarget[],
+    targets: ChoosableTarget[],
     anchor: { x: number; y: number },
   ) => setTargetChoice({ targets, anchor }), []);
   const applyAdministrativeTarget = useCallback((target: MapTarget) => {
     closeTargetChoice();
+    if (target.kind === "province") {
+      setActiveRegion(target.regionId);
+      return;
+    }
     if (target.kind === "military") {
       selectMilitaryUnit(target.id, target.regionId);
       return;

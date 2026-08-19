@@ -3,6 +3,12 @@ import { jimiRecords } from "./jimiData";
 import { jimiHierarchyData } from "./jimiHierarchyData";
 import { jimiColorExpression } from "./mapDisplay";
 import {
+  focusedTierOpacity,
+  jimiTier,
+  tierOpacityExpression,
+  tierProperty,
+} from "./displayTier";
+import {
   ensureJimiSymbolImages,
   jimiNativeOfficeSymbolImageId,
   jimiPointIconSizes,
@@ -10,7 +16,6 @@ import {
 import { setLayerVisibility } from "./mapLayerVisibility";
 import { createRelationRenderer } from "./relationRenderer";
 import { defaultTheme } from "./theme";
-import type { HierarchyScope } from "./types";
 
 const tokens = defaultTheme.map;
 const pointSourceId = "jimi-points";
@@ -38,7 +43,7 @@ export const jimiLayerIds = [
 
 export interface JimiLayerSelection {
   selectedJimiId: string | null;
-  scope: HierarchyScope;
+  activeRegionId: string | null;
 }
 
 function iconImageExpression(): ExpressionSpecification {
@@ -46,7 +51,7 @@ function iconImageExpression(): ExpressionSpecification {
 }
 
 function featureData(selection: JimiLayerSelection) {
-  const hierarchy = jimiHierarchyData(jimiRecords, selection.selectedJimiId, selection.scope);
+  const hierarchy = jimiHierarchyData(jimiRecords, selection.selectedJimiId);
   return {
     points: {
       type: "FeatureCollection" as const,
@@ -64,6 +69,7 @@ function featureData(selection: JimiLayerSelection) {
           jimiRootId,
           jimiDepth,
           jimiDisplayLevel,
+          [tierProperty]: jimiTier(jimiDisplayLevel),
         },
       })),
     },
@@ -76,6 +82,8 @@ function featureData(selection: JimiLayerSelection) {
 export function addJimiLayers(map: Map, selection: JimiLayerSelection, visible: boolean) {
   ensureJimiSymbolImages(map);
   const data = featureData(selection);
+  const region = selection.activeRegionId;
+  const gated = region !== null;
   const iconImage = iconImageExpression();
   const iconSizes = jimiPointIconSizes(selection.selectedJimiId);
   map.addSource(pointSourceId, { type: "geojson", data: data.points });
@@ -88,19 +96,20 @@ export function addJimiLayers(map: Map, selection: JimiLayerSelection, visible: 
     layout: { "icon-image": iconImage, "icon-size": iconSizes.outline,
       "icon-allow-overlap": true },
     paint: { "icon-color": tokens.seatRing,
-      "icon-opacity": 1 } });
+      "icon-opacity": tierOpacityExpression({ visible: gated, regionId: region }) } });
   map.addLayer({ id: pointLayerId, type: "symbol", source: pointSourceId,
     layout: { "icon-image": iconImage, "icon-size": iconSizes.fill,
       "icon-allow-overlap": true },
     paint: { "icon-color": jimiAffiliationColor,
-      "icon-opacity": 1 } });
+      "icon-opacity": tierOpacityExpression({ visible: gated, regionId: region }) } });
   map.addLayer({ id: labelLayerId, type: "symbol", source: pointSourceId,
-    minzoom: 5.4,
     layout: { "text-field": ["get", "label"], "text-font": ["Open Sans Regular"],
       "text-size": 10, "text-offset": [0, 1.18], "text-anchor": "top",
       "text-allow-overlap": false },
+    // Jimi labels sit at the same weight as military ones; the tier expression replaces
+    // the old fixed minzoom cutoff.
     paint: { "text-color": tokens.militaryLabel,
-      "text-opacity": 0.78,
+      "text-opacity": tierOpacityExpression({ visible: gated, maximumOpacity: 0.78, label: true, regionId: region }),
       "text-halo-color": tokens.land, "text-halo-width": 1.2 } });
   setLayerVisibility(map, jimiLayerIds, visible);
   if (visible) jimiRelationRenderer.start(map);
@@ -110,6 +119,8 @@ export function setJimiSelection(map: Map, selection: JimiLayerSelection) {
   const source = map.getSource(pointSourceId) as GeoJSONSource | undefined;
   if (!source) return;
   const data = featureData(selection);
+  const region = selection.activeRegionId;
+  const gated = region !== null;
   source.setData(data.points);
   jimiRelationRenderer.setData(map, {
     relations: data.relations,
@@ -119,30 +130,41 @@ export function setJimiSelection(map: Map, selection: JimiLayerSelection) {
   const iconSizes = jimiPointIconSizes(selection.selectedJimiId);
   if (map.getLayer(pointOutlineLayerId)) {
     map.setLayoutProperty(pointOutlineLayerId, "icon-size", iconSizes.outline);
-    map.setPaintProperty(pointOutlineLayerId, "icon-opacity", 1);
+    map.setPaintProperty(pointOutlineLayerId, "icon-opacity",
+      tierOpacityExpression({ visible: gated, regionId: region }));
   }
   if (map.getLayer(pointLayerId)) {
     map.setLayoutProperty(pointLayerId, "icon-size", iconSizes.fill);
-    map.setPaintProperty(pointLayerId, "icon-opacity", 1);
+    map.setPaintProperty(pointLayerId, "icon-opacity",
+      tierOpacityExpression({ visible: gated, regionId: region }));
   }
   if (map.getLayer(labelLayerId)) {
-    map.setPaintProperty(labelLayerId, "text-opacity", 0.78);
+    map.setPaintProperty(labelLayerId, "text-opacity",
+      tierOpacityExpression({ visible: gated, maximumOpacity: 0.78, label: true, regionId: region }));
   }
   const flowVisible = map.getLayoutProperty(flowLayerId, "visibility") !== "none";
   if (flowVisible) jimiRelationRenderer.start(map);
   else jimiRelationRenderer.stop(map);
 }
 
-export function setJimiPointFocus(map: Map, jimiRootId: string | null, dimAll = false) {
+export function setJimiPointFocus(
+  map: Map,
+  jimiRootId: string | null,
+  dimAll = false,
+  regionId: string | null = null,
+) {
   if (!map.getLayer(pointLayerId)) return;
+  const visible = regionId !== null && !dimAll;
   const opacity = (active: number, inactive: number) => {
-    if (dimAll) return inactive;
     if (!jimiRootId) return active;
     return ["case", ["==", ["get", "jimiRootId"], jimiRootId], active, inactive] as unknown as ExpressionSpecification;
   };
-  map.setPaintProperty(pointOutlineLayerId, "icon-opacity", opacity(1, 0.18));
-  map.setPaintProperty(pointLayerId, "icon-opacity", opacity(1, 0.24));
-  map.setPaintProperty(labelLayerId, "text-opacity", opacity(0.78, 0.18));
+  map.setPaintProperty(pointOutlineLayerId, "icon-opacity",
+    focusedTierOpacity(opacity(1, 0.18), { visible, regionId }));
+  map.setPaintProperty(pointLayerId, "icon-opacity",
+    focusedTierOpacity(opacity(1, 0.24), { visible, regionId }));
+  map.setPaintProperty(labelLayerId, "text-opacity",
+    focusedTierOpacity(opacity(0.78, 0.18), { visible, label: true, regionId }));
 }
 
 export function setJimiVisibility(map: Map, visible: boolean) {

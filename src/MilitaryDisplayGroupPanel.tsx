@@ -66,7 +66,7 @@ export function MilitaryDisplayGroupPanel({ group }: { group: MilitaryDisplayGro
 
       <Disclosure className="scope-details" summary="显示说明">
         <p>{group.description}</p>
-        <p>选择组内单位后，地图会显示指向“{group.anchor.label}”的虚线；锚点仅用于集中表示，不是历史机构治所，也不表示行政隶属。</p>
+        <p>本分组只用于归类说明，不是另设的军事机构，也不表示行政隶属。</p>
       </Disclosure>
     </Scrollbar>
   </aside>;

@@ -3,7 +3,7 @@ import { Button } from "./components/Button";
 import { counties, seats } from "./data";
 import { jimiById } from "./jimiData";
 import { militaryById } from "./militaryData";
-import type { MapTarget } from "./mapSelectionInteraction";
+import type { ChoosableTarget, MapTarget } from "./mapSelectionInteraction";
 import { Scrollbar } from "./Scrollbar";
 
 const visibleTargetLimit = 8;
@@ -11,12 +11,12 @@ const targetRowHeight = 38;
 
 interface AdministrativeTargetChooserProps {
   anchor: { x: number; y: number };
-  targets: MapTarget[];
+  targets: ChoosableTarget[];
   onClose: () => void;
   onSelect: (target: MapTarget) => void;
 }
 
-function targetDetails(target: MapTarget) {
+function targetDetails(target: ChoosableTarget) {
   if (target.kind === "military") {
     const military = militaryById.get(target.id);
     return { name: military?.unit.name ?? target.id, context: "军事单位" };

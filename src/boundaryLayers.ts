@@ -6,8 +6,10 @@ const tokens = defaultTheme.map;
 const sourceId = "province-boundaries";
 const fillLayerId = "province-boundary-fill";
 const lineLayerId = "province-boundary-line";
+const labelSourceId = "province-boundary-labels";
+const labelLayerId = "province-boundary-label";
 
-export const boundaryLayerIds = [fillLayerId, lineLayerId] as const;
+export const boundaryLayerIds = [fillLayerId, lineLayerId, labelLayerId] as const;
 export const boundaryDataUrl = "/reference/province-baseline.geojson";
 
 const fillOpacity = { idle: 0.18, hover: 0.28, selected: 0.42 };
@@ -20,12 +22,34 @@ function affiliationColor(): ExpressionSpecification {
   return ["match", ["get", "unitId"], ...cases, tokens.relief] as unknown as ExpressionSpecification;
 }
 
-function opacityExpression(selectedUnitId: string | null): ExpressionSpecification {
+/// In the nation view the provinces are not drawn at all: the empire is one shape, and its
+/// divisions appear only once one of them is chosen. The fill stays in the style so hover
+/// can still find the province under the pointer, which is what lifts the national fill.
+function opacityExpression(
+  selectedUnitId: string | null,
+  provinceScope: boolean,
+): ExpressionSpecification | number {
+  // In the nation view only the hovered province is tinted, and it is drawn over the
+  // national wash rather than instead of it, so the lift has to clear that wash to read at
+  // all. Nothing else in the layer is painted, which is what keeps the borders withheld.
+  if (!provinceScope) {
+    return ["case",
+      ["boolean", ["feature-state", "hover"], false], tokens.nationHoverFillOpacity,
+      0,
+    ] as unknown as ExpressionSpecification;
+  }
   return ["case",
     ["==", ["get", "unitId"], selectedUnitId ?? ""], fillOpacity.selected,
     ["boolean", ["feature-state", "hover"], false], fillOpacity.hover,
     fillOpacity.idle,
-  ];
+  ] as unknown as ExpressionSpecification;
+}
+
+/// In the nation view the hovered province brightens in the realm's own cinnabar rather
+/// than showing its provincial colour, so hovering reads as lifting part of one empire
+/// instead of previewing the division the view has not made yet.
+function fillColorExpression(provinceScope: boolean) {
+  return provinceScope ? affiliationColor() : tokens.nation;
 }
 
 /// A zoom expression has to stay at the top level, so the selected-width branch lives inside
@@ -38,10 +62,31 @@ function lineWidthExpression(selectedUnitId: string | null): ExpressionSpecifica
   ];
 }
 
+/// Province names are drawn from their own point source rather than from the polygons.
+/// MapLibre puts one label on every polygon of a MultiPolygon, which would repeat 廣東 on
+/// each of its twenty-one islands; the export carries a single anchor per unit instead.
+function labelData(
+  document: GeoJSON.FeatureCollection,
+): GeoJSON.FeatureCollection<GeoJSON.Point> {
+  return {
+    type: "FeatureCollection",
+    features: document.features.flatMap((feature) => {
+      const anchor = feature.properties?.labelAnchor;
+      if (!Array.isArray(anchor) || anchor.length !== 2) return [];
+      return [{
+        type: "Feature" as const,
+        geometry: { type: "Point" as const, coordinates: [anchor[0], anchor[1]] },
+        properties: { name: feature.properties?.unitName ?? "" },
+      }];
+    }),
+  };
+}
+
 export function addBoundaryLayers(
   map: Map,
   selectedUnitId: string | null,
   visible: boolean,
+  provinceScope: boolean,
   beforeLayerId?: string,
 ) {
   if (map.getSource(sourceId)) return;
@@ -53,8 +98,8 @@ export function addBoundaryLayers(
     type: "fill",
     source: sourceId,
     paint: {
-      "fill-color": affiliationColor(),
-      "fill-opacity": opacityExpression(selectedUnitId),
+      "fill-color": fillColorExpression(provinceScope),
+      "fill-opacity": opacityExpression(selectedUnitId, provinceScope),
       "fill-opacity-transition": { duration: tokens.countyFadeDurationMs },
     },
   }, before);
@@ -65,17 +110,55 @@ export function addBoundaryLayers(
     layout: { "line-join": "round", "line-cap": "round" },
     paint: {
       "line-color": affiliationColor(),
-      "line-opacity": 0.75,
+      "line-opacity": provinceScope ? 0.75 : 0,
+      "line-opacity-transition": { duration: tokens.countyFadeDurationMs },
       "line-width": lineWidthExpression(selectedUnitId),
     },
   }, before);
+  map.addSource(labelSourceId, {
+    type: "geojson",
+    data: { type: "FeatureCollection", features: [] },
+  });
+  map.addLayer({
+    id: labelLayerId,
+    type: "symbol",
+    source: labelSourceId,
+    layout: {
+      "text-field": ["get", "name"],
+      "text-font": ["Open Sans Regular"],
+      "text-size": ["interpolate", ["linear"], ["zoom"], 4, 15, 7, 22],
+      "text-letter-spacing": 0.18,
+      "text-allow-overlap": false,
+    },
+    paint: {
+      "text-color": tokens.provinceLabel,
+      "text-opacity": provinceScope ? tokens.provinceLabelOpacity : 0,
+      "text-opacity-transition": { duration: tokens.countyFadeDurationMs },
+      "text-halo-color": tokens.land,
+      "text-halo-width": 1.8,
+    },
+  });
   setLayerVisibility(map, boundaryLayerIds, visible);
+  void fetch(boundaryDataUrl)
+    .then((response) => response.json())
+    .then((document) => {
+      const source = map.getSource(labelSourceId) as maplibregl.GeoJSONSource | undefined;
+      source?.setData(labelData(document));
+    });
 }
 
-export function setBoundarySelection(map: Map, selectedUnitId: string | null) {
+export function setBoundarySelection(
+  map: Map,
+  selectedUnitId: string | null,
+  provinceScope: boolean,
+) {
   if (!map.getLayer(fillLayerId)) return;
-  map.setPaintProperty(fillLayerId, "fill-opacity", opacityExpression(selectedUnitId));
+  map.setPaintProperty(fillLayerId, "fill-color", fillColorExpression(provinceScope));
+  map.setPaintProperty(fillLayerId, "fill-opacity", opacityExpression(selectedUnitId, provinceScope));
+  map.setPaintProperty(lineLayerId, "line-opacity", provinceScope ? 0.75 : 0);
   map.setPaintProperty(lineLayerId, "line-width", lineWidthExpression(selectedUnitId));
+  map.setPaintProperty(labelLayerId, "text-opacity",
+    provinceScope ? tokens.provinceLabelOpacity : 0);
 }
 
 export function setBoundaryVisibility(map: Map, visible: boolean) {

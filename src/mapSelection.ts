@@ -5,34 +5,30 @@ import { jimiById } from "./jimiData";
 import { militaryById } from "./militaryData";
 import { setRelationSelection } from "./relationLayers";
 import { setSeatDisplayMode, setSeatSelection } from "./seatLayers";
-import type { HierarchyScope, MapDisplayMode } from "./types";
+import type { MapDisplayMode } from "./types";
 
 export function updateMapHierarchySelection(map: Map, options: {
   selectedUnitId: string | null;
-  hierarchyScope: HierarchyScope;
   displayMode: MapDisplayMode;
 }) {
-  const { selectedUnitId, hierarchyScope, displayMode } = options;
+  const { selectedUnitId, displayMode } = options;
   const topLevelUnitId = getTopLevelUnitId(selectedUnitId);
   setSeatSelection(map, topLevelUnitId);
   setSeatDisplayMode(map, displayMode);
-  setRelationSelection(map, topLevelUnitId, hierarchyScope);
+  setRelationSelection(map, topLevelUnitId);
 }
 
 export function updateMapCountySelection(map: Map, options: {
   selectedUnitId: string | null;
   selectedCountyId: string | null;
   countyRegionId: string | null;
-  hierarchyScope: HierarchyScope;
   displayMode: MapDisplayMode;
 }) {
-  const { selectedUnitId, selectedCountyId, countyRegionId,
-    hierarchyScope, displayMode } = options;
+  const { selectedUnitId, selectedCountyId, countyRegionId, displayMode } = options;
   setCountySelection(map, {
     selectedUnitId,
     selectedCountyId,
     regionId: countyRegionId,
-    scope: hierarchyScope,
     displayMode,
   });
 }

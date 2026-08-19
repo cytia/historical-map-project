@@ -2,6 +2,7 @@ import { useEffect, type RefObject } from "react";
 import type { Map } from "maplibre-gl";
 import { getTopLevelUnitId, getUnitRegionId } from "./data";
 import { setBoundarySelection, setBoundaryVisibility } from "./boundaryLayers";
+import { setNationScope } from "./nationLayer";
 import {
   focusMapSelection,
   updateMapCountySelection,
@@ -12,7 +13,7 @@ import { setJimiSelection, setJimiVisibility } from "./jimiLayers";
 import { applyMapPointFocus } from "./mapPointFocus";
 import { seatLayerIds } from "./seatLayers";
 import { setMilitarySelection, setMilitaryVisibility } from "./militaryLayers";
-import type { HierarchyScope, MapDisplayMode, MilitaryColorMode } from "./types";
+import type { MapDisplayMode, MilitaryColorMode } from "./types";
 
 interface MapSelectionSyncOptions {
   mapRef: RefObject<Map | null>;
@@ -24,7 +25,6 @@ interface MapSelectionSyncOptions {
   hoveredRegionId: string | null;
   hoveredMilitaryUnitId: string | null;
   hoveredJimiUnitId: string | null;
-  hierarchyScope: HierarchyScope;
   mapDisplayMode: MapDisplayMode;
   militaryColorMode: MilitaryColorMode;
   seatsVisible: boolean;
@@ -36,7 +36,7 @@ interface MapSelectionSyncOptions {
 export function useMapSelectionSync(options: MapSelectionSyncOptions) {
   const { mapRef, selectedUnitId, selectedMilitaryUnitId, selectedJimiUnitId, selectedCountyId,
     activeRegionId, hoveredRegionId, hoveredMilitaryUnitId, hoveredJimiUnitId,
-    hierarchyScope, mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible,
+    mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible,
     boundariesVisible } = options;
   const selectedRegionId = getUnitRegionId(selectedUnitId);
   const militaryRegionId = selectedRegionId ?? activeRegionId;
@@ -46,10 +46,9 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
     if (!map?.getLayer("seat-points")) return;
     updateMapHierarchySelection(map, {
       selectedUnitId,
-      hierarchyScope,
       displayMode: mapDisplayMode,
     });
-  }, [mapRef, selectedUnitId, hierarchyScope, mapDisplayMode]);
+  }, [mapRef, selectedUnitId, mapDisplayMode]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -58,11 +57,10 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
       selectedUnitId,
       selectedCountyId,
       countyRegionId: selectedRegionId ?? activeRegionId,
-      hierarchyScope,
       displayMode: mapDisplayMode,
     });
   }, [mapRef, selectedUnitId, selectedCountyId, selectedRegionId, activeRegionId,
-    hierarchyScope, mapDisplayMode]);
+    mapDisplayMode]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -71,17 +69,18 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
       selectedMilitaryId: selectedMilitaryUnitId,
       selectedAdministrativeId: selectedUnitId,
       activeRegionId: militaryRegionId,
-      scope: hierarchyScope,
       colorMode: militaryColorMode,
     });
-  }, [mapRef, selectedMilitaryUnitId, selectedUnitId, militaryRegionId,
-    hierarchyScope, militaryColorMode]);
+  }, [mapRef, selectedMilitaryUnitId, selectedUnitId, militaryRegionId, militaryColorMode]);
 
   useEffect(() => {
     const map = mapRef.current;
     if (!map?.getLayer("jimi-points")) return;
-    setJimiSelection(map, { selectedJimiId: selectedJimiUnitId, scope: hierarchyScope });
-  }, [mapRef, selectedJimiUnitId, hierarchyScope]);
+    setJimiSelection(map, {
+      selectedJimiId: selectedJimiUnitId,
+      activeRegionId: militaryRegionId,
+    });
+  }, [mapRef, selectedJimiUnitId, militaryRegionId]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -96,7 +95,7 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
       activeRegionId,
     });
   }, [mapRef, selectedUnitId, selectedMilitaryUnitId, selectedJimiUnitId, hoveredRegionId,
-    hoveredMilitaryUnitId, hoveredJimiUnitId, activeRegionId, hierarchyScope]);
+    hoveredMilitaryUnitId, hoveredJimiUnitId, activeRegionId]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -124,8 +123,14 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
     if (map) setBoundaryVisibility(map, boundariesVisible);
   }, [mapRef, boundariesVisible]);
 
+  // The nation view is on exactly when no province is in view, so the two layers switch
+  // from one fact rather than from a second copy of it in state.
+  const provinceScope = (selectedRegionId ?? activeRegionId) !== null;
+
   useEffect(() => {
     const map = mapRef.current;
-    if (map) setBoundarySelection(map, getTopLevelUnitId(selectedUnitId));
-  }, [mapRef, selectedUnitId]);
+    if (!map) return;
+    setBoundarySelection(map, getTopLevelUnitId(selectedUnitId), provinceScope);
+    setNationScope(map, !provinceScope);
+  }, [mapRef, selectedUnitId, provinceScope]);
 }

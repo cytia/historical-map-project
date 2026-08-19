@@ -21,24 +21,25 @@ export function applyMapPointFocus(map: Map, focus: MapPointFocus) {
     (focus.selectedUnitId ? null : focus.hoveredMilitaryUnitId);
   const jimiUnitId = focus.selectedJimiUnitId ??
     (focus.selectedUnitId || militaryUnitId ? null : focus.hoveredJimiUnitId);
+  // Points of every system are drawn only once a province is in view. The province in view
+  // is the active region: a hover must not open the gate, or moving the pointer over the
+  // map before choosing anything would flash every province's points in turn.
+  const administrativeRegionId = getUnitRegionId(focus.selectedUnitId) ?? focus.activeRegionId;
   if (jimiUnitId) {
     setSeatFocus(map, null, true);
-    setMilitaryPointFocus(map, null, true);
-    setJimiPointFocus(map, getJimiFocusId(jimiUnitId) ?? jimiUnitId);
+    setMilitaryPointFocus(map, null, true, administrativeRegionId);
+    setJimiPointFocus(map, getJimiFocusId(jimiUnitId) ?? jimiUnitId, false, administrativeRegionId);
     return;
   }
   if (militaryUnitId) {
     const commandId = getMilitaryFocusId(militaryUnitId) ?? militaryUnitId;
     setSeatFocus(map, null, true);
-    setMilitaryPointFocus(map, commandId);
-    setJimiPointFocus(map, null, true);
+    setMilitaryPointFocus(map, commandId, false, administrativeRegionId);
+    setJimiPointFocus(map, null, true, administrativeRegionId);
     return;
   }
 
-  const administrativeRegionId = focus.selectedUnitId
-    ? getUnitRegionId(focus.selectedUnitId)
-    : focus.hoveredRegionId ?? focus.activeRegionId;
   setSeatFocus(map, administrativeRegionId);
-  setMilitaryPointFocus(map, null, administrativeRegionId !== null);
-  setJimiPointFocus(map, null, administrativeRegionId !== null);
+  setMilitaryPointFocus(map, null, false, administrativeRegionId);
+  setJimiPointFocus(map, null, false, administrativeRegionId);
 }
