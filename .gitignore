@@ -14,6 +14,7 @@
 # Boundary geometry metadata. The coordinates live in the Map-Boundary repository
 # and are referenced through geometryPath; neither they nor these records are published.
 /data/geometries/*.json
+/data/geometries/[0-9]*/
 /.terrain-work/
 /.terrain-venv/
 /.reference-work/

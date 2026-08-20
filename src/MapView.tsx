@@ -55,15 +55,13 @@ export function MapView() {
   const seatsVisible = useAppStore((state) => state.seatsVisible);
   const militaryVisible = useAppStore((state) => state.militaryVisible);
   const jimiVisible = useAppStore((state) => state.jimiVisible);
-  const boundariesVisible = useAppStore((state) => state.boundariesVisible);
   const mapDisplayMode = useAppStore((state) => state.mapDisplayMode);
   const militaryColorMode = useAppStore((state) => state.militaryColorMode);
   const { targetChoice, closeTargetChoice, chooseTargets, applyAdministrativeTarget } =
     useAdministrativeTargetChoice({ selectCounty, selectUnit, selectMilitaryUnit, selectJimiUnit, setActiveRegion });
   useMapSelectionSync({ mapRef, selectedUnitId, selectedMilitaryUnitId, selectedJimiUnitId,
     selectedCountyId, activeRegionId, hoveredRegionId, hoveredMilitaryUnitId, hoveredJimiUnitId,
-    mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible,
-    boundariesVisible });
+    mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible });
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -87,8 +85,7 @@ export function MapView() {
       const selectedRegionId = getUnitRegionId(state.selectedUnitId) ?? state.activeRegionId;
       const provinceScope = selectedRegionId !== null;
       void addNationLayers(map, !provinceScope);
-      addBoundaryLayers(map, getTopLevelUnitId(state.selectedUnitId), state.boundariesVisible,
-        provinceScope);
+      addBoundaryLayers(map, getTopLevelUnitId(state.selectedUnitId), true, provinceScope);
       addRelationLayers(map, state.selectedUnitId, true);
       addMilitaryLayers(map, {
         selectedMilitaryId: state.selectedMilitaryUnitId,
@@ -131,6 +128,7 @@ export function MapView() {
       applyAdministrativeTarget,
       chooseTargets,
       () => useAppStore.getState().selectionDomain,
+      () => useAppStore.getState().activeRegionId,
     );
     const stopPointHoverHandlers = registerPointHoverHandlers(map, {
         hoveredRegionRef,

@@ -17,7 +17,6 @@ interface AppState {
   seatsVisible: boolean;
   militaryVisible: boolean;
   jimiVisible: boolean;
-  boundariesVisible: boolean;
   mapDisplayMode: MapDisplayMode;
   militaryColorMode: MilitaryColorMode;
   selectUnit: (id: string | null) => void;
@@ -35,7 +34,6 @@ interface AppState {
   setSeatsVisible: (visible: boolean) => void;
   setMilitaryVisible: (visible: boolean) => void;
   setJimiVisible: (visible: boolean) => void;
-  setBoundariesVisible: (visible: boolean) => void;
   setMapDisplayMode: (mode: MapDisplayMode) => void;
   setMilitaryColorMode: (mode: MilitaryColorMode) => void;
 }
@@ -56,7 +54,6 @@ export const useAppStore = create<AppState>((set) => ({
   seatsVisible: true,
   militaryVisible: false,
   jimiVisible: false,
-  boundariesVisible: true,
   mapDisplayMode: "administrative",
   militaryColorMode: "administrative",
   selectUnit: (selectedUnitId) =>
@@ -110,7 +107,6 @@ export const useAppStore = create<AppState>((set) => ({
   setSeatsVisible: (seatsVisible) => set({ seatsVisible }),
   setMilitaryVisible: (militaryVisible) => set({ militaryVisible }),
   setJimiVisible: (jimiVisible) => set({ jimiVisible }),
-  setBoundariesVisible: (boundariesVisible) => set({ boundariesVisible }),
   setMapDisplayMode: (mapDisplayMode) => set({ mapDisplayMode }),
   setMilitaryColorMode: (militaryColorMode) => set({ militaryColorMode }),
 }));

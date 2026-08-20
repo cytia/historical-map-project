@@ -29,7 +29,7 @@ const emptyPoints: GeoJSON.FeatureCollection<GeoJSON.Point> = {
 const nationFillOpacity = tokens.nationFillOpacity;
 
 function labelSize(): ExpressionSpecification {
-  return ["interpolate", ["linear"], ["zoom"], 4, 42, 6, 64];
+  return ["interpolate", ["linear"], ["zoom"], 4, 80, 6, 120];
 }
 
 function lineWidth(): ExpressionSpecification {

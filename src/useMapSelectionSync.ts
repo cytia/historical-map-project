@@ -1,7 +1,7 @@
 import { useEffect, type RefObject } from "react";
 import type { Map } from "maplibre-gl";
 import { getTopLevelUnitId, getUnitRegionId } from "./data";
-import { setBoundarySelection, setBoundaryVisibility } from "./boundaryLayers";
+import { setBoundarySelection } from "./boundaryLayers";
 import { setNationScope } from "./nationLayer";
 import {
   focusMapSelection,
@@ -30,14 +30,12 @@ interface MapSelectionSyncOptions {
   seatsVisible: boolean;
   militaryVisible: boolean;
   jimiVisible: boolean;
-  boundariesVisible: boolean;
 }
 
 export function useMapSelectionSync(options: MapSelectionSyncOptions) {
   const { mapRef, selectedUnitId, selectedMilitaryUnitId, selectedJimiUnitId, selectedCountyId,
     activeRegionId, hoveredRegionId, hoveredMilitaryUnitId, hoveredJimiUnitId,
-    mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible,
-    boundariesVisible } = options;
+    mapDisplayMode, militaryColorMode, seatsVisible, militaryVisible, jimiVisible } = options;
   const selectedRegionId = getUnitRegionId(selectedUnitId);
   const militaryRegionId = selectedRegionId ?? activeRegionId;
 
@@ -117,11 +115,6 @@ export function useMapSelectionSync(options: MapSelectionSyncOptions) {
     const map = mapRef.current;
     if (map) setJimiVisibility(map, jimiVisible);
   }, [mapRef, jimiVisible]);
-
-  useEffect(() => {
-    const map = mapRef.current;
-    if (map) setBoundaryVisibility(map, boundariesVisible);
-  }, [mapRef, boundariesVisible]);
 
   // The nation view is on exactly when no province is in view, so the two layers switch
   // from one fact rather than from a second copy of it in state.

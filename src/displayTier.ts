@@ -105,3 +105,16 @@ export function jimiTier(displayLevel: number | undefined): DisplayTier {
   if (!displayLevel || displayLevel <= 1) return 1;
   return displayLevel === 2 ? 2 : 3;
 }
+
+/// Whether a tier is drawn at a given zoom, answered from the same thresholds the paint
+/// expression uses. Hit testing needs this because MapLibre's rendered-feature query
+/// ignores paint opacity: a point faded out by tier or by the nation view is still returned
+/// and would otherwise stay clickable while invisible.
+export function isTierVisibleAtZoom(
+  tier: DisplayTier | undefined,
+  zoom: number,
+  label = false,
+): boolean {
+  if (tier === undefined || tier === 1) return true;
+  return zoom >= tierZoom[tier] + (label ? labelZoomOffset : 0);
+}

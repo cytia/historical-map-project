@@ -1,4 +1,6 @@
 import type { Map, PointLike } from "maplibre-gl";
+import { isTierVisibleAtZoom, tierProperty } from "./displayTier";
+import type { DisplayTier } from "./displayTier";
 import type { SelectionDomain } from "./types";
 
 export const selectionClickTolerance = 8;
@@ -71,7 +73,32 @@ function targetFromJimiProperties(properties: GeoJSON.GeoJsonProperties): JimiTa
   return { kind: "jimi", id, regionId };
 }
 
-export function queryMapTargets(map: Map, point: PointLike, selectionDomain: SelectionDomain) {
+/// A point is a legitimate click target only where it is actually drawn. MapLibre's
+/// rendered-feature query reports features whose paint opacity is zero, so without this the
+/// map would answer clicks with units it is not showing: every seat in the country while
+/// the nation view is on, and the deeper tiers while the camera is still zoomed out.
+function isFeatureDrawn(
+  properties: GeoJSON.GeoJsonProperties,
+  activeRegionId: string | null,
+  zoom: number,
+) {
+  // Before a province is chosen the map draws no points at all, only the province faces.
+  if (!activeRegionId) return false;
+  // Points belong to the province in view; the others are painted out by the same rule.
+  if (properties?.regionId !== activeRegionId) return false;
+  const tier = properties?.[tierProperty];
+  return isTierVisibleAtZoom(
+    typeof tier === "number" ? tier as DisplayTier : undefined,
+    zoom,
+  );
+}
+
+export function queryMapTargets(
+  map: Map,
+  point: PointLike,
+  selectionDomain: SelectionDomain,
+  activeRegionId: string | null,
+) {
   const layers = [
     ...(selectionDomain === "jimi"
       ? ["jimi-labels", "jimi-points"]
@@ -92,11 +119,13 @@ export function queryMapTargets(map: Map, point: PointLike, selectionDomain: Sel
       [x - selectionHitRadius, y - selectionHitRadius],
       [x + selectionHitRadius, y + selectionHitRadius],
     ], { layers });
+    const zoom = map.getZoom();
     const targets = features.reduce<MapTarget[]>((result, { properties }) => {
       if (typeof properties?.unitId === "string") {
         result.push({ kind: "province", regionId: properties.unitId });
         return result;
       }
+      if (!isFeatureDrawn(properties, activeRegionId, zoom)) return result;
       if (properties?.kind === "military") {
         const target = targetFromMilitaryProperties(properties);
         if (target) result.push(target);
@@ -125,7 +154,9 @@ export function queryMapTargets(map: Map, point: PointLike, selectionDomain: Sel
         return leftPriority - rightPriority;
       });
     }
-    return unique;
+    // A hit box that straddles a provincial border catches both faces, but ground is not a
+    // list to choose from: the first is the one drawn on top, which is the one aimed at.
+    return unique.slice(0, 1);
   } catch {
     return [];
   }
@@ -137,6 +168,7 @@ export function createSelectionPointerController(
   selectTarget: (target: MapTarget) => void,
   chooseTarget: (targets: ChoosableTarget[], anchor: { x: number; y: number }) => void,
   getSelectionDomain: () => SelectionDomain = () => "administrative",
+  getActiveRegionId: () => string | null = () => null,
 ) {
   const container = map.getCanvasContainer();
   let gesture: {
@@ -186,7 +218,7 @@ export function createSelectionPointerController(
       y: event.clientY,
       maxDistance: 0,
       targets: queryMapTargets(map, [event.clientX - bounds.left, event.clientY - bounds.top],
-        getSelectionDomain(),
+        getSelectionDomain(), getActiveRegionId(),
       ),
     };
     window.addEventListener("pointermove", handlePointerMove, true);
