@@ -1,7 +1,7 @@
 {
   "description": "Manual adjudications overriding seat-based county assignment. A seat falling inside a modern county normally assigns that county to the unit, but where several units' seats land in one county the rule cannot decide. Each entry names the unit that takes the county and records why. Evidence is in cross-province-adjudication.md.",
   "coordinateReferenceSystem": "EPSG:4326",
-  "adjudicatedOn": "2026-08-14",
+  "adjudicatedOn": "2026-08-20",
   "overrides": [
     {
       "modernCountyId": "17275852B48866302661843",
@@ -55,6 +55,45 @@
       "reason": "黄梅县治所距该县边界 11.58 km，位于县域主体；德化县为九江府附郭，治所距边界 0.67 km，为越界溢出，其辖境在长江以南江西一侧。江西德化县与福建泉州府德化县同名，此处指 jiangxi-dehua-county。",
       "tier": "cross-province",
       "modernCountyShapeName": "Huangmeixian"
+    },
+    {
+      "modernCountyId": "17275852B64978204094712",
+      "modernCounty": "怀安县",
+      "assignTo": "huaian-wei-wanquan",
+      "assignToName": "怀安卫",
+      "province": "京师",
+      "displaced": [
+        "datong-prefecture"
+      ],
+      "reason": "怀安卫、保安右卫治所均在该县境内，二者隶万全都司，属京师。此前该县 98.8% 划入山西，使怀安卫落到山西境内。省界应循天镇县／怀安县县界：天城卫在天镇属山西行都司，怀安卫在怀安属万全都司，县界正是两都司分界。",
+      "tier": "cross-province",
+      "modernCountyShapeName": "Huaianxian"
+    },
+    {
+      "modernCountyId": "17275852B37803356904979",
+      "modernCounty": "万全县",
+      "assignTo": "wanquan-right-wei-wanquan",
+      "assignToName": "万全右卫",
+      "province": "京师",
+      "displaced": [
+        "datong-prefecture"
+      ],
+      "reason": "万全右卫治所在该县境内，隶万全都司，属京师。此前该县 94.0% 划入山西。",
+      "tier": "cross-province",
+      "modernCountyShapeName": "Wanquanxian"
+    },
+    {
+      "modernCountyId": "17275852B97070335713694",
+      "modernCounty": "阳原县",
+      "assignTo": "baoan-direct-department",
+      "assignToName": "保安州",
+      "province": "京师",
+      "displaced": [
+        "datong-prefecture"
+      ],
+      "reason": "该县境内无治所，归属为显式裁定而非治所推导：其地为保安州辖境，保安州系京师直隶州、治所已在京师（今涿鹿）；且怀安、万全转出后该县被京师三面围住。依据弱于前两县，故记明。",
+      "tier": "cross-province",
+      "modernCountyShapeName": "Yangyuanxian"
     }
   ]
 }
