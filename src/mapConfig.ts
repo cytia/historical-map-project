@@ -3,7 +3,8 @@ import { defaultTheme } from "./theme";
 
 const mapColors = defaultTheme.map;
 
-export const naturalReferenceGeoJsonUrl = "/reference/natural-reference.geojson";
+export const naturalReferenceGeoJsonUrl =
+  `/reference/natural-reference.geojson?v=${__NATURAL_REFERENCE_VERSION__}`;
 
 const naturalMinZoom = {
   water: 0,

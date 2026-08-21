@@ -134,6 +134,23 @@ try {
         throw "Build references a missing asset: $assetRelativePath"
     }
 
+    $naturalReferenceAssetPath = $null
+    $assetDirectory = Join-Path $distRoot "assets"
+    foreach ($scriptPath in Get-ChildItem -LiteralPath $assetDirectory -Filter "*.js" -File) {
+        $scriptText = Get-Content -LiteralPath $scriptPath.FullName -Raw -Encoding UTF8
+        $naturalReferenceMatch = [regex]::Match(
+            $scriptText,
+            '/reference/natural-reference\.geojson\?v=[A-Za-z0-9]+'
+        )
+        if ($naturalReferenceMatch.Success) {
+            $naturalReferenceAssetPath = $naturalReferenceMatch.Value
+            break
+        }
+    }
+    if (-not $naturalReferenceAssetPath) {
+        throw "Build does not contain a versioned natural reference URL."
+    }
+
     $preflight = New-RemoteCommand @(
         "set -eu",
         "test ! -e $stageQuoted",
@@ -187,6 +204,31 @@ try {
     $assetStatus = (& curl.exe -fsS -o NUL -w "%{http_code}" "$siteBaseUrl/$assetRelativePath").Trim()
     if ($LASTEXITCODE -ne 0 -or $assetStatus -ne "200") {
         throw "Online asset verification failed with HTTP status $assetStatus."
+    }
+
+    $naturalReferenceLocalPath = Join-Path $distRoot "reference\natural-reference.geojson"
+    if (-not (Test-Path -LiteralPath $naturalReferenceLocalPath -PathType Leaf)) {
+        throw "Build is missing the natural reference file."
+    }
+    $naturalReferenceVerificationPath = Join-Path (
+        [System.IO.Path]::GetTempPath()
+    ) ("chronotabula-natural-reference-" + [Guid]::NewGuid().ToString("N") + ".geojson")
+    try {
+        $naturalReferenceStatus = (& curl.exe -fsS -o $naturalReferenceVerificationPath -w "%{http_code}" `
+            "$siteBaseUrl$naturalReferenceAssetPath").Trim()
+        if ($LASTEXITCODE -ne 0 -or $naturalReferenceStatus -ne "200") {
+            throw "Online natural reference verification failed with HTTP status $naturalReferenceStatus."
+        }
+        $localNaturalReferenceHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $naturalReferenceLocalPath).Hash.ToLowerInvariant()
+        $remoteNaturalReferenceHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $naturalReferenceVerificationPath).Hash.ToLowerInvariant()
+        if ($localNaturalReferenceHash -ne $remoteNaturalReferenceHash) {
+            throw "Online natural reference hash does not match the local build."
+        }
+    }
+    finally {
+        if (Test-Path -LiteralPath $naturalReferenceVerificationPath -PathType Leaf) {
+            Remove-Item -LiteralPath $naturalReferenceVerificationPath -Force -ErrorAction SilentlyContinue
+        }
     }
 
     Write-Host "Published v$version successfully."
