@@ -95,14 +95,14 @@ export function MapView() {
       }, state.militaryVisible);
       addJimiLayers(map, { selectedJimiId: state.selectedJimiUnitId,
         activeRegionId: selectedRegionId }, state.jimiVisible);
-      addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId,
-        state.seatsVisible, state.mapDisplayMode);
       addCountyLayers(map, {
         selectedUnitId: state.selectedUnitId,
         selectedCountyId: state.selectedCountyId,
         regionId: selectedRegionId,
         displayMode: state.mapDisplayMode,
       }, true);
+      addSeatLayers(map, getTopLevelUnitId(state.selectedUnitId), state.activeRegionId,
+        state.seatsVisible, state.mapDisplayMode);
       stopBoundaryHoverRef.current?.();
       stopBoundaryHoverRef.current = registerBoundaryHover(map);
       setRelationSelection(map, state.selectedUnitId);

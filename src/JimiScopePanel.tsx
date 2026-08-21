@@ -23,6 +23,42 @@ function levelLabel(record: JimiRecord) {
   return `${record.jimiDisplayLevel}级`;
 }
 
+function groupLeafChildren(children: JimiRecord[]) {
+  const groups: JimiRecord[][] = [];
+  const groupsByType = new Map<string, JimiRecord[]>();
+  for (const child of children) {
+    if (getJimiChildren(child.unit.id).length > 0) {
+      groups.push([child]);
+      continue;
+    }
+    const typeKey = `${child.jimiDisplayLevel}:${child.unit.officeKind}`;
+    const group = groupsByType.get(typeKey);
+    if (group) {
+      group.push(child);
+      continue;
+    }
+    const newGroup = [child];
+    groupsByType.set(typeKey, newGroup);
+    groups.push(newGroup);
+  }
+  return groups;
+}
+
+function HierarchyLeafGroup({ records, onSelect }: {
+  records: JimiRecord[];
+  onSelect: (record: JimiRecord) => void;
+}) {
+  const firstRecord = records[0];
+  const recordsByUnitId = new Map(records.map((record) => [record.unit.id, record]));
+  return <div className="jimi-tree-node">
+    <p className="scope-secondary">{levelLabel(firstRecord)} · {jimiOfficeLabel(firstRecord.unit.officeKind)}</p>
+    <ScopeUnitButtons units={records.map((record) => record.unit)} onSelect={(unit) => {
+      const record = recordsByUnitId.get(unit.id);
+      if (record) onSelect(record);
+    }} />
+  </div>;
+}
+
 function HierarchyNode({ record, onSelect }: {
   record: JimiRecord;
   onSelect: (record: JimiRecord) => void;
@@ -42,7 +78,12 @@ function HierarchyNode({ record, onSelect }: {
     open={record.jimiDepth === 1} summary={heading}>
     <ScopeUnitButtons units={[record.unit]} onSelect={() => onSelect(record)} />
     <div className="jimi-tree-children">
-      {children.map((child) => <HierarchyNode key={child.unit.id} record={child} onSelect={onSelect} />)}
+      {groupLeafChildren(children).map((group) => {
+        const key = group.map((child) => child.unit.id).join("-");
+        return group.length === 1 && getJimiChildren(group[0].unit.id).length > 0
+          ? <HierarchyNode key={key} record={group[0]} onSelect={onSelect} />
+          : <HierarchyLeafGroup key={key} records={group} onSelect={onSelect} />;
+      })}
     </div>
   </Disclosure>;
 }
